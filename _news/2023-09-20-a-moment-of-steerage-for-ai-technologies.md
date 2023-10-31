@@ -1,6 +1,5 @@
 ---
 layout: news-single
-permalink: /news/:title
 title: "'A moment of steerage' for AI technologies"
 excerpt: "Giving evidence to the House of Lords Communications and Digital
   Committee, Professor Neil Lawrence speaks about the importance of establishing

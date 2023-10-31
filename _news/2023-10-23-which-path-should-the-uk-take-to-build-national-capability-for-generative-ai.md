@@ -1,6 +1,5 @@
 ---
 layout: news-single
-permalink: /news/:title
 title: Which path should the UK take to build national capability for generative AI?
 excerpt: The rapid rollout of generative AI models, and public attention to Open
   AI’s ChatGPT, has raised concerns about AI’s impact on the economy and

@@ -17,7 +17,8 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "webrick"
   gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-paginate-v2'
+  # gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
   gem 'faraday-retry'
 end
