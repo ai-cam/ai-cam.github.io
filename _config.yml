@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
+permalinks: pretty
 
 # Collections
 collections:
@@ -52,11 +53,13 @@ collections:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
 sass:
   sass_dir: _sass
   style: compressed
   sourcemap: always
+
+# Add any other configuration options as needed
 
 # Pagination
 pagination:

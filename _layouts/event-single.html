@@ -40,11 +40,11 @@
                 <!-- <div class="column-m-12-nest column-d-1"></div> -->
                 <div class="post-single__body-content column-m-12-nest column-t-10 column-d-8">
                   {{ content }}
-                  {{ if page.link_to }}
+                  {% if page.link_to %}
                     <div class="button-box">
                       <a href="{{ page.link_to }}" class="button button--standard">Find out more</a>
                     </div>
-                  {{ endif; }}
+                  {% endif %}
                 </div>
                 <div class="post-single__body-socials column-m-12-nest column-t-2">
                   <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank">

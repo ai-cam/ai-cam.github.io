@@ -38,28 +38,28 @@
 
       <section class="block block--no-padding-top block__posts">
         <div class="container">
-          {% if paginator.posts.size > 0 %}
-            <div class="posts__grid">
-              {% for post in paginator.posts %}
-                <a class="posts__item" href="{{ post.url }}">
-                  <div class="posts__item-thumbnail">
-                    {% if post.image != nil %}
-                    <img src="{{ post.image }}">
-                    {% else %}
-                    <img alt="" src="../assets/images/placeholder-1.jpg" />
-                    {% endif %}
-                  </div>
-                  <div class="posts__item-content">
-                    <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-                    <h3>{{ post.title }}</h3>
-                    <span class="button button--simple">Read more</span>
-                  </div>
-                </a>
-              {% endfor %}
-            </div>
-          {% else %}
-            <h4>Apologies, there are no posts that can be found.</h4>
-          {% endif %}
+          {% if site.news.size > 0 %}
+          <div class="posts__grid">
+            {% for post in site.news %}
+              <a class="posts__item" href="{{ post.url }}">
+                <div class="posts__item-thumbnail">
+                  {% if post.image %}
+                    <img src="{{ post.image | relative_url }}">
+                  {% else %}
+                    <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
+                  {% endif %}
+                </div>
+                <div class="posts__item-content">
+                  <span class="category">{{ post.categories | join: ', ' }}</span>
+                  <h3>{{ post.title }}</h3>
+                  <span class="button button--simple">Read more</span>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        {% else %}
+          <h4>Apologies, there are no posts that can be found.</h4>
+        {% endif %}
           
           {% if paginator.total_pages > 1 %}
           <div class="posts__pagination">
