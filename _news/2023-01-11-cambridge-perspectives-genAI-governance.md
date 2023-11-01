@@ -2,11 +2,12 @@
 layout: news-single
 title: "Perspectives on progress in generative AI"
 excerpt: "As we head towards November’s AI Summit, a new series of blog posts highlights how Cambridge University’s AI research community is helping build these bridges. While only a snapshot of the views of a wider community, these articles demonstrate the breadth of AI research happening across the University."
-date: November 11, 2023 11:00 AM
+date: 2023-01-11
 category:
   - policy
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 ---
+
 As world leaders gather at Bletchley Park to consider the implications of rapid progress in AI, and how policymakers can work together to ensure advances in these powerful technologies benefit humanity. Effective AI policy requires the ability to bridge from technical to societal questions through interdisciplinary research. 
 
 Alongside this week's AI Summit, a new series of blog posts highlights how Cambridge University’s AI research community is helping build these bridges. While only a snapshot of the views of a wider community, these articles demonstrate the breadth of AI research happening across the University.
