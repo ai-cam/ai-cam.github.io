@@ -183,7 +183,7 @@ title: 'Policy Lab'
       <h3>Upcoming Policy Events</h3>
       {% assign currentTime = 'now' | date: '%H:%M %p' %}
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | where: "category", "policy" | sort: "start" %}
+      {% assign upcomingEvents = site.events | where: "category", "policy"  %} <!--| sort: "start" %}-->
       
       {% assign hasUpcomingEvent = false %}
       
