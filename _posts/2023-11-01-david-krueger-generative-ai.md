@@ -7,7 +7,7 @@ author: David Krueger
 date: November 01, 2023 11:00 AM
 category:
   - category-one
-image: /assets/uploads/DavidKrueger.jpg
+image: /assets/uploads/Krueger_David.png
 ---
 Historically, most AI systems were designed to tackle well-specified problems in particular domains, but as AI grows more powerful and general, there is a risk that it could pose catastrophic risks, says David Krueger.
 Dr Krueger is Assistant Professor at the University of Cambridge and a member of Cambridge's Computational and Biological Learning Lab (CBL) where he leads a research group focused on Deep Learning, AI Alignment, and AI Safety. He is also a Research Affiliate at Cambridge’s Centre for the Study of Existential Risk (CSER) and is interested in formalising and testing AI Alignment concerns and approaches.
