@@ -207,7 +207,7 @@ permalink: '/'
     <div class="latest-overview__column latest-overview__column--events">
       <h3>Upcoming Events</h3>
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | sort: "start" %}
+      {% assign upcomingEvents = site.events %} <!--| sort: "start" %}-->
       {% assign displayedEvents = 0 %}
     
       <div class="posts__sticky">
