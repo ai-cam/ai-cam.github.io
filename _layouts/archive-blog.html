@@ -67,7 +67,7 @@
           <div class="posts__grid--events">
             <h2>Events</h2>
             {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-            {% assign upcomingEvents = site.events  %}
+            {% assign upcomingEvents = site.events  %} <!-- Dropped sort here -->
             {% assign displayedEvents = 0 %}
             
             <div class="posts__sticky">

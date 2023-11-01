@@ -21,7 +21,7 @@ title: 'Events'
   <div class="container">
     <div class="posts__grid">
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | sort: "start" %}
+      {% assign upcomingEvents = site.events  %} <!-- | sort: "start" -->
 
       {% assign hasUpcomingEvent = false %}
     
