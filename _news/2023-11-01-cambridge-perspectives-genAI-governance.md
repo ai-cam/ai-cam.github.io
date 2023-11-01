@@ -2,7 +2,7 @@
 layout: news-single
 title: "Perspectives on progress in generative AI"
 excerpt: "As we head towards November’s AI Summit, a new series of blog posts highlights how Cambridge University’s AI research community is helping build these bridges. While only a snapshot of the views of a wider community, these articles demonstrate the breadth of AI research happening across the University."
-date: 2023-01-11
+date: 2023-11-01
 category:
   - policy
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
