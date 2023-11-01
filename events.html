@@ -77,7 +77,7 @@ title: 'Events'
     <div class="posts__grid">
       {% assign currentTime = 'now' | date: '%H:%M %p' %}
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign previousEvents = site.events | sort: "start" | reverse %}
+      {% assign previousEvents = site.events %} <!-- | sort: "start" | reverse -->
       <!-- Sort the events by start date in descending order -->
 
       {% for event in previousEvents %}
