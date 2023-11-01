@@ -20,7 +20,7 @@ group :jekyll_plugins do
   # gem 'jekyll-paginate-v2'
   gem 'jekyll-paginate'
   gem 'jekyll-seo-tag'
-  gem 'faraday-retry'
+  # gem 'faraday-retry'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
