@@ -5,7 +5,7 @@ family: Avin
 department: Centre for the Study of Existential Risk
 job_title: Senior Research Associate
 crsid: sa478
-image: /assets/upload/Avin_Shahar.jpg
+image: /assets/uploads/Avin_Shahar.jpg
 webpage: https://www.shaharavin.com
 biography: Shahar Avin is a senior researcher associate at the Centre for the Study
   of Existential Risk (CSER). He works with CSER researchers and others in the global

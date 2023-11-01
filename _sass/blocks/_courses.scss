@@ -84,7 +84,7 @@
 
       th:nth-child(1),
       td:nth-child(1) {
-        @include bp(desktop) {
+        @include bp(tablet) {
           width: 30%;
           min-width: unset;
         }
@@ -92,7 +92,7 @@
 
       th:nth-child(2),
       td:nth-child(2) {
-        @include bp(desktop) {
+        @include bp(tablet) {
           width: 30%;
           min-width: unset;
         }
@@ -100,7 +100,7 @@
 
       th:nth-child(3),
       td:nth-child(3) {
-        @include bp(desktop) {
+        @include bp(tablet) {
           width: 40%;
           min-width: unset;
           justify-content: flex-end;

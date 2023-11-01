@@ -6,7 +6,7 @@ department: Cancer Research UK Cambridge Institute
 title: Prof
 job_title: Professor of Computational Oncology
 crsid: fm327
-image: /assets/upload/Markowetz_Florian.jpg
+image: /assets/uploads/Markowetz_Florian.jpg
 webpage: http://www.markowetzlab.org
 biography: Florian Markowetz is Professor of Computational Oncology at the University
   of Cambridge and Senior Group Leader at the Cancer Research UK Cambridge Institute.

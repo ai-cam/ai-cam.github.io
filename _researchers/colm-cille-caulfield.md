@@ -7,7 +7,7 @@ department: Department of Applied Maths and Theoretical Physics
 title: Prof
 job_title: Professor of Environmental and Industrial Fluid Dynamics
 crsid: cpc12
-image: /assets/upload/Caulfied_Colm-cille.jpg
+image: /assets/uploads/Caulfied_Colm-cille.jpg
 webpage: https://www.damtp.cam.ac.uk/person/cpc12
 biography: 'Professor Colm-cille Caulfield holds a joint appointment in the Department
   of Applied Mathematics and Theoretical Physics and the Institute for Energy and

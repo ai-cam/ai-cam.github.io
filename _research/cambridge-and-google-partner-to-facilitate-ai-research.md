@@ -6,7 +6,9 @@ excerpt: "The University of Cambridge and Google are building on their
   and a Google grant for the University’s new Centre for Human-Inspired AI to
   support progress in responsible AI that is inspired by and benefits people. "
 image: /assets/uploads/chia.jpeg
-date: October 17, 2023 9:00 AM
+date: October 17, 2023 8:00 AM
+category:
+  - Research and innovation
 ---
 The University of Cambridge and Google are building on their long-standing partnership with a multi-year research collaboration agreement and a Google grant for the University’s new Centre for Human-Inspired AI to support progress in responsible AI that is inspired by and benefits people. 
 

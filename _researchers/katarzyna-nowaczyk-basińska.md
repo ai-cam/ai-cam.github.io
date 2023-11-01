@@ -5,7 +5,7 @@ family: Nowaczyk-Basińska
 department: 'Leverhulme Centre for the Future of Intelligence '
 job_title: Research Fellow
 crsid: kn395
-image: /assets/upload/Nowaczyk-Basińska_Katarzyna.png
+image: /assets/uploads/Nowaczyk-Basińska_Katarzyna.png
 webpage: https://katarzynanowaczykbasinska.pl/en/dr-katarzyna-nowaczyk-basinska/
 biography: 'Katarzyna Nowaczyk-Basińska is a Research Fellow at the Leverhulme Centre
   for the Future of Intelligence at the University of Cambridge, with a background

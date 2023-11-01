@@ -6,7 +6,9 @@ excerpt: An international team of scientists, including from the University of
   same technology behind ChatGPT to build an AI-powered tool for scientific
   discovery.
 image: /assets/uploads/gettyimages-1398047278-dp.jpeg
-date: October 13, 2023 9:00 AM
+date: October 13, 2023 8:00 AM
+category:
+  - Research and innovation
 ---
 An international team of scientists, including from the University of Cambridge, have launched a new research collaboration that will leverage the same technology behind ChatGPT to build an AI-powered tool for scientific discovery.
 

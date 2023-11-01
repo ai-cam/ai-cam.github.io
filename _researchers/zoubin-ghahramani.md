@@ -5,7 +5,7 @@ family: Ghahramani
 department: Department of Engineering
 title: Prof
 job_title: Professor of Information Engineering
-image: /assets/upload/Ghahramani_Zoubin.jpg
+image: /assets/uploads/Ghahramani_Zoubin.jpg
 webpage: https://mlg.eng.cam.ac.uk/zoubin/
 biography: 'Zoubin Ghahramani is Professor of Information Engineering at the University
   of Cambridge and a Vice President of Research at Google DeepMind. He is a Fellow

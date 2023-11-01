@@ -6,7 +6,7 @@ department: Department of Computer Science and Technology
 title: Prof
 job_title: 'Senior Lecturer '
 crsid: che29
-image: /assets/upload/Ek_Carl-Henrik.png
+image: /assets/uploads/Ek_Carl-Henrik.png
 webpage: http://carlhenrik.com/
 biography: I am a Associate Professor in the Computer Laboratory at the University
   of Cambridge, UK. and a Docent in Machine Learning at the Royal Institute of Technology,

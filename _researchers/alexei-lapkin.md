@@ -6,7 +6,7 @@ department: Department of Chemical Engineering and Biotechnology
 title: Prof
 job_title: Professor of Sustainable Reaction Engineering
 crsid: aal35
-image: /assets/upload/Lapkin_Alexei.jpg
+image: /assets/uploads/Lapkin_Alexei.jpg
 webpage: https://lapkingroup.com
 biography: 'Alexei Lapkin is a Professor of Sustainable Reaction Engineering at University
   of Cambridge. He is also a PI on several projects within Cambridge CARES in Singapore.

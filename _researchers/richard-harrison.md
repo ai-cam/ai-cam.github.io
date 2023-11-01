@@ -5,7 +5,7 @@ family: Harrison
 department: Cambridge Crop Research at NIAB
 title: Dr
 job_title: 'Director '
-image: /assets/upload/Harrison_Richard.jpg
+image: /assets/uploads/Harrison_Richard.jpg
 webpage: https://www.esc.cam.ac.uk/directory/richard-harrison
 biography: 'Dr Harrison completed his PhD in systems biology at the University of
   Manchester, followed by a Medical Research Council Fellowship at the University

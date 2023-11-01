@@ -6,7 +6,7 @@ department: Department of Engineering
 title: Prof
 job_title: Professor of Molecular Modelling
 crsid: gc121
-image: /assets/upload/Csanyi_Gabor.jpeg
+image: /assets/uploads/Csanyi_Gabor.jpeg
 webpage: http://www.eng.cam.ac.uk/profiles/gc121
 biography: "My expertise is in atomistic simulation, particularly in multi scale modelling
   that couples quantum mechanics to larger length scales. I am currently engaged in

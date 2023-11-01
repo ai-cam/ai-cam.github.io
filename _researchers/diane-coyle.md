@@ -6,7 +6,7 @@ department: Bennett Institute for Public Policy
 title: Prof
 job_title: Bennett Professor of Public Policy
 crsid: dc700
-image: /assets/upload/Coyle_Diane.jpg
+image: /assets/uploads/Coyle_Diane.jpg
 webpage: https://www.bennettinstitute.cam.ac.uk/about-us/person/diane-coyle/
 biography: 'Diane co-directs the Bennett Institute where she heads research under
   the themes of progress and productivity. Her research focuses on the digital economy

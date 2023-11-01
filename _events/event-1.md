@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: Commercialisation of AI for University Researchers
-start: October 19, 2023 12:30 PM
-end: October 19, 2023 2:00 PM
+start: 2023-10-19 12:30
+end: 2023-10-19 14:00
 desc: "Are you developing AI and ML as part of your research? Perhaps you’ve
   created a new software tool, platform or dataset which could be useful to
   beneficiaries or organisations outside of academic research? Maybe you’re
@@ -12,6 +12,7 @@ desc: "Are you developing AI and ML as part of your research? Perhaps you’ve
   real-world impact. "
 image: /assets/uploads/commercialisation_of_ai_for_university_researchers_30_oct_23_0.png
 link_to: https://www.c2d3.cam.ac.uk/civicrm/event/info?reset=1&id=831
+category:
 ---
 Are you developing AI and ML as part of your research? Perhaps you’ve created a new software tool, platform or dataset which could be useful to beneficiaries or organisations outside of academic research? Maybe you’re interested in spinning out your discoveries?  
 

@@ -30,6 +30,8 @@ main_nav:
     submenu:
       - label: AI-deas
         link: /ai-deas/
+      - label: Policy Lab
+        link: /policy-lab/
   - label: AI@Cambridge
     link: ""
     submenu:

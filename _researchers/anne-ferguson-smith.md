@@ -5,7 +5,7 @@ family: Ferguson Smith
 department: Department of Genetics
 title: Prof
 job_title: Arthur Balfour Professor of Genetics; Pro-Vice-Chancellor for Research
-image: /assets/upload/Ferguson-Smith_Anne.jpg
+image: /assets/uploads/Ferguson-Smith_Anne.jpg
 webpage: https://www.gen.cam.ac.uk/directory/anne-ferguson-smith
 biography: 'Professor Anne Ferguson-Smith is the current Pro-Vice-Chancellor for Research
   and the Arthur Balfour Professor of Genetics at the University of Cambridge. Formally,

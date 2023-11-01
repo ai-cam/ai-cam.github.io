@@ -6,7 +6,7 @@ department: Minderoo Centre for Technology & Democracy, Centre for Research in t
   Arts, Humanities and Social Sciences (CRASSH)
 job_title: Executive Director
 crsid: gsn23
-image: /assets/upload/Neff_Gina.jpg
+image: /assets/uploads/Neff_Gina.jpg
 webpage: https://www.mctd.ac.uk/team-members/gina-neff/
 biography: Gina Neff is the Executive Director of the Minderoo Centre for Technology
   & Democracy at the University of Cambridge. Her books include Venture Labor (MIT

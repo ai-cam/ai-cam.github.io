@@ -4,6 +4,9 @@ title: Is Data Justice key to Climate Justice?
 excerpt: Biased artificial intelligence needs human help to avoid harmful
   climate action, Cambridge researchers say.
 image: /assets/uploads/noaa-uro88vocre-unsplash.jpeg
+category:
+  - Research and innovation
+date: August 17, 2023 8:00 AM
 ---
 Bias in the collection of data on which Artificial Intelligence (AI) computer programmes depend can limit the usefulness of this rapidly growing tool for climate scientists predicting future scenarios and guiding global action, according to a new paper by researchers at the University of Cambridge published in Nature’s [Climate Action](https://www.nature.com/articles/s44168-023-00056-3) series. 
 

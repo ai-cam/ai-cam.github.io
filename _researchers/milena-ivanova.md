@@ -5,7 +5,7 @@ family: Ivanova
 department: 'Leverhulme Centre for the Future of Intelligence '
 job_title: Teaching Associate
 crsid: mi342
-image: /assets/upload/Ivanova_Milena.jpg
+image: /assets/uploads/Ivanova_Milena.jpg
 webpage: https://www.milenaivanova.co.uk/
 biography: 'Dr Milena Ivanova is a philosopher of science interested in the relationship
   between science and art, the role of aesthetic values and creativity in scientific

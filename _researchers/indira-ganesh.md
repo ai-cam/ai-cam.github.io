@@ -7,7 +7,7 @@ department: 'Leverhulme Centre for the Future of Intelligence; Institute for Con
   Education '
 job_title: Senior researcher at LCFI; assistant teaching professor at ICE
 crsid: mi373
-image: /assets/upload/Ganesh_Indira.jpg
+image: /assets/uploads/Ganesh_Indira.jpg
 webpage: http://lcfi.ac.uk/people/maya-indira-ganesh/
 biography: Maya Indira Ganesh is assistant teaching professor co-directing the MSt
   in AI Ethics & Society at the Institute for Continuing Education, and a Senior Researcher

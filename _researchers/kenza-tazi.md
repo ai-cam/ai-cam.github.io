@@ -5,7 +5,7 @@ family: Tazi
 department: Department of Engineering
 job_title: PhD Student
 crsid: kt484
-image: /assets/upload/Tazi_Kenza.png
+image: /assets/uploads/Tazi_Kenza.png
 webpage: https://kenzaxtazi.github.io
 biography: I started my PhD in 2020, after completing my MRes as part of the CDT.
   I am co-supervised by Scott Hosking from the Artificial Intelligence Lab at the

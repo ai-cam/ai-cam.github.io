@@ -7,7 +7,7 @@ title: Prof
 job_title: Dr John C Taylor Professor of Innovation, and Head of the Institute for
   Manufacturing
 crsid: thwm100
-image: /assets/upload/Minshall_Tim.jpg
+image: /assets/uploads/Minshall_Tim.jpg
 webpage: https://www.ifm.eng.cam.ac.uk/people/thwm100/
 biography: Tim is the inaugural Dr John C Taylor Professor of Innovation at the University
   of Cambridge, Head of the Institute for Manufacturing (IfM), Head of the IfM’s Centre

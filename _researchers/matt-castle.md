@@ -1,21 +1,18 @@
 ---
-layout: person
-given: Matthew
 preferred: Matt
+layout: person
+title: Dr
+given: Matthew
 family: Castle
 department: Department of Genetics
-title: Dr
 job_title: Head of Bioinformatics Training
-crsid: mdc31
-image: /assets/upload/Castle_Matt.jpg
-webpage: https://www.c2d3.cam.ac.uk/directory/2311/dr-matt-castle
-biography: 'With a background in Mathematics and Epidemiological Modelling, Matt
-
+biography: |-
+  With a background in Mathematics and Epidemiological Modelling, Matt
   has spent many years teaching and developing material for a wide range of
-
   undergraduate and graduate courses. Matt set up the PSLS Biostatistics
-
   Initiative at the University of Cambridge in 2017 to support improved
-
-  biostatistics training for life science researchers.'
+  biostatistics training for life science researchers.
+image: /assets/uploads/matt_castle_2018_-_copy.jpeg
+webpage: https://www.c2d3.cam.ac.uk/directory/2311/dr-matt-castle
+crsid: mdc31
 ---

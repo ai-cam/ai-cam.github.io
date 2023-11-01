@@ -6,7 +6,7 @@ department: Cambridge Zero
 title: Prof
 job_title: ' Director'
 crsid: efs20
-image: /assets/upload/Shuckburgh_Emily.jpg
+image: /assets/uploads/Shuckburgh_Emily.jpg
 webpage: https://www.cst.cam.ac.uk/people/efs20
 biography: "Prof Emily Shuckburgh is Director of Cambridge Zero, the University of
   Cambridge's major climate change initiative. She is also Professor of Environmental

@@ -6,7 +6,7 @@ department: MRC Laboratory of Molecular Biology
 title: Dr
 job_title: Group Leader
 crsid: shws2
-image: /assets/upload/Scheres_Sjors.png
+image: /assets/uploads/Scheres_Sjors.png
 webpage: https://www2.mrc-lmb.cam.ac.uk/group-leaders/n-to-s/sjors-scheres/
 biography: 'Sjors Scheres is a structural biologist who was born and educated in The
   Netherlands, where he obtained his PhD at Utrecht University in 2003. He has been

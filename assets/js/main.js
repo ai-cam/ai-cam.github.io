@@ -190,11 +190,14 @@
                  */
 
                 $('.hero__slider').slick({
+                    fade: true,
                     infinite: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     arrows: false,
                     dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
                 });
 
                 $('.slider__main').slick({
@@ -209,7 +212,7 @@
                         {
                             breakpoint: 767,
                             settings: {
-                                slidesToShow: 1
+                                slidesToShow: 1.2
                             }
                         }
                     ]

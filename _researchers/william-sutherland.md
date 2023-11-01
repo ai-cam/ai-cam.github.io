@@ -6,7 +6,7 @@ family: Sutherland
 department: Department of Zoology
 title: Prof
 job_title: Professor of Conservation Biology
-image: /assets/upload/Sutherland_Bill.jpg
+image: /assets/uploads/Sutherland_Bill.jpg
 webpage: https://www.zoo.cam.ac.uk/directory/bill-sutherland
 biography: 'Professor Bill Sutherland holds the Miriam Rothschild Chair of Conservation
   Biology in the Zoology Department and is a professorial Fellow in the College. He

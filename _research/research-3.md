@@ -4,6 +4,9 @@ title: How sure is sure? Incorporating human error into machine learning
 excerpt: Researchers are developing a way to incorporate one of the most human
   of characteristics – uncertainty – into machine learning systems.
 image: /assets/uploads/gettyimages-1477483014-dp.jpeg
+category:
+  - Research and innovation
+date: August 10, 2023 8:00 AM
 ---
 *Uncertainty is central in how humans reason about the world but many AI models fail to take this into account (Katherine Collins)*
 

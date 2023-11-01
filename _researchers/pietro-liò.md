@@ -6,7 +6,7 @@ department: Department of Computer Science and Technology
 title: Prof
 job_title: Professor of Computational Biology
 crsid: pl219
-image: /assets/upload/Lio_Pietro.jpg
+image: /assets/uploads/Lio_Pietro.jpg
 webpage: https://www.cst.cam.ac.uk/people/pl219
 biography: 'Pietro Liò is Full Professor at the Department of Computer Science and
   Technology, University of Cambridge, and a member of the Artificial Intelligence

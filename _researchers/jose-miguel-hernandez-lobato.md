@@ -7,7 +7,7 @@ department: Department of Engineering
 title: Prof
 job_title: Professor of Machine Learning
 crsid: jmh233
-image: /assets/upload/Hernandez-Lobato_Jose-Miguel.jpg
+image: /assets/uploads/Hernandez-Lobato_Jose-Miguel.jpg
 webpage: https://jmhl.org/
 biography: I am an Assistant Professor in Machine Learning at the Department of Engineering
   in the University of Cambridge, UK. I was before a postdoctoral fellow in the Harvard

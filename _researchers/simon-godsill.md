@@ -5,7 +5,7 @@ family: Godsill
 department: Department of Engineering
 title: Prof
 job_title: Head of Information Engineering
-image: /assets/upload/Godsill_Simon.jpg
+image: /assets/uploads/Godsill_Simon.jpg
 webpage: https://www-sigproc.eng.cam.ac.uk/Main/SJG
 biography: Simon Godsill is Head of Information Engineering (Div F), and Professor
   of Statistical Signal Processing in the Engineering Department at Cambridge University.

@@ -1,8 +1,10 @@
 ---
 layout: event-single
 title: "Why we need more women in science and beyond "
-start: November 14, 2023 6:00 PM
-end: November 14, 2023 8:00 PM
+start: 2023-11-14
+end: 2023-11-14
+category:
+  - events
 desc: What progress has been made, and what more is needed to bring more women
   into science and other professions where they are under-represented? Explore
   the impacts of societal expectations and stereotyping with prominent experts

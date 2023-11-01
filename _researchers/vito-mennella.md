@@ -5,7 +5,7 @@ family: Mennella
 department: MRC Toxicology unit
 job_title: MRC investigator Director of Research
 crsid: vm430
-image: '/assets/upload/Mennella_Vito.jpeg '
+image: '/assets/uploads/Mennella_Vito.jpeg '
 webpage: https://www.mrc-tox.cam.ac.uk/staff/vito-mennella
 biography: r. Mennella received his B.Sc. cum laude from the University La Sapienza
   in Rome, Italy. After receiving a Fulbright Fellowship to continue his studies in

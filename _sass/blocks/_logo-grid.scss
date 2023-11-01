@@ -17,8 +17,18 @@
 
   .logo-grid__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 80px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+    @include bp(tablet) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 60px;
+    }
+
+    @include bp(desktop) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 80px;
+    }
   }
 
   .logo-grid__grid-item {

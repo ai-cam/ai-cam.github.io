@@ -11,7 +11,7 @@ title: 'Events'
 
   <div class="container">
     <div class="hero__content">
-      <h1>Events</h1>
+      <h1>Upcoming Events</h1>
     </div>
     <div class="hero__filters"></div>
   </div>
@@ -20,38 +20,53 @@ title: 'Events'
 <section class="block pt-0 block__posts">
   <div class="container">
     <div class="posts__grid">
-      {% assign currentTime = 'now' | date: '%Y-%m-%d %H:%M' %}
+      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
       {% assign upcomingEvents = site.events | sort: "start" %}
-      
-      {% for event in upcomingEvents %}
-        {% assign eventStart = event.start | date: '%Y-%m-%d %H:%M' %}
-        {% assign eventEnd = event.end | date: '%Y-%m-%d %H:%M' %}
+
+      {% assign hasUpcomingEvent = false %}
+    
+      {% for post in upcomingEvents %}
+        {% assign eventStartDate = post.start | date: '%Y-%m-%d' %}
+        {% assign eventEndDate = post.end | date: '%Y-%m-%d' %}
+        {% if eventEndDate >= currentDate and eventStartDate >= currentDate %}
+          {% assign hasUpcomingEvent = true %}
+        {% endif %}
+      {% endfor %}
+    
+      {% if hasUpcomingEvent %}
+        {% for post in upcomingEvents %}
+          {% assign eventStartDate = post.start | date: '%Y-%m-%d' %}
+          {% assign eventEndDate = post.end | date: '%Y-%m-%d' %}
+          {% if eventEndDate >= currentDate and eventStartDate >= currentDate %}
         
-        {% if eventStart >= currentTime %}
-          <a class="posts__item posts__item--event" href="{{ event.url }}">
+          <a class="posts__item posts__item--event" href="{{ post.url }}">
             <div class="posts__item-thumbnail">
-              {% if event.image != nil %}
-                <img src="{{ event.image }}">
+              {% if post.image != nil %}
+                <img width="460" src="{{ post.image }}" alt="Image of {{ post.title }}">
               {% else %}
                 <img alt="" src="../assets/images/placeholder-1.jpg"/>
               {% endif %}
             </div>
             <div class="posts__item-content">
-              <h3>{{ event.title }}</h3>
+              <h3>{{ post.title }}</h3>
               <span class="button button--simple">Read more</span>
             </div>
             <div class="posts__item-date">
               <p>
-                {{ event.start | date: '%d' }}
-                <span>{{ event.start | date: '%b' }}</span>
+                {{ post.start | date: '%d' }}
+                <span>{{ post.start | date: '%b' }}</span>
               </p>
             </div>
           </a>
-        {% endif %}
-      {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <p>No upcoming events</p>
+      {% endif %}
     </div>
   </div>
 </section>
+
 
 
 <section class="block block--bg-dark-blue block__posts">
@@ -62,9 +77,10 @@ title: 'Events'
     <div class="posts__grid">
       {% assign currentTime = 'now' | date: '%H:%M %p' %}
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | sort: "start" %}
+      {% assign previousEvents = site.events | sort: "start" | reverse %}
+      <!-- Sort the events by start date in descending order -->
 
-      {% for event in upcomingEvents %}
+      {% for event in previousEvents %}
         {% assign eventStart = event.start | date: '%Y-%m-%d %H:%M %p' %}
         {% assign eventEnd = event.end | date: '%Y-%m-%d %H:%M %p' %}
 

@@ -6,7 +6,7 @@ department: Department of Physics
 title: Dr
 job_title: Senior Research Fellow
 crsid: sat1003
-image: /assets/upload/Teichmann_Sarah.jpg
+image: /assets/uploads/Teichmann_Sarah.jpg
 webpage: https://www.teichlab.org
 biography: 'Sarah develops computational methods, to explore structural biology, genomics
   and single cell biology data. She showed that protein complexes assemble via stereotypical

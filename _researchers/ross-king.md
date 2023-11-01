@@ -6,7 +6,7 @@ department: Department of Chemical Engineering and Biotechnology
 title: Prof
 job_title: Automating Science using Robot Scientists
 crsid: rk663
-image: /assets/upload/King_Ross.jpg
+image: /assets/uploads/King_Ross.jpg
 webpage: https://www.ceb.cam.ac.uk/staff/professor-ross-king
 biography: 'Dr. Ross D. King has joint positions at the University of Cambridge, and
   Chalmers Institute of Technology, Sweden, and he is a Fellow of the Alan Turing

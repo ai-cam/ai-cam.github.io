@@ -5,7 +5,7 @@ family: Boland
 department: British Antarctic Survey
 job_title: Physical Oceanographer
 crsid: ejdt2
-image: /assets/upload/Boland_Emma.jpg
+image: /assets/uploads/Boland_Emma.jpg
 webpage: http://www.emmaboland.co.uk
 biography: Dr Emma Boland is a polar scientist and climate science communicator. After
   acquiring a PhD in Ocean Dynamics from the Department of Applied Mathematics and

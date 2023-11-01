@@ -6,7 +6,7 @@ department: Department of Chemistry
 title: Dr
 job_title: Lecturer
 crsid: ata27
-image: /assets/upload/Archibald_Alex.jpeg
+image: /assets/uploads/Archibald_Alex.jpeg
 webpage: http://www.ch.cam.ac.uk/person/ata27
 biography: 'Professor Alex Archibald is a Lecturer in Atmospheric Chemistry Modelling
   in the Department of Chemistry at the University of Cambridge, and a Fellow of Emmanuel

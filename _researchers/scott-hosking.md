@@ -5,7 +5,7 @@ family: Hosking
 department: British Antarctic Survey, The Alan Turing Institute
 title: Dr
 job_title: Research leader in AI and Digital Twinning for the environment
-image: /assets/upload/Hosking_Scott.jpg
+image: /assets/uploads/Hosking_Scott.jpg
 webpage: https://scotthosking.com/
 biography: 'I am the Science Leader for the AI Lab at [British Antarctic
 

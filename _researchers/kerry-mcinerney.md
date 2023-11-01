@@ -5,7 +5,7 @@ family: McInerney
 department: 'Leverhulme Centre for the Future of Intelligence '
 job_title: Research Fellow
 crsid: kam83
-image: /assets/upload/McInerney_Kerry.webp
+image: /assets/uploads/McInerney_Kerry.webp
 webpage: https://www.kerrymcinerney.co.uk/
 biography: am a Research Fellow at the Leverhulme Centre for the Future of Intelligence,
   where I researches anti-Asian racism and AI and Asian diasporic approaches to AI

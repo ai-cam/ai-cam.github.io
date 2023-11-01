@@ -6,7 +6,7 @@ department: Department of Engineering
 title: Prof
 job_title: Head of Cambridge University Engineering Department
 crsid: rwp
-image: /assets/upload/Prager_Richard.jpg
+image: /assets/uploads/Prager_Richard.jpg
 webpage: http://www.eng.cam.ac.uk/profiles/rwp12
 biography: 'Richard Prager''s research focuses on the development of better non-invasive
   diagnostic medical imaging systems based on ultrasound.

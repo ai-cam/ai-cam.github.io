@@ -5,7 +5,7 @@ family: Hollanek
 department: 'Leverhulme Centre for the Future of Intelligence '
 job_title: Research Fellow
 crsid: th536
-image: /assets/upload/Hollanek_Tomasz.jpeg
+image: /assets/uploads/Hollanek_Tomasz.jpeg
 webpage: https://profiles.ahrcdtp.csah.cam.ac.uk/directory/tomasz-hollanek
 biography: Dr Tomasz Hollanek works at the intersection of design theory, technology
   ethics, and critical artificial intelligence studies. Currently, he is a Postdoctoral

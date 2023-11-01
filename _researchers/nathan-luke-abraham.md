@@ -6,7 +6,7 @@ family: Abraham
 department: Yusuf Hamied Department of Chemistry
 job_title: Director of Research
 crsid: nla27
-image: /assets/upload/Abraham_Luke.jpeg
+image: /assets/uploads/Abraham_Luke.jpeg
 webpage: https://www.ch.cam.ac.uk/person/nla27
 biography: I am a Director of Research, equivalent to Professor, in the Department
   of Chemistry, and a researcher in the National Centre for Atmospheric Science (NCAS)

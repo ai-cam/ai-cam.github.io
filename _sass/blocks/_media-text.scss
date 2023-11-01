@@ -37,11 +37,22 @@
       margin-bottom: 0;
     }
 
+    .study & { 
+      @include bp(desktop) {
+        width: calc(45% - 5rem);
+        margin-bottom: 0;
+      }
+    }
+
     .media-text__media-image {
       width: 100%;
       height: auto;
       display: block;
       opacity: 0;
+
+      .study & {
+        border-radius: 20px;
+      }
 
       &--floating {
         width: 35%;
@@ -56,6 +67,14 @@
           width: 255px;
           bottom: -6rem;
           right: 3rem;
+        }
+
+        .study & {
+          @include bp(tablet) {
+            width: 155px;
+            bottom: -3rem;
+            right: 1.5rem;
+          }
         }
       }
     }

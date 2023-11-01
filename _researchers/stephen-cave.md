@@ -6,7 +6,7 @@ department: Leverhulme Centre for the Future of Intelligence
 title: Dr
 job_title: Director
 crsid: sjc53
-image: /assets/upload/Cave_Stephen.jpg
+image: /assets/uploads/Cave_Stephen.jpg
 webpage: http://lcfi.ac.uk/people/stephen-cave/
 biography: 'Stephen Cave is Director of the Leverhulme Centre for the Future of Intelligence,
   Senior Research Associate in the Faculty of Philosophy, and Fellow of Hughes Hall,

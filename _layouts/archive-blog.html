@@ -41,63 +41,64 @@
         <div class="posts__grid posts__grid--with-events">
           <div class="posts__grid--posts">
             <h2>Latest</h2>
-            {% if paginator.posts.size > 0 %}
-              <div class="posts__grid">
-                {% for post in paginator.posts %}
-                  <a class="posts__item" href="{{ post.url }}">
-                    <div class="posts__item-thumbnail">
-                      {% if post.image != nil %}
-                      <img src="{{ post.image }}">
-                      {% else %}
-                      <img alt="" src="../assets/images/placeholder-1.jpg" />
-                      {% endif %}
-                    </div>
-                    <div class="posts__item-content">
-                      <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-                      <h3>{{ post.title }}</h3>
-                      <span class="button button--simple">Read more</span>
-                    </div>
-                  </a>
-                {% endfor %}
-              </div>
-            {% else %}
-              <h4>Apologies, there are no posts that can be found.</h4>
-            {% endif %}
+            {% if site.posts.size > 0 %}
+            <div class="posts__grid">
+              {% for post in site.posts %}
+                <a class="posts__item" href="{{ post.url }}">
+                  <div class="posts__item-thumbnail">
+                    {% if post.image %}
+                      <img src="{{ post.image | relative_url }}">
+                    {% else %}
+                      <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
+                    {% endif %}
+                  </div>
+                  <div class="posts__item-content">
+                    <span class="category">{{ post.categories | join: ', ' }}</span>
+                    <h3>{{ post.title }}</h3>
+                    <span class="button button--simple">Read more</span>
+                  </div>
+                </a>
+              {% endfor %}
+            </div>
+          {% else %}
+            <h4>Apologies, there are no posts that can be found.</h4>
+          {% endif %}
           </div>
           <div class="posts__grid--events">
             <h2>Events</h2>
-            {% assign currentTime = 'now' | date: '%H:%M %p' %}
             {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
             {% assign upcomingEvents = site.events | sort: "start" %}
+            {% assign displayedEvents = 0 %}
             
             <div class="posts__sticky">
-              {% for event in upcomingEvents limit: 3 %}
-              {% assign eventStart = event.start | date: '%Y-%m-%d %H:%M %p' %}
-              {% assign eventEnd = event.end | date: '%Y-%m-%d %H:%M %p' %}
-              
-              {% if eventEnd >= currentDate and eventStart >= currentTime %}
-              <a href="{{ event.url }}" class="post post--small">
-                <div class="post__thumbnail">
-                  {% if event.image != nil %}
-                  <img src="{{ event.image }}">
-                  {% else %}
-                  <img alt="" src="../assets/images/placeholder-1.jpg" />
-                  {% endif %}
-                </div>
-              
-                <div class="post__content">
-                  {% if event.category != nil and event.category != '' %}
-                  <span class="category">{{ event.category }}</span>
-                  {% endif %}
-                  <h4>{{ event.title }}</h4>
-                  <span class="button button--simple">Read more</span>
-                </div>
-              </a>
-              {% endif %}
+              {% for event in upcomingEvents %}
+                {% assign eventStartDate = event.start | date: '%Y-%m-%d' %}
+                {% assign eventEndDate = event.end | date: '%Y-%m-%d' %}
+                
+                {% if eventEndDate >= currentDate and displayedEvents < 3 %}
+                  <a href="{{ event.url }}" class="post post--small">
+                    <div class="post__thumbnail">
+                      {% if event.image != nil %}
+                        <img src="{{ event.image }}">
+                      {% else %}
+                        <img alt="" src="../assets/images/placeholder-1.jpg" />
+                      {% endif %}
+                    </div>
+                    
+                    <div class="post__content">
+                      {% if event.category != nil and event.category != '' %}
+                        <span class="category">{{ event.category }}</span>
+                      {% endif %}
+                      <h4>{{ event.title }}</h4>
+                      <span class="button button--simple">Read more</span>
+                    </div>
+                  </a>
+                  {% assign displayedEvents = displayedEvents | plus: 1 %}
+                {% endif %}
               {% endfor %}
             </div>
           </div>
-        </div>
+          
         {% if paginator.total_pages > 1 %}
         <div class="posts__pagination">
           <ul class="pager">

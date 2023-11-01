@@ -7,7 +7,7 @@ department: Department of Applied Mathematics and Theoretical Physics
 title: Prof
 job_title: Professor of Applied Mathematics
 crsid: cbs31
-image: /assets/upload/Schoenlieb_Carola-Bibiane.jpg
+image: /assets/uploads/Schoenlieb_Carola-Bibiane.jpg
 webpage: https://www.damtp.cam.ac.uk/research/cia/
 biography: Carola-Bibiane Schönlieb is Professor of Applied Mathematics at the University
   of Cambridge. There, she is head of the Cambridge Image Analysis group and co-Director

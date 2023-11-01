@@ -6,7 +6,7 @@ department: Sainsbury Laboratory
 title: Prof
 job_title: Professor
 crsid: shj24
-image: /assets/upload/Jönsson_Henrik.jpg
+image: /assets/uploads/Jönsson_Henrik.jpg
 webpage: https://www.slcu.cam.ac.uk/people/henrik-jonsson
 biography: After a undergraduate education in Physics and Mathematics, I worked on
   optimisation problems using neural networks for my PhD at Lund University, Sweden.

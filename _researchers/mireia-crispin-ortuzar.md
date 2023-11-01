@@ -5,7 +5,7 @@ family: Crispin-Ortuzar
 department: Department of Oncology
 job_title: Assistant Professor
 crsid: mc973
-image: /assets/upload/Crispin-Ortuzar_Mireia.jpg
+image: /assets/uploads/Crispin-Ortuzar_Mireia.jpg
 webpage: http://www.crispinlab.com/
 biography: Dr Mireia Crispin is an Assistant Professor in the Department of Oncology
   of the University of Cambridge, and leads a research group focusing on the development

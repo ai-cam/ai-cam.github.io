@@ -1,8 +1,10 @@
 ---
 layout: event-single
 title: Cambridge ELLIS Seminar Series
-start: October 23, 2023 3:00 PM
-end: October 23, 2023 4:00 PM
+start: 2023-10-23 15:00
+end: 2023-10-23 16:00
+category:
+  - research-and-innovation
 desc: The Cambridge ELLIS Unit Seminar Series holds talks by leading researchers
   in the area of machine learning and AI. Our next speaker for 2023 will be Dr.
   David Barber.

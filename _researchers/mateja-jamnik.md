@@ -5,7 +5,7 @@ family: Jamnik
 department: Department of Computer Science and Technology
 title: Prof
 job_title: Professor
-image: /assets/upload/Jamnik_Mateja.png
+image: /assets/uploads/Jamnik_Mateja.png
 webpage: https://www.cl.cam.ac.uk/~mj201
 biography: 'Mateja Jamnik is Professor of Artificial Intelligence in the Department
   of Computer Science and Technology (Computer Laboratory) at the University of Cambridge.

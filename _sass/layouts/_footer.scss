@@ -83,12 +83,13 @@ footer[role="contentinfo"] {
         padding: 2rem;
         background-color: $lightest;
         border-radius: 20px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
 
         @include bp(tablet) {
           padding: 4rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-wrap: wrap;
         }
 
         @include bp(desktop) {
@@ -98,35 +99,35 @@ footer[role="contentinfo"] {
         h3 {
           flex: 1;
           margin: 0;
+          display: flex;
           font-size: 2rem;
           line-height: 2.4rem;
+          margin-bottom: 20px;
 
           @include bp(tablet) {
             font-size: 2.4rem;
             line-height: 3rem;
+            margin-bottom: 0;
           }
 
           @include bp(desktop) {
             width: 50%;
-            max-width: 430px;
+            max-width: 50%;
             font-size: 2.8rem;
             line-height: 3.5rem;
           }
-        }
 
-        svg {
-          width: 50px;
-          height: auto;
-          margin-left: 2rem;
-          display: block;
-
-          @include bp(tablet) {
-            margin-left: 4rem;
+          svg {
+            width: 50px;
+            height: auto;
+            margin-right: 2rem;
+            display: inline-block;
+  
+            @include bp(desktop) {
+              width: 100px;
+            }
           }
 
-          @include bp(desktop) {
-            width: 100px;
-          }
         }
 
         form {

@@ -6,7 +6,7 @@ department: Judge Business School
 title: Prof
 job_title: Professor for Behavioural Economics and Public Policy
 crsid: lr540
-image: /assets/upload/Reisch_Lucia.jpg
+image: /assets/uploads/Reisch_Lucia.jpg
 webpage: https://www.jbs.cam.ac.uk/people/lucia-reisch/
 biography: "Professor Lucia Reisch is a behavioural economist and social scientist,
   focusing on the theory and application of behavioural insights to promote behavioural

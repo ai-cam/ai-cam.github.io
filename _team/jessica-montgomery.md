@@ -1,23 +1,34 @@
 ---
 layout: team-single
 name: Jessica Montgomery
-biography: This is the biography
+biography: >-
+  Jessica is currently Director of AI@Cam, a new University of Cambridge
+  strategic mission to develop AI technologies that serve science, citizens, and
+  society.
+
+
+  Alongside this role, she leads a variety of research and policy programmes tackling the real-world challenges associated with developing and deploying AI for societal benefit. These include: Accelerate Science, an initiative developing AI tools and collaborations in support of research and innovation; the Data Trusts Initiative, an incubator programme for pilot projects creating trustworthy data governance frameworks; and strategic research agenda development for the ELISE/ELLIS network of European AI research.
+
+
+  Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues. At the Royal Society, Jessica established and led a wide-ranging programme of policy development, public dialogue and international engagement that explored the frontiers of AI technologies and their implications for society. She worked with senior researchers, policymakers, civil society and industry to identify emerging policy needs and develop policy frameworks to enable safe and rapid deployment of these technologies. In her prior role as a Senior Clerk at the House of Commons, Jessica advised MPs on parliamentary procedure and practice. While advising a number of select committees – including Transport; Business, Innovation, and Skills; Regulatory Reform; and Science and Technology – Jessica managed inquiries into a range of science and policy issues, bringing evidence into the heart of political decision-making.
 image: /assets/uploads/jessica-montgomery.jpeg
-email: test@test.co.uk
-url: htps://www.testweb.co.uk/
-website: htps://www.testweb.co.uk/
-twitter: test
-github: test
-linkedin: test
-scholar: test
-crsid: test
-orcid: test
-start: 1st January 2022
-end: 2st January 2022
-institution: test
-department: test
-position: Director
+email: ""
+url: ""
+website: ""
+twitter: ""
+github: ""
+linkedin: ""
+scholar: ""
+crsid: ""
+orcid: ""
+start: ""
+end: ""
+institution: ""
+department: ""
+position: ""
 category:
   - leadership
-supervisor: test
+  - steering-group
+  - researcher
+supervisor: ""
 ---

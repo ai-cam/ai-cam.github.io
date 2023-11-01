@@ -3,7 +3,7 @@ layout: person
 given: Neil
 family: Lawrence
 department: Department of Computer Science and Technology
-image: /assets/upload/Lawrence_Neil.png
+image: /assets/uploads/Lawrence_Neil.png
 webpage: https://inverseprobability.com
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning at
   the University of Cambridge where he leads the University’s flagship mission on

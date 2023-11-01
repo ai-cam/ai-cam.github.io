@@ -6,7 +6,7 @@ department: Department of Computer Science and Technology
 title: Prof
 job_title: Professor of Interdisciplinary Design
 crsid: afb21
-image: /assets/upload/Blackwell_Alan.jpg
+image: /assets/uploads/Blackwell_Alan.jpg
 webpage: https://www.cl.cam.ac.uk/~afb21/index.html
 biography: Alan Blackwell is Professor of Interdisciplinary Design in the Cambridge
   University department of Computer Science and Technology (the “Computer Lab”). He

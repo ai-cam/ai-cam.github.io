@@ -5,7 +5,7 @@ family: Hosny
 department: Leverhulme Centre for the Future of Intelligence
 title: Dr
 crsid: rh882
-image: /assets/upload/Hosny_Reham.jpeg
+image: /assets/uploads/Hosny_Reham.jpeg
 webpage: http://lcfi.ac.uk/people/reham-hosny/
 biography: 'Dr. Reham Hosny is a British Academy Visiting Fellow at the Leverhulme
   Centre for the Future of Intelligence, where she researches the intersection of

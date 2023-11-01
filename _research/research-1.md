@@ -6,6 +6,9 @@ excerpt: Researchers have determined how to build reliable machine learning
   models that can understand complex equations in real-world situations while
   using far less training data than is normally expected.
 image: /assets/uploads/gettyimages-1421511938-dp.jpeg
+category:
+  - Research and innovation
+date: September 19, 2023 8:00 AM
 ---
 Researchers from the University of Cambridge and Cornell University have found that for partial differential equations – a class of physics equations that describe how things in the natural world evolve in space and time – machine learning models can produce reliable results even when they are provided with limited data.
 

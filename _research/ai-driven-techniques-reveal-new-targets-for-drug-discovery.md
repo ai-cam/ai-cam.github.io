@@ -4,7 +4,9 @@ title: AI-driven techniques reveal new targets for drug discovery
 excerpt: Researchers have developed a method to identify new targets for human
   disease, including neurodegenerative conditions such as Alzheimer’s disease.
 image: /assets/uploads/gettyimages-603709929-dp.jpeg
-date: September 27, 2023 11:00 AM
+date: September 27, 2023 8:00 AM
+category:
+  - Research and innovation
 ---
 ***"The discovery of protein phase separation opens up new opportunities for drug discovery"***
 

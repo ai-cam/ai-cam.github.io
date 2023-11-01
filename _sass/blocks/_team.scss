@@ -126,14 +126,14 @@
 
     &.team__grid--basic {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
 
       @include bp(tablet) {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
       }
 
       @include bp(desktop) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
       }
 
       .team__member {
@@ -154,23 +154,16 @@
         .team__member-content {
           h3 {
             margin: 5px 0;
-            font-size: 2.4rem;
-            line-height: 3rem;
+            font-size: 1.6rem;
 
             @include bp(tablet) {
-              font-size: 2.6rem;
-              line-height: 3.4rem;
+              font-size: 1.8rem;
             }
 
             @include bp(desktop) {
-              font-size: 2.4rem;
-              line-height: 3rem;
+              font-size: 2rem;
             }
 
-            @include bp(desktop-xl) {
-              font-size: 2.6rem;
-              line-height: 3.4rem;
-            }
           }
 
           p {
@@ -248,17 +241,14 @@
         h3 {
           margin: 0 0 5px 0;
           font-size: 1.8rem;
-          line-height: 2.2rem;
 
           @include bp(tablet) {
             margin: 0 0 1rem 0;
             font-size: 2.8rem;
-            line-height: 3.4rem;
           }
 
           @include bp(desktop-xl) {
             font-size: 3.2rem;
-            line-height: 4rem;
           }
         }
 

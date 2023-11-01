@@ -5,7 +5,7 @@ family: Mukherjee
 department: School of Clinical Medicine
 title: Dr
 job_title: MRC Investigator
-image: /assets/upload/Mukherjee_Sach.jpg
+image: /assets/uploads/Mukherjee_Sach.jpg
 webpage: https://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/h-to-m/sach-mukherjee/
 biography: 'Sach Mukherjee is Programme Leader and Director of Research (part-time)
   in Machine Learning for Biomedicine at the BSU and Principal Investigator and Head

@@ -5,7 +5,7 @@ family: Eves-van den Akker
 department: Department of Plant Sciences
 job_title: Head of the Plant-Parasite Interactions Group
 crsid: se389
-image: /assets/upload/Eves-van-den-Akker_Sebastian.jpg
+image: /assets/uploads/Eves-van-den-Akker_Sebastian.jpg
 webpage: https://www.plantsci.cam.ac.uk/research/groups/plant-parasitepathogen-interactions
 biography: 'Sebastian Eves-van den Akker is a geneticist with an interest in inter-kingdom
   communication. He investigates the genes that control a dialogue between kingdoms

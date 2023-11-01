@@ -5,7 +5,7 @@ family: Marcoci
 department: Centre for the Study of Existential Risk
 job_title: Research Associate in AI Risk and Foresight
 crsid: am3159
-image: /assets/upload/Marcoci_Alexandru.jpg
+image: /assets/uploads/Marcoci_Alexandru.jpg
 webpage: http://alexandrumarcoci.com/
 biography: I am a social scientist (PhD LSE, 2018) working at the intersection of
   expert decision-making, risk and technology policy. I am interested in understanding

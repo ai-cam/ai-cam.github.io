@@ -57,7 +57,7 @@
     .posts__grid--posts {
       order: 2;
 
-      @include bp(desktop) {
+      @include bp(tablet) {
         grid-column: 1/3;
         order: 1;
         display: flex;
@@ -370,7 +370,7 @@
 
 // Post Grid Item (Small as seen on latest overview blocks)
 .post {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   background: $lightest;

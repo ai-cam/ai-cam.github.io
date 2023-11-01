@@ -230,6 +230,10 @@ collections:
                 name: "image"
                 widget: "image"
                 required: false
+              - label: "Image (Small)"
+                name: "image_small"
+                widget: "image"
+                required: false
           # Latest Overview
           - label: "Latest Overview"
             name: "latest_overview"
@@ -585,6 +589,85 @@ collections:
                 name: "image_small"
                 widget: "image"
                 required: false
+      # Policy Lab (Complete)
+      - label: "Policy Lab"
+        name: "policy_lab"
+        file: "_data/policy_lab.yml"
+        editor:
+          preview: false
+        fields:
+          # Hero
+          - label: "Hero"
+            name: "hero"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+          # Text (Dual Column)
+          - label: "Text (Split)"
+            name: "text_split"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
       # Contact Page (Complete)
       - label: "Contact"
         name: "contact"
@@ -1963,9 +2046,11 @@ collections:
         widget: "select"
         multiple: true
         options:
-          - { label: "Category one", value: "category-one" }
-          - { label: "Category two", value: "category-two" }
-          - { label: "Category three", value: "category-three" }
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
         name: "image"
         widget: "image"
@@ -2062,7 +2147,7 @@ collections:
         default: ""
         date_format: "YYYY-MM-DD" # Adjust to YYYY-MM-DD format
         time_format: "HH:mm" # e.g. 21:07
-        format: "YYYY-MM-DD" # Updated format to match desired format
+        format: "YYYY-MM-DD HH:mm" # Updated format to match desired format
         picker_utc: false
       - label: "End Date & Time"
         name: "end"
@@ -2070,8 +2155,18 @@ collections:
         default: ""
         date_format: "YYYY-MM-DD" # Adjust to YYYY-MM-DD format
         time_format: "HH:mm" # e.g. 21:07
-        format: "YYYY-MM-DD" # Adjust to YYYY-MM-DD format
+        format: "YYYY-MM-DD HH:mm" # Adjust to YYYY-MM-DD format
         picker_utc: false
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Description"
         name: "desc"
         widget: "text"
@@ -2204,26 +2299,34 @@ collections:
     create: true
     output: true
     slug: "{{slug}}"
-    identifier_field: "name"
+    identifier_field: "family"
     editor:
       preview: false
     fields:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
-        default: "team-single"
-      - label: "Name"
-        name: "name"
+        default: "person"
+      - label: "Title"
+        name: "title"
         widget: "string"
-      - label: Prefix
-        hint: "e.g. de, von, van"
-        name: prefix
+        required: true
+      - label: "Given"
+        name: "given"
+        widget: "string"
+        required: true
+      - label: Family
+        name: "family"
+        required: true
+        widget: string
+      - label: "Department"
+        name: "department"
+        widget: "string"
+        required: false
+      - label: Job Title
+        name: "job_title"
         required: false
         widget: string
-      - label: Suffix
-        name: suffix
-        widget: string
-        required: false
       - label: "Biography"
         name: "biography"
         widget: "text"
@@ -2236,12 +2339,8 @@ collections:
         name: "email"
         widget: "string"
         required: false
-      - label: "URL"
-        name: "url"
-        widget: "string"
-        required: false
       - label: "Website"
-        name: "website"
+        name: "webpage"
         widget: "string"
         required: false
       - label: "Twitter"
@@ -2266,30 +2365,6 @@ collections:
         required: false
       - label: "ORCID"
         name: "orcid"
-        widget: "string"
-        required: false
-      - label: "Start Date"
-        name: "start"
-        widget: "string"
-        required: false
-      - label: "End Date"
-        name: "end"
-        widget: "string"
-        required: false
-      - label: "Institution"
-        name: "institution"
-        widget: "string"
-        required: false
-      - label: "Department"
-        name: "department"
-        widget: "string"
-        required: false
-      - label: "Position"
-        name: "position"
-        widget: "string"
-        required: false
-      - label: "Supervisor"
-        name: "supervisor"
         widget: "string"
         required: false
 
@@ -2351,8 +2426,11 @@ collections:
         widget: "select"
         multiple: true
         options:
-          - { label: "Category 1", value: "category-1" }
-          - { label: "Category 2", value: "category-2" }
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
         name: "image"
         widget: "image"

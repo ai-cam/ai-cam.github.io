@@ -6,7 +6,7 @@ department: Isaac Newton Institute for Mathematical Sciences
 title: Dr
 job_title: Director
 crsid: ut213
-image: /assets/upload/Tillman_Ulrike.jpeg
+image: /assets/uploads/Tillman_Ulrike.jpeg
 webpage: https://www.newton.ac.uk/about/prof-ulrike-tillmann/
 biography: 'Ulrike Tillmann is a mathematician who has worked in topology, K-theory,
   and non-commutative geometry. Her well-known work on moduli spaces has been motivated

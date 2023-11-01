@@ -6,7 +6,7 @@ department: Department of Genetics
 title: Prof
 job_title: Professor of Genetics
 crsid: rd109
-image: /assets/upload/Durbin_Richard.jpg
+image: /assets/uploads/Durbin_Richard.jpg
 webpage: https://www.gen.cam.ac.uk/directory/richard-durbin
 biography: "Richard is a computational biologist. He is a Professor of Genetics at
   the University of Cambridge and currently an Associate Faculty member at the Wellcome

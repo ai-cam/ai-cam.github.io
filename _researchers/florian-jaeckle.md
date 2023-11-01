@@ -5,7 +5,7 @@ family: Jaeckle
 department: Department of Pathology
 job_title: Research Associate
 crsid: fj286
-image: /assets/upload/Jaeckle_Florian.webp
+image: /assets/uploads/Jaeckle_Florian.webp
 webpage: https://www.lyzeumltd.com
 biography: Florian is a Research Associate in the Department of Pathology at Cambridge
   and the CTO of Lyzeum Ltd, a University of Cambridge spin-out. His work focuses
