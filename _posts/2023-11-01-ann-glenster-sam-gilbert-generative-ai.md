@@ -9,7 +9,7 @@ category:
   - category-one
 image: /assets/uploads/fly-d-vh91igy0fhw-unsplash.jpg
 ---
-Progress in AI is highlighting the importance of effective policy frameworks and regulations to unlock the technology’s benefits. The nature of these frameworks is the focus of a new policy briefing by researchers at the University of Cambridge.
+Progress in AI is highlighting the importance of effective policy frameworks and regulations to unlock the technology’s benefits. The nature of these frameworks is the focus of [a recent policy briefing](https://www.mctd.ac.uk/which-path-should-the-uk-take-to-build-national-capability-for-generative-ai/) by researchers at the University of Cambridge.
 
 Sam Gilbert is an entrepreneur and Affiliated Researcher at the [Bennett Institute for Public Policy](https://www.bennettinstitute.cam.ac.uk), working at the intersection of politics and technology. His research interests include the political legitimacy of big tech companies. In this post, he explains how AI can be [used ethically by large businesses](https://executiveguide.ai).
 
