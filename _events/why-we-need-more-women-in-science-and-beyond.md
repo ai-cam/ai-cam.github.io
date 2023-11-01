@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: "Why we need more women in science and beyond "
-start: 2023-11-14
-end: 2023-11-14
+start: 2023-11-14 17:00
+end: 2023-11-14 18:00
 category:
   - events
 desc: What progress has been made, and what more is needed to bring more women
