@@ -8,9 +8,7 @@ category:
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 ---
 
-As world leaders gather at Bletchley Park to consider the implications of rapid progress in AI, and how policymakers can work together to ensure advances in these powerful technologies benefit humanity. Effective AI policy requires the ability to bridge from technical to societal questions through interdisciplinary research. 
-
-Alongside this week's AI Summit, a new series of blog posts highlights how Cambridge University’s AI research community is helping build these bridges. While only a snapshot of the views of a wider community, these articles demonstrate the breadth of AI research happening across the University.
+This week, world leaders are gathering at Bletchley Park to consider the implications of rapid progress in AI, and how policymakers can work together to ensure advances in these powerful technologies benefit humanity. Effective AI policy requires the ability to bridge from technical to societal questions through interdisciplinary research, and ai@cam's new series of blog posts highlights how Cambridge University’s AI research community is helping build these bridges. While only a snapshot of the views of a wider community, these articles demonstrate the breadth of AI research happening across the University.
 
 Connecting insights from economics and AI policy, [Professor Diane Coyle](https://ai.cam.ac.uk/blog/diane-coyle-generative-ai) explores how we can harness progress in generative AI to boost productivity, highlighting the importance of competition policy in shaping how technology develops and who benefits from this progress. 
 
