@@ -6,7 +6,7 @@ excerpt: Deploying AI typically requires several interconnected actors and their
 author: Jennifer Cobbe and Jat Singh
 date: November 01, 2023 11:00 AM
 category:
-  - category-one
+  - Policy
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 ---
 Deploying AI typically requires several interconnected actors and their digital systems, creating supply chains of data and digital technologies. In these supply chains, data flows between ‘many hands’, linking systems that are designed, developed, owned, and controlled by different people and organisations. This makes accountability and transparency of the resulting system difficult, because responsibility may be shared. The nature of these systems is the focus of [a recent paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4430778) by researchers at the University of Cambridge and UCL, which has is being [used by policymakers](https://www.gov.uk/government/publications/ai-foundation-models-initial-report) to understand the impact of AI on regulation and governance.

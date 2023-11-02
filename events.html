@@ -22,7 +22,7 @@ permalink: /events/
   <div class="container">
     <div class="posts__grid">
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events  %} <!-- | sort: "start" -->
+      {% assign upcomingEvents = site.events | sort: "start" %}
 
       {% assign hasUpcomingEvent = false %}
     
@@ -78,7 +78,7 @@ permalink: /events/
     <div class="posts__grid">
       {% assign currentTime = 'now' | date: '%H:%M %p' %}
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign previousEvents = site.events %} <!-- | sort: "start" | reverse -->
+      {% assign previousEvents = site.events | sort: "start" | reverse %}
       <!-- Sort the events by start date in descending order -->
 
       {% for event in previousEvents %}

@@ -39,8 +39,6 @@ main_nav:
         link: /research/
       - label: Study
         link: /study/
-      - label: Collaborate
-        link: /collaborate/
   - label: Blog
     link: /blog/
 footer_nav:

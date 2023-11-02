@@ -6,7 +6,7 @@ excerpt: Dame Diane Coyle, Bennett Professor of Public Policy at the University 
 author: Diane Coyle
 date: November 01, 2023 11:00 AM
 category:
-  - category-one
+  - Policy
 image: /assets/uploads/Coyle_Diane.jpg
 ---
 Productivity has been lacklustre in the UK over recent decades, with limited growth stalled further by the global financial crisis of 2008-9 and the impact of the coronavirus pandemic.
