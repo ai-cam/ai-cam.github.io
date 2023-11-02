@@ -3,43 +3,16 @@ hero:
   content: Partnerships are central to our work. AI@Cam will work with partners across academia, industry, civil society, and policy to develop AI tools that can be deployed to tackle the issues facing science and society.
 academic_state_partners:
   heading: Academic & state partners
-  content: Baden-Württemberg is home to world-class research institutions in the
-    field of artificial intelligence (AI). On the initiative of the Max Planck
-    Society with funding from the state of Baden-Württemberg, several partners
-    have come together to create a top location for research and innovation in
-    AI. The participating academic institutions are the Universities of
-    Stuttgart and Tübingen, the Fraunhofer-Gesellschaft and the Max Planck
-    Institute for Intelligent Systems.
+  content: This page is under development. Check back later to find out more.
   logos:
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
+    - image: /assets/uploads/logo.png
 industry_partners:
   logos:
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-  content: Baden-Württemberg is home to world-class research institutions in the
-    field of artificial intelligence (AI). On the initiative of the Max Planck
-    Society with funding from the state of Baden-Württemberg, several partners
-    have come together to create a top location for research and innovation in
-    AI. The participating academic institutions are the Universities of
-    Stuttgart and Tübingen, the Fraunhofer-Gesellschaft and the Max Planck
-    Institute for Intelligent Systems.
+    - image: /assets/uploads/logo.png
+  content: This page is under development. Check back later to find out more.
   heading: Industry partners
 supporters:
   logos:
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-    - image: /assets/uploads/temp-logo-1.png
-  content: Baden-Württemberg is home to world-class research institutions in the
-    field of artificial intelligence (AI). On the initiative of the Max Planck
-    Society with funding from the state of Baden-Württemberg, several partners
-    have come together to create a top location for research and innovation in
-    AI. The participating academic institutions are the Universities of
-    Stuttgart and Tübingen, the Fraunhofer-Gesellschaft and the Max Planck
-    Institute for Intelligent Systems.
+    - image: /assets/uploads/logo.png
+  content: This page is under development. Check back later to find out more.
   heading: Supporters
