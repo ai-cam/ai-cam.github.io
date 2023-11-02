@@ -6,7 +6,7 @@ excerpt: Historically, most AI systems were designed to tackle well-specified pr
 author: David Krueger
 date: November 01, 2023 11:00 AM
 category:
-  - category-one
+  - Policy
 image: /assets/uploads/Krueger_David.png
 ---
 Historically, most AI systems were designed to tackle well-specified problems in particular domains, but as AI grows more powerful and general, there is a risk that it could pose catastrophic risks, says David Krueger.
