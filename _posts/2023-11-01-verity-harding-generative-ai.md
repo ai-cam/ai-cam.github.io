@@ -6,7 +6,7 @@ excerpt: One of TIME100’s Most Influential People in AI, Verity Harding began 
 author: Verity Harding
 date: November 01, 2023 11:00 AM
 category:
-  - category-one
+  - Policy
 image: /assets/uploads/Harding_Verity.png
 ---
 **An interview with Verity Harding, Director of the AI & Geopolitics Project, Cambridge University**
