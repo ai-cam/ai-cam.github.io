@@ -13,7 +13,7 @@ image: /assets/uploads/Harding_Verity.png
 
 One of TIME100’s Most Influential People in AI, [Verity Harding](https://verityharding.com) began her career as a political adviser before spending a decade at Alphabet where she was global head of policy for DeepMind, co-founding the company’s policy and ethics team as well as the Partnership on AI. She is now Director of the [AI & Geopolitics](https://www.bennettinstitute.cam.ac.uk/research/research-projects/aixgeo/) Project at Cambridge University's Bennett Institute for Public Policy
 
-**One of the aims of the AI & Geopolitics Project is to create views the geopolitics of AI through the prism of democracy and human rights. Why is that so important?**
+**One of the aims of the AI & Geopolitics Project is to examine the geopolitics of AI through the prism of democracy and human rights. Why is that so important?**
 
 There has been a creeping acceptance over the past few years that AI is a national security battle that must be “won” by someone. But that viewpoint  sets these technologies against other geopolitical goals in a way that is detrimental to scientific research, which we know flourishes in a collaborative environment. 
 I used to work in the national security space, so I am not naïve about its importance. But I fear that the dominant narrative being one of AI as a precious resource to fight over and capture is unhelpful, even dangerous. At the AI & Geopolitics Project, we are trying to provide an alternative viewpoint, which starts from a premise that human rights should be encoded in AI and that, through this method, it can become a technology that actually enables cooperation and collaboration rather than nationalism and entrenched division.
@@ -30,7 +30,7 @@ Absolutely. In the AIxGEO project, we’re looking at places in AI where there m
 
 **What is needed to kickstart this approach?**
 
-AI has been on the geopolitical agenda in a significant way since around 2017, but the egos and priorities of national governments and leaders often gets in the way of meaningful progress. We don’t need lots of new institutions, we need to use the ones we have better. I was a member of the OECD’s network of AI experts for example, which producedthe first intergovernmental standard on AI,adopted by the G20 in 2019.  I would like to see governments capitalise on the wealth of existing  thinking and cooperation rather than starting lots of new processes.
+AI has been on the geopolitical agenda in a significant way since around 2017, but the egos and priorities of national governments and leaders often get in the way of meaningful progress. We don’t need lots of new institutions, we need to use the ones we have better. I was a member of the OECD’s network of AI experts for example, which producedthe first intergovernmental standard on AI,adopted by the G20 in 2019.  I would like to see governments capitalise on the wealth of existing  thinking and cooperation rather than starting lots of new processes.
 
 I think it’s also important that we pause to reflect on why AI is seen in such a negative light and singled out as a geopolitical tool. Unpicking that narrative – where it came from, who it serves - is a good way of moving forward.
 
