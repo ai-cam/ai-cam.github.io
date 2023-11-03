@@ -2,11 +2,16 @@
 layout: blog-single
 permalink: /blog/:title
 title: What are the geopolitical implications of AI?
-excerpt: One of TIME100’s Most Influential People in AI, Verity Harding began her career as a political adviser before spending a decade at Alphabet where she was global head of policy for DeepMind, co-founding the company’s policy and ethics team as well as the Partnership on AI. She is now Director of the AI & Geopolitics Project at Cambridge University's Bennett Institute for Public Policy.
+excerpt: One of TIME100’s Most Influential People in AI, Verity Harding began
+  her career as a political adviser before spending a decade at Alphabet where
+  she was global head of policy for DeepMind, co-founding the company’s policy
+  and ethics team as well as the Partnership on AI. She is now Director of the
+  AI & Geopolitics Project at Cambridge University's Bennett Institute for
+  Public Policy.
 author: Verity Harding
 date: November 01, 2023 11:00 AM
 category:
-  - Policy
+  - policy
 image: /assets/uploads/Harding_Verity.png
 ---
 **An interview with Verity Harding, Director of the AI & Geopolitics Project, Cambridge University**
