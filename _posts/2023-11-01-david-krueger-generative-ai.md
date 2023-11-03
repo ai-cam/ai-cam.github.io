@@ -2,11 +2,15 @@
 layout: blog-single
 permalink: /blog/:title
 title: How can AI safety research reduce the risks of AI?
-excerpt: Historically, most AI systems were designed to tackle well-specified problems in particular domains, but as AI grows more powerful and general, there is a risk that it could pose catastrophic risks, says David Krueger. In this post, he explains the challenges of safeguarding society against increasingly agentic and general AI systems.
+excerpt: Historically, most AI systems were designed to tackle well-specified
+  problems in particular domains, but as AI grows more powerful and general,
+  there is a risk that it could pose catastrophic risks, says David Krueger. In
+  this post, he explains the challenges of safeguarding society against
+  increasingly agentic and general AI systems.
 author: David Krueger
 date: November 01, 2023 11:00 AM
 category:
-  - Policy
+  - policy
 image: /assets/uploads/Krueger_David.png
 ---
 Historically, most AI systems were designed to tackle well-specified problems in particular domains, but as AI grows more powerful and general, there is a risk that it could pose catastrophic risks, says David Krueger.
