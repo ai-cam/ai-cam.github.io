@@ -2,11 +2,14 @@
 layout: blog-single
 permalink: /blog/:title
 title: How can we harness generative AI to boost productivity?
-excerpt: Dame Diane Coyle, Bennett Professor of Public Policy at the University of Cambridge and Co-Director of the Bennett Institute, explains how AI can boost productivity and the UK economy, if its benefits can be easily accessed and harnessed by the majority of businesses.
+excerpt: Dame Diane Coyle, Bennett Professor of Public Policy at the University
+  of Cambridge and Co-Director of the Bennett Institute, explains how AI can
+  boost productivity and the UK economy, if its benefits can be easily accessed
+  and harnessed by the majority of businesses.
 author: Diane Coyle
 date: November 01, 2023 11:00 AM
 category:
-  - Policy
+  - policy
 image: /assets/uploads/Coyle_Diane.jpg
 ---
 Productivity has been lacklustre in the UK over recent decades, with limited growth stalled further by the global financial crisis of 2008-9 and the impact of the coronavirus pandemic.
