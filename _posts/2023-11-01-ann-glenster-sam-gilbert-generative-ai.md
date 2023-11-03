@@ -2,11 +2,14 @@
 layout: blog-single
 permalink: /blog/:title
 title: How do we regulate to ensure the development of AI for societal benefit?
-excerpt: Progress in AI is highlighting the importance of effective policy frameworks and regulations to unlock the technology’s benefits. The nature of these frameworks is the focus of a new policy briefing by researchers at the University of Cambridge.
+excerpt: Progress in AI is highlighting the importance of effective policy
+  frameworks and regulations to unlock the technology’s benefits. The nature of
+  these frameworks is the focus of a new policy briefing by researchers at the
+  University of Cambridge.
 author: Sam Gilbert and Ann Kristin Glenster
 date: November 01, 2023 11:00 AM
 category:
-  - Policy
+  - policy
 image: /assets/uploads/fly-d-vh91igy0fhw-unsplash.jpg
 ---
 Progress in AI is highlighting the importance of effective policy frameworks and regulations to unlock the technology’s benefits. The nature of these frameworks is the focus of [a recent policy briefing](https://www.mctd.ac.uk/which-path-should-the-uk-take-to-build-national-capability-for-generative-ai/) by researchers at the University of Cambridge.
