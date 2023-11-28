@@ -8,7 +8,7 @@ hero_slider:
     buttons:
       - link: /our-vision
         text: Read More
-    image_small: /assets/uploads/Abraham_Luke.jpeg
+    image_small: ""
   - content: New Cambridge University AI challenges will deliver game-changing AI
       innovations that benefit science and society.
     heading: "Announcing AI-deas: AI that delivers public benefit"
