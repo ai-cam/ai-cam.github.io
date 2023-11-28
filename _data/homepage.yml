@@ -1,7 +1,11 @@
 hero_slider:
   - heading: AI that serves science, citizens, and society
-    content: "ai@cam is the University of Cambridge’s mission to drive a new wave of
-      AI innovation that delivers public value "
+    content: >-
+      ai@cam is the University of Cambridge’s mission to drive a new wave of AI
+      innovation that delivers public value 
+
+
+      alotaibimshary299
     image: /assets/uploads/hands-in-1.jpg
     buttons:
       - link: /our-vision
