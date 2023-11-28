@@ -1,6 +1,6 @@
 ---
 layout: opportunities-single
-title: Communications and Engagement Manager
+title: Communications and Engagement Manager ..x
 excerpt: "AI@Cam is establishing a small team to coordinate our core work and
   collaborations across the University and externally. We're looking for a
   Communications and Engagement Manager who can build an effective
