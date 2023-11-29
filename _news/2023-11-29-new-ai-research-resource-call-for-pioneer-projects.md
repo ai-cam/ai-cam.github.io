@@ -7,7 +7,7 @@ excerpt: "Earlier this month, the UK Government announced a £300 million packag
   was funding for a new Cambridge supercomputer – ‘Dawn’. This call for pioneer
   projects invites University of Cambridge researchers to trial the new
   system.  "
-date: November 29, 2023 10:00 AM
+date: November 29, 2023 9:00 AM
 category:
   - research-and-innovation
 image: /assets/uploads/christina-wocintechchat-com-glrqywjguey-unsplash.jpg
