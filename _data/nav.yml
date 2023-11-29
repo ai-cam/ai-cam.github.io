@@ -42,18 +42,22 @@ main_nav:
   - label: Blog
     link: /blog/
 footer_nav:
-  - label: About
-    link: /about/
+  - label: Vision
+    link: /our-vision/
+  - label: Team
+    link: /team/
+  - label: Opportunities
+    link: /opportunities/
+  - label: News
+    link: /news/
+  - label: Events
+    link: /events/
   - label: Research
     link: /research/
-  - label: Connect
-    link: /connect/
   - label: Study
     link: /study/
   - label: Blog
     link: /blog/
-  - label: Community
-    link: /community/
 uoc_footer_nav:
   information:
     - label: Contact the University
