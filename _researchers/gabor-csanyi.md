@@ -1,7 +1,7 @@
 ---
 layout: person
-given: Gabor
-family: Csanyi
+given: Gábor
+family: Csányi
 department: Department of Engineering
 title: Prof
 job_title: Professor of Molecular Modelling
