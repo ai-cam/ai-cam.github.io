@@ -16,6 +16,6 @@ biography: >-
   Ethics Committee for NHS Cambridgeshire and Peterborough. He has
   also advised many organisations in the public and private sectors,
   especially around governance and data ethics.
-image: /assets/uploads/Hupppert_Julian.jpg
+image: /assets/uploads/Huppert_Julian.jpg
 webpage: https://www.jesus.cam.ac.uk/people/julian-huppert
 ---
