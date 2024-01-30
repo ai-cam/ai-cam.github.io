@@ -1,6 +1,6 @@
 ---
 layout: opportunities-single
-title: Communications and Engagement Manager
+title: Communications and Engagement Manager ..x
 excerpt: "AI@Cam is establishing a small team to coordinate our core work and
   collaborations across the University and externally. We're looking for a
   Communications and Engagement Manager who can build an effective
@@ -12,7 +12,7 @@ apply_link: https://www.jobs.cam.ac.uk/job/43127/
 ---
 **About this opportunity**
 
-AI@Cam is a flagship mission to drive a step-change in Cambridge's AI capabilities. We will harness the ideas, creativity, and research excellence of the University community to develop AI for the benefit of science, citizens, and society. The AI@Cam Communications and Engagement Manager will play an important role in bringing together the University community and external partners to help deliver this vision. As a talented storyteller who can enthuse a variety of audiences about the potential of AI at Cambridge, you'll deliver an effective communications strategy that drives a step-change in engagement with the AI@Cam Mission. Collaborating across the University, the Cambridge innovation ecosystem, and the UK, you will help create build a community that is passionate about our Mission, helping grow our profile and deliver our objectives.
+sssAI@Cam is a flagship mission to drive a step-change in Cambridge's AI capabilities. We will harness the ideas, creativity, and research excellence of the University community to develop AI for the benefit of science, citizens, and society. The AI@Cam Communications and Engagement Manager will play an important role in bringing together the University community and external partners to help deliver this vision. As a talented storyteller who can enthuse a variety of audiences about the potential of AI at Cambridge, you'll deliver an effective communications strategy that drives a step-change in engagement with the AI@Cam Mission. Collaborating across the University, the Cambridge innovation ecosystem, and the UK, you will help create build a community that is passionate about our Mission, helping grow our profile and deliver our objectives.sssssssss
 
 **What we are looking for**
 
