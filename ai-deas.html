@@ -6,7 +6,7 @@ description: Game-changing AI innovations that deliver public benefit.
 image: '/assets/images/social.jpeg'
 ---
 
-{% assign hero = site.data.policy_lab.hero %}
+{% assign hero = site.data.ai_deas.hero %}
 <section class="block block__hero block__hero--standard" id="hero">
 
   <div class="hero__shape">
@@ -42,7 +42,7 @@ image: '/assets/images/social.jpeg'
   </div>
 </section>
 
-{% assign text_split = site.data.policy_lab.text_split %}
+{% assign text_split = site.data.ai_deas.text_split %}
 <section class="block block__text block__text--split">
   <div class="container">
     {% if text_split.heading != nil and text_split.heading != '' %}
@@ -127,10 +127,10 @@ image: '/assets/images/social.jpeg'
       </div>
     {% endif %}
     <div class="latest-overview__column latest-overview__column--reseach">
-      <h3>Policy Blogs</h3>
+      <h3>Blogs</h3>
       {% assign blog_entries = site.blog | sort: 'date' | reverse %}
       {% for post in blog_entries limit:3 %}
-       {% if post.category contains 'policy' %}
+       {% if post.category contains 'ai-deas' %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">
               {% if post.image != nil %}
@@ -154,10 +154,10 @@ image: '/assets/images/social.jpeg'
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
-      <h3>Policy News</h3>
+      <h3>News</h3>
       {% assign news_entries = site.news | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
-        {% if post.category contains 'policy' %}
+        {% if post.category contains 'ai-deas' %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">
               {% if post.image != nil %}
@@ -183,10 +183,10 @@ image: '/assets/images/social.jpeg'
     
     
     <div class="latest-overview__column latest-overview__column--events">
-      <h3>Upcoming Policy Events</h3>
+      <h3>Upcoming Events</h3>
       {% assign currentTime = 'now' | date: '%H:%M %p' %}
       {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | where: "category", "policy"  %} <!--| sort: "start" %}-->
+      {% assign upcomingEvents = site.events | where: "category", "ai-deas"  %} <!--| sort: "start" %}-->
       
       {% assign hasUpcomingEvent = false %}
       
