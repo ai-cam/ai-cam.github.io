@@ -5,7 +5,7 @@ excerpt: Collaborations with the Accelerate Programme for Scientific Discovery,
   Kavli Centre for Ethics, Science and the Public, and Connected by Data are
   bridging between AI research, public dialogue, and policy development.
 category:
-  - category-1
+  - policy
 image: /assets/uploads/img_0072.jpg
 researchers: []
 ---
