@@ -25,7 +25,7 @@ start: ""
 end: ""
 institution: ""
 department: ""
-position: ""
+position: Director, ai@cam
 category:
   - leadership
   - steering-group
