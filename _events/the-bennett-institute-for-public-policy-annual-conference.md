@@ -10,6 +10,7 @@ desc: The Bennett Institute for Public Policy Annual Conference creates an
   policy experts to engage with each other in productive and wide-angled
   conversations about some of the most pressing challenges facing governments
   around the world.
+image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 link_to: https://www.bennettinstitute.cam.ac.uk/events/annual-conference/
 ---
 **The Bennett Institute for Public Policy Annual Conference creates an opportunity for some of our leading practitioners, academic thinkers and policy experts to engage with each other in productive and wide-angled conversations about some of the most pressing challenges facing governments around the world.** 
