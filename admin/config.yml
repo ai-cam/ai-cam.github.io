@@ -668,6 +668,85 @@ collections:
                       required: false,
                       collapsed: true,
                     }
+      # AI-deas (Complete)
+      - label: "AI Deas"
+        name: "ai_deas"
+        file: "_data/ai_deas.yml"
+        editor:
+          preview: false
+        fields:
+          # Hero
+          - label: "Hero"
+            name: "hero"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+          # Text (Dual Column)
+          - label: "Text (Split)"
+            name: "text_split"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
       # Contact Page (Complete)
       - label: "Contact"
         name: "contact"
@@ -1544,9 +1623,9 @@ collections:
                 widget: "image"
                 required: false
       # AI-deas Page
-      - label: "AI-deas"
-        name: "ai_deas"
-        file: "_data/ai_deas.yml"
+      - label: "AI-deas Call 2023"
+        name: "ai_deas_call_2023"
+        file: "_data/ai_deas_call_2023.yml"
         editor:
           preview: false
         fields:
