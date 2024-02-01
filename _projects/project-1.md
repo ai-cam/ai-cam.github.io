@@ -6,7 +6,7 @@ excerpt: The rapid rollout of generative AI models, and public attention to Open
   society. Which path should the UK take to build national capability for
   generative AI?
 category:
-  - category-1
+  - policy
 image: /assets/uploads/picture-1.jpg
 researchers: []
 ---
