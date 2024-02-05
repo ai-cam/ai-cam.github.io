@@ -19,3 +19,13 @@ The Department of Engineering at the University of Cambridge will lead this proj
 Dr Kwadwo Oti-Sarpong, AI-deas challenge lead, said: "We're excited to be one of the winners of AI-deas and work on this project with practitioners across disciplines to shape the future of public sector decision-making using AI in creating connected places. 
 
 Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want."
+
+Project contributors:
+
+* Dr Jennifer Schooling FICE OBE, Department of Engineering 
+* Dr Li Wan, Department of Land Economy
+* Dr Viviana Bastidas, Department of Engineering
+* Dr Ramit Debnath, Department of Architecture and Cambridge Zero
+* Dr Maya Ganesh, Leverhulme Centre for the Future of Intelligence, Institute of Continuing Education 
+* Dr Manuel Herrera, Department of Engineering
+* Jerry Chen, Department of Land Economy
