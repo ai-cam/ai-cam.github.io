@@ -6,7 +6,7 @@ excerpt: "This project aims to develop new AI methods to understand and address
   support people with language and communication difficulties. "
 category:
   - ai-deas
-image: /assets/uploads/pexels-meo-724994.jpg
+image: /assets/uploads/jr-korpa-jxb5j1vdwsi-unsplash.jpg
 ---
 Using language to communicate is something many take for granted. However, a significant proportion of the UK population find spoken or written communication more difficult due to sensory, neural or linguistic challenges such as hearing loss, brain injury or language barriers, and can face substantial disadvantages in many aspects of their lives.
 
