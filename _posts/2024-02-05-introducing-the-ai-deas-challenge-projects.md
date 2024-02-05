@@ -33,14 +33,14 @@ We’re excited to share updates here as the projects take shape. Sign up for ou
 
 —
 
-“These are exactly the kinds of ambitious projects that are vital to delivering AI that serves society, but too often are neglected in the traditional funding landscape, because they require intensive collaboration across disciplines. I’m thrilled we have a mechanism for enabling them. Cambridge is already home to some of the most groundbreaking AI research, and AI-deas encourages further creativity and innovative thinking in this area.“
+*“These are exactly the kinds of ambitious projects that are vital to delivering AI that serves society, but too often are neglected in the traditional funding landscape, because they require intensive collaboration across disciplines. I’m thrilled we have a mechanism for enabling them. Cambridge is already home to some of the most groundbreaking AI research, and AI-deas encourages further creativity and innovative thinking in this area.“*
 
 * Professor Anne Ferguson-Smith, Pro-Vice-Chancellor for Research at University of Cambridge, and Steering Group member of ai@cam 
 
-“The positive response we’ve had to the AI-deas initiative proves there’s a vibrant community of researchers across all career levels who are passionate about connecting AI to public interest. AI has the potential to drive progress on the things that actually matter to people. The selected projects in this round of funding show how we can make that happen - for instance, bringing experts in machine learning, fertility and infant neurodevelopment together in a shared mission.”
+*“The positive response we’ve had to the AI-deas initiative proves there’s a vibrant community of researchers across all career levels who are passionate about connecting AI to public interest. AI has the potential to drive progress on the things that actually matter to people. The selected projects in this round of funding show how we can make that happen - for instance, bringing experts in machine learning, fertility and infant neurodevelopment together in a shared mission.”*
 
 * Neil Lawrence, DeepMind Professor of Machine Learning and Chair of ai@cam
 
-“AI innovation is often perceived as being driven by business. While a wealth of exciting work is coming from leading AI companies, they are not going to solve society’s biggest challenges themselves. Interdisciplinary AI research is vital to bridge from technological advances to public value. AI-deas aims to build some of those bridges.”
+*“AI innovation is often perceived as being driven by business. While a wealth of exciting work is coming from leading AI companies, they are not going to solve society’s biggest challenges themselves. Interdisciplinary AI research is vital to bridge from technological advances to public value. AI-deas aims to build some of those bridges.”*
 
 * Diane Coyle, and Bennett Professor of Public Policy at the University of Cambridge and Steering Group member
