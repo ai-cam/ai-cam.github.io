@@ -21,13 +21,13 @@ ai@cam has been delighted with the positive response from academics to the AI-de
 
 The five projects will make the most of the expertise, talent and collaboration that exists at University of Cambridge and beyond to: 
 
-* improve understanding, diagnosis and treatment of brain diseases and mental health disorders
-* develop cheaper, less invasive and more accessible AI-driven healthcare diagnostics that can be used throughout the conception to childhood journey
-* build tools to assess common language and communication challenges and provide tools and technologies to support people with language and communication related disabilities
-* develop resources for local authorities to make ethical and informed decisions about the use of AI in their digitalisation initiatives
-* help decision makers find more targeted and effective solutions to the twin climate and biodiversity crises, by using AI to provide better evidence and information
+* improve understanding, diagnosis and treatment of [brain diseases and mental health](https://ai.cam.ac.uk/projects/ai-deas-projects-coming-soon) disorders
+* develop cheaper, less invasive and more accessible AI-driven healthcare diagnostics that can be used throughout the [conception to childhood journey](https://ai.cam.ac.uk/projects/revolutionising-women’s-health-female-fertility-and-early-infant-neurodevelopment-using-ai.html)
+* build tools to assess common [language and communication](https://ai.cam.ac.uk/projects/improving-language-equity-and-inclusion-through-ai) challenges and provide tools and technologies to support people with language and communication related disabilities
+* develop [resources for local authorities](https://ai.cam.ac.uk/projects/decision-making-with-ai-in-connected-places-and-cities) to make ethical and informed decisions about the use of AI in their digitalisation initiatives
+* help decision makers find more targeted and effective solutions to the twin [climate and biodiversity crises](https://ai.cam.ac.uk/projects/ai-for-climate-and-nature), by using AI to provide better evidence and information
 
-AI-deas is ai@cam’s first major initiative, and will form part of a wider programme designed to deliver on the University’s AI mission. Through research funding, partnerships within and outside of the university, and education, we aim to more powerfully connect what happens in the university lab to the outside world.
+AI-deas is ai@cam’s first major initiative, and will form part of a wider programme designed to deliver on the University’s AI mission. Through research funding, partnerships within and outside of the university, and education, we aim to more powerfully connect what happens in the university lab to the outside world. You can read more about the projects on our [news](https://ai.cam.ac.uk/news/university-of-cambridge-announces-research-challenges-to-showcase-its-new-approach-to-artificial-intelligence) and [project](https://ai.cam.ac.uk/ai-deas/) pages.
 
 We’re excited to share updates here as the projects take shape. Sign up for our mailing list [here](https://docs.google.com/forms/d/e/1FAIpQLSebVovIZX99OdBNP52eEMAW8C2zaeWRCuAgrNJhpgWJg6r-8w/viewform) to be kept in the loop.
 
