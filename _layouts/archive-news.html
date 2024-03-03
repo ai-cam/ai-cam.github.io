@@ -40,7 +40,7 @@
         <div class="container">
           {% if site.news.size > 0 %}
           <div class="posts__grid">
-            {% for post in site.news %}
+            {% for post in site.news reversed %}
               <a class="posts__item" href="{{ post.url }}">
                 <div class="posts__item-thumbnail">
                   {% if post.image %}

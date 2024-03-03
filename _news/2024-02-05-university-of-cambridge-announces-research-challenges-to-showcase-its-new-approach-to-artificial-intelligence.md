@@ -44,60 +44,60 @@ About the winning projects:
 
 1. **Responsible AI for better lifelong brain and mental health**
 
-  Brain diseases and mental health disorders are taking a toll on people throughout their lives. Dementia is the leading cause of death in England and Wales, and different mental health disorders lead to significant reductions in life expectancy.
+   Brain diseases and mental health disorders are taking a toll on people throughout their lives. Dementia is the leading cause of death in England and Wales, and different mental health disorders lead to significant reductions in life expectancy.
 
-  This project will use the latest advances in AI to better understand brain health and disease. It will explore the environmental, social and neurological factors at play, to develop responsible AI-driven tools that help clinicians predict, diagnose and treat brain diseases and mental health disorders.
+   This project will use the latest advances in AI to better understand brain health and disease. It will explore the environmental, social and neurological factors at play, to develop responsible AI-driven tools that help clinicians predict, diagnose and treat brain diseases and mental health disorders.
 
-  The project will be led by the Department of Psychology at the University of Cambridge and delivered by an interdisciplinary team of experts in areas including data science, software engineering, neuroscience and clinical practice from across the university. 
+   The project will be led by the Department of Psychology at the University of Cambridge and delivered by an interdisciplinary team of experts in areas including data science, software engineering, neuroscience and clinical practice from across the university. 
 
-  Professor Zoe Kourtzi, AI-deas challenge lead, said: "*AI-deas is a springboard for thinking outside the box about using AI to tackle real-world challenges like those associated with brain and mental health disorders. Brain and mental health disorders touch every family. Building robust and responsible AI tools has the potential to help clinicians diagnose early, improve patient wellbeing and outcomes and reduce misdiagnosis, making resources available to people that need them the most*."
+   Professor Zoe Kourtzi, AI-deas challenge lead, said: "*AI-deas is a springboard for thinking outside the box about using AI to tackle real-world challenges like those associated with brain and mental health disorders. Brain and mental health disorders touch every family. Building robust and responsible AI tools has the potential to help clinicians diagnose early, improve patient wellbeing and outcomes and reduce misdiagnosis, making resources available to people that need them the most*."
 
 
 
 2. **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI** 
 
-  The UK has the largest gender health gap in the G20 and declining fertility rates, with women's health issues not well understood.
+   The UK has the largest gender health gap in the G20 and declining fertility rates, with women's health issues not well understood.
 
-  This project aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. These tests will be used to enhance and personalise fertility outcomes, and support the transition to parenting. This research will play a key part in improving fertility and women's health outcomes and shed light on the still largely unknown cellular, molecular and genetic mechanisms governing the development of life.
+   This project aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. These tests will be used to enhance and personalise fertility outcomes, and support the transition to parenting. This research will play a key part in improving fertility and women's health outcomes and shed light on the still largely unknown cellular, molecular and genetic mechanisms governing the development of life.
 
-  The University of Cambridge’s Departments of Psychology, Computer Science, and Physics among others will lead this project, in partnership with two leading specialty hospitals.
+   The University of Cambridge’s Departments of Psychology, Computer Science, and Physics among others will lead this project, in partnership with two leading specialty hospitals.
 
-  Dr Staci Weiss, AI-deas challenge co-lead said: “*AI-deas provides an interdisciplinary platform bringing together data and new AI analytic approaches to accelerate identification of reproductive health biomarkers from embryo through to neonate*."
+   Dr Staci Weiss, AI-deas challenge co-lead said: “*AI-deas provides an interdisciplinary platform bringing together data and new AI analytic approaches to accelerate identification of reproductive health biomarkers from embryo through to neonate*."
 
-  Mo Vali, AI-deas challenge co-lead said: "*We will seek to revolutionise reproductive health technology using state-of-the-art AI methods, leveraging Cambridge's long tradition of research in this field. Translating our research from lab to clinic by developing rigorous tests to improve clinical outcomes will benefit the wider public and help to ease the NHS burden*.”
+   Mo Vali, AI-deas challenge co-lead said: "*We will seek to revolutionise reproductive health technology using state-of-the-art AI methods, leveraging Cambridge's long tradition of research in this field. Translating our research from lab to clinic by developing rigorous tests to improve clinical outcomes will benefit the wider public and help to ease the NHS burden*.”
 
 3. **Improving language equity and inclusion through AI**
 
-  Using language to communicate is something many take for granted. However, a significant proportion of the UK population find spoken or written communication more difficult due to sensory, neural or linguistic challenges such as hearing loss, brain injury or language barriers, and can face substantial disadvantages in many aspects of their lives.
+   Using language to communicate is something many take for granted. However, a significant proportion of the UK population find spoken or written communication more difficult due to sensory, neural or linguistic challenges such as hearing loss, brain injury or language barriers, and can face substantial disadvantages in many aspects of their lives.
 
-  This project aims to develop new AI methods to understand and address these challenges to improve equity and inclusion. It will develop new ways to support people with language and communication difficulties. For example, with AI we can assess and diagnose common language and communication conditions at scale, and develop technologies such as intelligent hearing aids, real-time machine translation, or other language aids to support affected individuals at home, work or school.
+   This project aims to develop new AI methods to understand and address these challenges to improve equity and inclusion. It will develop new ways to support people with language and communication difficulties. For example, with AI we can assess and diagnose common language and communication conditions at scale, and develop technologies such as intelligent hearing aids, real-time machine translation, or other language aids to support affected individuals at home, work or school.
 
-  The MRC Cognition and Brain Sciences Unit at the University of Cambridge will lead this project. 
+   The MRC Cognition and Brain Sciences Unit at the University of Cambridge will lead this project. 
 
-  Matt Davis, AI-deas challenge lead, said: "*New AI technologies are changing our day-to-day lives: we speak rather than type text messages on our phones, and have conversations with Alexa or Siri. As these systems become more common they may reinforce the barriers faced by those who find communicating through language more difficult.*
+   Matt Davis, AI-deas challenge lead, said: "*New AI technologies are changing our day-to-day lives: we speak rather than type text messages on our phones, and have conversations with Alexa or Siri. As these systems become more common they may reinforce the barriers faced by those who find communicating through language more difficult.*
 
-  *Cambridge University hosts the UK’s largest community of researchers working on speech and language technology and have a remarkable breadth and depth of expertise in understanding the real-world impact of language challenges in education, health or work. This project brings these research communities together to develop new AI technologies to support people who find communicating using language a daily challenge in order to improve equity and inclusion*."
+   *Cambridge University hosts the UK’s largest community of researchers working on speech and language technology and have a remarkable breadth and depth of expertise in understanding the real-world impact of language challenges in education, health or work. This project brings these research communities together to develop new AI technologies to support people who find communicating using language a daily challenge in order to improve equity and inclusion*."
 
 
 
 4. **Decision-making with AI in connected places and cities: Developing an ethical and responsible innovation rooted approach for public value creation**
 
-  Public sector use of AI is growing, with some local authorities in England already using large language models and predictive analytics to make city-scale decisions. It is important that the use of AI to make decisions is ethical and leads to the desired outcomes.
+   Public sector use of AI is growing, with some local authorities in England already using large language models and predictive analytics to make city-scale decisions. It is important that the use of AI to make decisions is ethical and leads to the desired outcomes.
 
-  This project aims to investigate how local authorities in England are using AI to make decisions about issues such as placemaking, land use and mobility, and sustainable water supply systems to create public value. The project will develop resources for local authorities to make ethical and informed choices and the use of AI as part of digitalisation initiatives.
+   This project aims to investigate how local authorities in England are using AI to make decisions about issues such as placemaking, land use and mobility, and sustainable water supply systems to create public value. The project will develop resources for local authorities to make ethical and informed choices and the use of AI as part of digitalisation initiatives.
 
-  The Department of Engineering at the University of Cambridge will lead this project and facilitate collaboration with local authorities, and among experts in other domains including urban governance, philosophy and ethics. 
+   The Department of Engineering at the University of Cambridge will lead this project and facilitate collaboration with local authorities, and among experts in other domains including urban governance, philosophy and ethics. 
 
-  Dr Kwadwo Oti-Sarpong, AI-deas challenge lead, said: "*We're excited to be one of the winners of AI-deas and work on this project with practitioners across disciplines to shape the future of public sector decision-making using AI in creating connected places. Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.*"
+   Dr Kwadwo Oti-Sarpong, AI-deas challenge lead, said: "*We're excited to be one of the winners of AI-deas and work on this project with practitioners across disciplines to shape the future of public sector decision-making using AI in creating connected places. Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.*"
 
 
 
 5. **AI for climate and nature**
 
-  The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. This project aims to develop AI approaches for bringing together a wide range of datasets and accelerating the collation of information.
+   The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. This project aims to develop AI approaches for bringing together a wide range of datasets and accelerating the collation of information.
 
-  This work will provide up to date, relevant and robust information for researchers and decision-makers working on climate and biodiversity conservation – opening up the possibility for more targeted and effective solutions to some of our world’s most pressing climate and biodiversity challenges. 
+   This work will provide up to date, relevant and robust information for researchers and decision-makers working on climate and biodiversity conservation – opening up the possibility for more targeted and effective solutions to some of our world’s most pressing climate and biodiversity challenges. 
 
-  This project is a collaboration between Cambridge Zero, Cambridge Conservation Initiative, Conservation Evidence, Institute for Computing for Climate Science, Conservation Research Institute, Centre for Landscape Regeneration, Cambridge Centre for Carbon Credits and Cambridge Centre for Earth Observation.
+   This project is a collaboration between Cambridge Zero, Cambridge Conservation Initiative, Conservation Evidence, Institute for Computing for Climate Science, Conservation Research Institute, Centre for Landscape Regeneration, Cambridge Centre for Carbon Credits and Cambridge Centre for Earth Observation.
 
-  Anil Madhavapeddy, AI-deas challenge co-lead, said: “*Mitigating the impacts of climate change while maintaining and restoring biodiversity demands urgent, evidence-based action. We're excited to bring together an interdisciplinary team across computer science, ecology, climate and conservation to use AI to empower decision-makers to equitably tackle the biggest challenge of our generation*.”
+   Anil Madhavapeddy, AI-deas challenge co-lead, said: “*Mitigating the impacts of climate change while maintaining and restoring biodiversity demands urgent, evidence-based action. We're excited to bring together an interdisciplinary team across computer science, ecology, climate and conservation to use AI to empower decision-makers to equitably tackle the biggest challenge of our generation*.”
