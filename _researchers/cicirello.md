@@ -3,6 +3,7 @@ layout: person
 title: Dr
 given: Alice
 family: Cicirello
+department: Department of Engineering
 biography: I have been leading the Data, Vibration and Uncertainty group for the
   past 7 years, I am one of the Editors for the Data Centric Engineering
   journal, and I was a visiting fellow at the Alan Turing Institute. I have been
