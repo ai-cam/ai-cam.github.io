@@ -14,8 +14,6 @@ main_nav:
         link: /our-vision/
       - label: Team
         link: /team/
-      - label: Current Opportunities
-        link: /opportunities/
       - label: Contact
         link: /contact/
   - label: News & Events
