@@ -6,6 +6,7 @@ end: 2024-05-21 19:30
 category:
   - events
 desc: ""
+link_to: https://www.bennettinstitute.cam.ac.uk/events/how-will-ai-impact-the-year-of-elections/
 ---
 As nations globally approach a critical juncture with 68 countries partaking in elections, the rise of AI-generated synthetic media presents both challenges and opportunities for the electoral process. In this event experts from multidisciplinary backgrounds will explore the multifaceted impact of artificial intelligence on political elections. 
 
