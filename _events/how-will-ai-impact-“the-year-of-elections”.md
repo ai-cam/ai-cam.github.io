@@ -14,6 +14,10 @@ They will address the fine balance between the need for regulation and the drive
 
 Join us for an insightful dialogue on shaping the integrity and future of democratic engagements through AI.
 
+**Venue:** SG1, Alison Richard Building Sidgwick Site, 7 West Road, Cambridge, CB3 9DT
+
+**Free - booking required**
+
 **Explore:**
 
 * What are the implications of AI-generated disinformation on democratic processes, and how can they be mitigated?
