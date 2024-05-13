@@ -5,7 +5,7 @@ start: 2024-06-06 17:00
 end: 2024-06-06 18:00
 category:
   - events
-image: /assets/uploads/book-launch-social-media-graphic-neil-lawrence-68-.png
+image: /assets/uploads/book-launch-social-media-graphic.png
 link_to: https://www.eventbrite.co.uk/e/book-launch-the-atomic-human-understanding-ourselves-in-the-age-of-ai-tickets-902319480857
 ---
 Join the [Minderoo Centre for Technology & Democracy](https://www.mctd.ac.uk/ "https\://www.mctd.ac.uk/") and [ai@cam](https://ai.cam.ac.uk/ "https\://ai.cam.ac.uk/") for the launch of ***Atomic Human: Understanding Ourselves in the Age of AI*** ,a visionary new book from Neil D. Lawrence on the evolution of human and machine intelligence.
