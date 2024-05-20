@@ -25,12 +25,8 @@ biography: >+
   of healthcare including early detection and personalised medicine.
 
 
-  About the Milner Therapeutics Institute (MTI)
 
-  The MTI is a purpose-built research institute at the University of Cambridge, with an overarching vision to convert pioneering science into therapies. The MTI is breaking new ground in academic/industry interactions and demonstrates a world-leading model of start-ups, academics and pharma companies working side by side at the bench. 
-
-
-  The MTI environment offers a unique opportunity to work at the interface of academia and
+  The MTI is a purpose-built research institute at the University of Cambridge, with an overarching vision to convert pioneering science into therapies. The MTI is breaking new ground in academic/industry interactions and demonstrates a world-leading model of start-ups, academics and pharma companies working side by side at the bench.  The MTI environment offers a unique opportunity to work at the interface of academia and
 
   industry, applying ground-breaking technologies to drug discovery and patient treatment.
 
