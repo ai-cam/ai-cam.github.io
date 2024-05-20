@@ -22,9 +22,10 @@ Understanding how to practically root AI use in ethical considerations, and show
 
 Project contributors:
 
-* Dr Jennifer Schooling FICE OBE, Department of Engineering 
+* Dr Kwadwo Oti-Sarpong, [Cambridge Centre for Smart Infrastructure and Construction (CSIC)](https://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value "https\://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value")
+* Dr Jennifer Schooling FICE OBE, Department of Engineering and [Cambridge Centre for Smart Infrastructure and Construction (CSIC)](https://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value "https\://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value")
+* Dr Viviana Bastidas, Department of Engineering and [Cambridge Centre for Smart Infrastructure and Construction (CSIC)](https://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value "https\://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value")
 * Dr Li Wan, Department of Land Economy
-* Dr Viviana Bastidas, Department of Engineering
 * Dr Ramit Debnath, Department of Architecture and Cambridge Zero
 * Dr Maya Ganesh, Leverhulme Centre for the Future of Intelligence, Institute of Continuing Education 
 * Dr Manuel Herrera, Department of Engineering
