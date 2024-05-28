@@ -5,6 +5,7 @@ start: 2024-06-18 10:00
 end: 2024-06-18 18:00
 category:
   - events
+link_to: https://onlinesales.admin.cam.ac.uk/conferences-and-events/cambridge-judge-business-school/csap/2024-csap-annual-conference
 ---
 
 
