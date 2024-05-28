@@ -7,13 +7,11 @@ category:
   - events
 link_to: https://onlinesales.admin.cam.ac.uk/conferences-and-events/cambridge-judge-business-school/csap/2024-csap-annual-conference
 ---
-
-
-##### Our Annual Conference brings together an audience of policy professionals, academic experts and business leaders for a day of talks and presentations, and to share and discuss issues and ideas on a range of topics from innovation and economic growth to climate and sustainability. Speakers from government, academia, and industry will present examples of how we are working together to address new and emerging policy challenges.
+##### The CSaP Annual Conference brings together an audience of policy professionals, academic experts and business leaders for a day of talks and presentations, and to share and discuss issues and ideas on a range of topics from innovation and economic growth to climate and sustainability. Speakers from government, academia, and industry will present examples of how    they are working together to address new and emerging policy challenges.  
 
 #### Networking sessions
 
-In addition to keynote talks and panel discussions, this year our conference will provide a forum for attendees to participate in small group discussions on topics of particular interest led by academics and policy professionals in our network. Sessions will also provide an opportunity for tech companies and university researchers to showcase their work and its benefits to public policy.
+In addition to keynote talks and panel discussions, this year the conference will provide a forum for attendees to participate in small group discussions on topics of particular interest led by academics and policy professionals in our network. Sessions will also provide an opportunity for tech companies and university researchers to showcase their work and its benefits to public policy.
 
 - - -
 
