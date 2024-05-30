@@ -3,16 +3,16 @@ hero:
   content: Find out more about opportunities to join our programme or team.
   image: ""
 opportunities_team_one:
-  heading: Head of Operations
-  content: To bring our vision to life, we're looking for a Head of Operations to
-    provide management support to the Director on a wide range of general
-    operations within the ai@cam Mission.
+  heading: "Programme Manager "
+  content: "ai@cam is establishing a small team to coordinate our core work and
+    collaborations across the University and externally. We're looking for
+    Programme Managers who can deliver key programmes, scope new opportunities,
+    and ensure that the mission embeds agile project management and effective
+    governance. "
   image: /assets/uploads/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
 opportunities_team_two:
-  content: We're looking for a pro-active problem-solver, who is interested in the
-    opportunity to work across our intiatives to deliver impactful projects and
-    to shape how a new team develops.
-  heading: Programme Manager
+  content: ""
+  heading: ""
   image: /assets/uploads/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
 opportunities_team_three:
   content: ""
