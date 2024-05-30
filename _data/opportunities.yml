@@ -2,6 +2,9 @@ hero:
   heading: Current Opportunities
   content: Find out more about opportunities to join our programme or team.
   image: ""
+  buttons:
+    - link: https://www.jobs.cam.ac.uk/job/46569/
+      text: "Programme Manager "
 opportunities_team_one:
   heading: "Programme Manager "
   content: "ai@cam is establishing a small team to coordinate our core work and
