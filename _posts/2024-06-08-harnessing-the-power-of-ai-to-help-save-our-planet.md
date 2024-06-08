@@ -29,11 +29,11 @@ The impact of human activity on the planet is shocking: we’re losing tropical 
 
 ## How does this project aim to tackle the climate and biodiversity crises?
 
-Over the last two decades, the University of Cambridge-based project Conservation Evidence has screened more than 1.6 million scientific papers on conservation, as well as manually summarising  8,600+ studies relating to conservation actions. However, the current project’s work is limited by the specialised skills needed to screen and summarise relevant studies. It took more than 75 person years to manually curate the current database and only a few 100 papers can be added each year. By accelerating these efforts, AI has the potential to transform the impact this database has on biodiversity conservation.
+Over the last two decades, the University of Cambridge-based project [Conservation Evidence](https://www.conservationevidence.com/content/page/24) has screened more than 1.6 million scientific papers on conservation, as well as manually summarising  8,600+ studies relating to conservation actions. However, the current project’s work is limited by the specialised skills needed to screen and summarise relevant studies. It took more than 75 person years to manually curate the current database and only a few 100 papers can be added each year. By accelerating these efforts, AI has the potential to transform the impact this database has on biodiversity conservation.
 
 What we’re aiming to do through the ai@cam project – bringing together an interdisciplinary team from across the fields of computer science, ecology, climate and conservation – is to build up models of the world that are really detailed and that can be queried by policy makers to help make informed decisions. 
 
-We’re planning to pull all of this together into one website as a one-stop shop within the Cambridge Centre for Earth Observation as part of the Cambridge Conservation Initiative – two of the ai@cam project partners.
+We’re planning to pull all of this together into one website as a one-stop shop within the [Cambridge Centre for Earth Observation](https://eo.conservation.cam.ac.uk/) as part of the [Cambridge Conservation Initiative](https://www.cambridgeconservation.org/) – two of the ai@cam project partners.
 
 ## How might this data be used by decision makers?
 
@@ -47,8 +47,10 @@ In time, we want to make information about the opportunity cost of the natural w
 
 ## How are you going about gathering this incredibly rich data in so many different languages from around the world? Are you using AI to do that?
 
-We’re explicitly not using AI to do this. We’re getting lots of help from the Office of Scholarly Communication. The University of Cambridge is unique because we not only have access to vast amounts of journals and publications, as one of the UK’s legal deposit libraries, but we also have access to colleagues at the Cambridge University Press & Assessment who are experts in the legalities of scholarly publishing. They’re helping us to navigate issues including: What does it mean to look through all these journals from a legal perspective? What is the ethical way to make sure that we’re using AI correctly from a publishing perspective, as well as applying algorithms to the data? The academic publishers themselves have also been very cooperative; they are still adapting to the AI wave, but they are supportive of analysis efforts like ours.
-The project is working alongside a whole host of university departments, as well as involving researchers from a range of academic disciplines. We’ve also been making very good use of the new Dawn supercomputer, currently the most powerful AI supercomputer in the UK, which has been made available to us as a priority. It has been incredibly useful for training the language models on the millions of conservation evidence papers we are working with.
+We’re explicitly not using AI to do this. We’re getting lots of help from the [Office of Scholarly Communication](https://osc.cam.ac.uk/about-scholarly-communication). The University of Cambridge is unique because we not only have access to vast amounts of journals and publications, as one of the UK’s legal deposit libraries, but we also have access to colleagues at the [Cambridge University Press & Assessment](https://www.cambridge.org/) who are experts in the legalities of scholarly publishing. They’re helping us to navigate issues including: What does it mean to look through all these journals from a legal perspective? What is the ethical way to make sure that we’re using AI correctly from a publishing perspective, as well as applying algorithms to the data? The academic publishers themselves have also been very cooperative; they are still adapting to the AI wave, but they are supportive of analysis efforts like ours.
+
+
+The project is working alongside a whole host of university departments, as well as involving researchers from a range of academic disciplines. We’ve also been making very good use of the new [Dawn supercomputer](https://www.cam.ac.uk/stories/ai-supercomputer-dawn-research-energy-medicine-climate), currently the most powerful AI supercomputer in the UK, which has been made available to us as a priority. It has been incredibly useful for training the language models on the millions of conservation evidence papers we are working with.
 
 ## Why does this project matter?
 
@@ -65,7 +67,7 @@ Beyond cloud computing, we actually want to build entire views of the world base
 
 ## How did your previous work lead to the current ai@cam collaboration?
 
-During the pandemic, myself and my colleague Srinivasan Keshav from the University’s Department of Computer Science and Technology were discussing that there were no computer science groups focused on climate change. We set up the Energy and Environment Research Group in 2021 along with our colleague Emily Shuckburgh, who is Director of Cambridge Zero and is now also working with me on the AI for climate and nature project.
+During the pandemic, myself and my colleague [Srinivasan Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page) from the University’s Department of Computer Science and Technology were discussing that there were no computer science groups focused on climate change. We set up the Energy and [Environment Research Group](https://www.cst.cam.ac.uk/research/eeg) in 2021 along with our colleague [Emily Shuckburgh](https://www.cst.cam.ac.uk/people/efs20), who is Director of [Cambridge Zero](https://www.zero.cam.ac.uk/) and is now also working with me on the AI for climate and nature project.
 
 Previously Keshav and I had both been computer systems researchers. Over the past two decades, I’ve done a lot of work on open-source systems that have been widely adopted in industry (including Docker, Xen) and that formed the basis of the cloud computing revolution. Now, we are focussed on ensuring that our research has positive outcomes on the climate and biodiversity crisis.
 
@@ -75,12 +77,9 @@ We all really feel the urgency. We’ve just appointed two planetary computing f
 
 The world’s a big, complicated place and where AI can prove very useful is when you have lots of sparse data with some complicated non-linear relationships. AI can help when you’re trying to quickly search your way through the data to try to find non-obvious relationships. 
 
-
-All in all, AI has the ability to fill in data gaps. One of the huge problems right around the world is the in-equitability of data gathering for biodiversity. Out of about 300,000 known plant species, 150,000 of them are considered ‘data deficient’, which means they have fewer than five observations worldwide. Many of these species are in the Global South and they may be very endangered plants. We simply haven’t observed these plants or found any data about them.
-
+All in all, AI has the ability to fill in data gaps. One of the huge problems right around the world is the in-equitability of data gathering for biodiversity. Out of about 300,000 known plant species, 150,000 of them are considered ‘[data deficient](https://www.pnas.org/doi/full/10.1073/pnas.1804098115)’, which means they have fewer than five observations worldwide. Many of these species are in the Global South and they may be very endangered plants. We simply haven’t observed these plants or found any data about them.
 
 We are using AI to do things like figure out if we can identify biases and where we need to focus our data gathering and build up a more complete model of the world. Once we’ve done that, we’re using AI as a co-pilot. It’s not replacing humans, its augmenting human decision making.
-
 
 We are then feeding in expert human knowledge and speeding up human efforts so that we have data at our fingertips. It’s like a Google search but better! AI has upgraded to the next level – not just in terms of searching for things but also in terms of finding more non-obvious meanings behind the things we’re examining and exploring.
 
@@ -88,5 +87,9 @@ We are then feeding in expert human knowledge and speeding up human efforts so t
 
 I think our biggest enemy right now when it comes to tackling climate change and the biodiversity crisis is inaction. People just don’t care or think they’re unable to participate. We need to identify the systemic problems that contribute to climate change and highlight that small actions over time can make a real difference. This will help people to prioritise their own thinking in this space – as well as helping to increase climate action.
 
- 
 I can’t think of a higher impact place to be working right now, to be honest.
+
+***More about AI for climate and nature***
+
+This ai@cam project is a collaboration between Cambridge Zero, Cambridge Conservation Initiative (CCI), Conservation Evidence, Institute for Computing for Climate Science, Conservation Research Institute, Centre for Landscape Regeneration, Cambridge Centre for Carbon Credits and Cambridge Centre for Earth Observation.
+Read more
