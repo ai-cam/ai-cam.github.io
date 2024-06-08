@@ -7,7 +7,7 @@ excerpt: Meet Professor Anil Madhavapeddy, who is one of the drivers behind
   – harnessing the analytical power of AI to provide data that will help
   decision makers find solutions to save our planet. Here he explains what he's
   been working on...
-author: Prof Anil Madhavapeddy,
+author: Prof Anil Madhavapeddy
 date: June 10, 2024 7:00 AM
 category:
   - ai-deas
