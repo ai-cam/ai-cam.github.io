@@ -97,11 +97,10 @@ This ai@cam project is a collaboration between Cambridge Zero, Cambridge Conserv
 
 ## **Further Reading**
 
-This May 2024 paper written by Professor Madhavapeddy and his team explains the LIFE biodiversity metric behind mapping the impact of land-cover change on global extinctions. \
-**[Read more](https://www.cambridge.org/engage/coe/article-details/662f651491aefa6ce1b9bb6a)**
-
-\
-This May 2024 article also explores the LIFE biodiversity metric, focusing on global extinctions caused by human food consumption.\
-**[Read more](https://www.cambridge.org/engage/coe/article-details/6627f14e418a5379b0830b97)**
+* This May 2024 paper written by Professor Madhavapeddy and his team explains the LIFE biodiversity metric behind mapping the impact of land-cover change on global extinctions. \
+  **[Read more](https://www.cambridge.org/engage/coe/article-details/662f651491aefa6ce1b9bb6a)**
+* \
+  This May 2024 article also explores the LIFE biodiversity metric, focusing on global extinctions caused by human food consumption.\
+  **[Read more](https://www.cambridge.org/engage/coe/article-details/6627f14e418a5379b0830b97)**
 
 *As told to Vicky Anning*
