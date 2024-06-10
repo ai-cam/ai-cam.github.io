@@ -72,6 +72,8 @@ We all really feel the urgency. We’ve just appointed two planetary computing f
 
 ![](/assets/uploads/climate-ai-deas4.jpg)
 
+*AI for climate and nature project cohort*
+
 # What are the pros and cons of using AI to tackle our planet’s problems?
 
 The world’s a big, complicated place and where AI can prove very useful is when you have lots of sparse data with some complicated non-linear relationships. AI can help when you’re trying to quickly search your way through the data to try to find non-obvious relationships. 
