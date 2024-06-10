@@ -14,7 +14,7 @@ category:
   - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
 ---
-Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on... 
+**Meet Professor [Anil Madhavapeddy](https://4c.cst.cam.ac.uk/staff/professor-anil-madhavapeddy), who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...** 
 
 ![Professor Anil Madhavapeddy](/assets/uploads/anil-headshot-67-.png "Professor Anil Madhavapeddy")
 
@@ -40,11 +40,7 @@ As there are so many papers out there, we need to figure out how to make this in
 
 Ultimately, a lot of climate change and biodiversity is a political decision. We need to figure out how to manage global land use in a way that balances human needs with the needs of the natural world. 
 
-In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.What was the motivation behind the AI for climate and nature project?
-
-The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. Accelerating global biodiversity loss – along with the deterioration of critical ecosystems and the release of greenhouse gases – demand a radical reconsideration of existing responses and policy. We urgently need to improve the way we measure the impact of human activities on biodiversity and ecosystems globally, while also tracking shifts in the distribution of habitats and organisms as a result of climate change.
-
-The impact of human activity on the planet is shocking: we’re losing tropical rainforest at such a rate it could be gone in our lifetimes, destroying two-thirds of the world’s terrestrial biodiversity. With so much loss of habitat, there’s going to be nothing left to conserve…
+In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.
 
 # How are you going about gathering this incredibly rich data in so many different languages from around the world? Are you using AI to do that?
 
@@ -63,21 +59,13 @@ Where we don’t have data on a particular species, we are beginning to use AI i
 # “Planetary computing” is an intriguing concept. Can you explain what it means?
 
 Planetary computing is an outcome-oriented way of putting together the world’s digital intelligence – integrating machine learning into all of our latest technologies with the single-minded focus of improving our policy making towards the natural world.
+
+
 Beyond cloud computing, we actually want to build entire views of the world based on ingesting vast amounts of satellite data and observation that we have about the planet. Then we have to process all of that raw data into meaningful stuff – including weather patterns and species movements and ocean currents.
-
-# How might this data be used by decision makers?
-
-Consider a planner laying a new train line from Cambridge to Oxford through ecologically sensitive areas, for example. They need to balance economic benefits with ecological damage, whilst considering possible mitigations, such as animal overpasses and fencing, which also have cost implications. To maximise the benefits and reduce costs, decisions should be informed by previous research. Yet all too often, policy makers lack the specialised skills to find and synthesise this evidence. 
-
-As there are so many papers out there, we need to figure out how to make this information accessible on a wider scale and accelerate our actions in the face of the crisis. That is where AI comes in. We want to use AI as an assistant or a co-pilot to augment human decision making – we’re looking at how to process all these conservation actions in order to figure out how to categorise them much more quickly and accurately. 
-
-Ultimately, a lot of climate change and biodiversity is a political decision. We need to figure out how to manage global land use in a way that balances human needs with the needs of the natural world. 
-
-In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.
 
 # How did your previous work lead to the current ai@cam collaboration?
 
-During the pandemic, myself and my colleague [Srinivasan Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page) from the University’s Department of Computer Science and Technology were discussing that there were no computer science groups focused on climate change. We set up the Energy and [Environment Research Group](https://www.cst.cam.ac.uk/research/eeg) in 2021 along with our colleague [Emily Shuckburgh](https://www.cst.cam.ac.uk/people/efs20), who is Director of [Cambridge Zero](https://www.zero.cam.ac.uk/) and is now also working with me on the AI for climate and nature project.
+During the pandemic, myself and my colleague [Srinivasan Keshav](https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page) from the University’s Department of Computer Science and Technology were discussing that there were no computer science groups focused on climate change. We set up the Energy and [Environment Research Group](https://www.cst.cam.ac.uk/research/eeg) in 2021 along with our colleague [Emily Shuckburgh](https://www.cst.cam.ac.uk/people/efs20), who is Director of [Cambridge Zero](https://www.zero.cam.ac.uk/) and is now also working with me on the *AI for climate and nature* project.
 
 Previously Keshav and I had both been computer systems researchers. Over the past two decades, I’ve done a lot of work on open-source systems that have been widely adopted in industry (including Docker, Xen) and that formed the basis of the cloud computing revolution. Now, we are focussed on ensuring that our research has positive outcomes on the climate and biodiversity crisis.
 
