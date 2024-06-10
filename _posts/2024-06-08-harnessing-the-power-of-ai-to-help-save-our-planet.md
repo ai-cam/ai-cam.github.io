@@ -18,6 +18,12 @@ Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pi
 
 ![Professor Anil Madhavapeddy](/assets/uploads/anil-headshot-67-.png "Professor Anil Madhavapeddy")
 
+# What was the motivation behind the AI for climate and nature project?
+
+The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. Accelerating global biodiversity loss – along with the deterioration of critical ecosystems and the release of greenhouse gases – demand a radical reconsideration of existing responses and policy. We urgently need to improve the way we measure the impact of human activities on biodiversity and ecosystems globally, while also tracking shifts in the distribution of habitats and organisms as a result of climate change.
+
+The impact of human activity on the planet is shocking: we’re losing tropical rainforest at such a rate it could be gone in our lifetimes, destroying two-thirds of the world’s terrestrial biodiversity. With so much loss of habitat, there’s going to be nothing left to conserve…
+
 # How might this data be used by decision makers?
 
 Consider a planner laying a new train line from Cambridge to Oxford through ecologically sensitive areas, for example. They need to balance economic benefits with ecological damage, whilst considering possible mitigations, such as animal overpasses and fencing, which also have cost implications. To maximise the benefits and reduce costs, decisions should be informed by previous research. Yet all too often, policy makers lack the specialised skills to find and synthesise this evidence. 
