@@ -11,6 +11,7 @@ author: Prof Anil Madhavapeddy
 date: June 9, 2024 10:02 PM
 category:
   - research-and-innovation
+  - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
 ---
 # How might this data be used by decision makers?
