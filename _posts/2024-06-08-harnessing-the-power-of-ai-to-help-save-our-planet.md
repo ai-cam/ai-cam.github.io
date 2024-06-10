@@ -60,7 +60,6 @@ Where we don’t have data on a particular species, we are beginning to use AI i
 
 Planetary computing is an outcome-oriented way of putting together the world’s digital intelligence – integrating machine learning into all of our latest technologies with the single-minded focus of improving our policy making towards the natural world.
 
-
 Beyond cloud computing, we actually want to build entire views of the world based on ingesting vast amounts of satellite data and observation that we have about the planet. Then we have to process all of that raw data into meaningful stuff – including weather patterns and species movements and ocean currents.
 
 # How did your previous work lead to the current ai@cam collaboration?
@@ -70,6 +69,8 @@ During the pandemic, myself and my colleague [Srinivasan Keshav](https://svr-sk8
 Previously Keshav and I had both been computer systems researchers. Over the past two decades, I’ve done a lot of work on open-source systems that have been widely adopted in industry (including Docker, Xen) and that formed the basis of the cloud computing revolution. Now, we are focussed on ensuring that our research has positive outcomes on the climate and biodiversity crisis.
 
 We all really feel the urgency. We’ve just appointed two planetary computing fellows in the Department of Computer Science and Technology, who have returned from senior industry roles to work in climate change and conservation. They want to lead some of those efforts because they want to fix the problem right now.
+
+![](/assets/uploads/climate-ai-deas4.jpg)
 
 # What are the pros and cons of using AI to tackle our planet’s problems?
 
