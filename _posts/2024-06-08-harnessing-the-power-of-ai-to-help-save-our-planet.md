@@ -24,28 +24,6 @@ The twin climate and biodiversity crises are two of the world’s most complex c
 
 The impact of human activity on the planet is shocking: we’re losing tropical rainforest at such a rate it could be gone in our lifetimes, destroying two-thirds of the world’s terrestrial biodiversity. With so much loss of habitat, there’s going to be nothing left to conserve…
 
-# How does this project aim to tackle the climate and biodiversity crises? 
-
-Over the last two decades, the University of Cambridge-based project Conservation Evidence has screened more than 1.6 million scientific papers on conservation, as well as manually summarising  8,600+ studies relating to conservation actions. However, the current project’s work is limited by the specialised skills needed to screen and summarise relevant studies. It took more than 75 person years to manually curate the current database and only a few 100 papers can be added each year. By accelerating these efforts, AI has the potential to transform the impact this database has on biodiversity conservation.
-
-What we’re aiming to do through the ai@cam project – bringing together an interdisciplinary team from across the fields of computer science, ecology, climate and conservation – is to build up models of the world that are really detailed and that can be queried by policy makers to help make informed decisions. 
-
-We’re planning to pull all of this together into one website as a one-stop shop within the Cambridge Centre for Earth Observation as part of the Cambridge Conservation Initiative – two of the ai@cam project partners.
-
-# How might this data be used by decision makers?
-
-Consider a planner laying a new train line from Cambridge to Oxford through ecologically sensitive areas, for example. They need to balance economic benefits with ecological damage, whilst considering possible mitigations, such as animal overpasses and fencing, which also have cost implications. To maximise the benefits and reduce costs, decisions should be informed by previous research. Yet all too often, policy makers lack the specialised skills to find and synthesise this evidence. 
-
-As there are so many papers out there, we need to figure out how to make this information accessible on a wider scale and accelerate our actions in the face of the crisis. That is where AI comes in. We want to use AI as an assistant or a co-pilot to augment human decision making – we’re looking at how to process all these conservation actions in order to figure out how to categorise them much more quickly and accurately. 
-
-Ultimately, a lot of climate change and biodiversity is a political decision. We need to figure out how to manage global land use in a way that balances human needs with the needs of the natural world. 
-
-In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.What was the motivation behind the AI for climate and nature project?
-
-The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. Accelerating global biodiversity loss – along with the deterioration of critical ecosystems and the release of greenhouse gases – demand a radical reconsideration of existing responses and policy. We urgently need to improve the way we measure the impact of human activities on biodiversity and ecosystems globally, while also tracking shifts in the distribution of habitats and organisms as a result of climate change.
-
-The impact of human activity on the planet is shocking: we’re losing tropical rainforest at such a rate it could be gone in our lifetimes, destroying two-thirds of the world’s terrestrial biodiversity. With so much loss of habitat, there’s going to be nothing left to conserve…
-
 # How does this project aim to tackle the climate and biodiversity crises?
 
 Over the last two decades, the University of Cambridge-based project [Conservation Evidence](https://www.conservationevidence.com/content/page/24) has screened more than 1.6 million scientific papers on conservation, as well as manually summarising  8,600+ studies relating to conservation actions. However, the current project’s work is limited by the specialised skills needed to screen and summarise relevant studies. It took more than 75 person years to manually curate the current database and only a few 100 papers can be added each year. By accelerating these efforts, AI has the potential to transform the impact this database has on biodiversity conservation.
@@ -62,7 +40,11 @@ As there are so many papers out there, we need to figure out how to make this in
 
 Ultimately, a lot of climate change and biodiversity is a political decision. We need to figure out how to manage global land use in a way that balances human needs with the needs of the natural world. 
 
-In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.
+In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.What was the motivation behind the AI for climate and nature project?
+
+The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. Accelerating global biodiversity loss – along with the deterioration of critical ecosystems and the release of greenhouse gases – demand a radical reconsideration of existing responses and policy. We urgently need to improve the way we measure the impact of human activities on biodiversity and ecosystems globally, while also tracking shifts in the distribution of habitats and organisms as a result of climate change.
+
+The impact of human activity on the planet is shocking: we’re losing tropical rainforest at such a rate it could be gone in our lifetimes, destroying two-thirds of the world’s terrestrial biodiversity. With so much loss of habitat, there’s going to be nothing left to conserve…
 
 # How are you going about gathering this incredibly rich data in so many different languages from around the world? Are you using AI to do that?
 
@@ -82,6 +64,16 @@ Where we don’t have data on a particular species, we are beginning to use AI i
 
 Planetary computing is an outcome-oriented way of putting together the world’s digital intelligence – integrating machine learning into all of our latest technologies with the single-minded focus of improving our policy making towards the natural world.
 Beyond cloud computing, we actually want to build entire views of the world based on ingesting vast amounts of satellite data and observation that we have about the planet. Then we have to process all of that raw data into meaningful stuff – including weather patterns and species movements and ocean currents.
+
+# How might this data be used by decision makers?
+
+Consider a planner laying a new train line from Cambridge to Oxford through ecologically sensitive areas, for example. They need to balance economic benefits with ecological damage, whilst considering possible mitigations, such as animal overpasses and fencing, which also have cost implications. To maximise the benefits and reduce costs, decisions should be informed by previous research. Yet all too often, policy makers lack the specialised skills to find and synthesise this evidence. 
+
+As there are so many papers out there, we need to figure out how to make this information accessible on a wider scale and accelerate our actions in the face of the crisis. That is where AI comes in. We want to use AI as an assistant or a co-pilot to augment human decision making – we’re looking at how to process all these conservation actions in order to figure out how to categorise them much more quickly and accurately. 
+
+Ultimately, a lot of climate change and biodiversity is a political decision. We need to figure out how to manage global land use in a way that balances human needs with the needs of the natural world. 
+
+In time, we want to make information about the opportunity cost of the natural world available to anyone who’s making essential decisions in this area.
 
 # How did your previous work lead to the current ai@cam collaboration?
 
