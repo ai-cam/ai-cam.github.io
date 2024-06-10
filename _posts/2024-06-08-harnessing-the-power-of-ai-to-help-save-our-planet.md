@@ -10,7 +10,7 @@ excerpt: Meet Professor Anil Madhavapeddy, who is one of the drivers behind
 author: Prof Anil Madhavapeddy
 date: June 9, 2024 10:02 PM
 category:
-  - ai-deas
+  - research-and-innovation
 image: /assets/uploads/ai-cambridge.jpg
 ---
 # How might this data be used by decision makers?
