@@ -14,6 +14,10 @@ category:
   - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
 ---
+Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...
+
+![A group of people standing and sitting down for a photograph.](/assets/uploads/ai-deas-.jpg "Bringing colleagues together to launch the AI for climate and nature project at the Institute of Computing for Climate Science (ICCS) in Cambridge.")
+
 # How might this data be used by decision makers?
 
 Consider a planner laying a new train line from Cambridge to Oxford through ecologically sensitive areas, for example. They need to balance economic benefits with ecological damage, whilst considering possible mitigations, such as animal overpasses and fencing, which also have cost implications. To maximise the benefits and reduce costs, decisions should be informed by previous research. Yet all too often, policy makers lack the specialised skills to find and synthesise this evidence. 
@@ -49,7 +53,6 @@ In time, we want to make information about the opportunity cost of the natural w
 # How are you going about gathering this incredibly rich data in so many different languages from around the world? Are you using AI to do that?
 
 We’re explicitly not using AI to do this. We’re getting lots of help from the [Office of Scholarly Communication](https://osc.cam.ac.uk/about-scholarly-communication). The University of Cambridge is unique because we not only have access to vast amounts of journals and publications, as one of the UK’s legal deposit libraries, but we also have access to colleagues at the [Cambridge University Press & Assessment](https://www.cambridge.org/) who are experts in the legalities of scholarly publishing. They’re helping us to navigate issues including: What does it mean to look through all these journals from a legal perspective? What is the ethical way to make sure that we’re using AI correctly from a publishing perspective, as well as applying algorithms to the data? The academic publishers themselves have also been very cooperative; they are still adapting to the AI wave, but they are supportive of analysis efforts like ours.
-
 
 The project is working alongside a whole host of university departments, as well as involving researchers from a range of academic disciplines. We’ve also been making very good use of the new [Dawn supercomputer](https://www.cam.ac.uk/stories/ai-supercomputer-dawn-research-energy-medicine-climate), currently the most powerful AI supercomputer in the UK, which has been made available to us as a priority. It has been incredibly useful for training the language models on the millions of conservation evidence papers we are working with.
 
@@ -89,8 +92,6 @@ We are then feeding in expert human knowledge and speeding up human efforts so t
 I think our biggest enemy right now when it comes to tackling climate change and the biodiversity crisis is inaction. People just don’t care or think they’re unable to participate. We need to identify the systemic problems that contribute to climate change and highlight that small actions over time can make a real difference. This will help people to prioritise their own thinking in this space – as well as helping to increase climate action.
 
 I can’t think of a higher impact place to be working right now, to be honest.
-
-
 
 ## **More about AI for climate and nature**
 
