@@ -7,7 +7,7 @@ excerpt: Meet Professor Anil Madhavapeddy, who is one of the drivers behind
   – harnessing the analytical power of AI to provide data that will help
   decision makers find solutions to save our planet. Here he explains what he's
   been working on...
-author: Prof Anil Madhavapeddy
+author: Professor Anil Madhavapeddy
 date: June 9, 2024 10:02 PM
 category:
   - research-and-innovation
@@ -93,6 +93,10 @@ I think our biggest enemy right now when it comes to tackling climate change and
 
 I can’t think of a higher impact place to be working right now, to be honest.
 
+***As told to Vicky Anning***
+
+
+
 ## **More about AI for climate and nature**
 
 This ai@cam project is a collaboration between Cambridge Zero, Cambridge Conservation Initiative (CCI), Conservation Evidence, Institute for Computing for Climate Science, Conservation Research Institute, Centre for Landscape Regeneration, Cambridge Centre for Carbon Credits and Cambridge Centre for Earth Observation.
@@ -104,5 +108,3 @@ This ai@cam project is a collaboration between Cambridge Zero, Cambridge Conserv
 * \
   This May 2024 article also explores the LIFE biodiversity metric, focusing on global extinctions caused by human food consumption.\
   **[Read more](https://www.cambridge.org/engage/coe/article-details/6627f14e418a5379b0830b97)**
-
-*As told to Vicky Anning*
