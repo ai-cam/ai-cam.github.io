@@ -14,9 +14,13 @@ category:
   - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
 ---
-Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...
+
 
 ![A group of people standing and sitting down for a photograph.](/assets/uploads/climate-ai-deas4.jpg "Bringing colleagues together to launch the AI for climate and nature project at the Institute of Computing for Climate Science (ICCS) in Cambridge.")
+
+Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...
+
+
 
 # How might this data be used by decision makers?
 
