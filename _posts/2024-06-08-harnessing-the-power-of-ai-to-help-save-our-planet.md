@@ -14,7 +14,7 @@ category:
   - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
 ---
-Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...
+Meet Professor Anil Madhavapeddy, who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on... 
 
 ![Professor Anil Madhavapeddy](/assets/uploads/anil-headshot-67-.png "Professor Anil Madhavapeddy")
 
@@ -94,8 +94,6 @@ I think our biggest enemy right now when it comes to tackling climate change and
 I can’t think of a higher impact place to be working right now, to be honest.
 
 ***As told to Vicky Anning***
-
-
 
 ## **More about AI for climate and nature**
 
