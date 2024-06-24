@@ -14,7 +14,7 @@ image: /assets/uploads/picture-1-language-equity.jpg
 ---
 **Meet [Dr Matt Davis](https://www.mrc-cbu.cam.ac.uk/people/matt.davis/), who is leading ai@cam’s inspiring interdisciplinary initiative to discover the next AI innovations that could transform the lives of people facing language and communication barriers.**
 
-# What is the inspiration behind the [Improving language equity and inclusion through AI project](https://ai.cam.ac.uk/projects/improving-language-equity-and-inclusion-through-ai)?
+# What is the inspiration behind the Improving language equity and inclusion through AI project?
 
 New AI technologies are changing our day-to-day lives – we speak rather than type text messages on our phones; we have conversations with AI systems such as Alexa or Siri. As these systems become more common, they have the potential to reinforce the barriers faced by those who find communicating through language more difficult.
 
@@ -32,7 +32,7 @@ The *[Improving language equity and inclusion through AI](https://ai.cam.ac.uk/p
 
 The ai@cam funding will be used to bring together all of the different communities in Cambridge, including technologists, language scientists, ethicists and communities affected by language technologies to try and develop project ideas that can become the next wave of innovation. 
 
-# How will the ai@cam project work to improve language equity and inclusion? 
+# How will the ai@cam project work to improve language equity and inclusion?
 
 The investment from ai@cam is a huge accelerator in being able to deliver the things that we are excited by. Typically, we might be able to hold one workshop and fund maybe one or two small-scale initiatives per year, but the investment from ai@cam is going to allow us to fund around 10 projects and several workshops over the next 18 months to two years. Having recognition on the importance of this topic and the strength of the Cambridge community is going to make a real difference to what we can deliver at the end the project.
 
