@@ -14,7 +14,7 @@ image: /assets/uploads/picture-1-language-equity.jpg
 ---
 **Meet [Dr Matt Davis](https://www.mrc-cbu.cam.ac.uk/people/matt.davis/), who is leading ai@cam’s inspiring interdisciplinary initiative to discover the next AI innovations that could transform the lives of people facing language and communication barriers.**
 
-![](/assets/uploads/matt-davis3.jpg)
+![](/assets/uploads/matt-davis-resized.jpg)
 
 # What is the inspiration behind the Improving language equity and inclusion through AI project?
 
