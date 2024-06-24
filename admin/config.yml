@@ -2295,7 +2295,7 @@ collections:
         required: false
       - label: "Biography"
         name: "biography"
-        widget: "text"
+        widget: "markdown"
         required: false
       - label: "Image"
         name: "image"
@@ -2408,7 +2408,7 @@ collections:
         widget: string
       - label: "Biography"
         name: "biography"
-        widget: "text"
+        widget: "markdown"
         required: false
       - label: "Image"
         name: "image"
@@ -2519,10 +2519,10 @@ collections:
       - label: "Researchers"
         name: "researchers"
         widget: "relation"
-        collection: "team"
-        search_fields: ["name"]
-        value_field: "name"
-        display_fields: ["name"]
+        collection: "researchers"
+        search_fields: ["title", "given", "family"]
+        value_field: "{{slug}}"
+        display_fields: ["{{given}}-{{family}}"]
         options_length: 999
         multiple: true
         required: false

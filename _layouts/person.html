@@ -18,6 +18,14 @@
       <section class="block block__hero block__hero--archive" id="hero">
         <div class="container">
           <div class="hero__content">
+            <div class="team-profile__image">
+              {% if page.image != nil %}
+              <img src="{{ page.image }}" alt="Image of {{ page.prefix }} {{ page.name }} {{ page.suffix }}">
+              {% else %}
+              <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+              {% endif %}
+            </div>
+            
             <h1>{{ page.given }} {{ page.family }}</h1>
             <a href="{{site.url}}/research#researchers" class="button button--standard">Back to team</a>
           </div>
@@ -37,13 +45,6 @@
             </div>
 
             <div class="column-m-12 column-t-5 column-d-3">
-              <div class="team-profile__image">
-                {% if page.image != nil %}
-                <img src="{{ page.image }}" alt="Image of {{ page.prefix }} {{ page.name }} {{ page.suffix }}">
-                {% else %}
-                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
-                {% endif %}
-              </div>
               <div class="team-profile__profile">
                 {% if page.institution != nil %}
                 <p><strong>Institution:</strong> {{ page.institution }}</p>

@@ -179,21 +179,9 @@ image: '/assets/images/social.jpeg'
     
     <div class="latest-overview__column latest-overview__column--events">
       <h3>Upcoming Events</h3>
-      {% assign currentTime = 'now' | date: '%H:%M %p' %}
-      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | filter_by_category: 'ai-deas' %} <!--| sort: "start" %}-->
+      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'ai-deas' %} <!--| sort: "start" %}-->
       
-      {% assign hasUpcomingEvent = false %}
-      
-      {% for post in upcomingEvents %}
-        {% assign eventStart = post.start | date: '%Y-%m-%d %H:%M %p' %}
-        {% assign eventEnd = post.end | date: '%Y-%m-%d %H:%M %p' %}
-        {% if eventEnd >= currentDate and eventStart >= currentTime %}
-          {% assign hasUpcomingEvent = true %}
-        {% endif %}
-      {% endfor %}
-      
-      {% if hasUpcomingEvent %}
+      {% if upcomingEvents.size %}
         {% for post in upcomingEvents limit: 4 %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">
