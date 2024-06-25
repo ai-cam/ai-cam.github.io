@@ -23,7 +23,7 @@ permalink: /events/
     <div class="posts__grid">
       {% assign upcomingEvents = site.events | upcoming_events | sort: "start" %}
     
-      {% if upcomingEvents.size %}
+      {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents %}
           <a class="posts__item posts__item--event" href="{{ post.url }}">
             <div class="posts__item-thumbnail">

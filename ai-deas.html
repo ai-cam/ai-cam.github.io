@@ -181,7 +181,7 @@ image: '/assets/images/social.jpeg'
       <h3>Upcoming Events</h3>
       {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'ai-deas' %} <!--| sort: "start" %}-->
       
-      {% if upcomingEvents.size %}
+      {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents limit: 4 %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">

@@ -181,7 +181,7 @@ filter: policy
       <h3>Upcoming Policy Events</h3>
       {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'policy'  %} <!--| sort: "start" %}-->
       
-      {% if upcomingEvents.size %}
+      {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents limit: 3 %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">
