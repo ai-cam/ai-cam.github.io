@@ -47,46 +47,67 @@ image: '/assets/images/social.jpeg'
     <div class="team__selector">
       <button class="active" data-id="leadership">Leadership</button>
       <button data-id="steering-group">Steering Group</button>
+      <button data-id="professional-services">Professional Services</button>
     </div>
 
     {% assign team_entries = site.team %}
+    {% assign filtered_team_entries = team_entries | filter_by_category: 'leadership' %}
+
     <div class="team__grid team__grid--leadership active">
-      {% for post in team_entries %}
-        {% if post.category contains 'leadership' %}
-          <a href="{{ post.url }}" class="team__member">
-            <div class="team__member-image">
-              {% if post.image != nil %}
-                <img src="{{ post.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-            <div class="team__member-content">
-              <h3>{{ post.name }}</h3>
-              <p>{{ post.position }}</p>
-            </div>
-          </a>
-        {% endif %}
+      {% for post in filtered_team_entries %}
+        <a href="{{ post.url }}" class="team__member">
+          <div class="team__member-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="team__member-content">
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.position }}</p>
+          </div>
+        </a>
       {% endfor %}
     </div>
 
+    {% assign filtered_steering_entries = team_entries | filter_by_category: 'steering-group' %}
+
     <div class="team__grid team__grid--steering-group">
-      {% for post in team_entries %}
-        {% if post.category contains 'steering-group' %}
-          <a href="{{ post.url }}" class="team__member">
-            <div class="team__member-image">
-              {% if post.image != nil %}
-                <img src="{{ post.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-            <div class="team__member-content">
-              <h3>{{ post.name }}</h3>
-              <p>{{ post.position }}</p>
-            </div>
-          </a>
-        {% endif %}
+      {% for post in filtered_steering_entries %}
+        <a href="{{ post.url }}" class="team__member">
+          <div class="team__member-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="team__member-content">
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.position }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    {% assign filtered_professional_entries = team_entries | filter_by_category: 'professional-services' %}
+
+    <div class="team__grid team__grid--professional-services">
+      {% for post in filtered_professional_entries %}
+        <a href="{{ post.url }}" class="team__member">
+          <div class="team__member-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="team__member-content">
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.position }}</p>
+          </div>
+        </a>
       {% endfor %}
     </div>
   </div>

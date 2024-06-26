@@ -92,8 +92,11 @@
       @include bp(tablet) {
         margin-bottom: 2rem;
         margin-right: 5rem;
-        font-size: 3.8rem;
         line-height: 8rem;
+      }
+
+      @include bp(desktop) {
+        font-size: 3.8rem;
       }
 
       @include bp(desktop-xl) {

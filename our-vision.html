@@ -62,27 +62,31 @@ image: '/assets/images/social.jpeg'
 {% assign slider = site.data.our_vision.slider %}
 <section class="block block__slider pt-0">
   <div class="container">
-    {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
-      <div class="slider__intro intro">
-        {% if slider.heading != nil and slider.heading != '' %}
-          <h2>{{ slider.heading }}</h2>
-        {% endif %}
+    <div class="slider__top">
+      {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
+        <div class="slider__intro intro">
+          {% if slider.heading != nil and slider.heading != '' %}
+            <h2>{{ slider.heading }}</h2>
+          {% endif %}
 
-        {% if slider.content != nil and slider.content != '' %}
-          {{ slider.content | markdownify }}
-        {% endif %}
+          {% if slider.content != nil and slider.content != '' %}
+            {{ slider.content | markdownify }}
+          {% endif %}
 
-        {% if slider.buttons != nil and slider.buttons.size > 0 %}
-          <div class="button-box">
-            {% for item in slider.buttons %}
-              {% if item.link != nil and item.link != '' %}
-                <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
+          {% if slider.buttons != nil and slider.buttons.size > 0 %}
+            <div class="button-box">
+              {% for item in slider.buttons %}
+                {% if item.link != nil and item.link != '' %}
+                  <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <p class="slider__notice">Drag to explore</p>
+    </div>
 
     {% if slider.slider_items != nil and slider.slider_items.size > 0 %}
       <div class="slider__main">

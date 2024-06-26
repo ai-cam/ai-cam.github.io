@@ -4,6 +4,7 @@ title: 'Policy Lab'
 permalink: /policy-lab/
 description: Informing national and international dialogues about the future of AI.
 image: '/assets/images/social.jpeg'
+filter: policy
 ---
 
 {% assign hero = site.data.policy_lab.hero %}
@@ -67,6 +68,7 @@ image: '/assets/images/social.jpeg'
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
+        {% if post.category contains 'policy' %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image != nil %}
@@ -97,6 +99,7 @@ image: '/assets/images/social.jpeg'
             <p>{{ post.excerpt }}</p>
           </div>
         </a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -128,78 +131,58 @@ image: '/assets/images/social.jpeg'
     {% endif %}
     <div class="latest-overview__column latest-overview__column--reseach">
       <h3>Policy Blogs</h3>
-      {% assign blog_entries = site.blog | sort: 'date' | reverse %}
+      {% assign blog_entries = site.posts | filter_by_category: 'policy' | sort: 'date' | reverse %}
       {% for post in blog_entries limit:3 %}
-       {% if post.category contains 'policy' %}
-          <a href="{{ post.url }}" class="post post--small">
-            <div class="post__thumbnail">
-              {% if post.image != nil %}
-                <img src="{{ post.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-    
-            <div class="post__content">
-              {% if post.category != nil and post.category != '' %}
-                <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-              {% endif %}
-              <h4>{{ post.title }}</h4>
-              <span class="button button--simple">Read more</span>
-            </div>
-          </a>
-        {% else %}
-          <p>No posts found</p>
-        {% endif %}
+        <a href="{{ post.url }}" class="post post--small">
+          <div class="post__thumbnail">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+  
+          <div class="post__content">
+            {% if post.category != nil and post.category != '' %}
+              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+            {% endif %}
+            <h4>{{ post.title }}</h4>
+            <span class="button button--simple">Read more</span>
+          </div>
+        </a>
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
       <h3>Policy News</h3>
-      {% assign news_entries = site.news | sort: 'date' | reverse %}
+      {% assign news_entries = site.news | filter_by_category: 'policy' | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
-        {% if post.category contains 'policy' %}
-          <a href="{{ post.url }}" class="post post--small">
-            <div class="post__thumbnail">
-              {% if post.image != nil %}
-                <img src="{{ post.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-    
-            <div class="post__content">
-              {% if post.category != nil and post.category != '' %}
-                <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-              {% endif %}
-              <h4>{{ post.title }}</h4>
-              <span class="button button--simple">Read more</span>
-            </div>
-          </a>
-          {% else %}
-          <p>No posts found</p>
-        {% endif %}
+        <a href="{{ post.url }}" class="post post--small">
+          <div class="post__thumbnail">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+  
+          <div class="post__content">
+            {% if post.category != nil and post.category != '' %}
+              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+            {% endif %}
+            <h4>{{ post.title }}</h4>
+            <span class="button button--simple">Read more</span>
+          </div>
+        </a>
       {% endfor %}
     </div>
     
     
     <div class="latest-overview__column latest-overview__column--events">
       <h3>Upcoming Policy Events</h3>
-      {% assign currentTime = 'now' | date: '%H:%M %p' %}
-      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | where: "category", "policy"  %} <!--| sort: "start" %}-->
+      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'policy'  %} <!--| sort: "start" %}-->
       
-      {% assign hasUpcomingEvent = false %}
-      
-      {% for post in upcomingEvents %}
-        {% assign eventStart = post.start | date: '%Y-%m-%d %H:%M %p' %}
-        {% assign eventEnd = post.end | date: '%Y-%m-%d %H:%M %p' %}
-        {% if eventEnd >= currentDate and eventStart >= currentTime %}
-          {% assign hasUpcomingEvent = true %}
-        {% endif %}
-      {% endfor %}
-      
-      {% if hasUpcomingEvent %}
-        {% for post in upcomingEvents limit: 4 %}
+      {% if upcomingEvents.size > 0 %}
+        {% for post in upcomingEvents limit: 3 %}
           <a href="{{ post.url }}" class="post post--small">
             <div class="post__thumbnail">
               {% if post.image != nil %}
@@ -219,6 +202,5 @@ image: '/assets/images/social.jpeg'
         <p>No upcoming events</p>
       {% endif %}
     </div>
-    
   </div>
 </section>

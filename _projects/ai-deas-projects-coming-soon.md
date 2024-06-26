@@ -9,7 +9,8 @@ excerpt: This project will use the latest advances in AI to better understand
 category:
   - ai-deas
 image: /assets/uploads/pexels-anna-shvets-4226119.jpg
-researchers: []
+researchers:
+  - alexandru-marcoci
 ---
 Brain diseases and mental health disorders are taking a toll on people throughout their lives. Dementia is the leading cause of death in England and Wales, and different mental health disorders lead to significant reductions in life expectancy.
 

@@ -16,6 +16,7 @@ text_split:
 
     ai@cam is building an infrastructure for interdisciplinary AI innovation through research, education, and innovation programmes that leverage the world-leading research already taking place across the University and connecting this to real-world needs. 
 slider:
+  heading: Overview
   slider_items:
     - heading: AI to tackle grand challenges
       image: /assets/uploads/lander-media-2.png

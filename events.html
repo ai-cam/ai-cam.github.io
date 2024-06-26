@@ -21,25 +21,10 @@ permalink: /events/
 <section class="block pt-0 block__posts">
   <div class="container">
     <div class="posts__grid">
-      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | sort: "start" %}
-
-      {% assign hasUpcomingEvent = false %}
+      {% assign upcomingEvents = site.events | upcoming_events | sort: "start" %}
     
-      {% for post in upcomingEvents %}
-        {% assign eventStartDate = post.start | date: '%Y-%m-%d' %}
-        {% assign eventEndDate = post.end | date: '%Y-%m-%d' %}
-        {% if eventEndDate >= currentDate and eventStartDate >= currentDate %}
-          {% assign hasUpcomingEvent = true %}
-        {% endif %}
-      {% endfor %}
-    
-      {% if hasUpcomingEvent %}
+      {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents %}
-          {% assign eventStartDate = post.start | date: '%Y-%m-%d' %}
-          {% assign eventEndDate = post.end | date: '%Y-%m-%d' %}
-          {% if eventEndDate >= currentDate and eventStartDate >= currentDate %}
-        
           <a class="posts__item posts__item--event" href="{{ post.url }}">
             <div class="posts__item-thumbnail">
               {% if post.image != nil %}
@@ -59,7 +44,6 @@ permalink: /events/
               </p>
             </div>
           </a>
-          {% endif %}
         {% endfor %}
       {% else %}
         <p>No upcoming events</p>
@@ -76,37 +60,34 @@ permalink: /events/
       <h2>Previous Events</h2>
     </div>
     <div class="posts__grid">
-      {% assign currentTime = 'now' | date: '%H:%M %p' %}
-      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign previousEvents = site.events | sort: "start" | reverse %}
-      <!-- Sort the events by start date in descending order -->
+      {% assign previousEvents = site.events | past_events | sort: "start" | reverse %}
 
-      {% for event in previousEvents %}
-        {% assign eventStart = event.start | date: '%Y-%m-%d %H:%M %p' %}
-        {% assign eventEnd = event.end | date: '%Y-%m-%d %H:%M %p' %}
-
-        {% if eventEnd < currentDate %}
-          <a class="posts__item posts__item--event" href="{{ event.url }}">
-            <div class="posts__item-thumbnail">
-              {% if event.image != nil %}
-                <img src="{{ event.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-            <div class="posts__item-content">
-              <h3>{{ event.title }}</h3>
-              <span class="button button--simple">Read more</span>
-            </div>
-            <div class="posts__item-date">
-              <p>
-                {{ event.start | date: '%d' }}
-                <span>{{ event.start | date: '%b' }}</span>
-              </p>
-            </div>
-          </a>
-        {% endif %}
+      {% for event in previousEvents limit: 9 %}
+        <a class="posts__item posts__item--event" href="{{ event.url }}">
+          <div class="posts__item-thumbnail">
+            {% if event.image != nil %}
+              <img src="{{ event.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="posts__item-content">
+            <h3>{{ event.title }}</h3>
+            <span class="button button--simple">Read more</span>
+          </div>
+          <div class="posts__item-date">
+            <p>
+              {{ event.start | date: '%d' }}
+              <span>{{ event.start | date: '%b' }}</span>
+            </p>
+          </div>
+        </a>
       {% endfor %}
+    </div>
+    <div class="margin-top">
+      <div class="button-box">
+        <a href="/events-archive/" class="button button--standard">View all</a>
+      </div>
     </div>
   </div>
 </section>
