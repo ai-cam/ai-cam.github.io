@@ -219,3 +219,20 @@ button:focus {
     margin-bottom: 7rem;
   }
 }
+
+.inline-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inline-icon svg {
+  flex: none;
+  width: 1em;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
