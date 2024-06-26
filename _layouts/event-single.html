@@ -24,7 +24,7 @@
             <h1>{{page.title}}</h1>
             {% if page.start != nil %}
               <p>
-                {{ page.start | date: '%d %B %Y' }}, {{ page.start | date: '%I:%M %p' }} - {{ page.end | date: '%d %B %Y' }}, {{ page.end | date: '%I:%M %p' }}
+                {{ page.start | date: '%I:%M %p, %d %B %Y' }} - {{ page.end | date: '%I:%M %p, %d %B %Y' }}
               </p>
             {% endif %}
             <a href="{{site.url}}/events/" class="button button--standard">Back to events</a>
