@@ -3,7 +3,13 @@ module Jekyll
     require 'time'
 
     def filter_by_category(posts, category)
-      posts.select { |post| post['categories'] && post['categories'].include?(category) }
+      # Normalize to an array if single category string is provided
+      categories = [category].flatten
+
+      posts.select do |post|
+        post_categories = post['categories'] || post['category']
+        post_categories.is_a?(Array) && categories.all? { |cat| post_categories.include?(cat) }
+      end
     end
 
     def past_events(events)

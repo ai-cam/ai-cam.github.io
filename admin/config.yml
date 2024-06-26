@@ -2365,6 +2365,7 @@ collections:
           - { label: "Leadership", value: "leadership" }
           - { label: "Steering Group", value: "steering-group" }
           - { label: "Researcher", value: "researcher" }
+          - { label: "Professional Services", value: "professional-services" }
         required: false
       - label: "Supervisor"
         name: "supervisor"
