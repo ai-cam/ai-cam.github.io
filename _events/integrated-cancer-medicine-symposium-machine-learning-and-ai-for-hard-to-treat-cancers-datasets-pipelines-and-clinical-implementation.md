@@ -6,6 +6,7 @@ start: 2024-07-02 09:00
 end: 2024-07-03 16:30
 category:
   - events
+image: /assets/uploads/https___cdn.evbuc.com_images_783364869_1651894288863_1_original.png
 ---
 Setting new standards for interdisciplinary collaboration and accelerating the ethical, effective application of AI in the global fight against cancer.
 
