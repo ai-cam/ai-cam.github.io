@@ -16,7 +16,7 @@ image: /assets/uploads/picture-1.jpg
 ---
 Hear from Dr Kwadwo Oti-Sarpong, who is leading ai@cam’s ground-breaking project designed to create a new roadmap for the ethical use of AI that will help shape the future of our connected places and cities.
 
-![](/assets/uploads/kwadwo-resezied.jpg)
+![](/assets/uploads/kwadwo-resezied-2.jpg)
 
 # What was the motivation behind the Decision-making with AI in connected places and cities project?
 
@@ -30,7 +30,6 @@ The Decision-making with AI in connected places and cities project grew out of t
 
 Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.
 
-# 
 How does this ai@cam project aim to tackle these ethical concerns? 
 
 This project aims to transform how the public sector uses or approaches their use of AI. We are doing this by investigating the decision-making process around using AI in local authorities across England. Some of the key questions we are asking include: 
@@ -58,7 +57,6 @@ If we are going to rely on AI to try and deliver improved outcomes in our cities
 
 # How did your previous work lead to the ai@cam collaboration?
 
-
 I got my bachelor’s degree in construction technology and project management from Kwame Nkrumah University of Science and Technology in Ghana. I then moved on to study technological innovations in project settings for my PhD at The University of Hong Kong. Since completing my PhD, I have been looking into the area of technological innovations in the built environment. Over the years, my interest has been the implications of introducing new technology in any context – whether it’s at a project, organisational or city scale.
 
 For me, the focus on cities became very strong when I joined the Digital Cities for Change project in March 2022. We have been focusing on the governance and ethics dimensions and also developing a competency framework for the delivery of public value through digital technological innovations – and that’s what drew my interest to this area. 
@@ -66,6 +64,5 @@ For me, the focus on cities became very strong when I joined the Digital Cities 
 # Why does this research matter?
 
 This type of research is relevant in a number of ways, particularly because it helps steer practitioners, decision makers and society away from an easy technocentric bias. It also helps clarify the nature of ethical concerns and considerations that are linked to public sector use of AI in decision making related to our built environment. We can’t just throw more technology at a problem and hope it will solve itself. If we are going to create a society that helps everyone to thrive and be the best that they can be – whether this is individuals, families, businesses – we need to take into consideration the things that are going to change when we introduce new technologies into society.
-
 
 The idea for this project has been there for some time, but ai@cam has really given it the needed boost and visibility. Due to the interdisciplinary nature of the research, it’s often challenging to fit it into a particular funding box. The ai@cam initiative allows us to explore our ideas and fully put on display the interdisciplinarity that is right at the heart of our project – from the way it was designed to how we want to execute it. The ai@cam funding is a very welcome life-giving resource to this important project.
