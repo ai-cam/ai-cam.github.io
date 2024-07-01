@@ -30,12 +30,13 @@ The [Decision-making with AI in connected places and cities](https://ai.cam.ac.u
 
 Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.
 
-# How does this ai@cam project aim to tackle these ethical concerns? 
+# How does this ai@cam project aim to tackle these ethical concerns?
 
 This project aims to transform how the public sector uses or approaches their use of AI. We are doing this by investigating the decision-making process around using AI in local authorities across England. Some of the key questions we are asking include: 
-•	What are the motivations for using AI, and whether or not AI is the solution to start with? 
-•	What forms of AI are being used or trialled and what are the outcomes? 
-•	And looking at those outcomes, are there any ethical concerns that public sector bodies or their technical delivery partners have identified?
+
+* What are the motivations for using AI, and whether or not AI is the solution to start with? 
+* What forms of AI are being used or trialled and what are the outcomes? 
+* And looking at those outcomes, are there any ethical concerns that public sector bodies or their technical delivery partners have identified?
 
 There are eight of us working together from a range of different disciplines, cutting across the knowledge domains of engineering, computational statistics, spatial and urban governance, decision making as well as ethics and philosophy. 
 
