@@ -24,13 +24,13 @@ Artificial intelligence (AI) is being used by the public sector to tackle a whol
 
 Despite the huge potential of digital technologies, understanding their ethical and responsible use remains a key challenge. In areas where the use of AI in decision-making could potentially affect thousands or even millions of people’s lives, getting this right is vital. There is both widespread interest from city managers in the use of data-driven technologies to create so-called ‘smart cities’, and widespread ethical concerns about the implementation of these kinds of initiatives.
 
-Concerns about extensive data collection in large-scale city digitalisation projects have played out in cities around the world. For example, the Sidewalks smart city project in Toronto was cancelled due to data privacy concerns, and in San Francisco, facial recognition technology for predictive policing was banned due to perceived data bias in profiling. 
+Concerns about extensive data collection in large-scale city digitalisation projects have played out in cities around the world. For example, the [Sidewalks smart city project](https://www.smartcitiesworld.net/news/sidewalk-labs-shuts-down-toronto-smart-city-project-5262) in Toronto was cancelled due to data privacy concerns, and in San Francisco, facial recognition technology for [predictive policing](https://www.bbc.co.uk/news/technology-48276660) was banned due to perceived data bias in profiling. 
 
-The Decision-making with AI in connected places and cities project grew out of the University of Cambridge’s Digital Cities for Change initiative. The question that we have been looking at is how we shift the thinking from a technocentric one to focusing more broadly on the governance and the ethical implications of introducing data-focused technologies. We’re asking: What are the potential ethical risks we are taking in using these technologies? Are we considering these ethical risks in our decision making? And how are we addressing these ethical concerns?
+The [Decision-making with AI in connected places and cities](https://ai.cam.ac.uk/projects/decision-making-with-ai-in-connected-places-and-cities) project grew out of the University of Cambridge’s [Digital Cities for Change](https://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change) initiative. The question that we have been looking at is how we shift the thinking from a technocentric one to focusing more broadly on the governance and the ethical implications of introducing data-focused technologies. We’re asking: What are the potential ethical risks we are taking in using these technologies? Are we considering these ethical risks in our decision making? And how are we addressing these ethical concerns?
 
 Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.
 
-How does this ai@cam project aim to tackle these ethical concerns? 
+# How does this ai@cam project aim to tackle these ethical concerns? 
 
 This project aims to transform how the public sector uses or approaches their use of AI. We are doing this by investigating the decision-making process around using AI in local authorities across England. Some of the key questions we are asking include: 
 •	What are the motivations for using AI, and whether or not AI is the solution to start with? 
@@ -59,7 +59,7 @@ If we are going to rely on AI to try and deliver improved outcomes in our cities
 
 I got my bachelor’s degree in construction technology and project management from Kwame Nkrumah University of Science and Technology in Ghana. I then moved on to study technological innovations in project settings for my PhD at The University of Hong Kong. Since completing my PhD, I have been looking into the area of technological innovations in the built environment. Over the years, my interest has been the implications of introducing new technology in any context – whether it’s at a project, organisational or city scale.
 
-For me, the focus on cities became very strong when I joined the Digital Cities for Change project in March 2022. We have been focusing on the governance and ethics dimensions and also developing a competency framework for the delivery of public value through digital technological innovations – and that’s what drew my interest to this area. 
+For me, the focus on cities became very strong when I joined the [Digital Cities for Change project](https://www-smartinfrastructure.eng.cam.ac.uk/projects-and-case-studies/dc2-digital-cities-change/ethically-rooted-ai-public-value) in March 2022. We have been focusing on the governance and ethics dimensions and also developing a competency framework for the delivery of public value through digital technological innovations – and that’s what drew my interest to this area. 
 
 # Why does this research matter?
 
@@ -71,6 +71,6 @@ The idea for this project has been there for some time, but ai@cam has really gi
 
 # More about Decision-making with AI in connected places and cities
 
-The Department of Engineering at the University of Cambridge is leading this ai@cam project, collaborating with experts from the Departments of Land Economy, Architecture, the Leverhulme Centre for Future Intelligence, Cambridge Zero and Anglia Ruskin University.
+The [Department of Engineering](https://www.eng.cam.ac.uk/) at the University of Cambridge is leading this ai@cam project, collaborating with experts from the [Departments of Land Economy](https://www.landecon.cam.ac.uk/), [Architecture](https://www.arct.cam.ac.uk/), the [Leverhulme Centre for Future Intelligence](https://www.lcfi.ac.uk/), [Cambridge Zero](https://www.zero.cam.ac.uk/) and Anglia Ruskin University.
 
-If you would like to find out more about this research project or would like to get involved, please get in touch. Alternatively, email Dr Kwadwo Oti-Sarpong (ko363@cam.ac.uk).
+If you would like to find out more about this research project or would like to get involved, [please get in touch](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6cK4xBOcmxVAiZL8Fm0cscJURUdIT1VRSDFJVThCWU81TlM3QlhPMjFQTS4u). Alternatively, email Dr Kwadwo Oti-Sarpong (ko363@cam.ac.uk).
