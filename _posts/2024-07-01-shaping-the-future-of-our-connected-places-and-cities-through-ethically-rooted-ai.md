@@ -14,7 +14,7 @@ category:
   - research-and-innovation
 image: /assets/uploads/picture-1.jpg
 ---
-Hear from Dr Kwadwo Oti-Sarpong, who is leading ai@cam’s ground-breaking project designed to create a new roadmap for the ethical use of AI that will help shape the future of our connected places and cities.
+**Hear from Dr Kwadwo Oti-Sarpong, who is leading ai@cam’s ground-breaking project designed to create a new roadmap for the ethical use of AI that will help shape the future of our connected places and cities.**
 
 ![](/assets/uploads/kwadwo-resezied-2.jpg)
 
@@ -66,3 +66,11 @@ For me, the focus on cities became very strong when I joined the Digital Cities 
 This type of research is relevant in a number of ways, particularly because it helps steer practitioners, decision makers and society away from an easy technocentric bias. It also helps clarify the nature of ethical concerns and considerations that are linked to public sector use of AI in decision making related to our built environment. We can’t just throw more technology at a problem and hope it will solve itself. If we are going to create a society that helps everyone to thrive and be the best that they can be – whether this is individuals, families, businesses – we need to take into consideration the things that are going to change when we introduce new technologies into society.
 
 The idea for this project has been there for some time, but ai@cam has really given it the needed boost and visibility. Due to the interdisciplinary nature of the research, it’s often challenging to fit it into a particular funding box. The ai@cam initiative allows us to explore our ideas and fully put on display the interdisciplinarity that is right at the heart of our project – from the way it was designed to how we want to execute it. The ai@cam funding is a very welcome life-giving resource to this important project.
+
+***As told to Vicky Anning***
+
+# More about Decision-making with AI in connected places and cities
+
+The Department of Engineering at the University of Cambridge is leading this ai@cam project, collaborating with experts from the Departments of Land Economy, Architecture, the Leverhulme Centre for Future Intelligence, Cambridge Zero and Anglia Ruskin University.
+
+If you would like to find out more about this research project or would like to get involved, please get in touch. Alternatively, email Dr Kwadwo Oti-Sarpong (ko363@cam.ac.uk).
