@@ -223,10 +223,10 @@ footer[role="contentinfo"] {
         font-size: 1.8rem;
         line-height: 2.6rem;
         color: $darkest;
+      }
 
-        &:last-of-type {
-          margin-bottom: 0;
-        }
+      h4 {
+        margin-bottom: 1rem;
       }
     }
 

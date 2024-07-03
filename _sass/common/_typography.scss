@@ -18,7 +18,7 @@ h6 {
 }
 
 h1 {
-  font-size: calc($h1 / 1.5);
+  font-size: calc(#{$h1} / 1.5);
 
   @include bp(tablet) {
     font-size: $h1;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: calc($h2 / 1.2);
+  font-size: calc(#{$h2} / 1.2);
 
   @include bp(tablet) {
     font-size: $h2;
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  font-size: calc($h3 / 1.2);
+  font-size: calc(#{$h3} / 1.2);
 
   @include bp(tablet) {
     font-size: $h3;
@@ -42,7 +42,7 @@ h3 {
 }
 
 h4 {
-  font-size: calc($h4 / 1.2);
+  font-size: calc(#{$h4} / 1.2);
 
   @include bp(tablet) {
     font-size: $h4;
