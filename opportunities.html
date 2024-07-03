@@ -108,6 +108,7 @@ image: '/assets/images/social.jpeg'
     </div>
 
     {% assign opportunities_team_two = site.data.opportunities.opportunities_team_two %}
+    {% if opportunities_team_two.heading.length > 0 %}
     <div class="opportunities__team">
       <div class="opportunities__team-upper">
         <div class="team-upper__content">
@@ -167,8 +168,10 @@ image: '/assets/images/social.jpeg'
         </div>
       </div>
     </div>
+    {% endif %}
 
     {% assign opportunities_team_three = site.data.opportunities.opportunities_team_three %}
+    {% if opportunities_team_three.heading.length > 0 %}
     <div class="opportunities__team">
       <div class="opportunities__team-upper">
         <div class="team-upper__content">
@@ -228,5 +231,6 @@ image: '/assets/images/social.jpeg'
         </div>
       </div>
     </div>
+    {% endif %}
   </div>
 </section>
