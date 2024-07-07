@@ -17,7 +17,7 @@ image: /assets/uploads/ad_scans-30-.jpg
 
 # What is the inspiration behind the Responsible AI for better lifelong brain and mental health project?
 
-The inspiration behind this project stems from the global challenge we are facing in terms of brain and mental health. We know that brain and mental health disorders affect more than 3 billion people worldwide over their lifetime. We know that dementia is the leading cause of death in England and Wales, accounting for around 11% of all deaths. Suicide is the biggest killer of young people under the age of 35 in the UK. Brain and mental health disorders touch every family.
+The inspiration behind this project stems from the global challenge we are facing in terms of brain and mental health. We know that brain and mental health disorders affect more than [3 billion people worldwide over their lifetime](https://www.healthdata.org/news-events/newsroom/news-releases/lancet-neurology-neurological-conditions-now-leading-cause-ill). [We know that dementia is the leading cause of death in England and Wales](https://www.alzheimers.org.uk/about-us/dementia-UK-leading-cause-of-death), accounting for around 11% of all deaths. Suicide is the biggest killer of young people [under the age of 35 in the UK](https://www.papyrus-uk.org/latest-statistics/). Brain and mental health disorders touch every family.
 
 However, these issues have long been ignored. While we have extensive knowledge about physical health and disease prevention, there’s been significant stigma around brain and mental health disorders. 
 Although we have seen substantial research in brain and mental health, the focus on translating findings into practical solutions has only emerged in recent years. Government priorities and a revolution in research has meant we have started to see a shift in attitudes.
@@ -30,7 +30,7 @@ As researchers, our motivation for this ai@cam project is to use the latest adva
 
 # Why does research like this matter?
 
-When a patient presents with severe Alzheimer’s symptoms, it’s often too late for effective intervention. However, when symptoms are mild, it’s challenging to diagnose the cause and predict the trajectory of the illness. This is where advanced computer models come in. They can make early diagnoses more precise than traditional methods, reducing the misdiagnosis rate, which is around 30% for early-stage dementia. 
+When a patient presents with severe Alzheimer’s symptoms, it’s often too late for effective intervention. However, when symptoms are mild, it’s challenging to diagnose the cause and predict the trajectory of the illness. This is where advanced computer models come in. They can make early diagnoses more precise than traditional methods, [reducing the misdiagnosis rate, which is around 30% for early-stage dementia. ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8408578/)
 
 Early and accurate prediction can significantly alter clinical pathways. Although there may not be a cure for dementia, early intervention can delay symptoms or prevent them from impacting an individual’s life. For instance, identifying dementia 10 to 15 years before symptoms appear provides a crucial window for interventions. Lifestyle changes and managing conditions like cardiovascular disease or inflammation can make a significant difference.
 
@@ -88,4 +88,4 @@ The project will be led by the Department of Psychology at the University of Cam
 
 If you would like to find out more, please email Zoe Kourtzi - zk240@cam.ac.uk.
 
-Read more
+[Read more](https://www.ai.cam.ac.uk/projects/ai-deas-projects-coming-soon.html)
