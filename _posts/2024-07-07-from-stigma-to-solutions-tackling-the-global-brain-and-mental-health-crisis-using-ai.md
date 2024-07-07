@@ -13,9 +13,7 @@ image: /assets/uploads/ad_scans-30-.jpg
 ---
 **We hear from Professor Zoe Kourtzi, who is leading ai@cam’s interdisciplinary initiative to revolutionise our understanding and treatment of brain and mental health disorders.**
 
-![](/assets/uploads/zoe.jpg)
-
-
+![](/assets/uploads/zoe-resized.jpg)
 
 # What is the inspiration behind the Responsible AI for better lifelong brain and mental health project?
 
@@ -42,7 +40,7 @@ Even Magnetic Resonance Imaging (MRIs) are not always helpful in early stages. T
 
 Our AI models are multi-modal, integrating various data types, including MRIs, cognition, genetics and biomarkers to provide a holistic analysis. Personally, I think the real revolution is going to come from digital data. 
 
-## How will the ai@cam project help to achieve better brain and mental health? 
+## How will the ai@cam project help to achieve better brain and mental health?
 
 Our primary focus is bridging the gap between research and practical applications. We’re building models at an unprecedented rate, but they risk staying on the shelves unless we bring together computer scientists, engineers, mathematicians with clinicians and public health experts who understand more about the data. 
 
@@ -75,9 +73,7 @@ The advent of big data was a dream come true. It allowed us to embrace the brain
 
 We’re just starting out with this project, but my hope is that it really gives our work a different scope. We have been doing all of this work on a small scale, but ai@cam gives us the opportunity to really scale up as a university initiative.
 
-
 What we want to do is to bring different groups together in this space and connect externally with different stakeholders to come and work with us and accelerate this pathway.
-
 
 Cambridge has brilliant people but people often work in their own silos and there are not enough initiatives to support cross-disciplinary work. Cambridge initiatives like ai@cam are leading the way in promoting and funding this type of collaborative research. 
 
