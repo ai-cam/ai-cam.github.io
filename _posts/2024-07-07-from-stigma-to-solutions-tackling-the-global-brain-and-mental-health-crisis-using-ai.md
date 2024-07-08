@@ -57,9 +57,8 @@ We can’t afford to wait decades for advancements. We need these tools in clini
 There are huge concerns about the development and implementation of AI algorithms. These algorithms are only as good as the data they learn from, which means, if the data is biased, the algorithms will inherit those biases. That’s why we need data to be open and from very diverse populations and samples, ensuring it is not skewed towards one type of population. 
 
 In practice, these models should serve as decision support systems for clinicians. Clinicians can use these tools to supplement their knowledge, which takes into account patient history and other factors not captured by the models. This approach helps reduce health inequalities, because not everyone has access to good medical facilities. In locations with limited resources, such as rural regions or countries without advanced diagnostic tools like MRI and PET scans, these models can really make a difference in diagnosis and care.
-For this project, we’re looking globally because we don’t want our models to be biased. 
 
-We are trying to really diversify our sample of data and carefully optimise the algorithms for data from very diverse populations. We’re looking across the UK, but we’re also connected to large clinical trials and memory clinics abroad. We’re working with a big programme in Singapore and we’re hoping to be able to work with a large cohort across 59 sites in the US, as well as sites in Latin America. Our focus is on ensuring algorithms are ethical, unbiased, monitored and controlled for errors. 
+For this project, we’re looking globally because we don’t want our models to be biased. We are trying to really diversify our sample of data and carefully optimise the algorithms for data from very diverse populations. We’re looking across the UK, but we’re also connected to large clinical trials and memory clinics abroad. We’re working with a big programme in Singapore and we’re hoping to be able to work with a large cohort across 59 sites in the US, as well as sites in Latin America. Our focus is on ensuring algorithms are ethical, unbiased, monitored and controlled for errors. 
 
 # What inspired your own work in this field?
 
@@ -83,7 +82,8 @@ I’m now in my 50s and for me the dream is to build a cross-disciplinary new ge
 
 ***As told to Vicky Anning***
 
-More about Responsible AI for better lifelong brain and mental health project
+## More about Responsible AI for better lifelong brain and mental health project
+
 The project will be led by the Department of Psychology at the University of Cambridge and delivered by an interdisciplinary team of experts in areas including data science, software engineering, neuroscience and clinical practice from across the university. 
 
 If you would like to find out more, please email Zoe Kourtzi - zk240@cam.ac.uk.
