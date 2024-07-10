@@ -47,29 +47,31 @@ image: '/assets/images/social.jpeg'
 {% assign slider = site.data.research.slider %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
-    {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
-      <div class="slider__intro intro">
-        {% if slider.heading != nil and slider.heading != '' %}
-          <h2>{{ slider.heading }}</h2>
-        {% endif %}
+    <div class="slider__top">
+      {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
+        <div class="slider__intro intro">
+          {% if slider.heading != nil and slider.heading != '' %}
+            <h2>{{ slider.heading }}</h2>
+          {% endif %}
 
-        {% if slider.content != nil and slider.content != '' %}
-          {{ slider.content | markdownify }}
-        {% endif %}
+          {% if slider.content != nil and slider.content != '' %}
+            {{ slider.content | markdownify }}
+          {% endif %}
 
-        {% if slider.buttons != nil and slider.buttons.size > 0 %}
-          <div class="button-box">
-            {% for item in slider.buttons %}
-              {% if item.link != nil and item.link != '' %}
-                <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    {% endif %}
+          {% if slider.buttons != nil and slider.buttons.size > 0 %}
+            <div class="button-box">
+              {% for item in slider.buttons %}
+                {% if item.link != nil and item.link != '' %}
+                  <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    <p class="slider__notice">Drag to explore</p>
+      <p class="slider__notice">Drag to explore</p>
+    </div>
     <div class="slider__main">
       {% for post in research_entries %}
         <a href="{{ post.url }}" class="slider__slide">
@@ -149,7 +151,7 @@ image: '/assets/images/social.jpeg'
       </div>
     </div>
     <div class="team__grid team__grid--basic">    
-      {% assign researchers_entries = site.researchers %}
+      {% assign researchers_entries = site.researchers | sort: 'family' %}
       {% for post in researchers_entries %}
         <a href="{{ post.url }}" class="team__member" data-src="{{ post.department | downcase | replace: ' ', '-' }}">
           <div class="team__member-image">

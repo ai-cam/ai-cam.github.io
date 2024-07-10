@@ -37,7 +37,7 @@
       </section>
 
       {% if page.researchers != nil %}
-        {% assign team_entries = site.team %}
+        {% assign team_entries = site.researchers %}
         <section class="block block__team">
           <div class="container">
             <div class="team__intro">
@@ -58,8 +58,8 @@
                         {% endif %}
                       </div>
                       <div class="team__member-content">
-                        <h3>{{ post.name }}</h3>
-                        <p>{{ post.position }}</p>
+                        <h3>{{ post.given }} {{ post.family }}</h3>
+                        <p>{{ post.job_title }}</p>
                       </div>
                     </a>
                   {% endif %}

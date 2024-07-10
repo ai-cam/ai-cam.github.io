@@ -45,49 +45,49 @@
                 {% endif %}
               </div>
               <div class="team-profile__profile">
-                {% if page.institution != nil %}
+                {% if page.institution.length > 0 %}
                 <p><strong>Institution:</strong> {{ page.institution }}</p>
                 {% endif %}
-                {% if page.department != nil %}
+                {% if page.department.length > 0 %}
                 <p><strong>Department:</strong> {{ page.department }}</p>
                 {% endif %}
-                {% if page.position != nil %}
+                {% if page.position.length > 0 %}
                 <p><strong>Position:</strong> {{ page.position }}</p>
                 {% endif %}
-                {% if page.team != nil %}
+                {% if page.team.length > 0 %}
                 <p><strong>Team:</strong> {{ page.team }}</p>
                 {% endif %}
-                {% if page.supervisor != nil %}
+                {% if page.supervisor.length > 0 %}
                 <p><strong>Supervisor:</strong> {{ page.supervisor }}</p>
                 {% endif %}
-                {% if page.start != nil %}
+                {% if page.start.length > 0 %}
                 <p><strong>Start Date:</strong> {{ page.start }}</p>
                 {% endif %}
-                {% if page.end != nil %}
+                {% if page.end.length > 0 %}
                 <p><strong>End Date:</strong> {{ page.end }}</p>
                 {% endif %}
-                {% if page.scholar != nil %}
+                {% if page.scholar.length > 0 %}
                 <p><strong>Scholar:</strong> {{ page.scholar }}</p>
                 {% endif %}
-                {% if page.crsid != nil %}
+                {% if page.crsid.length > 0 %}
                 <p><strong>CRSID:</strong> {{ page.crsid }}</p>
                 {% endif %}
-                {% if page.orcid != nil %}
+                {% if page.orcid.length > 0 %}
                 <p><strong>ORCID:</strong> {{ page.orcid }}</p>
                 {% endif %}
               </div>
-              {% if page.email != nil or page.website != nil or page.twitter != nil or page.github != nil or page.linkedin != nil %}
+              {% if page.email.length > 0 or page.website.length > 0 or page.twitter.length > 0 or page.github.length > 0 or page.linkedin.length > 0 %}
               <div class="team-profile__contact">
                 <h3>Contact</h3>
-                {% if page.email != nil %}
+                {% if page.email.length > 0 %}
                 <a href="mailto:{{ page.email }}">{{ page.email }}</a>
                 {% endif %}
-                {% if page.website != nil %}
+                {% if page.website.length > 0 %}
                 <a href="{{ page.website }}" target="_blank" rel="noreferrer">{{ page.website }}</a>
                 {% endif %}
 
                 <div class="team-profile__contact-socials">
-                  {% if page.github != nil %}
+                  {% if page.github.length > 0 %}
                   <a href="{{page.github}}" target="_blank" rel="noreferrer">
                     <svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g>
@@ -96,7 +96,7 @@
                     </svg>
                   </a>
                   {% endif %}
-                  {% if page.linkedin != nil %}
+                  {% if page.linkedin.length > 0 %}
                   <a href="{{page.linkedin}}" target="_blank" rel="noreferrer">
                     <svg width="21px" height="21px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -108,7 +108,7 @@
                     </svg>
                   </a>
                   {% endif %}
-                  {% if page.twitter != nil %}
+                  {% if page.twitter.length > 0 %}
                   <a href="{{page.twitter}}" target="_blank" rel="noreferrer">
                     <svg width="26px" height="21px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

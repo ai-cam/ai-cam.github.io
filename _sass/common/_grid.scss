@@ -112,13 +112,13 @@ ul.row {
 @for $i from 1 through 12 {
 
     .column-m-#{$i} {
-        flex-basis: calc(100% / 12 * $i - 2%);
-        max-width: calc(100% / 12 * $i - 2%);
+        flex-basis: calc(100% / 12 * #{$i} - 2%);
+        max-width: calc(100% / 12 * #{$i} - 2%);
     }
 
     .column-m-#{$i}-nest {
-        flex-basis: calc(100% / 12 * $i);
-        max-width: calc(100% / 12 * $i);
+        flex-basis: calc(100% / 12 * #{$i});
+        max-width: calc(100% / 12 * #{$i});
     }
 
     .column-m-order-#{$i} {
@@ -132,13 +132,13 @@ ul.row {
     @for $i from 1 through 12 {
 
         .column-t-#{$i} {
-            flex-basis: calc(100% / 12 * $i - 2%);
-            max-width: calc(100% / 12 * $i - 2%);
+            flex-basis: calc(100% / 12 * #{$i} - 2%);
+            max-width: calc(100% / 12 * #{$i} - 2%);
         }
 
         .column-t-#{$i}-nest {
-            flex-basis: calc(100% / 12 * $i);
-            max-width: calc(100% / 12 * $i);
+            flex-basis: calc(100% / 12 * #{$i});
+            max-width: calc(100% / 12 * #{$i});
         }
 
         .column-t-order-#{$i} {
@@ -154,13 +154,13 @@ ul.row {
     @for $i from 1 through 12 {
 
         .column-p-#{$i} {
-            flex-basis: calc(100% / 12 * $i - 2%);
-            max-width: calc(100% / 12 * $i - 2%);
+            flex-basis: calc(100% / 12 * #{$i} - 2%);
+            max-width: calc(100% / 12 * #{$i} - 2%);
         }
 
         .column-p-#{$i}-nest {
-            flex-basis: calc(100% / 12 * $i);
-            max-width: calc(100% / 12 * $i);
+            flex-basis: calc(100% / 12 * #{$i});
+            max-width: calc(100% / 12 * #{$i});
         }
 
         .column-p-order-#{$i} {
@@ -174,13 +174,13 @@ ul.row {
     @for $i from 1 through 12 {
 
         .column-d-#{$i} {
-            flex-basis: calc(100% / 12 * $i - 2%);
-            max-width: calc(100% / 12 * $i - 2%);
+            flex-basis: calc(100% / 12 * #{$i} - 2%);
+            max-width: calc(100% / 12 * #{$i} - 2%);
         }
 
         .column-d-#{$i}-nest {
-            flex-basis: calc(100% / 12 * $i);
-            max-width: calc(100% / 12 * $i);
+            flex-basis: calc(100% / 12 * #{$i});
+            max-width: calc(100% / 12 * #{$i});
         }
 
         .column-d-order-#{$i} {
