@@ -19,5 +19,4 @@ image: /assets/uploads/Ferguson-Smith_Anne.jpg
 position: Pro Vice Chancellor for Research
 category:
   - steering-group
-  - professional-services
 ---
