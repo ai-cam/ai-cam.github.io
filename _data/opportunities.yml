@@ -4,12 +4,8 @@ hero:
   image: ""
   buttons: []
 opportunities_team_one:
-  heading: "Programme Manager "
-  content: "ai@cam is establishing a small team to coordinate our core work and
-    collaborations across the University and externally. We're looking for
-    Programme Managers who can deliver key programmes, scope new opportunities,
-    and ensure that the mission embeds agile project management and effective
-    governance. "
+  heading: ""
+  content: ""
   image: /assets/uploads/damian-zaleski-ryyr-k3ysqg-unsplash.jpg
 opportunities_team_two:
   content: ""
