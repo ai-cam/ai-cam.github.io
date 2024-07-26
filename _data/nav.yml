@@ -16,8 +16,6 @@ main_nav:
         link: /team/
       - label: Contact
         link: /contact/
-      - label: Opportunities
-        link: /Opportunities/
   - label: News & Events
     link: ""
     submenu:
