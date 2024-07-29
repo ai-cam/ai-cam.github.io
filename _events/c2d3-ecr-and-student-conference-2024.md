@@ -5,6 +5,7 @@ start: 2024-09-23 09:00
 end: 2024-09-23 14:00
 category:
   - events
+image: /assets/uploads/ecr_student_conference_24.png
 ---
 **Organiser:** Cambridge Centre for Data-Driven Discovery
 
