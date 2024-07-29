@@ -5,6 +5,7 @@ start: 2024-09-10 17:30
 end: 2024-09-10 19:00
 category:
   - events
+link_to: https://www.eventbrite.co.uk/e/adding-ai-to-the-environmental-journalists-toolbox-tickets-948886423837?aff=oddtdtcreator
 ---
 ### **About**
 
