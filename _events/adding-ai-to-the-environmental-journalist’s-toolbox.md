@@ -2,7 +2,7 @@
 layout: event-single
 title: Adding AI to the environmental journalist’s toolbox
 start: 2024-09-10 17:30
-end: 2024-09-10 00:00
+end: 2024-09-10 19:00
 category:
   - events
 ---
