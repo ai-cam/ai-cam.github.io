@@ -58,3 +58,7 @@ We are seeking expressions of interest to join the Organising Committee for this
 Those chosen to join the Organising Committee can add this to their CV!  It is also a great opportunity to help decide the content of the day.
 
 Please email Angela Godoy at coordinator@c2d3.cam.ac.uk before **Weds 31st July 24** if you'd like to join us!
+
+## Registrations 
+
+Please register [here](https://www.c2d3.cam.ac.uk/civicrm/event/info?reset=1&id=1041) (registration closes midday Fri 13th Sept)
