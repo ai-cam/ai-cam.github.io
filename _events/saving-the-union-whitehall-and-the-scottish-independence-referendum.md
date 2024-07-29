@@ -5,6 +5,7 @@ start: 2024-09-24 17:30
 end: 2024-09-24 18:45
 category:
   - events
+image: /assets/uploads/whitehall-scotland-uk-1020.jpg
 ---
 Ten years ago the Scottish independence referendum posed an unprecedented and potentially existential challenge to the territorial integrity of the United Kingdom. In this talk, Philip Rycroft, Former Permanent Secretary at the Department for Exiting the European Union, will give an insider’s perspective on how Whitehall responded and will examine what that response reveals about the structures, competence and expectations of the British state. The UK emerged from the referendum intact, but have the lessons of that turbulent campaign been absorbed into the British body politic?
 
