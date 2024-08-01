@@ -55,7 +55,6 @@ We’re also developing tools to give parents real-time insights into their baby
 
 A recent article connecting foetal activity to infant neurodevelopment was published by a team including Staci in Nature Human Behaviour.
 
-
 Ultimately, we’d like to create an online dashboard to give people a precise timeline of their pregnancy and baby’s development. We believe a personalised interface that helps parents-to-be track their health information will enrich families’ understanding of their own data. By involving expectant parents at every stage of our digital health tool’s development, we hope the ultimate tool will serve as a powerful way to support families through the entire journey, from conception to infancy. You can keep track of our progress at www.wombs2world.com. 
 
 # Are there any ethical risks when it comes to using AI for maternal and childhood health?
@@ -66,10 +65,7 @@ In terms of regulation, there is currently no framework for necessary standards 
 
 The third concern is data privacy. We handle highly confidential data and we’ve addressed this concern by receiving funding to buy our own GPU (Graphics Processing Unit). This ensures that all our data processing is done on a separate server, rather than on third-party platforms. We’ve ensured all data is anonymised at source upon collection, with highly restricted and monitored access. There is no way to identify patients from our data – ages are in ranges, BMIs are in ranges, and there are no names. This helps to head off any data privacy concerns.
 
-
-
 # What inspired your own work in this field?
-
 
 **Mo Vali:** “I’m a physicist, interested in exploring fundamental questions. Most IVF innovations have been commercially led, tinkering around the edges and trying to make technical improvements to the IVF process. However, there’s a lot of unexplored territory, with open questions about the underlying molecular mechanisms of life. We still don’t really know the underlying mechanisms for how life takes shape, and we hope to put the science on a more rigorous footing – improving outcomes, reducing misinformation and exploring some of these fundamental questions.” 
 
@@ -79,7 +75,7 @@ The third concern is data privacy. We handle highly confidential data and we’v
 
 # Why does research like this matter?
 
-Mo, Staci and Saaliha: Through the ai@cam collaboration, we aspire to make Cambridge a pioneer in AI-driven, cutting-edge research across fertility, reproductive health and foetal neurodevelopment, exploring fundamental scientific questions in these areas. 
+**Mo, Staci and Saaliha:** Through the ai@cam collaboration, we aspire to make Cambridge a pioneer in AI-driven, cutting-edge research across fertility, reproductive health and foetal neurodevelopment, exploring fundamental scientific questions in these areas. 
 
 We want to build on Cambridge’s long tradition of research in this field. Indeed, the world’s first IVF clinic, Bourn Hall Fertility Clinic, was established in Cambridge by IVF pioneers Robert Edwards (a Professor at Churchill College), Patrick Steptoe (a medical doctor) and Jean Purdy (a clinical embryologist) – leading to the birth of the world’s first baby conceived through IVF treatment in 1978. 
 
