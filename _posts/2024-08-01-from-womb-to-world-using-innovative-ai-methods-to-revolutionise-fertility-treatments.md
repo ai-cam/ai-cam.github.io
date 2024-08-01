@@ -31,7 +31,7 @@ With fewer babies born and people living longer, many western economies face a r
 
 Some governments are trying to support parents, offering financial incentives and other benefits. In South Korea, for example, there are companies offering up to $70,000 per child each time a woman has a baby, with no strings attached. Large tech companies such as Google are offering the chance for women to freeze their eggs. Some people simply don’t want children, while others face difficulties conceiving due to delayed childbearing, often resorting to in vitro fertilisation (IVF). Since 1978, about 12 million babies have been born through IVF, and an IVF baby is born roughly every 45 seconds.
 
-# IVF remains largely a numbers game
+### IVF remains largely a numbers game
 
 For those people who want to start a family, the current technology is inadequate. IVF outcomes are poor. One in four IVF cycles result in a live birth, and many women try IVF multiple times. Each cycle may involve one or more embryo transfers, taking months, plus recovery time. This makes IVF a very clunky process. IVF involves numerous internal ultrasounds, dozens of hormone injections, and other physically demanding procedures. It also costs upwards of £10,000 per cycle ($20,000 in America), so it’s a very big gamble to take.
 
