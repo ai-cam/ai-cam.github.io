@@ -87,9 +87,9 @@ We want to build on Cambridge’s long tradition of research in this field. Inde
 
 We have already established world-class collaborations – with Addenbrooke’s Hospital and The Lister Hospital – which will allow us to access data, run pilot trials and ultimately look towards product commercialisation. We want to translate our research from lab to clinic and from womb to world by developing rigorous tests to improve clinical outcomes that will benefit the wider public – helping women make informed decisions on the individual success rates of their IVF treatments and providing options for less invasive tests.
 
-## Read more
+***As told to Vicky Anning***
 
-From womb to world: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI
+### **M﻿ore about** *From womb to world: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI*
 
 The project is a collaboration between the University of Cambridge’s Computer Science and Physics, among others – in partnership with two leading specialty hospitals – Addenbrooke’s Hospital and The Lister Hospital.
 
