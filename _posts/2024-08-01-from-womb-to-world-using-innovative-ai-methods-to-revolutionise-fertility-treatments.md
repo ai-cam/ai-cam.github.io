@@ -13,11 +13,11 @@ category:
   - ai-deas
 image: /assets/uploads/drew-hays-7tgqlzhcjz8-unsplash.jpg
 ---
-We meet three of the pioneers behind this cutting-edge ai@cam collaboration – a physicist, a fertility doctor and an infant neuroscience researcher – who are using AI to boost IVF success rates, tailor fertility treatments and deliver instant foetal health updates to expectant parents.
+**We meet three of the pioneers behind this cutting-edge ai@cam collaboration – a physicist, a fertility doctor and an infant neuroscience researcher – who are using AI to boost IVF success rates, tailor fertility treatments and deliver instant foetal health updates to expectant parents.**
 
-* Dr Staci Meredith Weiss, Department of Psychology, University of Cambridge 
-* Mo Vali, Department of Physics, University of Cambridge
-* Dr Saaliha Vali, Imperial College London, The Lister Fertility Clinic, The Lister Hospital
+* **Dr Staci Meredith Weiss, Department of Psychology, University of Cambridge** 
+* **Mo Vali, Department of Physics, University of Cambridge**
+* **Dr Saaliha Vali, Imperial College London, The Lister Fertility Clinic, The Lister Hospital**
 
 ![](/assets/uploads/copy-of-mo-linkedin-image-1-.png)
 
