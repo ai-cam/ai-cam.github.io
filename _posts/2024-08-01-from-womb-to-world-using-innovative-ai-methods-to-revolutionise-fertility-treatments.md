@@ -19,6 +19,8 @@ We meet three of the pioneers behind this cutting-edge ai@cam collaboration – 
 
 ![](/assets/uploads/staci-edit.jpg)
 
+![](/assets/uploads/copy-of-mo-linkedin-image-.png)
+
 # What were the challenges that inspired From womb to world: Revolutionising women’s health, fertility and early infant neurodevelopment using AI?
 
 We are responding to a birth rates crisis, exacerbated by poor birth outcomes for couples who are finding it difficult to have children. In many advanced economies, the global fertility rate has more than halved over the past 50 years from about five children per woman to 2.1 today. 
