@@ -15,9 +15,9 @@ image: /assets/uploads/drew-hays-7tgqlzhcjz8-unsplash.jpg
 ---
 **We meet three of the pioneers behind this cutting-edge ai@cam collaboration – a physicist, a fertility doctor and an infant neuroscience researcher – who are using AI to boost IVF success rates, tailor fertility treatments and deliver instant foetal health updates to expectant parents.**
 
-* **Dr Staci Meredith Weiss, Department of Psychology, University of Cambridge** 
+* **Dr Staci Weiss, Department of Psychology, University of Cambridge** 
 * **Mo Vali, Department of Physics, University of Cambridge**
-* **Dr Saaliha Vali, Imperial College London, The Lister Fertility Clinic, The Lister Hospital**
+* **Dr Saaliha Vali, The Lister Fertility Clinic,  Imperial College London,** 
 
 ![](/assets/uploads/copy-of-mo-linkedin-image-1-.png)
 
@@ -39,7 +39,7 @@ For those people who want to start a family, the current technology is inadequat
 
 Unfortunately, couples eager to start a family can fall prey to misinformation, willing to pay whatever it takes for the slight probability that a procedure or test can help them conceive. It doesn’t help that, scientifically, this area is not well understood. Women’s health has been neglected for decades; in the US, women only started being included in clinical trials in the 1990s. In the UK, only about [2% of medical research funding](https://www.imperial.ac.uk/news/247194/qa-how-medical-science-better-serve/) goes towards pregnancy, childbirth, fertility and women’s health. In fact, the UK has one of the largest gender health gaps among the G20 countries, which prompted the government to launch a [Women’s Health Strategy](https://www.gov.uk/government/publications/womens-health-strategy-for-england/womens-health-strategy-for-england) for England in 2022.
 
-# How will the ai@cam project work to address this birth rate crisis? 
+# How will the ai@cam project work to address this birth rate crisis?
 
 The ai@cam project is seeking to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. We want to improve the accuracy of early diagnosis of women’s health conditions, personalise fertility and IVF outcomes – and support the transition to parenting.
 
