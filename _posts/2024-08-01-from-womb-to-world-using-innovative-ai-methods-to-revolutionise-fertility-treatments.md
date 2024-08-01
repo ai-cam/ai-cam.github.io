@@ -17,7 +17,7 @@ We meet three of the pioneers behind this cutting-edge ai@cam collaboration – 
 
 ![](/assets/uploads/mo-edit-2.jpg)
 
-![](/assets/uploads/0smwphoto.jpg)
+![](/assets/uploads/staci-edit.jpg)
 
 # What were the challenges that inspired From womb to world: Revolutionising women’s health, fertility and early infant neurodevelopment using AI?
 
