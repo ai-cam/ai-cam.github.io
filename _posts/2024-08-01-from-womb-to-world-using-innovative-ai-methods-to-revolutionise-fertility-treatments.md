@@ -17,7 +17,7 @@ image: /assets/uploads/drew-hays-7tgqlzhcjz8-unsplash.jpg
 
 * **Dr Staci Weiss, Department of Psychology, University of Cambridge** 
 * **Mo Vali, Department of Physics, University of Cambridge**
-* **Dr Saaliha Vali, The Lister Fertility Clinic,  Imperial College London**
+* **Dr Saaliha Vali, The Lister Fertility Clinic, Imperial College London**
 
 ![](/assets/uploads/copy-of-mo-linkedin-image-1-.png)
 
