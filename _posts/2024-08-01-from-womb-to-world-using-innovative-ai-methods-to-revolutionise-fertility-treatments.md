@@ -15,7 +15,7 @@ image: /assets/uploads/drew-hays-7tgqlzhcjz8-unsplash.jpg
 ---
 We meet three of the pioneers behind this cutting-edge ai@cam collaboration – a physicist, a fertility doctor and an infant neuroscience researcher – who are using AI to boost IVF success rates, tailor fertility treatments and deliver instant foetal health updates to expectant parents.
 
-![](/assets/uploads/mo-edit.jpg)
+![](/assets/uploads/mo-edit-2.jpg)
 
 ![](/assets/uploads/0smwphoto.jpg)
 
