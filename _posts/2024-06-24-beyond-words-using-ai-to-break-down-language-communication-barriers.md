@@ -8,7 +8,6 @@ excerpt: Meet Dr Matt Davis, who is leading ai@cam’s inspiring interdisciplina
 author: Dr Matt Davis
 date: June 23, 2024 2:07 PM
 category:
-  - research-and-innovation
   - ai-deas
 image: /assets/uploads/picture-1-language-equity.jpg
 ---
