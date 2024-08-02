@@ -11,7 +11,7 @@ category:
   - ai-deas
   - research-and-innovation
   - events
-image: /assets/uploads/picture-1.jpg
+image: /assets/uploads/jason-goodman-oalh2mojuuk-unsplash.jpg
 ---
 Anyone who follows the public conversations about AI has heard claims about the technology’s potential to transform society. From those working in academia and industry to develop AI systems, to those in the public sector looking to apply AI to policy challenges, the aspirations for AI couldn’t be higher. 
 
