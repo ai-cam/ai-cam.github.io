@@ -11,6 +11,8 @@ category:
   - research-and-innovation
 image: /assets/uploads/brain-image.jpg
 ---
+Cambridge scientists have developed an artificially-intelligent tool capable of predicting in four cases out of five whether people with early signs of dementia will remain stable or develop Alzheimer’s disease.
+
 The team say this new approach could reduce the need for invasive and costly diagnostic tests while improving treatment outcomes early when interventions such as lifestyle changes or new medicines may have a chance to work best.
 
 Dementia poses a significant global healthcare challenge, affecting over 55 million people worldwide at an estimated annual cost of $820 billion. The number of cases is expected to almost treble over the next 50 years.
@@ -49,5 +51,5 @@ Professor Kourtzi added: “If we’re going to tackle the growing health challe
 
 This work was in collaboration with a cross-disciplinary team including Professor Peter Tino at the University of Birmingham and Professor Christopher Chen at the National University of Singapore. It was funded by Wellcome, the Royal Society, Alzheimer’s Research UK, the Alzheimer’s Drug Discovery Foundation Diagnostics Accelerator, the Alan Turing Institute, and the National Institute for Health and Care Research Cambridge Biomedical Research Centre.
 
-***Reference**\
+**\*Reference**\
 Lee, LY & Vaghari, D et al. [Robust and interpretable AI-guided marker for early dementia prediction in real-world clinical settings.](http://doi.org/10.1016/j.eclinm.2024.102725) eClinMed; 12 July 2024; DOI: 10.1016/j.eclinm.2024.102725*
