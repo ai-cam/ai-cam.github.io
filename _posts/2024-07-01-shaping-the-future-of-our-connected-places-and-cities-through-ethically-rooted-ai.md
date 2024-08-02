@@ -10,8 +10,6 @@ author: Dr Kwadwo Oti-Sarpong
 date: July 1, 2024 7:00 AM
 category:
   - ai-deas
-  - policy
-  - research-and-innovation
 image: /assets/uploads/picture-1.jpg
 ---
 **Hear from Dr Kwadwo Oti-Sarpong, who is leading ai@cam’s ground-breaking project designed to create a new roadmap for the ethical use of AI that will help shape the future of our connected places and cities.**
