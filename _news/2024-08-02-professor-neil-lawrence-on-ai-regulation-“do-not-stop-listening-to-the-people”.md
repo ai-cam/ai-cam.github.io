@@ -9,7 +9,7 @@ excerpt: As part of a new video series on the UK General Election from the
 date: July 30, 2024 12:00 AM
 category:
   - research-and-innovation
-image: /assets/uploads/neil-election.png
+image: /assets/uploads/neil-election1.jpg
 ---
 As part of a new video series on the UK General Election from the University of Cambridge. Prof Neil Lawrence, Chair for ai@cam, was asked what his message would be to the next Prime Minister. 
 
