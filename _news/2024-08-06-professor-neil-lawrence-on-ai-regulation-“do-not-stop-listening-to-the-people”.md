@@ -14,7 +14,7 @@ image: /assets/uploads/neil-election1.jpg
 ---
 
 
-![](/assets/uploads/neil-lawrence-450x500.jpg)
+![](/assets/uploads/neil-election-final.jpg)
 
 As part of a new video series on the UK General Election from the University of Cambridge, Prof Neil Lawrence, Chair for ai@cam, was asked what his message would be to the next Prime Minister on how to approach AI regulation.
 
