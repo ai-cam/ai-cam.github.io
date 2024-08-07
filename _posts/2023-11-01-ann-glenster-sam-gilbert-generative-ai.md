@@ -45,9 +45,3 @@ Ann Kristin Glenster is a Senior Policy Advisor on Technology Governance and Law
 *1 November 2023*
 
 *This post is a write up of an interview with Sam Gilbert, Bennett Institute, and Ann Kristin Glenster, Minderoo Centre for Technology and Democracy*
-
-
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_WyxSlIxu-8?si=mkPBQ-QaypJyU0KB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
