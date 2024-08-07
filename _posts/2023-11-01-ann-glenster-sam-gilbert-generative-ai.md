@@ -42,7 +42,12 @@ Ann Kristin Glenster is a Senior Policy Advisor on Technology Governance and Law
 
 **AKG:** The University plays a vital role in the transfer of knowledge from academia to the business community, regulators, lawmakers, and consumers. Its multidisciplinary expertise and empirical research can make vital contributions to facilitating AI literacy and in forming robust and accountable policies for responsible AI. With the right regulatory framework, informed by experts, AI has the power to make societies more prosperous and help humans flourish.
 
-
 *1 November 2023*
 
 *This post is a write up of an interview with Sam Gilbert, Bennett Institute, and Ann Kristin Glenster, Minderoo Centre for Technology and Democracy*
+
+
+
+
+
+https://www.youtube.com/watch?v=_WyxSlIxu-8
