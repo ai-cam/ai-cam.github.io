@@ -23,7 +23,7 @@ title: ai@cam
 description: >- # this means to ignore newlines until "baseurl:"
   ai@cam is the University of Cambridge’s mission to drive a new wave of AI innovation that delivers public value.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ai.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ai_cam_mission
 github_username: ai-cam
 permalinks: pretty
