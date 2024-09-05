@@ -10,7 +10,7 @@ category:
   - research-and-innovation
 image: /assets/uploads/michal-parzuchowski-bnvk1zqeajc-unsplash.jpg
 ---
-A new funding call has been announced under the ai@cam AI-deas scheme targeting research in AI for education and cultural heritage.  
+A new funding call has been announced under the ai@cam AI-deas scheme targeting research in AI for education and cultural heritage.
 
 The new funding call will build research collaborations and partnerships that can contribute to AI in these sectors, supported by ai@cam’s AI-deas incubator in collaboration with Accelerate Science.
 
