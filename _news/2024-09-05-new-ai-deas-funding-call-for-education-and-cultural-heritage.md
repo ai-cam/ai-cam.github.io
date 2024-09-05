@@ -2,16 +2,14 @@
 layout: news-single
 permalink: /news/:title
 title: New AI-deas funding call for education and cultural heritage
-excerpt: "A new funding call has been announced under the ai@cam AI-deas scheme
-  targeting research in AI for education and cultural heritage."
+excerpt: A new funding call has been announced under the ai@cam AI-deas scheme
+  targeting research in AI for education and cultural heritage.
 date: 2024-09-05
 category:
   - research-and-innovation
   - ai-deas
 image: /assets/uploads/michal-parzuchowski-bnvk1zqeajc-unsplash.jpg
 ---
-
-
 A new funding call has been announced under the ai@cam AI-deas scheme targeting research in AI for education and cultural heritage.
 
 The new funding call will build research collaborations and partnerships that can contribute to AI in these sectors, supported by ai@cam’s AI-deas incubator in collaboration with Accelerate Science.
@@ -28,9 +26,9 @@ If you would like to express interest in this call, please fill out the form [he
 
 For further information, please review the FAQs below.
 
-We will be holding an information and Q & A session on 19 September from 14:00 - 15:00, please sign up [here](https://cam-ac-uk.zoom.us/meeting/register/tZIpd-msrDovHdQZhJ3nS0O69N-m18PGBKLZ)  for the Zoom link.
+We will be holding an information and Q&A session on 19 September from 14:00 - 15:00, please sign up [here](https://cam-ac-uk.zoom.us/meeting/register/tZIpd-msrDovHdQZhJ3nS0O69N-m18PGBKLZ)  for the Zoom link. We're also exploring the possibility of holding a follow-up workshop for applicants on 31 October; you may wish to note this date in your diary.
 
-----
+- - -
 
 **Frequently Asked Questions**
 
@@ -44,9 +42,9 @@ We will be holding an information and Q & A session on 19 September from 14:00 -
 
 ***How will the process work?*** Today, we’re launching the first of a two-step process. We’re inviting expressions of interest with ideas for research that can addresses issues in educational and cultural heritage, and that helps advance ai@cam’s mission to create AI that serves science, citizens, and society. We are also seeking your input on how we can best support research through this call. The second step of this process will convene the community of researchers with shared interests in education and cultural heritage to help develop these ideas. The reason for working in two phases like this is to encourage collaboration: we know there is interest in AI from across the University, and world-leading expertise across departments, but it isn’t always easy to find collaborators, and we hope to facilitate this process. Full proposals will be invited following the workshop and we aim to announce successful projects in December 2024. The timeline for grants funded through this call will be confirmed, with all grants ending by 30 April 2026.
 
- ***I’m not a researcher at the University of Cambridge. Can I get involved?*** While this first stage of expressions of interest is focused on the research community within the University (including its museums and collections), we hope the resulting challenges will engage with external partners both in the UK and beyond. We’re particularly interested in engaging with communities affected by the development of AI and user groups with an interest in the design of AI systems.
+***I’m not a researcher at the University of Cambridge. Can I get involved?*** While this first stage of expressions of interest is focused on the research community within the University (including its museums and collections), we hope the resulting challenges will engage with external partners both in the UK and beyond. We’re particularly interested in engaging with communities affected by the development of AI and user groups with an interest in the design of AI systems.
 
- ***What kind of funding do you expect to offer?*** We have £150k to allocate to this call. Before deciding how to package these funds – for example, as small grants or a single challenge – we want to better understand the interests and needs of the Cambridge community. The application form seeks your view on this. We will provide further information to those who have expressed interest in the scheme in the autumn including details of a workshop to support teams in sharing their ideas and developing collaborations.
+***What kind of funding do you expect to offer?*** We have £150k to allocate to this call. Before deciding how to package these funds – for example, as small grants or a single challenge – we want to better understand the interests and needs of the Cambridge community. The application form seeks your view on this. We will provide further information to those who have expressed interest in the scheme in the autumn including details of a workshop to support teams in sharing their ideas and developing collaborations.
 
 ***What are the terms and conditions of funding?*** Funding will be deployable flexibly depending on the needs of the project. The amount of funding support available for projects will be confirmed at full proposal stage based on input from this EOI.  We will ask funding recipients to work with members of the ai@cam team to develop their projects, with a tailored support package from our interdisciplinary research incubator programme. We anticipate working with challenges developed in this round up to 30 April 2026, and for funds to be deployed over this period. There may also be times where we ask funding recipients to contribute to ai@cam and Accelerate Programme events and comms activities.
 
