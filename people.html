@@ -1,0 +1,73 @@
+---
+layout: 'page'
+title: 'People'
+permalink: /people/
+description: 'ai@cam’s mission is to drive a new wave of AI innovation that serves science, citizens, and society.'
+image: '/assets/images/social.jpeg'
+---
+
+{% assign hero = site.data.team.hero %}
+<section class="block block__hero block__hero--standard" id="hero">
+
+  <div class="hero__shape">
+    <img alt="" src="../assets/images/team-bg.svg"/>
+  </div>
+
+  <div class="container">
+    <div class="hero__content">
+      {% if hero.heading != nil and hero.heading != '' %}
+        <h1>{{ hero.heading }}</h1>
+      {% endif %}
+
+      {% if hero.content != nil and hero.content != '' %}
+        {{ hero.content | markdownify }}
+      {% endif %}
+
+      {% if hero.buttons != nil and hero.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in hero.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if hero.image != nil and hero.image != '' %}
+      <div class="hero__image">
+        <img alt="" src="{{ hero.image }}"/>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="block block__team">
+  <div class="container">
+    <div class="team__selector">
+      <button class="active" data-id="people">People</button>
+    </div>
+
+    {% assign team_entries = site.researchers %}
+    {% assign filtered_team_entries = team_entries  %}
+    
+    <div class="team__grid team__grid--leadership active">
+      {% for post in filtered_team_entries %}
+      <a href="{{ post.url }}" class="team__member">
+        <div class="team__member-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="team__member-content">
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.position }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
