@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: C2D3 ECR and student conference 2024
-start: 2024-09-23 09:00
+start: 2024-09-23 06:27
 end: 2024-09-23 14:00
 category:
   - events
