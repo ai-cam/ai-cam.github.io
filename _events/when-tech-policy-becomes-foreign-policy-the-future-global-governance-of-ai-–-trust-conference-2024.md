@@ -2,8 +2,8 @@
 layout: event-single
 title: "When tech policy becomes foreign policy: the future global governance of
   AI – Trust Conference 2024"
-start: 2024-10-22 00:00
-end: 2024-10-23 00:00
+start: 2024-10-22 09:00
+end: 2024-10-23 17:00
 category:
   - policy
 image: /assets/uploads/trust-conference-2024-e1725984423888.png
