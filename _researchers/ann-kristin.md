@@ -1,8 +1,8 @@
 ---
 layout: person
 title: Dr
-given: Glenster
-family: Ann Kristin
+given: "Ann Kristin "
+family: Glenster
 department: Minderoo Centre for Technology and Democracy
 job_title: Senior Policy Adviser
 biography: >-
