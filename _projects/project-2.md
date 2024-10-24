@@ -20,3 +20,7 @@ The buses will host the Kavli Centre’s [Hopes and Fears Lab](https://www.kces
 In Cambridge, when people jump on board, they will be asked if they have a particular topic they’d like to discuss and will then be introduced to one of the AI researchers for a 15-minute conversation. The main themes for discussion will centre on topics that directly affect our everyday life including AI and work, AI and creativity, AI and health, AI and education, and AI and security.
 
 The Lab will come to London on 1 November at the Living Centre, where members of[ Connected by Data](https://connectedbydata.org)'s Citizen's Panel on the AI Summit will join discussions. The Panel will deliberate across the week of the Summit, reviewing discussions at the Fringe and outputs from the Summit itself, giving a view on how AI policy could better serve public interests.
+
+
+
+\[Download PDF](assets/uploads/2024-ai-cam-annual-report.pdf)
