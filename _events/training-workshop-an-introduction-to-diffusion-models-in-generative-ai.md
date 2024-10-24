@@ -5,7 +5,7 @@ start: 2024-11-06 09:30
 end: 2024-11-06 17:00
 category:
   - events
-image: /assets/uploads/picture-1-language-equity.jpg
+image: /assets/uploads/screenshot-2024-10-24-at-22.41.00.png
 ---
 \
 With the increase in AI-generated imagery using models such as Dall-E, Midjourney and Sora and research applications such as AlphaFold, there has been a surge in workflows incorporating models like Stable Diffusion. These models have potential in research applications including drug discovery, weather forecasting, synthetic speech and medical imaging.
