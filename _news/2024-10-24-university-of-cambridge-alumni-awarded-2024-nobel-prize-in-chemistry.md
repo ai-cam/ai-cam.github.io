@@ -11,6 +11,8 @@ category:
   - research-and-innovation
 image: /assets/uploads/nobel-prize.jpg
 ---
+Two University alumni, Sir Demis Hassabis and Dr John Jumper, have been jointly awarded this year’s Nobel Prize in Chemistry for developing an AI model to solve a 50-year-old problem: predicting the complex structures of proteins.
+
 In 2020, Hassabis and Jumper of Google DeepMind presented an AI model called AlphaFold2. With its help, they have been able to predict the structure of virtually all the 200 million proteins that researchers have identified.
 
 Since their breakthrough, AlphaFold2 has been used by more than two million people from 190 countries. Among a myriad of scientific applications, researchers can now better understand antibiotic resistance and create images of enzymes that can decompose plastic.
