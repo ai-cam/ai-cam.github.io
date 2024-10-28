@@ -13,7 +13,7 @@ category:
   - dialogue
 image: /assets/uploads/ai-for-public-dialgoue.jpeg
 ---
-A new ai@cam report sets out the guardrails needed to increase democratic control over the use of AI in public services in the UK.
+**A new ai@cam report sets out the guardrails needed to increase democratic control over the use of AI in public services in the UK.**
 
 Last month ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI in delivering the Missions for Government, focusing on crime and policing, education, energy and net zero, and health.
 
