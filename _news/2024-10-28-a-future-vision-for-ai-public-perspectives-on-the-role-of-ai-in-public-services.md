@@ -11,7 +11,7 @@ date: October 28, 2024 12:00 AM
 category:
   - policy
   - dialogue
-image: /assets/uploads/ai-885.png
+image: /assets/uploads/ai-for-public-dialgoue.jpeg
 ---
 A new ai@cam report sets out the guardrails needed to increase democratic control over the use of AI in public services in the UK.
 
