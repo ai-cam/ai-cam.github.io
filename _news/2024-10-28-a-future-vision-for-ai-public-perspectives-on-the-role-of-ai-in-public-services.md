@@ -39,4 +39,4 @@ Jessica Montgomery, Director of ai@cam, said: “We need new ways of centring so
 
 Prof Neil Lawrence, Chair for ai@cam, said: “The challenge for the next wave of AI development is to create meaningful, real-world benefits for individuals, communities, and society. Giving people the confidence that the voice is not only important but heard allows us to build the bridges between organisations and communities that can drive real progress in AI research.”
 
-[R﻿ead the report here.](</﻿assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf>)
+[R﻿ead the report here.](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)
