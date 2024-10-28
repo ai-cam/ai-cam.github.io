@@ -8,6 +8,7 @@ category:
   - policy
   - dialogue
 image: /assets/uploads/img_0072.jpg
+related: dialogue
 researchers:
   - neil-lawrence
   - jessica-montgomery
