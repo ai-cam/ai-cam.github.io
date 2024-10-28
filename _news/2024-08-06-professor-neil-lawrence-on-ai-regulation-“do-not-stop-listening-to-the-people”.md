@@ -10,6 +10,7 @@ excerpt: As part of a new video series on the UK General Election from the
 date: July 8, 2024 12:00 AM
 category:
   - research-and-innovation
+  - dialogue
 image: /assets/uploads/neil-election1.jpg
 ---
 
