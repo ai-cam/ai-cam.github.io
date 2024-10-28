@@ -32,10 +32,9 @@ Findings suggest a roadmap that can help policymakers steward the development of
 
 •	Robust security systems to prevent cyber threats and fraud involving AI.
 
-
 Participants were clear that AI should not be used to replace, or be seen as a substitute for, human contact.  A shared desire amongst the participants was to see AI deployed in support of human decision-making, or with human oversight. At a time when many public services are over stretched, many participants agreed that there was an opportunity for AI to reduce the time required for administrative tasks, particularly in the NHS, allowing frontline staff to spend more time with patients and those in their care. It was noted, however, that service users and staff needed to be at forefront of discussions around the implementation of AI tools within public services and activity engaged throughout the decision-making process. 
 
-Mo Vali, Researcher at the University of Cambridge, said: “The discussions today highlighted clearly that participants did not want to lose that human-to-human interaction when engaging with public services. It is crucial we do not underestimate the value we place on personalised, sensitive and individual human interaction, especially when it comes to our teachers, nurses, and doctors.” 
+[Mo Vali](https://www.cst.cam.ac.uk/people/mv487), Researcher at the University of Cambridge, said: “The discussions today highlighted clearly that participants did not want to lose that human-to-human interaction when engaging with public services. It is crucial we do not underestimate the value we place on personalised, sensitive and individual human interaction, especially when it comes to our teachers, nurses, and doctors.” 
 
 Jessica Montgomery, Director of ai@cam, said: “We need new ways of centring social interests and needs in policy and technology development around AI. Engaging the public in a conversation about our shared vision for AI technologies plays an important role in connecting advances in technology and policy to public benefit. The report published today contributes to a growing body of evidence about the interventions that the public want to see to steward the development of AI. Now it is our time to respond.”
 
