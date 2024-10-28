@@ -69,7 +69,9 @@
           </div>
         </section>
 	{% endif %}
+	
 	{% if page.related != nil %}
+	{% if page.related != "none" %}
 	<section class="block block--bg-pink block__posts">
 	  <div class="container">
 	    <div class="posts__intro">
@@ -141,6 +143,7 @@
 	    </div>
 	  </div>
 	</section>
+	{%endif%}
 	{%endif%}	
     </main>
     {% include site-footer.html %}

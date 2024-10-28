@@ -2178,26 +2178,12 @@ collections:
         widget: "select"
         multiple: true
         options:
-          - {
-              label: "Research and innovation",
-              value: "research-and-innovation",
-            }
-          - {
-              label: "AI-deas",
-              value: "ai-deas",
-            }
-          - {
-              label: "Events",
-              value: "events",
-            }
-          - {
-              label: "Policy",
-              value: "policy",
-            }
-          - {
-              label: "Education",
-              value: "education",
-            }
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Dialogue", value: "dialogue" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
         name: "image"
         widget: "image"
@@ -2524,13 +2510,13 @@ collections:
         widget: "select"
         name: "related"
         options:
+          - { label: "None", value: "none" }
           - { label: "AI deas", value: "ai-deas" }
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
           - { label: "Dialogue", value: "dialogue" }
-          - { label: "Research & Innovation", value: "research-and-innovation" }
-        
+          - { label: "Research & Innovation", value: "research-and-innovation" }        
       - label: "Researchers"
         name: "researchers"
         widget: "relation"
