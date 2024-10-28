@@ -12,6 +12,7 @@ author: Jess Montgomery
 date: October 26, 2024 12:00 AM
 category:
   - policy
+  - dialogue
 image: /assets/uploads/154937-ouy119-839-copy.jpg
 ---
 ai@cam’s mission is to catalyse a new wave of AI innovation that serves science, citizens, and society. We want to build bridges between technology development and societal need, so that advances in our technical capabilities in AI translate into wider public benefit. Understanding public views on AI is vital to delivering that mission. 

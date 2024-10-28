@@ -9,6 +9,7 @@ date: October 26, 2023 12:00 AM
 category:
   - events
   - policy
+  - dialogue
 image: /assets/uploads/img_0072.jpg
 ---
 #### **Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss their hopes and fears about the increasing use of artificial intelligence (AI) in our lives.**
