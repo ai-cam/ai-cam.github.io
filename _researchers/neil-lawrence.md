@@ -4,7 +4,7 @@ title: " Professor"
 given: Neil
 family: Lawrence
 department: Department of Computer Science and Technology
-job_title: Chair for ai@cam
+job_title: Chair, ai@cam
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge where he leads the University’s flagship
   mission on AI, AI@Cam. He has been working on machine learning models for over
