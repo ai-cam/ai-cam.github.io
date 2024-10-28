@@ -80,13 +80,13 @@
 	      
 	      {% comment %}Collect all posts and news with dialogue category{% endcomment %}
 	      {% for post in site.posts %}
-              {% if post.categories contains "dialogue" %}
+              {% if post.categories contains page.related %}
               {% assign combined_entries = combined_entries | push: post %}
               {% endif %}
 	      {% endfor %}
 	      
 	      {% for news in site.news %}
-              {% if news.categories contains "dialogue" %}
+              {% if news.categories contains page.related %}
               {% assign combined_entries = combined_entries | push: news %}
               {% endif %}
 	      {% endfor %}
