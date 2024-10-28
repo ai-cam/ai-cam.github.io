@@ -35,9 +35,9 @@
 
       <section class="block block--no-padding-top block__posts">
         <div class="container">
-          {% if paginator.posts.size > 0 %}
+          {% if paginator.projects.size > 0 %}
             <div class="posts__grid">
-              {% for post in paginator.posts %}
+              {% for post in paginator.projects %}
                 <a class="posts__item" href="{{ post.url }}">
                   <div class="posts__item-thumbnail">
                     {% if post.image != nil %}
@@ -55,7 +55,7 @@
               {% endfor %}
             </div>
           {% else %}
-            <h4>Apologies, there are no posts that can be found.</h4>
+            <h4>Apologies, there are no projects that can be found.</h4>
           {% endif %}
           
           {% if paginator.total_pages > 1 %}
