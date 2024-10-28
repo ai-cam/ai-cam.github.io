@@ -9,12 +9,12 @@ category:
   - policy
 image: /assets/uploads/picture-1.jpg
 researchers:
-  - Diane Coyle
-  - Sam Gilbert
-  - Ann Kristin Glenster
-  - Neil Lawrence
-  - Jessica Montgomery
-  - Gina Neff
+  - diane-coyle
+  - sam-gilbert
+  - ann-kristin-glenster
+  - neil-lawrence
+  - jessica-montgomery
+  - gina-neff
 ---
 The rapid rollout of generative AI models, and public attention to Open AI’s ChatGPT, has raised concerns about AI’s impact on the economy and society. In the UK, policy makers are looking to large language models and other so-called foundation models as ways to potentially improve economic productivity.
 
