@@ -10,4 +10,4 @@ researchers:
   - jessica-montgomery
 ---
 
-This was a public dialogue we did.
+A new ai@cam report sets out the guardrails needed to increase democratic control over hte use of AI in public services in the UK.
