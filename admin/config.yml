@@ -2521,6 +2521,7 @@ collections:
         name: "body"
         widget: "markdown"
       - label: "Related Posts"
+        widget: "select"
         name: "related"
         options:
           - { label: "AI deas", value: "ai-deas" }
