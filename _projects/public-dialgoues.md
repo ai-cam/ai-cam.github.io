@@ -9,3 +9,5 @@ researchers:
   - neil-lawrence
   - jessica-montgomery
 ---
+
+This was a public dialogue we did.
