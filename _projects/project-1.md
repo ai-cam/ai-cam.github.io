@@ -8,6 +8,7 @@ excerpt: The rapid rollout of generative AI models, and public attention to Open
 category:
   - policy
 image: /assets/uploads/picture-1.jpg
+related: policy
 researchers:
   - diane-coyle
   - sam-gilbert

@@ -12,6 +12,4 @@ researchers:
   - jessica-montgomery
   - elinor-pegler
 ---
-
 A new ai@cam report sets out the guardrails needed to increase democratic control over hte use of AI in public services in the UK.
-
