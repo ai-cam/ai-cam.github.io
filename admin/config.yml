@@ -2129,6 +2129,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
         name: "image"
@@ -2245,6 +2246,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Description"
         name: "desc"
@@ -2510,6 +2512,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
         name: "image"
@@ -2517,6 +2520,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Related Posts"
+        name: "related"
+        options:
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Dialogue", value: "dialogue" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
+        
       - label: "Researchers"
         name: "researchers"
         widget: "relation"
