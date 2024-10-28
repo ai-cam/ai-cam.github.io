@@ -1,8 +1,8 @@
 ---
 layout: news-single
 permalink: /news/:title
-title: "A future vision for AI: public perspectives on the role of AI in public
-  services"
+title: "A future vision for AI: public perspectives on the role of AI and the
+  Missions for Government "
 excerpt: Last month ai@cam convened public dialogue workshops in Liverpool and
   Cambridge to better understand public perspectives on the role of AI in
   delivering the Missions for Government, focusing on crime and policing,
