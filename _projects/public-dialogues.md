@@ -35,6 +35,10 @@ Participants in this dialogue called for:
 * Data sharing regulation that protects privacy, while enabling the use of data to deliver public benefit.
 * Robust security systems to prevent cyber threats and fraud involving AI.
 
+The findings from our dialogues offer insights into a future vision for the use of AI in public services in the UK. They suggest a roadmap that can support policymakers in stewarding the development of AI technologies and we hope this work informs a continuing conversation about how we can drive AI innovations that deliver widespread public benefit.
+
+We would like to thank all our project collaborators including those from University of Cambridge, University of Liverpool, University of Manchester, and King’s College London, Hopkins Van Mil and the time and insights from our public participants.
+
 R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joY2fcWyYro?si=3Xa5rraAjiG-fVER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
