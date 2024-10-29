@@ -45,4 +45,12 @@ R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-r
 
 
 
+
+
+![](/assets/uploads/public-resized.jpg)
+
+
+
+
+
 ![](/assets/uploads/public-dialogue-1.jpg)
