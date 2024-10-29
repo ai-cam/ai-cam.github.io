@@ -16,6 +16,8 @@ researchers:
 ---
 #### In September 2024, ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI.
 
+![](/assets/uploads/resized-1.jpg)
+
 As part of a collaboration between ai@cam and the [Kavli Centre for Ethics, Science, and the Public](https://www.kcesp.ac.uk/), 40 members of the public took part in two workshops in Liverpool and Cambridge to discuss their aspirations for AI in public services and the interventions needed to shape its development. 
 
 Designed and delivered by the specialist social research agency [Hopkins Van Mil](https://www.hopkinsvanmil.co.uk/), these dialogues set out to understand public perspectives on the role of AI in delivering priority policy agendas connected to four of Labour’s [Missions for Government:](https://labour.org.uk/change/mission-driven-government/) crime and policing, education, health, and energy and net zero.
