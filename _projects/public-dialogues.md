@@ -28,17 +28,12 @@ The report outlines the opportunities for AI to improve people’s interactions 
 
 Participants in this dialogue called for:
 
-• Further transparency around where and how AI is being used, supported by education and public information initiatives that help build understanding of AI.\
-
-• Governance that ensures public benefit is the guiding principle for the use of AI in any public services, backed up by powers to prevent profit being prioritised over service quality.\
-
-• Independent regulatory bodies that are equipped with the power to influence how and where AI is used, and that can take action to prevent misuse.\
-
-• Collaborative and user-centred design practices that centre user need in AI development, and that take action to remove bias and improve reliability.\
-
-• Data sharing regulation that protects privacy, while enabling the use of data to deliver public benefit.\
-
-• Robust security systems to prevent cyber threats and fraud involving AI.
+* Further transparency around where and how AI is being used, supported by education and public information initiatives that help build understanding of AI.
+* Governance that ensures public benefit is the guiding principle for the use of AI in any public services, backed up by powers to prevent profit being prioritised over service quality.
+* Independent regulatory bodies that are equipped with the power to influence how and where AI is used, and that can take action to prevent misuse.
+* Collaborative and user-centred design practices that centre user need in AI development, and that take action to remove bias and improve reliability.
+* Data sharing regulation that protects privacy, while enabling the use of data to deliver public benefit.
+* Robust security systems to prevent cyber threats and fraud involving AI.
 
 R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)
 
