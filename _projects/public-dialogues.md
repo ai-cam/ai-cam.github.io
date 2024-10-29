@@ -16,9 +16,11 @@ researchers:
 ---
 #### In September 2024, ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI in delivering the Missions for Government, focusing on crime and policing, education, energy and net zero, and health.
 
+As part of a collaboration between ai@cam and the Kavli Centre for Ethics, Science, and the Public, 40 members of the public took part in two workshops in Liverpool and Cambridge to discuss their aspirations for AI in public services and the interventions needed to shape its development. 
 
+Designed and delivered by the specialist social research agency Hopkins Van Mil, these dialogues set out to understand public perspectives on the role of AI in delivering priority policy agendas connected to four of Labour’s Missions for Government: crime and policing, education, health, and energy and net zero.
 
-A new ai@cam report sets out the guardrails needed to increase democratic control over hte use of AI in public services in the UK.
+Along with AI experts from the University of Cambridge, University of Liverpool, King’s College London, and University of Manchester, public participants were divided into smaller groups dedicated to one of the four government missions. Guided by a prepared list of discussion topics and supported by an AI expert, participants considered the guardrails and possible interventions needed to ensure AI delivers public benefit.
 
 R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)
 
