@@ -22,6 +22,26 @@ Designed and delivered by the specialist social research agency Hopkins Van Mil,
 
 Along with AI experts from the University of Cambridge, University of Liverpool, King’s College London, and University of Manchester, public participants were divided into smaller groups dedicated to one of the four government missions. Guided by a prepared list of discussion topics and supported by an AI expert, participants considered the guardrails and possible interventions needed to ensure AI delivers public benefit.
 
+Findings from those conversations have been revealed today in a new ai@cam report that gives the first analysis of how the public think that AI could help deliver the Missions for Government. 
+This report outlines the opportunities for AI to improve people’s interactions with public services and shows there are growing demands for governance that centres public benefit and interests in AI development and use.
+
+
+Participants in this dialogue called for:
+
+• Further transparency around where and how AI is being used, supported by education and public information initiatives that help build understanding of AI.\
+
+• Governance that ensures public benefit is the guiding principle for the use of AI in any public services, backed up by powers to prevent profit being prioritised over service quality.\
+
+• Independent regulatory bodies that are equipped with the power to influence how and where AI is used, and that can take action to prevent misuse.\
+
+• Collaborative and user-centred design practices that centre user need in AI development, and that take action to remove bias and improve reliability.\
+
+• Data sharing regulation that protects privacy, while enabling the use of data to deliver public benefit.\
+
+• Robust security systems to prevent cyber threats and fraud involving AI.
+
+
+
 R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joY2fcWyYro?si=3Xa5rraAjiG-fVER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
