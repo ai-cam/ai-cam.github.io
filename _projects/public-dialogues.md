@@ -14,7 +14,7 @@ researchers:
   - jessica-montgomery
   - elinor-pegler
 ---
-#### In September 2024, ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI in delivering the Missions for Government, focusing on crime and policing, education, energy and net zero, and health.
+#### In September 2024, ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI.
 
 As part of a collaboration between ai@cam and the Kavli Centre for Ethics, Science, and the Public, 40 members of the public took part in two workshops in Liverpool and Cambridge to discuss their aspirations for AI in public services and the interventions needed to shape its development. 
 
