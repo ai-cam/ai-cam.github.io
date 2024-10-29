@@ -41,6 +41,6 @@ The findings from our dialogues offer insights into a future vision for the use 
 
 We would like to thank all our project collaborators including those from University of Cambridge, University of Liverpool, University of Manchester, and King’s College London, Hopkins Van Mil and the time and insights from our public participants.
 
-**R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)**
+**R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report.pdf)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/joY2fcWyYro?si=3Xa5rraAjiG-fVER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
