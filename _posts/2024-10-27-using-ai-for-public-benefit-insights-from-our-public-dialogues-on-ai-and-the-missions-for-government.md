@@ -33,4 +33,6 @@ The report we’re now publishing contributes to a growing body of evidence abou
 
 Cambridge University is an engine for AI innovation and a steward of innovation. We can play a role in connecting these public conversations about AI into upstream technology development, and into live policy debates. ai@cam will be integrating insights from these dialogues into the next phase of our work. In the near-term, we’ll be using these findings to inform our Policy Lab activities. In the longer-term, we’re looking at how we can create a platform for continuing these conversations between publics, policymakers, and researchers about our future vision for AI, and how to deliver it. For now, we’d like to thank all of the participants in September’s dialogue sessions for their time and energy.
 
+**R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report-with-appendix-v5-.pdf)**
+
 *Jess Montgomery is Director of ai@cam at the University of Cambridge.*
