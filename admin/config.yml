@@ -1967,8 +1967,6 @@ collections:
           - label: "People"
             name: "people"
             collapsed: true
-            identifier_field: slug
-            slug: '{{given}}-{{family}}'
             widget: "object"
             fields:
               - label: "Heading"
@@ -2367,9 +2365,9 @@ collections:
     name: "people"
     folder: "_people"
     create: true
+    slug: '{{given}}-{{family}}'
     output: true
-    slug: "{{slug}}"
-    identifier_field: "family"
+    identifier_field: slug
     editor:
       preview: false
     fields:
@@ -2381,14 +2379,32 @@ collections:
         name: "title"
         widget: "string"
         required: true
-      - label: "Given"
-        name: "given"
-        widget: "string"
-        required: true
-      - label: Family
-        name: "family"
-        required: true
+      - label: Given Name
+        hint: "Include initials, e.g. Neil D."
+        name: given
         widget: string
+      - label: Preferred Name
+        hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
+        name: preferred
+        required: false
+        widget: string
+      - label: Family Name
+        name: family
+        widget: string
+      - label: Prefix
+        hint: Prefix of family name (e.g. de, von, van)
+        name: prefix
+        required: false
+        widget: string
+      - label: Suffix
+        hint: "Suffix of family name (e.g. III or Jr)."
+        name: suffix
+        required: false
+        widget: string
+      - label: "Cambridge crsid"
+        hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
+        name: 'crsid'
+        widget: 'string'
       - label: "Department"
         name: "department"
         widget: "string"
@@ -2427,10 +2443,6 @@ collections:
         required: false
       - label: "Scholar"
         name: "scholar"
-        widget: "string"
-        required: false
-      - label: "CRSID"
-        name: "crsid"
         widget: "string"
         required: false
       - label: "ORCID"
