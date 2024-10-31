@@ -2367,7 +2367,7 @@ collections:
     create: true
     slug: '{{given}}-{{family}}'
     output: true
-    identifier_field: '{{given}}-{{family}}'
+    identifier_field: '{{fileds.given}}-{{fields.family}}'
     editor:
       preview: false
     fields:
