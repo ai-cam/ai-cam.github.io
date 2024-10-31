@@ -1963,10 +1963,12 @@ collections:
                       widget: image,
                       required: false,
                     }
-          # Researchers
-          - label: "Researchers"
-            name: "researchers"
+          # People
+          - label: "People"
+            name: "people"
             collapsed: true
+            identifier_field: slug
+            slug: '{{given}}-{{family}}'
             widget: "object"
             fields:
               - label: "Heading"
@@ -2360,10 +2362,10 @@ collections:
         widget: "string"
         required: false
 
- # Researchers Collection (No Single)
-  - label: "Researchers"
-    name: "researchers"
-    folder: "_researchers"
+ # People Collection (No Single)
+  - label: "People"
+    name: "people"
+    folder: "_people"
     create: true
     output: true
     slug: "{{slug}}"
@@ -2517,10 +2519,10 @@ collections:
           - { label: "Policy", value: "policy" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }        
-      - label: "Researchers"
-        name: "researchers"
+      - label: "People"
+        name: "people"
         widget: "relation"
-        collection: "researchers"
+        collection: "people"
         search_fields: ["title", "given", "family"]
         value_field: "{{slug}}"
         display_fields: ["{{given}}-{{family}}"]
