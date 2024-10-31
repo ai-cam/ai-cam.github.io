@@ -22,12 +22,12 @@ slider:
         innovation programmes that leverage world- leading research from across
         the University and connect this to real-world needs.
       image: /assets/uploads/placeholder-2.jpg
-researchers:
+people:
   content: Cambridge University hosts a vibrant community of over 12,000 staff
     across over 150 Departments. Researchers across disciplines are engaged in
     developing, deploying, and understanding the impact of AI technologies. Find
     out more about members of our AI research community here.
-  heading: Research community
+  heading: Our community
 media_text:
   heading: Are you working on AI at Cambridge University?
   content: "In such a dynamic field, it isn't easy to keep our researcher database
