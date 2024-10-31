@@ -2367,10 +2367,14 @@ collections:
     create: true
     slug: '{{given}}-{{family}}'
     output: true
-    identifier_field: '{{fields.given}}-{{fields.family}}'
+    identifier_field: 'full_name'
     editor:
       preview: false
     fields:
+      - label: "Full Name"
+        name: "full_name"
+        widget: "hidden"
+        default: '{{given}} {{family}}'      
       - label: "Layout"
         name: "layout"
         widget: "hidden"
