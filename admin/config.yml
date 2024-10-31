@@ -2402,9 +2402,10 @@ collections:
         required: false
         widget: string
       - label: "Cambridge crsid"
-        hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
+        hint: "E.g. ads21. If an individual doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
         name: 'crsid'
         widget: 'string'
+        required: false
       - label: "Department"
         name: "department"
         widget: "string"
