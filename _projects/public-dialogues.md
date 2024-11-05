@@ -43,4 +43,4 @@ We would like to thank all our project collaborators including those from Univer
 
 **R﻿ead the [AI Public Dialogue Report](/assets/uploads/ai-cam-public-dialogue-report.pdf)**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/joY2fcWyYro?si=3Xa5rraAjiG-fVER" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rzL_IW_knWI?si=AK0P0GuWto-NNTb5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
