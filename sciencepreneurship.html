@@ -4,10 +4,10 @@ title: 'AI Sciencepreneurship'
 permalink: /sciencepreneurship/
 description: Fostering a pan-European network of AI incubators that supports sciencepreneurship education and open source innovation.
 image: '/assets/images/business.jpeg'
-filter: policy
+filter: sciencepreneurship
 ---
 
-{% assign hero = site.data.policy_lab.hero %}
+{% assign hero = site.data.sciencepreneurship.hero %}
 <section class="block block__hero block__hero--standard" id="hero">
 
   <div class="hero__shape">
@@ -43,7 +43,7 @@ filter: policy
   </div>
 </section>
 
-{% assign text_split = site.data.policy_lab.text_split %}
+{% assign text_split = site.data.sciencepreneurship.text_split %}
 <section class="block block__text block__text--split">
   <div class="container">
     {% if text_split.heading != nil and text_split.heading != '' %}
@@ -68,7 +68,7 @@ filter: policy
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
-        {% if post.category contains 'policy' %}
+        {% if post.category contains 'sciencepreneurship' %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image != nil %}
@@ -130,8 +130,8 @@ filter: policy
       </div>
     {% endif %}
     <div class="latest-overview__column latest-overview__column--reseach">
-      <h3>Policy Blogs</h3>
-      {% assign blog_entries = site.posts | filter_by_category: 'policy' | sort: 'date' | reverse %}
+      <h3>Sciencepreneurship Blogs</h3>
+      {% assign blog_entries = site.posts | filter_by_category: 'sciencepreneurship' | sort: 'date' | reverse %}
       {% for post in blog_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
@@ -153,8 +153,8 @@ filter: policy
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
-      <h3>Policy News</h3>
-      {% assign news_entries = site.news | filter_by_category: 'policy' | sort: 'date' | reverse %}
+      <h3>Sciencepreneurship News</h3>
+      {% assign news_entries = site.news | filter_by_category: 'sciencepreneurship' | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
@@ -178,8 +178,8 @@ filter: policy
     
     
     <div class="latest-overview__column latest-overview__column--events">
-      <h3>Upcoming Policy Events</h3>
-      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'policy'  %} <!--| sort: "start" %}-->
+      <h3>Upcoming Sciencepreneurship Events</h3>
+      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'sciencepreneurship'  %} <!--| sort: "start" %}-->
       
       {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents limit: 3 %}

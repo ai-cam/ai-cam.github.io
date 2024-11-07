@@ -2208,6 +2208,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
@@ -2261,6 +2262,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
@@ -2311,6 +2313,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Description"
@@ -2596,6 +2599,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
       - label: "Featured Image"
@@ -2613,6 +2617,7 @@ collections:
           - { label: "Education", value: "education" }
           - { label: "Events", value: "events" }
           - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }        
       - label: "People"
