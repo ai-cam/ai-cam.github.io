@@ -1,6 +1,7 @@
 hero:
-  heading: Policy Lab
-  content: Informing national and international dialogues about the future of AI
+  heading: AI Sciencepreneurship
+  content: Building a network of European AI and Science incubators
+  image: /assets/uploads/business.jpeg
 text_split:
   heading: Access to trustworthy information and insights to inform public
     conversations and policy debates about AI is more important than ever.
