@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: NeuRIPS meetup at Cambridge
+title: NeurIPS meetup at Cambridge
 start: 2024-12-06 10:00
 end: 2024-12-06 19:00
 category:
