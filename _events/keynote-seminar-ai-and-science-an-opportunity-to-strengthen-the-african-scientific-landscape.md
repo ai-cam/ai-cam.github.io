@@ -7,9 +7,9 @@ end: 2024-11-26 18:30
 category:
   - events
 desc: "\n "
-image: /assets/uploads/ai-cam-seminar-dr-ciira-wa-maina.png
+image: /assets/uploads/ai-cam-seminar-dr-ciira-wa-maina-plain.png
 ---
-**Organiser**:ai@cam
+**Organiser**: ai@cam
 
 **Location:** Yusuf Hamied Theatre, Christs College, St Andrew's Street, Cambridge CB2 3BU
 
@@ -17,9 +17,7 @@ image: /assets/uploads/ai-cam-seminar-dr-ciira-wa-maina.png
 
 **Title**: AI and Science: An opportunity to strengthen the African scientific landscape
 
-Join us for a keynote seminar on **AI and Science: An opportunity to strengthen the African scientific landscape** with Dr Ciira Maina (Director of the  [Centre for Data Science and Artificial Intelligence](https://dsail.dkut.ac.ke), and Associate Professor at Dedan Kimathi University of Technology, Nyeri, Kenya)  on **Tuesday the 26th of November from 16.30 – 17.30** (followed by a networking reception) at Christs College. If you would like to attend please register via the [google form.](https://forms.gle/hPcfDvk8sGhDjSbeA) 
-
-
+Join us for a keynote seminar on AI and Science: An opportunity to strengthen the African scientific landscape with Dr Ciira Maina (Director of the  [Centre for Data Science and Artificial Intelligence](https://dsail.dkut.ac.ke), and Associate Professor at Dedan Kimathi University of Technology, Nyeri, Kenya)  on Tuesday the 26th of November from 16.30 – 17.30 (followed by a networking reception) at Christs College. If you would like to attend please register via the [google form.](https://forms.gle/hPcfDvk8sGhDjSbeA) 
 
 #### **Biography**
 
