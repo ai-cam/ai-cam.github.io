@@ -1,7 +1,7 @@
 ---
 layout: person
 title: Mr
-given: Ongar
+given: Onkar
 family: Gulati
 department: Department of Computer Science and Technology
 job_title: PhD Candidate
