@@ -10,7 +10,7 @@ link_to: https://www.neuripsmeetupatcambridge.info/home
 ---
 **Organiser**: ai@cam
 
-**Location:** William Gates Bulding, Dept of Computer Science and Technology, Lecture Theatre 1, 15 JJ Thomson Avenue, Cambridge CB3 0FD
+**Location:** William Gates Building, Dept of Computer Science and Technology, Lecture Theatre 1, 15 JJ Thomson Avenue, Cambridge CB3 0FD
 
 Registration for the NeurIPS meetup@Cambridge on Friday 6 December (10.00 - 19.00) is now open.  Hosted by ai@cam, the aim of this meetup is to bring students, researchers, and engineers from the greater Cambridge area (UK) together for an opportunity to meet and discuss the machine learning research presented at NeurIPS.  We also want to provide an opportunity for researchers to promote their work and meet people from their local community. The day will feature poster and panel sessions and in-person presentations. Further details on the event can be found on the [NeurIPSmeetup@Cambridge webpage](https://www.neuripsmeetupatcambridge.info/home).
 
