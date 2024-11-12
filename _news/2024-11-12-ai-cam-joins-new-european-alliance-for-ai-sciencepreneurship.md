@@ -12,13 +12,13 @@ image: /assets/uploads/ellias-node.png
 ---
 ai@cam, Cambridge University’s flagship mission on artificial intelligence, has been announced as one of eight inaugural ELIAS Nodes at the Falling Walls AI Night, held in Berlin, Germany. 
 
-The ELIAS Alliance for European Leadership in Innovation with AI and Science launched the ELIAS Nodes to connect academia with business & inspire a new generation of AI&Science value creators. The new hubs in Cambridge, Amsterdam, Barcelona, Copenhagen, Munich, Potsdam, Tübingen & Zurich will foster AI innovation, connect academia with business & inspire a new generation of AI & Science value creators.
+The [ELIAS Alliance](https://elias-ai.eu/elias-alliance/) for European Leadership in Innovation with AI and Science launched the ELIAS Nodes to connect academia with business & inspire a new generation of AI & Science value creators. The new hubs in Cambridge, Amsterdam, Barcelona, Copenhagen, Munich, Potsdam, Tübingen & Zurich will foster AI innovation, connect academia with business & inspire a new generation of AI & Science value creators.
 
 Each ELIAS node will operate as an entrepreneurial hub, leveraging the unique strengths and ecosystems of its location, and creating new possibilities for students to earn their degrees with innovation-centric research projects. The hubs will establish a network of startups and incubators and collaborate to support entrepreneurship and the open-source development of foundation models for European value creation.  
 
 #### **Looking Ahead: Using AI to tackle society's biggest challenges**
 
-> Jessica Montgomery, Director of ai@cam, Co-head of the ELIAS Node Cambridge added: “Advances in AI are giving us an increasingly powerful set of tools that could help tackle some of the major challenges that society faces. We need to do more to translate our technical capabilities to widespread public benefit. ELIAS is helping build an infrastructure for interdisciplinary innovation with AI that will tackle real-world problems.
+> Jessica Montgomery, Director of ai@cam, Co-head of the ELIAS Node Cambridge said: “Advances in AI are giving us an increasingly powerful set of tools that could help tackle some of the major challenges that society faces. We need to do more to translate our technical capabilities to widespread public benefit. ELIAS is helping build an infrastructure for interdisciplinary innovation with AI that will tackle real-world problems.
 
 Funded by the EU through the European Lighthouse of AI for Sustainability, the ELIAS Alliance has close links to the European Laboratory for Learning and Intelligent Systems (ELLIS) which brings together the strongest AI research labs in Europe and serves as a one-stop shop for PhD and postdoc candidates to find their best matching supervisors. Building on this academic excellence network, the ELIAS Alliance is now pushing to integrate value-creation literacy and future skills into academic curricula, linking talent between academia and business across Europe. 
 
