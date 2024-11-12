@@ -10,7 +10,7 @@ category:
   - sciencepreneurship
 image: /assets/uploads/ellias-node.png
 ---
-ai@cam, Cambridge University’s flagship mission on artificial intelligence, has been announced as one of eight inaugural ELIAS Nodes at the Falling Walls AI Night, held in Berlin, Germany. 
+ai@cam, Cambridge University’s flagship mission on artificial intelligence, has been announced as one of eight inaugural [ELIAS Nodes](https://elias-ai.eu/elias-alliance/#eliasnodes) at the Falling Walls AI Night, held in Berlin, Germany. 
 
 The [ELIAS Alliance](https://elias-ai.eu/elias-alliance/) for European Leadership in Innovation with AI and Science launched the ELIAS Nodes to connect academia with business & inspire a new generation of AI & Science value creators. The new hubs in Cambridge, Amsterdam, Barcelona, Copenhagen, Munich, Potsdam, Tübingen & Zurich will foster AI innovation, connect academia with business & inspire a new generation of AI & Science value creators.
 
