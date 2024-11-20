@@ -9,9 +9,7 @@ category:
 image: /assets/uploads/neil-lawrence.jpeg
 ---
 **T﻿itle:** Understanding Ourselves in the Age of AI – Neil Lawrence in conversation with Gina Neff\
-\
 **Organiser**: Cambridge Literary Festival\
-\
 **Location:** Old Divinity School, Cambridge
 
 **Summary:** What does AI mean for our identity? Neil Lawrence attempts to answer this vast question at the Cambridge Literary Festival
