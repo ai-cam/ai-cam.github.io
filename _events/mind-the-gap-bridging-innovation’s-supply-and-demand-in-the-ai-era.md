@@ -9,7 +9,7 @@ image: /assets/uploads/mind-the-gap-bridging-innovation’s-supply-and-demand-in
 link_to: https://www.ticketsource.co.uk/mpp-dept-of-polis
 ---
 **T﻿itle:** Mind the gap: bridging innovation’s supply and demand in the AI era\
-**Organiser**: Bennett Institute for Public Policy \
+**Organiser**: Bennett Institute for Public Policy & the Department of Politics and International Studies\
 **Location:** Auditorium Fitzwilliam College Storey's Way, Cambridge, CB3 0DG
 
 **Summary:** 
