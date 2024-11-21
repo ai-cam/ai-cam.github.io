@@ -31,8 +31,6 @@ Many of these themes were also echoed by members of the public in ai@cam’s rec
 
 The question that follows is how to translate those aspirations for AI into practice. Underlying these use cases are shared success factors that influence the effectiveness of AI systems in deployment:
 
-
-
 \- User-led design: Successful AI deployments start by centring the needs of users and service delivery teams. Letting frontline staff lead the conversation about how AI can address their specific challenges helps build buy-in and rapidly identify potential pitfalls. \
 \
 - Robust governance and compliance: Given the high-stakes nature of many local government services, the safety and effectiveness of AI tools is paramount. Councils are working to establish clear governance frameworks, ensure regulatory compliance, and develop ethical guidelines to steer AI development and use. \
@@ -42,10 +40,6 @@ The question that follows is how to translate those aspirations for AI into prac
 - Effective procurement: When procuring AI products or services, local government organisations need to understand what questions to ask to check proposed AI tools are fit for purpose, what due diligence is needed to ensure these tools work as intended, and how to ensure that proposed technology solutions align with business and resident needs. \
 \
 - Public participation: AI deployments in local government must deliver tangible public benefit and maintain community trust. Councils are exploring ways to increase transparency around AI use, enable resident feedback and appeals, and co-design systems that reflect local priorities. Dialogues to establish guiding principles for the use of AI in local services play an important role in developing these guardrails.  
-
-*
-*
-*
 
 
 
