@@ -13,7 +13,7 @@ excerpt: Digital transformation of public services is a key priority for the UK
 date: November 20, 2024 12:00 AM
 category:
   - policy
-image: /assets/uploads/lander-media-2.png
+image: /assets/uploads/blog12.png
 ---
 Digital transformation of public services is a key priority for the UK Government, with artificial intelligence (AI) playing an important role in delivering that priority. Effective use of AI in public services could help bridge the growing gap between AI’s rapidly progressing technical capabilities and our ability to generate widespread public benefit from these technologies. To explore the role of AI in public service delivery, a recent ai@cam Policy Lab workshop brought together local government officials to share their experiences using AI, and lessons learned from those experiences.  
 
