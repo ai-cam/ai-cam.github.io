@@ -38,10 +38,6 @@ The question that follows is how to translate those aspirations for AI into prac
 
 \-Workforce upskilling: The rise of AI has significant implications for the skills and tasks involved in various local government roles. Proactive training and engagement with staff can help empower them to adopt and adapt to these new technologies, addressing concerns about automation's impact.
 
-\-Effective procurement: When procuring AI products or services, local government organisations need to understand what questions to ask to check proposed AI tools are fit for purpose, what due diligence is needed to ensure these tools work as intended, and how to ensure that proposed technology solutions align with business and resident needs.
-
-\-Public participation: AI deployments in local government must deliver tangible public benefit and maintain community trust. Councils are exploring ways to increase transparency around AI use, enable resident feedback and appeals, and co-design systems that reflect local priorities. Dialogues to establish guiding principles for the use of AI in local services play an important role in developing these guardrails.
-
-
+\-Effective procurement: When procuring AI products or services, local government organisations need to understand what questions to ask to check proposed AI tools are fit for purpose, what due diligence is needed to ensure these tools work as intended, and how to ensure that proposed technology solutions align with business and resident needs. 
 
 Realising the potential of AI requires a thoughtful, user-centric, and values-driven approach that centres the needs of residents. By working with academic institutions and other councils, local authorities can access specialised expertise, share lessons learned, and develop open innovation ecosystems. ai@cam is facilitating these collaborative efforts, helping to bridge the gap between AI research and real-world public sector challenges. By continuing to share knowledge, collaborate across the sector, and engage the public, local authorities can build the foundations for an AI-powered future that transforms how people interact with essential public services.
