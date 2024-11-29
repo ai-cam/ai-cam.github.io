@@ -14,7 +14,7 @@ related: policy
 
 ![](/assets/uploads/data-library.jpg)
 
-Our recent ai@cam report presents a series of case studies exploring the value that access to data for research can create, and the barriers researchers face in accessing such data. 
+In this joint report from ai@cam, [Minderoo Centre for Technology and Democracy](https://www.mctd.ac.uk/) and the [Bennett Institute for Public Policy](https://www.bennettinstitute.cam.ac.uk/), we present a series of case studies on access to data for research. These case studies illustrate the barriers that researchers are grappling with, and suggest how a new wave of policy development could help address these.
 
 
 
