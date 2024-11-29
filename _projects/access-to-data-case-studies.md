@@ -8,7 +8,11 @@ category:
 image: /assets/uploads/data-case-studies.jpg
 related: policy
 ---
-Access to data for research: lessons for the National Data Library from the front lines of AI innovation.
+#### Access to data for research: lessons for the National Data Library from the front lines of AI innovation.
+
+
+
+![](/assets/uploads/data-library.jpg)
 
 
 
