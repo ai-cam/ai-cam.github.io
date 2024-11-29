@@ -24,8 +24,8 @@ Each show innovative uses of data for research in areas that are critically impo
 * A sea change in social media research - [Dr Amy Orben](https://www.mrc-cbu.cam.ac.uk/people/amy.orben/)
 * Conserving with code: How data is helping to save our planet - [Dr Sadiq Jaffer](https://www.cst.cam.ac.uk/people/sj514) and [Dr Alec Christie](https://www.zoo.cam.ac.uk/directory/alec-christie)
 * Breaking the ice: Addressing data barriers in Polar research - [Dr Scott Hosking ](https://www.bas.ac.uk/profile/jask/)
-* Making a difference with data: Insights from COVID-19 - Professor Stefan Scholtes
-* Untangling the web of supply chain data - Professor Vasco Carvalho
+* Making a difference with data: Insights from COVID-19 - [Professor Stefan Scholtes](https://www.jbs.cam.ac.uk/people/stefan-scholtes/)
+* Untangling the web of supply chain data - [Professor Vasco Carvalho](https://www.econ.cam.ac.uk/people/faculty/vmpmdc2)
 
 
 
