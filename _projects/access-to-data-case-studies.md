@@ -27,6 +27,6 @@ Each show innovative uses of data for research in areas that are critically impo
 * Making a difference with data: Insights from COVID-19 - [Professor Stefan Scholtes](https://www.jbs.cam.ac.uk/people/stefan-scholtes/)
 * Untangling the web of supply chain data - [Professor Vasco Carvalho](https://www.econ.cam.ac.uk/people/faculty/vmpmdc2)
 
-
+The projects highlight crucial design considerations for the UK’s National Data Library and the need for a digital infrastructure that connects data, researchers, and resources that enable data use. By centring the experiences of researchers on the front-line of AI innovation, this report hopes to bring some of those barriers into focus and inform continued conversations in this area. 
 
 #### **[R﻿ead the Access to Data Report](/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
