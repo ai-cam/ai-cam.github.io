@@ -14,7 +14,7 @@ related: policy
 
 ![](/assets/uploads/data-library.jpg)
 
-
+Our recent ai@cam report presents a series of case studies exploring the value that access to data for research can create, and the barriers researchers face in accessing such data. 
 
 
 
