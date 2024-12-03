@@ -2,14 +2,12 @@
 layout: projects-single
 title: "Policy Brief: Refreshing the UK’s strategic approach to AI "
 excerpt: AI is at risk of following a well-worn path that results in
-  technological innovations that fail to address real-world challenges. We have
-  almost a decade of evidence showing what people want from AI. Public dialogues
-  consistently call for AI technologies that tackle the challenges that affect
-  our shared health, wellbeing, and prosperity, that help strengthen our
-  communities and our personal interactions, and that support democratic
-  governance. The last ten years have brought impressive technical advances in
-  AI and intense policy activity. However, neither technology or policy
-  development have been well connected to social need.
+  technological innovations that fail to address real-world challenges. The AI
+  Opportunities Action Plan has an opportunity to address the gap between
+  technology and widespread public benefit, not only in what policy actions it
+  recommends, but in how those recommendations are taken forward. This report
+  introduces the broad range of levers that government could consider as part of
+  its policy agenda for AI.
 category:
   - policy
 image: /assets/uploads/getty-images-l_pu5n0qjvm-unsplash.jpg
