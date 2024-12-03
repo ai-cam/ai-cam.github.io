@@ -13,11 +13,11 @@ category:
 image: /assets/uploads/getty-images-l_pu5n0qjvm-unsplash.jpg
 related: policy
 ---
+
+
+![](/assets/uploads/policy-lab-scriberia-small-1-.jpg)
+
 AI is at risk of following a well-worn path that results in technological innovations that fail to address real-world challenges. We have almost a decade of evidence showing what people want from AI. Public dialogues consistently call for AI technologies that tackle the challenges that affect our shared health, wellbeing, and prosperity, that help strengthen our communities and our personal interactions, and that support democratic governance. The last ten years have brought impressive technical advances in AI and intense policy activity. However, neither technology or policy development have been well connected to social need. 
-
-
-
-![](/assets/uploads/policy-lab-scriberia.jpg)
 
 The next phase of AI policy will need to consider how to centre public interests in AI development, how to strengthen governance frameworks that steward AI development towards shared public benefit, how to build a public infrastructure for innovation, and how to grow the UK’s world-leading domestic AI base in a way that delivers real benefits for citizens. 
 
