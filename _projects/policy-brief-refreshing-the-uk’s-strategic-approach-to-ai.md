@@ -25,4 +25,4 @@ This report introduces the broad range of levers that government could consider 
 
 T﻿his report is brought to you by ai@cam, The Bennett Institute for Public Policy, Minderoo Centre for Technology and Democracy. 
 
-R﻿ead the Policy Brief: Refreshing the UK’s strategic approach to AI
+#### [R﻿ead the Policy Brief: Refreshing the UK’s strategic approach to AI](/assets/uploads/ai-cam-refreshing-the-uk’s-strategic-approach-to-ai.pdf)
