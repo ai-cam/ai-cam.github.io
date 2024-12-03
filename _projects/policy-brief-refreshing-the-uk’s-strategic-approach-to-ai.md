@@ -23,6 +23,4 @@ The next phase of AI policy will need to consider how to centre public interests
 
 Across these areas, the report highlights a need to focus on the practical barriers to delivering AI-enabled solutions to real-world challenges as part of policy design and implementation. The UK has strategic strengths in research and human capital. These strengths could be deployed to bridge the gaps between research and practice that affect how, where, and for whose benefit AI innovations develop. The call in this document is for innovative approaches to open policy development that embed stakeholder engagement across the policy lifecycle.  By supporting those on the frontlines of innovating with AI to deliver public benefit, the UK can generate a productivity flywheel that scales AI innovation while closing the gap between technological progress and real-world benefit. 
 
-ead the Policy Brief: Refreshing the UK’s strategic approach to AI 
-
-#### **[R﻿ead the ](https://ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
+R﻿ead the Policy Brief: Refreshing the UK’s strategic approach to AI
