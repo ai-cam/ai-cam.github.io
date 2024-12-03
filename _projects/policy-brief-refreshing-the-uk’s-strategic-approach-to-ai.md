@@ -13,7 +13,7 @@ category:
 image: /assets/uploads/getty-images-l_pu5n0qjvm-unsplash.jpg
 related: policy
 ---
-
+#### Policy Brief: Refreshing the UK’s strategic approach to AI
 
 ![](/assets/uploads/policy-lab-scriberia-small-1-.jpg)
 
