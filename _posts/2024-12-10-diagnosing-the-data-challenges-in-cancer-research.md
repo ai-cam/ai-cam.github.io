@@ -11,7 +11,7 @@ author: "Dr Mireia Crispin "
 date: December 9, 2024 12:00 AM
 category:
   - policy
-image: /assets/uploads/lab-testing.png
+image: /assets/uploads/national-cancer-institute-2fyelhueypg-unsplash.jpg
 ---
 Dr Mireia Crispin is an award-winning Assistant Professor in the Department of Oncology at the University of Cambridge with a PhD in Particle Physics. Dr Crispin’s group at the University’s Early Cancer Institute is spearheading a new approach to cancer research and treatment. She and her colleagues are bringing together diverse datasets to decode one of the most fatal and least studied forms of gynaecological cancer: high-grade serous ovarian cancer. 
 
