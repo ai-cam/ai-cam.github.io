@@ -11,7 +11,7 @@ category:
   - policy
 image: /assets/uploads/neil-ft.png
 ---
-![](/assets/uploads/neil-ft.png)
+![](/assets/uploads/neil-ft1.jpg)
 
 Neil Lawrence, Chair of ai@cam, recently wrote an op-ed for the Financial Times discussing how to bridge the gap between supply and demand in the Innovation Economy.
 
