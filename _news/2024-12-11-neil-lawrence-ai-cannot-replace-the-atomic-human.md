@@ -11,13 +11,8 @@ category:
   - policy
 image: /assets/uploads/neil-ft.png
 ---
-Neil Lawrence, Chair of ai@cam, wrote an op-ed for the Financial Times discussing how to bridge the gap between supply and demand in the Innovation Economy.
+Neil Lawrence, Chair of ai@cam, recently wrote an op-ed for the Financial Times discussing how to bridge the gap between supply and demand in the Innovation Economy.
 
-
-
-> \
-> Too often in the past, we have been distant from the difficulties that society faces. We have been too remote from the real challenges of everyday lives — challenges that don’t make the covers of prestige science magazines. People are rightly angry that innovations like AI have yet to address the problems they face, including in health, social care and education.
-
-
+He outlines: "Too often in the past, we have been distant from the difficulties that society faces. We have been too remote from the real challenges of everyday lives — challenges that don’t make the covers of prestige science magazines. People are rightly angry that innovations like AI have yet to address the problems they face, including in health, social care and education."
 
 #### [R﻿ead the op-ed in the Financial Times](https://www.ft.com/content/6ac0ad1b-29b4-4f43-a4ce-be209649c316)
