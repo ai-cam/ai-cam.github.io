@@ -15,7 +15,9 @@ With biodiversity facing unprecedented challenges, researchers have identified a
 A new study, led by conservation biologist [Dr. Sam Reynolds](https://www.zoo.cam.ac.uk/directory/dr-sam-reynolds) and funded by ai@cam, has brought together an international panel of conservation scientists and AI experts to explore how artificial intelligence can drive innovation in conservation. 
 
 Through a comprehensive horizon scan, the research highlights AI's vast potential to tackle critical environmental challenges and identified new opportunities where AI could make significant contributions in conservation. These span from refining tools for addressing human-wildlife conflict, enhancing predictive models of biodiversity loss, and enabling AI-driven advisory systems to inform policy.
-The horizon scan outlined several transformative applications of AI in conservation. Among the 21 opportunities identified are:
+The horizon scan outlined several transformative applications of AI in conservation. 
+
+Among the 21 opportunities identified are:
 
 1. **Monitoring Marine Life with Distributed Acoustic Sensing**
    Novel AI-enabled technologies for marine monitoring, such as Distributed Acoustic Sensing (DAS), could transform how we observe underwater ecosystems. DAS repurposes over 1 million kilometers of deep-sea fiber-optic cables—typically used for telecommunications—to detect real-time underwater acoustic signals. By analysing how sound waves affect the light path in these cables, the technology can identify and locate sounds from marine species like whales, fish, and seals, as well as human activities such as shipping and deep-sea mining. This technology could provide unique insights into marine biodiversity as well as human activities which may impact them. 
