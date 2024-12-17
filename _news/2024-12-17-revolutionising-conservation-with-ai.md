@@ -5,7 +5,7 @@ title: "Revolutionising Conservation with AI "
 excerpt: With biodiversity facing unprecedented challenges, Cambridge
   researchers have identified a number of key areas AI technology could be used
   to transform existing conservation practices and reverse biodiversity loss.
-date: December 18, 2024 12:00 AM
+date: December 17, 2024 12:00 AM
 category:
   - ai-deas
 image: /assets/uploads/ai_whale.png
