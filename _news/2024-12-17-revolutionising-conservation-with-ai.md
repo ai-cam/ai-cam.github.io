@@ -36,7 +36,4 @@ Reflecting on the findings, Dr. Reynolds remarked: “AI will likely be a powerf
 
 Study Co-Author [Dr Amy Hinsley](https://www.biology.ox.ac.uk/people/amy-hinsley), University of Oxford says “ One of the major challenges in managing the wildlife trade is a lack of up-to-date and good quality data, which can be lacking for both legal and illegal trade. Applying new and existing AI approaches has the potential to fill some of these evidence gaps, accessing new data sources and making better use of the data that we have on the species, supply chains, and volumes of wildlife in trade’”
 
-This study was led by Cambridge researchers at the [Conservation Evidence](https://www.conservationevidence.com/) and the [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) with funding from ai@cam, the University of Cambridge's mission to drive a new wave of AI innovation that delivers public value. 
-
-Reference 
-Link to paper  - (I have asked the journal if they can provide this)
+This study was led by Cambridge researchers at the [Conservation Evidence](https://www.conservationevidence.com/) and the [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) with funding from ai@cam, the University of Cambridge's mission to drive a new wave of AI innovation that delivers public value.
