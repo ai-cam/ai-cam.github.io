@@ -12,7 +12,6 @@ image: /assets/uploads/ai_whale.png
 ---
 With biodiversity facing unprecedented challenges, researchers have identified a number of key areas AI technology could be used to transform existing conservation practices and reverse biodiversity loss. 
 
-
 A new study, led by conservation biologist [Dr. Sam Reynolds](https://www.zoo.cam.ac.uk/directory/dr-sam-reynolds) and funded by ai@cam, has brought together an international panel of conservation scientists and AI experts to explore how artificial intelligence can drive innovation in conservation. \
 
 Through a comprehensive horizon scan, the research highlights AI's vast potential to tackle critical environmental challenges and identified new opportunities where AI could make significant contributions in conservation. These span from refining tools for addressing human-wildlife conflict, enhancing predictive models of biodiversity loss, and enabling AI-driven advisory systems to inform policy.
@@ -29,7 +28,7 @@ The horizon scan outlined several transformative applications of AI in conservat
 
 While advancing technologies will undoubtedly lead to changes in conservation over the coming years, the study outlines the risks in implementing novel AI systems. AI colonialism is a central concern, with data potentially being extracted from the Global South to data centres in the Global North. These could be used to train AI models which risk perpetuating inequitable practices and undermine efforts in contemporary conservation to address colonial legacies. 
 
-Senior author, Professor William Sutherland stated “AI seems likely to enable exciting opportunities whilst creating serious problems. Looking ahead to identify potential benefits and challenges is key to delivering more effective conservation whilst minimising risks”. 
+Senior author, [Professor William Sutherland](https://www.zoo.cam.ac.uk/directory/bill-sutherland) stated “AI seems likely to enable exciting opportunities whilst creating serious problems. Looking ahead to identify potential benefits and challenges is key to delivering more effective conservation whilst minimising risks”. 
 
 Further concerns surround resource allocation; there is a risk that the perceived novelty of AI could skew funding and leadership away from traditional conservation efforts. Issues such as bias in AI models, the militarisation of conservation tools, and unequal access to computational resources need careful consideration. 
 
