@@ -26,7 +26,8 @@ Among the 21 opportunities identified are:
 3. **Cracking Down on Illegal Wildlife Trade**
    AI-driven technologies such as computer vision, natural language processing, and multimodal machine learning are providing powerful tools to combat illegal wildlife trade. These systems can analyse images, text, video, and audio to identify what species and wildlife products are being traded through various networks and marketplaces. 
 
-#### ***Balancing Risks***
+#### \
+***Balancing Risks***
 
 While advancing technologies will undoubtedly lead to changes in conservation over the coming years, the study outlines the risks in implementing novel AI systems. AI colonialism is a central concern, with data potentially being extracted from the Global South to data centres in the Global North. These could be used to train AI models which risk perpetuating inequitable practices and undermine efforts in contemporary conservation to address colonial legacies. 
 
@@ -39,3 +40,7 @@ Reflecting on the findings, Dr. Reynolds remarked: “AI will likely be a powerf
 Study Co-Author [Dr Amy Hinsley](https://www.biology.ox.ac.uk/people/amy-hinsley), University of Oxford says “ One of the major challenges in managing the wildlife trade is a lack of up-to-date and good quality data, which can be lacking for both legal and illegal trade. Applying new and existing AI approaches has the potential to fill some of these evidence gaps, accessing new data sources and making better use of the data that we have on the species, supply chains, and volumes of wildlife in trade’”
 
 This study was led by Cambridge researchers at the [Conservation Evidence](https://www.conservationevidence.com/) and the [Department of Computer Science and Technology](https://www.cst.cam.ac.uk/) with funding from ai@cam, the University of Cambridge's mission to drive a new wave of AI innovation that delivers public value.
+
+***Reference***
+
+Reynolds, Sam A. et al., '*The potential for AI to revolutionize conservation: a horizon scan',* Trends in ecology & evolution, DOI: [10.1016/j.tree.2024.11.013](https://doi.org/10.1016/j.tree.2024.11.013)
