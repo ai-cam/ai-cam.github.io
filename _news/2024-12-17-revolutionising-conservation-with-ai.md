@@ -31,7 +31,7 @@ Balancing Risks
 
 While advancing technologies will undoubtedly lead to changes in conservation over the coming years, the study outlines the risks in implementing novel AI systems. AI colonialism is a central concern, with data potentially being extracted from the Global South to data centres in the Global North. These could be used to train AI models which risk perpetuating inequitable practices and undermine efforts in contemporary conservation to address colonial legacies. 
 
-Senior author, [Professor William Sutherland](https://www.zoo.cam.ac.uk/directory/bill-sutherland) stated “AI seems likely to enable exciting opportunities whilst creating serious problems. Looking ahead to identify potential benefits and challenges is key to delivering more effective conservation whilst minimising risks”. 
+Senior author, [Professor William Sutherland](https://www.zoo.cam.ac.uk/directory/bill-sutherland) stated: “AI seems likely to enable exciting opportunities whilst creating serious problems. Looking ahead to identify potential benefits and challenges is key to delivering more effective conservation whilst minimising risks”. 
 
 Further concerns surround resource allocation; there is a risk that the perceived novelty of AI could skew funding and leadership away from traditional conservation efforts. Issues such as bias in AI models, the militarisation of conservation tools, and unequal access to computational resources need careful consideration. 
 
