@@ -8,11 +8,9 @@ excerpt: With biodiversity facing unprecedented challenges, Cambridge
 date: December 17, 2024 12:00 AM
 category:
   - ai-deas
-image: /assets/uploads/revolutionising-conservation-with-ai-2.jpg
+image: /assets/uploads/ai_whale.png
 ---
 ![](/assets/uploads/revolutionising-conservation-with-ai.jpg)
-
-
 
 With biodiversity facing unprecedented challenges, researchers have identified a number of key areas AI technology could be used to transform existing conservation practices and reverse biodiversity loss. 
 
