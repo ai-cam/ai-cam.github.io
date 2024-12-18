@@ -19,11 +19,11 @@ The horizon scan outlined several transformative applications of AI in conservat
 
 Among the 21 opportunities identified are:
 
-1. **Monitoring Marine Life with Distributed Acoustic Sensing**
+1. **Monitoring Marine Life with Distributed Acoustic Sensing**\
    Novel AI-enabled technologies for marine monitoring, such as Distributed Acoustic Sensing (DAS), could transform how we observe underwater ecosystems. DAS repurposes over 1 million kilometers of deep-sea fiber-optic cables—typically used for telecommunications—to detect real-time underwater acoustic signals. By analysing how sound waves affect the light path in these cables, the technology can identify and locate sounds from marine species like whales, fish, and seals, as well as human activities such as shipping and deep-sea mining. This technology could provide unique insights into marine biodiversity as well as human activities which may impact them. 
-2. **Unveiling 'Dark Diversity'** 
+2. **Unveiling 'Dark Diversity'**\
    AI-powered models for “novel category discovery” are enabling researchers to detect previously unidentified species from wildlife images. This breakthrough could help document “dark diversity”- species thought to be absent from certain habitats, believed extinct, or entirely unknown to science. This will help conservationists to prioritise conservation efforts and act to preserve these rare species. 
-3. **Cracking Down on Illegal Wildlife Trade**
+3. **Cracking Down on Illegal Wildlife Trade**\
    AI-driven technologies such as computer vision, natural language processing, and multimodal machine learning are providing powerful tools to combat illegal wildlife trade. These systems can analyse images, text, video, and audio to identify what species and wildlife products are being traded through various networks and marketplaces. 
 
 #### Balancing Risks
