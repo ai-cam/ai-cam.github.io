@@ -10,7 +10,7 @@ category:
   - ai-deas
 image: /assets/uploads/revolutionising-conservation-with-ai-4.jpg
 ---
-![](/assets/uploads/revolutionising-conservation-with-ai.jpg)
+![](/assets/uploads/revolutionising-conservation-with-ai-5.jpg)
 
 With biodiversity facing unprecedented challenges, researchers have identified a number of key areas AI technology could be used to transform existing conservation practices and reverse biodiversity loss. 
 
