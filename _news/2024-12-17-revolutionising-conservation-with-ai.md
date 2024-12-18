@@ -26,7 +26,8 @@ Among the 21 opportunities identified are:
 3. **Cracking Down on Illegal Wildlife Trade**\
    AI-driven technologies such as computer vision, natural language processing, and multimodal machine learning are providing powerful tools to combat illegal wildlife trade. These systems can analyse images, text, video, and audio to identify what species and wildlife products are being traded through various networks and marketplaces. 
 
-#### Balancing Risks
+#### \
+Balancing Risks
 
 While advancing technologies will undoubtedly lead to changes in conservation over the coming years, the study outlines the risks in implementing novel AI systems. AI colonialism is a central concern, with data potentially being extracted from the Global South to data centres in the Global North. These could be used to train AI models which risk perpetuating inequitable practices and undermine efforts in contemporary conservation to address colonial legacies. 
 
