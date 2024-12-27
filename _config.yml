@@ -53,7 +53,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
- sass:
+sass:
   sass_dir: _sass
   style: compressed
   sourcemap: always
