@@ -2,6 +2,10 @@
 layout: blog-single
 permalink: /blog/:title
 title: AI needs to serve people, science, and society
+redirect_from:
+  - /blog/blog-post-1
+  - /blog/blog-post-1/
+  - /blog/blog-post-1.html
 excerpt: Artificial intelligence offers great promise, but we must ensure it
   does not deepen inequalities. Today we are setting out our vision for AI@Cam,
   a new flagship mission at the University of Cambridge.
