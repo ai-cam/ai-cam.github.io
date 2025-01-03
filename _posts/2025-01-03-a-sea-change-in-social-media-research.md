@@ -42,8 +42,9 @@ packages in pretty significant ways, according to Dr Ferguson, with substantial 
 
 
 Dr Ferguson believes that having access to more data is alwaysg oing to be useful for researchers, especially large, openly available secondary datasets that can be revisited as statistical methods evolve: “Our group has gone back to reanalyse datasets a few times and had some pretty important findings from that,”
-she says. She also points to large-scale studies like the National Health Services Mental Health of Children and Young People surveys as an example of what can be achieved. She is unsure whether the data sets provided by social media companies would be reliable enough to be included in a National Data Library, unless much more standardisation is introduced. However, she believes that a national library for data could be
-a powerful tool for advancing research on young people and mental health – as long as clear and consistent standards are established.
+she says. She also points to large-scale studies like the National Health Services Mental Health of Children and Young People surveys as an example of what can be achieved. 
+
+She is unsure whether the data sets provided by social media companies would be reliable enough to be included in a National Data Library, unless much more standardisation is introduced. However, she believes that a national library for data could be a powerful tool for advancing research on young people and mental health – as long as clear and consistent standards are established.
 
 \
 ***W﻿ritten by Vicky Anning***
