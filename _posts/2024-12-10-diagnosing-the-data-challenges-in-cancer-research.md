@@ -47,6 +47,6 @@ Dr Crispin also welcomes the proposal to create a National Data Library in the U
 
 “If there was a National Data Library that was fully comprehensive that we could use to test hypotheses or ask new questions, I think it could be huge” she says. “It would not be unprecedented – OpenSAFELY , led by the University of Oxford, is a great example that was developed during the COVID-19 pandemic. That is the direction we should be moving in.”\
 \
-**W﻿ritten by Vicky Anning**
+***W﻿ritten by Vicky Anning***
 
 #### **[R﻿ead the Access to Data Report](https://ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
