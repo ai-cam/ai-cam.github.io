@@ -1,0 +1,14 @@
+<a class="posts__item" href="{{ include.post.url }}">
+  <div class="posts__item-thumbnail">
+    {% if include.post.image != nil %}
+    <img src="{{ include.post.image }}">
+    {% else %}
+    <img alt="" src="../assets/images/placeholder-1.jpg" />
+    {% endif %}
+  </div>
+  <div class="posts__item-content">
+    <span class="category">{{ include.post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+    <h3>{{ include.post.title }}</h3>
+    <span class="button button--simple">Read more</span>
+  </div>
+</a> 
