@@ -1,5 +1,40 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.bundle/
+
+# Ruby environment
+vendor/
+.bundle/
+Gemfile.lock
+
+# Mac OS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local development
+.env
+.env.*
+node_modules/
+
+# Jekyll temp files
+*.draft.*
+_drafts/
+.tmp/
+.temp/
+
+# If using npm/yarn for any frontend assets
+package-lock.json
+yarn.lock
