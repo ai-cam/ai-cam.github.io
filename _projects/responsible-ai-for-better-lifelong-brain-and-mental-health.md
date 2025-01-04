@@ -1,6 +1,10 @@
 ---
 layout: projects-single
-title: "Responsible AI for better lifelong brain and mental health "
+title: "Responsible AI for better lifelong brain and mental health"
+redirect_from:
+  - /blog/ai-deas-projects-coming-soon
+  - /blog/ai-deas-projects-coming-soon/
+  - /blog/ai-deas-projects-coming-soon.html
 excerpt: This project will use the latest advances in AI to better understand
   brain health and disease. It will explore the environmental, social and
   neurological factors at play, to develop responsible AI-driven tools that help
@@ -8,6 +12,7 @@ excerpt: This project will use the latest advances in AI to better understand
   disorders.
 category:
   - ai-deas
+
 image: /assets/uploads/pexels-anna-shvets-4226119.jpg
 researchers:
   - alexandru-marcoci
