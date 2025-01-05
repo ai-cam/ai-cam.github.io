@@ -1,0 +1,33 @@
+{% if page.researchers != nil %}
+  {% assign team_entries = site.researchers %}
+  <section class="block block__team">
+    <div class="container">
+      <div class="team__intro">
+        <h2 class="section-heading section-heading--left">Researchers</h2>
+      </div>
+      
+      <div class="team__grid team__grid--leadership active">
+        {% for author in page.researchers %}
+          {% assign authorName = author %}
+          {% for post in team_entries %}
+            {% if post.slug == authorName or post.name == authorName %}
+              <a href="{{ post.url }}" class="team__member">
+                <div class="team__member-image">
+                  {% if post.image != nil %}
+                  <img src="{{ post.image }}">
+                  {% else %}
+                  <img alt="" src="../assets/images/placeholder-1.jpg" />
+                  {% endif %}
+                </div>
+                <div class="team__member-content">
+                  <h3>{{ post.given }} {{ post.family }}</h3>
+                  <p>{{ post.job_title }}</p>
+                </div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}

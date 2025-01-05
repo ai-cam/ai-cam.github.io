@@ -1,37 +1,10 @@
 ---
-layout: default
+layout: single
+collection_url: "/opportunities/"
+back_text: "Back to opportunities"
+hero_image: "/assets/images/opportunities-bg.svg"
 ---
-<section class="block block__hero block__hero--archive" id="hero">
-  <div class="hero__shape">
-    <img alt="" src="{{ '/assets/images/opportunities-bg.svg' | relative_url }}"/>
-  </div>
 
-  <div class="container">
-    <div class="hero__content">
-      <h1>{{page.title}}</h1>
-      <a href="{{ '/opportunities/' | relative_url }}" class="button button--standard">Back to opportunities</a>
-    </div>
-  </div>
-</section>
+{% include hero.html hero_image=layout.hero_image hero_meta=hero_meta title=page.title collection_url=layout.collection_url back_text=layout.back_text %}
 
-<section class="block block__post-single">
-  <div class="container">
-    <article>
-      <div class="post-single__body">
-        <div class="row row--justified">
-          <div class="post-single__body-content column-m-12-nest column-t-10 column-d-8">
-            {{ content }}
-
-            {% if page.apply_link != nil %}
-              <div class="button-box">
-                <a href="{{ page.apply_link }}" rel="noreferrer" target="_blank" class="button button--standard">Apply here</a>
-              </div>
-            {% endif %}
-          </div>
-          {% include social-share.html %}
-          <div class="column-m-12-nest column-d-1"></div>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
+{% include single.html %}

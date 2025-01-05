@@ -1,96 +1,21 @@
 ---
-layout: default
+layout: single
+collection_url: "/news/"
+back_text: "Back to news"
+hero_image: "/assets/images/news-bg.svg"
 ---
-      <section class="block block__hero block__hero--archive" id="hero">
 
-        <div class="hero__shape">
-          <img alt="" src="{{ '/assets/images/news-bg.svg' | relative_url }}"/>
-        </div>
-        
-        <div class="container">
-          <div class="hero__content">
-            <h1>{{page.title}}</h1>
+{% capture hero_meta %}
+{% if page.author %}
+<p>{{ page.author }}</p>
+{% endif %}
+{% if page.date %}
+<p>{{ page.date | date: '%d %B %Y' }}</p>
+{% endif %}
+{% endcapture %}
 
-            {% if page.author != nil %}
-            <p>{{ page.author }}</p>
-            {% endif %}
-            {% if page.date != nil %}
-            <p>{{ page.date | date: '%d %B %Y' }}</p>
-            {% endif %}
-            <a href="{{ '/news/' | relative_url }}" class="button button--standard">Back to news</a>
-          </div>
-        </div>
-      </section>
+{% include hero.html hero_image=layout.hero_image hero_meta=hero_meta title=page.title collection_url=layout.collection_url back_text=layout.back_text %}
 
-      <section class="block block__post-single">
-        <div class="container">
-          <article>
-            <div class="post-single__body">
-              <div class="row row--justified">
-                <div class="post-single__body-content column-m-12-nest column-t-10 column-d-8">
-                  {{ content }}
-                </div>
-                {% include social-share.html %}
-                <div class="column-m-12-nest column-d-1"></div>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
+{% include single.html %}
 
-      <section class="block block__posts">
-        <div class="container">
-          <div class="posts__intro">
-            <h2 class="section-heading section-heading--left">Related news</h2>
-          </div>
-
-          <div class="posts__grid">
-            {% assign news_entries = site.news %}
-
-            {% assign count_check = false %}
-            {% for item in site.news limit:4 %}
-            {% if item.url == page.url %}
-            {% assign count_check = true %}
-            {% endif %}
-            {% endfor %}
-
-            {% if count_check == false %}
-            {% for post in news_entries limit:3 %}
-            <a class="posts__item" href="{{ post.url }}">
-              <div class="posts__item-thumbnail">
-                {% if post.image != nil %}
-                <img src="{{ post.image }}">
-                {% else %}
-                <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
-                {% endif %}
-              </div>
-              <div class="posts__item-content">
-                <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-                <h3>{{ post.title }}</h3>
-                <span class="button button--simple">Read more</span>
-              </div>
-            </a>
-            {% endfor %}
-            {% else %}
-            {% for post in news_entries limit:4 %}
-            {% if post.url != page.url %}
-            <a class="posts__item" href="{{ post.url }}">
-              <div class="posts__item-thumbnail">
-                {% if post.image != nil %}
-                <img src="{{ post.image }}">
-                {% else %}
-                <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
-                {% endif %}
-              </div>
-              <div class="posts__item-content">
-                <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-                <h3>{{ post.title }}</h3>
-                <span class="button button--simple">Read more</span>
-              </div>
-            </a>
-            {% endif%}
-            {% endfor %}
-            {% endif %}
-          </div>
-        </div>
-      </section>
+{% include related-news.html %}

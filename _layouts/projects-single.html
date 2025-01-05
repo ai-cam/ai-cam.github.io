@@ -1,27 +1,13 @@
 ---
-layout: default
+layout: single
+collection_url: "/projects/"
+back_text: "Back to projects"
+hero_image: "/assets/images/news-bg.svg"
 ---
-<section class="block block__hero block__hero--archive" id="hero">
-  <div class="container">
-    <div class="hero__content">
-      <h1>{{page.title}}</h1>
-      <a href="{{site.url}}/projects/" class="button button--standard">Back to projects</a>
-    </div>
-  </div>
-</section>
 
-<section class="block block__project-overview">
-  <div class="container">
-    <div class="row row--justified">
-      <div class="overview__heading column-m-12-nest column-t-3">
-        <h2 class="section-heading section-heading--left">Project Overview</h2>
-      </div>
-      <div class="overview__content column-m-12-nest column-t-8">
-        {{ page.content | markdownify }}
-      </div>
-    </div>
-  </div>
-</section>
+{% include hero.html hero_image=layout.hero_image hero_meta=hero_meta title=page.title collection_url=layout.collection_url back_text=layout.back_text %}
+
+{% include single-project.html %}
 
 {% include related-researchers.html %}
 {% include related-content.html %}
