@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+layout: default
+---
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% seo %}
-    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/slick.js"></script>
-  </head>
-
-  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-header.html %}
-    <main class="main">
 
       <section class="block block__hero block__hero--archive" id="hero">
         <div class="container">
@@ -130,9 +118,3 @@
           </div>
         </div>
       </section>
-
-    </main>
-    {% include site-footer.html %}
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-  </body>
-</html>
