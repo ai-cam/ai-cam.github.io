@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-
-  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-header.html %}
-
-    <main class="main">
-      <section class="block block__hero block__hero--archive block__hero--overflow" id="hero">
+---
+layout: default
+---
+  <section class="block block__hero block__hero--archive block__hero--overflow" id="hero">
 
         <div class="hero__shape">
           <img alt="" src="../assets/images/news-bg.svg"/>
@@ -184,10 +179,4 @@
         </div>
       </section>
 
-    </main>
-
-    {% include site-footer.html %}
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-  </body>
-
-</html>
+    

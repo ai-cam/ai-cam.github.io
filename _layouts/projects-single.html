@@ -1,153 +1,134 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+---
+layout: default
+---
+<section class="block block__hero block__hero--archive" id="hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1>{{page.title}}</h1>
+      <a href="{{site.url}}/projects/" class="button button--standard">Back to projects</a>
+    </div>
+  </div>
+</section>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% seo %}
-  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/slick.js"></script>
-</head>
+<section class="block block__project-overview">
+  <div class="container">
+    <div class="row row--justified">
+      <div class="overview__heading column-m-12-nest column-t-3">
+        <h2 class="section-heading section-heading--left">Project Overview</h2>
+      </div>
+      <div class="overview__content column-m-12-nest column-t-8">
+        {{ page.content | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
 
-<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-header.html %}
-    <main class="main">
-      <section class="block block__hero block__hero--archive" id="hero">
-        <div class="container">
-          <div class="hero__content">
-            <h1>{{page.title}}</h1>
-            <a href="{{site.url}}/projects/" class="button button--standard">Back to projects</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="block block__project-overview">
-          <div class="container">
-              <div class="row row--justified">
-                  <div class="overview__heading column-m-12-nest column-t-3">
-                      <h2 class="section-heading section-heading--left">Project Overview</h2>
-                  </div>
-                  <div class="overview__content column-m-12-nest column-t-8">
-                      {{ page.content | markdownify }}
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      {% if page.researchers != nil %}
-        {% assign team_entries = site.researchers %}
-        <section class="block block__team">
-          <div class="container">
-            <div class="team__intro">
-              <h2 class="section-heading section-heading--left">Researchers</h2>
-            </div>
-            
-            <div class="team__grid team__grid--leadership active">
-              {% for author in page.researchers %}
-                {% assign authorName = author %}
-                {% for post in team_entries %}
-                  {% if post.slug == authorName or post.name == authorName %}
-                    <a href="{{ post.url }}" class="team__member">
-                      <div class="team__member-image">
-                        {% if post.image != nil %}
-                        <img src="{{ post.image }}">
-                        {% else %}
-                        <img alt="" src="../assets/images/placeholder-1.jpg" />
-                        {% endif %}
-                      </div>
-                      <div class="team__member-content">
-                        <h3>{{ post.given }} {{ post.family }}</h3>
-                        <p>{{ post.job_title }}</p>
-                      </div>
-                    </a>
+{% if page.researchers != nil %}
+  {% assign team_entries = site.researchers %}
+  <section class="block block__team">
+    <div class="container">
+      <div class="team__intro">
+        <h2 class="section-heading section-heading--left">Researchers</h2>
+      </div>
+      
+      <div class="team__grid team__grid--leadership active">
+        {% for author in page.researchers %}
+          {% assign authorName = author %}
+          {% for post in team_entries %}
+            {% if post.slug == authorName or post.name == authorName %}
+              <a href="{{ post.url }}" class="team__member">
+                <div class="team__member-image">
+                  {% if post.image != nil %}
+                  <img src="{{ post.image }}">
+                  {% else %}
+                  <img alt="" src="../assets/images/placeholder-1.jpg" />
                   {% endif %}
-                {% endfor %}
-              {% endfor %}
-            </div>
-          </div>
-        </section>
-	{% endif %}
-	
-	{% if page.related != nil %}
-	{% if page.related != "none" %}
-	<section class="block block--bg-pink block__posts">
-	  <div class="container">
-	    <div class="posts__intro">
-	      <h2 class="section-heading section-heading--left">Related Content</h2>
-	    </div>
-	    <div class="posts__grid">
-	      {% assign combined_entries = '' | split: '' %}
-	      
-	      {% comment %}Collect all posts and news with dialogue category{% endcomment %}
-	      {% for post in site.posts %}
+                </div>
+                <div class="team__member-content">
+                  <h3>{{ post.given }} {{ post.family }}</h3>
+                  <p>{{ post.job_title }}</p>
+                </div>
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% if page.related != nil %}
+{% if page.related != "none" %}
+<section class="block block--bg-pink block__posts">
+  <div class="container">
+    <div class="posts__intro">
+      <h2 class="section-heading section-heading--left">Related Content</h2>
+    </div>
+    <div class="posts__grid">
+      {% assign combined_entries = '' | split: '' %}
+      
+      {% comment %}Collect all posts and news with dialogue category{% endcomment %}
+      {% for post in site.posts %}
               {% if post.categories contains page.related %}
               {% assign combined_entries = combined_entries | push: post %}
               {% endif %}
-	      {% endfor %}
-	      
-	      {% for news in site.news %}
+      {% endfor %}
+      
+      {% for news in site.news %}
               {% if news.categories contains page.related %}
               {% assign combined_entries = combined_entries | push: news %}
               {% endif %}
-	      {% endfor %}
-	      
-	      {% comment %}Sort combined entries by date{% endcomment %}
-	      {% assign sorted_entries = combined_entries | sort: 'date' | reverse %}
-	      
-	      {% assign count_check = false %}
-	      {% for item in sorted_entries limit:4 %}
+      {% endfor %}
+      
+      {% comment %}Sort combined entries by date{% endcomment %}
+      {% assign sorted_entries = combined_entries | sort: 'date' | reverse %}
+      
+      {% assign count_check = false %}
+      {% for item in sorted_entries limit:4 %}
               {% if item.url == page.url %}
               {% assign count_check = true %}
               {% endif %}
-	      {% endfor %}
-	      
-	      {% if count_check == false %}
+      {% endfor %}
+      
+      {% if count_check == false %}
               {% for entry in sorted_entries limit:4 %}
               <a class="posts__item" href="{{ entry.url }}">
-		<div class="posts__item-thumbnail">
-		  {% if entry.image != nil %}
+        <div class="posts__item-thumbnail">
+          {% if entry.image != nil %}
                   <img src="{{ entry.image }}">
-		  {% else %}
+          {% else %}
                   <img alt="" src="../assets/images/placeholder-1.jpg" />
-		  {% endif %}
-		</div>
-		<div class="posts__item-content">
-		  <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-		  <h3>{{ entry.title }}</h3>
-		  <span class="button button--simple">Read more</span>
-		</div>
+          {% endif %}
+        </div>
+        <div class="posts__item-content">
+          <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+          <h3>{{ entry.title }}</h3>
+          <span class="button button--simple">Read more</span>
+        </div>
               </a>
               {% endfor %}
-	      {% else %}
+      {% else %}
               {% for entry in sorted_entries limit:4 %}
               {% if entry.url != page.url %}
               <a class="posts__item" href="{{ entry.url }}">
-		<div class="posts__item-thumbnail">
+        <div class="posts__item-thumbnail">
                   {% if entry.image != nil %}
                   <img src="{{ entry.image }}">
                   {% else %}
                   <img alt="" src="../assets/images/placeholder-1.jpg" />
                   {% endif %}
-		</div>
-		<div class="posts__item-content">
+        </div>
+        <div class="posts__item-content">
                   <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
                   <h3>{{ entry.title }}</h3>
                   <span class="button button--simple">Read more</span>
-		</div>
+        </div>
               </a>
               {% endif %}
               {% endfor %}
-	      {% endif %}
-	    </div>
-	  </div>
-	</section>
-	{%endif%}
-	{%endif%}	
-    </main>
-    {% include site-footer.html %}
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-</body>
-
-</html>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{%endif%}
+{%endif%}

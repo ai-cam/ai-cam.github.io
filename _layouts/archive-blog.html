@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-{% include head.html %}
-
-<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-  {% include site-header.html %}
-
-  <main class="main">
+---
+layout: default
+---
     <section class="block block__hero block__hero--archive" id="hero">
 
       <div class="hero__shape">
@@ -191,10 +186,3 @@
         {% endif %}
       </div>
     </section>
-  </main>
-
-  {% include site-footer.html %}
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-</body>
-
-</html>
