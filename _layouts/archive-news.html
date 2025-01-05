@@ -4,7 +4,7 @@ layout: default
   <section class="block block__hero block__hero--archive block__hero--overflow" id="hero">
 
         <div class="hero__shape">
-          <img alt="" src="../assets/images/news-bg.svg"/>
+          <img alt="" src="{{ '/assets/images/news-bg.svg' | relative_url }}"/>
         </div>
 
         <div class="container">
@@ -19,12 +19,12 @@ layout: default
             </button>
             <div class="hero__filters-selection">
               <div class="hero__filters-selection-inner">
-                <a href="{{ site.url }}/news/">All</a>
-                <a href="{{ site.url }}/news/category/ai-deas/">AI-deas</a>
-                <a href="{{ site.url }}/news/category/education/">Education</a>
-                <a href="{{ site.url }}/news/category/events/">Events</a>
-                <a href="{{ site.url }}/news/category/policy/">Policy</a>
-                <a href="{{ site.url }}/news/category/research-and-innovation/">Research and Innovation</a>
+                <a href="{{ '/news/' | relative_url }}">All</a>
+                <a href="{{ '/news/category/ai-deas/' | relative_url }}">AI-deas</a>
+                <a href="{{ '/news/category/education/' | relative_url }}">Education</a>
+                <a href="{{ '/news/category/events/' | relative_url }}">Events</a>
+                <a href="{{ '/news/category/policy/' | relative_url }}">Policy</a>
+                <a href="{{ '/news/category/research-and-innovation/' | relative_url }}">Research and Innovation</a>
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ layout: default
                     {% if post.image != nil %}
                     <img src="{{ post.image }}">
                     {% else %}
-                    <img alt="" src="../assets/images/placeholder-1.jpg" />
+                    <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
                     {% endif %}
                   </div>
                   <div class="posts__item-content">
@@ -179,4 +179,3 @@ layout: default
         </div>
       </section>
 
-    

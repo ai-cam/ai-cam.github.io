@@ -3,13 +3,13 @@ layout: default
 ---
 <section class="block block__hero block__hero--archive" id="hero">
   <div class="hero__shape">
-    <img alt="" src="../assets/images/opportunities-bg.svg"/>
+    <img alt="" src="{{ '/assets/images/opportunities-bg.svg' | relative_url }}"/>
   </div>
 
   <div class="container">
     <div class="hero__content">
       <h1>{{page.title}}</h1>
-      <a href="{{site.url}}/opportunities/" class="button button--standard">Back to opportunities</a>
+      <a href="{{ '/opportunities/' | relative_url }}" class="button button--standard">Back to opportunities</a>
     </div>
   </div>
 </section>

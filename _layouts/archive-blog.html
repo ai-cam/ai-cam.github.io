@@ -4,7 +4,7 @@ layout: default
     <section class="block block__hero block__hero--archive" id="hero">
 
       <div class="hero__shape">
-        <img alt="" src="../assets/images/news-bg.svg"/>
+        <img alt="" src="{{ '/assets/images/news-bg.svg' | relative_url }}"/>
       </div>
       
       <div class="container">
@@ -42,7 +42,7 @@ layout: default
                 <a class="posts__item" href="{{ post.url }}">
                   <div class="posts__item-thumbnail">
                     {% if post.image %}
-                      <img src="{{ post.image | relative_url }}">
+                      <img src="{{ post.image }}">
                     {% else %}
                       <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
                     {% endif %}
@@ -76,7 +76,7 @@ layout: default
                       {% if event.image != nil %}
                         <img src="{{ event.image }}">
                       {% else %}
-                        <img alt="" src="../assets/images/placeholder-1.jpg" />
+                        <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
                       {% endif %}
                     </div>
                     
