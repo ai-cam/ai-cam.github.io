@@ -26,6 +26,23 @@ collections:
     output: true
   opportunities:
     output: true
+  initiatives:
+    permalink: "/initiatives/:title"
+    output: true
+  calls:
+    permalink: "/calls/:title"
+    output: true
+
+# Default front matter for collections
+defaults:
+  - scope:
+      path: "_calls"
+    values:
+      layout: call-single
+  - scope:
+      path: "_initiatives"
+    values:
+      layout: initiative-single
 
 # Build settings
 plugins:

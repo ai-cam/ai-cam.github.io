@@ -2570,6 +2570,112 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+  # Initiatives Collection
+  - name: "initiatives"
+    label: "Initiatives"
+    folder: "_initiatives"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "initiative-single"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+      - label: "Associated Subjects"
+        widget: "select"
+        name: "filter"
+        options:
+          - { label: "None", value: "none" }
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
+          - { label: "Dialogue", value: "dialogue" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }        
+
+      - label: "Hero"
+        name: "hero"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+      # Text (Dual Column)
+      - label: "Text (Split)"
+        name: "text_split"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
 
   # Projects Collection
   - name: "projects"
