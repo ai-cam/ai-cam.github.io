@@ -1,3 +1,11 @@
+---
+title: 'AI-deas'
+description: 'AI-deas: Do you have an idea for game-changing AI innovations that could deliver public benefit?'
+image: '/assets/images/social.jpeg'
+redirect_from:
+  -  /ai-deas-2023-call/
+  -  /ai-deas-2023-call
+  -  /ai-deas-2023-call.html
 hero:
   heading: "AI-deas: Do you have an idea for game-changing AI innovations that
     could deliver public benefit?"
@@ -187,3 +195,4 @@ faqs:
         scheme on 19 September from 13:00 – 14:00. To receive Zoom details for
         this session, please register
         at: <https://cl-cam-ac-uk.zoom.us/meeting/register/tJEkf--upzsvE9PLQUPgSZCGjBlO_dl-0szF>
+---

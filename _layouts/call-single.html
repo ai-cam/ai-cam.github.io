@@ -1,12 +1,8 @@
 ---
-layout: ai-deas
-title: 'AI-deas'
-permalink: /ai-deas-2023-call/
-description: 'AI-deas: Do you have an idea for game-changing AI innovations that could deliver public benefit?'
-image: '/assets/images/social.jpeg'
+layout: default
 ---
 
-{% assign hero = site.data.ai_deas_call_2023.hero %}
+{% assign hero = page.hero %}
 <section class="block block__hero block__hero--large" id="hero">
   <div class="hero__shape hero__shape-1">
   {% include icons/turing-pattern-1.svg %}
@@ -49,7 +45,7 @@ image: '/assets/images/social.jpeg'
   </div>
 </section>
 
-{% assign media_text = site.data.ai_deas.media_text %}
+{% assign media_text = page.media_text %}
 <section class="block block__media-text block--bg-light">
   <div class="container">
     {% if (media_text.image != nil and media_text.image != '') or (media_text.image_small != nil and media_text.image_small != '') %}
@@ -78,20 +74,9 @@ image: '/assets/images/social.jpeg'
             {% if item.link != nil and item.link != '' %}
               <li>
                 <a href="{{ item.link }}">
-                  {{ item.text }}
-                  <svg height="24px" version="1.1" viewbox="0 0 20.0930233 24" width="20.0930233px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
-                      <g fill-rule="nonzero" fill="#000000" id="Landing-Page" transform="translate(-422.9535, -676.0465)">
-                        <g id="Group" transform="translate(0.4741, 80)">
-                          <g id="CTA" transform="translate(254.5259, 577)">
-                            <g id="right-arrow" transform="translate(178, 31.0465) rotate(-270) translate(-178, -31.0465)translate(166, 21)">
-                              <path d="M23.6163882,9.10811199 L14.9491435,0.385649066 C14.7017309,0.136665861 14.3719776,0 14.0203708,0 C13.6683737,0 13.3388155,0.13686222 13.0914029,0.385649066 L12.3044827,1.17776125 C12.0572652,1.42635174 11.9210712,1.7583948 11.9210712,2.11243007 C11.9210712,2.46626898 12.0572652,2.8095045 12.3044827,3.05809499 L17.3608307,8.15773445 L1.29657454,8.15773445 C0.572287906,8.15773445 0,8.72835369 0,9.45743464 L0,10.57727 C0,11.3063509 0.572287906,11.9345034 1.29657454,11.9345034 L17.4181961,11.9345034 L12.3046778,17.0626149 C12.0574603,17.3115981 11.9212664,17.6346086 11.9212664,17.9886439 C11.9212664,18.3422865 12.0574603,18.6700096 12.3046778,18.9187965 L13.091598,19.708356 C13.3390106,19.9573392 13.6685688,20.0930233 14.0205659,20.0930233 C14.3721727,20.0930233 14.7019261,19.955572 14.9493386,19.7065888 L23.6165834,10.9843222 C23.8645813,10.7345535 24.0009704,10.401136 24,10.046708 C24.0007753,9.69110185 23.8645813,9.35748791 23.6163882,9.10811199 Z" id="Path"></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
+                {{ item.text }}
+		
+                {% include icons/down-arraw.svg %}
                 </a>
               </li>
             {% endif %}
@@ -142,7 +127,7 @@ image: '/assets/images/social.jpeg'
   </div>
 </section> -->
 
-{% assign paper = site.data.ai_deas.paper_submissions %}
+{% assign paper = page.paper_submissions %}
 <section class="block block__paper">
   <div class="container">
     <div class="paper__content">
@@ -177,7 +162,7 @@ image: '/assets/images/social.jpeg'
   </div>
 </section>
 
-{% assign faqs = site.data.ai_deas.faqs %}
+{% assign faqs = page.faqs %}
 <section class="block block__accordions">
   <div class="container container--narrow">
     <div class="accordions__intro">
