@@ -93,46 +93,14 @@ image: '/assets/images/social.jpeg'
       {% assign blog_entries = site.posts | filter_by_category: 'ai-deas' | sort: 'date' | reverse %}
 
       {% for post in blog_entries limit:3 %}
-        <a href="{{ post.url }}" class="post post--small">
-          <div class="post__thumbnail">
-            {% if post.image != nil %}
-              <img src="{{ post.image }}">
-            {% else %}
-              <img alt="" src="../assets/images/placeholder-1.jpg"/>
-            {% endif %}
-          </div>
-  
-          <div class="post__content">
-            {% if post.category != nil and post.category != '' %}
-              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-            {% endif %}
-            <h4>{{ post.title }}</h4>
-            <span class="button button--simple">Read more</span>
-          </div>
-        </a>
+        {% include post-card.html post=post %}
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
       <h3>News</h3>
       {% assign news_entries = site.news | filter_by_category: 'ai-deas' | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
-        <a href="{{ post.url }}" class="post post--small">
-          <div class="post__thumbnail">
-            {% if post.image != nil %}
-              <img src="{{ post.image }}">
-            {% else %}
-              <img alt="" src="../assets/images/placeholder-1.jpg"/>
-            {% endif %}
-          </div>
-  
-          <div class="post__content">
-            {% if post.category != nil and post.category != '' %}
-              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-            {% endif %}
-            <h4>{{ post.title }}</h4>
-            <span class="button button--simple">Read more</span>
-          </div>
-        </a>
+        {% include post-card.html post=post %}
       {% endfor %}
     </div>
     
@@ -142,21 +110,8 @@ image: '/assets/images/social.jpeg'
       {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'ai-deas' %} <!--| sort: "start" %}-->
       
       {% if upcomingEvents.size > 0 %}
-        {% for post in upcomingEvents limit: 4 %}
-          <a href="{{ post.url }}" class="post post--small">
-            <div class="post__thumbnail">
-              {% if post.image != nil %}
-                <img src="{{ post.image }}">
-              {% else %}
-                <img alt="" src="../assets/images/placeholder-1.jpg"/>
-              {% endif %}
-            </div>
-            <div class="post__content">
-              <span class="category">{{ post.start | date: "%b %-d, %Y" }}</span>
-              <h4>{{ post.title }}</h4>
-              <span class="button button--simple">Read more</span>
-            </div>
-          </a>
+        {% for post in upcomingEvents limit: 3 %}
+          {% include post-card.html post=post show_date=true %}
         {% endfor %}
       {% else %}
         <p>No upcoming events</p>
