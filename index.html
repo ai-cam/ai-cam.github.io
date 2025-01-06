@@ -7,65 +7,13 @@ image: '/assets/images/social.jpeg'
 ---
 
 {% assign hero_slider = site.data.homepage.hero_slider %}
-<section class="block block__hero block__hero--slider" id="hero">
-<div class="hero__shape hero__shape-1">
-{% include icons/turing-pattern-1.svg %}
-
-  </div>
-  <div class="hero__shape hero__shape-2">
-{% include icons/turing-pattern-2.svg %}
-
-  </div>
-  <div class="hero__shape hero__shape-3">
-{% include icons/turing-pattern-3.svg %}
-
-</div>
- <div class="hero__shape hero__shape-4">
-{% include icons/turing-pattern-4.svg %}
-  </div>
-
-  <div class="container">
-    {% if hero_slider != nil and hero_slider.size > 0 %}
-      <div class="hero__slider">
-        {% for item in hero_slider %}
-          <div class="hero__slider-slide">
-            <div class="hero__content">
-              {% if item.heading != nil and item.heading != '' %}
-                <h1>{{ item.heading }}</h1>
-              {% endif %}
-
-              {% if item.content != nil and item.content != '' %}
-                {{ item.content | markdownify }}
-              {% endif %}
-
-              {% if item.buttons != nil and item.buttons.size > 0 %}
-                <div class="button-box">
-                  {% for item in item.buttons %}
-                    {% if item.link != nil and item.link != '' %}
-                      <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </div>
-
-            {% if (item.image != nil and item.image != '') or (item.image_small != nil and item.image_small != '') %}
-            <div class="hero__image {% if item.image_small != nil and item.image_small != '' %} hero__image--two {% endif %}">
-              {% if item.image != nil and item.image != '' %}
-                <img class="hero__image-image" src="{{ item.image }}"/>
-              {% endif %}
-      
-              {% if item.image_small != nil and item.image_small != '' %}
-                <img class="hero__image-image--floating" src="{{ item.image_small }}"/>
-              {% endif %}
-            </div>
-          {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
-</section>
+{% include hero-main.html 
+  style="slider"
+  shapes=true
+  heading=hero_slider.first.heading
+  content=hero_slider.first.content
+  buttons=hero_slider.first.buttons
+  image=hero_slider.first.image %}
 
 {% assign latest_overview = site.data.homepage.latest_overview %}
 <section class="block block__latest-overview">
@@ -257,6 +205,7 @@ image: '/assets/images/social.jpeg'
       {% endif %}
 
       <p class="slider__notice">Drag to explore</p>
+      {% include icons/right-arrow.svg %}
     </div>
 
 
