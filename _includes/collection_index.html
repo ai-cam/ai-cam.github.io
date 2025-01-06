@@ -1,0 +1,17 @@
+<h1>{{ page.title }}</h1>
+
+{% assign filtered_items = site[page.collection] | where_exp: "item", "item.date <= site.time" %}
+
+{% if filtered_items and filtered_items | size > 0 %}
+  <ul class="list-disc pl-8">
+    {% for item in filtered_items %}
+      <li>
+        <a href="{{ item.url | relative_url }}" class="text-accent hover:underline">
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="text-gray-500">No {{ page.title | downcase }} available yet. Check back soon!</p>
+{% endif %}
