@@ -8,40 +8,13 @@ filter: policy
 ---
 
 {% assign hero = site.data.policy_lab.hero %}
-<section class="block block__hero block__hero--standard" id="hero">
-
-  <div class="hero__shape">
-    <img alt="" src="../assets/images/about-us-bg.svg"/>
-  </div>
-
-  <div class="container">
-    <div class="hero__content">
-      {% if hero.heading != nil and hero.heading != '' %}
-        <h1>{{ hero.heading }}</h1>
-      {% endif %}
-
-      {% if hero.content != nil and hero.content != '' %}
-        {{ hero.content | markdownify }}
-      {% endif %}
-
-      {% if hero.buttons != nil and hero.buttons.size > 0 %}
-        <div class="button-box">
-          {% for item in hero.buttons %}
-            {% if item.link != nil and item.link != '' %}
-              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-
-    {% if hero.image != nil and hero.image != '' %}
-      <div class="hero__image">
-        <img alt="" src="{{ hero.image }}"/>
-      </div>
-    {% endif %}
-  </div>
-</section>
+{% include hero-main.html 
+  style="standard"
+  bg_image="about-us-bg.svg"
+  heading=hero.heading
+  content=hero.content
+  buttons=hero.buttons
+  image=hero.image %}
 
 {% assign text_split = site.data.policy_lab.text_split %}
 <section class="block block__text block__text--split">
@@ -63,8 +36,12 @@ filter: policy
 {% assign project_entries = site.projects %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
+    <div class="slider__top">
     <div class="slider__intro intro">
-      <h2>Projects</h2>
+    <h2>Projects</h2>
+    </div>
+      <p class="slider__notice">Drag to explore</p>
+          
     </div>
     <div class="slider__main">
       {% for post in project_entries %}

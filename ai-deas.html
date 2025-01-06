@@ -1,5 +1,5 @@
 ---
-layout: ai-deas
+layout: default
 title: 'AI-deas'
 permalink: /ai-deas/
 description: Game-changing AI innovations that deliver public benefit.
@@ -35,8 +35,12 @@ image: '/assets/images/social.jpeg'
 {% assign project_entries = site.projects %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
+    <div class="slider__top">
     <div class="slider__intro intro">
-      <h2>Projects</h2>
+    <h2>Projects</h2>
+    </div>
+      <p class="slider__notice">Drag to explore</p>
+          
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
@@ -93,14 +97,46 @@ image: '/assets/images/social.jpeg'
       {% assign blog_entries = site.posts | filter_by_category: 'ai-deas' | sort: 'date' | reverse %}
 
       {% for post in blog_entries limit:3 %}
-        {% include post-card.html post=post %}
+        <a href="{{ post.url }}" class="post post--small">
+          <div class="post__thumbnail">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+  
+          <div class="post__content">
+            {% if post.category != nil and post.category != '' %}
+              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+            {% endif %}
+            <h4>{{ post.title }}</h4>
+            <span class="button button--simple">Read more</span>
+          </div>
+        </a>
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
       <h3>News</h3>
       {% assign news_entries = site.news | filter_by_category: 'ai-deas' | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
-        {% include post-card.html post=post %}
+        <a href="{{ post.url }}" class="post post--small">
+          <div class="post__thumbnail">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+  
+          <div class="post__content">
+            {% if post.category != nil and post.category != '' %}
+              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+            {% endif %}
+            <h4>{{ post.title }}</h4>
+            <span class="button button--simple">Read more</span>
+          </div>
+        </a>
       {% endfor %}
     </div>
     
@@ -110,8 +146,21 @@ image: '/assets/images/social.jpeg'
       {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'ai-deas' %} <!--| sort: "start" %}-->
       
       {% if upcomingEvents.size > 0 %}
-        {% for post in upcomingEvents limit: 3 %}
-          {% include post-card.html post=post show_date=true %}
+        {% for post in upcomingEvents limit: 4 %}
+          <a href="{{ post.url }}" class="post post--small">
+            <div class="post__thumbnail">
+              {% if post.image != nil %}
+                <img src="{{ post.image }}">
+              {% else %}
+                <img alt="" src="../assets/images/placeholder-1.jpg"/>
+              {% endif %}
+            </div>
+            <div class="post__content">
+              <span class="category">{{ post.start | date: "%b %-d, %Y" }}</span>
+              <h4>{{ post.title }}</h4>
+              <span class="button button--simple">Read more</span>
+            </div>
+          </a>
         {% endfor %}
       {% else %}
         <p>No upcoming events</p>
