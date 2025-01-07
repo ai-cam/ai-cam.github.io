@@ -19,12 +19,11 @@ layout: default
             </button>
             <div class="hero__filters-selection">
               <div class="hero__filters-selection-inner">
-                <a href="{{ '/news/' | relative_url }}">All</a>
-                <a href="{{ '/news/category/ai-deas/' | relative_url }}">AI-deas</a>
-                <a href="{{ '/news/category/education/' | relative_url }}">Education</a>
-                <a href="{{ '/news/category/events/' | relative_url }}">Events</a>
-                <a href="{{ '/news/category/policy/' | relative_url }}">Policy</a>
-                <a href="{{ '/news/category/research-and-innovation/' | relative_url }}">Research and Innovation</a>
+                <a href="#" class="filter-btn active" data-category="all">All</a>
+                {% assign categories = site.news | map: "categories" | flatten | uniq | sort %}
+                {% for category in categories %}
+                  <a href="#" class="filter-btn" data-category="{{ category | downcase | slugify }}">{{ category }}</a>
+                {% endfor %}
               </div>
             </div>
           </div>
@@ -36,7 +35,7 @@ layout: default
           {% if site.news.size > 0 %}
           <div class="posts__grid">
             {% for post in site.news reversed %}
-              <a class="posts__item" href="{{ post.url }}">
+              <a class="posts__item" href="{{ post.url }}" data-categories="{{ post.categories | join: ',' | downcase }}">
                 <div class="posts__item-thumbnail">
                   {% if post.image %}
                     <img src="{{ post.image | relative_url }}">
@@ -179,3 +178,31 @@ layout: default
         </div>
       </section>
 
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const posts = document.querySelectorAll('.posts__item');
+        
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+        
+                    const category = btn.dataset.category;
+        
+                    posts.forEach(post => {
+                        if (category === 'all') {
+                            post.style.display = 'block';
+                        } else {
+                            const postCategories = post.dataset.categories.split(',');
+                            post.style.display = postCategories.includes(category) ? 'block' : 'none';
+                        }
+                    });
+                });
+            });
+        });
+        </script>

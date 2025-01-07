@@ -19,9 +19,11 @@ layout: default
             </button>
             <div class="hero__filters-selection">
               <div class="hero__filters-selection-inner">
-                <a href="{{ '/projects/' | relative_url }}">All</a>
-                <a href="{{ '/projects/category/category-1/' | relative_url }}">Category 1</a>
-                <a href="{{ '/projects/category/category-2/' | relative_url }}">Category 2</a>
+                <a href="#" class="filter-btn active" data-category="all">All</a>
+                {% assign categories = site.projects | map: "categories" | flatten | uniq | sort %}
+                {% for category in categories %}
+                  <a href="#" class="filter-btn" data-category="{{ category | downcase | slugify }}">{{ category }}</a>
+                {% endfor %}
               </div>
             </div>
           </div>
@@ -32,7 +34,7 @@ layout: default
         <div class="container">
             <div class="posts__grid">
               {% for post in site.projects %}
-                <a class="posts__item" href="{{ post.url }}">
+                <a class="posts__item" href="{{ post.url }}" data-categories="{{ post.categories | join: ',' | downcase }}">
                   <div class="posts__item-thumbnail">
                     {% if post.image != nil %}
                     <img src="{{ post.image }}">
@@ -54,3 +56,33 @@ layout: default
           </div>
         </div>
       </section>
+
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const posts = document.querySelectorAll('.posts__item');
+        
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+        
+                    const category = btn.dataset.category;
+        
+                    posts.forEach(post => {
+                        if (category === 'all') {
+                            post.style.display = 'block';
+                        } else {
+                            const postCategories = post.dataset.categories.split(',');
+                            post.style.display = postCategories.includes(category) ? 'block' : 'none';
+                        }
+                    });
+                });
+            });
+        });
+        </script>
