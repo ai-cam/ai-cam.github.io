@@ -1,46 +1,18 @@
 ---
-layout: 'page'
+layout: default
 title: 'Contact'
 permalink: /contact/
 description: 'If you have any questions about our work or opportunities to get involved, contact us using this form.'
 image: '/assets/images/social.jpeg'
 ---
 
-{% assign hero = site.data.contact.hero %}
-<section class="block block__hero block__hero--standard block__hero--overflow" id="hero">
-
-  <div class="hero__shape">
-    <img alt="" src="../assets/images/news-bg.svg"/>
-  </div>
-
-  <div class="container">
-    <div class="hero__content">
-      {% if hero.heading != nil and hero.heading != '' %}
-        <h1>{{ hero.heading }}</h1>
-      {% endif %}
-
-      {% if hero.content != nil and hero.content != '' %}
-        {{ hero.content | markdownify }}
-      {% endif %}
-
-      {% if hero.buttons != nil and hero.buttons.size > 0 %}
-        <div class="button-box">
-          {% for item in hero.buttons %}
-            {% if item.link != nil and item.link != '' %}
-              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-
-    {% if hero.image != nil and hero.image != '' %}
-      <div class="hero__image">
-        <img alt="" src="{{ hero.image }}"/>
-      </div>
-    {% endif %}
-  </div>
-</section>
+{% include hero-main.html 
+  style="standard"
+  bg_image="news-bg.svg"
+  heading=page.title
+  buttons=hero.buttons
+  image=page.image
+%}
 
 {% assign contact = site.data.contact.contact %}
 <section class="block block--no-padding-top block__contact">
