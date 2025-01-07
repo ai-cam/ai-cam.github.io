@@ -7,40 +7,14 @@ image: '/assets/images/social.jpeg'
 ---
 
 {% assign hero = site.data.opportunities.hero %}
-<section class="block block__hero block__hero--standard block__hero--overflow" id="hero">
-
-  <div class="hero__shape">
-    <img alt="" src="../assets/images/opportunities-bg.svg"/>
-  </div>
-
-  <div class="container">
-    <div class="hero__content">
-      {% if hero.heading != nil and hero.heading != '' %}
-        <h1>{{ hero.heading }}</h1>
-      {% endif %}
-
-      {% if hero.content != nil and hero.content != '' %}
-        {{ hero.content | markdownify }}
-      {% endif %}
-
-      {% if hero.buttons != nil and hero.buttons.size > 0 %}
-        <div class="button-box">
-          {% for item in hero.buttons %}
-            {% if item.link != nil and item.link != '' %}
-              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-
-    {% if hero.image != nil and hero.image != '' %}
-      <div class="hero__image">
-        <img alt="" src="{{ hero.image }}"/>
-      </div>
-    {% endif %}
-  </div>
-</section>
+{% include hero-main.html 
+  style="standard"
+  heading=hero.heading
+  content=hero.content
+  buttons=hero.buttons
+  image=hero.image
+  bg_image="opportunities-bg.svg"
+%}
 
 {% assign opportunities_entries = site.opportunities %}
 <section class="block block--no-padding-top block__opportunities">
@@ -70,14 +44,17 @@ image: '/assets/images/social.jpeg'
       </div>
       <div class="opportunities__team-listings">
         <div class="opportunities__team-listings__inner">
-          {% for post in opportunities_entries %}
-            {% if post.team == "team-1" %}
+          {% assign team_one_opportunities = opportunities_entries | where: "team", "team-1" %}
+          {% if team_one_opportunities.size > 0 %}
+            {% for post in team_one_opportunities %}
               <a class="team-listings__opportunity" href="{{ post.url }}">
                 {{ post.title }}
                 {% include icons/right-arrow.svg %}
               </a>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          {% else %}
+            <p class="no-opportunities">There are currently no opportunities available in this category.</p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -107,14 +84,17 @@ image: '/assets/images/social.jpeg'
       </div>
       <div class="opportunities__team-listings">
         <div class="opportunities__team-listings__inner">
-          {% for post in opportunities_entries %}
-            {% if post.team == "team-2" %}
+          {% assign team_two_opportunities = opportunities_entries | where: "team", "team-2" %}
+          {% if team_two_opportunities.size > 0 %}
+            {% for post in team_two_opportunities %}
               <a class="team-listings__opportunity" href="{{ post.url }}">
                 {{ post.title }}
                 {% include icons/right-arrow.svg %}
               </a>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          {% else %}
+            <p class="no-opportunities">There are currently no opportunities available in this category.</p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -145,14 +125,17 @@ image: '/assets/images/social.jpeg'
       </div>
       <div class="opportunities__team-listings">
         <div class="opportunities__team-listings__inner">
-          {% for post in opportunities_entries %}
-            {% if post.team == "team-3" %}
+          {% assign team_three_opportunities = opportunities_entries | where: "team", "team-3" %}
+          {% if team_three_opportunities.size > 0 %}
+            {% for post in team_three_opportunities %}
               <a class="team-listings__opportunity" href="{{ post.url }}">
                 {{ post.title }}
                 {% include icons/right-arrow.svg %}
               </a>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          {% else %}
+            <p class="no-opportunities">There are currently no opportunities available in this category.</p>
+          {% endif %}
         </div>
       </div>
     </div>

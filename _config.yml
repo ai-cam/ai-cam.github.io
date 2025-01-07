@@ -50,6 +50,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
 sass:
   sass_dir: _sass
   style: compressed
@@ -96,3 +97,13 @@ paginate_path: "/page/:num/"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Configure archive pages
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: archive-blog  # Use your existing archive-blog layout
+  permalinks:
+    category: /blog/category/:name/ # This is the correct format for blog category archives
+    
