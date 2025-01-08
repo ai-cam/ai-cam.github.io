@@ -30,10 +30,15 @@ simulations, IceNet is already outperforming traditional physicsbased numeral mo
 The datasets that Dr Hosking and his team draw on for their work are all open access, ranging from in situ British Antarctic Survey sensors to satellite data from Copernicus – the EU space programme’s observation component – as well as satellite systems managed by the European Space Agency and the European Centre for Medium-Range Weather. As a Natural Environment Research Council (NERC) organisation that’s part of UK Research and Innovation, British Antarctic Survey follows strict data policies, frameworks and protocols which aim to preserve and manage all environmental data of long-term value. The data outputs underpinning all Dr Hosking’s research is published and shared via British Antarctic Survey’s Polar Data Centre. The aim for all projects, Dr Hosking says, is to be as open and transparent as possible when it comes to sharing data that has been gathered from a myriad different sources. 
 
 “In a way, we are flooded with data,” says Dr Hosking. “We can access almost all the data we need, but it’s just in different places around the world in different formats, updated at different times and often fragmented and imperfect.”
+
 And herein lies one of the biggest challenges facing Dr Hosking and his colleagues, who spend much of their time working out how to combine this fragmented data in a meaningful way. The challenge is exacerbated by technical hurdles, with data held in different formats and on different servers. This means that data scientists are spending more than half of their time accessing, downloading and cleaning data before they can even start their research, Dr Hosking says.
+
 “You’d think that, with the millions we spend on satellites, we would have good tools to access the data, but we just don’t,” says Dr Hosking. “We’ve got more data than we have the ability to process. We work with terabytes of data  at a time. We have access to petabytes  of data but we have no means to ingest all that data.”
+
 The biggest data barrier for cutting-edge environmental research like his, Dr Hosking says, is building the digital infrastructure and the scaffolding that connects everything together.
-Removing barriers
+
+#### Removing barriers
+
 To address these obstacles, Dr Hosking’s team at British Antarctic Survey and The Alan Turing Institute includes Research Software Engineers (RSEs). These positions have been set up to build the underpinning digital tools and infrastructure to support open science. However, the resources for software development and data management are often squeezed into research budgets as an afterthought and are not allocated the time or budget needed, according to Dr Hosking.
 Another related challenge is that scientists often work in silos, spending weeks developing software to download and clean data that is then discarded once a paper is published – leading to wasted resources and duplicated efforts.
 “To do groundbreaking, real-world science, we cannot sit in our silos,” says Dr Hosking, whose team shares open-source software code for their projects via the platform GitHub. 
