@@ -14,7 +14,7 @@ category:
   - policy
 image: /assets/uploads/annie-spratt-wrqtfirtolw-unsplash.jpg
 ---
-Dr Scott Hosking is leading the charge when it comes to using Artificial Intelligence (AI) to tackle some of the biggest environmental challenges of our time. As head of British Antarctic Survey’s AI Lab and co-director of the Turing Research and Innovation Cluster in Digital Twins at The Alan Turing Institute, the climate-scientist-turned-data-expert leads a multi-disciplinary team of scientists and engineers developing cutting-edge tools to help predict how our planet is changing.
+[Dr Scott Hosking](https://scotthosking.com/) is leading the charge when it comes to using Artificial Intelligence (AI) to tackle some of the biggest environmental challenges of our time. As head of [British Antarctic Survey](https://www.bas.ac.uk/)’s AI Lab and co-director of the Turing Research and Innovation Cluster in Digital Twins at [The Alan Turing Institute](https://www.turing.ac.uk/), the climate-scientist-turned-data-expert leads a multi-disciplinary team of scientists and engineers developing cutting-edge tools to help predict how our planet is changing.
 
 A key area of Dr Hosking’s work is building ‘digital twins’ – highly detailed simulations of real-world environments that use AI and machine learning to help create digital versions of the physical world that can help to test future scenarios and forecast changes. Drawing on data from satellites, drones, radars, ocean floats, aircraft, robots, underwater vehicles and a range of other sources, his team is currently working on a digital twin of the Polar regions.
 
