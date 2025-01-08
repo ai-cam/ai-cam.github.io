@@ -1,0 +1,56 @@
+      <section class="block block__posts">
+        <div class="container">
+          <div class="posts__intro">
+            <h2 class="section-heading section-heading--left">Related news</h2>
+          </div>
+
+          <div class="posts__grid">
+            {% assign news_entries = site.news %}
+
+            {% assign count_check = false %}
+            {% for item in site.news limit:4 %}
+            {% if item.url == page.url %}
+            {% assign count_check = true %}
+            {% endif %}
+            {% endfor %}
+
+            {% if count_check == false %}
+            {% for post in news_entries limit:3 %}
+            <a class="posts__item" href="{{ post.url }}">
+              <div class="posts__item-thumbnail">
+                {% if post.image != nil %}
+                <img src="{{ post.image }}">
+                {% else %}
+                <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
+                {% endif %}
+              </div>
+              <div class="posts__item-content">
+                <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+                <h3>{{ post.title }}</h3>
+                <span class="button button--simple">Read more</span>
+              </div>
+            </a>
+            {% endfor %}
+            {% else %}
+            {% for post in news_entries limit:4 %}
+            {% if post.url != page.url %}
+            <a class="posts__item" href="{{ post.url }}">
+              <div class="posts__item-thumbnail">
+                {% if post.image != nil %}
+                <img src="{{ post.image }}">
+                {% else %}
+                <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
+                {% endif %}
+              </div>
+              <div class="posts__item-content">
+                <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+                <h3>{{ post.title }}</h3>
+                <span class="button button--simple">Read more</span>
+              </div>
+            </a>
+            {% endif%}
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </section>

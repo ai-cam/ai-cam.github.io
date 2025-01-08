@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-
-  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
-    {% include site-header.html %}
-
-    <main class="main">
-      <section class="block block__hero block__hero--archive block__hero--overflow" id="hero">
+---
+layout: default
+---
+  <section class="block block__hero block__hero--archive block__hero--overflow" id="hero">
 
         <div class="hero__shape">
-          <img alt="" src="../assets/images/news-bg.svg"/>
+          <img alt="" src="{{ '/assets/images/news-bg.svg' | relative_url }}"/>
         </div>
 
         <div class="container">
@@ -24,12 +19,11 @@
             </button>
             <div class="hero__filters-selection">
               <div class="hero__filters-selection-inner">
-                <a href="{{ site.url }}/news/">All</a>
-                <a href="{{ site.url }}/news/category/ai-deas/">AI-deas</a>
-                <a href="{{ site.url }}/news/category/education/">Education</a>
-                <a href="{{ site.url }}/news/category/events/">Events</a>
-                <a href="{{ site.url }}/news/category/policy/">Policy</a>
-                <a href="{{ site.url }}/news/category/research-and-innovation/">Research and Innovation</a>
+                <a href="#" class="filter-btn active" data-category="all">All</a>
+                {% assign categories = site.news | map: "categories" | flatten | uniq | sort %}
+                {% for category in categories %}
+                  <a href="#" class="filter-btn" data-category="{{ category | downcase | slugify }}">{{ category }}</a>
+                {% endfor %}
               </div>
             </div>
           </div>
@@ -41,7 +35,7 @@
           {% if site.news.size > 0 %}
           <div class="posts__grid">
             {% for post in site.news reversed %}
-              <a class="posts__item" href="{{ post.url }}">
+              <a class="posts__item" href="{{ post.url }}" data-categories="{{ post.categories | join: ',' | downcase }}">
                 <div class="posts__item-thumbnail">
                   {% if post.image %}
                     <img src="{{ post.image | relative_url }}">
@@ -167,7 +161,7 @@
                     {% if post.image != nil %}
                     <img src="{{ post.image }}">
                     {% else %}
-                    <img alt="" src="../assets/images/placeholder-1.jpg" />
+                    <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
                     {% endif %}
                   </div>
                   <div class="posts__item-content">
@@ -184,10 +178,31 @@
         </div>
       </section>
 
-    </main>
-
-    {% include site-footer.html %}
-    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-  </body>
-
-</html>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const posts = document.querySelectorAll('.posts__item');
+        
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+        
+                    const category = btn.dataset.category;
+        
+                    posts.forEach(post => {
+                        if (category === 'all') {
+                            post.style.display = 'block';
+                        } else {
+                            const postCategories = post.dataset.categories.split(',');
+                            post.style.display = postCategories.includes(category) ? 'block' : 'none';
+                        }
+                    });
+                });
+            });
+        });
+        </script>

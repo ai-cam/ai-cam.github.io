@@ -1,0 +1,25 @@
+<section class="block block__post-single">
+  <div class="container">
+    <article>
+      <div class="post-single__body">
+        <div class="row row--justified">
+          <div class="post-single__body-content column-m-12-nest column-t-10 column-d-8">
+            {{ content }}
+            {% if page.link_to %}
+              <div class="button-box">
+                <a href="{{ page.link_to }}" class="button button--standard">Find out more</a>
+              </div>
+            {% endif %}
+            {% if page.apply_link != nil %}
+            <div class="button-box">
+              <a href="{{ page.apply_link }}" rel="noreferrer" target="_blank" class="button button--standard">Apply here</a>
+            </div>
+          {% endif %}
+          </div>
+          {% include social-share.html %}
+          <div class="column-m-12-nest column-d-1"></div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>

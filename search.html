@@ -1,5 +1,5 @@
 ---
-layout: 'page'
+layout: default
 title: 'Home'
 ---
 
@@ -23,59 +23,93 @@ title: 'Home'
 <script>
   window.store = {
     {% for post in site.posts %}
-  "{{ post.url | slugify }}": {
-    "title": "{{ post.title | xml_escape }}",
-      "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.image }}",
-      }
-  {% unless forloop.last %}, {% endunless %}
-  {% endfor %},
-
-  {% for post in site.news %}
-  "{{ post.url | slugify }}": {
-    "title": "{{ post.title | xml_escape }}",
-      "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.image }}",
-      }
-  {% unless forloop.last %}, {% endunless %}
-  {% endfor %},
-
-  {% for post in site.events %}
     "{{ post.url | slugify }}": {
       "title": "{{ post.title | xml_escape }}",
-        "url": "{{ post.url | xml_escape }}",
-          "image": "{{ post.image }}",
-      }
-    {% unless forloop.last %}, {% endunless %}
-    {% endfor %},
-
-  {% for post in site.team %}
-  "{{ post.url | slugify }}": {
-    "title": "{{ post.name | xml_escape }}",
       "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.image }}",
-      }
-  {% unless forloop.last %}, {% endunless %}
-  {% endfor %},
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.posts.size > 0 %},{% endif %}
 
-  {% for post in site.research %}
+    {% for post in site.news %}
     "{{ post.url | slugify }}": {
       "title": "{{ post.title | xml_escape }}",
-        "url": "{{ post.url | xml_escape }}",
-          "image": "{{ post.image }}",
-      }
-    {% unless forloop.last %}, {% endunless %}
-    {% endfor %},
-
-  {% for post in site.opportunities %}
-  "{{ post.url | slugify }}": {
-    "title": "{{ post.title | xml_escape }}",
       "url": "{{ post.url | xml_escape }}",
-        "image": "{{ post.image }}",
-      }
-  {% unless forloop.last %}, {% endunless %}
-  {% endfor %},
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.news.size > 0 %},{% endif %}
 
+    {% for post in site.events %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.events.size > 0 %},{% endif %}
+
+    {% for post in site.team %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.name | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.team.size > 0 %},{% endif %}
+
+    {% for post in site.researchers %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.name | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.researchers.size > 0 %},{% endif %}
+
+    {% for post in site.research %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.research.size > 0 %},{% endif %}
+
+    {% for post in site.projects %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.projects.size > 0 %},{% endif %}
+
+    {% for post in site.opportunities %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.opportunities.size > 0 %},{% endif %}
+
+    {% for post in site.initiatives %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    {% if site.initiatives.size > 0 %},{% endif %}
+
+    {% for post in site.calls %}
+    "{{ post.url | slugify }}": {
+      "title": "{{ post.title | xml_escape }}",
+      "url": "{{ post.url | xml_escape }}",
+      "image": "{{ post.image }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
   };
 </script>
 

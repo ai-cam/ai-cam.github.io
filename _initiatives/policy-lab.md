@@ -1,3 +1,13 @@
+---
+layout: initiative-single
+title: Policy Lab
+description: Informing national and international dialogues about the future of AI.
+image: '/assets/images/social.jpeg'
+filter: policy
+redirect_from:
+  - /policy-lab/
+  - /policy-lab
+  - /policy-lab.html
 hero:
   heading: Policy Lab
   content: Informing national and international dialogues about the future of AI
@@ -11,3 +21,4 @@ text_split:
     policy debates. Bridging research, policy, and practice, and drawing from
     the University’s expertise across disciplines, it will convene expertise
     that helps build a well-founded public conversation about AI. "
+---

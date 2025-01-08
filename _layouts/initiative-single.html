@@ -1,49 +1,19 @@
 ---
-layout: 'page'
+layout: default
 title: 'AI Sciencepreneurship'
-permalink: /sciencepreneurship/
-description: Fostering a pan-European network of AI incubators that supports sciencepreneurship education and open source innovation.
-image: '/assets/images/business.jpeg'
-filter: sciencepreneurship
 ---
 
-{% assign hero = site.data.sciencepreneurship.hero %}
-<section class="block block__hero block__hero--standard" id="hero">
+{% assign hero = page.hero %}
+{% include hero-main.html 
+  style="standard"
+  bg_image="about-us-bg.svg"
+  heading=hero.heading
+  content=hero.content
+  buttons=hero.buttons
+  image=hero.image %}
 
-  <div class="hero__shape">
-    <img alt="" src="../assets/images/about-us-bg.svg"/>
-  </div>
 
-  <div class="container">
-    <div class="hero__content">
-      {% if hero.heading != nil and hero.heading != '' %}
-        <h1>{{ hero.heading }}</h1>
-      {% endif %}
-
-      {% if hero.content != nil and hero.content != '' %}
-        {{ hero.content | markdownify }}
-      {% endif %}
-
-      {% if hero.buttons != nil and hero.buttons.size > 0 %}
-        <div class="button-box">
-          {% for item in hero.buttons %}
-            {% if item.link != nil and item.link != '' %}
-              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-
-    {% if hero.image != nil and hero.image != '' %}
-      <div class="hero__image">
-        <img alt="" src="{{ hero.image }}"/>
-      </div>
-    {% endif %}
-  </div>
-</section>
-
-{% assign text_split = site.data.sciencepreneurship.text_split %}
+{% assign text_split = page.text_split %}
 <section class="block block__text block__text--split">
   <div class="container">
     {% if text_split.heading != nil and text_split.heading != '' %}
@@ -63,12 +33,16 @@ filter: sciencepreneurship
 {% assign project_entries = site.projects %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
+    <div class="slider__top">
     <div class="slider__intro intro">
-      <h2>Projects</h2>
+    <h2>{{page.title}} Projects</h2>
+    </div>
+      <p class="slider__notice">Drag to explore</p>
+          
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
-        {% if post.category contains 'sciencepreneurship' %}
+        {% if post.category contains page.filter %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image != nil %}
@@ -105,7 +79,7 @@ filter: sciencepreneurship
   </div>
 </section>
 
-{% assign latest_overview = site.data.homepage.latest_overview %}
+{% assign latest_overview = page.latest_overview %}
 <section class="block block__latest-overview">
   <div class="container">
     {% if (latest_overview.heading != nil and latest_overview.heading != '') or (latest_overview.content != nil and latest_overview.content != '') or (latest_overview.buttons != nil and latest_overview.buttons.size > 0) %}
@@ -130,8 +104,8 @@ filter: sciencepreneurship
       </div>
     {% endif %}
     <div class="latest-overview__column latest-overview__column--reseach">
-      <h3>Sciencepreneurship Blogs</h3>
-      {% assign blog_entries = site.posts | filter_by_category: 'sciencepreneurship' | sort: 'date' | reverse %}
+      <h3>{{page.title}} Blogs</h3>
+      {% assign blog_entries = site.posts | filter_by_category: page.filter | sort: 'date' | reverse %}
       {% for post in blog_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
@@ -153,8 +127,8 @@ filter: sciencepreneurship
       {% endfor %}
     </div>
     <div class="latest-overview__column latest-overview__column--news">
-      <h3>Sciencepreneurship News</h3>
-      {% assign news_entries = site.news | filter_by_category: 'sciencepreneurship' | sort: 'date' | reverse %}
+      <h3>{{ page.title }} News</h3>
+      {% assign news_entries = site.news | filter_by_category: page.filter | sort: 'date' | reverse %}
       {% for post in news_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
@@ -178,8 +152,8 @@ filter: sciencepreneurship
     
     
     <div class="latest-overview__column latest-overview__column--events">
-      <h3>Upcoming Sciencepreneurship Events</h3>
-      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: 'sciencepreneurship'  %} <!--| sort: "start" %}-->
+      <h3>{{page.title}} Upcoming Events</h3>
+      {% assign upcomingEvents = site.events | upcoming_events | filter_by_category: page.filter  %} <!--| sort: "start" %}-->
       
       {% if upcomingEvents.size > 0 %}
         {% for post in upcomingEvents limit: 3 %}

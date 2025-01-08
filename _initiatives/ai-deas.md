@@ -1,3 +1,13 @@
+---
+layout: initiative-single
+title: 'AI-deas'
+description: Game-changing AI innovations that deliver public benefit.
+image: '/assets/images/social.jpeg'
+filter: ai-deas
+redirect_from:
+  - /ai-deas/
+  - /ai-deas
+  - /ai-deas.html
 hero:
   heading: AI-deas
   content: Supporting AI innovations that benefit science, citizens, and society.
@@ -15,3 +25,4 @@ text_split:
     society, and take innovative ideas from the lab to application. "
   image: /assets/uploads/lander-media-2.png
   image_small: /assets/uploads/lander-media-1.png
+---

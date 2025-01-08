@@ -1,0 +1,206 @@
+---
+layout: default
+---
+
+{% assign hero = page.hero %}
+<section class="block block__hero block__hero--large" id="hero">
+  <div class="hero__shape hero__shape-1">
+  {% include icons/turing-pattern-1.svg %}
+  </div>
+  <div class="hero__shape hero__shape-2">
+  {% include icons/turing-pattern-2.svg %}} 
+  </div>
+  <div class="hero__shape hero__shape-3">
+  {% include icons/turing-pattern-3.svg %}  
+  </div>
+  <div class="hero__shape hero__shape-4">    
+  {% include icons/turing-pattern-4.svg %}  
+  </div>
+
+  <div class="container">
+    <div class="hero__content">
+      {% if hero.heading != nil and hero.heading != '' %}
+        <h1>{{ hero.heading }}</h1>
+      {% endif %}
+
+      {% if hero.content != nil and hero.content != '' %}
+        {{ hero.content | markdownify }}
+      {% endif %}
+
+      {% if hero.buttons != nil and hero.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in hero.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    {% if hero.image != nil and hero.image != '' %}
+      <div class="hero__image">
+        <img alt="" src="{{ hero.image }}"/>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% assign media_text = page.media_text %}
+<section class="block block__media-text block--bg-light">
+  <div class="container">
+    {% if (media_text.image != nil and media_text.image != '') or (media_text.image_small != nil and media_text.image_small != '') %}
+      <div class="media-text__media {% if media_text.image_small != nil and media_text.image_small != '' %} media-text__media--two {% endif %}">
+        {% if media_text.image != nil and media_text.image != '' %}
+          <img class="media-text__media-image" src="{{ media_text.image }}"/>
+        {% endif %}
+
+        {% if media_text.image_small != nil and media_text.image_small != '' %}
+          <img class="media-text__media-image--floating" src="{{ media_text.image_small }}"/>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="media-text__content">
+      {% if media_text.heading != nil and media_text.heading != '' %}
+        <h2>{{ media_text.heading }}</h2>
+      {% endif %}
+      {% if media_text.content != nil and media_text.content != '' %}
+        {{ media_text.content | markdownify }}
+      {% endif %}
+      <!-- Quick Links -->
+      {% if media_text.quick_links != nil and media_text.quick_links.size > 0 %}
+        <ul class="media-text__content-quicklinks">
+          {% for item in media_text.quick_links %}
+            {% if item.link != nil and item.link != '' %}
+              <li>
+                <a href="{{ item.link }}">
+                {{ item.text }}
+		
+                {% include icons/down-arraw.svg %}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if media_text.buttons != nil and media_text.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in media_text.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- {% assign project_entries = site.projects %}
+<section class="block block--bg-pink block__slider">
+  <div class="container">
+    <div class="slider__intro intro">
+      <h2>Projects</h2>
+    </div>
+    <div class="slider__main">
+      {% for post in project_entries %}
+        <a href="{{ post.url }}" class="slider__slide">
+          <div class="slider__slide-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}"/>
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="slider__slide-heading">
+            <h3>{{ post.title }}</h3>
+
+            {% include icons/right-arrow.svg %}
+          </div>
+          <div class="slider__slide-content">
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section> -->
+
+{% assign paper = page.paper_submissions %}
+<section class="block block__paper">
+  <div class="container">
+    <div class="paper__content">
+      {% if paper.heading != nil and paper.heading != '' %}
+        <h2>{{ paper.heading }}</h2>
+      {% endif %}
+      {% if paper.content != nil and paper.content != '' %}
+        {{ paper.content | markdownify }}
+      {% endif %}
+      {% if paper.buttons != nil and paper.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in paper.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+    <div class="paper__form">
+      <div class="paper__form-inner">
+        {% if paper.submission_instructions != nil and paper.submission_instructions != '' %}
+          {{ paper.submission_instructions | markdownify }}
+        {% endif %}
+        {% if paper.submission_link != nil and paper.submission_link != '' %}
+          <div class="button-box">
+            <a class="button button--standard button--arrow" href="{{ paper.submission_link }}" target="_blank">Submit paper</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% assign faqs = page.faqs %}
+<section class="block block__accordions">
+  <div class="container container--narrow">
+    <div class="accordions__intro">
+      {% if faqs.heading != nil and faqs.heading != '' %}
+        <h2 class="section-heading">{{ faqs.heading }}</h2>
+      {% endif %}
+      {% if faqs.content != nil and faqs.content != '' %}
+        {{ faqs.content | markdownify }}
+      {% endif %}
+      {% if faqs.buttons != nil and faqs.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in faqs.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if faqs.faqs != nil and faqs.faqs.size > 0 %}
+      <div class="accordions__list accordions">
+        {% for item in faqs.faqs %}
+          {% if item.heading != nil and item.heading != '' %}
+            <div class="accordions__item">
+              <button>
+                <h3>{{ item.heading }}</h3>
+                <img alt="" src="../assets/images/chevron.svg">
+              </button>
+              <div class="accordions__item-inner">
+                {% if item.content != nil and item.content != '' %}
+                  {{ item.content | markdownify }}
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</section>

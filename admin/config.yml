@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 local_backend: true
 
@@ -1701,209 +1701,6 @@ collections:
                 name: "image"
                 widget: "image"
                 required: false
-      # AI-deas Page
-      - label: "AI-deas Call 2023"
-        name: "ai_deas_call_2023"
-        file: "_data/ai_deas_call_2023.yml"
-        editor:
-          preview: false
-        fields:
-          # Hero
-          - label: "Hero"
-            name: "hero"
-            collapsed: true
-            widget: "object"
-            fields:
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-                required: false
-              - label: "Content"
-                name: "content"
-                widget: "text"
-                required: false
-              - label: "Buttons"
-                name: "buttons"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Link,
-                      name: link,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Text,
-                      name: text,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-              - label: "Image"
-                name: "image"
-                widget: "image"
-                required: false
-          # Media Text
-          - label: "Media Text"
-            name: "media_text"
-            collapsed: true
-            widget: "object"
-            fields:
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-                required: false
-              - label: "Content"
-                name: "content"
-                widget: "text"
-                required: false
-              - label: "Quick Links"
-                name: "quick_links"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Link,
-                      name: link,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Text,
-                      name: text,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-              - label: "Buttons"
-                name: "buttons"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Link,
-                      name: link,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Text,
-                      name: text,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-              - label: "Image"
-                name: "image"
-                widget: "image"
-                required: false
-              - label: "Image (Small)"
-                name: "image_small"
-                widget: "image"
-                required: false
-          # Paper Submissions
-          - label: "Paper Submissions"
-            name: "paper_submissions"
-            collapsed: true
-            widget: "object"
-            fields:
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-                required: false
-              - label: "Content"
-                name: "content"
-                widget: "markdown"
-                required: false
-              - label: "Buttons"
-                name: "buttons"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Link,
-                      name: link,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Text,
-                      name: text,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-              - label: "Submission Instructions"
-                name: "submission_instructions"
-                widget: "markdown"
-                required: false
-              - label: "Submission Link"
-                name: "submission_link"
-                widget: "string"
-                required: false
-          # FAQs
-          - label: "FAQs"
-            name: "faqs"
-            collapsed: true
-            widget: "object"
-            fields:
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-                required: false
-              - label: "Content"
-                name: "content"
-                widget: "text"
-                required: false
-              - label: "Buttons"
-                name: "buttons"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Link,
-                      name: link,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Text,
-                      name: text,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-              - label: "FAQs"
-                name: "faqs"
-                widget: "list"
-                required: false
-                collapsed: true
-                fields:
-                  - {
-                      label: Heading,
-                      name: heading,
-                      widget: string,
-                      required: false,
-                      collapsed: true,
-                    }
-                  - {
-                      label: Content,
-                      name: content,
-                      widget: markdown,
-                      required: false,
-                      collapsed: true,
-                    }
       # Research Page (Archive for Research and Researchers)
       - label: "Research"
         name: "research"
@@ -2218,6 +2015,252 @@ collections:
         name: "body"
         widget: "markdown"
 
+  # Calls collection
+  - label: "Calls"
+    name: "Calls"
+    folder: "_calls"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "news-single"
+      - label: "Permalink"
+        name: "permalink"
+        widget: "hidden"
+        default: "/news/:title"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "text"
+      - label: "Author/s"
+        name: "author"
+        widget: "string"
+        required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "DD/MM/YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LLL"
+        picker_utc: false
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
+          - { label: "Dialogue", value: "dialogue" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+      - label: "Hero"
+        name: "hero"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+      # Media Text
+      - label: "Media Text"
+        name: "media_text"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Quick Links"
+            name: "quick_links"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+          - label: "Image (Small)"
+            name: "image_small"
+            widget: "image"
+            required: false
+      # Paper Submissions
+      - label: "Paper Submissions"
+        name: "paper_submissions"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "markdown"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Submission Instructions"
+            name: "submission_instructions"
+            widget: "markdown"
+            required: false
+          - label: "Submission Link"
+            name: "submission_link"
+            widget: "string"
+            required: false
+      # FAQs
+      - label: "FAQs"
+        name: "faqs"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Heading,
+                  name: heading,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Content,
+                  name: content,
+                  widget: markdown,
+                  required: false,
+                  collapsed: true,
+                }
+      
   # News Collection
   - label: "News"
     name: "News"
@@ -2570,6 +2613,112 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+  # Initiatives Collection
+  - name: "initiatives"
+    label: "Initiatives"
+    folder: "_initiatives"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "initiative-single"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+      - label: "Associated Subjects"
+        widget: "select"
+        name: "filter"
+        options:
+          - { label: "None", value: "none" }
+          - { label: "AI deas", value: "ai-deas" }
+          - { label: "Education", value: "education" }
+          - { label: "Events", value: "events" }
+          - { label: "Policy", value: "policy" }
+          - { label: "Sciencepreneurship", value: "sciencepreneurship" }
+          - { label: "Dialogue", value: "dialogue" }
+          - { label: "Research & Innovation", value: "research-and-innovation" }        
+
+      - label: "Hero"
+        name: "hero"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+          - label: "Image"
+            name: "image"
+            widget: "image"
+            required: false
+      # Text (Dual Column)
+      - label: "Text (Split)"
+        name: "text_split"
+        collapsed: true
+        widget: "object"
+        fields:
+          - label: "Heading"
+            name: "heading"
+            widget: "string"
+            required: false
+          - label: "Content"
+            name: "content"
+            widget: "text"
+            required: false
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            required: false
+            collapsed: true
+            fields:
+              - {
+                  label: Link,
+                  name: link,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: string,
+                  required: false,
+                  collapsed: true,
+                }
 
   # Projects Collection
   - name: "projects"

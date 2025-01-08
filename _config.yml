@@ -26,6 +26,23 @@ collections:
     output: true
   opportunities:
     output: true
+  initiatives:
+    permalink: "/initiatives/:title"
+    output: true
+  calls:
+    permalink: "/calls/:title"
+    output: true
+
+# Default front matter for collections
+defaults:
+  - scope:
+      path: "_calls"
+    values:
+      layout: call-single
+  - scope:
+      path: "_initiatives"
+    values:
+      layout: initiative-single
 
 # Build settings
 plugins:
@@ -33,6 +50,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-archives
 sass:
   sass_dir: _sass
   style: compressed
@@ -79,3 +97,13 @@ paginate_path: "/page/:num/"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Configure archive pages
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: archive-blog  # Use your existing archive-blog layout
+  permalinks:
+    category: /blog/category/:name/ # This is the correct format for blog category archives
+    

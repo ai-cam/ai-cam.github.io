@@ -229,6 +229,11 @@
       position: relative;
       display: flex;
     }
+    // Added by Neil to ensure filters are above the hero shape
+    .hero__filters {
+      position: relative;
+      z-index: 100;
+    }
   }
 
   &.block__hero--search {
@@ -556,9 +561,12 @@
       width: auto;
       margin: 0 1rem 1rem 1rem;
       display: block;
+      font-family: $header-font-family;
       font-size: 1.6rem;
       line-height: 2rem;
       text-decoration: none;
+      text-transform: uppercase;
+      color: $blue;
       transition: 400ms $cubic;
 
       @include bp(desktop-xl) {

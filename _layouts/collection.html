@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<section class="block block__hero block__hero--archive" id="hero">
+  {% if page.hero_image %}
+  <div class="hero__shape">
+    <img alt="" src="{{ page.hero_image | relative_url }}"/>
+  </div>
+  {% endif %}
+  
+  <div class="container">
+    <div class="hero__content">
+      <h1>{{ page.title }}</h1>
+    </div>
+
+    {% if page.show_filters %}
+    <div class="hero__filters">
+      <button class="button button--standard toggle-filters">
+        <span class="inactive">Show filter</span>
+        <span class="active">Hide filters</span>
+      </button>
+      <div class="hero__filters-selection">
+        <div class="hero__filters-selection-inner">
+          {{ page.filters }}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="block block--no-padding-top block__posts">
+  <div class="container">
+    <div class="posts__grid">
+      {{ content }}
+    </div>
+    
+    {% if paginator.total_pages > 1 %}
+      {% include pagination.html %}
+    {% endif %}
+  </div>
+</section> 
