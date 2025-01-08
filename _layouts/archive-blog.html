@@ -1,34 +1,9 @@
 ---
 layout: default
 ---
-    <section class="block block__hero block__hero--archive" id="hero">
-
-      <div class="hero__shape">
-        <img alt="" src="{{ '/assets/images/news-bg.svg' | relative_url }}"/>
-      </div>
-      
-      <div class="container">
-        <div class="hero__content">
-          <h1>Blog</h1>
-        </div>
-    
-        <div class="hero__filters">
-          <button class="button button--standard toggle-filters">
-            <span class="inactive">Show filter</span>
-            <span class="active">Hide filters</span>
-          </button>
-          <div class="hero__filters-selection">
-            <div class="hero__filters-selection-inner">
-              <a href="#" class="filter-btn active" data-category="all">All</a>
-              {% assign categories = site.posts | map: "categories" | flatten | uniq | sort %}
-              {% for category in categories %}
-                <a href="#" class="filter-btn" data-category="{{ category | downcase | slugify }}">{{ category }}</a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+{% include hero-archive.html 
+  title="Blog"
+  collection=site.posts %}
 
     <section class="block block--no-padding-top block__posts">
       <div class="container">
