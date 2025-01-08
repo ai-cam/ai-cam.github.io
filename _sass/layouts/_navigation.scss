@@ -49,6 +49,7 @@ nav.nav-primary {
         line-height: 2rem;
         text-decoration: none;
         color: $dark-blue;
+        cursor: pointer;
 
         @include bp(desktop) {
           font-size: 2rem;
@@ -111,6 +112,7 @@ nav.nav-mobile {
 
   span {
     font-size: 2.8rem;
+    cursor: pointer;
   }
 
   ul {
@@ -142,6 +144,24 @@ nav.nav-mobile {
       }
     }
   }
+
+  .submenu {
+    background: rgba($lightest, 0.1);
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    border-radius: 4px;
+
+    a {
+      font-size: 2.2rem!important;
+      padding: 1rem 0;
+      color: $lightest;
+      opacity: 0.9;
+
+      &:hover {
+        opacity: 1;
+     }
+    }
+  }
 }
 
 /* Hide submenus by default */
@@ -149,10 +169,12 @@ nav.nav-mobile {
   display: none;
   position: relative;
   z-index: 1; /* Ensure the submenu appears above other content */
-  margin: 20px 0;
+  margin: 1rem 0;
+  transition: all0.3s ease;
 
   &.open {
     display: block;
+    animation: fadeIn 0.3s ease;
   }
 }
 
