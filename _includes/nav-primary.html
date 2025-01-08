@@ -2,20 +2,67 @@
   <ul>
     {% for item in site.data.nav.main_nav %}
       <li>
-        {% if item.link != nil and item.link != '' %}
-          <a href="{{ item.link }}">{{ item.label }}</a>
-        {% else %}
+        {% if item.is_dynamic %}
+          <!-- Dynamic collection menu -->
           <span>{{ item.label }}</span>
-        {% endif %}
-        {% if item.submenu != nil %}
           <div class="submenu">
-            {% if item.link != nil and item.link != '' %}
-              <a href="{{ item.link }}">{{ item.label }}</a>
-            {% endif %}
-            {% for item in item.submenu. %}
-              <a href="{{ item.link }}">{{ item.label }}</a>
+            {% assign collection = item.collection %}
+            {% assign display_field = item.collection_display | default: 'title' %}
+            {% assign sort_by = item.sort_by | default: 'title' %}
+            
+            {% case collection %}
+            {% when 'initiatives' %}
+              {% assign items = site.initiatives %}
+            {% when 'projects' %}
+              {% assign items = site.projects %}
+            {% when 'research' %}
+              {% assign items = site.research %}
+            {% when 'events' %}
+              {% assign items = site.events %}
+            {% when 'news' %}
+              {% assign items = site.news %}
+            {% when 'posts' %}
+              {% assign items = site.posts %}
+            {% endcase %}
+
+            {% case sort_by %}
+            {% when 'date' %}
+              {% assign items = items | sort: 'date' | reverse %}
+            {% when 'date_asc' %}
+              {% assign items = items | sort: 'date' %}
+            {% else %}
+              {% assign items = items | sort: sort_by %}
+            {% endcase %}
+
+            {% for item in items %}
+              {% case display_field %}
+              {% when 'title' %}
+                {% assign display_text = item.title %}
+              {% when 'name' %}
+                {% assign display_text = item.name %}
+              {% when 'heading' %}
+                {% assign display_text = item.heading %}
+              {% endcase %}
+              <a href="{{ item.url }}">{{ display_text }}</a>
             {% endfor %}
           </div>
+        {% else %}
+          <!-- Regular menu item -->
+          {% if item.link != nil and item.link != '' %}
+            <a href="{{ item.link }}">{{ item.label }}</a>
+          {% else %}
+            <span>{{ item.label }}</span>
+          {% endif %}
+          {% if item.submenu != nil %}
+            <div class="submenu">
+              {% if item.link != nil and item.link != '' %}
+                <a href="{{ item.link }}">{{ item.label }}</a>
+              {% endif %}
+              {% for subitem in item.submenu %}
+                <a href="{{ subitem.link }}">{{ subitem.label }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
         {% endif %}
       </li>
     {% endfor %}
