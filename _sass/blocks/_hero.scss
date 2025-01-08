@@ -224,15 +224,15 @@
   }
 
   &.block__hero--archive {
-    // z-index: 10;
+    position: relative;
+
     .container {
       position: relative;
       display: flex;
     }
-    // Added by Neil to ensure filters are above the hero shape
+
     .hero__filters {
       position: relative;
-      z-index: 100;
     }
   }
 
@@ -526,10 +526,10 @@
     position: absolute;
     bottom: -1rem;
     transform: translateY(100%);
-    z-index: 100;
     opacity: 0;
     visibility: hidden;
     transition: 400ms $cubic;
+    z-index: 100000000;
 
     @include bp(tablet) {
       padding: 2rem 2.5rem;
