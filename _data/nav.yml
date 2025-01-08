@@ -25,13 +25,10 @@ main_nav:
         link: /events/
   - label: Initiatives
     link: ""
-    submenu:
-      - label: AI-deas
-        link: /ai-deas/
-      - label: Policy Lab
-        link: /policy-lab/
-      - label: AI Sciencepreneurship
-        link: /sciencepreneurship/
+    is_dynamic: true
+    collection: initiatives
+    collection_display: title
+    sort_by: title
   - label: AI@Cambridge
     link: ""
     submenu:

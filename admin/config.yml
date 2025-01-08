@@ -89,30 +89,72 @@ collections:
             minimize_collapsed: true
             widget: "list"
             required: false
+            hint: "Configure the main navigation menu items"
             fields:
               - label: "Label"
                 name: "label"
                 widget: "string"
                 required: true
+                hint: "The text that appears in the navigation menu"
               - label: "Link"
                 name: "link"
                 widget: "string"
                 required: false
-              - label: "Submenu"
+                hint: "The URL this menu item links to (leave empty for dropdown-only items)"
+              - label: "Is Dynamic Collection Menu"
+                name: "is_dynamic"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Enable this to automatically generate submenu items from a collection"
+              - label: "Collection Name"
+                name: "collection"
+                widget: "select"
+                required: false
+                hint: "Choose which collection to use for the dynamic submenu"
+                options:
+                  - { label: "Initiatives", value: "initiatives" }
+                  - { label: "Projects", value: "projects" }
+                  - { label: "Research", value: "research" }
+                  - { label: "Events", value: "events" }
+                  - { label: "News", value: "news" }
+                  - { label: "Blog", value: "posts" }
+              - label: "Collection Display Field"
+                name: "collection_display"
+                widget: "select"
+                required: false
+                hint: "Choose which field from the collection to display in the submenu"
+                options:
+                  - { label: "Title", value: "title" }
+                  - { label: "Name", value: "name" }
+                  - { label: "Heading", value: "heading" }
+              - label: "Sort By"
+                name: "sort_by"
+                widget: "select"
+                required: false
+                hint: "Choose how to sort the submenu items"
+                options:
+                  - { label: "Title (A-Z)", value: "title" }
+                  - { label: "Date (Newest First)", value: "date" }
+                  - { label: "Date (Oldest First)", value: "date_asc" }
+              - label: "Manual Submenu"
                 name: "submenu"
                 collapsed: true
                 minimize_collapsed: true
                 widget: "list"
                 required: false
+                hint: "Manually create submenu items (only used when 'Is Dynamic Collection' is off)"
                 fields:
                   - label: "Label"
                     name: "label"
                     widget: "string"
                     required: true
+                    hint: "The text that appears in the submenu"
                   - label: "Link"
                     name: "link"
                     widget: "string"
                     required: false
+                    hint: "The URL this submenu item links to"
           # Footer Nav
           - label: "Footer Navigation"
             name: "footer_nav"
