@@ -38,6 +38,11 @@ main_nav:
         link: /study/
   - label: Blog
     link: /blog/
+  - is_dynamic: true
+    label: Projects
+    collection: projects
+    collection_display: title
+    sort_by: title
 footer_nav:
   - label: Vision
     link: /our-vision/
