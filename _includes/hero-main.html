@@ -1,0 +1,50 @@
+<section class="block block__hero block__hero--{{ include.style | default: 'standard' }}" id="hero">
+  {% if include.bg_image %}
+    <div class="hero__shape">
+      <img alt="" src="../assets/images/{{ include.bg_image }}"/>
+    </div>
+  {% endif %}
+
+  {% if include.shapes %}
+    <div class="hero__shape hero__shape-1">
+      {% include icons/turing-pattern-1.svg %}
+    </div>
+    <div class="hero__shape hero__shape-2">
+      {% include icons/turing-pattern-2.svg %}
+    </div>
+    <div class="hero__shape hero__shape-3">
+      {% include icons/turing-pattern-3.svg %}
+    </div>
+    <div class="hero__shape hero__shape-4">
+      {% include icons/turing-pattern-4.svg %}
+    </div>
+  {% endif %}
+
+  <div class="container">
+    <div class="hero__content">
+      {% if include.heading != nil and include.heading != '' %}
+        <h1>{{ include.heading }}</h1>
+      {% endif %}
+
+      {% if include.content != nil and include.content != '' %}
+        {{ include.content | markdownify }}
+      {% endif %}
+
+      {% if include.buttons != nil and include.buttons.size > 0 %}
+        <div class="button-box">
+          {% for item in include.buttons %}
+            {% if item.link != nil and item.link != '' %}
+              <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if include.image != nil and include.image != '' %}
+      <div class="hero__image">
+        <img alt="" src="{{ include.image }}"/>
+      </div>
+    {% endif %}
+  </div>
+</section> 
