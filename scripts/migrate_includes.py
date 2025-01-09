@@ -163,40 +163,56 @@ def run_git_command(command: list[str], logger: logging.Logger) -> Tuple[bool, s
         logger.error(f"Error output: {e.stderr}")
         return False, e.stderr
 
-def ensure_clean_git_state(jekyll_root: Path, logger: logging.Logger) -> bool:
+def ensure_clean_git_state(jekyll_root: Path, logger: logging.Logger, branch_name: str) -> bool:
     """
-    Ensure git working directory is clean and up to date.
+    Ensure git working directory is clean and switch to appropriate branch.
     """
-    # Check if we're in a git repository
     if not (jekyll_root / '.git').exists():
         logger.error("Not a git repository")
         return False
 
-    # Add debug logging for current directory
     logger.debug(f"Checking git status in: {jekyll_root.absolute()}")
 
-    # Check for uncommitted changes with more detailed logging
+    # Check for uncommitted changes
     success, status_output = run_git_command(['git', '-C', str(jekyll_root), 'status', '--porcelain'], logger)
     if not success:
         return False
-    
-    logger.debug(f"Git status output: '{status_output}'")
     
     if status_output.strip():
         logger.error(f"Working directory not clean. Status output: {status_output}")
         return False
 
-    # Perform git pull
-    logger.info("Pulling latest changes...")
-    success, pull_output = run_git_command(['git', '-C', str(jekyll_root), 'pull'], logger)
+    # Check if branch exists
+    success, branches = run_git_command(['git', '-C', str(jekyll_root), 'branch', '--list', branch_name], logger)
     if not success:
         return False
 
-    logger.info("Git working directory is clean and up to date")
+    if not branches.strip():
+        # Branch doesn't exist, create it
+        logger.info(f"Creating new branch: {branch_name}")
+        success, _ = run_git_command(['git', '-C', str(jekyll_root), 'checkout', '-b', branch_name], logger)
+        if not success:
+            return False
+    else:
+        # Branch exists, switch to it
+        logger.info(f"Switching to branch: {branch_name}")
+        success, _ = run_git_command(['git', '-C', str(jekyll_root), 'checkout', branch_name], logger)
+        if not success:
+            return False
+
+    # Pull latest changes
+    logger.info("Pulling latest changes...")
+    success, _ = run_git_command(['git', '-C', str(jekyll_root), 'pull', 'origin', branch_name], logger)
+    if not success:
+        # If pull fails (e.g., branch doesn't exist remotely), that's okay
+        logger.info("No remote branch found - will create on push")
+
+    logger.info("Git working directory is clean and on correct branch")
     return True
 
 def commit_and_push_changes(jekyll_root: Path, old_dir: str, new_dir: str, 
-                          old_name: str = None, new_name: str = None, 
+                          old_name: str = None, new_name: str = None,
+                          branch_name: str = None,
                           logger: logging.Logger = None) -> bool:
     """
     Commit changes and push to remote.
@@ -220,18 +236,18 @@ Move all includes and update references:
 Automated change via migrate_includes.py"""
 
     # Stage changes
-    success, _ = run_git_command(['git', 'add', '.'], logger)
+    success, _ = run_git_command(['git', '-C', str(jekyll_root), 'add', '.'], logger)
     if not success:
         return False
 
     # Commit changes
-    success, _ = run_git_command(['git', 'commit', '-m', message], logger)
+    success, _ = run_git_command(['git', '-C', str(jekyll_root), 'commit', '-m', message], logger)
     if not success:
         return False
 
-    # Push changes
-    logger.info("Pushing changes to remote...")
-    success, _ = run_git_command(['git', 'push'], logger)
+    # Push changes with branch tracking
+    logger.info(f"Pushing changes to remote branch: {branch_name}")
+    success, _ = run_git_command(['git', '-C', str(jekyll_root), 'push', '--set-upstream', 'origin', branch_name], logger)
     if not success:
         return False
 
@@ -273,6 +289,9 @@ This tool helps you:
     parser.add_argument('--debug', 
         action='store_true', 
         help='Enable debug logging')
+    parser.add_argument('--branch',
+        default='include-migration',
+        help='Git branch to use for changes (default: include-migration)')
     
     args = parser.parse_args()
     
@@ -296,7 +315,7 @@ This tool helps you:
     
     if not args.dry_run:
         # Ensure clean git state before proceeding
-        if not ensure_clean_git_state(jekyll_root, logger):
+        if not ensure_clean_git_state(jekyll_root, logger, args.branch):
             logger.error("Aborting due to git status issues")
             return
 
@@ -348,7 +367,7 @@ This tool helps you:
     if not args.dry_run:
         # Commit and push changes
         if not commit_and_push_changes(jekyll_root, args.old_dir, args.new_dir, 
-                                     args.old_name, args.new_name, logger):
+                                     args.old_name, args.new_name, args.branch, logger):
             logger.error("Failed to commit and push changes")
             return
 
