@@ -131,20 +131,7 @@ layout: default
           {% if research_entries %}
             <div class="posts__grid">
               {% for post in research_entries %}
-                <a class="posts__item" href="{{ post.url }}">
-                  <div class="posts__item-thumbnail">
-                    {% if post.image != nil %}
-                    <img src="{{ post.image }}">
-                    {% else %}
-                    <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
-                    {% endif %}
-                  </div>
-                  <div class="posts__item-content">
-                    <span class="category">{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-                    <h3>{{ post.title }}</h3>
-                    <span class="button button--simple">Read more</span>
-                  </div>
-                </a>
+              {% include post-item.html post=post %}
               {% endfor %}
             </div>
           {% else %}
