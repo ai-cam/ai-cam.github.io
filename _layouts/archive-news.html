@@ -1,5 +1,8 @@
 ---
 layout: default
+pagination: 
+  enabled: true
+  collection: news
 ---
 {% include hero-archive.html 
   title="News"
@@ -9,133 +12,31 @@ layout: default
         <div class="container">
           {% if site.news.size > 0 %}
           <div class="posts__grid">
-            {% for post in site.news reversed %}
-              <a class="posts__item" href="{{ post.url }}" data-categories="{{ post.categories | join: ',' | downcase }}">
-                <div class="posts__item-thumbnail">
-                  {% if post.image %}
-                    <img src="{{ post.image | relative_url }}">
-                  {% else %}
-                    <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
-                  {% endif %}
-                </div>
-                <div class="posts__item-content">
-                  <span class="category">{{ post.categories | join: ', ' }}</span>
-                  <h3>{{ post.title }}</h3>
-                  <span class="button button--simple">Read more</span>
-                </div>
-              </a>
+            {% for post in paginator.posts %}
+            {% include post-item.html post=post %}
             {% endfor %}
           </div>
+          
+          {% include pagination.html paginator=paginator %}
         {% else %}
-          <h4>Apologies, there are no posts that can be found.</h4>
+          {% include no-posts.html %}
         {% endif %}
-          
-          {% if paginator.total_pages > 1 %}
-          <div class="posts__pagination">
-            <ul class="pager">
-              {% if paginator.previous_page %}
-              <li class="previous">
-                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                  <svg height="24px" version="1.1" viewbox="0 0 20.0930233 24" width="20.0930233px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
-                      <g fill-rule="nonzero" fill="#05385e" id="Landing-Page" transform="translate(-422.9535, -676.0465)">
-                        <g id="Group" transform="translate(0.4741, 80)">
-                          <g id="CTA" transform="translate(254.5259, 577)">
-                            <g id="right-arrow" transform="translate(178, 31.0465) rotate(-270) translate(-178, -31.0465)translate(166, 21)">
-                              <path d="M23.6163882,9.10811199 L14.9491435,0.385649066 C14.7017309,0.136665861 14.3719776,0 14.0203708,0 C13.6683737,0 13.3388155,0.13686222 13.0914029,0.385649066 L12.3044827,1.17776125 C12.0572652,1.42635174 11.9210712,1.7583948 11.9210712,2.11243007 C11.9210712,2.46626898 12.0572652,2.8095045 12.3044827,3.05809499 L17.3608307,8.15773445 L1.29657454,8.15773445 C0.572287906,8.15773445 0,8.72835369 0,9.45743464 L0,10.57727 C0,11.3063509 0.572287906,11.9345034 1.29657454,11.9345034 L17.4181961,11.9345034 L12.3046778,17.0626149 C12.0574603,17.3115981 11.9212664,17.6346086 11.9212664,17.9886439 C11.9212664,18.3422865 12.0574603,18.6700096 12.3046778,18.9187965 L13.091598,19.708356 C13.3390106,19.9573392 13.6685688,20.0930233 14.0205659,20.0930233 C14.3721727,20.0930233 14.7019261,19.955572 14.9493386,19.7065888 L23.6165834,10.9843222 C23.8645813,10.7345535 24.0009704,10.401136 24,10.046708 C24.0007753,9.69110185 23.8645813,9.35748791 23.6163882,9.10811199 Z" id="Path"></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </a>
-              </li>
-              {% else %}
-              <li class="previous">
-                <button class="disabled" disabled>
-                  <svg height="24px" version="1.1" viewbox="0 0 20.0930233 24" width="20.0930233px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
-                      <g fill-rule="nonzero" fill="#05385e" id="Landing-Page" transform="translate(-422.9535, -676.0465)">
-                        <g id="Group" transform="translate(0.4741, 80)">
-                          <g id="CTA" transform="translate(254.5259, 577)">
-                            <g id="right-arrow" transform="translate(178, 31.0465) rotate(-270) translate(-178, -31.0465)translate(166, 21)">
-                              <path d="M23.6163882,9.10811199 L14.9491435,0.385649066 C14.7017309,0.136665861 14.3719776,0 14.0203708,0 C13.6683737,0 13.3388155,0.13686222 13.0914029,0.385649066 L12.3044827,1.17776125 C12.0572652,1.42635174 11.9210712,1.7583948 11.9210712,2.11243007 C11.9210712,2.46626898 12.0572652,2.8095045 12.3044827,3.05809499 L17.3608307,8.15773445 L1.29657454,8.15773445 C0.572287906,8.15773445 0,8.72835369 0,9.45743464 L0,10.57727 C0,11.3063509 0.572287906,11.9345034 1.29657454,11.9345034 L17.4181961,11.9345034 L12.3046778,17.0626149 C12.0574603,17.3115981 11.9212664,17.6346086 11.9212664,17.9886439 C11.9212664,18.3422865 12.0574603,18.6700096 12.3046778,18.9187965 L13.091598,19.708356 C13.3390106,19.9573392 13.6685688,20.0930233 14.0205659,20.0930233 C14.3721727,20.0930233 14.7019261,19.955572 14.9493386,19.7065888 L23.6165834,10.9843222 C23.8645813,10.7345535 24.0009704,10.401136 24,10.046708 C24.0007753,9.69110185 23.8645813,9.35748791 23.6163882,9.10811199 Z" id="Path"></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </button>
-              </li>
-              {% endif %}
-          
-              {% if paginator.page_trail %}
-              {% for trail in paginator.page_trail %}
-              <li {% if page.url == trail.path %} class="selected" {% endif %}>
-                <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
-              </li>
-              {% endfor %}
-              {% endif %}
-          
-              {% if paginator.next_page %}
-              <li class="next">
-                <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
-                  <svg height="24px" version="1.1" viewbox="0 0 20.0930233 24" width="20.0930233px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
-                      <g fill-rule="nonzero" fill="#05385e" id="Landing-Page" transform="translate(-422.9535, -676.0465)">
-                        <g id="Group" transform="translate(0.4741, 80)">
-                          <g id="CTA" transform="translate(254.5259, 577)">
-                            <g id="right-arrow" transform="translate(178, 31.0465) rotate(-270) translate(-178, -31.0465)translate(166, 21)">
-                              <path d="M23.6163882,9.10811199 L14.9491435,0.385649066 C14.7017309,0.136665861 14.3719776,0 14.0203708,0 C13.6683737,0 13.3388155,0.13686222 13.0914029,0.385649066 L12.3044827,1.17776125 C12.0572652,1.42635174 11.9210712,1.7583948 11.9210712,2.11243007 C11.9210712,2.46626898 12.0572652,2.8095045 12.3044827,3.05809499 L17.3608307,8.15773445 L1.29657454,8.15773445 C0.572287906,8.15773445 0,8.72835369 0,9.45743464 L0,10.57727 C0,11.3063509 0.572287906,11.9345034 1.29657454,11.9345034 L17.4181961,11.9345034 L12.3046778,17.0626149 C12.0574603,17.3115981 11.9212664,17.6346086 11.9212664,17.9886439 C11.9212664,18.3422865 12.0574603,18.6700096 12.3046778,18.9187965 L13.091598,19.708356 C13.3390106,19.9573392 13.6685688,20.0930233 14.0205659,20.0930233 C14.3721727,20.0930233 14.7019261,19.955572 14.9493386,19.7065888 L23.6165834,10.9843222 C23.8645813,10.7345535 24.0009704,10.401136 24,10.046708 C24.0007753,9.69110185 23.8645813,9.35748791 23.6163882,9.10811199 Z" id="Path"></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </a>
-              </li>
-              {% else %}
-              <li class="next">
-                <button class="disabled" disabled>
-                  <svg height="24px" version="1.1" viewbox="0 0 20.0930233 24" width="20.0930233px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
-                      <g fill-rule="nonzero" fill="#05385e" id="Landing-Page" transform="translate(-422.9535, -676.0465)">
-                        <g id="Group" transform="translate(0.4741, 80)">
-                          <g id="CTA" transform="translate(254.5259, 577)">
-                            <g id="right-arrow" transform="translate(178, 31.0465) rotate(-270) translate(-178, -31.0465)translate(166, 21)">
-                              <path d="M23.6163882,9.10811199 L14.9491435,0.385649066 C14.7017309,0.136665861 14.3719776,0 14.0203708,0 C13.6683737,0 13.3388155,0.13686222 13.0914029,0.385649066 L12.3044827,1.17776125 C12.0572652,1.42635174 11.9210712,1.7583948 11.9210712,2.11243007 C11.9210712,2.46626898 12.0572652,2.8095045 12.3044827,3.05809499 L17.3608307,8.15773445 L1.29657454,8.15773445 C0.572287906,8.15773445 0,8.72835369 0,9.45743464 L0,10.57727 C0,11.3063509 0.572287906,11.9345034 1.29657454,11.9345034 L17.4181961,11.9345034 L12.3046778,17.0626149 C12.0574603,17.3115981 11.9212664,17.6346086 11.9212664,17.9886439 C11.9212664,18.3422865 12.0574603,18.6700096 12.3046778,18.9187965 L13.091598,19.708356 C13.3390106,19.9573392 13.6685688,20.0930233 14.0205659,20.0930233 C14.3721727,20.0930233 14.7019261,19.955572 14.9493386,19.7065888 L23.6165834,10.9843222 C23.8645813,10.7345535 24.0009704,10.401136 24,10.046708 C24.0007753,9.69110185 23.8645813,9.35748791 23.6163882,9.10811199 Z" id="Path"></path>
-                            </g>
-                          </g>
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </button>
-              </li>
-              {% endif %}
-          
-            </ul>
-          </div>
-          {% endif %}
         </div>
       </section>
 
-      <!-- Research -->
-      {% assign research_entries = site.research %}
+      <!-- Research Section -->
       <section class="block block--no-padding-top block__posts">
         <div class="container">
           <h2>Research updates</h2>
+          {% assign research_entries = site.research %}
           {% if research_entries %}
-            <div class="posts__grid">
+            <div class="posts__grid no-filter">
               {% for post in research_entries %}
               {% include post-item.html post=post %}
               {% endfor %}
             </div>
           {% else %}
-            <h4>Apologies, there are no posts that can be found.</h4>
+            {% include no-posts.html %}
           {% endif %}
         </div>
       </section>

@@ -48,8 +48,10 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-redirect-from
+
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -63,20 +65,18 @@ social:
   links:
     - https://twitter.com/ai_cam_mission
 
-paginate: 9
-paginate_path: "/page/:num/"
 # for paginate-v2 (not supported by github pages)
-# pagination:
-#   enabled: true
-#   per_page: 9
-#   permalink: "/page/:num/"
-#   title: ":title"
-#   limit: 0
-#   sort_field: "date"
-#   sort_reverse: true
-#   trail:
-#     before: 2
-#     after: 2
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: "/page/:num/"
+  title: ":title"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -97,12 +97,4 @@ paginate_path: "/page/:num/"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Configure archive pages
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: archive-blog  # Use your existing archive-blog layout
-  permalinks:
-    category: /blog/category/:name/ # This is the correct format for blog category archives
-    
+

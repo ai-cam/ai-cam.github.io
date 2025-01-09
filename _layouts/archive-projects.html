@@ -1,5 +1,8 @@
 ---
 layout: default
+pagination: 
+  enabled: true
+  collection: projects
 ---
 {% include hero-archive.html 
   title="Projects"
@@ -12,6 +15,8 @@ layout: default
               {% include post-item.html post=post %}
               {% endfor %}
             </div>
+          
+            {% include pagination.html paginator=paginator %}
           </div>
         </div>
       </section>
