@@ -1,72 +1,55 @@
 <nav class="nav-primary">
   <ul>
-    {% for item in site.data.nav.main_nav %}
-      <li>
-        {% if item.is_dynamic %}
-          <!-- Dynamic collection menu -->
-          <span>{{ item.label }}</span>
-          <div class="submenu">
-            {% assign display_field = item.collection_display | default: 'title' %}
-            {% assign sort_by = item.sort_by | default: 'title' %}
-            
-            {% assign items = '' %}
-            {% if item.collection == 'initiatives' %}
-              {% assign items = site.initiatives %}
-            {% elsif item.collection == 'projects' %}
-              {% assign items = site.projects %}
-            {% elsif item.collection == 'research' %}
-              {% assign items = site.research %}
-            {% elsif item.collection == 'events' %}
-              {% assign items = site.events %}
-            {% elsif item.collection == 'news' %}
-              {% assign items = site.news %}
-            {% elsif item.collection == 'posts' %}
-              {% assign items = site.posts %}
-            {% endif %}
+    {%- for item in site.data.nav.main_nav -%}
+    <li>
+      {%- if item.is_dynamic or item.link == nil or item.link == '' -%}
+        <span>{{ item.label }}</span>
+      {%- else -%}
+        <a href="{{ item.link }}">{{ item.label }}</a>
+      {%- endif -%}
 
-            {% if sort_by == 'date' %}
-              {% assign items = items | sort: 'date' | reverse %}
-            {% elsif sort_by == 'date_asc' %}
-              {% assign items = items | sort: 'date' %}
-            {% else %}
-              {% assign items = items | sort: sort_by %}
-            {% endif %}
-
-            {% for item in items %}
-              {% assign display_text = item.title %}
-              {% if display_field == 'name' %}
-                {% assign display_text = item.name %}
-              {% elsif display_field == 'heading' %}
-                {% assign display_text = item.heading %}
-              {% endif %}
-              
-              <a href="{{ item.url }}">{{ display_text }}</a>
-            {% endfor %}
-          </div>
-        {% else %}
-          <!-- Regular menu item -->
-          {% if item.link != nil and item.link != '' %}
-            <a href="{{ item.link }}">{{ item.label }}</a>
-          {% else %}
-            <span>{{ item.label }}</span>
-          {% endif %}
-          {% if item.submenu != nil %}
-            <div class="submenu">
-              {% if item.link != nil and item.link != '' %}
-                <a href="{{ item.link }}">{{ item.label }}</a>
-              {% endif %}
-              {% for subitem in item.submenu %}
-                <a href="{{ subitem.link }}">{{ subitem.label }}</a>
-              {% endfor %}
-            </div>
-          {% endif %}
+      {% if item.is_dynamic or item.submenu != nil %}
+      <div class="submenu">
+        {% if item.link != nil and item.link != '' %}
+          <a href="{{ item.link }}">{{ item.label }}</a>
         {% endif %}
-      </li>
-    {% endfor %}
+        
+        {%- if item.is_dynamic -%}
+          {%- assign display_field = item.collection_display | default: 'title' -%}
+          {%- assign sort_by = item.sort_by | default: 'title' -%}
+          {%- assign items = '' -%}
+          {%- if item.collection == 'initiatives' -%}{%- assign items = site.initiatives -%}
+          {%- elsif item.collection == 'projects' -%}{%- assign items = site.projects -%}
+          {%- elsif item.collection == 'research' -%}{%- assign items = site.research -%}
+          {%- elsif item.collection == 'events' -%}{%- assign items = site.events -%}
+          {%- elsif item.collection == 'news' -%}{%- assign items = site.news -%}
+          {%- elsif item.collection == 'posts' -%}{%- assign items = site.posts -%}
+          {%- endif -%}
+
+          {%- if sort_by == 'date' -%}{%- assign items = items | sort: 'date' | reverse -%}
+          {%- elsif sort_by == 'date_asc' -%}{%- assign items = items | sort: 'date' -%}
+          {%- else -%}{%- assign items = items | sort: sort_by -%}
+          {%- endif -%}
+
+          {%- for item in items -%}
+            {%- assign display_text = item.title -%}
+            {%- if display_field == 'name' -%}{%- assign display_text = item.name -%}
+            {%- elsif display_field == 'heading' -%}{%- assign display_text = item.heading -%}
+            {%- endif -%}
+            <a href="{{ item.url }}">{{ display_text }}</a>
+          {%- endfor -%}
+        {% else %}
+          {%- for subitem in item.submenu -%}
+            <a href="{{ subitem.link }}">{{ subitem.label }}</a>
+          {%- endfor -%}
+        {% endif %}
+      </div>
+      {% endif %}
+    </li>
+    {%- endfor -%}
   </ul>
 </nav>
 
-{% if site.data.nav.community_link != nil and site.data.nav.community_link != ''
-%}
+{%- if site.data.nav.community_link != nil and site.data.nav.community_link != '' -%}
   <!-- <a class="button button--standard button--blue" target="_blank" href="{{ site.data.nav.community_link }}">Community</a> -->
-{% endif %}
+{%- endif -%}
