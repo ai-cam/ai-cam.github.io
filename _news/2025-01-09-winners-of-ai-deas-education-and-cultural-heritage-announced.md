@@ -12,7 +12,7 @@ image: /assets/uploads/getty-images-sy91bsnueoi-unsplash.jpg
 ---
 ai@cam and the [Accelerate Programme for Scientific Discovery](https://science.ai.cam.ac.uk/) are delighted to announce the winners of the second cohort of ai@cam’s AI-deas initiative. 
 
-The two winning teams will receive £150,000 of seed funding and have access to incubator support from ai@cam to scale their impact. The projects will join ai@cam as the second cohort under the AI-deas initiative, with the first wave of five AI-deas challenges announced last year. These awards follow a highly competitive process that attracted over 50 expressions of interest from 28 University departments.
+The two winning teams will receive £150,000 of seed funding and have access to incubator support from ai@cam to scale their impact. The projects will join ai@cam as the second cohort under the [AI-deas initiative](https://ai.cam.ac.uk/blog/introducing-ai-deas-fuelling-interdisciplinary-ai-research), with the first wave of five AI-deas challenges announced last year. These awards follow a highly competitive process that attracted over 50 expressions of interest from 28 University departments.
 
 The two winning projects which were awarded are:
 
@@ -22,7 +22,7 @@ Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) ho
 
 To address these challenges, the AI for Cultural Heritage Hub (ArCH) will deploy the convening power of Cambridge’s distributed network of collections to create a secure workspace and Community of Practice to empower non-technical users (practitioners and academics) to analyse cultural heritage data securely with AI tools. By encouraging collaboration among curators, researchers, IT professionals, and AI experts, the new hub will prototype adaptive AI solutions to enhance understanding of collections and identify a selection of AI tools to address these problems.
 
-Amelie Roper, Head of Research at Cambridge University Library and AI-deas lead, said: “The University Library is delighted to be collaborating with the Department of Applied Mathematics and Theoretical Physics and the Collections-Connections-Communities Strategic Research Initiative to create the UK’s first AI for Cultural Heritage Hub - ArCH. By creating both a community of practice and a prototype workspace, ArCH will enable heritage practitioners and collections researchers to harness the power of AI to unlock cultural heritage collections.”
+[Amelie Roper](https://www.lib.cam.ac.uk/research-institute/people/amelie-roper), Head of Research at Cambridge University Library and AI-deas lead, said: “The University Library is delighted to be collaborating with the Department of Applied Mathematics and Theoretical Physics and the Collections-Connections-Communities Strategic Research Initiative to create the UK’s first AI for Cultural Heritage Hub - ArCH. By creating both a community of practice and a prototype workspace, ArCH will enable heritage practitioners and collections researchers to harness the power of AI to unlock cultural heritage collections.”
 
 #### Opportunities and potential risks of AI in supporting evaluation (OpRaise)
 
