@@ -20,12 +20,9 @@ Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) ho
 
 To address these challenges, the AI for Cultural Heritage Hub (ArCH) will deploy the convening power of Cambridge’s distributed network of collections to create a secure workspace and Community of Practice to empower non-technical users (practitioners and academics) to analyse cultural heritage data securely with AI tools. By encouraging collaboration among curators, researchers, IT professionals, and AI experts, the new hub will prototype adaptive AI solutions to enhance understanding of collections and identify a selection of AI tools to address these problems.
 
-Amelie Roper, AI-deas lead, said:
+Amelie Roper, AI-deas lead, said: “The University Library is delighted to be collaborating with the Department of Applied Mathematics and Theoretical Physics and the Collections-Connections-Communities Strategic Research Initiative to create the UK’s first AI for Cultural Heritage Hub - ArCH. By creating both a community of practice and a prototype workspace, ArCH will enable heritage practitioners and collections researchers to harness the power of AI to unlock cultural heritage collections.”
 
-“The University Library is delighted to be collaborating with the Department of Applied Mathematics and Theoretical Physics and the Collections-Connections-Communities Strategic Research Initiative to create the UK’s first AI for Cultural Heritage Hub - ArCH. By creating both a community of practice and a prototype workspace, ArCH will enable heritage practitioners and collections researchers to harness the power of AI to unlock cultural heritage collections.”
-
-#### \
-Opportunities and potential risks of AI in supporting evaluation (OpRaise)
+#### Opportunities and potential risks of AI in supporting evaluation (OpRaise)
 
 As AI continues to advance, concerns are growing about its impact on traditional grading systems across the HE sector.  AI models are now capable of writing essays and providing detailed feedback that is improving rapidly, raising questions about how universities should adapt to this technology.
 
