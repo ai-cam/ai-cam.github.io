@@ -10,7 +10,8 @@ category:
   - ai-deas
 image: /assets/uploads/getty-images-sy91bsnueoi-unsplash.jpg
 ---
-ai@cam and the Accelerate Programme for Scientific Discovery are delighted to announce the winners of the second cohort of ai@cam’s AI-deas initiative. \
+ai@cam and the [Accelerate Programme for Scientific Discovery](https://science.ai.cam.ac.uk/) are delighted to announce the winners of the second cohort of ai@cam’s AI-deas initiative. 
+
 The two winning teams will receive £150,000 of seed funding and have access to incubator support from ai@cam to scale their impact. The projects will join ai@cam as the second cohort under the AI-deas initiative, with the first wave of five AI-deas challenges announced last year. These awards follow a highly competitive process that attracted over 50 expressions of interest from 28 University departments.
 
 The two winning projects which were awarded are:
