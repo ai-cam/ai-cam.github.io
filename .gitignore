@@ -38,3 +38,4 @@ _drafts/
 # If using npm/yarn for any frontend assets
 package-lock.json
 yarn.lock
+Gemfile.lock

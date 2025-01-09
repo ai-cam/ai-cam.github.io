@@ -1,26 +1,8 @@
 <div class="offcanvas">
-    <!-- <div class="mobile-menu-exit"></div> -->
     <nav class="nav-mobile">
         <ul>
-            {% for item in site.data.nav.main_nav %}
-              <li>
-                {% if item.link != nil and item.link != '' %}
-                  <a href="{{ item.link }}">{{ item.label }}</a>
-                {% else %}
-                  <span>{{ item.label }}</span>
-                {% endif %}
-                {% if item.submenu != nil %}
-                  <div class="submenu">
-                    {% if item.link != nil and item.link != '' %}
-                      <a href="{{ item.link }}">{{ item.label }}</a>
-                    {% endif %}
-                    {% for item in item.submenu. %}
-                      <a href="{{ item.link }}">{{ item.label }}</a>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
+            {% assign items = site.data.nav.main_nav %}
+            {% include nav-items.html %}
+        </ul>
     </nav>
 </div>

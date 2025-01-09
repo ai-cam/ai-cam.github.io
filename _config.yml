@@ -50,7 +50,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-archives
 sass:
   sass_dir: _sass
   style: compressed

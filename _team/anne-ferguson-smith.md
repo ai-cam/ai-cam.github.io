@@ -17,6 +17,5 @@ biography: "Professor Anne Ferguson-Smith is the current Pro-Vice-Chancellor for
   University of Cambridge in January 2021."
 image: /assets/uploads/Ferguson-Smith_Anne.jpg
 position: Pro Vice Chancellor for Research
-category:
-  - steering-group
+category: null
 ---

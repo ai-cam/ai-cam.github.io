@@ -12,6 +12,8 @@
 
 // Generic Latest Block
 .block__posts {
+  position: relative;
+
   &.block--bg-dark-blue {
     .posts__item {
       &-content {
@@ -43,6 +45,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  z-index: -1;
 
   @include bp(tablet) {
     grid-template-columns: 1fr 1fr 1fr;
