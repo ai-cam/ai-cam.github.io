@@ -38,6 +38,16 @@ document.addEventListener('DOMContentLoaded', function() {
             } else if (paginationContainer) {
                 paginationContainer.style.display = 'block';
             }
+
+            // Show "no posts" message if no posts are visible
+            const noPostsMessage = document.querySelector('.no-posts-message');
+            if (noPostsMessage) {
+                if (visiblePosts === 0) {
+                    noPostsMessage.style.display = 'block';
+                } else {
+                    noPostsMessage.style.display = 'none';
+                }
+            }
         });
     });
 }); 
