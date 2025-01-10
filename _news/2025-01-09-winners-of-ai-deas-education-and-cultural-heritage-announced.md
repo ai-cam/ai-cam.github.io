@@ -34,7 +34,7 @@ OpRaise (opportunities and potential risks of AI in supporting evaluation) aims 
 
 Speaking of the new winners, [Neil Lawrence](https://ai.cam.ac.uk/team/neil-lawrence.html), DeepMind Professor of Machine Learning and Chair of ai@cam said: “We have had a fantastic response to our AI-deas call and are excited to welcome our new cohort joining us. The selected projects in this round of funding continue to demonstrate that AI has the potential to connect to areas our wider community are passionate about, and the culture and education sectors are a key example of this.” 
 
-[Jess Montomgery](https://ai.cam.ac.uk/team/jessica-montgomery.html), ai@cam Director, said: “Too often there are barriers to collaboration which hinder progress in AI research that are connected to real world need. The AI-deas programme offers a unique infrastructure to support challenge-led research that tackles pressing research questions and builds projects that have the potential to scale longer term. We are excited to expand our selection to areas across education and culture and look forward to seeing the projects develop.”
+[Jess Montgomery](https://ai.cam.ac.uk/team/jessica-montgomery.html), ai@cam Director, said: “Too often there are barriers to collaboration which hinder progress in AI research that are connected to real world need. The AI-deas programme offers a unique infrastructure to support challenge-led research that tackles pressing research questions and builds projects that have the potential to scale longer term. We are excited to expand our selection to areas across education and culture and look forward to seeing the projects develop.”
 
 #### ai@cam’s AI-deas 
 
