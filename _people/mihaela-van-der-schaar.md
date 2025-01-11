@@ -1,6 +1,7 @@
 ---
 layout: person
-given: Mihaela van der
+given: Mihaela
+prefix: van der
 family: Schaar
 name: Mihaela van der Schaar
 biography: ''
