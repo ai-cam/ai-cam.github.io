@@ -3,6 +3,8 @@ layout: research-single
 title: Artificial intelligence beats doctors in accurately assessing eye problems
 excerpt: A study has found that the AI model GPT-4 significantly exceeds the
   ability of non-specialist doctors to assess eye problems and provide advice.
+people:
+  - Arun Thirunavukarasu
 image: /assets/uploads/eye.jpg
 date: April 17, 2024 12:00 AM
 ---

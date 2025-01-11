@@ -1,9 +1,10 @@
 ---
 layout: person
+name: Mark Girolami
 given: Mark
 family: Girolami
 department: Department of Engineering
-prefix: Prof
+title: Prof
 job_title: 'Sir Kirby Laing Professor of Civil Engineering'
 crsid: mag92
 image: /assets/uploads/Girolami_Mark.jpeg

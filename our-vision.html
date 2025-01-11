@@ -18,13 +18,13 @@ image: '/assets/images/social.jpeg'
 {% assign text_split = site.data.our_vision.text_split %}
 <section class="block block__text block__text--split">
   <div class="container">
-    {% if text_split.heading != nil and text_split.heading != '' %}
+    {% if text_split.heading %}
       <div class="text__heading">
         <h2>{{ text_split.heading }}</h2>
       </div>
     {% endif %}
 
-    {% if text_split.content != nil and text_split.content != '' %}
+    {% if text_split.content %}
       <div class="text__content">
         {{ text_split.content | markdownify }}
       </div>
@@ -36,20 +36,20 @@ image: '/assets/images/social.jpeg'
 <section class="block block__slider pt-0">
   <div class="container">
     <div class="slider__top">
-      {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
+      {% if slider.heading or slider.content or slider.buttons %}
         <div class="slider__intro intro">
-          {% if slider.heading != nil and slider.heading != '' %}
+          {% if slider.heading %}
             <h2>{{ slider.heading }}</h2>
           {% endif %}
 
-          {% if slider.content != nil and slider.content != '' %}
+          {% if slider.content %}
             {{ slider.content | markdownify }}
           {% endif %}
 
-          {% if slider.buttons != nil and slider.buttons.size > 0 %}
+          {% if slider.buttons and slider.buttons.size > 0 %}
             <div class="button-box">
               {% for item in slider.buttons %}
-                {% if item.link != nil and item.link != '' %}
+                {% if item.link %}
                   <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
                 {% endif %}
               {% endfor %}

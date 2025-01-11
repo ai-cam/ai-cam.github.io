@@ -2,6 +2,7 @@
 title: 'AI-deas'
 description: 'AI-deas: Do you have an idea for game-changing AI innovations that could deliver public benefit?'
 image: '/assets/images/social.jpeg'
+date: 2023-09-21
 redirect_from:
   -  /ai-deas-2023-call/
   -  /ai-deas-2023-call

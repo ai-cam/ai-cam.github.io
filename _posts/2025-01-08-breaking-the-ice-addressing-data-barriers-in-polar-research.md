@@ -12,6 +12,8 @@ excerpt: Dr Scott Hosking is leading the charge when it comes to using
 date: January 8, 2025 12:00 AM
 category:
   - policy
+people:
+  - Scott Hosking
 image: /assets/uploads/annie-spratt-wrqtfirtolw-unsplash.jpg
 ---
 [Dr Scott Hosking](https://scotthosking.com/) is leading the charge when it comes to using Artificial Intelligence (AI) to tackle some of the biggest environmental challenges of our time. As head of [British Antarctic Survey](https://www.bas.ac.uk/)’s AI Lab and co-director of the Turing Research and Innovation Cluster in Digital Twins at [The Alan Turing Institute](https://www.turing.ac.uk/), the climate-scientist-turned-data-expert leads a multi-disciplinary team of scientists and engineers developing cutting-edge tools to help predict how our planet is changing.

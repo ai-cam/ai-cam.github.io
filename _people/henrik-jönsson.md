@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Henrik Jönsson
 given: Henrik
 family: Jönsson
 department: Sainsbury Laboratory

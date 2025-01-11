@@ -1,6 +1,7 @@
 ---
 layout: person
-title: " Professor"
+title: Professor
+name: Neil Lawrence
 given: Neil
 family: Lawrence
 department: Department of Computer Science and Technology
@@ -20,8 +21,12 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   May 2024).
 image: /assets/uploads/Lawrence_Neil.png
 webpage: https://inverseprobability.com
-twitter: "@lawrennd"
+twitter: lawrennd
+bluesky: lawrennd.bsky.social
+linkedin: neil-lawrence-129a22127
+github: lawrennd
 category:
   - leadership
   - researcher
+  - steering-group
 ---

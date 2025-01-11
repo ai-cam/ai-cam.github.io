@@ -8,6 +8,8 @@ excerpt: Hear from Dr Kwadwo Oti-Sarpong, who is leading ai@cam’s
   of AI that will help shape the future of our connected places and cities.
 author: Dr Kwadwo Oti-Sarpong
 date: July 1, 2024 7:00 AM
+people:
+  - Kwadwo Oti-Sarpong
 category:
   - ai-deas
 image: /assets/uploads/picture-1.jpg

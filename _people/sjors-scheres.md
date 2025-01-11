@@ -27,4 +27,5 @@ biography: 'Sjors Scheres is a structural biologist who was born and educated in
   disease, including tau filaments from Alzheimer''s disease. Surprisingly, although
   different diseases are characterised by amyloid formation of the same protein, specific
   amyloid structures were observed for each disease.'
+name: Sjors Scheres
 ---

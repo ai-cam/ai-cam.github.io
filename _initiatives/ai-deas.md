@@ -8,6 +8,9 @@ redirect_from:
   - /ai-deas/
   - /ai-deas
   - /ai-deas.html
+people:
+  - Jess Montgomery
+  - Neil Lawrence
 hero:
   heading: AI-deas
   content: Supporting AI innovations that benefit science, citizens, and society.

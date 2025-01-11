@@ -1,6 +1,5 @@
 ---
 layout: default
-title: 'AI Sciencepreneurship'
 ---
 
 {% assign hero = page.hero %}
@@ -30,19 +29,18 @@ title: 'AI Sciencepreneurship'
   </div>
 </section>
 
-{% assign project_entries = site.projects %}
+{% assign project_entries = site.projects | where: "category", page.filter %}
+{% if project_entries.size > 0 %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
     <div class="slider__top">
-    <div class="slider__intro intro">
-    <h2>{{page.title}} Projects</h2>
-    </div>
+      <div class="slider__intro intro">
+        <h2>{{page.title}} Projects</h2>
+      </div>
       <p class="slider__notice">Drag to explore</p>
-          
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
-        {% if post.category contains page.filter %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image != nil %}
@@ -73,29 +71,29 @@ title: 'AI Sciencepreneurship'
             <p>{{ post.excerpt }}</p>
           </div>
         </a>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
 {% assign latest_overview = page.latest_overview %}
 <section class="block block__latest-overview">
   <div class="container">
-    {% if (latest_overview.heading != nil and latest_overview.heading != '') or (latest_overview.content != nil and latest_overview.content != '') or (latest_overview.buttons != nil and latest_overview.buttons.size > 0) %}
+    {% if latest_overview.heading or latest_overview.content  or latest_overview.buttons  %}
       <div class="latest-overview__intro intro">
-        {% if latest_overview.heading != nil and latest_overview.heading != '' %}
+        {% if latest_overview.heading  %}
           <h2>{{ latest_overview.heading }}</h2>
         {% endif %}
 
-        {% if latest_overview.content != nil and latest_overview.content != '' %}
+        {% if latest_overview.content %}
           {{ latest_overview.content | markdownify }}
         {% endif %}
 
-        {% if latest_overview.buttons != nil and latest_overview.buttons.size > 0 %}
+        {% if latest_overview.buttons and latest_overview.buttons.size > 0 %}
           <div class="button-box">
             {% for item in latest_overview.buttons %}
-              {% if item.link != nil and item.link != '' %}
+              {% if item.link %}
                 <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
               {% endif %}
             {% endfor %}

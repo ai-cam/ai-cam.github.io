@@ -11,6 +11,8 @@ date: July 8, 2024 12:00 AM
 category:
   - research-and-innovation
   - dialogue
+people:
+  - Neil Lawrence
 image: /assets/uploads/neil-election1.jpg
 ---
 

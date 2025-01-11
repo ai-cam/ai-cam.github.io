@@ -1,6 +1,6 @@
 ---
 layout: initiative-single
-title: AI Sciencepreneurship
+title: Sciencepreneurship
 description: Fostering a pan-European network of AI incubators that supports sciencepreneurship education and open source innovation.
 image: '/assets/images/business.jpeg'
 filter: sciencepreneurship
@@ -8,6 +8,9 @@ redirect_from:
   - /sciencepreneurship/
   - /sciencepreneurship
   - /sciencepreneurship.html
+people:
+  - Jess Montgomery
+  - Neil Lawrence
 hero:
   heading: AI Sciencepreneurship
   content:  Building a network of European AI and Science incubators

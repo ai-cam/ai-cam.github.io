@@ -1755,20 +1755,24 @@ collections:
             name: "hero"
             collapsed: true
             widget: "object"
+            hint: "Hero section at the top of the research page"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Main heading text for the hero section"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Main content text for the hero section"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons for the hero section"
                 fields:
                   - {
                       label: Link,
@@ -1776,6 +1780,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1783,30 +1788,36 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
               - label: "Image"
                 name: "image"
                 widget: "image"
                 required: false
+                hint: "Background image for the hero section"
           # Text (Dual Column)
           - label: "Text (Split)"
             name: "text_split"
             collapsed: true
             widget: "object"
+            hint: "Two-column text section below the hero"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Heading for the split text section"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Main content for the split text section"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons for the split text section"
                 fields:
                   - {
                       label: Link,
@@ -1814,6 +1825,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1821,26 +1833,31 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
           # Slider
           - label: "Slider"
             name: "slider"
             collapsed: true
             widget: "object"
+            hint: "Horizontal scrolling section for research projects"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Heading text above the slider"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Introductory text above the slider"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons above the slider"
                 fields:
                   - {
                       label: Link,
@@ -1848,6 +1865,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1855,31 +1873,42 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
               - label: "Slider Items"
                 name: "slider_items"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Individual slides in the slider section"
                 fields:
                   - {
                       label: Heading,
                       name: heading,
                       widget: string,
                       required: false,
+                      hint: "Title for this slide"
                     }
                   - {
                       label: Content,
                       name: content,
                       widget: text,
                       required: false,
+                      hint: "Description text for this slide"
                     }
-                  - { label: Link, name: link, widget: string, required: false }
+                  - { 
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      hint: "URL when clicking this slide"
+                    }
                   - {
                       label: Image,
                       name: image,
                       widget: image,
                       required: false,
+                      hint: "Featured image for this slide"
                     }
           # People
           - label: "People"
@@ -2002,6 +2031,40 @@ collections:
                 name: "image_small"
                 widget: "image"
                 required: false
+          # Researchers
+          - label: "Researchers"
+            name: "researchers"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
 
   # Blog Collection
   - label: "Blog"
@@ -2056,6 +2119,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this blog post"
 
   # Calls collection
   - label: "Calls"
@@ -2356,6 +2429,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this news item"
 
   # Events Collection
   - label: "Events"
@@ -2421,13 +2504,24 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this event"
 
-  # Team Collection (No Single)
-  - label: "Team"
-    name: "team"
-    folder: "_team"
+  # People Collection
+  - label: "People"
+    name: "people"
+    folder: "_people"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
+    output: true
     identifier_field: "name"
     editor:
       preview: false
@@ -2435,83 +2529,69 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
-        default: "team-single"
+        default: "person"
+
+      # Name Fields
       - label: "Name"
         name: "name"
         widget: "string"
-      - label: Prefix
-        hint: "e.g. de, von, van"
-        name: prefix
-        required: false
-        widget: string
-      - label: Suffix
-        name: suffix
-        widget: string
-        required: false
-      - label: "Biography"
-        name: "biography"
-        widget: "markdown"
-        required: false
-      - label: "Image"
-        name: "image"
-        widget: "image"
-        required: false
-      - label: "Email"
-        name: "email"
+        hint: "Full name as it should appear throughout the site"
+        required: true
+      
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: true
+        hint: "Academic or professional title (e.g. Dr, Prof)"
+
+      - label: "Given Name"
+        name: "given"
+        widget: "string"
+        hint: "Include initials, e.g. Neil D."
+        required: true
+
+      - label: "Preferred Name"
+        name: "preferred"
         widget: "string"
         required: false
-      - label: "URL"
-        name: "url"
+        hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
+
+      - label: "Family Name"
+        name: "family"
+        widget: "string"
+        required: true
+
+      - label: "Prefix"
+        name: "prefix"
         widget: "string"
         required: false
-      - label: "Website"
-        name: "website"
+        hint: "e.g. de, von, van - prefix that goes before the family name"
+
+      - label: "Suffix"
+        name: "suffix"
         widget: "string"
         required: false
-      - label: "Twitter"
-        name: "twitter"
+        hint: "e.g. Jr., Sr., III - suffix that goes after the family name"
+
+      # Professional Information
+      - label: "Job Title"
+        name: "job_title"
         widget: "string"
         required: false
-      - label: "Github"
-        name: "github"
-        widget: "string"
-        required: false
-      - label: "LinkedIn"
-        name: "linkedin"
-        widget: "string"
-        required: false
-      - label: "Scholar"
-        name: "scholar"
-        widget: "string"
-        required: false
-      - label: "CRSID"
-        name: "crsid"
-        widget: "string"
-        required: false
-      - label: "ORCID"
-        name: "orcid"
-        widget: "string"
-        required: false
-      - label: "Start Date"
-        name: "start"
-        widget: "string"
-        required: false
-      - label: "End Date"
-        name: "end"
-        widget: "string"
-        required: false
+        hint: "Current job title or role"
+
       - label: "Institution"
         name: "institution"
         widget: "string"
         required: false
+        hint: "Primary institution affiliation"
+
       - label: "Department"
         name: "department"
         widget: "string"
         required: false
-      - label: "Position"
-        name: "position"
-        widget: "string"
-        required: false
+        hint: "Department or faculty within the institution"
+
       - label: "Category"
         name: "category"
         widget: "select"
@@ -2522,105 +2602,97 @@ collections:
           - { label: "Researcher", value: "researcher" }
           - { label: "Professional Services", value: "professional-services" }
         required: false
-      - label: "Supervisor"
-        name: "supervisor"
-        widget: "string"
-        required: false
+        hint: "Select all applicable roles within the organization"
 
- # People Collection (No Single)
-  - label: "People"
-    name: "people"
-    folder: "_people"
-    create: true
-    slug: '{{given}}-{{family}}'
-    output: true
-    identifier_field: family
-    editor:
-      preview: false
-    fields:
-      - label: "Full Name"
-        name: "full_name"
-        widget: "hidden"
-        default: '{{given}} {{family}}'      
-      - label: "Layout"
-        name: "layout"
-        widget: "hidden"
-        default: "person"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        required: true
-      - label: Given Name
-        hint: "Include initials, e.g. Neil D."
-        name: given
-        widget: string
-      - label: Preferred Name
-        hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
-        name: preferred
-        required: false
-        widget: string
-      - label: Family Name
-        name: family
-        widget: string
-      - label: Prefix
-        hint: Prefix of family name (e.g. de, von, van)
-        name: prefix
-        required: false
-        widget: string
-      - label: Suffix
-        hint: "Suffix of family name (e.g. III or Jr)."
-        name: suffix
-        required: false
-        widget: string
-      - label: "Cambridge crsid"
-        hint: "E.g. ads21. If an individual doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
-        name: 'crsid'
-        widget: 'string'
-        required: false
-      - label: "Department"
-        name: "department"
+      # Dates
+      - label: "Start Date"
+        name: "start"
         widget: "string"
         required: false
-      - label: Job Title
-        name: "job_title"
+        hint: "When the person started their current role"
+
+      - label: "End Date"
+        name: "end"
+        widget: "string"
         required: false
-        widget: string
+        hint: "When the person ended/will end their current role"
+
+      # Biography
       - label: "Biography"
         name: "biography"
         widget: "markdown"
         required: false
+        hint: "A brief biographical description of the person"
+
+      # Image
       - label: "Image"
         name: "image"
         widget: "image"
         required: false
+        hint: "Profile photo of the person"
+
+      # Contact & Social Media
       - label: "Email"
         name: "email"
         widget: "string"
         required: false
+        hint: "Professional email address"
+
       - label: "Website"
         name: "webpage"
         widget: "string"
         required: false
+        hint: "Personal or professional website URL (include https://)"
+
       - label: "Twitter"
         name: "twitter"
         widget: "string"
         required: false
-      - label: "Github"
+        hint: "Twitter/X username without @ (e.g. username)"
+
+      - label: "GitHub"
         name: "github"
         widget: "string"
         required: false
+        hint: "GitHub username (e.g. octocat)"
+
       - label: "LinkedIn"
         name: "linkedin"
         widget: "string"
         required: false
+        hint: "LinkedIn username (e.g. johndoe)"
+
+      # Academic Identifiers
+      - label: "CRSID"
+        name: "crsid"
+        widget: "string"
+        required: false
+        hint: "Cambridge University CRSid (e.g. abc123). If no crsid, use xxxxx01 format."
+
       - label: "Scholar"
         name: "scholar"
         widget: "string"
         required: false
+        hint: "Google Scholar ID (e.g. LFdyXLkAAAAJ)"
+
       - label: "ORCID"
         name: "orcid"
         widget: "string"
         required: false
+        hint: "ORCID identifier (e.g. 0000-0002-1825-0097)"
+
+      # Relations
+      - label: "Supervisors"
+        name: "supervisors"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name", "given", "family"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select academic supervisors from the people collection"
+
 
   # Research Collection
   - label: "Research"
@@ -2655,6 +2727,17 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this research"
+
   # Initiatives Collection
   - name: "initiatives"
     label: "Initiatives"
@@ -2761,6 +2844,16 @@ collections:
                   required: false,
                   collapsed: true,
                 }
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this initiative"
 
   # Projects Collection
   - name: "projects"
@@ -2815,9 +2908,9 @@ collections:
         name: "people"
         widget: "relation"
         collection: "people"
-        search_fields: ["title", "given", "family"]
-        value_field: "{{slug}}"
-        display_fields: ["{{given}}-{{family}}"]
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
         options_length: 999
         multiple: true
         required: false

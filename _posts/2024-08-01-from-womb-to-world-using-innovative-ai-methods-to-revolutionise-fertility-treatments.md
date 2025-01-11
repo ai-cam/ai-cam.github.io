@@ -11,6 +11,10 @@ author: Dr Staci Weiss, Mo Vali & Dr Saaliha Vali
 date: August 1, 2024 12:01 AM
 category:
   - ai-deas
+people:
+  - Staci Weiss
+  - Mo Vali
+  - Saaliha Vali
 image: /assets/uploads/drew-hays-7tgqlzhcjz8-unsplash.jpg
 ---
 **We meet three of the pioneers behind this cutting-edge ai@cam collaboration – a physicist, a fertility doctor and an infant neuroscience researcher – who are using AI to boost IVF success rates, tailor fertility treatments and deliver instant foetal health updates to expectant parents.**

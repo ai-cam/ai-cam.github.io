@@ -18,4 +18,5 @@ biography: 'Sach Mukherjee is Programme Leader and Director of Research (part-ti
   for biomedicine, including in particular methods for high-dimensional and heterogeneous
   data and causality. He has been a Fulbright Fellow and a recipient of the Wolfson
   Research Merit Award of the Royal Society.'
+name: Sach Mukherjee
 ---

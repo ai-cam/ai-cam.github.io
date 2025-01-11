@@ -9,6 +9,11 @@ excerpt: >+
 
 image: /assets/uploads/growtika-ngocbxiaro0-unsplash.jpg
 date: April 19, 2024 12:00 AM
+people:
+  - Stefan Feuerriegel
+  - Mihaela van der Schaar
+category:
+  - Research and innovation
 ---
 Machines can learn not only to make predictions, but to handle causal relationships. An international research team shows how this could make medical treatments safer, more efficient, and more personalised.
 

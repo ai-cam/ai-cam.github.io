@@ -8,6 +8,8 @@ excerpt: ai@cam, Cambridge University’s flagship mission on artificial
 date: November 11, 2024 12:00 AM
 category:
   - sciencepreneurship
+people:
+  - Jess Montgomery
 image: /assets/uploads/elias-node-1.png
 ---
 ai@cam, Cambridge University’s flagship mission on artificial intelligence, has been announced as one of eight inaugural [ELIAS Nodes](https://elias-ai.eu/elias-alliance/#eliasnodes) at the Falling Walls AI Night, held in Berlin, Germany. 

@@ -34,4 +34,5 @@ biography: 'Ulrike Tillmann is a mathematician who has worked in topology, K-the
   A former member of  Council of the Royal Society 2017-20 during which time she also
   served as interim Vice-President, she has chaired the Royal Society''s Education
   Committee since 2020.'
+name: Ulrike Tillmann
 ---

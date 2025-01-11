@@ -20,20 +20,20 @@ image: '/assets/images/social.jpeg'
 <section class="block block--bg-pink block__slider">
   <div class="container">
     <div class="slider__top">
-      {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
+      {% if slider.heading or slider.content or slider.buttons %}
         <div class="slider__intro intro">
-          {% if slider.heading != nil and slider.heading != '' %}
+          {% if slider.heading %}
             <h2>{{ slider.heading }}</h2>
           {% endif %}
 
-          {% if slider.content != nil and slider.content != '' %}
+          {% if slider.content %}
             {{ slider.content | markdownify }}
           {% endif %}
 
-          {% if slider.buttons != nil and slider.buttons.size > 0 %}
+          {% if slider.buttons and slider.buttons.size > 0 %}
             <div class="button-box">
               {% for item in slider.buttons %}
-                {% if item.link != nil and item.link != '' %}
+                {% if item.link %}
                   <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
                 {% endif %}
               {% endfor %}
@@ -49,7 +49,7 @@ image: '/assets/images/social.jpeg'
       {% for post in research_entries %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
-            {% if post.image != nil %}
+            {% if post.image %}
               <img src="{{ post.image }}"/>
             {% else %}
               <img alt="" src="../assets/images/placeholder-1.jpg"/>
@@ -76,12 +76,11 @@ image: '/assets/images/social.jpeg'
       <div class="team__intro-content">
         <h2>{{ researchers.heading }}</h2>
         {{ researchers.content | markdownify }}
-        {% if researchers.buttons != nil
-        and researchers.buttons.size > 0 %}
+        
+        {% if researchers.buttons and researchers.buttons.size > 0 %}
           <div class="button-box">
             {% for item in researchers.buttons %}
-              {% if item.link != nil and
-          item.link != '' %}
+              {% if item.link %}
                 <a class="button button--standard button--standard-anchor" href="{{ item.link }}">{{ item.text }}</a>
               {% endif %}
             {% endfor %}
@@ -90,14 +89,23 @@ image: '/assets/images/social.jpeg'
       </div>
 
       <div class="team__intro-filters">
-        <p>Filter by:</p>
+        <p>Select department to filter by:</p>
         {% assign unique_departments = "" | split: "," %}
     
-        {% for post in site.researchers %}
-          {% unless unique_departments contains post.department %}
-            {% assign unique_departments = unique_departments | push: post.department %}
-          {% endunless %}
+        {% for post in site.people %}
+          {% if post.department %}
+            {% assign departments = post.department | split: ";" %}
+            {% for dept in departments %}
+              {% assign trimmed_dept = dept | strip %}
+              {% unless unique_departments contains trimmed_dept %}
+                {% assign unique_departments = unique_departments | push: trimmed_dept %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
         {% endfor %}
+          
+        <!-- sort alphabetically -->
+        {% assign unique_departments = unique_departments | sort %}
     
         <!-- Select box for departments -->
         <div class="department-filters">
@@ -111,19 +119,25 @@ image: '/assets/images/social.jpeg'
       </div>
     </div>
     <div class="team__grid team__grid--basic">    
-      {% assign researchers_entries = site.researchers | sort: 'family' %}
+      {% assign researchers_entries = site.people | sort: 'family' %}
       {% for post in researchers_entries %}
-        <a href="{{ post.url }}" class="team__member" data-src="{{ post.department | downcase | replace: ' ', '-' }}">
+        {% assign departments = post.department | split: ";" %}
+        {% assign dept_classes = "" %}
+        {% for dept in departments %}
+          {% assign dept_class = dept | strip | downcase | replace: ' ', '-' %}
+          {% assign dept_classes = dept_classes | append: dept_class | append: " " %}
+        {% endfor %}
+        <a href="{{ post.url }}" class="team__member" data-src="{{ dept_classes | strip }}">
           <div class="team__member-image">
-            {% if post.image != nil %}
+            {% if post.image %}
               <img src="{{ post.image }}"/>
             {% else %}
               <img alt="" src="../assets/images/placeholder-1.jpg"/>
             {% endif %}
           </div>
           <div class="team__member-content">
-            <h3>{{ post.given }} {{ post.family }}</h3>
-            <p>{{ post.position }}</p>
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
@@ -134,33 +148,29 @@ image: '/assets/images/social.jpeg'
 {% assign media_text = site.data.research.media_text %}
 <section class="block block--bg-pink block--increase-padding-bottom block__media-text">
   <div class="container">
-    {% if (media_text.image != nil and media_text.image != '') or
-    (media_text.image_small != nil and media_text.image_small != '') %}
-      <div class="media-text__media {% if media_text.image_small != nil and media_text.image_small != '' %} media-text__media--two {% endif %}">
-        {% if media_text.image != nil and media_text.image != '' %}
+    {% if media_text.image or media_text.image_small %}
+      <div class="media-text__media {% if media_text.image_small %} media-text__media--two {% endif %}">
+        {% if media_text.image %}
           <img class="media-text__media-image" src="{{ media_text.image }}"/>
         {% endif %}
-        {% if media_text.image_small != nil and media_text.image_small
-      != '' %}
+        {% if media_text.image_small %}
           <img class="media-text__media-image--floating" src="{{ media_text.image_small }}"/>
         {% endif %}
       </div>
     {% endif %}
 
     <div class="media-text__content">
-      {% if media_text.heading != nil and media_text.heading != '' %}
+      {% if media_text.heading  %}
         <h2>{{ media_text.heading }}</h2>
       {% endif %}
-      {% if media_text.content != nil and media_text.content != ''
-      %}
+      {% if media_text.content %}
         {{ media_text.content | markdownify }}
       {% endif %}
       <!-- Quick Links -->
-      {% if media_text.quick_links != nil and media_text.quick_links.size > 0 %}
+      {% if media_text.quick_links and media_text.quick_links.size > 0 %}
         <ul class="media-text__content-quicklinks">
           {% for item in media_text.quick_links %}
-            {% if item.link != nil and
-        item.link != '' %}
+            {% if item.link %}
               <li>
                 <a href="{{ item.link }}">
                   {{ item.text }}
@@ -183,12 +193,11 @@ image: '/assets/images/social.jpeg'
           {% endfor %}
         </ul>
       {% endif %}
-      {% if media_text.buttons != nil and media_text.buttons.size >
+      {% if media_text.buttons and media_text.buttons.size >
       0 %}
         <div class="button-box">
           {% for item in media_text.buttons %}
-            {% if item.link != nil and
-        item.link != '' %}
+            {% if item.link %}
               <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
             {% endif %}
           {% endfor %}

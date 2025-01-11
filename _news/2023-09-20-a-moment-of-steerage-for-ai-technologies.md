@@ -8,6 +8,8 @@ excerpt: "Giving evidence to the House of Lords Communications and Digital
 date: September 12, 2023 12:00 AM
 category:
   - policy
+people:
+  - Neil Lawrence
 image: /assets/uploads/picture-1.png
 ---
 How will AI large language models shape the future? And what is the right regulatory approach to this rapidly-changing technology area? These questions are the focus of an inquiry by the House of Lords Communications and Digital Committee, which invited Professor Neil Lawrence to contribute to an evidence session on 12 September 2023. Giving evidence alongside Ian Hogarth (Frontier AI Taskforce), Dr Jean Innes (Alan Turing Institute and Ben Brooks (Stability AI), Professor Lawrence spoke about the opportunities provided by advances in AI and the policy frameworks needed to ensure responsible technology development. 

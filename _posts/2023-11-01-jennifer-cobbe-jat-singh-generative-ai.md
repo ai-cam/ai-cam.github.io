@@ -8,6 +8,9 @@ excerpt: Deploying AI typically requires several interconnected actors and their
   Cobbe, which has is being used by policymakers to understand the impact of AI
   on regulation and governance.
 author: Jennifer Cobbe and Jat Singh
+people:
+  - Jennifer Cobbe
+  - Jat Singh
 date: November 01, 2023 11:00 AM
 category:
   - policy

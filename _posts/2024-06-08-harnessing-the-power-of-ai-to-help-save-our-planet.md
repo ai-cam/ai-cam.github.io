@@ -8,6 +8,8 @@ excerpt: Meet Professor Anil Madhavapeddy, who is one of the drivers behind
   decision makers find solutions to save our planet. Here he explains what he's
   been working on...
 author: Professor Anil Madhavapeddy
+people:
+  - Anil Madhavapeddy
 date: June 9, 2024 10:02 PM
 category:
   - ai-deas

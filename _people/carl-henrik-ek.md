@@ -20,4 +20,5 @@ biography: I am a Associate Professor in the Computer Laboratory at the Universi
   specify data efficient and interpretable assumptions that allows us to learn from
   small amounts of data. Most of my work is focused on Bayesian non-parametric methods
   and in specific Gaussian processes.
+name: Carl Henrik Ek
 ---

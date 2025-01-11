@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Dr
+name: Li Wan
 given: Li
 family: Wan
 department: Department of Land Economy

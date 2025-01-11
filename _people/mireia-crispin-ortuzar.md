@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Mireia Crispin
 given: Mireia
 family: Crispin-Ortuzar
 department: Department of Oncology
@@ -21,4 +22,6 @@ biography: Dr Mireia Crispin is an Assistant Professor in the Department of Onco
   in over 400 publications and has received numerous national and international awards,
   most recently finalist of the Cancer Research Horizons Early-Career Entrepreneur
   of the Year 2022 award.
+category:
+  - steering-group
 ---

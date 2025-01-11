@@ -9,8 +9,11 @@ redirect_from:
 excerpt: Artificial intelligence offers great promise, but we must ensure it
   does not deepen inequalities. Today we are setting out our vision for AI@Cam,
   a new flagship mission at the University of Cambridge.
-author: Neil D. Lawrence and Jessica Montgomery
+author: Neil Lawrence and Jess Montgomery
 date: April 29, 2022 12:00 AM
+people:
+  - Neil Lawrence
+  - Jess Montgomery
 category:
   - research-and-innovation
   - policy

@@ -5,6 +5,8 @@ excerpt: Researchers have developed a method to identify new targets for human
   disease, including neurodegenerative conditions such as Alzheimer’s disease.
 image: /assets/uploads/gettyimages-603709929-dp.jpeg
 date: September 27, 2023 8:00 AM
+people:
+  - Michele Vendruscolo
 category:
   - Research and innovation
 ---

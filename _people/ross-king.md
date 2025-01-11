@@ -22,4 +22,5 @@ biography: 'Dr. Ross D. King has joint positions at the University of Cambridge,
   and is now working on ‘DNA supremacy’: a DNA computer that can solve larger NP complete
   problems that conventional or quantum computers. He is also very interested in applying
   AI and micro-robotics to double the number of known species.'
+name: Ross King
 ---

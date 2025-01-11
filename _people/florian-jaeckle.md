@@ -15,4 +15,5 @@ biography: Florian is a Research Associate in the Department of Pathology at Cam
   AI and a machine learning internship at Apple researching new and efficient ways,
   to update Machine Learning models, with a particular focus on decreasing biases
   in existing AI applications.
+name: Florian Jaeckle
 ---

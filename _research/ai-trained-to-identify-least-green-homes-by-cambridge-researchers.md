@@ -4,6 +4,9 @@ title: AI trained to identify least green homes by Cambridge researchers
 excerpt: First of its kind AI-model can help policymakers efficiently identify
   and prioritize houses for retrofitting and other decarbonizing measures.
 image: /assets/uploads/houses.jpg
+people:
+  - Maoran Sun
+  - Ronita Bardhan
 date: November 2, 2023 10:44 AM
 ---
 First of its kind AI-model can help policymakers efficiently identify and prioritize houses for retrofitting and other decarbonizing measures.

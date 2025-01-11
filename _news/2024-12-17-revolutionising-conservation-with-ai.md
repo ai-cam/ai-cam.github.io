@@ -8,6 +8,8 @@ excerpt: With biodiversity facing unprecedented challenges, Cambridge
 date: December 17, 2024 12:00 AM
 category:
   - ai-deas
+people:
+  - Sam Reynolds
 image: /assets/uploads/revolutionising-conservation-with-ai-4.jpg
 ---
 ![](/assets/uploads/revolutionising-conservation-with-ai-5.jpg)

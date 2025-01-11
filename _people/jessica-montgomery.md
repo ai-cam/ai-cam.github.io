@@ -1,6 +1,7 @@
 ---
 layout: person
-title: Dr
+title: Ms
+name: Jess Montgomery
 given: Jessica
 family: Montgomery
 department: Department of Computer Science and Technology
@@ -18,4 +19,7 @@ biography: >-
 image: /assets/uploads/Montgomery_Jessica.jpg
 webpage: https://www.cst.cam.ac.uk/people/jkm40
 crsid: jkm40
+category:
+  - leadership
+  - steering-group
 ---

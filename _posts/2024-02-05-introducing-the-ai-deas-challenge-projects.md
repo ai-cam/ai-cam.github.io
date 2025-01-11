@@ -6,6 +6,8 @@ excerpt: "Five projects will receive funding to drive a new wave of progress in
   artificial intelligence for the benefit of science, citizens and society. "
 author: Jessica Montgomery
 date: February 5, 2024 7:50 AM
+people:
+  - Jess Montgomery
 category:
   - ai-deas
   - research-and-innovation

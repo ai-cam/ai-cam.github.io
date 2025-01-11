@@ -2,7 +2,7 @@
 layout: person
 given: Alex
 family: Archibald
-department: Department of Chemistry
+department: Yusuf Hamied Department of Chemistry
 title: Dr
 job_title: Lecturer
 crsid: ata27
@@ -23,4 +23,5 @@ biography: 'Professor Alex Archibald is a Lecturer in Atmospheric Chemistry Mode
   Departments of the University of Cambridge (Applied Mathematics and Theoretical
   Physics, Chemistry, Earth Sciences, Geography, Plant Sciences and Scott Polar Research
   Institute) and at the British Antarctic Survey.'
+name: Alex Archibald
 ---

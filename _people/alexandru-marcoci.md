@@ -15,4 +15,5 @@ biography: I am a social scientist (PhD LSE, 2018) working at the intersection o
   project, funded by the British Academy and a member of the next generation Event
   Horizon Telescope collaboration, where I lead the taskforces on expert forecasting
   and dissent.
+name: Alexandru Marcoci
 ---

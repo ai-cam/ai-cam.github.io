@@ -18,35 +18,15 @@ image: '/assets/images/social.jpeg'
 <section class="block block__team">
   <div class="container">
     <div class="team__selector">
-      <button class="active" data-id="leadership">Leadership</button>
-      <button data-id="steering-group">Steering Group</button>
+      <button data-id="steering-group" class="active">Steering Group</button>
       <button data-id="professional-services">Professional Services</button>
+      <button data-id="leadership">Leadership</button>
     </div>
 
-    {% assign team_entries = site.team %}
-    {% assign filtered_team_entries = team_entries | filter_by_category: 'leadership' %}
-
-    <div class="team__grid team__grid--leadership active">
-      {% for post in filtered_team_entries %}
-        <a href="{{ post.url }}" class="team__member">
-          <div class="team__member-image">
-            {% if post.image != nil %}
-              <img src="{{ post.image }}">
-            {% else %}
-              <img alt="" src="../assets/images/placeholder-1.jpg"/>
-            {% endif %}
-          </div>
-          <div class="team__member-content">
-            <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
+    {% assign team_entries = site.people %}
 
     {% assign filtered_steering_entries = team_entries | filter_by_category: 'steering-group' %}
-
-    <div class="team__grid team__grid--steering-group">
+    <div class="team__grid team__grid--steering-group active">
       {% for post in filtered_steering_entries %}
         <a href="{{ post.url }}" class="team__member">
           <div class="team__member-image">
@@ -58,7 +38,7 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
@@ -78,10 +58,31 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
     </div>
+
+    {% assign filtered_team_entries = team_entries | filter_by_category: 'leadership' %}
+
+    <div class="team__grid team__grid--leadership">
+      {% for post in filtered_team_entries %}
+        <a href="{{ post.url }}" class="team__member">
+          <div class="team__member-image">
+            {% if post.image != nil %}
+              <img src="{{ post.image }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="team__member-content">
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.job_title }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+    
   </div>
 </section>

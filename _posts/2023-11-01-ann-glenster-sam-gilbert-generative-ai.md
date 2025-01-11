@@ -8,6 +8,9 @@ excerpt: Progress in AI is highlighting the importance of effective policy
   University of Cambridge.
 author: Sam Gilbert and Ann Kristin Glenster
 date: November 01, 2023 11:00 AM
+people:
+  - Sam Gilbert
+  - Ann Kristin Glenster
 category:
   - policy
 image: /assets/uploads/fly-d-vh91igy0fhw-unsplash.jpg

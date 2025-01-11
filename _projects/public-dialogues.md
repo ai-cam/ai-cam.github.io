@@ -9,10 +9,10 @@ category:
   - policy
 image: /assets/uploads/public-dialogue1.png
 related: dialogue
-researchers:
-  - neil-lawrence
-  - jessica-montgomery
-  - elinor-pegler
+people:
+  - Neil Lawrence
+  - Jess Montgomery
+  - Elinor Pegler
 ---
 #### In September 2024, ai@cam convened public dialogue workshops in Liverpool and Cambridge to better understand public perspectives on the role of AI.
 

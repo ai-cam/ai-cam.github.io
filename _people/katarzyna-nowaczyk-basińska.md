@@ -1,8 +1,9 @@
 ---
 layout: person
+name:  Katarzyna Nowaczyk-Basińska
 given: Katarzyna
 family: Nowaczyk-Basińska
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Research Fellow
 crsid: kn395
 image: /assets/uploads/Nowaczyk-Basińska_Katarzyna.png

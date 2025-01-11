@@ -14,4 +14,5 @@ biography: 'Zoubin Ghahramani is Professor of Information Engineering at the Uni
   has served as programme and general chair of the leading international conferences
   in machine learning: AISTATS, ICML, and NIPS. In 2015 he was elected a Fellow of
   the Royal Society.'
+name: Zoubin Ghahramani
 ---

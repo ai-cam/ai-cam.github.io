@@ -7,7 +7,9 @@ excerpt: "Dr Crispin’s group at the University’s Early Cancer Institute is
   colleagues are bringing together diverse datasets to decode one of the most
   fatal and least studied forms of gynaecological cancer: high-grade serous
   ovarian cancer."
-author: "Dr Mireia Crispin "
+author: "Dr Mireia Crispin"
+people:
+  - Mireia Crispin
 date: December 9, 2024 12:00 AM
 category:
   - policy

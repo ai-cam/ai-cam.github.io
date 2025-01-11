@@ -6,6 +6,8 @@ excerpt: Meet Dr Matt Davis, who is leading ai@cam’s inspiring interdisciplina
   initiative to discover the next AI innovations that could transform the lives
   of people facing language and communication barriers.
 author: Dr Matt Davis
+people:
+  - Matt Davis
 date: June 23, 2024 2:07 PM
 category:
   - ai-deas

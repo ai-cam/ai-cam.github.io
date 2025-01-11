@@ -27,4 +27,5 @@ biography: 'Sarah develops computational methods, to explore structural biology,
   Sarah is co-founder and co-leader of the international Human Cell Atlas consortium,
   which uses single cell genomics and spatial methodologies to create a comprehensive
   high resolution map of the human body.'
+name: Sarah Teichmann
 ---

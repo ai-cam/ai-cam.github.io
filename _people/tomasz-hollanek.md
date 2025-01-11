@@ -2,7 +2,7 @@
 layout: person
 given: Tomasz
 family: Hollanek
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Research Fellow
 crsid: th536
 image: /assets/uploads/Hollanek_Tomasz.jpeg
@@ -14,4 +14,5 @@ biography: Dr Tomasz Hollanek works at the intersection of design theory, techno
   His ongoing research explores the possibility of applying critical design methods
   – approaches that prioritize the goals of social justice and environmental sustainability
   – in the governance, development, deployment of AI systems.
+name: Tomasz Hollanek
 ---

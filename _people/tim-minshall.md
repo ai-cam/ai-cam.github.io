@@ -2,6 +2,7 @@
 layout: person
 given: Tim
 family: Minshall
+name: Tim Minshall
 department: Department of Engineering
 title: Prof
 job_title: Dr John C Taylor Professor of Innovation, and Head of the Institute for
@@ -20,4 +21,6 @@ biography: Tim is the inaugural Dr John C Taylor Professor of Innovation at the 
   Trustees of the Foundation for Young People’s Mental Health (YPMH) (https://www.ypmh.org/).  He
   has B.Eng. from Aston University and a PhD from Cambridge University Engineering
   Department.
+category:
+  - steering-group
 ---

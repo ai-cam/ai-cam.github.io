@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Pietro Liò
 given: Pietro
 family: Liò
 department: Department of Computer Science and Technology

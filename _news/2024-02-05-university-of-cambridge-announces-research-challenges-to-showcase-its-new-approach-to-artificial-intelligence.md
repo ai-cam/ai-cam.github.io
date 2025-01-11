@@ -8,6 +8,17 @@ excerpt: The winners of a new prize supporting ambitious ideas for how
   today, with projects spanning fertility, climate change, language and
   communication challenges, mental health, and how local councils deploy AI.
 date: February 5, 2024 7:50 AM
+people:
+  - Neil Lawrence
+  - Jess Montgomery
+  - Diane Coyle
+  - Anne Ferguson-Smith
+  - Anil Madhavapeddy
+  - Mo Vali
+  - Staci Weiss
+  - Matt Davis
+  - Kwadwo Oti-Sarpong
+  - Zoe Kourtzi
 category:
   - ai-deas
   - research-and-innovation

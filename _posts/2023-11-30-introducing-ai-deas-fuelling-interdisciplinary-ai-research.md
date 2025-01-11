@@ -7,6 +7,9 @@ excerpt: "A new initiative by ai@cam supports researchers from across the
   science, citizens, and society. "
 author: Jess Montgomery and Neil Lawrence
 date: November 30, 2023 10:00 AM
+people:
+  - Jess Montgomery
+  - Neil Lawrence
 category:
   - ai-deas
   - research-and-innovation

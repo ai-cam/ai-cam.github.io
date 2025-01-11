@@ -10,6 +10,8 @@ category:
   - ai-deas
   - research-and-innovation
   - policy
+people:
+  - Jess Montgomery
 image: /assets/uploads/image-2.png
 ---
 Connecting AI development to public value is more important than ever. AI@Cam will drive a new wave of challenge-led innovation, tackling the implementation gap between our aspirations for AI and our ability to deploy it to tackle major societal challenges. We want to generate new thinking about the role of AI in addressing major challenges, build coalitions in areas of need, and create partnerships to take research from lab to real-world benefit.

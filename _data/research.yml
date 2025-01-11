@@ -39,3 +39,6 @@ media_text:
       text: Contact us
   image: /assets/uploads/lander-media-2.png
   image_small: /assets/uploads/lander-media-1.png
+researchers:
+  heading: Our People
+  content: ai@cam brings together researchers from departments across the University.

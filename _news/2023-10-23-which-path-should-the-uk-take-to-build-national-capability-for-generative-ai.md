@@ -11,6 +11,9 @@ author: Dr Ann Kristin Glenster and Sam Gilbert
 date: October 16, 2023 9:00 AM
 category:
   - policy
+people:
+  - Ann Kristin Glenster
+  - Sam Gilbert
 image: /assets/uploads/fly-d-vh91igy0fhw-unsplash.jpg
 ---
 ## **Which path should the UK take to build national capability for generative AI?**

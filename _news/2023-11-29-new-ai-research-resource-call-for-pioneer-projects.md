@@ -10,6 +10,11 @@ excerpt: "Earlier this month, the UK Government announced a £300 million packag
 date: November 29, 2023 9:00 AM
 category:
   - research-and-innovation
+people:
+  - Paul Calleja
+  - Neil Lawrence
+  - Jess Montgomery
+  - Richard McMahon
 image: /assets/uploads/christina-wocintechchat-com-glrqywjguey-unsplash.jpg
 ---
 Earlier this month, the [UK Government announced](https://www.gov.uk/government/news/technology-secretary-announces-investment-boost-making-british-ai-supercomputing-30-times-more-powerful) a £300 million package of support for the UK’s AI Research Resource, strengthened by a further commitment of £500M in the Autumn Statement. Included in these announcements was funding for a new Cambridge supercomputer – ‘Dawn’ – being developed by a partnership between the University of Cambridge, Dell, Intel, and StackHPC. This next-generation High Performance Computing and AI platform offers the opportunity to accelerate AI research in the UK, helping researchers to build world-leading AI systems that deliver scientific and societal benefit. 

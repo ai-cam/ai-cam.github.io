@@ -7,10 +7,17 @@ category:
   - policy
 image: /assets/uploads/data-case-studies.jpg
 related: policy
+people:
+- Amy Orben
+- Mireia Crispin
+- Sadiq Jaffer
+- Alec Christie
+- Scott Hosking
+- Stefan Scholtes
+- Vasco Carvalho
 ---
+
 #### Access to data for research: lessons for the National Data Library from the front lines of AI innovation.
-
-
 
 ![](/assets/uploads/data-library.jpg)
 

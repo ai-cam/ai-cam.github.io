@@ -1,5 +1,6 @@
 ---
 preferred: Matt
+name: Matt Castle
 layout: person
 title: Dr
 given: Matthew
