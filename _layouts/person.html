@@ -4,7 +4,7 @@ layout: default
 <section class="block block__hero block__hero--archive" id="hero">
   <div class="container">
     <div class="hero__content">
-      <h1>{{ page.given }} {{ page.family }}</h1>
+      <h1>{{ page.name }}</h1>
       <a href="{{site.url}}/research#researchers" class="button button--standard">Back to team</a>
     </div>
   </div>
@@ -16,7 +16,7 @@ layout: default
       <div class="column-m-12 column-t-7 column-d-7">
         <div class="team-profile__biography">
           <h2 class="section-heading section-heading--left">Biography</h2>
-          {{ page.biography | markdownify }}
+          {{ page.biography | markdownify }}	  
           {{ page.content | markdownify }}
         </div>
       </div>
@@ -129,5 +129,60 @@ layout: default
       </div>
       <div class="column-m-12-nest column-d-1"></div>
     </div>
+  </div>
+</section>
+
+<section class="block block__related-content">
+  <div class="container">
+    {% if page.preferred %}
+      {% assign person_name = page.preferred %}
+    {% else %}
+      {% assign person_name = page.given %}
+    {% endif %}
+    
+
+    {% assign combined_entries = '' | split: '' %}
+    
+    {% for initiative in site.initiatives %}
+      {% if initiative.people contains page.name %}
+        {% assign combined_entries = combined_entries | push: initiative %}
+      {% endif %}
+    {% endfor %}
+
+    {% for project in site.projects %}
+      {% if project.people contains page.name %}
+        {% assign combined_entries = combined_entries | push: project %}
+      {% endif %}
+    {% endfor %}
+
+    {% for post in site.posts %}
+      {% if post.people contains page.name %}
+        {% assign combined_entries = combined_entries | push: post %}
+      {% endif %}
+    {% endfor %}
+
+    {% for event in site.events %}
+      {% if event.people contains page.name %}
+        {% assign combined_entries = combined_entries | push: event %}
+      {% endif %}
+    {% endfor %}
+
+    {% for news in site.news %}
+      {% if news.people contains page.name %}
+        {% assign combined_entries = combined_entries | push: news %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign sorted_entries = combined_entries | sort: 'date' | reverse %}
+
+    {% if sorted_entries.size > 0 %}
+      {% assign heading_text = "ai@cam contributions from " | append: person_name%}
+      {% include related-grid.html 
+        entries=sorted_entries
+        heading=heading_text
+        pink=true
+        check_current=true 
+        limit=9%}
+    {% endif %}
   </div>
 </section>

@@ -6,17 +6,18 @@
 
     <div class="{{ include.type | default: 'posts' }}__grid">
       {% assign entries = include.entries %}
+      {% assign limit = include.limit | default: 4 %}
       
       {% if include.check_current %}
         {% assign count_check = false %}
-        {% for item in entries limit:4 %}
+        {% for item in entries limit:limit %}
           {% if item.url == page.url %}
             {% assign count_check = true %}
           {% endif %}
         {% endfor %}
       {% endif %}
 
-      {% for entry in entries limit:4 %}
+      {% for entry in entries limit:limit %}
         {% unless include.check_current and entry.url == page.url %}
           <a class="{{ include.type | default: 'posts' }}__item" href="{{ entry.url }}">
             <div class="{{ include.type | default: 'posts' }}__item-thumbnail">
