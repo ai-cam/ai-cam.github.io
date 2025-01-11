@@ -3026,7 +3026,7 @@ collections:
           - label: "Date Parts"
             name: "date-parts"
             widget: "list"
-            field:
+            fields:              # Changed from 'field' to 'fields'
               - label: "Year"
                 name: "0"
                 widget: "number"
