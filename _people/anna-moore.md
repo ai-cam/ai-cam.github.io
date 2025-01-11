@@ -1,7 +1,8 @@
 ---
 layout: person
 title: Dr
-given: "Anna "
+name: Anna Moore
+given: Anna
 family: Moore
 department: Department of Psychiatry
 job_title: Assistant Professor in Child Psychiatry and Medical Informatics
