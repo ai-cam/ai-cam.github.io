@@ -10,29 +10,29 @@ category:
   - ai-deas
 image: /assets/uploads/pexels-maddie-franz-1571117.jpg
 people:
-  - Anil Madhavapeddy
   - Alec Christie
-  - Dominic Orchard
-  - Emily Shuckburgh
-  - Rick Lewis
-  - David Coomes
-  - Sadiq Jaffer
-  - Srinivasan Keshav
-  - Onkar Gulati
-  - Robert Rouse
-  - Zeyu Cao
-  - Emily Lines
-  - Marla Fuchs
-  - Lynn Dicks
-  - Rebecca Smith
-  - William Sutherland
-  - Silviu Petrovan
+  - Anil Madhavapeddy
   - Chris Edsall
+  - David Coomes
+  - Dominic Orchard
+  - Elizabeth Allen
+  - Emily Lines
+  - Emily Shuckburgh
+  - Erik Mackie
   - Harry Owen
   - Henry Moss
-  - Erik Mackie
+  - Lynn Dicks
+  - Marla Fuchs
+  - Onkar Gulati
+  - Rebecca Smith
+  - Rick Lewis
+  - Robert Rouse
+  - Sadiq Jaffer
   - Sam Reynolds
-  - Elizabeth Allen
+  - Silviu Petrovan
+  - Srinivasan Keshav
+  - Bill Sutherland
+  - Zeyu Cao
 ---
 The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. This project aims to develop AI approaches for bringing together a wide range of datasets and accelerating the collation of information.
 

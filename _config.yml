@@ -46,6 +46,11 @@ collections:
     output: true
     sort_by: date
     order: reverse
+  reports:
+    output: true
+    sort_by: date
+    order: reverse
+    permalink: "/reports/:title"
 
 # Default front matter for collections
 defaults:
@@ -57,6 +62,10 @@ defaults:
       path: "_initiatives"
     values:
       layout: initiative-single
+  - scope:
+      path: "_reports"
+    values:
+      layout: report-single
 
 # Build settings
 plugins:
