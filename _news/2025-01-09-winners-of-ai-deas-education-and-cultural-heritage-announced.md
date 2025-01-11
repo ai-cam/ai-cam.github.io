@@ -6,6 +6,11 @@ excerpt: ai@cam and the Accelerate Programme for Scientific Discovery are
   delighted to announce the winners of the second cohort of ai@cam’s AI-deas
   initiative.
 date: January 9, 2025 12:00 AM
+people: 
+- Amelie Roper
+- Deborah Talmi
+- Neil Lawrence
+- Jess Montgomery
 category:
   - ai-deas
 image: /assets/uploads/getty-images-sy91bsnueoi-unsplash.jpg
