@@ -1,5 +1,5 @@
-{% if page.researchers != nil %}
-  {% assign team_entries = site.researchers %}
+{% if page.people != nil %}
+  {% assign team_entries = site.people %}
   <section class="block block__team">
     <div class="container">
       <div class="team__intro">
@@ -7,10 +7,10 @@
       </div>
       
       <div class="team__grid team__grid--leadership active">
-        {% for author in page.researchers %}
+        {% for author in page.people %}
           {% assign authorName = author %}
           {% for post in team_entries %}
-            {% if post.slug == authorName or post.name == authorName %}
+            {% if post.name == authorName or post.name == authorName %}
               <a href="{{ post.url }}" class="team__member">
                 <div class="team__member-image">
                   {% if post.image != nil %}

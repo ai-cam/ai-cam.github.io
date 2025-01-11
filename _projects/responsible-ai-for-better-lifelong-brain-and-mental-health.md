@@ -14,6 +14,11 @@ category:
   - ai-deas
 
 image: /assets/uploads/pexels-anna-shvets-4226119.jpg
+people:
+- Zoe Kourtzi
+- Anna Moore
+- Pietro Lio
+- Soumya Banerjee
 researchers:
   - alexandru-marcoci
 ---

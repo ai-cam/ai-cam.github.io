@@ -1,0 +1,44 @@
+<section class="block {% if include.pink %}block--bg-pink{% endif %} block__{{ include.type | default: 'posts' }}">
+  <div class="container">
+    <div class="{{ include.type | default: 'posts' }}__intro">
+      <h2 class="section-heading section-heading--left">{{ include.heading }}</h2>
+    </div>
+
+    <div class="{{ include.type | default: 'posts' }}__grid">
+      {% assign entries = include.entries %}
+      
+      {% if include.check_current %}
+        {% assign count_check = false %}
+        {% for item in entries limit:4 %}
+          {% if item.url == page.url %}
+            {% assign count_check = true %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% for entry in entries limit:4 %}
+        {% unless include.check_current and entry.url == page.url %}
+          <a class="{{ include.type | default: 'posts' }}__item" href="{{ entry.url }}">
+            <div class="{{ include.type | default: 'posts' }}__item-thumbnail">
+              {% if entry.image != nil %}
+                <img src="{{ entry.image }}">
+              {% else %}
+                <img alt="" src="{{ '/assets/images/placeholder-1.jpg' | relative_url }}" />
+              {% endif %}
+            </div>
+            <div class="{{ include.type | default: 'posts' }}__item-content">
+              {% if include.type != 'team' %}
+                <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+                <h3>{{ entry.title }}</h3>
+                <span class="button button--simple">Read more</span>
+              {% else %}
+                <h3>{{ entry.given }} {{ entry.family }}</h3>
+                <p>{{ entry.job_title }}</p>
+              {% endif %}
+            </div>
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  </div>
+</section> 

@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Scott Hosking
 given: Scott
 family: Hosking
 department: British Antarctic Survey, The Alan Turing Institute

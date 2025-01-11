@@ -10,28 +10,42 @@ permalinks: pretty
 
 # Collections
 collections:
-  blog:
-    output: true
   news:
     output: true
+    sort_by: date
+    order: reverse
   events:
     output: true
+    sort_by: date
+    order: reverse
   team:
     output: true
-  researchers:
+    sort_by: date
+    order: reverse
+  people:
     output: true
+    sort_by: date
+    order: reverse
   research:
     output: true
+    sort_by: date
+    order: reverse
   projects:
     output: true
+    sort_by: date
+    order: reverse
   opportunities:
     output: true
+    sort_by: date
+    order: reverse
   initiatives:
     permalink: "/initiatives/:title"
     output: true
   calls:
     permalink: "/calls/:title"
     output: true
+    sort_by: date
+    order: reverse
 
 # Default front matter for collections
 defaults:

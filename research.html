@@ -111,7 +111,7 @@ image: '/assets/images/social.jpeg'
       </div>
     </div>
     <div class="team__grid team__grid--basic">    
-      {% assign researchers_entries = site.researchers | sort: 'family' %}
+      {% assign researchers_entries = site.people | sort: 'family' %}
       {% for post in researchers_entries %}
         <a href="{{ post.url }}" class="team__member" data-src="{{ post.department | downcase | replace: ' ', '-' }}">
           <div class="team__member-image">

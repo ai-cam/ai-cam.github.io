@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Dr
+name: Amy Orben
 given: Amy
 family: Orben
 department: MRC Cognition and Brain Sciences Unit
