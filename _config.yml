@@ -75,6 +75,13 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-redirect-from
 
+# For giki settings
+ghub:
+  edit: true
+  repository: ai-cam.github.io
+github_username: ai-cam
+  
+
 
 sass:
   sass_dir: _sass
