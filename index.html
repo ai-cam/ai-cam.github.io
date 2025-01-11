@@ -18,20 +18,20 @@ image: '/assets/images/social.jpeg'
 {% assign latest_overview = site.data.homepage.latest_overview %}
 <section class="block block__latest-overview">
   <div class="container">
-    {% if latest_overview.heading or latest_overview.content or latest_overview.buttons %}
+    {% if (latest_overview.heading != nil and latest_overview.heading != '') or (latest_overview.content != nil and latest_overview.content != '') or (latest_overview.buttons != nil and latest_overview.buttons.size > 0) %}
       <div class="latest-overview__intro intro">
-        {% if latest_overview.heading %}
+        {% if latest_overview.heading != nil and latest_overview.heading != '' %}
           <h2>{{ latest_overview.heading }}</h2>
         {% endif %}
 
-        {% if latest_overview.content %}
+        {% if latest_overview.content != nil and latest_overview.content != '' %}
           {{ latest_overview.content | markdownify }}
         {% endif %}
 
-        {% if latest_overview.buttons  and latest_overview.buttons.size > 0 %}
+        {% if latest_overview.buttons != nil and latest_overview.buttons.size > 0 %}
           <div class="button-box">
             {% for item in latest_overview.buttons %}
-              {% if item.link %}
+              {% if item.link != nil and item.link != '' %}
                 <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
               {% endif %}
             {% endfor %}
@@ -45,7 +45,7 @@ image: '/assets/images/social.jpeg'
       {% for post in research_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
-            {% if post.image %}
+            {% if post.image != nil %}
               <img src="{{ post.image }}">
             {% else %}
               <img alt="" src="../assets/images/placeholder-1.jpg"/>
@@ -54,7 +54,7 @@ image: '/assets/images/social.jpeg'
 
           <div class="post__content">
             <span class="category">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <!-- {% if post.category %}
+            <!-- {% if post.category != nil and post.category != '' %}
               <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
             {% endif %} -->
             <h4>{{ post.title }}</h4>
@@ -69,7 +69,7 @@ image: '/assets/images/social.jpeg'
       {% for post in news_entries limit:3 %}
         <a href="{{ post.url }}" class="post post--small">
           <div class="post__thumbnail">
-            {% if post.image %}
+            {% if post.image != nil %}
               <img src="{{ post.image }}">
             {% else %}
               <img alt="" src="../assets/images/placeholder-1.jpg"/>
@@ -77,7 +77,7 @@ image: '/assets/images/social.jpeg'
           </div>
 
           <div class="post__content">
-            {% if post.category %}
+            {% if post.category != nil and post.category != '' %}
               <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
             {% endif %}
             <h4>{{ post.title }}</h4>
@@ -101,7 +101,7 @@ image: '/assets/images/social.jpeg'
             {% assign displayedEvents = displayedEvents | plus: 1 %}
             <a href="{{ event.url }}" class="post post--small">
               <div class="post__thumbnail">
-                {% if event.image %}
+                {% if event.image != nil %}
                   <img src="{{ event.image }}">
                 {% else %}
                   <img alt="" src="../assets/images/placeholder-1.jpg" />
@@ -131,29 +131,29 @@ image: '/assets/images/social.jpeg'
 {% assign media_text = site.data.homepage.media_text %}
 <section class="block block__media-text" id="find-out-more">
   <div class="container">
-    {% if media_text.image or media_text.image_small  %}
-      <div class="media-text__media {% if media_text.image_small %} media-text__media--two {% endif %}">
-        {% if media_text.image %}
+    {% if (media_text.image != nil and media_text.image != '') or (media_text.image_small != nil and media_text.image_small != '') %}
+      <div class="media-text__media {% if media_text.image_small != nil and media_text.image_small != '' %} media-text__media--two {% endif %}">
+        {% if media_text.image != nil and media_text.image != '' %}
           <img class="media-text__media-image" src="{{ media_text.image }}"/>
         {% endif %}
 
-        {% if media_text.image_small %}
+        {% if media_text.image_small != nil and media_text.image_small != '' %}
           <img class="media-text__media-image--floating" src="{{ media_text.image_small }}"/>
         {% endif %}
       </div>
     {% endif %}
 
     <div class="media-text__content">
-      {% if media_text.heading %}
+      {% if media_text.heading != nil and media_text.heading != '' %}
         <h2>{{ media_text.heading }}</h2>
       {% endif %}
-      {% if media_text.content %}
+      {% if media_text.content != nil and media_text.content != '' %}
         {{ media_text.content | markdownify }}
       {% endif %}
-      <!-- {% if media_text.quick_links and media_text.quick_links.size > 0 %}
+      <!-- {% if media_text.quick_links != nil and media_text.quick_links.size > 0 %}
         <ul class="media-text__content-quicklinks">
           {% for item in media_text.quick_links %}
-            {% if item.link  %}
+            {% if item.link != nil and item.link != '' %}
               <li>
                 <a href="{{ item.link }}">
                 {{ item.text }}
@@ -165,10 +165,10 @@ image: '/assets/images/social.jpeg'
         </ul>
       {% endif %} -->
 
-      {% if media_text.buttons and media_text.buttons.size > 0 %}
+      {% if media_text.buttons != nil and media_text.buttons.size > 0 %}
         <div class="button-box">
           {% for item in media_text.buttons %}
-            {% if item.link %}
+            {% if item.link != nil and item.link != '' %}
               <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
             {% endif %}
           {% endfor %}
@@ -182,20 +182,20 @@ image: '/assets/images/social.jpeg'
 <section class="block block--bg-dark-blue block__slider">
   <div class="container">
     <div class="slider__top">
-      {% if slider.heading or slider.content or slider.buttons %}
+      {% if (slider.heading != nil and slider.heading != '') or (slider.content != nil and slider.content != '') or (slider.buttons != nil and slider.buttons.size > 0) %}
         <div class="slider__intro intro">
-          {% if slider.heading %}
+          {% if slider.heading != nil and slider.heading != '' %}
             <h2>{{ slider.heading }}</h2>
           {% endif %}
 
-          {% if slider.content %}
+          {% if slider.content != nil and slider.content != '' %}
             {{ slider.content | markdownify }}
           {% endif %}
 
-          {% if slider.buttons and slider.buttons.size > 0 %}
+          {% if slider.buttons != nil and slider.buttons.size > 0 %}
             <div class="button-box">
               {% for item in slider.buttons %}
-                {% if item.link %}
+                {% if item.link != nil and item.link != '' %}
                   <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
                 {% endif %}
               {% endfor %}
@@ -208,26 +208,26 @@ image: '/assets/images/social.jpeg'
     </div>
 
 
-    {% if slider.slider_items and slider.slider_items.size > 0 %}
+    {% if slider.slider_items != nil and slider.slider_items.size > 0 %}
       <div class="slider__main">
         {% for item in slider.slider_items %}
           <div class="slider__slide">
-            {% if item.image %}
+            {% if item.image != nil and item.image != '' %}
               <div class="slider__slide-image">
                 <img src="{{ item.image }}">
               </div>
             {% endif %}
             <div class="slider__slide-heading">
-              {% if item.heading  %}
+              {% if item.heading != nil and item.heading != '' %}
                 <h3>{{ item.heading }}</h3>
               {% endif %}
-              {% if item.link %}
+              {% if item.link != nil and item.link != '' %}
               <a href="{{ item.link }}">
 	      {% include icons/right-arrow.svg %}
                 </a>
               {% endif %}
             </div>
-            {% if item.content %}
+            {% if item.content != nil and item.content != '' %}
               <div class="slider__slide-content">
                 {{ item.content | markdownify }}
               </div>
