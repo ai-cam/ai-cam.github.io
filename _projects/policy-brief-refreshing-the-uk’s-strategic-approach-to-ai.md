@@ -10,6 +10,9 @@ excerpt: AI is at risk of following a well-worn path that results in
   its policy agenda for AI.
 category:
   - policy
+people:
+  - Jess Montgomery
+  - Neil Lawrence
 image: /assets/uploads/getty-images-l_pu5n0qjvm-unsplash.jpg
 related: policy
 ---

@@ -11,7 +11,15 @@ excerpt: This project aims to develop cheaper, less invasive and more accurate
   the development of life.
 category:
   - ai-deas
-image: /assets/uploads/pexels-mart-production-7089047.jpg
+people:
+- Staci Weiss
+- Moe Vali
+- Virag Lakner
+- Mark Johnson
+- Pietro Liò
+- Junwei Yang
+- Diana Fusco
+- Nikhil Krishnan
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
@@ -33,7 +41,7 @@ University of Cambridge
 * Moe Vali, Department of Physics and Department of Computer Science
 * Virag Lakner Department of Physiology, Development and Neuroscience 
 * Professor Mark Johnson, Department of Psychology
-* Professor Pietro Lio, Department of Computer Science
+* Professor Pietro Liò, Department of Computer Science
 * Junwei Yang, Department of Computer Science
 * Dr Diana Fusco, Department of Physics
 * Nikhil Krishnan, Department of Physics

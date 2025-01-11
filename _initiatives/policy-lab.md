@@ -8,6 +8,9 @@ redirect_from:
   - /policy-lab/
   - /policy-lab
   - /policy-lab.html
+people:
+  - Neil Lawrence
+  - Jess Montgomery
 hero:
   heading: Policy Lab
   content: Informing national and international dialogues about the future of AI

@@ -4,6 +4,13 @@ title: How sure is sure? Incorporating human error into machine learning
 excerpt: Researchers are developing a way to incorporate one of the most human
   of characteristics – uncertainty – into machine learning systems.
 image: /assets/uploads/gettyimages-1477483014-dp.jpeg
+redirect_from:
+  - /research/research-3.html
+  - /research/research-3/
+  - /research/research-3
+people:
+  - Katherine Collins
+  - Matthew Barker
 category:
   - Research and innovation
 date: August 10, 2023 8:00 AM

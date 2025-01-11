@@ -5,6 +5,8 @@ excerpt: Researchers have developed a wearable ‘smart choker’ that uses a
   combination of flexible electronics and artificial intelligence techniques to
   allow people with speech impairments to communicate by detecting tiny
   movements in the throat.
+people:
+  - Luigi Occhipinti
 image: /assets/uploads/smartchoker.jpg
 date: September 12, 2024 12:00 AM
 ---

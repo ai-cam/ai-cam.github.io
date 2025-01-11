@@ -6,6 +6,14 @@ excerpt: Researchers have determined how to build reliable machine learning
   models that can understand complex equations in real-world situations while
   using far less training data than is normally expected.
 image: /assets/uploads/gettyimages-1421511938-dp.jpeg
+redirect_from:
+  - /research/research-1.html
+  - /research/research-1/
+  - /research/research-1
+people:
+  - Nicolas Boullé
+  - Diana Halikias
+  - Alex Townsend
 category:
   - Research and innovation
 date: September 19, 2023 8:00 AM

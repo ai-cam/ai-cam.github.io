@@ -7,6 +7,12 @@ excerpt: "The University of Cambridge and Google are building on their
   support progress in responsible AI that is inspired by and benefits people. "
 image: /assets/uploads/chia.jpeg
 date: October 17, 2023 8:00 AM
+people:
+  - Zoubin Ghahramani
+  - Matt Brittin
+  - Jess Montgomery
+  - Michelle Donelan
+  - Anna Korhonen
 category:
   - Research and innovation
 ---

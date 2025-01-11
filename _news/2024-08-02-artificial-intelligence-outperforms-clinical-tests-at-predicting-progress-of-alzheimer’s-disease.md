@@ -9,6 +9,10 @@ excerpt: Cambridge scientists have developed an artificially-intelligent tool
 date: July 12, 2024 12:00 AM
 category:
   - research-and-innovation
+people:
+  - Zoe Kourtzi
+  - Timothy Rittman
+  - Ben Underwood
 image: /assets/uploads/brain-image.jpg
 ---
 Cambridge scientists have developed an artificially-intelligent tool capable of predicting in four cases out of five whether people with early signs of dementia will remain stable or develop Alzheimer’s disease.

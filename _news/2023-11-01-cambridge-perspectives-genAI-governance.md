@@ -5,6 +5,16 @@ excerpt: "As we head towards November’s AI Summit, a new series of blog posts 
 date: 2023-11-01
 category:
   - policy
+people:
+  - Diane Coyle
+  - Ann Kristin Glenster
+  - Sam Gilbert
+  - Jennifer Cobbe
+  - Jat Singh
+  - Neil Lawrence
+  - Jess Montgomery
+  - David Krueger
+  - Verity Harding
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 ---
 

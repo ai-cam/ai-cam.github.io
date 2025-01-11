@@ -4,6 +4,13 @@ title: Is Data Justice key to Climate Justice?
 excerpt: Biased artificial intelligence needs human help to avoid harmful
   climate action, Cambridge researchers say.
 image: /assets/uploads/noaa-uro88vocre-unsplash.jpeg
+redirect_from:
+  - /research/research-2.html
+  - /research/research-2/
+  - /research/research-2
+people:
+  - Ramit Debnath
+  - Emily Shuckburgh
 category:
   - Research and innovation
 date: August 17, 2023 8:00 AM

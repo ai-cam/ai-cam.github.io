@@ -8,6 +8,9 @@ redirect_from:
   - /sciencepreneurship/
   - /sciencepreneurship
   - /sciencepreneurship.html
+people:
+  - Jess Montgomery
+  - Neil Lawrence
 hero:
   heading: AI Sciencepreneurship
   content:  Building a network of European AI and Science incubators

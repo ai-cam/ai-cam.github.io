@@ -7,6 +7,12 @@ excerpt: An international team of scientists, including from the University of
   discovery.
 image: /assets/uploads/gettyimages-1398047278-dp.jpeg
 date: October 13, 2023 8:00 AM
+people:
+  - Shirley Ho
+  - Miles Cranmer
+  - Siavash Golkar
+  - Francois Lanusse
+  - Mariel Pettee
 category:
   - Research and innovation
 ---

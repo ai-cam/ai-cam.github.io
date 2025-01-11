@@ -7,6 +7,10 @@ excerpt: Artificial intelligence (AI) could be used to identify drug resistant
   Cambridge researchers have shown. The team showed that an algorithm could be
   trained to identify drug-resistant bacteria correctly from microscopy images
   alone.
+people:
+  - Tuan-Anh Tran
+  - Sushmita Sridhar
+  - Stephen Baker
 image: /assets/uploads/salmonellaniaid-web.jpg
 date: July 8, 2024 12:00 AM
 ---
@@ -16,7 +20,7 @@ Antimicrobial resistance is an increasing global health issue that means many in
 
 One of the challenges facing healthcare workers is the ability to distinguish rapidly between organisms that can be treated with first-line drugs and those that are resistant to treatment. Conventional testing can take several days, requiring bacteria to be cultured, tested against various antimicrobial treatments, and analysed by a laboratory technician or by machine. This delay often results in patients being treated with an inappropriate drug, which can lead to more serious outcomes and, potentially, further drive drug resistance.
 
-In research published in Nature Communications, a team led by researchers in Professor Stephen Baker’s Lab at the University of Cambridge developed a machine-learning tool capable of identifying from microscopy images *Salmonella typhimurium* bacteria that are resistant to the first-line antibiotic ciprofloxacin – even without testing the bacteria against the drug.
+In research published in *Nature Communications*, a team led by researchers in Professor Stephen Baker’s Lab at the University of Cambridge developed a machine-learning tool capable of identifying from microscopy images *Salmonella typhimurium* bacteria that are resistant to the first-line antibiotic ciprofloxacin – even without testing the bacteria against the drug.
 
 *S. Typhimurium* causes gastrointestinal illness and typhoid-like illness in severe cases, whose symptoms include fever, fatigue, headache, nausea, abdominal pain, and constipation or diarrhoea. In severe cases, it can be life threatening. While infections can be treated with antibiotics, the bacteria are becoming increasingly resistant to a number of antibiotics, making treatment more complicated.
 

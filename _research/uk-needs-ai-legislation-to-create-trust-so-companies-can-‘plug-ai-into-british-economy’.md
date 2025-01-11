@@ -7,6 +7,12 @@ excerpt: Legislating for AI safety and transparency will allow British industry
   researchers.
 image: /assets/uploads/ugur-akdemir-hbyngldqmuo-unsplash.jpg
 date: October 16, 2023 8:00 AM
+people:
+  - Diane Coyle
+  - Sam Gilbert
+  - Ann Kristin Glenster
+category:
+  - Policy
 ---
 Legislating for AI safety and transparency will allow British industry and education to put resources into AI development with confidence, argue researchers.
 

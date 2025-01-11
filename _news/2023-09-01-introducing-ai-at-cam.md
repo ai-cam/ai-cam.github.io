@@ -9,6 +9,8 @@ excerpt: AI@Cam is Cambridge University’s flagship mission on artificial
 date: May 2, 2022 12:00 AM
 category:
   - research-and-innovation
+people:
+  - Jess Montgomery
 image: /assets/uploads/ai-885.png
 ---
 AI today is both a rapidly-advancing technical field and a technology deployed at scale. Its pervasiveness has implications for science, society, and the economy. If all in society are to share in its benefits, further action is needed to overcome the digital divides that influence how AI technologies are developed and deployed. As an engine of AI innovation and a steward of those innovations, the University of Cambridge can play an important role in bridging these divides to create AI technologies that benefit of people, science and society.

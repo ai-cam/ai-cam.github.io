@@ -9,7 +9,11 @@ desc: "Are you developing AI and ML as part of your research? Perhaps you’ve
   interested in spinning out your discoveries?  Cambridge Enterprise is hosting
   this lunchtime talk to help researchers understand what support is available
   to them, providing practical advice on commercialisation as a route to
-  real-world impact. "
+  real-world impact."
+redirect_from:
+  - /events/event-1
+  - /events/event-1.html
+  - /events/event-1/
 image: /assets/uploads/commercialisation_of_ai_for_university_researchers_30_oct_23_0.png
 link_to: https://www.c2d3.cam.ac.uk/civicrm/event/info?reset=1&id=831
 category:
