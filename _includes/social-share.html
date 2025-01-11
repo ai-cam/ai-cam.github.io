@@ -8,4 +8,8 @@
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}" target="_blank">
     {% include icons/linkedin.svg %}
   </a>
-</div> 
+  <a href="https://bsky.app/intent/compose?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">
+    {% include icons/bluesky.svg %}
+  </a>
+  {% include edit-link.html %}
+</div>
