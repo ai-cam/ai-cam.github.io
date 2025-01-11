@@ -2056,6 +2056,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this blog post"
 
   # Calls collection
   - label: "Calls"
@@ -2356,6 +2366,16 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this news item"
 
   # Events Collection
   - label: "Events"
@@ -2421,6 +2441,16 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this event"
 
   # Team Collection (No Single)
   - label: "Team"
@@ -2532,16 +2562,17 @@ collections:
     name: "people"
     folder: "_people"
     create: true
-    slug: '{{given}}-{{family}}'
+    slug: "{{name}}"
     output: true
-    identifier_field: family
+    identifier_field: name
     editor:
       preview: false
     fields:
-      - label: "Full Name"
-        name: "full_name"
-        widget: "hidden"
-        default: '{{given}} {{family}}'      
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        hint: "Full name as it should appear throughout the site"
+        required: true
       - label: "Layout"
         name: "layout"
         widget: "hidden"
@@ -2655,6 +2686,17 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this research"
+
   # Initiatives Collection
   - name: "initiatives"
     label: "Initiatives"
@@ -2761,6 +2803,16 @@ collections:
                   required: false,
                   collapsed: true,
                 }
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false
+        hint: "Select people associated with this initiative"
 
   # Projects Collection
   - name: "projects"
@@ -2815,9 +2867,9 @@ collections:
         name: "people"
         widget: "relation"
         collection: "people"
-        search_fields: ["title", "given", "family"]
-        value_field: "{{slug}}"
-        display_fields: ["{{given}}-{{family}}"]
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
         options_length: 999
         multiple: true
         required: false

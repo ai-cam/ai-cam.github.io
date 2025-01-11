@@ -1,12 +1,14 @@
 ---
 layout: person
 title: Professor
+name: Paula Buttery
 given: Paula
 family: Buttery
 department: Department of Computer Science and Technology
 job_title: Professor of Language and Machine Learning
-biography: 'Research Interests
+biography: |
 
+  ### Research Interests
 
   I am a computational linguist interested in fundamental questions about language:
   why have languages evolved to be what they are today? how do we learn languages?
@@ -26,7 +28,7 @@ biography: 'Research Interests
   between these units.
 
 
-  University Roles
+  ### University Roles
 
 
   I have several roles in the University: Professor of Language and Machine Learning
@@ -38,13 +40,11 @@ biography: 'Research Interests
   Processing to improve the experience of learning and assessment online.
 
 
-  Industry
+  ### Industry
 
 
   I am part of iLexIR, a University spinout that provides natural language processing
-  solutions'
-name: Paula Buttery
----specializing in text analytics, mining, classification and search applications.
+  solutions'---specializing in text analytics, mining, classification and search applications.
 
 
   I am Chief Scientist for RegGenome, a University spinout formed by colleagues from the Cambridge Judge Business School.

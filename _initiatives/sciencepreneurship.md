@@ -1,6 +1,6 @@
 ---
 layout: initiative-single
-title: AI Sciencepreneurship
+title: Sciencepreneurship
 description: Fostering a pan-European network of AI incubators that supports sciencepreneurship education and open source innovation.
 image: '/assets/images/business.jpeg'
 filter: sciencepreneurship

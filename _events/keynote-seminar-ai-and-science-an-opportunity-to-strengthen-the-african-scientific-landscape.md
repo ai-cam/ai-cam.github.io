@@ -1,12 +1,11 @@
 ---
 layout: event-single
-title: "Keynote Seminar: AI and Science - An Opportunity To Strengthen the
-  African Scientific Landscape "
+title: "Keynote Seminar: AI and Science - An Opportunity To Strengthen the African Scientific Landscape"
 start: 2024-11-26 16:30
 end: 2024-11-26 18:30
 category:
   - events
-desc: Join us for a keynote seminar on AI and Science: An opportunity to strengthen the African scientific landscape with Dr Ciira Maina
+desc: "Join us for a keynote seminar on AI and Science: An opportunity to strengthen the African scientific landscape with Dr Ciira Maina"
 image: /assets/uploads/ai-cam-seminar-dr-ciira-wa-maina-plain.png
 ---
 **Organiser**: ai@cam

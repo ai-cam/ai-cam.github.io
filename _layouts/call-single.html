@@ -19,15 +19,15 @@ layout: default
 
   <div class="container">
     <div class="hero__content">
-      {% if hero.heading != nil and hero.heading != '' %}
+      {% if hero.heading %}
         <h1>{{ hero.heading }}</h1>
       {% endif %}
 
-      {% if hero.content != nil and hero.content != '' %}
+      {% if hero.content %}
         {{ hero.content | markdownify }}
       {% endif %}
 
-      {% if hero.buttons != nil and hero.buttons.size > 0 %}
+      {% if hero.buttons and hero.buttons.size > 0 %}
         <div class="button-box">
           {% for item in hero.buttons %}
             {% if item.link != nil and item.link != '' %}
@@ -37,7 +37,7 @@ layout: default
         </div>
       {% endif %}
     </div>
-    {% if hero.image != nil and hero.image != '' %}
+    {% if hero.image %}
       <div class="hero__image">
         <img alt="" src="{{ hero.image }}"/>
       </div>
@@ -48,27 +48,27 @@ layout: default
 {% assign media_text = page.media_text %}
 <section class="block block__media-text block--bg-light">
   <div class="container">
-    {% if (media_text.image != nil and media_text.image != '') or (media_text.image_small != nil and media_text.image_small != '') %}
+    {% if media_text.image  or media_text.image_small %}
       <div class="media-text__media {% if media_text.image_small != nil and media_text.image_small != '' %} media-text__media--two {% endif %}">
-        {% if media_text.image != nil and media_text.image != '' %}
+        {% if media_text.image %}
           <img class="media-text__media-image" src="{{ media_text.image }}"/>
         {% endif %}
 
-        {% if media_text.image_small != nil and media_text.image_small != '' %}
+        {% if media_text.image_small %}
           <img class="media-text__media-image--floating" src="{{ media_text.image_small }}"/>
         {% endif %}
       </div>
     {% endif %}
 
     <div class="media-text__content">
-      {% if media_text.heading != nil and media_text.heading != '' %}
+      {% if media_text.heading %}
         <h2>{{ media_text.heading }}</h2>
       {% endif %}
-      {% if media_text.content != nil and media_text.content != '' %}
+      {% if media_text.content %}
         {{ media_text.content | markdownify }}
       {% endif %}
       <!-- Quick Links -->
-      {% if media_text.quick_links != nil and media_text.quick_links.size > 0 %}
+      {% if media_text.quick_links and media_text.quick_links.size > 0 %}
         <ul class="media-text__content-quicklinks">
           {% for item in media_text.quick_links %}
             {% if item.link != nil and item.link != '' %}
@@ -84,10 +84,10 @@ layout: default
         </ul>
       {% endif %}
 
-      {% if media_text.buttons != nil and media_text.buttons.size > 0 %}
+      {% if media_text.buttons and media_text.buttons.size > 0 %}
         <div class="button-box">
           {% for item in media_text.buttons %}
-            {% if item.link != nil and item.link != '' %}
+            {% if item.link %}
               <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
             {% endif %}
           {% endfor %}
