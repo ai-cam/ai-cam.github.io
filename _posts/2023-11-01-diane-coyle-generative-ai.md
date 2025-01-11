@@ -8,6 +8,8 @@ excerpt: Dame Diane Coyle, Bennett Professor of Public Policy at the University
   and harnessed by the majority of businesses.
 author: Diane Coyle
 date: November 01, 2023 11:00 AM
+people:
+  - Diane Coyle
 category:
   - policy
 image: /assets/uploads/Coyle_Diane.jpg

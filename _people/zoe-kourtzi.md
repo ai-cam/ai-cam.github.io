@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Prof
+name: Zoe Kourtzi
 given: Zoe
 family: Kourtzi
 department: Department of Psychology

@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Dr
+name: Soumya Banerjee
 given: Soumya
 family: Banerjee
 department: Department of Computer Science and Technology

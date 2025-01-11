@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Dr
+name: Ramit Debnath
 given: Ramit
 family: Debnath
 department: Department of Architecture

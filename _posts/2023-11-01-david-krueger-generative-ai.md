@@ -9,6 +9,8 @@ excerpt: Historically, most AI systems were designed to tackle well-specified
   increasingly agentic and general AI systems.
 author: David Krueger
 date: November 01, 2023 11:00 AM
+people:
+  - David Krueger
 category:
   - policy
 image: /assets/uploads/Krueger_David.png

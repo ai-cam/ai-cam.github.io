@@ -1,6 +1,7 @@
 ---
 layout: person
-title: " Professor"
+title: Professor
+name: Neil Lawrence
 given: Neil
 family: Lawrence
 department: Department of Computer Science and Technology

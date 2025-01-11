@@ -9,6 +9,8 @@ excerpt: To help us understand where there may be gaps in AI innovations, or
   public services. These dialogues took place at a time when our national
   conversation about AI policy is shifting.
 author: Jess Montgomery
+people:
+  - Jess Montgomery
 date: October 26, 2024 12:00 AM
 category:
   - policy

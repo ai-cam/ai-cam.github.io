@@ -1,7 +1,8 @@
 ---
 layout: person
 title: Dr
-given: "Viviana "
+name: Viviana Bastidas
+given: Viviana
 family: Bastidas Melo
 department: Department of Engineering
 job_title: Research Associate in Urban Systems and Infrastructure

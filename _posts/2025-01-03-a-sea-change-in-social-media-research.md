@@ -11,6 +11,9 @@ author: "Dr Amy Orben & Dr Amanda Ferguson "
 date: January 3, 2025 12:00 AM
 category:
   - policy
+people:
+  - Amy Orben
+  - Amanda Ferguson
 image: /assets/uploads/magnus-andersson-0todl-2po1y-unsplash.jpg
 ---
 A key question for the Digital Mental Health Group – led by Dr Amy Orben at the Medical Research Council (MRC) Cognition and Brain Sciences Unit at the University of Cambridge – is how growing up in a time of rapid digitalisation affects young people’s mental health and psychological well-being.

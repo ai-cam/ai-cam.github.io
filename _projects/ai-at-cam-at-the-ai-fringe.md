@@ -9,11 +9,11 @@ category:
   - dialogue
 image: /assets/uploads/img_0072.jpg
 related: dialogue
-researchers:
-  - neil-lawrence
-  - jessica-montgomery
-  - richard-milne
-  - catherine-galloway
+people:
+  - Neil Lawrence
+  - Jess Montgomery
+  - Richard Milne
+  - Catherine Galloway
 ---
 #### **Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss their hopes and fears about the increasing use of artificial intelligence (AI) in our lives.**
 

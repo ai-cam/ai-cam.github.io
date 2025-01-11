@@ -1,6 +1,7 @@
 ---
 layout: person
-title: Dr
+title: Ms
+name: Jess Montgomery
 given: Jessica
 family: Montgomery
 department: Department of Computer Science and Technology

@@ -5,10 +5,34 @@ excerpt: "This work will provide up to date, relevant and robust information for
   researchers and decision-makers working on climate and biodiversity
   conservation – opening up the possibility for more targeted and effective
   solutions to some of our world’s most pressing climate and biodiversity
-  challenges. "
+  challenges."
 category:
   - ai-deas
 image: /assets/uploads/pexels-maddie-franz-1571117.jpg
+people:
+  - Anil Madhavapeddy
+  - Alec Christie
+  - Dominic Orchard
+  - Emily Shuckburgh
+  - Rick Lewis
+  - David Coomes
+  - Sadiq Jaffer
+  - Srinivasan Keshav
+  - Onkar Gulati
+  - Robert Rouse
+  - Zeyu Cao
+  - Emily Lines
+  - Marla Fuchs
+  - Lynn Dicks
+  - Rebecca Smith
+  - William Sutherland
+  - Silviu Petrovan
+  - Chris Edsall
+  - Harry Owen
+  - Henry Moss
+  - Erik Mackie
+  - Sam Reynolds
+  - Elizabeth Allen
 ---
 The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. This project aims to develop AI approaches for bringing together a wide range of datasets and accelerating the collation of information.
 

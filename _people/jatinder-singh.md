@@ -1,7 +1,8 @@
 ---
-preferred: Jat
 layout: person
 title: Dr
+name: Jat Singh
+preferred: Jat
 given: Jatinder
 family: Singh
 department: Department of Computer Science and Technology

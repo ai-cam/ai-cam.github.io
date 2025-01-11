@@ -17,7 +17,7 @@ image: /assets/uploads/pexels-anna-shvets-4226119.jpg
 people:
 - Zoe Kourtzi
 - Anna Moore
-- Pietro Lio
+- Pietro Liò
 - Soumya Banerjee
 researchers:
   - alexandru-marcoci
@@ -34,5 +34,5 @@ Project contributors:
 
 * Professor Zoe Kourtzi, Department ofPsychology; 
 * Dr Anna Moore, Department of Psychiatry; 
-* Professor Pietro Lio, Department of Computer Science; 
+* Professor Pietro Liò, Department of Computer Science; 
 * Dr Soumya Banerjee, Department of Computer Science

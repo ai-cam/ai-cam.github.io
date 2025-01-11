@@ -1,7 +1,8 @@
 ---
 layout: person
-title: "Dr "
-given: "Kwadwo "
+title: Dr
+name: Kwadwo Oti-Sarpong
+given: Kwadwo
 family: Oti-Sarpong
 department: Department of Engineering
 job_title: Senior Research and Teaching Associate in Urban Systems and

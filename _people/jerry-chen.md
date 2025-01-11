@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Mr
+name: Jerry Chen
 given: Jerry
 family: Chen
 department: Department of Land Economy

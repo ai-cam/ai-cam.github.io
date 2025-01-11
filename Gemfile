@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem "webrick"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-remote-theme'

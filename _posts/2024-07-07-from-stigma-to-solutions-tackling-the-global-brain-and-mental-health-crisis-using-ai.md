@@ -9,6 +9,8 @@ excerpt: We hear from Professor Zoe Kourtzi, who is leading ai@cam’s
 date: July 7, 2024 7:46 PM
 category:
   - ai-deas
+people:
+  - Zoe Kourtzi
 image: /assets/uploads/ad_scans-30-.jpg
 ---
 **We hear from Professor Zoe Kourtzi, who is leading ai@cam’s interdisciplinary initiative to revolutionise our understanding and treatment of brain and mental health disorders.**

@@ -9,6 +9,8 @@ author: Neil Lawrence
 date: December 4, 2024 12:00 AM
 category:
   - policy
+people:
+- Neil D. Lawrence
 image: /assets/uploads/neil-ft.png
 ---
 ![](/assets/uploads/neil-ft1.jpg)

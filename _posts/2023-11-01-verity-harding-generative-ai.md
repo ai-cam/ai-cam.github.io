@@ -9,6 +9,8 @@ excerpt: One of TIME100’s Most Influential People in AI, Verity Harding began
   AI & Geopolitics Project at Cambridge University's Bennett Institute for
   Public Policy.
 author: Verity Harding
+people:
+  - Verity Harding
 date: November 01, 2023 11:00 AM
 category:
   - policy

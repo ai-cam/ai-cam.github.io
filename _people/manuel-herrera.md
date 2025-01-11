@@ -1,6 +1,7 @@
 ---
 layout: person
 title: Dr
+name: Manuel Herrera
 given: Manuel
 family: Herrera
 department: Department of Engineering

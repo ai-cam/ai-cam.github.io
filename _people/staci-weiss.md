@@ -3,6 +3,7 @@ layout: person
 title: Dr
 given: Staci
 family: Weiss
+name: Staci Weiss
 department: Department of Psychology
 job_title: Research Associate
 biography: >-
