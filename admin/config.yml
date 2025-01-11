@@ -2871,13 +2871,16 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-      - label: "Excerpt"
+        hint: "The main title of the project"
+      - label: "Excerpt" 
         name: "excerpt"
         widget: "text"
+        hint: "A brief summary of the project (appears in project listings)"
       - label: "Category"
         name: "category"
         widget: "select"
         multiple: true
+        hint: "Select one or more categories for this project"
         options:
           - { label: "AI deas", value: "ai-deas" }
           - { label: "Education", value: "education" }
@@ -2886,15 +2889,23 @@ collections:
           - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
+      - label: "Launch Date"
+        name: "date"
+        widget: "datetime"
+        required: true
+        hint: "The date when this project launched"
       - label: "Featured Image"
         name: "image"
         widget: "image"
+        hint: "Main image for the project (appears in listings and at top of project page)"
       - label: "Body"
         name: "body"
         widget: "markdown"
+        hint: "The main content of the project page"
       - label: "Related Posts"
         widget: "select"
         name: "related"
+        hint: "Select a category to show related content from"
         options:
           - { label: "None", value: "none" }
           - { label: "AI deas", value: "ai-deas" }
@@ -2915,6 +2926,7 @@ collections:
         multiple: true
         required: false
         collapsed: true
+        hint: "Select people involved in this project"
 
   # Opportunities (Jobs)
   - label: "Opportunities"

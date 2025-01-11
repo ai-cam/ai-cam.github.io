@@ -9,6 +9,7 @@ category:
   - dialogue
 image: /assets/uploads/img_0072.jpg
 related: dialogue
+date: 2023-11-23
 people:
   - Neil Lawrence
   - Jess Montgomery

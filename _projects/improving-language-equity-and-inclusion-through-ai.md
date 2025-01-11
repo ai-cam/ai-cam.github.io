@@ -4,6 +4,7 @@ title: Improving language equity and inclusion through AI
 excerpt: "This project aims to develop new AI methods to understand and address
   these challenges to improve equity and inclusion. It will develop new ways to
   support people with language and communication difficulties. "
+date: 2024-01-01
 category:
   - ai-deas
 people:

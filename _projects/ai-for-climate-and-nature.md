@@ -6,6 +6,7 @@ excerpt: "This work will provide up to date, relevant and robust information for
   conservation – opening up the possibility for more targeted and effective
   solutions to some of our world’s most pressing climate and biodiversity
   challenges."
+date: 2024-01-01
 category:
   - ai-deas
 image: /assets/uploads/pexels-maddie-franz-1571117.jpg

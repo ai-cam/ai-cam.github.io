@@ -9,6 +9,7 @@ excerpt: This project aims to develop cheaper, less invasive and more accurate
   key part in improving fertility and women's health outcomes and shed light on
   the still largely unknown cellular, molecular and genetic mechanisms governing
   the development of life.
+date: 2024-01-01
 category:
   - ai-deas
 people:
