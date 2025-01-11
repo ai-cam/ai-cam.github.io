@@ -1,8 +1,9 @@
 ---
 layout: person
+name: Colm Caulfield
 given: Colm-cille
 preferred: Colm
-family: Caulfied
+family: Caulfield
 department: Department of Applied Maths and Theoretical Physics
 title: Prof
 job_title: Professor of Environmental and Industrial Fluid Dynamics

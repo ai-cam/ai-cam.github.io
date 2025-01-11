@@ -14,4 +14,5 @@ biography: Professor Andy Neely is Pro-Vice-Chancellor for Enterprise and Busine
   Built Britain and Founding Director of the Cambridge Service Alliance. He is widely
   recognised for his work on the servitization of manufacturing, as well as his work
   on performance measurement and management.
+name: Andy Neely
 ---

@@ -26,4 +26,5 @@ biography: 'Richard Prager''s research focuses on the development of better non-
   that produces images that are in-focus at all depths from a single ultrasound transmit-receive
   sequence.  His most recent work has been on adaptive beamforming using minimum-variance
   algorithms and plane-wave compounding.'
+name: Richard Prager
 ---

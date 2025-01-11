@@ -23,4 +23,5 @@ biography: 'Professor Bill Sutherland holds the Miriam Rothschild Chair of Conse
 
   He teaches ecology and conservation biology.  He also teaches on the Masters in
   Public Policy and Masters in Conservation Leadership courses.'
+name: Bill Sutherland
 ---

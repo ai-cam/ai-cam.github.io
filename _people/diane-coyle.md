@@ -22,4 +22,5 @@ biography: 'Diane co-directs the Bennett Institute where she heads research unde
   at the University of Manchester until March 2018. She was made a Dame in the King’s
   Birthday Honours List in 2023 for her exceptional contributions to economic policy
   and practice.'
+name: Diane Coyle
 ---

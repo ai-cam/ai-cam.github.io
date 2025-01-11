@@ -33,4 +33,5 @@ biography: 'Stephen Cave is Director of the Leverhulme Centre for the Future of 
   He has also written and spoken on a wide range of philosophical and scientific subjects,
   including in the New York Times, The Atlantic, The Guardian, and on television and
   radio around the world.'
+name: Stephen Cave
 ---

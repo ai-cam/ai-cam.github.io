@@ -21,4 +21,5 @@ biography: 'Sebastian Eves-van den Akker is a geneticist with an interest in int
   appointed Head of Group in the Department of Plant Sciences at the University of
   Cambridge. In 2021 he was awarded a Crop Science Centre Fellowship at the University
   of Cambridge, and an Official Fellowship at King’s College Cambridge.'
+name: Sebastian Eves-van den Akker
 ---

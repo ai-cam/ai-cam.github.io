@@ -31,4 +31,5 @@ biography: I am an Assistant Professor in Machine Learning at the Department of 
   fast methods for approximate Bayesian inference that scale to large datasets. The
   results of my research have been published at top machine learning journals (Journal
   of Machine Learning Research) and conferences (NIPS and ICML).
+name: Miguel Hernández Lobato
 ---

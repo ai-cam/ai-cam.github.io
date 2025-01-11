@@ -20,4 +20,5 @@ biography: Tim is the inaugural Dr John C Taylor Professor of Innovation at the 
   Trustees of the Foundation for Young People’s Mental Health (YPMH) (https://www.ypmh.org/).  He
   has B.Eng. from Aston University and a PhD from Cambridge University Engineering
   Department.
+name: Tim Minshall
 ---

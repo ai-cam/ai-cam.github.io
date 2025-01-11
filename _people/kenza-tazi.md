@@ -14,4 +14,5 @@ biography: I started my PhD in 2020, after completing my MRes as part of the CDT
   learning methods to predicting precipitation in mountainous areas such as the Himalayas.
   Before coming to Cambridge, I completed an integrated masters in Physics at Imperial
   College London.
+name: Kenza Tazi
 ---

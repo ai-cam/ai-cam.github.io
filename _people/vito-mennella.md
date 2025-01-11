@@ -40,4 +40,5 @@ biography: r. Mennella received his B.Sc. cum laude from the University La Sapie
   National Sciences and Engineering Council of Canada and new investigator awards
   from CIHR Institute of Human Development and Child Health, the ATS-PCD foundation,
   AAIR and other charities.
+name: Vito Mennella
 ---

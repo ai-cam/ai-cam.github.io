@@ -2,7 +2,8 @@
 layout: person
 title: Professor
 given: Keshav
-family: "Srinivasan "
+family: Srinivasan
+name: Keshav Srinivasan
 department: Department of Computer Science and Technology
 job_title: Robert Sansom Professor of Computer Science
 biography: >-

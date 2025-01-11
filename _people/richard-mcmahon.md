@@ -1,7 +1,13 @@
 ---
-full_name: "{{given}} {{family}}"
+name: Richard McMahon
 layout: person
-title: Prof
-given: "Richard "
+title: Professor
+given: Richard
 family: McMahon
+biography: >-2
+   Richard McMahon is Professor of Astronomy at the University of Cambridge. 
+
+  Prof McMahon has over 25 years of experience in data intensive analysis and computational research, national and international project science, project management and data management in ground and space-based data intensive multi-wavelength projects from radio to X-ray wavelength involving the European Space Agency(ESA; XMM-Newton), European Southern Observatory (ESO; VISTA, 4MOST) and STFC (CASU, DES, LSST, IRIS, SKA, UKSRC). He has been a member of the DIRAC Project Board  and PI of the DIRAC Data Intensive service at the University of Cambridge since 2017.
+image: /assets/uploads/richardmcmahon_headshot_2022.jpeg
+email: rgm@ast.cam.ac.uk
 ---

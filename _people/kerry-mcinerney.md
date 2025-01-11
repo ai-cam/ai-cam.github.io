@@ -11,4 +11,5 @@ biography: am a Research Fellow at the Leverhulme Centre for the Future of Intel
   where I researches anti-Asian racism and AI and Asian diasporic approaches to AI
   ethics. I am a AHRC/BBC Radio 3 New Generation Thinker, where I brings complex conversations
   about gender, race and artificial intelligence to wide audiences.
+name: Kerry McInerney
 ---

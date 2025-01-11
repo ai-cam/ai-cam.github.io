@@ -1,5 +1,6 @@
 ---
 layout: person
+name:  Katarzyna Nowaczyk-Basińska
 given: Katarzyna
 family: Nowaczyk-Basińska
 department: 'Leverhulme Centre for the Future of Intelligence '

@@ -22,4 +22,5 @@ biography: Alan Blackwell is Professor of Interdisciplinary Design in the Cambri
   co-founder with David Good of the Crucible Network for research in Interdisciplinary
   Design, and with David and Lara Allen the Global Challenges strategic research initiative
   of the University of Cambridge.
+name: Alan Blackwell
 ---

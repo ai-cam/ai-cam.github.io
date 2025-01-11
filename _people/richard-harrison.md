@@ -25,4 +25,5 @@ biography: 'Dr Harrison completed his PhD in systems biology at the University o
   Dr Harrison is a member of the BBSRC Agri-food Strategic Advisory Panel, the KTN
   Plant Science advisory board, the NFU Net Zero Science Advisory Board and the BBSRC
   pool of experts.'
+name: Richard Harrison
 ---

@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Carola Schönlieb
 given: Carola-Bibiane
 preferred: Carola
 family: Schönlieb

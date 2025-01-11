@@ -1,7 +1,8 @@
 ---
 layout: person
+name: Guy Emerson
 title: Dr
-given: "Guy "
+given: Guy
 family: Emerson
 department: Department of Computer Science and Technology
 job_title: Executive Director, Cambridge Language Sciences

@@ -15,4 +15,5 @@ biography: Shahar Avin is a senior researcher associate at the Centre for the St
   Artificial Intelligence (2018) and Toward Trustworthy AI Development (2020). He
   was also an ethics advisor for the Machine Intelligence Garage, and has worked with
   various startups in Israel and the UK.
+name: Shahar Avin
 ---

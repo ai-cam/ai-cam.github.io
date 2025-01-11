@@ -30,4 +30,5 @@ biography: 'Alexei Lapkin is a Professor of Sustainable Reaction Engineering at 
   ML-assisted materials development strategies, and Chemical Data Intelligence (CDI)
   Pte Ltd, which is exploiting complex networks and ML methods for developing new
   chemical entities and synthesis planning. Links: <https://cdi-sg.com>; <https://acceleratedmaterials.co>'
+name: Alexei Lapkin
 ---

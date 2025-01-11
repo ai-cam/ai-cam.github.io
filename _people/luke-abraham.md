@@ -19,4 +19,5 @@ biography: I am a Director of Research, equivalent to Professor, in the Departme
   to prepare UKCA for exascale computing systems, as well as improving our ability
   to compare models with observations, and developing emulators for various aspects
   of atmospheric chemistry.
+name: Luke Abraham
 ---

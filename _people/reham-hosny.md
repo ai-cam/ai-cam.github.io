@@ -29,4 +29,5 @@ biography: 'Dr. Reham Hosny is a British Academy Visiting Fellow at the Leverhul
   Mention. Dr. Hosny is the first Arab and African to be elected as a director at
   the international Electronic Literature Organization (ELO) and to be a convener
   of the ELO awards (2023).'
+name: Reham Hosny
 ---

@@ -16,4 +16,5 @@ biography: Florian Markowetz is Professor of Computational Oncology at the Unive
   from Free University Berlin, for which he was awarded an Otto-Hahn Medal by the
   Max Planck Society. He is a co-founder and director at Tailor Bio, a genomics start-up
   developing a pan-cancer precision medicine platform.
+name: Florian Markowetz
 ---

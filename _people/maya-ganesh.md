@@ -21,4 +21,5 @@ biography: Maya Indira Ganesh is assistant teaching professor co-directing the M
   2008-2017, Maya was a researcher working with digital rights organisations at the
   intersection of gender justice and digital freedom of expression with human rights
   defenders, activists, and journalists across the majority world.
+name: Maya Ganesh
 ---

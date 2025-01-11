@@ -17,4 +17,5 @@ biography: 'Dr Milena Ivanova is a philosopher of science interested in the rela
   University of Cambridge. She is the author of Duhem and Holism, published by Cambridge
   University Press in 2021, and the co-editor of The Aesthetics of Science: Beauty,
   Imagination and Understanding, and The Aesthetics of Scientific Experiments.'
+name: Milena Ivanova
 ---

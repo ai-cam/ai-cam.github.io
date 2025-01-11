@@ -1,8 +1,9 @@
 ---
 layout: person
 title: Dr
-given: "Silviu "
+given: Silviu
 family: Petrovan
+name: silviu-petrovan
 department: Department of Zoology
 job_title: Senior Research Associate
 biography: >-

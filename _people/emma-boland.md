@@ -16,4 +16,5 @@ biography: Dr Emma Boland is a polar scientist and climate science communicator.
   and radio to school children. Dr Boland is co-director of the AI for the study of
   Environmental Risks Centre for Doctoral Training, based at the Department of Earth
   Sciences at the University of Cambridge, and a By-Fellow at Churchill College, Cambridge.
+name: Emma Boland
 ---

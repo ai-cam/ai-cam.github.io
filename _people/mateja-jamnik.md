@@ -24,4 +24,5 @@ biography: 'Mateja Jamnik is Professor of Artificial Intelligence in the Departm
   Broadly, her research is in the areas of artificial intelligence, human-like computation,
   machine learning, explainability, automated reasoning, diagrammatic reasoning, knowledge
   representation, theorem proving, cognitive science, human-computer interaction.'
+name: Mateja Jamnik
 ---
