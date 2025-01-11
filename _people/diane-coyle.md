@@ -23,4 +23,6 @@ biography: 'Diane co-directs the Bennett Institute where she heads research unde
   Birthday Honours List in 2023 for her exceptional contributions to economic policy
   and practice.'
 name: Diane Coyle
+category:
+  - steering-group
 ---

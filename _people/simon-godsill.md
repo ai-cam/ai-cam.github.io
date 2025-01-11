@@ -1,5 +1,6 @@
 ---
 layout: person
+name: Simon Godsill
 given: Simon
 family: Godsill
 department: Department of Engineering
@@ -16,5 +17,6 @@ biography: Simon Godsill is Head of Information Engineering (Div F), and Profess
   methodological theme over recent years has been the development of novel techniques
   for optimal Bayesian filtering and smoothing, using Sequential Monte Carlo or Particle
   Filtering methods.
-name: Simon Godsill
+category:
+  - steering-group
 ---

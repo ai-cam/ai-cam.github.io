@@ -34,4 +34,6 @@ biography: Carola-Bibiane Schönlieb is Professor of Applied Mathematics at the 
   year of postdoctoral activity at the University of Göttingen (Germany), she became
   a Lecturer at Cambridge in 2010, promoted to Reader in 2015 and promoted to Professor
   in 2018.
+category:
+  - steering-group
 ---

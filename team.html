@@ -21,7 +21,7 @@ image: '/assets/images/social.jpeg'
       <button class="active" data-id="everyone">ai@cam</button>
       <button data-id="steering-group">Steering Group</button>
       <button data-id="professional-services">Professional Services</button>
-      <button class="active" data-id="leadership">Leadership</button>
+      <button data-id="leadership">Leadership</button>
     </div>
 
     {% assign team_entries = site.people %}
@@ -40,7 +40,7 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
@@ -59,7 +59,7 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
@@ -79,7 +79,7 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}
@@ -99,7 +99,7 @@ image: '/assets/images/social.jpeg'
           </div>
           <div class="team__member-content">
             <h3>{{ post.name }}</h3>
-            <p>{{ post.position }}</p>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}

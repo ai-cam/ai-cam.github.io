@@ -27,4 +27,6 @@ biography: Gina Neff is the Executive Director of the Minderoo Centre for Techno
   website on the Internet, for the A to Z of AI, which has reached over 1 million
   people in 17 different languages.
 name: Gina Neff
+category:
+  - steering-group
 ---

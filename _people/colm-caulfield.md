@@ -27,5 +27,6 @@ biography: 'Professor Colm-cille Caulfield holds a joint appointment in the Depa
   fluid flows can allow strategies to be developed to model the climate system, to
   deal with the dispersion of pollutants, or to minimise energy consumption within
   buildings.'
-category: '[''steering-group'']'
+category:
+  - steering-group
 ---

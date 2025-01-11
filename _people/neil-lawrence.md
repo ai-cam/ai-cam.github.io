@@ -25,4 +25,5 @@ twitter: "@lawrennd"
 category:
   - leadership
   - researcher
+  - steering-group
 ---

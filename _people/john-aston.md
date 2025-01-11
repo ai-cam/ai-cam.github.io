@@ -24,4 +24,6 @@ image: /assets/uploads/Aston_John.jpg
 webpage: http://www.statslab.cam.ac.uk/~jada2
 crsid: jada2
 name: John Aston
+category:
+  - steering-group
 ---
