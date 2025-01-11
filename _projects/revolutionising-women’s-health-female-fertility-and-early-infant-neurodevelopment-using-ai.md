@@ -14,7 +14,7 @@ category:
   - ai-deas
 people:
 - Staci Weiss
-- Moe Vali
+- Mo Vali
 - Virag Lakner
 - Mark Johnson
 - Pietro Liò

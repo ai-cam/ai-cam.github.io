@@ -31,7 +31,7 @@ people:
   - Sadiq Jaffer
   - Sam Reynolds
   - Silviu Petrovan
-  - Srinivasan Keshav
+  - Keshav Srinivasan
   - Bill Sutherland
   - Zeyu Cao
 ---
