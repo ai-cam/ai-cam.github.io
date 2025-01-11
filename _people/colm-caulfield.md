@@ -4,7 +4,7 @@ name: Colm Caulfield
 given: Colm-cille
 preferred: Colm
 family: Caulfield
-department: Department of Applied Maths and Theoretical Physics
+department: Department of Applied Mathematics and Theoretical Physics
 title: Prof
 job_title: Professor of Environmental and Industrial Fluid Dynamics
 crsid: cpc12

@@ -29,19 +29,18 @@ layout: default
   </div>
 </section>
 
-{% assign project_entries = site.projects %}
+{% assign project_entries = site.projects | where: "category", page.filter %}
+{% if project_entries.size > 0 %}
 <section class="block block--bg-pink block__slider">
   <div class="container">
     <div class="slider__top">
-    <div class="slider__intro intro">
-    <h2>{{page.title}} Projects</h2>
-    </div>
+      <div class="slider__intro intro">
+        <h2>{{page.title}} Projects</h2>
+      </div>
       <p class="slider__notice">Drag to explore</p>
-          
     </div>
     <div class="slider__main">
       {% for post in project_entries %}
-        {% if post.category contains page.filter %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image != nil %}
@@ -72,11 +71,11 @@ layout: default
             <p>{{ post.excerpt }}</p>
           </div>
         </a>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
 {% assign latest_overview = page.latest_overview %}
 <section class="block block__latest-overview">

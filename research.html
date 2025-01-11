@@ -76,6 +76,7 @@ image: '/assets/images/social.jpeg'
       <div class="team__intro-content">
         <h2>{{ researchers.heading }}</h2>
         {{ researchers.content | markdownify }}
+        
         {% if researchers.buttons and researchers.buttons.size > 0 %}
           <div class="button-box">
             {% for item in researchers.buttons %}
@@ -88,14 +89,23 @@ image: '/assets/images/social.jpeg'
       </div>
 
       <div class="team__intro-filters">
-        <p>Filter by:</p>
+        <p>Select department to filter by:</p>
         {% assign unique_departments = "" | split: "," %}
     
-        {% for post in site.researchers %}
-          {% unless unique_departments contains post.department %}
-            {% assign unique_departments = unique_departments | push: post.department %}
-          {% endunless %}
+        {% for post in site.people %}
+          {% if post.department %}
+            {% assign departments = post.department | split: ";" %}
+            {% for dept in departments %}
+              {% assign trimmed_dept = dept | strip %}
+              {% unless unique_departments contains trimmed_dept %}
+                {% assign unique_departments = unique_departments | push: trimmed_dept %}
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
         {% endfor %}
+          
+        <!-- sort alphabetically -->
+        {% assign unique_departments = unique_departments | sort %}
     
         <!-- Select box for departments -->
         <div class="department-filters">
@@ -111,7 +121,13 @@ image: '/assets/images/social.jpeg'
     <div class="team__grid team__grid--basic">    
       {% assign researchers_entries = site.people | sort: 'family' %}
       {% for post in researchers_entries %}
-        <a href="{{ post.url }}" class="team__member" data-src="{{ post.department | downcase | replace: ' ', '-' }}">
+        {% assign departments = post.department | split: ";" %}
+        {% assign dept_classes = "" %}
+        {% for dept in departments %}
+          {% assign dept_class = dept | strip | downcase | replace: ' ', '-' %}
+          {% assign dept_classes = dept_classes | append: dept_class | append: " " %}
+        {% endfor %}
+        <a href="{{ post.url }}" class="team__member" data-src="{{ dept_classes | strip }}">
           <div class="team__member-image">
             {% if post.image %}
               <img src="{{ post.image }}"/>
@@ -120,8 +136,8 @@ image: '/assets/images/social.jpeg'
             {% endif %}
           </div>
           <div class="team__member-content">
-            <h3>{{ post.given }} {{ post.family }}</h3>
-            <p>{{ post.position }}</p>
+            <h3>{{ post.name }}</h3>
+            <p>{{ post.job_title }}</p>
           </div>
         </a>
       {% endfor %}

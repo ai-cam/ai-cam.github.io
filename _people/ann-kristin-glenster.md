@@ -4,7 +4,7 @@ title: Dr
 given: Ann Kristin
 family: Glenster
 name: Ann Kristin Glenster
-department: Minderoo Centre for Technology and Democracy
+department: Minderoo Centre for Technology & Democracy
 job_title: Senior Policy Adviser
 biography: >-
   Dr Ann Kristin Glenster is a Technology and Human Rights Fellow at the Carr

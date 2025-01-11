@@ -3,7 +3,7 @@ layout: person
 title: Dr
 given: Eleanor
 family: Drage
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Senior Research Feloow
 biography: 'Eleanor is a Senior Research Fellow at the University of Cambridge. She
   is CO-I on the Desirable Digitalisations project and PI on the Ammagamma project,

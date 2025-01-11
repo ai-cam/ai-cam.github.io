@@ -2,7 +2,7 @@
 layout: person
 given: Tomasz
 family: Hollanek
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Research Fellow
 crsid: th536
 image: /assets/uploads/Hollanek_Tomasz.jpeg

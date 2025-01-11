@@ -16,10 +16,6 @@ hero_slider:
     buttons:
       - link: /ai-deas
         text: Read More
-latest_overview:
-  heading: ""
-  content: ""
-  buttons: []
 media_text:
   heading: About ai@cam
   content: ai@cam is the University of Cambridge's flagship AI mission. Drawing

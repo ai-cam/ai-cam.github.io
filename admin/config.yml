@@ -1755,20 +1755,24 @@ collections:
             name: "hero"
             collapsed: true
             widget: "object"
+            hint: "Hero section at the top of the research page"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Main heading text for the hero section"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Main content text for the hero section"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons for the hero section"
                 fields:
                   - {
                       label: Link,
@@ -1776,6 +1780,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1783,30 +1788,36 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
               - label: "Image"
                 name: "image"
                 widget: "image"
                 required: false
+                hint: "Background image for the hero section"
           # Text (Dual Column)
           - label: "Text (Split)"
             name: "text_split"
             collapsed: true
             widget: "object"
+            hint: "Two-column text section below the hero"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Heading for the split text section"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Main content for the split text section"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons for the split text section"
                 fields:
                   - {
                       label: Link,
@@ -1814,6 +1825,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1821,26 +1833,31 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
           # Slider
           - label: "Slider"
             name: "slider"
             collapsed: true
             widget: "object"
+            hint: "Horizontal scrolling section for research projects"
             fields:
               - label: "Heading"
                 name: "heading"
                 widget: "string"
                 required: false
+                hint: "Heading text above the slider"
               - label: "Content"
                 name: "content"
                 widget: "text"
                 required: false
+                hint: "Introductory text above the slider"
               - label: "Buttons"
                 name: "buttons"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Call-to-action buttons above the slider"
                 fields:
                   - {
                       label: Link,
@@ -1848,6 +1865,7 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "URL for the button"
                     }
                   - {
                       label: Text,
@@ -1855,31 +1873,42 @@ collections:
                       widget: string,
                       required: false,
                       collapsed: true,
+                      hint: "Text to display on the button"
                     }
               - label: "Slider Items"
                 name: "slider_items"
                 widget: "list"
                 required: false
                 collapsed: true
+                hint: "Individual slides in the slider section"
                 fields:
                   - {
                       label: Heading,
                       name: heading,
                       widget: string,
                       required: false,
+                      hint: "Title for this slide"
                     }
                   - {
                       label: Content,
                       name: content,
                       widget: text,
                       required: false,
+                      hint: "Description text for this slide"
                     }
-                  - { label: Link, name: link, widget: string, required: false }
+                  - { 
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      hint: "URL when clicking this slide"
+                    }
                   - {
                       label: Image,
                       name: image,
                       widget: image,
                       required: false,
+                      hint: "Featured image for this slide"
                     }
           # People
           - label: "People"
@@ -2002,6 +2031,40 @@ collections:
                 name: "image_small"
                 widget: "image"
                 required: false
+          # Researchers
+          - label: "Researchers"
+            name: "researchers"
+            collapsed: true
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+                required: false
+              - label: "Content"
+                name: "content"
+                widget: "text"
+                required: false
+              - label: "Buttons"
+                name: "buttons"
+                widget: "list"
+                required: false
+                collapsed: true
+                fields:
+                  - {
+                      label: Link,
+                      name: link,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
+                  - {
+                      label: Text,
+                      name: text,
+                      widget: string,
+                      required: false,
+                      collapsed: true,
+                    }
 
   # Blog Collection
   - label: "Blog"

@@ -2,7 +2,7 @@
 layout: person
 given: Kerry
 family: McInerney
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Research Fellow
 crsid: kam83
 image: /assets/uploads/McInerney_Kerry.webp

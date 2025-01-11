@@ -2,7 +2,7 @@
 layout: person
 given: Alex
 family: Archibald
-department: Department of Chemistry
+department: Yusuf Hamied Department of Chemistry
 title: Dr
 job_title: Lecturer
 crsid: ata27

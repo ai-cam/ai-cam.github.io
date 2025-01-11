@@ -3,7 +3,7 @@ layout: person
 name: Scott Hosking
 given: Scott
 family: Hosking
-department: British Antarctic Survey, The Alan Turing Institute
+department: British Antarctic Survey; The Alan Turing Institute
 title: Dr
 job_title: Research leader in AI and Digital Twinning for the environment
 image: /assets/uploads/Hosking_Scott.jpg

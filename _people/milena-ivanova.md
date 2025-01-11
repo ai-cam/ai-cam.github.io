@@ -2,7 +2,7 @@
 layout: person
 given: Milena
 family: Ivanova
-department: 'Leverhulme Centre for the Future of Intelligence '
+department: Leverhulme Centre for the Future of Intelligence
 job_title: Teaching Associate
 crsid: mi342
 image: /assets/uploads/Ivanova_Milena.jpg

@@ -2,7 +2,7 @@
 layout: person
 given: Gina
 family: Neff
-department: Minderoo Centre for Technology & Democracy, Centre for Research in the
+department: Minderoo Centre for Technology & Democracy; Centre for Research in the
   Arts, Humanities and Social Sciences (CRASSH)
 job_title: Executive Director
 crsid: gsn23

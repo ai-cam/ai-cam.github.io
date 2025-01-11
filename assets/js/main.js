@@ -161,12 +161,19 @@
                     const selectedDepartment = $(this).val();
             
                     $('.team__member').each(function() {
-                        const memberDepartment = $(this).attr('data-src');
-            
-                        if (selectedDepartment === "" || memberDepartment === selectedDepartment) {
+                        if (!selectedDepartment) {
+                            // Show all if "All" is selected
                             $(this).show();
                         } else {
-                            $(this).hide();
+                            // Split the data-src into an array of departments
+                            const memberDepartments = $(this).attr('data-src').trim().split(' ');
+                            
+                            // Show if the selected department is in the array
+                            if (memberDepartments.includes(selectedDepartment)) {
+                                $(this).show();
+                            } else {
+                                $(this).hide();
+                            }
                         }
                     });
                 });
