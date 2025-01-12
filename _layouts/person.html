@@ -72,27 +72,27 @@ layout: default
 
             <div class="team-profile__contact-socials">
               {% if page.github %}
-                <a href="https://github.com/{{ page.github }}" target="_blank" rel="noreferrer">
+                <a href="https://github.com/{{ page.github }}" target="_blank" rel="noreferrer" class="social-icon">
                   {% include icons/github.svg %}
                 </a>
               {% endif %}
               {% if page.linkedin %}
-                <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank" rel="noreferrer">
+                <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank" rel="noreferrer" class="social-icon">
                   {% include icons/linkedin.svg %}
                 </a>
               {% endif %}
               {% if page.twitter %}
-                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noreferrer" class="social-icon">
                   {% include icons/twitter.svg %}
                 </a>
               {% endif %}
               {% if page.bluesky %}
-                <a href="https://bsky.app/profile/{{ page.bluesky }}" target="_blank" rel="noreferrer">
+                <a href="https://bsky.app/profile/{{ page.bluesky }}" target="_blank" rel="noreferrer" class="social-icon">
                   {% include icons/bluesky.svg %}
                 </a>
               {% endif %}
               {% if page.orcid %}
-                <a href="https://orcid.org/{{ page.orcid }}" target="_blank" rel="noreferrer">
+                <a href="https://orcid.org/{{ page.orcid }}" target="_blank" rel="noreferrer" class="social-icon">
                   {% include icons/orcid.svg %}
                 </a>
 	      {% endif %}

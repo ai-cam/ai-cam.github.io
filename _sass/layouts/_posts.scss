@@ -468,14 +468,27 @@
 
     &-socials {
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: space-between;
       align-items: center;
+      margin-bottom: 1rem;
+      width: 100%;
+      align-self: flex-start;
+      position: sticky;
+      top: 14rem;
+
+      @include bp(tablet) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+      }
 
       a {
-        width: 80px;
+        width: 35px;
         height: auto;
-        margin-bottom: 1rem;
+        margin-bottom: 0;
+        line-height: 0;
         text-decoration: none;
 
         svg {
