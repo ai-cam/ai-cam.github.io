@@ -3,22 +3,8 @@ layout: person
 given: Amelie
 family: Roper
 name: Amelie Roper
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
-category: []
-supervisor: ''
+department: Cambridge University Library
+job_title: Head of Research
+webpage: https://www.lib.cam.ac.uk/research-institute/people/amelie-roper
+image: /assets/uploads/amelie-roper.jpg
 ---
