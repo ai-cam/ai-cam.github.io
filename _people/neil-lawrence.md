@@ -15,10 +15,9 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   by deploying machine learning in the African context, where ‘end-to-end’
   solutions are normally required. This has inspired new research directions at
   the interface of machine learning and systems research, this work is funded by
-  a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
-  Professor at the University of Sheffield and the co-host of Talking Machines.
-  He is the author of the forthcoming book The Atomic Human (release date 30th
-  May 2024).
+  a Senior AI Fellowship from the Alan Turing Institute. 
+  
+  Neil is also visiting Professor at the University of Sheffield and the author of the book [The Atomic Human](https://the-atomic-human.ai/).
 image: /assets/uploads/Lawrence_Neil.png
 webpage: https://inverseprobability.com
 twitter: lawrennd
