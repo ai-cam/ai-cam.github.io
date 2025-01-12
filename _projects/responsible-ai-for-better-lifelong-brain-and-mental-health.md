@@ -12,7 +12,7 @@ excerpt: This project will use the latest advances in AI to better understand
   disorders.
 category:
   - ai-deas
-
+date: 2024-01-01
 image: /assets/uploads/pexels-anna-shvets-4226119.jpg
 people:
 - Zoe Kourtzi

@@ -2871,13 +2871,16 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-      - label: "Excerpt"
+        hint: "The main title of the project"
+      - label: "Excerpt" 
         name: "excerpt"
         widget: "text"
+        hint: "A brief summary of the project (appears in project listings)"
       - label: "Category"
         name: "category"
         widget: "select"
         multiple: true
+        hint: "Select one or more categories for this project"
         options:
           - { label: "AI deas", value: "ai-deas" }
           - { label: "Education", value: "education" }
@@ -2886,15 +2889,23 @@ collections:
           - { label: "Sciencepreneurship", value: "sciencepreneurship" }
           - { label: "Dialogue", value: "dialogue" }
           - { label: "Research & Innovation", value: "research-and-innovation" }
+      - label: "Launch Date"
+        name: "date"
+        widget: "datetime"
+        required: true
+        hint: "The date when this project launched"
       - label: "Featured Image"
         name: "image"
         widget: "image"
+        hint: "Main image for the project (appears in listings and at top of project page)"
       - label: "Body"
         name: "body"
         widget: "markdown"
+        hint: "The main content of the project page"
       - label: "Related Posts"
         widget: "select"
         name: "related"
+        hint: "Select a category to show related content from"
         options:
           - { label: "None", value: "none" }
           - { label: "AI deas", value: "ai-deas" }
@@ -2915,6 +2926,7 @@ collections:
         multiple: true
         required: false
         collapsed: true
+        hint: "Select people involved in this project"
 
   # Opportunities (Jobs)
   - label: "Opportunities"
@@ -2949,3 +2961,149 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
+  # Reports Collection
+  - label: "Reports"
+    name: "reports"
+    folder: "_reports"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Layout"
+        name: "layout"
+        widget: "hidden"
+        default: "report-single"
+      
+      # Core citation fields
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Full title of the work"
+      
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Report", value: "report" }
+          - { label: "Working Paper", value: "paper-conference" }
+          - { label: "Technical Report", value: "technical-report" }
+        default: "report"
+      
+      - label: "Authors"
+        name: "author"
+        widget: "list"
+        fields:
+          - label: "Family Name"
+            name: "family"
+            widget: "string"
+          - label: "Given Names"
+            name: "given"
+            widget: "string"
+          - label: "ORCID"
+            name: "orcid"
+            widget: "string"
+            required: false
+            pattern: ["^\\d{4}-\\d{4}-\\d{4}-\\d{3}[0-9X]$", "Must be a valid ORCID ID"]
+      
+      # Publication details
+      - label: "Container Title"
+        name: "container-title"
+        widget: "string"
+        required: false
+        hint: "Series or collection name if part of one"
+      
+      - label: "Publisher"
+        name: "publisher"
+        widget: "string"
+        default: "University of Cambridge"
+      
+      - label: "Issue Date"
+        name: "issued"
+        widget: "object"
+        fields:
+          - label: "Date Parts"
+            name: "date-parts"
+            widget: "list"
+            fields:              # Changed from 'field' to 'fields'
+              - label: "Year"
+                name: "0"
+                widget: "number"
+              - label: "Month"
+                name: "1"
+                widget: "number"
+                required: false
+                min: 1
+                max: 12
+              - label: "Day"
+                name: "2"
+                widget: "number"
+                required: false
+                min: 1
+                max: 31
+      
+      # Identifiers
+      - label: "DOI"
+        name: "DOI"
+        widget: "string"
+        required: false
+        pattern: ["^10.\\d{4,9}/[-._;()/:a-zA-Z0-9]+$", "Must be a valid DOI"]
+      
+      - label: "URL"
+        name: "URL"
+        widget: "string"
+        required: false
+        
+      - label: "ID"
+        name: "id"
+        widget: "string"
+        hint: "Unique identifier for this report (e.g. smith2024cambridge)"
+      
+      # Additional metadata
+      - label: "Volume"
+        name: "volume"
+        widget: "string"
+        required: false
+      
+      - label: "Issue"
+        name: "issue"
+        widget: "string"
+        required: false
+      
+      - label: "Page Range"
+        name: "page"
+        widget: "string"
+        required: false
+        pattern: ["^\\d+(-\\d+)?$", "Must be a page number or range (e.g. 1-23)"]
+      
+      # Website-specific fields (not part of citation)
+      - label: "Featured Image"
+        name: "image"
+        widget: "image"
+        required: false
+      
+      - label: "PDF File"
+        name: "pdf"
+        widget: "file"
+        required: false
+      
+      - label: "Abstract"
+        name: "abstract"
+        widget: "text"
+        required: false
+      
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
+      
+      - label: "Associated People"
+        name: "people"
+        widget: "relation"
+        collection: "people"
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        multiple: true
+        required: false

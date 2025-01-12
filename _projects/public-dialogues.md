@@ -7,6 +7,7 @@ excerpt: In September 2024, ai@cam convened public dialogue workshops in
   policing, education, energy and net zero, and health.
 category:
   - policy
+date: 2024-09-26
 image: /assets/uploads/public-dialogue1.png
 related: dialogue
 people:

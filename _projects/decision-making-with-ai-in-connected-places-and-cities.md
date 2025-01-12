@@ -4,6 +4,7 @@ title: Decision-making with AI in connected places and cities
 excerpt: This project aims to investigate how local authorities in England are
   using AI to make decisions about issues such as placemaking, land use and
   mobility, and sustainable water supply systems to create public value
+date: 2024-01-01
 people:
   - Kwadwo Oti-Sarpong
   - Jennifer Schooling

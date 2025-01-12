@@ -8,6 +8,7 @@ excerpt: AI is at risk of following a well-worn path that results in
   recommends, but in how those recommendations are taken forward. This report
   introduces the broad range of levers that government could consider as part of
   its policy agenda for AI.
+date: 2024-12-03
 category:
   - policy
 people:

@@ -25,6 +25,7 @@ twitter: lawrennd
 bluesky: lawrennd.bsky.social
 linkedin: neil-lawrence-129a22127
 github: lawrennd
+orcid: 0000-0001-9258-1030
 category:
   - leadership
   - researcher

@@ -24,9 +24,7 @@ Potential benefits from the use of AI in local government considered at the work
 
 - Enhancing resident interactions: AI-enabled conversational chatbots and voice assistants can help handle routine inquiries in local government contact centres. By analysing common call topics, councils can develop AI-powered assistants to provide accurate, up-to-date information to residents, potentially reducing the volume of calls that are escalated to human agents. 
  
-
 - Making sense of complex datasets: Some councils are also leveraging AI to enhance public consultation and engagement. Digital platforms enabled by AI can automatically identify and summarise themes from thousands of responses received through online consultations. This analysis helps officials better understand diverse resident perspectives and needs. AI-enabled analysis can also help council officials made sense of diverse datasets relating to their assets – for example, housing stock – and develop strategies to help manage those assets more cost- effectively. 
- 
 
 - Boosting workforce productivity: In addition to these customer-facing applications, AI is providing valuable tools to streamline internal business operations. By analysing documents, producing meeting summaries, or drafting briefing notes, AI can help free up administrative staff to focus on other duties. 
 

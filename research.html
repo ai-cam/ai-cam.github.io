@@ -46,7 +46,8 @@ image: '/assets/images/social.jpeg'
       
     </div>
     <div class="slider__main">
-      {% for post in research_entries %}
+      {% assign sorted_research = research_entries | sort: 'date' | reverse %}
+      {% for post in sorted_research %}
         <a href="{{ post.url }}" class="slider__slide">
           <div class="slider__slide-image">
             {% if post.image %}
