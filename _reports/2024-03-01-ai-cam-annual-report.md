@@ -4,18 +4,18 @@ title: "ai@cam Annual Report 2023-24"
 type: report
 date: 2024-03-01
 authors:
-  - given: "Neil D."
-    family: "Lawrence"
-    affiliation: "Department of Computer Science and Technology"
   - given: "Jessica"
     preferred: "Jess"
     family: "Montgomery"
     affiliation: "ai@cam"
+  - given: "Neil D."
+    family: "Lawrence"
+    affiliation: "Department of Computer Science and Technology"
 institution: "ai@cam"
 abstract: "This annual report outlines ai@cam's first year of operations establishing itself as an incubator for interdisciplinary AI that addresses real-world needs. Through initiatives like AI-deas and the Policy Lab, ai@cam has catalyzed collaborations across 19 Departments and all 6 Schools, supporting innovative research programs in mental health, fertility, public services, language equity, and climate."
 people:
-  - "Neil Lawrence"
   - "Jess Montgomery"
+  - "Neil Lawrence"
 key_achievements:
   - "Launched five ambitious AI-deas research programmes across 19 Departments"
   - "Supported 46 HPC Pioneer Projects from 20 Departments"
@@ -32,8 +32,7 @@ excerpt: "Our first year of operations has established ai@cam as an incubator fo
 category:
   - report
   - research-and-innovation
-image: /assets/uploads/aicam-annual-report-2024.jpg
-pdf: /assets/uploads/aicam-annual-report-2024.pdf
+pdf: /assets/uploads/2024-ai-cam-annual-report.pdf
 ---
 
 ## Executive Summary
