@@ -3,22 +3,8 @@ layout: person
 given: Deborah
 family: Talmi
 name: Deborah Talmi
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
-category: []
-supervisor: ''
+image: /assets/uploads/deborah-talmi.jpg
+department: Department of Psychology
+job_title: Associate Professor
+webpage: https://www.psychol.cam.ac.uk/staff/dr-deborah-talmi
 ---

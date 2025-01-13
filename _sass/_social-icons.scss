@@ -1,0 +1,28 @@
+.social-icon {
+  svg {
+    path {
+      fill: $dark-grey !important; // Override default SVG colors
+      transition: fill 0.2s $cubic;
+    }
+  }
+
+  &:hover {
+    svg path {
+      fill: $primary !important;
+    }
+  }
+}
+.edit-icon {
+  svg {
+    path {
+      fill: $dark-grey !important; // Override default SVG colors
+      transition: fill 0.2s $cubic;
+    }
+  }
+
+  &:hover {
+    svg path {
+      fill: $primary !important;
+    }
+  }
+}
