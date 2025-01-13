@@ -1,0 +1,230 @@
+/*
+*
+* Academic Report/Publication Styles
+*
+*/
+
+.report {
+  background-color: $lightest;
+  padding: 4rem 0;
+
+  @include bp(tablet) {
+    padding: 6rem 0;
+  }
+
+  @include bp(desktop) {
+    padding: 8rem 0;
+  }
+
+  // Publication Header
+  &__header {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $regular-grey;
+
+    .title {
+      margin-bottom: 2rem;
+      font-family: $header-font-family;
+      font-size: 3.2rem;
+      line-height: 1.2;
+      color: $dark-blue;
+
+      @include bp(desktop) {
+        font-size: 4.2rem;
+      }
+    }
+
+    .subtitle {
+      margin-bottom: 2rem;
+      font-size: 2.4rem;
+      line-height: 1.4;
+      color: $primary;
+    }
+  }
+
+  // Authors List
+  &__authors {
+    margin: 2rem 0;
+    
+    .author {
+      margin-bottom: 1rem;
+      
+      &-name {
+        font-size: 2rem;
+        line-height: 1.4;
+        color: $primary;
+        font-weight: $global-weight-bold;
+      }
+
+      &-affiliation {
+        font-size: 1.6rem;
+        color: $darkest-grey;
+      }
+
+      &-email {
+        color: $blue;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  // Publication Meta
+  &__meta {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: $light-grey;
+    border-radius: 8px;
+
+    dl {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1rem 2rem;
+      
+      dt {
+        font-weight: $global-weight-bold;
+        color: $dark-blue;
+      }
+      
+      dd {
+        margin: 0;
+        color: $primary;
+      }
+    }
+  }
+
+  // Abstract
+  &__abstract {
+    margin: 3rem 0;
+    
+    h2 {
+      font-size: 2.4rem;
+      color: $dark-blue;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 1.6;
+      color: $primary;
+    }
+  }
+
+  // Main Content
+  &__content {
+    h2, h3, h4 {
+      color: $dark-blue;
+      margin: 3rem 0 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      line-height: 1.6;
+      color: $primary;
+    }
+
+    figure {
+      margin: 3rem 0;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      figcaption {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+        color: $darkest-grey;
+        text-align: center;
+      }
+    }
+  }
+
+  // Citations & References
+  &__references {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid $regular-grey;
+    
+    h2 {
+      font-size: 2.4rem;
+      color: $dark-blue;
+      margin-bottom: 2rem;
+    }
+    
+    .reference {
+      margin-bottom: 1.5rem;
+      padding-left: 2.5rem;
+      text-indent: -2.5rem;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      color: $primary;
+    }
+  }
+
+  // Publication Types
+  &--journal {
+    .report__meta {
+      background: rgba($blue, 0.1);
+    }
+  }
+
+  &--conference {
+    .report__meta {
+      background: rgba($green, 0.1);
+    }
+  }
+
+  &--preprint {
+    .report__meta {
+      background: rgba($yellow, 0.1);
+    }
+  }
+
+  &--policy {
+    .report__meta {
+      background: rgba($violet, 0.1);
+    }
+  }
+
+  // DOI Link
+  &__doi {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.6rem;
+    color: $blue;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+
+  &__links {
+    margin: 3rem 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      
+      svg {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+} 
