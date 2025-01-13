@@ -16,4 +16,4 @@ The public consistently calls for AI to be directed toward pressing societal cha
 
 This panel brings together international voices to explore this critical challenge: how can we ensure AI serves science, citizens, and society? Drawing on insights from recent public dialogues and real-world experiences, we'll examine what people expect from AI, the barriers to achieving this, and how to build innovation ecosystems that prioritize public benefit.
 
-**S﻿peakers: J**essica Montgomery, Neil Lawrence, Godliver Owogomugisha and Vilas Dhar
+**S﻿peakers:** Jessica Montgomery, Neil Lawrence, Godliver Owogomugisha and Vilas Dhar
