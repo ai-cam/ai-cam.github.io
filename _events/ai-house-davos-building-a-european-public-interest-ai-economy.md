@@ -10,10 +10,8 @@ link_to: https://buildingaeuropeanpublicinterestaieconomy.aihousedavos.com/
 ---
 **Organiser:** AI House Davos
 
-We stand at a critical moment in the development of AI. Technical capabilities are advancing rapidly, but there is a persistent gap between these advances and their benefit to society.
+How can Europe forge a distinctive path in AI development that addresses challenges in technology adoption and connects technological advances to public benefit?
 
-The public consistently calls for AI to be directed toward pressing societal challenges, such as healthcare, education, and climate change, yet AI often develops along paths disconnected from these needs.
-
-This panel brings together international voices to explore this critical challenge: how can we ensure AI serves science, citizens, and society? Drawing on insights from recent public dialogues and real-world experiences, we’ll examine what people expect from AI, the barriers to achieving this, and how to build innovation ecosystems that prioritize public benefit.
+Drawing on insights from successful public interest initiatives and recent policy discussions, participants will examine how to create innovation ecosystems that drive productivity and reinvest efficiency gains back into addressing societal challenges.
 
 **S﻿peakers:** Jessica Montgomery & Neil Lawrence
