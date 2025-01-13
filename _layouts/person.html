@@ -147,6 +147,12 @@ layout: default
       {% endif %}
     {% endfor %}
 
+    {% for report in site.reports %}
+    {% if report.people contains page.name %}
+      {% assign combined_entries = combined_entries | push: report %}
+    {% endif %}
+    {% endfor %}
+
     {% assign sorted_entries = combined_entries | sort: 'date' | reverse %}
 
     {% if sorted_entries.size > 0 %}
