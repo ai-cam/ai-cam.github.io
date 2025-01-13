@@ -1,20 +1,23 @@
 ---
 layout: report-single
-title: "AI needs to serve people, science, and society: A vision for AI@Cam"
+title: "AI needs to serve people, science, and society: A vision for ai@cam"
 type: policy
 date: 2022-04-29
 authors:
-  - given: "Neil D."
-    preferred: "Neil"
-    family: "Lawrence"
-    affiliation: "ai@cam, University of Cambridge"
   - given: "Jessica"
     preferred: "Jess"
     family: "Montgomery"
     affiliation: "ai@cam, University of Cambridge"
+  - given: "Neil D."
+    preferred: "Neil"
+    family: "Lawrence"
+    affiliation: "ai@cam, University of Cambridge"
+  - given: Anne
+    family: "Ferguson-Smith"
 institution: "ai@cam"
 abstract: "This report sets out the vision for AI@Cam, a new flagship mission at the University of Cambridge. It examines how AI can be leveraged to benefit science and society while addressing challenges of equity and inclusion. The report emphasizes the need for coordination across research, engineering, policy and practice to ensure AI innovations deliver societal benefit while mitigating potential harms."
 people:
+  - "Anne Ferguson-Smith"
   - "Neil Lawrence"
   - "Jess Montgomery"
 download_url: "/assets/uploads/aicam_review_april22.pdf"
@@ -40,7 +43,7 @@ image: /assets/uploads/ai-885.png
 pdf: /assets/uploads/aicam_review_april22.pdf
 ---
 
-This report outlines the vision for AI@Cam, examining how artificial intelligence can be leveraged to benefit science and society while addressing key challenges of equity and inclusion.
+This report outlines the vision for ai@cam, examining how artificial intelligence can be leveraged to benefit science and society while addressing key challenges of equity and inclusion.
 
 ## Key Findings
 
@@ -60,14 +63,11 @@ The report puts forward several key recommendations for AI@Cam's mission:
 
 ## Cambridge's Role
 
-The University of Cambridge has already made important contributions across AI-related fields:
-- Shankar Balasubramanian and David Klenerman's rapid sequencing technology
-- Jocelyn Bell Burnell and Tony Hewish's discovery of pulsars
-- Maurice Wilkes and David Wheeler's pioneering work in digital computing
+The University of Cambridge is a leading international university, which means it has a role in showing the way forward and enabling others to follow.
 
 ## The Way Forward
 
-AI@Cam recognizes that the University operates as both an engine of AI-enabled innovation and steward of those innovations. The mission focuses on building and maintaining the hygiene of a robust and equitable AI research ecosystem, ensuring that AI development serves the interests of science, citizens and society.
+ai@cam recognizes that the University operates as both an engine of AI-enabled innovation and steward of those innovations. The mission focuses on building and maintaining the hygiene of a robust and equitable AI research ecosystem, ensuring that AI development serves the interests of science, citizens and society.
 
 ## Download the Full Report
 
