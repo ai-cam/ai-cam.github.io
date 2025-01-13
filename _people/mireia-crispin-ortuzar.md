@@ -3,7 +3,7 @@ layout: person
 name: Mireia Crispin
 given: Mireia
 family: Crispin-Ortuzar
-department: Department of Oncology
+department: Department of Oncology; Cancer Research UK Cambridge Institute
 job_title: Assistant Professor
 crsid: mc973
 image: /assets/uploads/Crispin-Ortuzar_Mireia.jpg
