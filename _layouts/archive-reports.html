@@ -1,0 +1,28 @@
+---
+layout: default
+pagination: 
+  enabled: true
+  collection: reports
+---
+{% include hero/archive.html
+  title="Reports"
+  collection=site.reports %}
+
+<section class="block block--no-padding-top block__posts">
+  <div class="container">
+    <div class="posts__grid--content">
+      <h2>Latest Reports</h2>
+      {% if site.reports.size > 0 %}
+        <div class="posts__grid">
+          {% for publication in paginator.posts %}
+            {% include post-item.html post=publication %}
+          {% endfor %}
+        </div>
+        
+        {% include pagination.html paginator=paginator %}
+      {% else %}
+        {% include no-posts.html %}
+      {% endif %}
+    </div>
+  </div>
+</section>
