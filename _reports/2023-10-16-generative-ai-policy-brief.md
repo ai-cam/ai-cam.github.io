@@ -1,5 +1,5 @@
 ---
-layout: projects-single
+layout: report-single
 title: "Generative AI Policy Brief: Building UK National Capability"
 type: policy
 date: 2023-10-16
@@ -35,7 +35,7 @@ excerpt: "This policy brief examines which path the UK should take to build nati
 category:
   - policy
   - research-and-innovation
-download_url: "https://www.mctd.ac.uk/which-path-should-the-uk-take-to-build-national-capability-for-generative-ai/"
+pdf: /assets/uploads/2023-10-16_generative-ai-policy-brief.pdf
 ---
 
 This policy brief addresses three key questions regarding the UK's approach to generative AI development and governance.
