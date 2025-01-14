@@ -7,6 +7,7 @@ end: 2025-01-20 15:45
 category:
   - events
 image: /assets/uploads/ai-house-3.png
+link_to: https://opensourceaiinfrastructureecosystem.aihousedavos.com/
 ---
 **Organiser:** AI House Davos
 
