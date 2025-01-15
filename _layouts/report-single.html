@@ -35,6 +35,7 @@ hero_image: "/assets/images/news-bg.svg"
 
 <article class="report {% if page.type %}report--{{ page.type }}{% endif %}">
   <div class="container container--thin">
+
     <div class="report__header">
       {% if page.subtitle %}
         <h2 class="subtitle">{{ page.subtitle }}</h2>
@@ -89,6 +90,9 @@ hero_image: "/assets/images/news-bg.svg"
         </dl>
       </div>
       {% endif %}
+      <div class="report__social-share">
+        {% include social-share.html %}
+      </div>
 
       {% if page.abstract %}
       <div class="report__abstract">
@@ -124,6 +128,7 @@ hero_image: "/assets/images/news-bg.svg"
           Cite this publication
         </button>
       </div>
+
 
       <div class="report__citation-panel" id="citationPanel" style="display: none;">
         <div class="citation-formats">
@@ -221,7 +226,11 @@ hero_image: "/assets/images/news-bg.svg"
 
     
     <div class="report__content">
-      {{ content }}
+      <div class="row row--justified">
+        <div class="report__content-body column-m-12-nest column-t-12 column-d-12">
+          {{ content }}
+        </div>
+      </div>
     </div>
 
     {% if page.references %}
