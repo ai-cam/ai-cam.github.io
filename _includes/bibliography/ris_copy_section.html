@@ -1,0 +1,9 @@
+{%-if site.display.copy_button.ris-%}
+{% unless entry %}{% assign entry=page %}{% endunless %}
+{%capture filetext%}{% include bibliography/ris_entry %}{%endcapture%}
+{%-assign filetype = 'ris'-%}
+{%-assign button_name = 'RIS'-%}
+{%include bibliography/copy_buttons.html%}
+{%-endif-%}    
+    
+

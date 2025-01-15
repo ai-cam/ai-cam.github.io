@@ -116,10 +116,110 @@ hero_image: "/assets/images/news-bg.svg"
           View Article
         </a>
         {% endif %}
+
+        <button class="button button--standard button--cite" onclick="toggleCitationPanel()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+          </svg>
+          Cite this publication
+        </button>
+      </div>
+
+      <div class="report__citation-panel" id="citationPanel" style="display: none;">
+        <div class="citation-formats">
+          <div class="citation-format-tabs">
+            <button class="tab-button active" onclick="switchFormat('apa')">APA</button>
+            <button class="tab-button" onclick="switchFormat('bibtex')">BibTeX</button>
+            <button class="tab-button" onclick="switchFormat('endnote')">EndNote</button>
+            <button class="tab-button" onclick="switchFormat('ris')">RIS</button>
+          </div>
+
+          <!-- Citation format containers -->
+          {% assign entry=page %}
+          
+          <div class="citation-format active" id="apa">
+            {%capture apa_text%}{% include bibliography/apa_entry %}{%endcapture%}
+            <div class="citation-actions">
+              <button class="button button--standard button--small" onclick="copyToClipboard('apa_text')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                </svg>
+                Copy
+              </button>
+              <a href="data:text/txt;charset=utf-8,{{apa_text | url_encode}}" download="citation.txt" class="button button--standard button--small">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download
+              </a>
+            </div>
+            <textarea id="apa_text" readonly>{{apa_text}}</textarea>
+          </div>
+
+          <div class="citation-format" id="bibtex">
+            {%-assign o = '{'-%}
+            {%-assign c = '}'-%}
+            {%capture bibtex_text%}{% include bibliography/bibtex_entry %}{%endcapture%}
+            <div class="citation-actions">
+              <button class="button button--standard button--small" onclick="copyToClipboard('bibtex_text')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                </svg>
+                Copy
+              </button>
+              <a href="data:text/bib;charset=utf-8,{{bibtex_text | url_encode}}" download="citation.bib" class="button button--standard button--small">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download
+              </a>
+            </div>
+            <textarea id="bibtex_text" readonly>{{bibtex_text}}</textarea>
+          </div>
+
+          <div class="citation-format" id="endnote">
+            {%capture endnote_text%}{% include bibliography/endnote_entry %}{%endcapture%}
+            <div class="citation-actions">
+              <button class="button button--standard button--small" onclick="copyToClipboard('endnote_text')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                </svg>
+                Copy
+              </button>
+              <a href="data:text/enw;charset=utf-8,{{endnote_text | url_encode}}" download="citation.enw" class="button button--standard button--small">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download
+              </a>
+            </div>
+            <textarea id="endnote_text" readonly>{{endnote_text}}</textarea>
+          </div>
+
+          <div class="citation-format" id="ris">
+            {%capture ris_text%}{% include bibliography/ris_entry %}{%endcapture%}
+            <div class="citation-actions">
+              <button class="button button--standard button--small" onclick="copyToClipboard('ris_text')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                </svg>
+                Copy
+              </button>
+              <a href="data:text/ris;charset=utf-8,{{ris_text | url_encode}}" download="citation.ris" class="button button--standard button--small">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
+                Download
+              </a>
+            </div>
+            <textarea id="ris_text" readonly>{{ris_text}}</textarea>
+          </div>
+        </div>
       </div>
       {% endif %}
     </div>
 
+    
     <div class="report__content">
       {{ content }}
     </div>
@@ -172,3 +272,46 @@ hero_image: "/assets/images/news-bg.svg"
 {% endif %}
 
 {% include related-content.html %} 
+
+<script>
+function toggleCitationPanel() {
+  const panel = document.getElementById('citationPanel');
+  const button = document.querySelector('.button--cite');
+  
+  if (panel.style.display === 'none') {
+    panel.style.display = 'block';
+    button.classList.add('active');
+  } else {
+    panel.style.display = 'none';
+    button.classList.remove('active');
+  }
+}
+
+function switchFormat(format) {
+  // Hide all formats
+  document.querySelectorAll('.citation-format').forEach(el => {
+    el.classList.remove('active');
+  });
+  // Show selected format
+  document.getElementById(format).classList.add('active');
+  
+  // Update tab buttons
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.classList.remove('active');
+  });
+  event.target.classList.add('active');
+}
+
+function copyToClipboard(elementId) {
+  var textarea = document.getElementById(elementId);
+  textarea.select();
+  document.execCommand('copy');
+  
+  var button = event.target;
+  var originalText = button.innerHTML;
+  button.innerHTML = 'Copied!';
+  setTimeout(function() {
+    button.innerHTML = originalText;
+  }, 2000);
+}
+</script> 

@@ -81,8 +81,12 @@ ghub:
   repository: ai-cam.github.io
 github_username: ai-cam
   
-
-
+display:
+  copy_button:
+    bibtex: true
+    ris: true
+    endnote: true
+    apa: true
 sass:
   sass_dir: _sass
   style: compressed
