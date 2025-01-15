@@ -35,6 +35,7 @@ hero_image: "/assets/images/news-bg.svg"
 
 <article class="report {% if page.type %}report--{{ page.type }}{% endif %}">
   <div class="container container--thin">
+
     <div class="report__header">
       {% if page.subtitle %}
         <h2 class="subtitle">{{ page.subtitle }}</h2>
@@ -89,6 +90,9 @@ hero_image: "/assets/images/news-bg.svg"
         </dl>
       </div>
       {% endif %}
+      <div class="report__social-share">
+        {% include social-share.html %}
+      </div>
 
       {% if page.abstract %}
       <div class="report__abstract">
@@ -125,6 +129,7 @@ hero_image: "/assets/images/news-bg.svg"
         </button>
       </div>
 
+
       <div class="report__citation-panel" id="citationPanel" style="display: none;">
         <div class="citation-formats">
           <div class="citation-format-tabs">
@@ -146,7 +151,7 @@ hero_image: "/assets/images/news-bg.svg"
                 </svg>
                 Copy
               </button>
-              <a href="data:text/txt;charset=utf-8,{{apa_text | url_encode}}" download="citation.txt" class="button button--standard button--small">
+              <a href="#" onclick="downloadCitation('{{apa_text | replace: '"', '\"'}}', 'citation.txt'); return false;" class="button button--standard button--small">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                 </svg>
@@ -221,7 +226,11 @@ hero_image: "/assets/images/news-bg.svg"
 
     
     <div class="report__content">
-      {{ content }}
+      <div class="row row--justified">
+        <div class="report__content-body column-m-12-nest column-t-12 column-d-12">
+          {{ content }}
+        </div>
+      </div>
     </div>
 
     {% if page.references %}
@@ -313,5 +322,17 @@ function copyToClipboard(elementId) {
   setTimeout(function() {
     button.innerHTML = originalText;
   }, 2000);
+}
+
+function downloadCitation(text, filename) {
+  const blob = new Blob([text], { type: 'text/plain' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  window.URL.revokeObjectURL(url);
+  document.body.removeChild(a);
 }
 </script> 

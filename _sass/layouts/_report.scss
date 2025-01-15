@@ -421,4 +421,28 @@
       }
     }
   }
+
+  &__social-share {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+    a {
+      width: 35px;
+      height: auto;
+      margin-bottom: 0;
+      line-height: 0;
+      text-decoration: none;
+
+      svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
 } 

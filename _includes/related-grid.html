@@ -29,7 +29,25 @@
             </div>
             <div class="{{ include.type | default: 'posts' }}__item-content">
               {% if include.type != 'team' %}
-                <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+                {% if include.show_entry_type %}
+                  {% assign entry_type = "" %}
+                  {% if entry.collection == "reports" %}
+                    {% assign entry_type = "Report" %}
+                  {% elsif entry.collection == "posts" %}
+                    {% assign entry_type = "Blog Post" %}
+                  {% elsif entry.collection == "news" %}
+                    {% assign entry_type = "News Item" %}
+                  {% elsif entry.collection == "projects" %}
+                    {% assign entry_type = "Project" %}
+                  {% elsif entry.collection == "initiatives" %}
+                    {% assign entry_type = "Initiative" %}
+                  {% elsif entry.collection == "events" %}
+                    {% assign entry_type = "Event" %}
+                  {% endif %}
+                  <span class="category">{{ entry_type }}{% if entry.categories %} | {{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}{% endif %}</span>
+                {% else %}
+                  <span class="category">{{ entry.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
+                {% endif %}
                 <h3>{{ entry.title }}</h3>
                 <span class="button button--simple">Read more</span>
               {% else %}
