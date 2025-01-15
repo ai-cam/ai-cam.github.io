@@ -5,6 +5,7 @@ start: 2025-01-23 09:00
 end: 2025-01-23 10:00
 category:
   - events
+  - policy
 image: /assets/uploads/copy-of-ai-house-speaker-templates-1-.png
 link_to: https://aiforpublicbenefit.aihousedavos.com/
 ---
