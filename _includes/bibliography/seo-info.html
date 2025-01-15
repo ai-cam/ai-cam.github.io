@@ -1,0 +1,23 @@
+{%-if page.layout=='report-single'-%}
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+{%-capture description-%}
+{{ page.title }}
+{%-if page.authors-%}{%-assign authors=page.authors-%}{%-elsif page.author-%}{%-assign authors=page.author-%}{%-endif-%}
+{%-include bibliography/listauthors.html-%}
+
+{{ page.abstract | markdownify | strip_html }}
+{%-endcapture-%}
+<meta name="description" content="{{ description | strip_html | strip_newlines | truncate: 160 }}">
+
+{%-include bibliography/hidden_copy_code.html-%}
+{%-include bibliography/paper_google_scholar.html-%}
+{%-include bibliography/paper_twitter_meta.html-%}
+{%-include bibliography/paper_open_graph_meta.html-%}
+
+{%-else -%}
+{%-include bibliography/hidden_copy_code.html-%}
+<!-- Jekyll SEO Tag -->
+{% seo title=false %}
+
+{%-endif-%}
+

@@ -1,0 +1,54 @@
+<div class="bibliography-buttons">
+  <select class="button button--toggle" onchange="showCitationFormat(this.value)">
+    <option value="">Cite this publication</option>
+    <option value="bibtex">BibTeX</option>
+    <option value="endnote">EndNote</option>
+    <option value="ris">RIS</option>
+    <option value="apa">APA</option>
+  </select>
+  
+  <div class="citation-options" id="citationOptions">
+    <div class="citation-format" id="{{button_name}}_format">
+      <h4>{{button_name}}</h4>
+      <div class="citation-actions">
+        <button class="button button--small" onclick="copyToClipboard_{{button_name}}()">
+          Copy
+        </button>
+        <a href="data:text/{{filetype}};charset=utf-8,{{filetext | url_encode}}" 
+           download="citation.{{filetype}}" 
+           class="button button--small">
+          Download
+        </a>
+      </div>
+      <textarea id="{{button_name}}_text" readonly>{{filetext}}</textarea>
+    </div>
+  </div>
+</div>
+
+<script>
+function showCitationFormat(format) {
+  const options = document.getElementById('citationOptions');
+  if (format) {
+    options.classList.add('is-active');
+    // Show only the selected format
+    document.querySelectorAll('.citation-format').forEach(el => {
+      el.style.display = el.id.includes(format.toLowerCase()) ? 'block' : 'none';
+    });
+  } else {
+    options.classList.remove('is-active');
+  }
+}
+
+function copyToClipboard_{{button_name}}() {
+  var textarea = document.getElementById('{{button_name}}_text');
+  textarea.select();
+  document.execCommand('copy');
+  
+  var button = event.target;
+  var originalText = button.innerHTML;
+  button.innerHTML = 'Copied!';
+  setTimeout(function() {
+    button.innerHTML = originalText;
+  }, 2000);
+}
+</script>

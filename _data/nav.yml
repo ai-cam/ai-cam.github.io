@@ -40,6 +40,8 @@ main_nav:
         link: /study/
   - label: Blog
     link: /blog/
+  - label: Reports
+    link: /reports/
 footer_nav:
   - label: Vision
     link: /our-vision/
@@ -57,6 +59,8 @@ footer_nav:
     link: /study/
   - label: Blog
     link: /blog/
+  - label: Reports
+    link: /reports/
 uoc_footer_nav:
   information:
     - label: Contact the University
