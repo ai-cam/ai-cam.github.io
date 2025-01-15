@@ -10,6 +10,9 @@ category:
 date: 2025-01-13T14:05:57.716Z
 image: /assets/uploads/ahmet-kurt-v5l3u1bjr20-unsplash.jpg
 related: ai-deas
+people:
+  - Amelie Roper
+  - Maya Ganesh
 ---
 Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) house millions of objects from across the globe, representing an unparalleled repository of cultural and natural history. However, challenges such as analogue formats, handwritten records, fragmented objects, multilingual sources and complex surfaces make much of this data difficult to access.
 
