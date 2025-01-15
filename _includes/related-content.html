@@ -13,11 +13,18 @@
     {% endif %}
   {% endfor %}
   
+  {% for report in site.reports %}
+    {% if report.categories contains page.related %}
+      {% assign combined_entries = combined_entries | push: report %}
+    {% endif %}
+  {% endfor %}
+  
   {% assign sorted_entries = combined_entries | sort: 'date' | reverse %}
   
   {% include related-grid.html 
     entries=sorted_entries
     heading="Related Content"
     pink=true
-    check_current=true %}
+    check_current=true 
+    show_entry_type=true %}
 {% endif %}
