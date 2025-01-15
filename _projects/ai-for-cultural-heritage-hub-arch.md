@@ -17,15 +17,16 @@ To address these challenges, the AI for Cultural Heritage Hub (ArCH) will deploy
 
 Project contributors:
 
-•	Anna Breger 
-•	Sam Brockington 
-•	Joshua Fitzgerald
-•	 ennie Fletcher 
-•	Irene Galandra 
-•	Maya Indira Ganesh 
-•	Huw Jones 
-•	Mathew Lowe 
-•	Suzanne Paul 
-•	Wallace Peaslee
-•	Tuan Pham 
-•	Helen Strudwick
+* Amelie Roper	
+*  Sam Brockington 
+* Helen Strudwick
+* Tuan Pham 
+* Wallace Peaslee
+* Huw Jones 
+* Mathew Lowe
+* Suzanne Paul 
+* Maya Indira Ganesh 
+* Irene Galandra 
+* Joshua Fitzgerald
+* Jennie Fletcher 
+* Anna Breger
