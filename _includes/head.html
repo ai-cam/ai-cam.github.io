@@ -4,7 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Custom Title -->
-    <title>{{ page.title }} | {{ site.name }}</title>
+    {% if page.layout == "person" %}
+        <title>{{ page.name }} | {{ site.name }}</title>
+    {% else %}
+        <title>{{ page.title }} | {{ site.name }}</title>
+    {% endif %}
         
     <!-- Jekyll SEO or Bibliography seo -->
     {% include bibliography/seo-info.html %}
