@@ -1,10 +1,9 @@
 {%-if page.layout=='report-single'-%}
-<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 {%-capture description-%}
-{{ page.title }}
+{{ page.title }}&nbsp;
 {%-if page.authors-%}{%-assign authors=page.authors-%}{%-elsif page.author-%}{%-assign authors=page.author-%}{%-endif-%}
 {%-include bibliography/listauthors.html-%}
-
+&nbsp;
 {{ page.abstract | markdownify | strip_html }}
 {%-endcapture-%}
 <meta name="description" content="{{ description | strip_html | strip_newlines | truncate: 160 }}">

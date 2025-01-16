@@ -6,6 +6,8 @@
     <!-- Custom Title -->
     {% if page.layout == "person" %}
         <title>{{ page.name }} | {{ site.name }}</title>
+    {% elsif page.layout == "report-single" %}
+        <title>{{ page.title }}</title>
     {% else %}
         <title>{{ page.title }} | {{ site.name }}</title>
     {% endif %}
