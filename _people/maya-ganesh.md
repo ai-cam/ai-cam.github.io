@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Maya Indira Ganesh
-title: "Dr  "
+title: Dr
 given: "Maya "
 preferred: ""
 family: Indira Ganesh
