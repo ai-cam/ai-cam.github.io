@@ -12,6 +12,7 @@ image: /assets/uploads/sarah-noltner-4u3d6u_p-fe-unsplash.jpg
 related: ai-deas
 people:
   - Deborah Talmi
+  - Giulio Corsi
 ---
 As AI continues to advance, concerns are growing about its impact on traditional grading systems across the HE sector.  AI models are now capable of writing essays and providing detailed feedback that is improving rapidly, raising questions about how universities should adapt to this technology.
 
