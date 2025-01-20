@@ -18,6 +18,7 @@ people:
   - Manuel Herrera
   - Jerry Chen
   - Kristina Khutsishvili
+  - Maya Indira Ganesh
 ---
 **Decision-making with AI in connected places and cities: Developing an ethical and responsible innovation rooted approach for public value creation**
 
