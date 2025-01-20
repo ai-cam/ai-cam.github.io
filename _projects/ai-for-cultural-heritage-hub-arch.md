@@ -13,6 +13,7 @@ related: ai-deas
 people:
   - Amelie Roper
   - Maya Ganesh
+  - " Irene Galandra"
 ---
 Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) house millions of objects from across the globe, representing an unparalleled repository of cultural and natural history. However, challenges such as analogue formats, handwritten records, fragmented objects, multilingual sources and complex surfaces make much of this data difficult to access.
 
