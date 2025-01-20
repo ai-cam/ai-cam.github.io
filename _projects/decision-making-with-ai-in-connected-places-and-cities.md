@@ -4,19 +4,20 @@ title: Decision-making with AI in connected places and cities
 excerpt: This project aims to investigate how local authorities in England are
   using AI to make decisions about issues such as placemaking, land use and
   mobility, and sustainable water supply systems to create public value
+category:
+  - ai-deas
 date: 2024-01-01
+image: /assets/uploads/pexels-brett-sayles-1141436.jpg
+related: ai-deas
 people:
   - Kwadwo Oti-Sarpong
   - Jennifer Schooling
   - Viviana Bastidas
   - Li Wan
   - Ramit Debnath
-  - Maya Ganesh
   - Manuel Herrera
   - Jerry Chen
-category:
-  - ai-deas
-image: /assets/uploads/pexels-brett-sayles-1141436.jpg
+  - Kristina Khutsishvili
 ---
 **Decision-making with AI in connected places and cities: Developing an ethical and responsible innovation rooted approach for public value creation**
 
