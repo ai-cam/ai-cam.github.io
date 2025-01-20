@@ -42,3 +42,4 @@ Project contributors:
 * Dr Maya Ganesh, Leverhulme Centre for the Future of Intelligence, Institute of Continuing Education 
 * Dr Manuel Herrera, Department of Engineering
 * Jerry Chen, Department of Land Economy
+* Dr Kristina Khutsishvili, Department of Engineering
