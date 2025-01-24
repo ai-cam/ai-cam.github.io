@@ -7,6 +7,8 @@ excerpt: Cambridge researchers are to lead a £10million project that could
 image: /assets/uploads/cancer-ai.jpg
 date: January 22, 2025 12:00 AM
 ---
+Cambridge researchers are to lead a £10million project that could result in doctors being able to predict your individual chances of getting cancer and offer personalised detection and prevention.
+
 The Cancer Data-Driven Detection programme will be led by Antonis Antoniou, Professor of Cancer Risk Prediction at the University of Cambridge. It is funded by Cancer Research UK, the National Institute for Health and Care Research, and the Engineering and Physical Sciences Research Council.
 
 The programme aims to access and link data from different sources - including health records, genomics, family history, demographics, and behavioural data - to develop statistical models that help scientists accurately predict who is most likely to get cancer. Alongside this, the programme will develop powerful new tools that use AI to analyse the data and calculate an individual’s risk of cancer throughout their lifetime.
