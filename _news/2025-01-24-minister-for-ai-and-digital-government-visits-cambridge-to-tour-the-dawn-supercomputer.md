@@ -9,7 +9,7 @@ excerpt: The Minister for AI and Digital Government, Feryal Clark MP, visited
 date: 2025-01-14T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/minister-for-ai.jpg
+image: /assets/uploads/minister-for-ai1.jpg
 ---
 The Minister for AI and Digital Government, Feryal Clark MP, visited the University of Cambridge on the day the Government announced their new AI Action Plan. 
 
