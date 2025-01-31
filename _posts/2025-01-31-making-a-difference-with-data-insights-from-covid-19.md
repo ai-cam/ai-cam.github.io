@@ -14,9 +14,9 @@ excerpt: When the COVID-19 pandemic first emerged across the UK in early 2020,
 date: 2025-01-30T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/covid-blog.jpg
+image: /assets/uploads/covid-blog1.jpg
 ---
-When the COVID-19 pandemic first emerged across the UK in early 2020, policy-makers in the East of England turned to Dennis Gillings Professor of Health Management Stefan Scholtes at the University of Cambridge Judge Business School for help. Drawing on 25 years’ experience at the University of Cambridge and with six years as Chair of the Board of the 60,000-patient Granta Medical Practices in Cambridgeshire under his belt, Professor Scholtes convened a multi-disciplinary team of statisticians and public health experts who could help to analyse regional data to inform crucial policy decisions on a local level.
+When the COVID-19 pandemic first emerged across the UK in early 2020, policy-makers in the East of England turned to [Dennis Gillings Professor of Health Management Stefan Scholtes](https://www.jbs.cam.ac.uk/people/stefan-scholtes/) at the University of Cambridge Judge Business School for help. Drawing on 25 years’ experience at the University of Cambridge and with six years as Chair of the Board of the 60,000-patient Granta Medical Practices in Cambridgeshire under his belt, Professor Scholtes convened a multi-disciplinary team of statisticians and public health experts who could help to analyse regional data to inform crucial policy decisions on a local level.
 
 With a health crisis emerging before their eyes, NHS colleagues in the East of England needed rapid advice to help plan their regional response. One of the key questions they needed to answer was how many COVID-19 admissions there might be in each of the hospitals across the East of England. That was the “exam question” that Professor Scholtes and his team took as a starting point.
 
