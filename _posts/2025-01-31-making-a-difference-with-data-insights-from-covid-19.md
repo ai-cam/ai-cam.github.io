@@ -45,3 +45,19 @@ This is software currently being built that will enable NHS organisations to bri
 “If this works as planned, it will make a big difference,” says Professor Scholtes, and this kind of national data pool might also feed into a National Data Library in future, he suggests.
 
 “\[A data library] could bring incredible value,” he says, as long as it has the correct guardrails in place to protect patient confidentiality. “At the moment, everything is fragmented. Every researcher has their own way of accessing data and dealing with the red tape that’s necessary. A National Data Library would allow us to do things at scale. Standardisation and scalability would be the key for a data platform like this.”
+
+#### Demonstrating value
+
+Before building the library, Professor Scholtes suggests taking a step back and asking what questions need to be answered to create public value: “Think of this as a library with empty shelves and then filling the shelves one by one,” he says. “So you break it up, challenge by challenge, and think about how do I fill these shelves, driven by big policy questions. It’s got to be about creating value for society.”
+
+For Professor Scholtes, the onus also falls on academics to demonstrate the value of their research more forcefully than they currently do.
+
+“We tend to stop when our paper is published and that’s only half the story,” he says. “Often you have to carry on and continue your involvement with the policy development and policy implementation piece to close the loop and evaluate what you’ve done. You can tell a bigger story, but it takes five to six years before the story emerges.”
+
+Here again he believes a National Data Library could play a key role.
+
+“I think we as academics have more of a responsibility than just publishing papers,” Professor Scholtes says. “It’s not just about information and knowledge creation. It’s about making a difference.”
+
+***W﻿ritten by Vicky Anning***
+
+#### **[R﻿ead the Access to Data Report](https://ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
