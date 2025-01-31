@@ -33,3 +33,15 @@ Although the data wasn’t shared publicly, for confidentiality reasons, papers 
 Most of the data Professor Scholtes and his team relied on for their analysis was owned and managed by the NHS. Because it was a health emergency, access to the information they needed was a lot faster than usual, although Professor Scholtes is quick to point out that the data was still hosted securely on a University server, and standard protocols were followed at all times.
 
 “The COVID project was an example of where pragmatism overruled barriers that are sometimes constraining,” says Professor Scholtes. “Normally you have to go through lots of hoops to get to the data that you need. In this case there were shortcuts; they were not dangerous shortcuts because we were very aware of the sensitivity of the data, but they just made our lives a lot easier and a lot faster.”
+
+During non-pandemic times, getting access to healthcare data can be a slow and painstaking progress – taking anything from six to 18 months, according to Professor Scholtes.
+
+“One of the challenges in the NHS is that the data is very siloed,” he explains. Take the example of primary healthcare records held by the 6,000 primary care practices across England: “They have their own data in three different systems,” he says. “And these three systems don’t talk to each other, and they don’t talk to the NHS systems.” 
+
+To overcome these data challenges, Professor Scholtes believes that interoperability is vital, while ensuring that safeguards are in place to respect patient confidentiality and privacy. He suggests the planned NHS Federated Data Platform is a useful step in the right direction.
+
+This is software currently being built that will enable NHS organisations to bring together operational data – currently stored in separate systems – to help staff access the information they need in one secure environment.
+
+“If this works as planned, it will make a big difference,” says Professor Scholtes, and this kind of national data pool might also feed into a National Data Library in future, he suggests.
+
+“\[A data library] could bring incredible value,” he says, as long as it has the correct guardrails in place to protect patient confidentiality. “At the moment, everything is fragmented. Every researcher has their own way of accessing data and dealing with the red tape that’s necessary. A National Data Library would allow us to do things at scale. Standardisation and scalability would be the key for a data platform like this.”
