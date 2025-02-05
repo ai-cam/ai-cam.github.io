@@ -9,7 +9,7 @@ excerpt: "The University welcomed the Chancellor of the Duchy of Lancaster, Rt
 date: 2025-02-04T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/pat-mcfadden.jpeg
+image: /assets/uploads/pat-mcfadden-2.jpg
 people:
   - Neil Lawrence
   - Carola Schönlieb
