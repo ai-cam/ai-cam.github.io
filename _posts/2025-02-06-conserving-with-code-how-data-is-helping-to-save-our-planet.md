@@ -15,7 +15,7 @@ excerpt: Over the last two decades, the University of Cambridge-based project
 date: 2025-02-05T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/getty-images-4r9ysoxez2a-unsplash-1-.jpg
+image: /assets/uploads/ai-cam-crane-2.png
 ---
 Over the last two decades, the University of Cambridge-based project Conservation Evidence has screened more than 1.5 million scientific papers on conservation, as well as manually summarising 8,600+ studies relating to conservation actions.18 It has taken an estimated 75-person years for a team of highly skilled and highly trained researchers to manually curate the current database, which is used by a wide range of organisations to help inform decisions that are increasingly vital to the future of our planet and biodiversity conservation. Using the current manual system, only a few hundred new papers can be added to the open access database each year. AI has opened up new possibilities.
 
@@ -40,3 +40,18 @@ In theory, copyright issues should not have been a problem because text and data
 Some publishers were happy to give the go ahead and evenpointed the team to the code for bulk downloading their papers on the coding platform GitHub. One example of best practice in this regard was the nonprofit, Open Access publisher PLOS. Other publishers insisted the team had to go through complicated Application Programme Interfaces (APIs), which threw up a range of technical and legal issues. Dr Jaffer and his colleagues had to write custom code to access each publisher’s data. It took around three to four months of negotiating to reach agreement with some of the bigger publishers, with support from the University Library and JISC – the UK digital, data, and technology agency focused on tertiary education, research, and innovation. 
 
 “We’ve got AI models that can really accelerate these kinds of syntheses to provide evidence for policy-makers but if the publishers are going to be gatekeepers, it’s going to slow down our progress in doing that,” Dr Jaffer says. “And the sad thing is that the government has paid money via research grants to pay for this Open Access material to be made available and yet we can’t actually go and download it.”
+
+If this hadn’t been a non-commercial project with the support and resources of the University of Cambridge, Dr Jaffer says, there would have been even more barriers to contend with. “If you had a startup that was trying to do this, they would have to open their chequebooks to the publishers in order to have any chance of pulling this off,” adds Dr Jaffer. “And that’s a barrier for these kind of innovative startups that want to do this outside of academia.”
+
+#### Creating a coherent archive
+
+What would be helpful, according to Dr Jaffer, is more standardisation between publishers for Open Access material under permissive licences. At the moment, OpenAlex links to many disconnected Open Access repositories. However, having a coherent archive for Open Access materials that are licensed in such a way that they can be used for data mining without any technical hurdles would be the ideal scenario for this kind of research, as well as for a National Data Library, Dr Jaffer suggests.
+
+“Obviously it can’t be done for everything because there are things that are licensed by the publishers that are not Open Access and that’s fair enough,” he adds. “But for the things that are Open Access, there shouldn’t be technical barriers in the way of doing it.”
+
+The ultimate goal for Dr Jaffer, his colleague Dr Christie and others is to ensure that evidence-based research informs conservation practice and policy, leading to more efficient use of public funds and better conservation outcomes. All the source code from the current project will eventually be made available for other scientists who want to create a similar living evidence synthesis pipeline. There is potential to roll this approach out to
+other disciplines too, including education and public health. “We are providing the framework and the platform for more effective policy-making and decision-making,” Dr Christie says. “But more work is needed to ensure decision-makers use it – and use it wisely.”
+
+***W﻿ritten by Vicky Anning***
+
+#### **[R﻿ead the Access to Data Report](https://ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
