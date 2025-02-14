@@ -6,7 +6,7 @@ start: 2025-03-27 18:00
 end: 2025-03-27 21:00
 category:
   - events
-image: /assets/uploads/square-understanding-ourselves-in-the-age-of-ai-poster-square-.png
+image: /assets/uploads/copy-of-square-understanding-ourselves-in-the-age-of-ai-poster-square-.png
 ---
 **T﻿ime & Date:** 18.00  | Thursday 27 March\
 **Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)he Keynes Library, Cambridge Union, 9A Bridge St, CB2 1UB\
