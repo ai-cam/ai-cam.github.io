@@ -7,7 +7,9 @@ category:
   - events
 image: /assets/uploads/hopesandfearslab-ai.jpg
 ---
-**Organisers:** Kavli Centre for Ethics, Science, and the Public & ai@cam\
-**Location:** The Copper Kettle,4 King's Parade, Cambridge CB2 1SJ
+**T﻿ime & Date:** 16.00 | Thursday 3 April\
+**Location:** The Copper Kettle,4 King's Parade, Cambridge CB2 1SJ\
+**E﻿ntry:** Free \
+**Organisers:** Kavli Centre for Ethics, Science, and the Public & ai@cam
 
 The Hopes and Fears Lab is a pop-up conversation experiment, bringing together cutting-edge science and society. Sit down in our bespoke cardboard lab for mini conversations with the people working on the discoveries that will shape our future. This edition of the Lab will be AI themed - researchers working with AI in fields ranging from healthcare to creativity will be available to talk (and to listen). This Lab lets us all share what we feel rather than just what we know - and that's the first step to ending up somewhere really interesting.
