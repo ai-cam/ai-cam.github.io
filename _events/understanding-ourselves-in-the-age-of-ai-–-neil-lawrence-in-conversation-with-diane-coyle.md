@@ -10,7 +10,7 @@ image: /assets/uploads/linkedin-x-understanding-ourselves-in-the-age-of-ai-1200-
 link_to: https://lu.ma/y9kw5wk3
 ---
 **T﻿ime & Date:** 18.00  | Thursday 27 March\
-**Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)he Keynes Library, Cambridge Union, 9A Bridge St, CB2 1UB\
+**Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)he Keynes Library, [Cambridge Union](https://cus.org/the-keynes-library), 9A Bridge St, CB2 1UB\
 **E﻿ntry:** [Registration required](https://lu.ma/y9kw5wk3) \
 **Organisers:** Bennett Institute for Public Policy & ai@cam\
 \
