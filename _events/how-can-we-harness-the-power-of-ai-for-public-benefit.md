@@ -5,7 +5,7 @@ start: 2025-04-02 18:00
 end: 2025-04-02 19:30
 category:
   - events
-image: /assets/uploads/v3-how-can-we-harness-the-power-of-ai-for-public-benefit-590-x-290-px-2-.png
+image: /assets/uploads/luma-how-can-we-harness-the-power-of-ai-for-public-benefit-1-.png
 link_to: https://lu.ma/3e3spf0s
 ---
 **T﻿ime & Date:** 18.00 | Wednesday 2 April\
