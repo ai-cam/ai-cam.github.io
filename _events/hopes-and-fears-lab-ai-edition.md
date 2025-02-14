@@ -5,7 +5,7 @@ start: 2025-04-03 16:00
 end: 2025-04-03 20:00
 category:
   - events
-image: /assets/uploads/hopesandfearslab-ai.jpg
+image: /assets/uploads/hopesandfearslab-ai-2.jpg
 ---
 **T﻿ime & Date:** 16.00 - 20.00 | Thursday 3 April\
 **Location:** The Copper Kettle,4 King's Parade, Cambridge CB2 1SJ\
