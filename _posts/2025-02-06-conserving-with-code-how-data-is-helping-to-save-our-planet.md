@@ -5,10 +5,10 @@ title: "Conserving with code: How data is helping to save our planet "
 excerpt: Over the last two decades, the University of Cambridge-based project
   Conservation Evidence has screened more than 1.5 million scientific papers on
   conservation, as well as manually summarising 8,600+ studies relating to
-  conservation actions.18 It has taken an estimated 75-person years for a team
-  of highly skilled and highly trained researchers to manually curate the
-  current database, which is used by a wide range of organisations to help
-  inform decisions that are increasingly vital to the future of our planet and
+  conservation actions. It has taken an estimated 75-person years for a team of
+  highly skilled and highly trained researchers to manually curate the current
+  database, which is used by a wide range of organisations to help inform
+  decisions that are increasingly vital to the future of our planet and
   biodiversity conservation. Using the current manual system, only a few hundred
   new papers can be added to the open access database each year. AI has opened
   up new possibilities.
@@ -17,9 +17,9 @@ category:
   - policy
 image: /assets/uploads/ai-cam-crane-2.png
 ---
-Over the last two decades, the University of Cambridge-based project Conservation Evidence has screened more than 1.5 million scientific papers on conservation, as well as manually summarising 8,600+ studies relating to conservation actions.18 It has taken an estimated 75-person years for a team of highly skilled and highly trained researchers to manually curate the current database, which is used by a wide range of organisations to help inform decisions that are increasingly vital to the future of our planet and biodiversity conservation. Using the current manual system, only a few hundred new papers can be added to the open access database each year. AI has opened up new possibilities.
+Over the last two decades, the University of Cambridge-based project Conservation Evidence has screened more than 1.5 million scientific papers on conservation, as well as manually summarising 8,600+ studies relating to conservation actions. It has taken an estimated 75-person years for a team of highly skilled and highly trained researchers to manually curate the current database, which is used by a wide range of organisations to help inform decisions that are increasingly vital to the future of our planet and biodiversity conservation. Using the current manual system, only a few hundred new papers can be added to the open access database each year. AI has opened up new possibilities.
 
-Planetary Computing Fellow Dr Sadiq Jafferand zoologist Dr Alec Christie, Henslow Research Fellow at Downing College, are part of an interdisciplinary team of scientists from the University of Cambridge who are using AI to accelerate the synthesis. Building on the work of the Conservation Evidence team, the aim is to create a transformative tool for conservation research. “What we decided to do was to look at this as a way of building systems around the existing team to make them a lot more productive,” explains Dr Jaffer. “So there’s always a human in the middle of things who is accountable for the decisions that are made. But there are AI systems that can increase their productivity significantly.”
+Planetary Computing Fellow [Dr Sadiq Jaffer](https://www.cst.cam.ac.uk/people/sj514) and zoologist [Dr Alec Christie](https://www.zoo.cam.ac.uk/directory/alec-christie), Henslow Research Fellow at Downing College, are part of an interdisciplinary team of scientists from the University of Cambridge who are using AI to accelerate the synthesis. Building on the work of the Conservation Evidence team, the aim is to create a transformative tool for conservation research. “What we decided to do was to look at this as a way of building systems around the existing team to make them a lot more productive,” explains Dr Jaffer. “So there’s always a human in the middle of things who is accountable for the decisions that are made. But there are AI systems that can increase their productivity significantly.”
 
 To start with, Dr Jaffer and his colleagues compared Conservation Evidence’s curated collection of papers with a broader sample of scientific literature. Using advanced language models, they clustered these papers by topic such as amphibians, reptiles, birds, and other species, confirming there was a clear structure in the data that could be leveraged for further analysis. Funded through a range of sources including ai@cam, The Hans Wilsdorf Foundation, and other philanthropic donations, this work allowed the team to break down research into smaller, more meaningful categories. With this groundwork in place, they developed an innovative three-step AI pipeline designed to streamline the identification of relevant conservation research.
 
