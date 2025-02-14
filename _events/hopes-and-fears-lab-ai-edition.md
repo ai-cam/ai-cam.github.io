@@ -5,7 +5,7 @@ start: 2025-04-03 16:00
 end: 2025-04-03 20:00
 category:
   - events
-image: /assets/uploads/hopesandfearslab.jpg
+image: /assets/uploads/hopesandfearslab-ai.jpg
 ---
 **Organisers:** Kavli Centre for Ethics, Science, and the Public & ai@cam\
 **Location:** The Copper Kettle,4 King's Parade, Cambridge CB2 1SJ
