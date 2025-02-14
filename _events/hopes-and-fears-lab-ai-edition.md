@@ -7,7 +7,7 @@ category:
   - events
 image: /assets/uploads/hopesandfearslab-ai.jpg
 ---
-**T﻿ime & Date:** 16.00 | Thursday 3 April\
+**T﻿ime & Date:** 16.00 - 20.00 | Thursday 3 April\
 **Location:** The Copper Kettle,4 King's Parade, Cambridge CB2 1SJ\
 **E﻿ntry:** Free \
 **Organisers:** Kavli Centre for Ethics, Science, and the Public & ai@cam
