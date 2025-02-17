@@ -5,15 +5,7 @@ start: 2025-04-02 18:00
 end: 2025-04-02 19:30
 category:
   - events
-desc: >-
-  Society faces complex challenges, from economic growth to population health
-  and climate change.
-
-
-  ​Despite rapid progress in AI, there remains a significant gap between the potential of these technologies and our ability to deploy them for public good. 
-
-
-  As part of this year's Cambridge Festival, join our AI experts Neil Lawrence, Jess Montgomery, and Gina Neff along with local government officials Liz Watts and Robert Pollock as they explore how we can bridge this gap & harness the power of AI for societal benefit.
+desc: ""
 image: /assets/uploads/luma-how-can-we-harness-the-power-of-ai-for-public-benefit-1-.png
 link_to: https://lu.ma/3e3spf0s
 people:
@@ -26,8 +18,20 @@ people:
 **E﻿ntry:** [Registration required](https://lu.ma/3e3spf0s)\
 **Organisers:** ai@cam
 
-Society faces complex challenges, from economic growth to population health and climate change.
+As artificial intelligence continues to advance at a rapid pace, how can we harness its potential to improve public services?
 
-​Despite rapid progress in AI, there remains a significant gap between the potential of these technologies and our ability to deploy them for public good. 
+​Join ai@cam for this panel discussion as we bring together leading experts and local government officials to explore how artificial intelligence could transform public service delivery and address real-world challenges in local government.
 
-As part of this year's Cambridge Festival, join our AI experts Neil Lawrence, Jess Montgomery, and Gina Neff along with local government officials Liz Watts and Robert Pollock as they explore how we can bridge this gap & harness the power of AI for societal benefit.
+​Our expert panel includes:
+
+* ​Neil Lawrence, DeepMind Professor of Machine Learning at the University of Cambridge
+* ​Jess Montgomery, Director, ai@cam
+* ​Gina Neff, Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge 
+* ​Liz Watts, Chief Executive of South Cambridgeshire District Council
+* ​Robert Pollock, Chief Executive of Cambridge City Council
+
+​This event is part of this year’s Cambridge Festival, the University of Cambridge's annual celebration of research and ideas.  
+
+​Our panel discussion will take place in the Debating Chamber at the Cambridge Union, 9a Bridge Street, Cambridge CB2 1UB.
+
+If you have any questions relating to this event, please email contact@ai.cam.ac.uk
