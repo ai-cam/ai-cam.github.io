@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: How can we harness the power of AI for public benefit?
+title: "How can we harness the power of AI for public benefit? "
 start: 2025-04-02 18:00
 end: 2025-04-02 19:30
 category:
