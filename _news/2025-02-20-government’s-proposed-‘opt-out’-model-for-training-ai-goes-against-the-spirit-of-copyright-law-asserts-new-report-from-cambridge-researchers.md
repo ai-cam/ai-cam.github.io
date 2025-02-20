@@ -11,7 +11,7 @@ category:
   - policy
 image: /assets/uploads/aicopyright.png
 ---
-![](/assets/uploads/aicopyright.png)
+![](/assets/uploads/aicopyrightresized.jpg)
 
 Researchers at the University of Cambridge have published a new report – *[AI, Copyright, and Productivity in the Creative Industries](https://www.bennettinstitute.cam.ac.uk/wp-content/uploads/2025/02/AICopyrightProductivityCreativeIndustries.pdf)* – investigating the impact of generative AI (GenAI) on the UK’s creative industries.
 
