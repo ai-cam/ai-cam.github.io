@@ -10,6 +10,9 @@ date: 2025-02-20T00:00:00+00:00
 category:
   - policy
 image: /assets/uploads/aicopyright.png
+people:
+  - Ann Kristin Glenster
+  - Gina Neff
 ---
 ![](/assets/uploads/aicopyrightresized.jpg)
 
@@ -43,8 +46,10 @@ Dame Diane Coyle DBE FAcSS, Co-Director of the Bennett Institute for Public Poli
 
 Professor Gina Neff, Executive Director at the Minderoo Centre for Technology and Democracy, said:
 
-“Government’s proposed framework does not square with the enormity of the problem. Going the way of an opt-out model is telling Britain’s artists, musicians, and writers that tech industry profitability is more valuable than their creations. Ambitions to both strengthen the UK’s creative sector to bolster the British economy **and** spark innovation using GenAI in the UK can be achieved – but we will only get results that benefit all of us if we put people’s needs first.”
+“Government’s proposed framework does not square with the enormity of the problem. Going the way of an opt-out model is telling Britain’s artists, musicians, and writers that tech industry profitability is more valuable than their creations. Ambitions to both strengthen the UK’s creative sector to bolster the British economy and spark innovation using GenAI in the UK can be achieved – but we will only get results that benefit all of us if we put people’s needs first.”
 
 Neil Lawrence, DeepMind Professor of Machine Learning at the University of Cambridge and Chair of ai@cam, said:
 
 “Uncertainty about copyright infringement is hindering the development of Generative AI for public benefit in the UK. The Government ought to commission research that engages directly with creatives, understanding where and how AI is benefiting and harming them, and use it to inform policies for supporting the sector’s workforce. Government has a critical role to play in encouraging and funding this research so that AI innovation addresses the challenges of everyday lives. For GenAI to be trusted and widely deployed, it should not make creative work more difficult.”
+
+R﻿ead the report
