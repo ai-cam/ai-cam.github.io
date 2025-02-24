@@ -4,6 +4,8 @@ name: Richard Turner
 title: Prof
 given: "Richard "
 family: Turner
+category:
+  - steering-group
 biography: >-
   Dr. Turner is a Professor of Machine Learning in the Department of Engineering
   at the University of Cambridge and Research Lead, AI for Weather Prediction,
