@@ -4,6 +4,7 @@ name: Richard Turner
 title: Prof
 given: "Richard "
 family: Turner
+job_title: Professor of Machine Learning
 category:
   - steering-group
 biography: >-
