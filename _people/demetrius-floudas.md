@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Demetrius Floudas
+name: Demetrius A. Floudas
 title: "Prof "
 given: Demetrius
 family: A. Floudas
