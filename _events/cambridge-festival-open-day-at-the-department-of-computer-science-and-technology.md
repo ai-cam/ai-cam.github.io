@@ -22,10 +22,10 @@ link_to: https://www.festival.cam.ac.uk/events/developing-ai-science-citizens-an
 **E﻿ntry:** Drop In[](https://lu.ma/3e3spf0s)\
 **Organisers:** Department of Computer Science and Technology & ai@cam
 
-Join us at the Computer Science and Technology event to meet the brilliant minds behind our AI-deas programme and explore the groundbreaking projects they’re working on!\
+Join us at the Computer Science and Technology event to meet the brilliant minds behind our AI-deas programme and explore the groundbreaking projects they’re working on!
 
-Discover how AI is shaping the future of decision-making in local councils across England. Roll the dice to select a topic—such as land use or sustainable water supply—and dive into thought-provoking discussions with researchers about how AI can support these critical areas.\
+Discover how AI is shaping the future of decision-making in local councils across England. Roll the dice to select a topic—such as land use or sustainable water supply—and dive into thought-provoking discussions with researchers about how AI can support these critical areas.
 
-You’ll also have the chance to meet scientists developing an innovative AI tool that helps governments gain deeper insights into the climate crisis. Visit their stand to test your knowledge with an interactive AI-generated dashboard - can you identify some of the key that could cut greenhouse gas emissions and combat global warming?\
+You’ll also have the chance to meet scientists developing an innovative AI tool that helps governments gain deeper insights into the climate crisis. Visit their stand to test your knowledge with an interactive AI-generated dashboard - can you identify some of the key that could cut greenhouse gas emissions and combat global warming?
 
 Don’t miss this opportunity to engage with leading experts and see AI in action!
