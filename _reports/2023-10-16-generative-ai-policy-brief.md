@@ -1,41 +1,53 @@
 ---
+excerpt: This policy brief examines which path the UK should take to build
+  national capability for generative AI, focusing on application development and
+  ethical governance rather than foundation model competition.
+abstract: This policy brief examines the UK's path forward in building national
+  capability for generative AI, focusing on leveraging existing strengths in
+  safe and ethical AI development rather than competing in foundation model
+  development. The brief outlines policy recommendations for supporting an
+  ecosystem of AI applications while prioritizing human safety and flourishing.
+authors:
+  - given: Ann Kristin
+    family: Glenster
+    affiliation: University of Cambridge
+  - given: Sam
+    family: Gilbert
+    affiliation: University of Cambridge
 layout: report-single
+key_findings:
+  - UK should focus on becoming a leader in applying generative AI rather than
+    building foundation models
+  - Existing national strengths in safe and ethical AI should be leveraged
+  - Supporting startups developing AI applications is more strategic than
+    competing in model development
+  - Human safety and flourishing should be at the forefront of innovation
+  - Increased understanding and access to AI tools throughout society is crucial
+date: 2023-10-16
 title: "Generative AI Policy Brief: Building UK National Capability"
 type: policy
-date: 2023-10-16
-authors:
-  - given: "Ann Kristin"
-    family: "Glenster"
-    affiliation: "University of Cambridge"
-  - given: "Sam"
-    family: "Gilbert"
-    affiliation: "University of Cambridge"
-institution: "Bennett Institute for Public Policy, Minderoo Centre for Technology and Democracy, and ai@cam"
-abstract: "This policy brief examines the UK's path forward in building national capability for generative AI, focusing on leveraging existing strengths in safe and ethical AI development rather than competing in foundation model development. The brief outlines policy recommendations for supporting an ecosystem of AI applications while prioritizing human safety and flourishing."
+publisher: ai@cam
+id: ep742
+image: /assets/uploads/generativeai-01.2.png
+pdf: /assets/uploads/2023-10-16_generative-ai-policy-brief.pdf
 people:
-  - "Sam Gilbert"
-  - "Ann Kristin Glenster"
-  - "Diane Coyle"
-  - "Neil Lawrence"
-  - "Jessica Montgomery"
-  - "Gina Neff"
-key_findings:
-  - "UK should focus on becoming a leader in applying generative AI rather than building foundation models"
-  - "Existing national strengths in safe and ethical AI should be leveraged"
-  - "Supporting startups developing AI applications is more strategic than competing in model development"
-  - "Human safety and flourishing should be at the forefront of innovation"
-  - "Increased understanding and access to AI tools throughout society is crucial"
+  - Sam Gilbert
+  - Ann Kristin Glenster
+  - Diane Coyle
+  - Neil Lawrence
+  - Jessica Montgomery
+  - Gina Neff
+institution: Bennett Institute for Public Policy, Minderoo Centre for Technology
+  and Democracy, and ai@cam
 recommendations:
-  - "Create policy infrastructure for responsible AI deployment"
-  - "Develop governance capacity for fast-moving technologies"
-  - "Establish an AI Bill with clear ethical framework"
-  - "Support ecosystem of AI application startups"
-  - "Increase public understanding and access to AI tools"
-excerpt: "This policy brief examines which path the UK should take to build national capability for generative AI, focusing on application development and ethical governance rather than foundation model competition."
+  - Create policy infrastructure for responsible AI deployment
+  - Develop governance capacity for fast-moving technologies
+  - Establish an AI Bill with clear ethical framework
+  - Support ecosystem of AI application startups
+  - Increase public understanding and access to AI tools
 category:
   - policy
   - research-and-innovation
-pdf: /assets/uploads/2023-10-16_generative-ai-policy-brief.pdf
 ---
 
 This policy brief addresses three key questions regarding the UK's approach to generative AI development and governance.
