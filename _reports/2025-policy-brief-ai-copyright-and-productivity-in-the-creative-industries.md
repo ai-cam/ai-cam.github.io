@@ -2,7 +2,7 @@
 layout: report-single
 title: "Policy Brief: AI, Copyright, and Productivity in the Creative Industries"
 type: report
-publisher: University of Cambridge
+publisher: ai@cam
 id: ep742
 image: /assets/uploads/aicopyright1.png
 pdf: /assets/uploads/aicopyrightproductivitycreativeindustries.pdf
