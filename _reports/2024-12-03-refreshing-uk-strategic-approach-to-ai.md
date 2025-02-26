@@ -39,7 +39,7 @@ title: Refreshing the UK's strategic approach to AI
 type: policy
 publisher: ai@cam
 id: test
-image: /assets/uploads/1400-x-1000-px-policy-brief-refreshing-the-uk’s-strategic-approach-to-ai-.png
+image: /assets/uploads/1400-x-800-px-policy-brief-refreshing-the-uk’s-strategic-approach-to-ai-3-.png
 pdf: /assets/uploads/refreshing-the-uks-strategic-approach-to-ai.pdf
 people:
   - Jess Montgomery
