@@ -1,11 +1,11 @@
 ---
 layout: news-single
 permalink: /news/:title
-title: Government’s proposed ‘opt-out’ model for training AI goes against the
-  spirit of copyright law, asserts new report from Cambridge researchers
-excerpt: Government’s proposed ‘opt-out’ model for training AI goes against the
-  spirit of copyright law, asserts new report from Cambridge researchers.
-  Researchers say there’s no proof copyright reform will boost investment.
+title: Forcing UK creatives to ‘opt out’ of AI training risks stifling new
+  talent, Cambridge experts warn
+excerpt: The UK government’s proposed ‘rights reservation’ model for AI data
+  mining tells British artists, musicians, and writers that “tech industry
+  profitability is more valuable than their creations” say leading academics.
 date: 2025-02-20T00:00:00+00:00
 category:
   - policy
@@ -16,40 +16,57 @@ people:
 ---
 ![](/assets/uploads/aicopyrightresized.jpg)
 
-Researchers at the University of Cambridge have published a new report – *[AI, Copyright, and Productivity in the Creative Industries](https://www.bennettinstitute.cam.ac.uk/wp-content/uploads/2025/02/AICopyrightProductivityCreativeIndustries.pdf)* – investigating the impact of generative AI (GenAI) on the UK’s creative industries.
+The UK government’s proposed ‘rights reservation’ model for AI data mining tells British artists, musicians, and writers that “tech industry profitability is more valuable than their creations” say leading academics.
 
-The report is a collaboration between the Minderoo Centre for Technology and Democracy, the Bennett Institute for Public Policy, and ai@cam.
+The UK government should resist allowing AI companies to scrape all copyrighted works unless the holder has actively ‘opted out’, as it puts an unfair burden on up-and-coming creative talents who lack the skills and resources to meet legal requirements.\
 
-The report argues that the unregulated use of Generative AI in the UK economy will not necessarily lead to economic growth, and risks damaging the UK’s thriving creative sector.
+This is according to a new report from University of Cambridge experts in economics, policy and machine learning, who also argue the UK government should clearly state that only a human author can hold copyright – even when AI has been heavily involved.
 
-Unresolved questions concerning copyright and AI are creating uncertainty for the future of several creative professions, and the UK Government’s proposed ‘opt-out’ solution is unlikely to protect creatives or inspire confidence that AI can be developed to benefit all.
+A collaboration between three Cambridge initiatives – the Minderoo Centre for Technology and Democracy, the Bennett Institute for Public Policy, and ai@cam – the report argues that unregulated use of generative AI will not guarantee economic growth, and risks damaging the UK’s thriving creative sector. 
 
-Crucially, copyright arises automatically but the proposed solution in the Government’s consultation involves a ‘rights reservation’ model, which means the burden will fall on creators to actively opt-out of having their works used to train AI. Creators will have to protect their work from tech companies rather than having the assurance that a robust legal framework automatically safeguards their rights.
+If the UK adopts the proposed ‘rights reservation’ for AI data mining, rather than maintaining the legal foundation that automatically safeguards copyright, it will compromise the livelihoods of many in the sector, particularly those just starting out, say researchers.
 
-Such a regime is difficult to enforce; it assumes creators will always have the knowledge and resources to opt-out and they will have oversight of where on the internet their work is used. Companies have already proceeded to web scrape creative work. It is not clear how that data will be identified, labelled, and compensated, or even erased, should the creators opt-out.
+They argue that it risks allowing artistic content produced in the UK to be scraped for endless reuse by offshore companies.
 
-A viable copyright regime that is fit for the AI era must centre creators; providing stronger transparency requirements for tech companies, guidelines that afford copyright only to human authors, *and* procedures for how AI companies vying for British copyrighted content will compensate creators.
+“Going the way of an opt-out model is telling Britain’s artists, musicians, and writers that tech industry profitability is more valuable than their creations,” said Prof Gina Neff, Executive Director at the Minderoo Centre for Technology and Democracy.
 
-The Minderoo Centre for Technology and Democracy calls on the Government to come up with a more human-centric copyright regime that ensures GenAI benefits the economy but does not compromise the rights and livelihoods of creators.
+“Ambitions to strengthen the creative sector, bolster the British economy and spark innovation using GenAI in the UK can be achieved – but we will only get results that benefit all of us if we put people’s needs before tech companies.”
 
-More balanced, purposeful economic analysis and policy intervention that account for the realities of AI innovation and creative work are the way forward if Britain truly values its creative industries.
+## 'Ingested' by technologies
 
-Dr Ann Kristin Glenster, Senior Policy Advisor at the Minderoo Centre for Technology and lead author of the report, said:
+Creative industries contribute around £124.6 billion or 5.7% to the UK’s economy, and have a deep connection to the tech industry. For example, the UK video games industry is the largest in Europe, and contributed £5.12 billion to the UK economy in 2019.
 
-“AI offers phenomenal opportunities for both the UK tech and creative sectors. However, policy proposals for an opt-out regime is a missed opportunity. Requiring rights-holders to reserve their rights will place an undue burden on creatives and risks allowing UK data assets to be web scraped for companies offshore.”
+While AI could lead to a new generation of creative companies and products, the researchers say that little is currently known about how AI is being adopted within these industries, and where the skills gaps lie.
 
-“Asking copyright reform to solve structural problems with AI is not the solution. Our research shows that the business case has yet to be made for an opt-out regime that will promote growth and innovation of the UK creative industries. Devising policies that enable the UK creative industries to benefit from AI should be the Government’s priority if it wants to see growth of both its creative and tech industries.”
+“The Government ought to commission research that engages directly with creatives, understanding where and how AI is benefiting and harming them, and use it to inform policies for supporting the sector’s workforce,” said Neil Lawrence, DeepMind Professor of Machine Learning and Chair of ai@cam.
 
-Dame Diane Coyle DBE FAcSS, Co-Director of the Bennett Institute for Public Policy, said:
+“Uncertainty about copyright infringement is hindering the development of Generative AI for public benefit in the UK. For AI to be trusted and widely deployed, it should not make creative work more difficult.”
 
-**“**The current lack of clarity about the licensing and regulation of training data use is a lose-lose situation. Creative professionals aren’t fairly compensated for their work being used to train AI models, while AI companies are hesitant to fully invest in the UK due to unclear legal frameworks. We propose mandatory transparency requirements for AI training data and standardised licensing agreements that properly value creative works. Without these guardrails, we risk undermining our valuable creative sector in the pursuit of uncertain benefits from AI.”
+In the UK, copyright is vested in the creator automatically if it meets the legal criteria. Some AI companies have tried to exploit ‘fair dealing’ – a loophole based around use for research or reporting – but this is undermined by the commercial nature of most AI.
 
-Professor Gina Neff, Executive Director at the Minderoo Centre for Technology and Democracy, said:
+Now, some AI companies are brokering licensing agreements with publishers, and the report argues this is a potential way to ensure creative industries are compensated.
 
-“Government’s proposed framework does not square with the enormity of the problem. Going the way of an opt-out model is telling Britain’s artists, musicians, and writers that tech industry profitability is more valuable than their creations. Ambitions to both strengthen the UK’s creative sector to bolster the British economy and spark innovation using GenAI in the UK can be achieved – but we will only get results that benefit all of us if we put people’s needs first.”
+While rights of performers, from singers to actors, currently cover reproductions of live performances, AI uses composites harvested from across a performer’s oeuvre, so rights relating to specific performances are unlikely to apply, say researchers.
 
-Neil Lawrence, DeepMind Professor of Machine Learning at the University of Cambridge and Chair of ai@cam, said:
+Further clauses in older contracts mean performers are having their work ‘ingested’ by technologies that didn’t exist when they signed on the dotted line.
+The researchers call on the government to fully adopt the Beijing Treaty on Audio Visual Performance, which the UK signed over a decade ago but is yet to implement, as it gives performers economic rights over all reproduction, distribution and rental.
 
-“Uncertainty about copyright infringement is hindering the development of Generative AI for public benefit in the UK. The Government ought to commission research that engages directly with creatives, understanding where and how AI is benefiting and harming them, and use it to inform policies for supporting the sector’s workforce. Government has a critical role to play in encouraging and funding this research so that AI innovation addresses the challenges of everyday lives. For GenAI to be trusted and widely deployed, it should not make creative work more difficult.”
+"The current lack of clarity about the licensing and regulation of training data use is a lose-lose situation. Creative professionals aren't fairly compensated for their work being used to train AI models, while AI companies are hesitant to fully invest in the UK due to unclear legal frameworks,” said Prof Diane Coyle, the Bennett Professor of Public Policy.
+
+“We propose mandatory transparency requirements for AI training data and standardised licensing agreements that properly value creative works. Without these guardrails, we risk undermining our valuable creative sector in the pursuit of uncertain benefits from AI."
+
+## 'Spirit of copyright law'
+
+The Cambridge experts also look at questions of copyright for AI-generated work, and the extent to which ‘prompting’ AI can constitute ownership. They conclude that AI cannot itself hold copyright, and the UK government should develop guidelines on compensation for artists whose work and name feature in prompts instructing AI.
+
+When it comes to the proposed ‘opt-out’ solution, the experts it is not “in the spirit of copyright law” and is difficult to enforce. Even if creators do opt out, it is not clear how that data will be identified, labelled, and compensated, or even erased.
+
+It may be seen as giving ‘carte blanche’ to foreign-owned and managed AI companies to benefit from British copyrighted works without a clear mechanism for creators to receive fair compensation.
+
+“Asking copyright reform to solve structural problems with AI is not the solution,” said Dr Ann Kristin Glenster, Senior Policy Advisor at the Minderoo Centre for Technology and lead author of the report.
+
+“Our research shows that the business case has yet to be made for an opt-out regime that will promote growth and innovation of the UK creative industries.
+
+“Devising policies that enable the UK creative industries to benefit from AI should be the Government’s priority if it wants to see growth of both its creative and tech industries,” Glenster said.
 
 #### [R﻿ead the report](< /assets/uploads/aicopyrightproductivitycreativeindustries2025.pdf>)
