@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Demetrius Floudas
-title: " "
+title: "Prof "
 given: Demetrius
 family: " Floudas"
 biography: >-
