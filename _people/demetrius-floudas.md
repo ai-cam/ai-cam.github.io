@@ -15,10 +15,10 @@ biography: >-
   Office) and consulted numerous international think-tanks and
   organisations.  His views have frequently appeared in the media worldwide (BBC
   TV & Radio, Voice of America, Financial Times, Daily Telegraph, Washington
-  Post, Vedomosti, Politico and others).\
+  Post, Vedomosti, Politico and others).
 
 
-  Demetrius Floudas is regularly involved in AI Governance drafting committees, e.g. the EU AI Office's Code of Practice for General-Purpose AI, UNESCO Guidelines for Use of AI in Courts & Tribunals, the OECD risk thresholds for advanced AI, and others.  He has for some time advocated for a UN-backed ‘AI Control & Non-Proliferation International Treaty’.\
+  Demetrius Floudas is regularly involved in AI Governance drafting committees, e.g. the EU AI Office's Code of Practice for General-Purpose AI, UNESCO Guidelines for Use of AI in Courts & Tribunals, the OECD risk thresholds for advanced AI, and others.  He has for some time advocated for a UN-backed ‘AI Control & Non-Proliferation International Treaty’.
 
 
   Demetrius remains actively engaged in civilisational risk analysis & mitigation policy: he is Senior Adviser to the Cambridge Existential Risk Initiative and Editor in the 'Nuclear War' and ‘AI & Law’ sections of the PhilPapers academic repository.  He is on the Review Board of ‘AI Policy Bulletin’ and is particularly interested in policies concerning catastrophic AI hazards, digital human emulation (lovebots, thanabots, etc.) and the intersection of WMD & AI.
