@@ -14,11 +14,9 @@ category:
   - policy
 image: /assets/uploads/blog-vasco-final-.jpg
 ---
-**Untangling the Web of Supply Chain Data**
-
 Imagine a vast interconnected web of 300 million firms, connected through an estimated 13 billion supply chain links. These are the businesses that produce the goods and services that make up our global economy. In the UK alone, there are around 5.6 million registered businesses with millions of suppliers. This web of complex interconnections has been almost impossible to untangle on a company-by-company level—until now.
 
-According to University of Cambridge Professor of Macroeconomics Vasco M. Carvalho—who operates at the frontier of economics as Director of the Janeway Institute—this blind spot has left our society ill-prepared to make rapid and well-informed decisions about how to respond to economic shocks. During the COVID-19 pandemic, for example, this led to shortages in critical medical supplies.
+According to University of Cambridge Professor of Macroeconomics [Vasco M. Carvalho](https://www.econ.cam.ac.uk/people/faculty/vmpmdc2)—who operates at the frontier of economics as Director of the Janeway Institute—this blind spot has left our society ill-prepared to make rapid and well-informed decisions about how to respond to economic shocks. During the COVID-19 pandemic, for example, this led to shortages in critical medical supplies.
 
 To address this gap, Professor Carvalho and his team have been working on a pioneering approach to help economists make sense of the web of data relating to businesses in the global economy by drilling down into financial transactions that can help to show company and industry-wide trends. In some countries, understanding firm-level interactions has been more straightforward because there are VAT records showing the value of goods and services traded between companies. Professor Carvalho refers to this as producing the “gold standard” of data. However, in countries like the UK and US, this gold standard doesn’t exist.
 
@@ -53,3 +51,7 @@ Professor Carvalho says some external observers have expressed a dislike for thi
 Professor Carvalho’s research has already generated a lot of interest, both from the UK and overseas. The pilot ONS collaboration has been extended, and there are plans to make the team’s research methodology public so it can be replicated in other countries and using other payment systems too.
 
 In the meantime, Professor Carvalho believes this type of research could help to revolutionize an antiquated national statistical system in the UK that has limited resources to produce the vital public statistics that underpin our democracy. He suggests a National Data Library in the UK could potentially act as a kind of ombudsman that could help to bridge the gap between sensitive data sources and individual researchers—providing a highly valuable resource for researchers while safeguarding data privacy.
+
+***W﻿ritten by Vicky Anning***
+
+#### **[R﻿ead the Access to Data Report](https://ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)**
