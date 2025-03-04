@@ -12,7 +12,7 @@ excerpt: "Building on the success of our first cohort of 44 pioneer projects,
   cases.  "
 date: March 4, 2025 12:00 AM
 category:
-  - ai-deas
+  - education
 image: /assets/uploads/supercomputer.jpg
 media_text:
   content: >+
