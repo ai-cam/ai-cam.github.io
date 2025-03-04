@@ -13,7 +13,7 @@ main_nav:
       - label: Our Vision
         link: /our-vision/
       - label: Our People
-        link: "/research/#researchers"
+        link: /research/#researchers
       - label: ai@cam team
         link: /team/
       - label: Contact
@@ -42,6 +42,9 @@ main_nav:
     link: /blog/
   - label: Reports
     link: /reports/
+  - is_dynamic: false
+    label: Calls
+    link: /calls/
 footer_nav:
   - label: Vision
     link: /our-vision/
