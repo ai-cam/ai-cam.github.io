@@ -15,10 +15,6 @@ people:
 ---
 ![](/assets/uploads/v2-how-can-we-harness-the-power-of-ai-for-public-benefit.png)
 
-
-
-
-
 **T﻿ime & Date:** 18.00 | Wednesday 2 April\
 **Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)The Debating Chamber, [Cambridge Union](https://cus.org/the-debating-chamber), 9A Bridge St, CB2 1UB\
 **E﻿ntry:** [Registration required](https://lu.ma/3e3spf0s)\
@@ -32,7 +28,6 @@ As artificial intelligence continues to advance at a rapid pace, how can we harn
 
 * ​Neil Lawrence, DeepMind Professor of Machine Learning at the University of Cambridge
 * ​Jess Montgomery, Director, ai@cam
-* ​Gina Neff, Executive Director of the Minderoo Centre for Technology & Democracy at the University of Cambridge 
 * ​Liz Watts, Chief Executive of South Cambridgeshire District Council
 * ​Robert Pollock, Chief Executive of Cambridge City Council
 
