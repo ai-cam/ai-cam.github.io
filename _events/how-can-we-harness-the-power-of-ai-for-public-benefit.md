@@ -6,7 +6,7 @@ end: 2025-04-02 19:30
 category:
   - events
 desc: ""
-image: /assets/uploads/v2-how-can-we-harness-the-power-of-ai-for-public-benefit.png
+image: /assets/uploads/v3-how-can-we-harness-the-power-of-ai-for-public-benefit.png
 link_to: https://lu.ma/3e3spf0s
 people:
   - Jess Montgomery
