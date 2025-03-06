@@ -35,8 +35,6 @@ Participants in this dialogue called for:
 * Governance that ensures public benefit is the guiding principle for the use of AI in any public services, backed up by powers to prevent profit being prioritised over service quality.
 * Independent regulatory bodies that are equipped with the power to influence how and where AI is used, and that can take action to prevent misuse.
 * Collaborative and user-centred design practices that centre user need in AI development, and that take action to remove bias and improve reliability.
-* Data sharing regulation that protects privacy, while enabling the use of data to deliver public benefit.
-* Robust security systems to prevent cyber threats and fraud involving AI.
 
 The findings from our dialogues offer insights into a future vision for the use of AI in public services in the UK. They suggest a roadmap that can support policymakers in stewarding the development of AI technologies and we hope this work informs a continuing conversation about how we can drive AI innovations that deliver widespread public benefit.
 
