@@ -10,7 +10,7 @@ link_to: https://www.cambridgewireless.co.uk/event-calendar/ctw-launch-event-202
 people:
   - Neil Lawrence
 ---
-**T﻿ime & Date:** 17.30 | Tu 18 Marchesday\
+**T﻿ime & Date:** 17.30 | Tuesday 18 March\
 **Location:** Mills & Reeve, Botanic House, 98-100 Hills Rd, Cambridge[](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)\
 **E﻿ntry:** Registration required[](https://lu.ma/3e3spf0s)\
 **Organisers:** Innovate Cambridge
