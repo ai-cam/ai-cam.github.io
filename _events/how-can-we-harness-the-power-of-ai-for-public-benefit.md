@@ -30,6 +30,7 @@ As artificial intelligence continues to advance at a rapid pace, how can we harn
 * ​Jess Montgomery, Director, ai@cam
 * ​Liz Watts, Chief Executive of South Cambridgeshire District Council
 * ​Robert Pollock, Chief Executive of Cambridge City Council
+* T﻿om Smith, Director of the Data Unit and first Chief Data Officer at the Ministry of Housing, Communities and Local Government
 
 ​This event is part of this year’s Cambridge Festival, the University of Cambridge's annual celebration of research and ideas.  
 
