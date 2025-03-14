@@ -11,7 +11,7 @@ excerpt: "Dr Ramit Debnath is an Assistant Professor at the University of
 date: 2025-03-13T00:00:00+00:00
 category:
   - ai-deas
-image: /assets/uploads/copy-of-dr-sadiq-jaffer-dr-alec-christie.png
+image: /assets/uploads/blog-image-for-web-ramit-900-x-900-px-.png
 ---
 As an electrical engineer, Dr Ramit Debnath has always been fascinated by everything to do with energy. Growing up in India, he was acutely aware that there are millions of people around the world who aren’t able to access the energy they need – and that’s only going to get worse as more and more communities are marginalised by the impacts of climate change.
 
