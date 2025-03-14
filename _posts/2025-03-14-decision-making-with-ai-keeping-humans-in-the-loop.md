@@ -50,3 +50,9 @@ As a first step, the team are organising workshops with decision makers and city
 Dr Debnath believes bringing experts together to tackle some of the world’s most pressing challenges, including climate change, is the only way forward. 
 
 “AI is no longer a technology-only entity,” he adds. “It is becoming a core part of our social and economic processes and therefore more involved in our lives. Our world is rapidly digitising, and working collaboratively with experts across disciplines through AI-deas projects is a fantastic way to understand how AI influences – and can influence – our daily lives. I believe that this approach allows us to truly understand what constitutes a responsible, safe and sustainable AI.”
+
+## More about Decision-making with AI in connected places and cities
+
+The Department of Engineering at the University of Cambridge is leading this ai@cam project, collaborating with experts from the Departments of Land Economy, Architecture, the [Leverhulme Centre for Future Intelligence](http://lcfi.ac.uk/), [Cambridge Zero](https://www.zero.cam.ac.uk/) and [Anglia Ruskin University](https://www.aru.ac.uk/people/jennifer-schooling).
+
+If you would like to find out more about this research project or would like to get involved, [please get in touch. ](https://forms.office.com/e/qVwtiys5EV)
