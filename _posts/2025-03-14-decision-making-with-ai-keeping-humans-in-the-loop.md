@@ -8,6 +8,7 @@ excerpt: "Dr Ramit Debnath is an Assistant Professor at the University of
   Collective Intelligence & Design Group and co-directs the climaTRACES Lab at
   the Centre for Research in the Arts, Social Sciences and Humanities (CRASSH).
   "
+author: Dr Ramit Debnath
 date: 2025-03-13T00:00:00+00:00
 category:
   - ai-deas
