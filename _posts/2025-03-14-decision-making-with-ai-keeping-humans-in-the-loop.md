@@ -57,3 +57,5 @@ Dr Debnath believes bringing experts together to tackle some of the world’s mo
 The Department of Engineering at the University of Cambridge is leading this ai@cam project, collaborating with experts from the Departments of Land Economy, Architecture, the [Leverhulme Centre for Future Intelligence](http://lcfi.ac.uk/), [Cambridge Zero](https://www.zero.cam.ac.uk/) and [Anglia Ruskin University](https://www.aru.ac.uk/people/jennifer-schooling).
 
 If you would like to find out more about this research project or would like to get involved, [please get in touch. ](https://forms.office.com/e/qVwtiys5EV)
+
+##### *A﻿s told to Vicky Anning*
