@@ -14,7 +14,7 @@ category:
   - ai-deas
 image: /assets/uploads/blog-image-for-web-ramit-900-x-900-px-600-x-900-px-900-x-700-px-.png
 ---
-As an electrical engineer, [Dr Ramit Debnath](https://www.cst.cam.ac.uk/people/rd545) has always been fascinated by everything to do with energy. Growing up in India, he was acutely aware that there are millions of people around the world who aren’t able to access the energy they need – and that’s only going to get worse as more and more communities are marginalised by the impacts of climate change.
+As an electrical engineer, [Dr Ramit Debnath](https://www.arct.cam.ac.uk/staff/dr-ramit-debnath) has always been fascinated by everything to do with energy. Growing up in India, he was acutely aware that there are millions of people around the world who aren’t able to access the energy they need – and that’s only going to get worse as more and more communities are marginalised by the impacts of climate change.
 
 When Dr Debnath came to the University of Cambridge as a Gates Scholar in 2017 to study for an MPhil then PhD in engineering for sustainable development, he started using cutting-edge AI methods such as [Natural Language Processing (NLP)](https://www.cst.cam.ac.uk/research/themes/natural-language-processing) to make sure community voices were being heard in the climate debate. Today, his research sits at the crossroads of data science and public policy, with a passionate focus on advancing climate and energy justice.
 
@@ -26,7 +26,7 @@ It was his cutting-edge research on human-AI collaboration that brought Dr Debna
 
 “We are trying to understand how to best create a human-in-the-loop (HITL) AI design so that a decision-maker can trust the emerging AI systems and work with AI to create public value,” he says. “We want to create informed pathways to help decision-makers make use of AI to create social, cultural and economic value in cities.”
 
-## So what exactly does “human-in-the-loop” mean? 
+## So what exactly does “human-in-the-loop” mean?
 
 From a computer science perspective, “human-in-the-loop” refers to a system design incorporating human feedback to enhance the trustworthiness of AI. Unlike automated AI systems that operate without any human intervention, HITL involves continuous human input to refine and improve AI outcomes, ensuring the AI systems align more closely with user needs and expectations. For example: in ChatGPT, user feedback mechanisms such as thumbs-up or thumbs-down ratings are incorporated to gather responses on the quality of AI outputs. This feedback is then used to adjust and improve the model’s performance over time, Dr Debnath explains.
 
