@@ -13,3 +13,14 @@ abstract: >
   necessarily lead to economic growth, and risks damaging the UK’s thriving
   creative sector.
 ---
+## Collaborative Approach
+
+This policy brief represents a collaboration between three University of Cambridge groups:
+
+* Bennett Institute for Public Policy
+* Minderoo Centre for Technology and Democracy
+* ai@cam
+
+## Download the Full Report
+
+The complete findings can be found in the full report.
