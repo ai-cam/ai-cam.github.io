@@ -34,4 +34,4 @@ This policy brief represents a collaboration between three University of Cambrid
 
 ## Download the Full Report
 
-The complete findings can be found in the [full report.](/https://ai.cam.ac.uk/assets/uploads/aicopyrightproductivitycreativeindustries.pdf)
+The complete findings can be found in the [full report.](/assets/uploads/aicopyrightproductivitycreativeindustries.pdf)
