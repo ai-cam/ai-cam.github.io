@@ -1,6 +1,6 @@
 ---
 layout: report-single
-title: "Cam Can: Regional AI statement"
+title: "Cam Can: Regional AI Statement"
 type: report
 publisher: University of Cambridge
 id: ep742
