@@ -6,9 +6,14 @@ publisher: ai@cam
 id: ep742
 image: /assets/uploads/aicopyright1.png
 pdf: /assets/uploads/aicopyrightproductivitycreativeindustries.pdf
-abstract: "\n"
+abstract: >
+  The report is a collaboration between the Minderoo Centre for Technology and
+  Democracy, the Bennett Institute for Public Policy, and ai@cam which argues
+  that the unregulated use of Generative AI in the UK economy will not
+  necessarily lead to economic growth, and risks damaging the UK’s thriving
+  creative sector.
 ---
-The report is a collaboration between the Minderoo Centre for Technology and Democracy, the Bennett Institute for Public Policy, and ai@cam which argues that the unregulated use of Generative AI in the UK economy will not necessarily lead to economic growth, and risks damaging the UK’s thriving creative sector.
+This report examines the impacts GenAI may have on the creative sector’s workforce and productivity. By exploring the current copyright landscape in the UK and US as it relates to AI, we examine the challenges surrounding licensing agreements, performers’ rights, transparency provisions on AI systems, copyright in AI outputs, and false attribution. Significantly, we consider the Government’s proposed Text Data Mining (TDM) exemption and outline why opt-out frameworks are not fool-proof solutions.
 
 ## Recommendations
 
@@ -29,4 +34,4 @@ This policy brief represents a collaboration between three University of Cambrid
 
 ## Download the Full Report
 
-The complete findings can be found in the full report.
+The complete findings can be found in the [full report.](/https://ai.cam.ac.uk/assets/uploads/aicopyrightproductivitycreativeindustries.pdf)
