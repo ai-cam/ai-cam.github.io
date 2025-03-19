@@ -5,7 +5,7 @@ type: report
 publisher: University of Cambridge
 id: ep742
 image: /assets/uploads/cam-can-ai-statement.png
-pdf: /assets/uploads/cambridge-can-ai-statement.pdf
+pdf: ""
 abstract: "This regional AI Statement showcases the wide range of AI activity
   taking place across the Cambridgeshire region and reflects our commitment to
   fostering AI development that is responsible, inclusive, sustainable, and a
@@ -36,4 +36,4 @@ Cambridge Tech Week takes place in September 2025. If you would like to join us 
 
 ## Download the Full Report
 
-Our Cam Can: AI Statement can be found [here.](/assets/uploads/cambridge-can-ai-statement.pdf)
+Our Cam Can: AI Statement can be found here.
