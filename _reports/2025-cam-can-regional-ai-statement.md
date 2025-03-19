@@ -5,6 +5,10 @@ type: report
 publisher: University of Cambridge
 id: ep742
 image: /assets/uploads/cam-can-ai-statement.png
+abstract: "This regional AI Statement showcases the wide range of AI activity
+  taking place across the Cambridgeshire region and reflects our commitment to
+  fostering AI development that is responsible, inclusive, sustainable, and a
+  driver of innovation for public benefit. "
 ---
 Cambridge's AI ecosystem brings together world-leading research, industry innovation, and public sector implementation to deliver real-world impact for citizens while strengthening the UK's global competitive position.
 
