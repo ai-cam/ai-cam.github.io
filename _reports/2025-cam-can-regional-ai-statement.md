@@ -36,4 +36,4 @@ Cambridge Tech Week takes place in September 2025. If you would like to join us 
 
 ## Download the Full Report
 
-Our Cam Can: AI Statement can be found here.
+Our Cam Can: AI Statement can be found [here.](/assets/uploads/cambridge-can-ai-statement.pdf)
