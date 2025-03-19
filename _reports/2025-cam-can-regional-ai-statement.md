@@ -5,6 +5,7 @@ type: report
 publisher: University of Cambridge
 id: ep742
 image: /assets/uploads/cam-can-ai-statement.png
+pdf: /assets/uploads/cambridge-can-ai-statement.pdf
 abstract: "This regional AI Statement showcases the wide range of AI activity
   taking place across the Cambridgeshire region and reflects our commitment to
   fostering AI development that is responsible, inclusive, sustainable, and a
