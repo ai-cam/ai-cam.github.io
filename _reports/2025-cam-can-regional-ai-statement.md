@@ -27,7 +27,7 @@ This statement represents a collaboration between a number of organisations acro
 
 ## Impact and Next Steps
 
-Cambridge Tech Week takes place in September 2025. If you would like to join us in showcasing your expertise at an Innovate Cambridge – ai@cam event during Tech Week, [register your interest here.](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.gle%2FMG5XcKjH2YkbmBEX9&data=05%7C02%7Cep742%40cam.ac.uk%7Cb7bab629fe0247c5f9ee08dd663a8cc5%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638779123854138682%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=tTiVzMjA%2Bnjm22wFf5QKSQ2rj3FiHwDp5QJIWcE2A0s%3D&reserved=0 "https\://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.gle%2FMG5XcKjH2YkbmBEX9&data=05%7C02%7Cep742%40cam.ac.uk%7Cb7bab629fe0247c5f9ee08dd663a8cc5%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638779123854138682%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=tTiVzMjA%2Bnjm22wFf5QKSQ2rj3FiHwDp5QJIWcE2A0s%3D&reserved=0")
+Cambridge Tech Week takes place in September 2025. If you would like to join us in showcasing your expertise at an Innovate Cambridge – ai@cam event during Tech Week, **[register your interest here](https://forms.gle/3epdxtpKzqJHQBVf9).**
 
 ## Download the Full Report
 
