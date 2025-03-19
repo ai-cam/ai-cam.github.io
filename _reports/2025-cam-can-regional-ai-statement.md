@@ -29,7 +29,6 @@ This statement represents a collaboration between a number of organisations acro
 
 Cambridge Tech Week takes place in September 2025. If you would like to join us in showcasing your expertise, register your interest here.
 
-## \
-Download the Full Report
+## Download the Full Report
 
 Our Cam Can: AI Statement can be found here.
