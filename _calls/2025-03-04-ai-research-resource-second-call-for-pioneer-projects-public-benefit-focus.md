@@ -14,6 +14,8 @@ date: March 4, 2025 12:00 AM
 category:
   - education
 image: /assets/uploads/supercomputer.jpg
+hero:
+  heading: "AI Research Resource: Second Call for Pioneer Projects"
 media_text:
   content: >+
     Building on the success of our first cohort of 44 pioneer projects, Research
@@ -40,6 +42,7 @@ media_text:
 
     •	Public sector practitioners and researchers applying AI to improve government services, policy development, and public administration.
 
+  heading: Second Call for Pioneer Projects
 paper_submissions:
   content: >-
     To propose a pioneer project, please fill in the form at the link below by
