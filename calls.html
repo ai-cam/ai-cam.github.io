@@ -1,0 +1,69 @@
+---
+layout: default
+title: "Calls"
+permalink: /calls/
+description: 'Current opportunities to engage with ai@cam through funding calls, pioneer programs, and collaborative research initiatives. Apply to join our mission to develop AI that serves science, citizens, and society.'
+image: '/assets/images/social.jpeg'
+---
+
+{% assign hero = site.data.calls.hero | default: site.data.default.hero %}
+<section class="block block--bg-blue block__hero block__hero--standard" id="hero">
+  <div class="hero__shape">
+    <img alt="" src="../assets/images/research-bg.svg"/>
+  </div>
+  
+  <div class="container">
+    <div class="hero__content">
+      <h1>{{ page.title }}</h1>
+      <p>Join us in shaping the future of AI research and innovation through our funding calls and collaborative opportunities.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block block__posts">
+  <div class="container">
+    <div class="posts__grid">
+      {% assign calls = site.calls | sort: 'date' | reverse %}
+      {% for call in calls %}
+        <a href="{{ call.url }}" class="posts__item">
+          <div class="posts__item-thumbnail">
+            {% if call.image %}
+              <img src="{{ call.image }}" alt="{{ call.title }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="posts__item-content">
+            {% if call.date %}
+              <span class="category">{{ call.date | date: "%B %Y" }}</span>
+            {% endif %}
+            <h3>{{ call.title }}</h3>
+            {% if call.description %}
+              <p>{{ call.description | truncate: 160 }}</p>
+            {% elsif call.excerpt %}
+              <p>{{ call.excerpt | truncate: 160 }}</p>
+            {% endif %}
+            
+            {% if call.paper_submissions %}
+              <div class="posts__item-deadline">
+                <strong>Application Details:</strong> Available
+              </div>
+            {% endif %}
+            
+            <span class="button button--simple">View Call</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="block block__intro">
+  <div class="container">
+    <div class="intro">
+      <h2>About Our Calls</h2>
+      <p>ai@cam supports a wide range of funding and collaboration opportunities to advance AI research that delivers public value. Our calls span from early-stage research ideas to pioneer projects with direct applications.</p>
+      <p>If you'd like to discuss potential collaborations or have questions about our current calls, please <a href="/contact/">contact the ai@cam team</a>.</p>
+    </div>
+  </div>
+</section> 
