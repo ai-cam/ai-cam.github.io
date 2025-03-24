@@ -1,7 +1,7 @@
 ---
 layout: news-single
 permalink: /news/:title
-title: "AI Research Resource: Second Call for Pioneer Projects (Public Benefit Focus)"
+title: "AI Research Resource: Second Call for Pioneer Projects"
 excerpt: "Building on the success of our first cohort of 44 pioneer projects,
   Research Computing Services, the Cambridge Centre for Data Driven Discovery
   (C2D3) and ai@cam are launching a second call for researchers to access Dawn,
