@@ -49,7 +49,10 @@ paper_submissions:
     supported in a cohort of pioneer projects. 
 
 
-    Submit your application through our online form: https://forms.gle/1smS5gnA4bgb4VGe8 
+    Submit your application through our online form: https://forms.gle/1smS5gnA4bgb4VGe8
+  submission_instructions: >-
+    Submit your application through our online form:
+    https://forms.gle/1smS5gnA4bgb4VGe8 
 
 
     The Dawn team will host an information session in March to discuss the system's capabilities and answer questions about this call. If you would like to be informed of the session details please register here: \[https://forms.gle/v7CyD278ku9Srwhc8 ]. For technical queries about the system or application process, please contact: support@hpc.cam.ac.uk
