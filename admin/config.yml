@@ -2133,7 +2133,7 @@ collections:
 
   # Calls collection
   - label: "Calls"
-    name: "Calls"
+    name: "calls"
     folder: "_calls"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -2143,29 +2143,23 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
-        default: "news-single"
-      - label: "Permalink"
-        name: "permalink"
-        widget: "hidden"
-        default: "/news/:title"
+        default: "call-single"
       - label: "Title"
         name: "title"
         widget: "string"
       - label: "Excerpt"
         name: "excerpt"
         widget: "text"
-      - label: "Author/s"
-        name: "author"
-        widget: "string"
-        required: false
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
-        default: ""
-        date_format: "DD/MM/YYYY" # e.g. 24.12.2021
-        time_format: "HH:mm" # e.g. 21:07
-        format: "LLL"
-        picker_utc: false
+        format: "YYYY-MM-DD HH:mm:ss"
+      - label: "Closing Date"
+        name: "closing_date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss"
+        required: true
+        hint: "The deadline for applications - this determines if the call appears as 'open'"
       - label: "Category"
         name: "category"
         widget: "select"

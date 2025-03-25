@@ -204,3 +204,9 @@ layout: default
     {% endif %}
   </div>
 </section>
+
+{% if page.closing_date %}
+<div class="call-deadline">
+  <strong>Application Deadline:</strong> {{ page.closing_date | date: "%d %B %Y at %H:%M" }}
+</div>
+{% endif %}

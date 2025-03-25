@@ -1,16 +1,16 @@
 ---
-layout: news-single
-permalink: /news/:title
+layout: call-single
 title: "AI Research Resource: Second Call for Pioneer Projects"
 excerpt: "Building on the success of our first cohort of 44 pioneer projects,
   Research Computing Services, the Cambridge Centre for Data Driven Discovery
   (C2D3) and ai@cam are launching a second call for researchers to access Dawn,
   Cambridge's new high-performance AI computing system. This round specifically
   targets projects focused on delivering public benefit in health and public
-  services. We’re inviting applications from researchers working on clinical
+  services. We're inviting applications from researchers working on clinical
   applications of AI, members of our AI-deas challenges, and public sector use
-  cases.  "
+  cases."
 date: March 4, 2025 12:00 AM
+closing_date: March 31, 2025 16:00 PM
 category:
   - education
 image: /assets/uploads/supercomputer.jpg
@@ -23,7 +23,7 @@ media_text:
     and ai@cam are launching a second call for researchers to access Dawn,
     Cambridge's new high-performance AI computing system. This round
     specifically targets projects focused on delivering public benefit in health
-    and public services. We’re inviting applications from researchers working on
+    and public services. We're inviting applications from researchers working on
     clinical applications of AI, members of our AI-deas challenges, and public
     sector use cases.  
 
@@ -47,7 +47,7 @@ paper_submissions:
   content: >-
     To propose a pioneer project, please fill in the form at the link below by
     16:00 on Monday 31 March. For further details, please check out the FAQs or
-    email us at support@hpc.cam.ac.uk. After 31 March, we’ll select a group of
+    email us at support@hpc.cam.ac.uk. After 31 March, we'll select a group of
     projects representing different research challenges and user needs to be
     supported in a cohort of pioneer projects. 
 

@@ -22,9 +22,85 @@ image: '/assets/images/social.jpeg'
 
 <section class="block block__posts">
   <div class="container">
+    {% assign today_date = 'now' | date: '%s' %}
+    {% assign open_calls = site.calls | where_exp: "call", "call.closing_date" | where_exp: "call", "call.closing_date | date: '%s' >= today_date" | sort: 'closing_date' %}
+    {% assign past_calls = site.calls | where_exp: "call", "call.closing_date" | where_exp: "call", "call.closing_date | date: '%s' < today_date" | sort: 'date' | reverse %}
+    {% assign calls_without_closing_date = site.calls | where_exp: "call", "call.closing_date == nil" | sort: 'date' | reverse %}
+    
+    <h2>Open Calls</h2>
+    {% if open_calls.size > 0 %}
+      <div class="posts__grid">
+        {% for call in open_calls %}
+          <a href="{{ call.url }}" class="posts__item">
+            <div class="posts__item-thumbnail">
+              {% if call.image %}
+                <img src="{{ call.image }}" alt="{{ call.title }}">
+              {% else %}
+                <img alt="" src="../assets/images/placeholder-1.jpg"/>
+              {% endif %}
+            </div>
+            <div class="posts__item-content">
+              <span class="category">
+                <span class="status status--open">Open</span>
+                {% if call.date %}{{ call.date | date: "%B %Y" }}{% endif %}
+              </span>
+              <h3>{{ call.title }}</h3>
+              {% if call.description %}
+                <p>{{ call.description | truncate: 160 }}</p>
+              {% elsif call.excerpt %}
+                <p>{{ call.excerpt | truncate: 160 }}</p>
+              {% endif %}
+              
+              {% if call.closing_date %}
+                <div class="posts__item-deadline">
+                  <strong>Application Deadline:</strong> {{ call.closing_date | date: "%d %B %Y" }}
+                </div>
+              {% endif %}
+              
+              <span class="button button--simple">View Call</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>There are currently no open calls. Please check back later or <a href="/contact/">contact us</a> to discuss potential collaborations.</p>
+    {% endif %}
+    
+    <h2>Past Calls</h2>
     <div class="posts__grid">
-      {% assign calls = site.calls | sort: 'date' | reverse %}
-      {% for call in calls %}
+      {% for call in past_calls %}
+        <a href="{{ call.url }}" class="posts__item">
+          <div class="posts__item-thumbnail">
+            {% if call.image %}
+              <img src="{{ call.image }}" alt="{{ call.title }}">
+            {% else %}
+              <img alt="" src="../assets/images/placeholder-1.jpg"/>
+            {% endif %}
+          </div>
+          <div class="posts__item-content">
+            <span class="category">
+              <span class="status status--closed">Closed</span>
+              {% if call.date %}{{ call.date | date: "%B %Y" }}{% endif %}
+            </span>
+            <h3>{{ call.title }}</h3>
+            {% if call.description %}
+              <p>{{ call.description | truncate: 160 }}</p>
+            {% elsif call.excerpt %}
+              <p>{{ call.excerpt | truncate: 160 }}</p>
+            {% endif %}
+            
+            {% if call.closing_date %}
+              <div class="posts__item-deadline">
+                <strong>Closed on:</strong> {{ call.closing_date | date: "%d %B %Y" }}
+              </div>
+            {% endif %}
+            
+            <span class="button button--simple">View Call</span>
+          </div>
+        </a>
+      {% endfor %}
+      
+      {% for call in calls_without_closing_date %}
         <a href="{{ call.url }}" class="posts__item">
           <div class="posts__item-thumbnail">
             {% if call.image %}
