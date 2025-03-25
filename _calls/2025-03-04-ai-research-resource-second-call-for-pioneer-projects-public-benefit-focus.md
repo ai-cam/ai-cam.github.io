@@ -52,7 +52,7 @@ paper_submissions:
     supported in a cohort of pioneer projects. 
 
 
-    Submit your application through our online form: https://forms.gle/1smS5gnA4bgb4VGe8
+    Submit your application through our online form: <https://forms.gle/1smS5gnA4bgb4VGe8>
   submission_instructions: >-
     Submit your application through our online form:
     <https://forms.gle/1smS5gnA4bgb4VGe8>
