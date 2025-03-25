@@ -2987,6 +2987,16 @@ collections:
           - { label: "Technical Report", value: "technical-report" }
         default: "report"
       
+      # Add simple date field for compatibility with existing content
+      - label: "Publication Date"
+        name: "date"
+        widget: "datetime"
+        required: false
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        format: "YYYY-MM-DD"
+        hint: "Simple publication date (YYYY-MM-DD format)"
+      
       - label: "Authors"
         name: "author"
         widget: "list"

@@ -4,6 +4,7 @@ title: "Cambridge Can: Regional AI Statement"
 type: report
 publisher: University of Cambridge
 id: ep742
+date: 2025-03-20
 image: /assets/uploads/cam-can-ai-statement.png
 pdf: /assets/uploads/cambridge-can-ai-statement.pdf
 abstract: "This regional AI Statement showcases the wide range of AI activity
@@ -24,11 +25,11 @@ We aim to foster connected communities by building AI capabilities across our re
 ## Collaborative Approach
 
 This statement represents a collaboration between a number of organisations across Cambridge inclcuding\
-\
-• The University of Cambridge\
-• ai@cam\
-• Innovate Cambridge\
-• Cambridge Ahead
+
+* The University of Cambridge
+* ai@cam
+* Innovate Cambridge
+* Cambridge Ahead
 
 ## Impact and Next Steps
 

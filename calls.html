@@ -23,8 +23,8 @@ image: '/assets/images/social.jpeg'
 <section class="block block__posts">
   <div class="container">
     {% assign today_date = 'now' | date: '%s' %}
-    {% assign open_calls = site.calls | where_exp: "call", "call.closing_date" | where_exp: "call", "call.closing_date | date: '%s' >= today_date" | sort: 'closing_date' %}
-    {% assign past_calls = site.calls | where_exp: "call", "call.closing_date" | where_exp: "call", "call.closing_date | date: '%s' < today_date" | sort: 'date' | reverse %}
+    {% assign open_calls = site.calls | where_exp: "call", "call.closing_date != nil" | where_exp: "call", "call.closing_date | date: '%s' >= today_date" | sort: 'closing_date' %}
+    {% assign past_calls = site.calls | where_exp: "call", "call.closing_date != nil" | where_exp: "call", "call.closing_date | date: '%s' < today_date" | sort: 'date' | reverse %}
     {% assign calls_without_closing_date = site.calls | where_exp: "call", "call.closing_date == nil" | sort: 'date' | reverse %}
     
     <h2>Open Calls</h2>
