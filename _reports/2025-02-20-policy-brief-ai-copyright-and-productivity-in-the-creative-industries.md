@@ -4,6 +4,7 @@ title: "Policy Brief: AI, Copyright, and Productivity in the Creative Industries
 type: report
 publisher: ai@cam
 id: ep742
+date: 2025-02-20
 image: /assets/uploads/aicopyright1.png
 pdf: /assets/uploads/aicopyrightproductivitycreativeindustries.pdf
 abstract: >

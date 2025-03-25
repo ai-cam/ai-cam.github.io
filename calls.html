@@ -23,8 +23,22 @@ image: '/assets/images/social.jpeg'
 <section class="block block__posts">
   <div class="container">
     {% assign today_date = 'now' | date: '%s' %}
-    {% assign open_calls = site.calls | where_exp: "call", "call.closing_date != nil" | where_exp: "call", "call.closing_date | date: '%s' >= today_date" | sort: 'closing_date' %}
-    {% assign past_calls = site.calls | where_exp: "call", "call.closing_date != nil" | where_exp: "call", "call.closing_date | date: '%s' < today_date" | sort: 'date' | reverse %}
+    
+    {% assign all_calls_with_dates = site.calls | where_exp: "call", "call.closing_date != nil" %}
+    {% assign open_calls = "" | split: "" %}
+    {% assign past_calls = "" | split: "" %}
+    
+    {% for call in all_calls_with_dates %}
+      {% assign closing_timestamp = call.closing_date | date: '%s' %}
+      {% if closing_timestamp >= today_date %}
+        {% assign open_calls = open_calls | push: call %}
+      {% else %}
+        {% assign past_calls = past_calls | push: call %}
+      {% endif %}
+    {% endfor %}
+    
+    {% assign open_calls = open_calls | sort: 'closing_date' %}
+    {% assign past_calls = past_calls | sort: 'date' | reverse %}
     {% assign calls_without_closing_date = site.calls | where_exp: "call", "call.closing_date == nil" | sort: 'date' | reverse %}
     
     <h2>Open Calls</h2>
