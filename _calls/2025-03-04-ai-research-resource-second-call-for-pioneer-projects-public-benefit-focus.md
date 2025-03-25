@@ -36,11 +36,11 @@ media_text:
 
     This second round of pioneer projects will focus on supporting innovations where there is clear potential for societal impact. It specifically welcomes applications from:
 
-    •	Clinical researchers working on AI applications in healthcare.
+    *	Clinical researchers working on AI applications in healthcare.
 
-    •	Members of the challenge teams convened via our AI-deas initiatives. 
+    *	Members of the challenge teams convened via our AI-deas initiatives. 
 
-    •	Public sector practitioners and researchers applying AI to improve government services, policy development, and public administration.
+    *	Public sector practitioners and researchers applying AI to improve government services, policy development, and public administration.
 
   heading: Second Call for Pioneer Projects
 paper_submissions:
@@ -55,17 +55,17 @@ paper_submissions:
     Submit your application through our online form: https://forms.gle/1smS5gnA4bgb4VGe8
   submission_instructions: >-
     Submit your application through our online form:
-    https://forms.gle/1smS5gnA4bgb4VGe8 
+    <https://forms.gle/1smS5gnA4bgb4VGe8>
 
 
-    The Dawn team will host an information session in March to discuss the system's capabilities and answer questions about this call. If you would like to be informed of the session details please register here: \[https://forms.gle/v7CyD278ku9Srwhc8 ]. For technical queries about the system or application process, please contact: support@hpc.cam.ac.uk
+    The Dawn team will host an information session in March to discuss the system's capabilities and answer questions about this call. If you would like to be informed of the session details please register here: <https://forms.gle/v7CyD278ku9Srwhc8>. For technical queries about the system or application process, please contact: support@hpc.cam.ac.uk
 
 
     Key Dates:
 
-    •	Application Deadline: Monday 31 March 2025
+    *	Application Deadline: Monday 31 March 2025
 
-    •	Project Selection: Friday 11 April 2025
+    *	Project Selection: Friday 11 April 2025
 
-    •	Access Period Begins: Thursday 1 May 2025
+    *	Access Period Begins: Thursday 1 May 2025
 ---
