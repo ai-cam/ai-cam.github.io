@@ -5,7 +5,7 @@ start: 2025-04-16 09:00
 end: 2025-04-16 17:30
 category:
   - events
-image: /assets/uploads/accelerate-science.png
+image: /assets/uploads/accelerate-even-promo.png
 ---
 We know that when you’re learning AI & ML, a mix of classroom theory and hands-on practice is the best way to learn. So, we’re running a 1-day hands-on ML workshop to help you apply and develop further practical ML skills.
 
