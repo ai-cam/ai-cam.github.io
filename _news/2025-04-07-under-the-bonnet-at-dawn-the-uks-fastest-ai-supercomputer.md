@@ -18,4 +18,4 @@ Dawn has been created via a highly innovative long-term co-design partnership be
 
 But what goes on under the bonnet of this AI supercomputer? Hilary Fletcher and Stephen Bevan take a closer look at two of the projects powered by Dawn, and their potential to benefit people's lives around the globe.
 
-#### [R﻿ead more](https://www.cam.ac.uk/stories/under-the-bonnet-at-AI-supercomputer-Dawn)
+#### [Continue to read the full article here](https://www.cam.ac.uk/stories/under-the-bonnet-at-AI-supercomputer-Dawn)
