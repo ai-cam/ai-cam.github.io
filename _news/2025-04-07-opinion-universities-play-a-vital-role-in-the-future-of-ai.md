@@ -13,6 +13,8 @@ people:
   - Jess Montgomery
   - Neil Lawrence
 ---
+![](/assets/uploads/neil-and-jess_2560by1440.jpg)
+
 As the government considers its ambitious agenda to drive wider roll out of AI across the public sector in areas that directly affect people’s lives, we need to find different approaches to innovation that avoid failures like the Horizon Post Office scandal.
 
 For almost a decade, public dialogues have been highlighting what people want from AI: technologies that tackle challenges affecting our shared health and wellbeing; tools that strengthen our communities and personal interactions; and systems that support democratic governance. As these conversations continue, they reveal a growing public scepticism about AI's ability to deliver on these promises.
