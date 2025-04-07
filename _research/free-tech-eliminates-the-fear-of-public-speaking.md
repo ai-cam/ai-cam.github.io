@@ -14,4 +14,4 @@ Fortunately, a groundbreaking solution has arrived. Thanks to a first-of-its-kin
 
 As revealed in a recent publication from Macdonald – Director of the Immersive Technology Lab at Lucy Cavendish College, University of Cambridge – the platform increases levels of confidence and enjoyment for most users after a single 30-minute session.
 
-#### [R﻿ead more](https://www.cam.ac.uk/stories/AI-VR-eliminates-fear-of-public-speaking)
+#### [Continue to read the full article here](https://www.cam.ac.uk/stories/AI-VR-eliminates-fear-of-public-speaking)
