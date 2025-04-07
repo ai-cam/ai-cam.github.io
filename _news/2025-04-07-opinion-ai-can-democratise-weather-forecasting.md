@@ -8,7 +8,7 @@ excerpt: AI will give us the next leap forward in forecasting the weather, says
 date: 2025-04-01T09:00:00+01:00
 category:
   - research-and-innovation
-image: /assets/uploads/richard_turner.jpg
+image: /assets/uploads/rich.jpg
 people:
   - Richard Turner
 ---
