@@ -10,6 +10,8 @@ category:
   - research-and-innovation
 image: /assets/uploads/anil.jpg
 ---
+![](/assets/uploads/anil.jpg)
+
 We need to act fast to mitigate the impacts of climate change, and to protect and restore biodiversity. There’s incredible potential in using AI to augment our work. It enables us to do things much more quickly – it’s like giving humans global knowledge superpowers!
 
 It can turbocharge human capabilities, simulate complicated systems and search through vast amounts of data. It would help us make rapid progress in reversing the damage we’ve done to the planet with well-targeted interventions, while continuing to supply human needs.
