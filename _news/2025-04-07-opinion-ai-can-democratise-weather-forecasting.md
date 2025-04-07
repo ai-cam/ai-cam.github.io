@@ -12,6 +12,8 @@ image: /assets/uploads/rich.jpg
 people:
   - Richard Turner
 ---
+![](/assets/uploads/rich.jpg)
+
 AI will give us the next leap forward in forecasting the weather, says Richard Turner, and make it available to all countries, not just those with access to high-quality data and computing resources.
 
 From farmers planting crops to emergency responders preparing for natural disasters, the ability to predict the weather is fundamental to societies all across the globe.
