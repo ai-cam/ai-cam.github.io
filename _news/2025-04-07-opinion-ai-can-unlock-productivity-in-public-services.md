@@ -12,6 +12,8 @@ image: /assets/uploads/diane-coyle-new.jpg
 people:
   - Diane Coyle
 ---
+![](/assets/uploads/diane-coyle-new.jpg)
+
 “Sluggish technology has hampered our public services for too long, and it’s costing us all a fortune in time and money,” said The Rt Hon Peter Kyle MP (Secretary of State for Science, Innovation and Technology) announcing a shake-up for the public sector in January this year.
 
 All of us can testify to the sluggishness, whether it concerns (lack of) communication among medical staff caring for us or the challenges of dealing with the local council.
