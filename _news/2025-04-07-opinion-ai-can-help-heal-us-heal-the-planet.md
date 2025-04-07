@@ -1,7 +1,7 @@
 ---
 layout: news-single
 permalink: /news/:title
-title: "Opinion: AI can help heal us heal the planet"
+title: "Opinion: AI can help us heal the planet"
 excerpt: AI can do in seconds what might take a team of experts a year. This is
   why we must harness it to reverse the damage we’ve done to the planet. Anil
   Madhavapeddy explains.
