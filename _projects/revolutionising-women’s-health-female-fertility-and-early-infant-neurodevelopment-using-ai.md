@@ -2,9 +2,11 @@
 layout: projects-single
 title: "Revolutionising women’s health, female fertility and early infant
   neurodevelopment using AI "
-excerpt: The Womb to World project will be using AI to boost IVF success rates,
-  tailor fertility treatments and deliver instant foetal health updates to
-  expectant parents.
+excerpt: The Womb to World project is seeking to develop cheaper, less invasive
+  and more accurate AI-assisted tests that can be used throughout the conception
+  to childhood journey. We want to improve the accuracy of early diagnosis of
+  women’s health conditions, personalise fertility and IVF outcomes – and
+  support the transition to parenting.
 category:
   - ai-deas
 date: 2024-01-01
@@ -22,7 +24,7 @@ people:
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
-The [From Womb to World project](https://www.wombs2world.com/) aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. These tests will be used to enhance and personalise fertility outcomes, and support the transition to parenting. This research will play a key part in improving fertility and women's health outcomes and shed light on the still largely unknown cellular, molecular and genetic mechanisms governing the development of life.
+The [From Womb to World project](https://www.wombs2world.com/) aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. We want to improve the accuracy of early diagnosis of women’s health conditions, personalise fertility and IVF outcomes – and support the transition to parenting.
 
 The University of Cambridge’s Departments of Psychology, Computer Science, and Physics among others will lead this project, in partnership with two leading specialty hospitals.
 
