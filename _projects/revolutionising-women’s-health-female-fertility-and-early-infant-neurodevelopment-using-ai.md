@@ -1,7 +1,6 @@
 ---
 layout: projects-single
-title: "Revolutionising women’s health, female fertility and early infant
-  neurodevelopment using AI "
+title: Womb to World
 excerpt: The Womb to World project is seeking to develop cheaper, less invasive
   and more accurate AI-assisted tests that can be used throughout the conception
   to childhood journey. We want to improve the accuracy of early diagnosis of
