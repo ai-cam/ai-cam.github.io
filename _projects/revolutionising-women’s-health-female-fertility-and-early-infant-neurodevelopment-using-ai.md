@@ -10,7 +10,7 @@ excerpt: The Womb to World project is seeking to develop cheaper, less invasive
 category:
   - ai-deas
 date: 2024-01-01
-image: /assets/uploads/womb-to-world.jpg
+image: /assets/uploads/womb-to-world-2.jpg
 related: ai-deas
 people:
   - Staci Weiss
