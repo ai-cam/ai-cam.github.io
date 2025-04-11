@@ -28,11 +28,13 @@ Professional services teams from across the University are invited to submit exp
 
 If you would like to express interest in this initiative, please fill out the form [here](https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform?usp=sharing) by 09:00 on 28 May 2025.
 
-For further information, please review the FAQs below.\
-\
-**We will be holding an information and Q&A session on 2 May, 11:00 - 12:00, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for the Zoom link.**
+For further information, please review the FAQs below.
 
-**Frequently Asked Questions**
+#### Q&A session
+
+We will be holding an information and **Q&A session on 2 May, 11:00 - 12:00**, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for the Zoom link.
+
+#### **Frequently Asked Questions**
 
 ***What is AI for University Ops?***\
 The "AI for University Ops" programme provides a lightweight, integrated approach to supporting administrative AI adoption across the University. Building on our successful approach to enabling AI adoption in research, this programme will provide support for promising AI projects in administration, create opportunities to share successful practices, and build a community of practitioners.\
