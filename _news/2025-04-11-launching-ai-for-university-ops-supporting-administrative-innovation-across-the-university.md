@@ -24,7 +24,7 @@ Professor Neil Lawrence, Chair of ai@cam, said: "We've seen tremendous enthusias
 
 The programme will offer technical support and micro-grants for promising administrative AI projects, while also documenting existing successful use cases and creating a community of practice that helps scale successful applications.
 
-Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. A launch workshop will follow in June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
+Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. A launch workshop will follow on the 12 June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
 
 If you would like to express interest in this initiative, please fill out the form [here](https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform?usp=sharing) by 09:00 on 28 May 2025.
 
