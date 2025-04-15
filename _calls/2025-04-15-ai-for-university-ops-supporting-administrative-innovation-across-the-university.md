@@ -24,7 +24,7 @@ media_text:
     applications.
 
 
-    Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. A launch workshop will follow on the 12 June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
+    Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, Wednesday 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. A launch workshop will follow on the 12 June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
 
 
     If you would like to express interest in this initiative, please fill out the form here by 09:00 on 28 May 2025.
@@ -32,6 +32,7 @@ media_text:
 
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
+  image: /assets/uploads/51404127043_87233a41c6_k.jpeg
 faqs:
   heading: "FAQs "
   buttons:
