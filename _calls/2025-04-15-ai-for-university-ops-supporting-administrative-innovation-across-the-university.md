@@ -34,11 +34,8 @@ media_text:
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
 faqs:
-  heading: "FAQs "
-  buttons:
-    - text: ""
-      link: Submit your application through our online form
-    - {}
+  heading: Frequently Asked Questions
+  buttons: []
   faqs:
     - heading: What is AI for University Ops?
       content: The “AI for University Ops” programme provides a lightweight,
