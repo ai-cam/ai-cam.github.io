@@ -33,10 +33,15 @@ media_text:
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
-  image_small: /assets/uploads/ops-photo-2.jpg
+  image_small: ""
   quick_links:
     - link: QUICK LINKS
       text: quick link text
+paper_submissions:
+  buttons:
+    - link: Q&A Session
+      text: Q&A session We will be holding an information and Q&A session on 2 May,
+        11:00 - 12:00, please sign up here for the Zoom link.
 faqs:
   heading: Frequently Asked Questions
   buttons: []
@@ -118,4 +123,11 @@ faqs:
         form [here](https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform?usp=sharing) by
         09:00, 28 May 2025. You will need to be logged in to your @cam.ac.uk
         account to access the form.
+    - heading: Have more questions?
+      content: Please contact Annabelle Scott, ai@cam Programme Manager
+        (as599@cam.ac.uk). We will be holding an information and Q&A session on
+        2 May from 11:00 - 12:00, please sign
+        up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for
+        the Zoom link.
+  content: ""
 ---
