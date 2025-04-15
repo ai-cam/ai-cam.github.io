@@ -16,6 +16,7 @@ image: /assets/uploads/ops-photo-2.jpg
 hero:
   heading: "Launching 'AI for University Ops': Supporting administrative
     innovation across the University"
+  content: "  "
 media_text:
   content: >-
     The programme will offer technical support and micro-grants for promising
