@@ -33,6 +33,7 @@ media_text:
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
+  image_small: /assets/uploads/ops-photo-2.jpg
 faqs:
   heading: Frequently Asked Questions
   buttons: []
