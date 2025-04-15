@@ -8,7 +8,7 @@ excerpt: ai@cam is launching a new initiative to support administrative staff
   community building to help administrative teams implement AI solutions that
   address their operational challenges.
 date: 2025-04-14 09:00:59
-closing_date: 2025-05-28 17:00:59
+closing_date: 2025-05-28 09:00:59
 category:
   - policy
   - ai-deas
