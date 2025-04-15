@@ -32,4 +32,28 @@ media_text:
 
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
+faqs:
+  heading: "FAQs "
+  buttons:
+    - text: ""
+  faqs:
+    - heading: What is AI for University Ops?
+      content: The “AI for University Ops” programme provides a lightweight,
+        integrated approach to supporting administrative AI adoption across the
+        University. Building on our successful approach to enabling AI adoption
+        in research, this programme will provide support for promising AI
+        projects in administration, create opportunities to share successful
+        practices, and build a community of practitioners.
+    - heading: How does the programme work?
+      content: >-
+        
+
+        The programme operates in three phases:
+
+
+        * Phase 1: Kick-off: We’re launching an Expression of Interest that invites PSS staff to suggest projects or applications they would be interested in developing and begins to log existing use cases.
+
+        * Phase 2: Project proposals: On 12 June we’ll host a launch workshop that invites participants in the EOI to share example use cases, develop collaborations, and network. This will be followed by a call for projects that invites proposals for further work.
+
+        * Phase 3: Implementation: Selected projects receive support and engage in community building activities.
 ---
