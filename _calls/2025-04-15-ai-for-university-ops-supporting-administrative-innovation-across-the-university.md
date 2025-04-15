@@ -37,6 +37,7 @@ faqs:
   heading: "FAQs "
   buttons:
     - text: ""
+      link: Submit your application through our online form
   faqs:
     - heading: What is AI for University Ops?
       content: The “AI for University Ops” programme provides a lightweight,
