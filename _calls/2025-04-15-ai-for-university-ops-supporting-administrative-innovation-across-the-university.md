@@ -30,6 +30,9 @@ media_text:
     If you would like to express interest in this initiative, please fill out the form here by 09:00 on 28 May 2025.
 
 
+    If you would like to express interest in this initiative, please fill out the form here by 09:00 on 28 May 2025.
+
+
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
