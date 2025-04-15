@@ -13,6 +13,9 @@ category:
   - policy
   - ai-deas
 image: /assets/uploads/51404127043_87233a41c6_k.jpeg
+hero:
+  heading: "'AI for University Ops': Supporting administrative innovation across
+    the University"
 media_text:
   content: >-
     The programme will offer technical support and micro-grants for promising
@@ -28,4 +31,5 @@ media_text:
 
 
     For further information, please review the FAQs below.
+  heading: ""
 ---
