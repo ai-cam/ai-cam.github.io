@@ -12,7 +12,7 @@ closing_date: 2025-05-28 09:00:59
 category:
   - policy
   - ai-deas
-image: /assets/uploads/51404127043_87233a41c6_k.jpeg
+image: /assets/uploads/ops-photo-2.jpg
 hero:
   heading: "Launching 'AI for University Ops': Supporting administrative
     innovation across the University"
