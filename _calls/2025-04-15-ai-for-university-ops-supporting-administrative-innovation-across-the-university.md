@@ -34,6 +34,9 @@ media_text:
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
   image_small: /assets/uploads/ops-photo-2.jpg
+  quick_links:
+    - link: QUICK LINKS
+      text: quick link text
 faqs:
   heading: Frequently Asked Questions
   buttons: []
