@@ -41,13 +41,13 @@ media_text:
     - link: QUICK LINKS
       text: quick link text
 paper_submissions:
-  buttons:
-    - link: Q&A Session
-      text: Q&A session We will be holding an information and Q&A session on 2 May,
-        11:00 - 12:00, please sign up here for the Zoom link.
+  buttons: []
+  heading: paper submissions link
+  content: paper submissions content
 faqs:
   heading: Frequently Asked Questions
-  buttons: []
+  buttons:
+    - link: button link
   faqs:
     - heading: What is AI for University Ops?
       content: The “AI for University Ops” programme provides a lightweight,
