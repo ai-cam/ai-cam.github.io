@@ -6,7 +6,7 @@ excerpt: Democracy’s survival depends on reimagining and rebuilding technologi
   with democratic accountability at their core. If we leave the decisions about
   what to build to the titans of tech, the results will be anti-democratic and
   built for private over public gain, says Gina Neff.
-date: 2025-04-14T00:00:00+01:00
+date: 2025-04-15T00:00:00+01:00
 category:
   - research-and-innovation
 image: /assets/uploads/gina-neff_1080by600.jpg
