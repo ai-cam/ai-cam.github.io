@@ -1,7 +1,7 @@
 ---
 layout: news-single
 permalink: /news/:title
-title: "Opinion: Whether democracy can survive AI will depend on us"
+title: "Opinion: Whether democracy can survive AI will depend on us "
 excerpt: Democracy’s survival depends on reimagining and rebuilding technologies
   with democratic accountability at their core. If we leave the decisions about
   what to build to the titans of tech, the results will be anti-democratic and
