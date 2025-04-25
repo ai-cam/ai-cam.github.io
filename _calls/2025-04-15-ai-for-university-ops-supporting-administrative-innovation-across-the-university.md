@@ -17,8 +17,7 @@ hero:
   heading: "Launching 'AI for University Ops': Supporting administrative
     innovation across the University"
   content: "  "
-  buttons:
-    - {}
+  buttons: []
 media_text:
   content: >-
     ai@cam is launching a new initiative to support administrative staff across
@@ -49,7 +48,9 @@ media_text:
     - text: Complete your expression of interest
       link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
 paper_submissions:
-  buttons: []
+  buttons:
+    - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
+      text: Complete your expression of interest
   heading: paper submissions Supporting administrative innovation across the University
   content: >-
     **paper submissions**
@@ -76,8 +77,7 @@ paper_submissions:
     For further information, please review the FAQs below.
 faqs:
   heading: Frequently Asked Questions
-  buttons:
-    - link: button link
+  buttons: []
   faqs:
     - heading: What is AI for University Ops?
       content: The “AI for University Ops” programme provides a lightweight,
