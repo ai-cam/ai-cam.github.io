@@ -32,14 +32,12 @@ media_text:
   image: /assets/uploads/ops-photo-2.jpg
   image_small: ""
   quick_links: []
-  buttons:
-    - text: Complete your expression of interest
-      link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
+  buttons: []
 paper_submissions:
   buttons:
     - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
       text: Complete your expression of interest
-    - text: Register for out Q&A session on Friday 2 May
+    - text: Register for the Q&A session
       link: https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform
   heading: Register your interest
   content: >-
