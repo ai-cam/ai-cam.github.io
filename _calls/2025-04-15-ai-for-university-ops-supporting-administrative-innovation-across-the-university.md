@@ -19,7 +19,7 @@ hero:
   content: "  "
   buttons: []
 media_text:
-  content: >-
+  content: >
     ai@cam is launching a new initiative to support administrative staff across
     the University to use AI to enhance University operations.
 
@@ -28,18 +28,6 @@ media_text:
 
 
     The programme will offer technical support and micro-grants for promising administrative AI projects, while also documenting existing successful use cases and creating a community of practice that helps scale successful applications.
-
-
-    Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, Wednesday 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. 
-
-
-    A launch workshop will follow on the 12 June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
-
-
-    If you would like to express interest in this initiative, please complete the form below by 09:00 on 28 May 2025.
-
-
-    For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
   image_small: ""
@@ -51,21 +39,13 @@ paper_submissions:
   buttons:
     - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
       text: Complete your expression of interest
-  heading: paper submissions Supporting administrative innovation across the University
+  heading: Register your interest
   content: >-
-    **paper submissions**
-
-
-    ai@cam is launching a new initiative to support administrative staff across the University to use AI to enhance University operations.
-
-
-    The “AI for University Ops” programme will provide funding, technical support, and community building to help administrative teams implement AI solutions that address their operational challenges.
-
-
-    The programme will offer technical support and micro-grants for promising administrative AI projects, while also documenting existing successful use cases and creating a community of practice that helps scale successful applications.
-
-
-    Professional services teams from across the University are invited to submit expressions of interest in engaging with this initiative by 09:00, Wednesday 28 May 2025. This initial phase will help identify existing AI implementations and gather input on administrative challenges that could benefit from AI solutions. 
+    Professional services teams from across the University are invited to submit
+    expressions of interest in engaging with this initiative by 09:00, Wednesday
+    28 May 2025. This initial phase will help identify existing AI
+    implementations and gather input on administrative challenges that could
+    benefit from AI solutions. 
 
 
     A launch workshop will follow on the 12 June, bringing together participants to share examples, develop collaborations, and network with colleagues facing similar challenges.
