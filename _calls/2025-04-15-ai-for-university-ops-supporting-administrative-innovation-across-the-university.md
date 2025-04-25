@@ -54,6 +54,9 @@ paper_submissions:
     If you would like to express interest in this initiative, please complete the form below by 09:00 on 28 May 2025.
 
 
+    We will be holding an information and **Q&A session on 2 May, 11:00 - 12:00**, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for the Zoom link.
+
+
     For further information, please review the FAQs below.
 faqs:
   heading: Frequently Asked Questions
