@@ -39,6 +39,8 @@ paper_submissions:
   buttons:
     - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
       text: Complete your expression of interest
+    - text: Register for out Q&A session on Friday 2 May
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform
   heading: Register your interest
   content: >-
     Professional services teams from across the University are invited to submit
@@ -54,7 +56,7 @@ paper_submissions:
     If you would like to express interest in this initiative, please complete the form below by 09:00 on 28 May 2025.
 
 
-    We will be holding an information and **Q&A session on 2 May, 11:00 - 12:00**, please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for the Zoom link.
+    We will be holding an information and **Q&A session on 2 May, 11:00 - 12:00**, **please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfnuRmYWlfHhAffBXt9cFWLWAUFzoIhzj_xx74tZiI-VhsBYA/viewform?usp=header) for the Zoom link.**
 
 
     For further information, please review the FAQs below.
