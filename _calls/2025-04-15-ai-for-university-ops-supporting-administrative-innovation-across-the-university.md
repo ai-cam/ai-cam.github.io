@@ -33,13 +33,19 @@ media_text:
     If you would like to express interest in this initiative, please fill out the form here by 09:00 on 28 May 2025.
 
 
+    Form Deadline: 09:00 on 28 May 2025
+
+
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
   image_small: ""
   quick_links:
     - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
-      text: Complete the form
+      text: Expression of interest form
+  buttons:
+    - text: Expression of interest form
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
 paper_submissions:
   buttons: []
   heading: ""
