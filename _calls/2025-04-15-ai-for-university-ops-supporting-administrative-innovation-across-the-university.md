@@ -44,7 +44,7 @@ media_text:
     - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
       text: Expression of interest form
   buttons:
-    - text: Expression of interest form
+    - text: Expression of interest form button
       link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
 paper_submissions:
   buttons: []
