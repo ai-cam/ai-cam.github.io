@@ -40,11 +40,9 @@ media_text:
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
   image_small: ""
-  quick_links:
-    - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
-      text: Expression of interest form
+  quick_links: []
   buttons:
-    - text: Expression of interest form button
+    - text: Complete your expression of interest
       link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
 paper_submissions:
   buttons: []
