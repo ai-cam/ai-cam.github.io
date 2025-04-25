@@ -17,6 +17,8 @@ hero:
   heading: "Launching 'AI for University Ops': Supporting administrative
     innovation across the University"
   content: "  "
+  buttons:
+    - {}
 media_text:
   content: >-
     The programme will offer technical support and micro-grants for promising
@@ -31,20 +33,17 @@ media_text:
     If you would like to express interest in this initiative, please fill out the form here by 09:00 on 28 May 2025.
 
 
-    Form: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
-
-
     For further information, please review the FAQs below.
   heading: Supporting administrative innovation across the University
   image: /assets/uploads/ops-photo-2.jpg
   image_small: ""
   quick_links:
-    - link: QUICK LINKS
-      text: quick link text
+    - link: https://docs.google.com/forms/d/e/1FAIpQLSfBFooODF_Ifbl2LUiXvyFMeAP1tqGf7qFk06qbO0ZIEuqKCw/viewform
+      text: Complete the form
 paper_submissions:
   buttons: []
-  heading: paper submissions link
-  content: paper submissions content
+  heading: ""
+  content: ""
 faqs:
   heading: Frequently Asked Questions
   buttons:
