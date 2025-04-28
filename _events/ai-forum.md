@@ -16,4 +16,4 @@ The AI Forum is a platform for the AI ecosystem to support, track and constructi
 
 It also serves as a model for building grassroots communities that can generate valuable, bottom-up insights on the real challenges being faced on the ground. 
 
-T﻿o find our more about joining this event, please contact Allan Nixon ([allan@localglobe.vc](mailto:allan@localglobe.vc "mailto\:allan@localglobe.vc")
+T﻿o find our more about joining this event, please contact Allan Nixon (allan@localglobe.vc
