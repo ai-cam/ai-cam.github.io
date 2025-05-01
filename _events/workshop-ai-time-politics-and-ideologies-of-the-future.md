@@ -8,8 +8,8 @@ category:
 image: /assets/uploads/workshop-ai-time-politics-and-ideologies-of-the-future.jpg
 link_to: https://lu.ma/v20ck0ph
 ---
-**Time & Date:** 10.00 - 16.00 | Thursday 22 May
-**Location:** Newnham College, University of Cambridge 
+**Time & Date:** 10.00 - 16.00 | Thursday 22 May\
+**Location:** Newnham College, University of Cambridge \
 **Organisers:** This workshop is organised by Maya Indira Ganesh (LCFI), Apolline Taillandier (LCFI, Newnham College), and Isabelle Higgins (Department of Sociology; affiliated with the Minderoo Centre for Technology and Democracy) with the support of the Minderoo Centre for Technology and Democracy and Leverhulme Centre for the Future of Intelligence, at the University of Cambridge.\
 \
 Time haunts AI. An origin story in the summer of 1955 that has acquired the status of myth and fact; geopolitical races; the contradictions and entanglements of longtermist and accelerationist ideologies; law and regulation that fail to keep up; promised breakthroughs from the driverless car to superintelligence that fail to arrive, or seem eternally just around the corner. Computational time is also infrastructural: the lag in software updates pushed to the cloud and then to fleets of driverless cars and mobile phones ([Mattern, 2017](https://placesjournal.org/article/mappings-intelligent-agents/)). Temporality works unevenly affording ‘just in time’ deliveries for the busy, but at the cost of bio-social control of delivery workers and on-demand mobility service providers ([Sharma, 2014)](https://doi.org/10.2307/j.ctv11cw801).
