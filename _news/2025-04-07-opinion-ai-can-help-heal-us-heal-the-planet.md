@@ -5,7 +5,7 @@ title: "Opinion: AI can help us heal the planet"
 excerpt: AI can do in seconds what might take a team of experts a year. This is
   why we must harness it to reverse the damage we’ve done to the planet. Anil
   Madhavapeddy explains.
-date: 2025-04-07T00:00:00+01:00
+date: 2025-04-17T00:00:00+01:00
 category:
   - research-and-innovation
 image: /assets/uploads/anil.jpg
