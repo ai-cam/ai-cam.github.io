@@ -5,6 +5,10 @@ excerpt: Cambridge researchers are looking at ways that AI can transform
   everything from drug discovery to Alzheimer's diagnoses to GP consultations.
 image: /assets/uploads/aihealth.jpg
 date: April 14, 2025 12:00 AM
+people:
+  - Zoe Kourtzi
+  - Mo Vali
+  - Staci Weiss
 ---
 #### **Tackling dementia**
 
