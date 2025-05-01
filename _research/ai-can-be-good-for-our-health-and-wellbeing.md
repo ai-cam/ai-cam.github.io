@@ -10,7 +10,11 @@ people:
   - Mo Vali
   - Staci Weiss
 ---
-#### **Tackling dementia**
+![](/assets/uploads/healthai1.png)
+
+### Cambridge researchers are looking at ways that AI can transform everything from drug discovery to Alzheimer's diagnoses to GP consultations.\
+\
+**Tackling dementia**
 
 In 2024, **Professor Zoe Kourtzi** in the Department of Psychology showed that an AI tool developed by her team could outperform clinical tests at predicting whether people with early signs of dementia will remain stable or develop Alzheimer’s disease. 
 
