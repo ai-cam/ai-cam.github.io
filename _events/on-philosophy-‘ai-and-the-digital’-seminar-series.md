@@ -6,6 +6,7 @@ end: 2025-06-30 19:00
 category:
   - events
 image: /assets/uploads/ai-and-digital-poster-final-scaled.jpg
+link_to: https://www.thephilosopher1923.org/events
 ---
 **Time & Date:** Multiple dates\
 **Location:** Online\
