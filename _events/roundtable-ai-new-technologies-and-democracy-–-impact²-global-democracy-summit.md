@@ -12,6 +12,10 @@ link_to: https://www.impact2.eu/en/programme
 people:
   - Gina Neff
 ---
+**Time & Date**: 20.15 CET | Thursday 15 May\
+**Location:** Hôtel de Ville de Paris (Paris City Hall), 3 rue Lobau, 75004, Paris France\
+**Organisers:** The IMPACT² Global Democracy Summit\
+\
 The [IMPACT² Global Democracy Summit](https://www.impact2.eu/en) is an annual gathering of entrepreneurs, business leaders, investors, policymakers, and key figures from civil society shaping the new economy and envisioning the world of tomorrow. Attendees will share their visions and accelerate solutions to the major challenges of our time through high-level debates and roundtable discussions. The event takes place with the presence of the Mayor of Paris, [Anne Hildago](https://en.wikipedia.org/wiki/Anne_Hidalgo).
 
 **IMPACT² 2025 will tackle a fundamental issue: saving democracy. How can we protect it against contemporary threats? How can we reinvent it to make it more resilient, more inclusive, and stronger?**
