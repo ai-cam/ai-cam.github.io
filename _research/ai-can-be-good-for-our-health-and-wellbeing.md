@@ -11,10 +11,10 @@ people:
   - Staci Weiss
   - Anna Moore
 ---
-**Cambridge researchers are looking at ways that AI can transform everything from drug discovery to Alzheimer's diagnoses to GP consultations.**\
-\
-**Tackling dementia**
+## **Cambridge researchers are looking at ways that AI can transform everything from drug discovery to Alzheimer's diagnoses to GP consultations.**
 
+**Tackling dementia**\
+\
 In 2024, **Professor Zoe Kourtzi** in the Department of Psychology showed that an AI tool developed by her team could outperform clinical tests at predicting whether people with early signs of dementia will remain stable or develop Alzheimer’s disease. 
 
 At a time of intense pressure on the NHS, tools such as this could help doctors prioritise care for those patients who need it most, while removing the need for invasive and costly diagnostic tests for those whose condition will remain stable. They can also give patients peace of mind that their condition is unlikely to worsen, or, for those less fortunate, it can help them and their families prepare. 
