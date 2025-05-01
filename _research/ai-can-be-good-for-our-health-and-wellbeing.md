@@ -9,10 +9,9 @@ people:
   - Zoe Kourtzi
   - Mo Vali
   - Staci Weiss
+  - Anna Moore
 ---
-![](/assets/uploads/healthai1.png)
-
-### Cambridge researchers are looking at ways that AI can transform everything from drug discovery to Alzheimer's diagnoses to GP consultations.\
+**Cambridge researchers are looking at ways that AI can transform everything from drug discovery to Alzheimer's diagnoses to GP consultations.**\
 \
 **Tackling dementia**
 
@@ -28,4 +27,4 @@ Part of the problem is that clinical trials often focus on the wrong people, whi
 
 “If you have people that the AI models say will not develop pathology, you won't want to put them in your trial. They'll only mess up the statistics, and then \[the trials] will never show an effect, no matter if you have the best drug in the world. And if you include people who will progress really fast, it might be already too late for the drug to show benefit.” \
 \
-[Continue to read the full article here](https://www.cam.ac.uk/stories/ai-and-health)
+**[Continue to read the full article here](https://www.cam.ac.uk/stories/ai-and-health)**
