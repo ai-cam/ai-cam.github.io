@@ -1,0 +1,28 @@
+{
+  "user_agent": "*",
+  "disallowed": {
+    "paths": [
+      "/manager/html",
+      "/apple-touch-icon-precomposed.png",
+      "/assets/uploads/",
+      "/assets/fonts/6460613/",
+      "/assets/fonts/6215362/",
+      "/assets/js/",
+      "/assets/images/",
+      "/assets/",
+      "/assets/css/"
+    ]
+  },
+  "allowed": {
+    "paths": [
+      "/",
+      "/team",
+      "/reports",
+      "/events",
+      "/contact",
+      "/people",
+      "/research",
+      "/collaborate"
+    ]
+  }
+} 
