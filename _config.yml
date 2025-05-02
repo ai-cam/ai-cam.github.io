@@ -1,7 +1,7 @@
 name: "ai@cam"
 title: ai@cam
 description: >- # this means to ignore newlines until "baseurl:"
-  ai@cam is the University of Cambridge’s mission to drive a new wave of AI innovation that delivers public value.
+  ai@cam is the University of Cambridge's mission to drive a new wave of AI innovation that delivers public value.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ai.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ai_cam_mission
@@ -120,16 +120,17 @@ pagination:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - scripts/
 
 
