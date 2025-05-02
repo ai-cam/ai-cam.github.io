@@ -20,7 +20,7 @@ By working collaboratively across Cambridge's AI ecosystem, we can strengthen th
 
 This regional AI Statement highlights the breadth AI activity happening across the Cambridgeshire region and represents our commitment to ensure AI development is responsible, inclusive, sustainable, and an engine for innovation that serves the public good. 
 
-We aim to foster connected communities by building AI capabilities across our region, widening access to the tools, knowledge, and know how which can focuse on delivering meaningful improvements to people’s lives. 
+We aim to foster connected communities by building AI capabilities across our region, widening access to the tools, knowledge, and know how which can focuse on delivering meaningful improvements to people's lives. 
 
 ## Collaborative Approach
 
@@ -33,7 +33,7 @@ This statement represents a collaboration between a number of organisations acro
 
 ## Impact and Next Steps
 
-Cambridge Tech Week takes place in September 2025. If you would like to join us in showcasing your expertise at an Innovate Cambridge – ai@cam event during Tech Week, **[register your interest here](https://forms.gle/3epdxtpKzqJHQBVf9).**
+Cambridge Tech Week takes place in September 2025. If you would like to join us in showcasing your expertise at an Innovate Cambridge – ai@cam event during Tech Week, **[register your interest here](https://forms.gle/3epdxtpKzqJHQBVf9).**
 
 ## Download the Full Report
 
