@@ -29,4 +29,7 @@ category:
   - leadership
   - researcher
   - steering-group
+redirect_from:
+  - /team/neil-lawrence.html
+  - /team/neil-lawrence
 ---

@@ -20,4 +20,7 @@ crsid: jkm40
 category:
   - leadership
   - steering-group
+redirect_from:
+  - /team/jessica-montgomery.html
+  - /team/jessica-montgomery
 ---
