@@ -13,9 +13,7 @@ hero:
   heading: "ai@cam launches Sciencepreneurship bootcamp to accelerate
     entrepreneurship in AI for science "
   content: "\n"
-  buttons:
-    - text: Apply here
-      link: https://forms.gle/TEQedN8LtdhyJd8dA
+  buttons: []
 media_text:
   content: >-
     ai@cam is today announcing its inaugural AI Sciencepreneurship Bootcamp, an
@@ -29,36 +27,49 @@ media_text:
 
 
     Cambridge is home to over 5,500 knowledge-intensive businesses and the world's highest concentration of academic entrepreneurs. AI could help supercharge scientific discovery and innovation, driving a new wave of breakthroughs in areas from healthcare, to genomics, to sustainable energy. However, researchers looking to translate their scientific AI innovations face significant challenges, from designing AI tools tailored for specific scientific domains to building product-ready solutions from laboratory innovations. Many promising scientific AI breakthroughs never reach their full potential due to gaps in entrepreneurial knowledge and support.
-
-
-    ai@cam’s new AI sciencepreneurship bootcamp will provide a pathway for researchers to develop their scientific AI innovations into viable ventures that address real-world scientific and technological challenges. This intensive program combines hands-on technical workshops with mentorship from experienced entrepreneurs and investors from Cambridge Innovation Capital. Participants will receive dedicated support to develop their AI tools while learning essential entrepreneurship skills. 
+paper_submissions:
+  content: >-
+    ai@cam’s new AI sciencepreneurship bootcamp will provide a pathway for
+    researchers to develop their scientific AI innovations into viable ventures
+    that address real-world scientific and technological challenges. This
+    intensive program combines hands-on technical workshops with mentorship from
+    experienced entrepreneurs and investors from Cambridge Innovation Capital.
+    Participants will receive dedicated support to develop their AI tools while
+    learning essential entrepreneurship skills. 
 
 
     From 25-26 June 2025, the first ai@cam Sciencepreneurship bootcamp will provide hands-on workshops, training, and mentoring to help researchers develop AI for science tools and learn more about entrepreneurship. The three-day programme will feature:
 
-    - Technical workshops on foundation models and AI tools led by the Accelerate Science team
 
-    - Training sessions on start-up fundamentals from Cambridge Innovation Capital
+    * Technical workshops on foundation models and AI tools led by the Accelerate Science team
 
-    - Problem-solution fit sessions with DeepTech Labs mentors
+    * Training sessions on start-up fundamentals from Cambridge Innovation Capital
 
-    - Founder story sessions with successful AI entrepreneurs
+    * Problem-solution fit sessions with DeepTech Labs mentors
 
-    - Hands-on prototype development with technical support
+    * Founder story sessions with successful AI entrepreneurs
 
-    - Pitch development and showcase opportunities with local entrepreneurs
-     
-    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. To apply, please complete the form https://forms.gle/TEQedN8LtdhyJd8dA by Friday 6 June.
+    * Hands-on prototype development with technical support
+
+    * Pitch development and showcase opportunities with local entrepreneurs
+
+
+    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. To apply, please complete the form <https://forms.gle/TEQedN8LtdhyJd8dA> by Friday 6 June.
+  buttons:
+    - link: https://forms.gle/TEQedN8LtdhyJd8dA
+      text: Apply here
 faqs:
-  heading: Who can participate in this bootcamp? Who can participate in this bootcamp?
-  content: >
-    The bootcamp is open to researchers and PhD students at the University of
-    Cambridge and its associated research institutions, working on AI
-    applications in scientific domains such as biology, chemistry, physics,
-    environmental science, healthcare, and related fields. Participants should
-    have an understanding of core methods and concepts in AI and an idea for a
-    project they'd like to develop.
+  heading: Frequently Asked Questions
+  content: "\n"
   faqs:
+    - heading: Who can participate in this bootcamp? Who can participate in this
+        bootcamp?
+      content: The bootcamp is open to researchers and PhD students at the University
+        of Cambridge and its associated research institutions, working on AI
+        applications in scientific domains such as biology, chemistry, physics,
+        environmental science, healthcare, and related fields. Participants
+        should have an understanding of core methods and concepts in AI and an
+        idea for a project they'd like to develop.
     - heading: "What level of AI expertise is required to join? "
       content: Participants should have foundational knowledge of AI methods and
         concepts, particularly as they apply to scientific data, experimental
