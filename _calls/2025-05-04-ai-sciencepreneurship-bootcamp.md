@@ -1,16 +1,17 @@
 ---
 layout: call-single
 title: AI Sciencepreneurship Bootcamp
-excerpt: "ai@cam announces its inaugural AI Sciencepreneurship bootcamp, an
+excerpt: "ai@cam announces its inaugural AI Sciencepreneurship Bootcamp, an
   immersive two-day programme convened in collaboration with the ELIAS network
   of European innovation hubs. "
 date: 2025-05-04 06:10:07
-closing_date: 2025-06-20 23:55:07
+closing_date: 2025-06-06 23:55:07
 category:
   - sciencepreneurship
+  - events
 image: /assets/uploads/jason-goodman-oalh2mojuuk-unsplash.jpg
 hero:
-  heading: "ai@cam launches Sciencepreneurship bootcamp to accelerate
+  heading: "ai@cam launches Sciencepreneurship Bootcamp to accelerate
     entrepreneurship in AI for science "
   content: "\n"
   buttons: []
@@ -28,6 +29,7 @@ media_text:
 
     Cambridge is home to over 5,500 knowledge-intensive businesses and the world's highest concentration of academic entrepreneurs. AI could help supercharge scientific discovery and innovation, driving a new wave of breakthroughs in areas from healthcare, to genomics, to sustainable energy. However, researchers looking to translate their scientific AI innovations face significant challenges, from designing AI tools tailored for specific scientific domains to building product-ready solutions from laboratory innovations. Many promising scientific AI breakthroughs never reach their full potential due to gaps in entrepreneurial knowledge and support.
   image: /assets/uploads/placeholder-2.jpg
+  heading: AI Sciencepreneurship Bootcamp
 paper_submissions:
   content: >-
     ai@cam’s new AI sciencepreneurship bootcamp will provide a pathway for
@@ -63,8 +65,7 @@ faqs:
   heading: Frequently Asked Questions
   content: "\n"
   faqs:
-    - heading: Who can participate in this bootcamp? Who can participate in this
-        bootcamp?
+    - heading: Who can participate in this bootcamp?
       content: The bootcamp is open to researchers and PhD students at the University
         of Cambridge and its associated research institutions, working on AI
         applications in scientific domains such as biology, chemistry, physics,
