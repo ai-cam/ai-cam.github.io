@@ -12,9 +12,14 @@ image: /assets/uploads/jason-goodman-oalh2mojuuk-unsplash.jpg
 hero:
   heading: "ai@cam launches Sciencepreneurship bootcamp to accelerate
     entrepreneurship in AI for science "
-  content: >
+  content: "\n"
+  buttons:
+    - text: Apply here
+      link: https://forms.gle/TEQedN8LtdhyJd8dA
+media_text:
+  content: >-
     ai@cam is today announcing its inaugural AI Sciencepreneurship Bootcamp, an
-    intensive three-day program designed to help researchers transform
+    intensive two-day programme designed to help researchers transform
     breakthrough AI innovations in scientific research into real-world impact,
     across domains from health, to environment, to materials science, and more.
     Running from 25-26 June 2025, this hands-on bootcamp will combine technical
@@ -44,11 +49,6 @@ hero:
     - Pitch development and showcase opportunities with local entrepreneurs
      
     Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. To apply, please complete the form https://forms.gle/TEQedN8LtdhyJd8dA by Friday 6 June.
-  buttons:
-    - text: Apply here
-      link: https://forms.gle/TEQedN8LtdhyJd8dA
-media_text:
-  content: ""
 faqs:
   heading: Who can participate in this bootcamp? Who can participate in this bootcamp?
   content: >
@@ -68,4 +68,69 @@ faqs:
     - heading: What is the time commitment?
       content: Participants must commit to attending all three days of the bootcamp
         (25-26 June, 2025) and actively participate in working sessions.
+    - heading: How can I apply?
+      content: >-
+        Applications are now open at <https://forms.gle/TEQedN8LtdhyJd8dA>.
+        Successful applicants will be notified by 10 June. The application asks
+        for:
+
+
+        * Your research background
+
+        * Your AI experience and expertise
+
+        * A description of the idea you want to develop
+
+        * Your motivation for joining the bootcamp
+    - heading: "What will be covered by the bootcamp? "
+      content: >-
+        * Technical workshops on foundation models and AI tools led by the
+        Accelerate Science team
+
+        * Training sessions on start-up fundamentals from Cambridge Innovation Capital
+
+        * Problem-solution fit sessions with DeepTech Labs mentors
+
+        * Founder story sessions with successful AI entrepreneurs
+
+        * Hands-on prototype development with technical support
+
+        * Pitch development and showcase opportunities with local entrepreneurs
+    - heading: "Will there be further opportunities to get involved in ELIAS
+        Cambridge? "
+      content: Yes, this is the first in a series of initiatives planned by the
+        Cambridge ELIAS node. Future workshops and events will be announced as
+        the ELIAS Alliance develops.
+    - heading: What is the time commitment?
+      content: Participants must commit to attending all two full days of the bootcamp
+        (25-26 June, 2025) and actively participate in working sessions.
+    - heading: Can teams apply together?
+      content: Yes, we welcome applications from research teams working on shared
+        projects, though each team member must submit an individual application.
+    - heading: How does this relate to other entrepreneurship programmes in Cambridge?
+      content: The bootcamp is part of Cambridge's new European Leadership in
+        Innovation with AI and Science (ELIAS) node, a new initiative to
+        accelerate AI-driven scientific innovation in the Cambridge ecosystem.
+        Researchers at Cambridge have the opportunity to benefit from a range of
+        programmes that provide support for research commercialisation. This
+        programme is focused on the use of AI for science. We’re providing a
+        space to work through practical issues associated with building AI tools
+        and introducing topics in entrepreneurship.
+    - heading: "What happens after the bootcamp? "
+      content: >-
+        The sciencepreneurship bootcamp is designed as an entry point to
+        Cambridge's AI and science innovation ecosystem. After completing the
+        bootcamp, participants will have several pathways for continued support.
+        Next-stage programmes in the Cambridge ecosystem include:
+
+
+        * Founders at Cambridge
+
+        * DeepTech Labs accelerator program (for suitable deep tech ventures)
+
+        * Further events through the ELIAS network
+
+
+        Participants will be invited to join our ELIAS AI for sciencepreneurship community, with regular meetups, skill-sharing sessions, and opportunities to connect with potential co-founders, team members, and advisors.
+  buttons: []
 ---
