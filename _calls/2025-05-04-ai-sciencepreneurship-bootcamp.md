@@ -27,6 +27,7 @@ media_text:
 
 
     Cambridge is home to over 5,500 knowledge-intensive businesses and the world's highest concentration of academic entrepreneurs. AI could help supercharge scientific discovery and innovation, driving a new wave of breakthroughs in areas from healthcare, to genomics, to sustainable energy. However, researchers looking to translate their scientific AI innovations face significant challenges, from designing AI tools tailored for specific scientific domains to building product-ready solutions from laboratory innovations. Many promising scientific AI breakthroughs never reach their full potential due to gaps in entrepreneurial knowledge and support.
+  image: /assets/uploads/placeholder-2.jpg
 paper_submissions:
   content: >-
     ai@cam’s new AI sciencepreneurship bootcamp will provide a pathway for
