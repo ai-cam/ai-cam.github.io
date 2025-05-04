@@ -76,9 +76,6 @@ faqs:
         design, or modelling in their field of expertise. Those looking to build
         these skills can access preparatory courses through Accelerate Science's
         training programs before applying.
-    - heading: What is the time commitment?
-      content: Participants must commit to attending all three days of the bootcamp
-        (25-26 June, 2025) and actively participate in working sessions.
     - heading: How can I apply?
       content: >-
         Applications are now open at <https://forms.gle/TEQedN8LtdhyJd8dA>.
