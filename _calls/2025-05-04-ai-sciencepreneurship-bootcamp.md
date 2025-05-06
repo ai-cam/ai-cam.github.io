@@ -13,7 +13,10 @@ image: /assets/uploads/jason-goodman-oalh2mojuuk-unsplash.jpg
 hero:
   heading: "ai@cam launches Sciencepreneurship Bootcamp to accelerate
     entrepreneurship in AI for science "
-  content: "\n"
+  content: >
+    ai@cam announces its inaugural AI Sciencepreneurship Bootcamp, an immersive
+    two-day programme convened in collaboration with the ELIAS network of
+    European innovation hubs. 
   buttons: []
 media_text:
   content: >-
