@@ -44,7 +44,7 @@ paper_submissions:
     learning essential entrepreneurship skills. 
 
 
-    From 25-26 June 2025, the first ai@cam Sciencepreneurship bootcamp will provide hands-on workshops, training, and mentoring to help researchers develop AI for science tools and learn more about entrepreneurship. The three-day programme will feature:
+    From 25-26 June 2025, the first ai@cam Sciencepreneurship bootcamp will provide hands-on workshops, training, and mentoring to help researchers develop AI for science tools and learn more about entrepreneurship. The two-day programme will feature:
 
 
     * Technical workshops on foundation models and AI tools led by the Accelerate Science team
