@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Michele Vendruscolo
+title: Prof
 given: Michele
 family: Vendruscolo
-name: Michele Vendruscolo
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/michele-vendruscolo.jpg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
