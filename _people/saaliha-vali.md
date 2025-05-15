@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Saaliha Vali
+title: Dr
 given: Saaliha
 family: Vali
-name: Saaliha Vali
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/saaliha-vali.jpeg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
