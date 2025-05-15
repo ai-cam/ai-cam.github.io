@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Stephen Baker
+title: Dr
 given: Stephen
 family: Baker
-name: Stephen Baker
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/stephen-baker.jpeg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
