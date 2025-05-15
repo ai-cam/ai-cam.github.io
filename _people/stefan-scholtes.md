@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Stefan Scholtes
+title: Prof
 given: Stefan
 family: Scholtes
-name: Stefan Scholtes
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/stefan-scholtes.jpg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
