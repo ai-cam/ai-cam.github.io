@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Jennifer Cobbe
+title: Dr
 given: Jennifer
 family: Cobbe
-name: Jennifer Cobbe
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/jennifer-cobbe.png
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
