@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Elizabeth Allen
+title: Dr
 given: Elizabeth
 family: Allen
-name: Elizabeth Allen
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/elizabeth-allen-288x300.jpg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
