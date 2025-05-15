@@ -1,24 +1,25 @@
 ---
 layout: person
+name: Richard Milne
+title: Dr
 given: Richard
 family: Milne
-name: Richard Milne
-biography: ''
-image: ''
-email: ''
-url: ''
-website: ''
-twitter: ''
-github: ''
-linkedin: ''
-scholar: ''
-crsid: ''
-orcid: ''
-start: ''
-end: ''
-institution: ''
-department: ''
-position: ''
+institution: ""
+department: ""
 category: []
-supervisor: ''
+start: ""
+end: ""
+biography: ""
+email: ""
+twitter: ""
+github: ""
+scholar: ""
+supervisor: ""
+position: ""
+url: ""
+website: ""
+image: /assets/uploads/richard-milne.jpg
+linkedin: ""
+crsid: ""
+orcid: ""
 ---
