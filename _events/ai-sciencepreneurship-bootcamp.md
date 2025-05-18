@@ -9,8 +9,6 @@ image: /assets/uploads/ai-sciencepreneurship-bootcamp-900-x-900-px-1-.png
 ---
 ![](/assets/uploads/ai-sciencepreneurship-bootcamp-1200-x-628-px-.png)
 
-
-
 **T﻿ime & Date:** Wednesday 25 June - Thursday 26 June\
 **Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)Botanic House, 100 Hills Road, CB2 1PH\
 **Organisers:** ai@cam, Cambridge Innovation Capital and ELIAS Alliance\
