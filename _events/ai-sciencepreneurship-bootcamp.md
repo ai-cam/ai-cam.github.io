@@ -5,7 +5,7 @@ start: 2025-06-25 09:00
 end: 2025-06-26 17:00
 category:
   - events
-image: /assets/uploads/ai-sciencepreneurship-bootcamp-900-x-900-px-.png
+image: /assets/uploads/ai-sciencepreneurship-bootcamp-900-x-900-px-1-.png
 ---
 **T﻿ime & Date:** Wednesday 25 June - Thursday 26 June\
 **Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)Botanic House, 100 Hills Road, CB2 1PH\
