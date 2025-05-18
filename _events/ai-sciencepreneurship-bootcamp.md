@@ -10,7 +10,7 @@ image: /assets/uploads/ai-sciencepreneurship-bootcamp-900-x-900-px-1-.png
 ![](/assets/uploads/ai-sciencepreneurship-bootcamp-1200-x-628-px-.png)
 
 **T﻿ime & Date:** Wednesday 25 June - Thursday 26 June\
-**Location:** [](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)Botanic House, 100 Hills Road, CB2 1PH\
+**Location:** Møller Institute, Churchill College, Storey's Way, Cambridge CB3 0DE[](https://www.google.com/maps/search/?api=1&query=The%20Keynes%20Library%2C%20Cambridge%20Union%2C%209A%20Bridge%20St%2C%20Cambridge%20CB2%201UB)\
 **Organisers:** ai@cam, Cambridge Innovation Capital and ELIAS Alliance\
 \
 ai@cam is hosting an inaugural **AI Sciencepreneurship bootcamp** convened in collaboration with the ELIAS network of European innovation hubs. This intensive two-day workshop will help researchers transform breakthrough AI innovations in scientific research into real-world impact, across domains from health, to environment, to materials science, and more. \
