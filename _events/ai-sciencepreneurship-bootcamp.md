@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: "AI Sciencepreneurship bootcamp "
-start: 2025-06-25 09:00
-end: 2025-06-26 17:00
+start: 2025-06-25 09:30
+end: 2025-06-26 17:30
 category:
   - events
 image: /assets/uploads/ai-sciencepreneurship-bootcamp-900-x-900-px-1-.png
