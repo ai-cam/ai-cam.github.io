@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Ruth Waler
+name: Ruth Walker
 title: Dr
 given: Ruth
 preferred: ""
