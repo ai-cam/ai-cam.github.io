@@ -20,11 +20,11 @@ OpRaise (opportunities and potential risks of AI in supporting evaluation) aims 
 
 **Project contributors:**
 
-* Deborah Talmi 
-* Isla Fay
-* Ruth Walker
-* Roni Tibon
-* Alexandru Marcoci
-* Maryam Abo-Tabik
-* Yael Benn
-* Giulio Corsi
+* Deborah Talmi,  Department of Psychology
+* Isla Fay, University Information Services
+* Ruth Walker, Cambridge Centre for Teaching and Learning
+* Roni Tibon, University of Nottingham
+* Alexandru Marcoci, University of Nottingham and Centre for the Study of Existential Risk and University of Cambridge
+* Maryam Abo-Tabik, University of Central Lancashire
+* Yael Benn, Manchester Metropolitan University
+* Giulio Corsi, Department of Psychology
