@@ -17,6 +17,9 @@ people:
   - Huw Jones
   - Helen Strudwick
   - Maya Indira Ganesh
+  - Anna Breger
+  - "Wallace Peaslee "
+  - Tuan Pham
 ---
 Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) house millions of objects from across the globe, representing an unparalleled repository of cultural and natural history. However, challenges such as analogue formats, handwritten records, fragmented objects, multilingual sources and complex surfaces make much of this data difficult to access.
 
@@ -24,16 +27,16 @@ To address these challenges, the AI for Cultural Heritage Hub (ArCH) will deploy
 
 **Project contributors:**
 
-* Amelie Roper	
-* Sam Brockington 
-* Helen Strudwick
-* Tuan Pham 
-* Wallace Peaslee
-* Huw Jones 
-* Mathew Lowe
-* Suzanne Paul 
-* Maya Indira Ganesh 
-* Irene Galandra 
-* Joshua Fitzgerald
-* Jennie Fletcher 
-* Anna Breger
+* Amelie Roper,	University Library
+* Sam Brockington,  Herbarium and Collections, Connections Communities Strategic Research Initiative (CCC)
+* Helen Strudwick, Fitzwilliam Museum
+* Tuan Pham,  University Library
+* Wallace Peaslee, Department of Applied Mathematics and Theoretical Physics (DAMTP)
+* Huw Jones, University Library
+* Mathew Lowe, University Museum of Zoology 
+* Suzanne Paul, University Library
+* Maya Indira Ganesh, Leverhulme Centre for the Future of Intelligence
+* Irene Galandra, Collections, Connections, Communities Strategic Research Initiative (CCC)
+* Joshua Fitzgerald, University Library
+* Jennie Fletcher, University Library
+* Anna Breger, Department of Applied Mathematics and Theoretical Physics (DAMTP)
