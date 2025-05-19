@@ -18,4 +18,4 @@ Cambridge is at the heart of a vibrant and thriving AI innovation ecosystem and 
 
 The showcase will feature a keynote from Professor Rich Turner (Dept of Engineering), short talks on topics ranging from AI in climate, biology and healthcare to education and cultural heritage, and will end with lunch and a networking and poster session.
 
-If you would like to attend the event and/or present a short talk or poster on your research, please register via the form: <https://forms.gle/hcCXn8ppupkQJYS1A> by Wednesday 25 June if you would like to present your research or Friday 11 July if you would like to attend the event.
+If you would like to attend the event and/or present a short talk or poster on your research, please register via the form: <https://forms.gle/hcCXn8ppupkQJYS1A> by **Wednesday 25 June** if you would like to present your research or **Friday 11 July** if you would like to attend the event.
