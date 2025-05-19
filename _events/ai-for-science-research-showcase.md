@@ -7,6 +7,7 @@ category:
   - events
   - sciencepreneurship
 image: /assets/uploads/arthur-mazi-xdsagqjumby-unsplash.jpg
+link_to: https://forms.gle/hcCXn8ppupkQJYS1A
 ---
 **Time & date:** Friday 18 July 2025, 9.30-14.00
 
