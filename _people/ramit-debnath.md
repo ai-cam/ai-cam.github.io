@@ -1,9 +1,10 @@
 ---
 layout: person
-title: Dr
 name: Ramit Debnath
+title: Dr
 given: Ramit
 family: Debnath
+job_title: Assistant Professor of Mathematics and Social Design
 department: Department of Architecture
 biography: >-
   Dr. Ramit Debnath is a university assistant professor and inaugural Cambridge
