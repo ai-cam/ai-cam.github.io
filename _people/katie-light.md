@@ -1,16 +1,16 @@
 ---
 layout: person
 name: Katie Light
-title: " Programme Manager for the Accelerate Programme for Scientific Discovery"
+title: "  "
 given: Katie
 family: Light
+job_title: " Programme Manager for the Accelerate Programme for Scientific Discovery"
 institution: ""
 department: ""
 category: []
 start: ""
 end: ""
 biography: ""
-email: ""
 twitter: ""
 github: ""
 scholar: ""
@@ -19,6 +19,7 @@ position: ""
 url: ""
 website: ""
 image: /assets/uploads/katie-light.jpg
+email: ""
 linkedin: ""
 crsid: ""
 orcid: ""
