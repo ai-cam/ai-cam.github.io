@@ -1,9 +1,10 @@
 ---
 layout: person
+name: Mo Vali
 title: Mr
 given: Mo
 family: Vali
-name: Mo Vali
-department: Department of Physics
 job_title: PhD Candidate
+department: Department of Physics
+image: /assets/uploads/mo-vali.jpeg
 ---
