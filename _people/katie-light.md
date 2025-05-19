@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Katie Light
-title: " "
+title: " Programme Manager for the Accelerate Programme for Scientific Discovery"
 given: Katie
 family: Light
 institution: ""
