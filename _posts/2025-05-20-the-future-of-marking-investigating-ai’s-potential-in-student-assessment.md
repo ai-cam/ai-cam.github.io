@@ -50,6 +50,16 @@ AI could also help standardise marking, reducing variability and unconscious bia
 
 Ideally, we want to examine how AI might serve as a supportive tool, ensuring that students receive high-quality feedback while maintaining the integrity of academic assessment.
 
+**What greater impact do you hope this project will have on the HE sector?**
+
+The success of this project will be measured by our ability to establish an evidence-based understanding of the role of AI in marking. We want to identify the conditions under which AI aligns with human judgement and facilitate an open conversation about AI integration in higher education assessment.
+
+As a result of our work, universities will be able to systematically assess the reliability and effectiveness of AI-supported marking systems, facilitating informed decision-making about integrating AI into assessment practices. In the first instance, OpRAISE will provide methodologies, best practices and baseline data required for evidence-based decisions on whether and how to deploy AI assistants as part of varied educational activities. This, in turn, has the potential to substantially improve student outcomes by providing educators with insights into how AI can enhance formative feedback, thereby promoting deeper learning and more tailored educational experiences.
+
+If AI proves to be effective, it could prompt further discussions about its potential use in secondary and post-secondary education, including A-levels and GCSEs. Even if AI is found to have limitations, understanding its strengths and weaknesses will enable institutions to make more informed decisions regarding its application.
+
+Ultimately, we aim to provide recommendations for best practices in AI-assisted assessment, ensuring that any implementation is ethical, fair, and beneficial to students and educators alike.
+
 **What inspired you to work in this field?**
 
 As a researcher, I find the process of discovery deeply rewarding. The opportunity to analyse data and uncover new insights that have not been seen before is exhilarating. However, this isn’t just about AI – it’s about the future of education.
