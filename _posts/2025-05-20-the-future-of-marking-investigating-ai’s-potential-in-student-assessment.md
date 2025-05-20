@@ -14,7 +14,7 @@ image: /assets/uploads/kateryna-hliznitsova-jt5iuqhtl7e-unsplash.jpg
 people:
   - Deborah Talmi
 ---
-Concerns are growing about the impact of AI across the higher education sector, but could it offer real value in university assessment and marking? Dr Deborah Talmi, an experimental psychologist at the University of Cambridge, is leading ai@cam’s AI-deas project to develop an evidence-based framework for the role of AI in student evaluation.
+Concerns are growing about the impact of AI across the higher education sector, but could it offer real value in university assessment and marking? [Dr Deborah Talmi](https://www.psychol.cam.ac.uk/staff/dr-deborah-talmi), an experimental psychologist at the University of Cambridge, is leading ai@cam’s AI-deas project to develop an evidence-based framework for the role of AI in student evaluation.
 
 **What was the motivation behind the ‘Supporting evaluation through AI’ project?**
 
