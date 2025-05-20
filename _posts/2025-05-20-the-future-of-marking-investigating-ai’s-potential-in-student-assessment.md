@@ -49,3 +49,15 @@ If AI proves to be a reliable tool for assessment, it could alleviate a lot of t
 AI could also help standardise marking, reducing variability and unconscious bias among teachers and educators. Additionally, AI-generated feedback could serve as a tool for students to get immediate comments on drafts, allowing them to refine their work before a final submission. At the end of the day, it could make higher education more accessible. However, there are strong concerns that AI might overlook nuances in argumentation and creativity that only human examiners may recognise.
 
 Ideally, we want to examine how AI might serve as a supportive tool, ensuring that students receive high-quality feedback while maintaining the integrity of academic assessment.
+
+**What inspired you to work in this field?**
+
+As a researcher, I find the process of discovery deeply rewarding. The opportunity to analyse data and uncover new insights that have not been seen before is exhilarating. However, this isn’t just about AI – it’s about the future of education.
+
+Ultimately, this is an opportunity to shape the conversation about AI in higher education. By approaching it with curiosity rather than fear, we can determine whether AI should be a tool for improving education or if there are boundaries that need to be protected and maintained.
+
+This is an exciting and critical area of research, and I look forward to seeing where the evidence leads us.
+
+**F﻿ind out more**
+
+This research is being led by the University of Cambridge in collaboration with the University of Nottingham and Manchester Metropolitan University. If you’re interested in learning more or contributing to the project, please reach out to a member of the [project team](https://ai.cam.ac.uk/projects/supporting-evaluation-through-ai) or [Dr Deborah Talmi.](dt492@cam.ac.uk)
