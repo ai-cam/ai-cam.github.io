@@ -4,20 +4,19 @@ name: Guy Emerson
 title: Dr
 given: Guy
 family: Emerson
-department: Department of Computer Science and Technology
 job_title: Executive Director, Cambridge Language Sciences
+department: Department of Computer Science and Technology
 biography: >-
-  I began my undergraduate studies as a mathematician at Trinity College,
-  Cambridge, before switching to a masters in computer science, focusing on
-  computational linguistics.  I then spent one year studying at Saarland
-  University and working at DFKI (the German Research Centre for Artificial
-  Intelligence), before returning to Cambridge to pursue a PhD under the
-  supervision of Ann Copestake, which I completed in 2018.  I am currently an
-  Executive Director of Cambridge Language Sciences, a Departmental Early-Career
-  Academic Fellow at the Department of Computer Science and Technology, and a
-  College Lecturer and Bye-Fellow at Gonville & Caius College.
+  Guy develops methods in AI and machine learning, with a focus on understanding
+  language.
 
 
-  I was born in Singapore and grew up in London.  I speak English (native), German (fluent), French (fluent), Hokkien (intermediate), Mandarin (intermediate), and bits and pieces of others, including Greek, Georgian, Swedish, Dutch, and Rhine-Franconian.
+  He supports interdisciplinary research across the University, as an Executive Director of Cambridge Language Sciences.
+
+
+  He is interested in applications of AI in many domains, and for example has worked on a project in Somalia in partnership with UNICEF, on listening to citizens' opinions on a range of healthcare topics. He is currently a co-Investigator on the AI@Cam project "Improving language equity and inclusion through AI". 
+
+
+  He would be happy to advise on the feasibility and potential strengths and weaknesses of AI applications, particularly those related to language. This includes large language models (LLMs), as well as many other kinds of model. In general, it is critical to understand what kinds of mistake an AI system might make, how problematic those mistakes are, how frequent they are, and how the resulting risks could be mitigated.
 image: /assets/uploads/guy-emerson.jpeg
 ---
