@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: The AI Summit London
+title: "The AI Summit London "
 start: 2025-06-11 11:25
 end: 2025-06-11 11:50
 category:
