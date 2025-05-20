@@ -18,7 +18,7 @@ people:
 
 **Business and the Atomic Human: Strategic Decision Making in the Age** 
 
-As AI technologies reshape the business landscape, leaders face questions about balancing automation with individual judgment, information flows, and organisational decision-making. This talk builds on the ideas in Atomic Human to explore the practical implications of AI for businesses through the lens of information topography, decision-making structures, and human-AI collaboration. Drawing from real-world examples and insights from the book we’ll explore how businesses can strategically implement AI while maintaining human agency, intelligent accountability, and organisational effectiveness.\
+As AI technologies reshape the business landscape, leaders face questions about balancing automation with individual judgment, information flows, and organisational decision-making. In this talk, Prof Neil Lawrence will build on the ideas in The Atomic Human to explore the practical implications of AI for businesses through the lens of information topography, decision-making structures, and human-AI collaboration. Drawing from real-world examples and insights from the book we’ll explore how businesses can strategically implement AI while maintaining human agency, intelligent accountability, and organisational effectiveness\
 \
 **A﻿I Summit London**
 
