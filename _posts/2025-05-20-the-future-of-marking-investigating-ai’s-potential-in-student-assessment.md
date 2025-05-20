@@ -16,13 +16,13 @@ people:
 ---
 Concerns are growing about the impact of AI across the higher education sector, but could it offer real value in university assessment and marking? [Dr Deborah Talmi](https://www.psychol.cam.ac.uk/staff/dr-deborah-talmi), an experimental psychologist at the University of Cambridge, is leading ai@cam’s AI-deas project to develop an evidence-based framework for the role of AI in student evaluation.
 
-**What was the motivation behind the ‘Supporting evaluation through AI’ project?**
+## What was the motivation behind the ‘Supporting evaluation through AI’ project?
 
 At the highest level, I’m interested in the value of academia for society and the changing landscape of higher education. The increasing use of AI in student coursework has been widely discussed, particularly regarding academic integrity and data protection. As an examiner, this sparked my curiosity about AI’s potential in student assessments and whether it could ever align with human judgement.
 
 This project emerged from some fundamental questions: how does AI’s evaluation of student work compare to human examiners? What are the differences? What are the overlaps? As researchers, our goal is to start an informed, evidence-based discussion around the role and use of AI in assessment. Rather than relying on speculation, we aim to gather clear data to understand how AI might complement – or potentially challenge – traditional marking methods. We also need to understand, as a sector, the potential benefits, and risks of using this technology in assessment, and that means bringing diverse voices into the conversation.
 
-**How will you conduct the research?**
+## How will you conduct the research?
 
 The project has three strands. Firstly, we will be establishing an advisory board to unify expertise and consider best practices for the responsible integration of AI into assessment processes. We are working with co-investigators (examiners, teachers, and educators) from three universities – the University of Cambridge, the University of Nottingham, and Manchester Metropolitan University. Each institution will be represented on our committee alongside those from the Office for Students and the Department for Education.
 
@@ -34,7 +34,7 @@ Our final step will be gathering qualitative research. We will be conducting sur
 
 The hope is, that by the end of the project, we have enough evidence to share our findings and invite others to have their say in steering the future of this technology.
 
-**What challenges do you anticipate facing throughout the project?**
+## What challenges do you anticipate facing throughout the project?
 
 A major challenge is ensuring AI models are used ethically and transparently. We must navigate academic integrity, intellectual property, and bias. Additionally, AI models will need to be queried effectively, as poorly designed prompts could lead to inaccurate assessments.
 
@@ -42,7 +42,7 @@ Another challenge is overcoming scepticism within the academic community. Many e
 
 There is also the logistical challenge of interdisciplinary collaboration. This project involves AI specialists, psychologists, educators, and university staff across all levels, all of whom bring valuable opinions to this discussion. Ensuring smooth communication and integration of expertise will be essential to the project’s success.
 
-**What are the potential benefits of adopting AI in assessment?**
+## What are the potential benefits of adopting AI in assessment?
 
 If AI proves to be a reliable tool for assessment, it could alleviate a lot of the administrative burden associated with marking. Rather than spending weeks reviewing essays, lecturers could use that time for in-depth discussions with students, providing personalised feedback and mentorship. This shift could lead to a more dynamic learning environment for students, where lecturers could focus on fostering deeper critical engagement around a subject area.
 
@@ -50,7 +50,7 @@ AI could also help standardise marking, reducing variability and unconscious bia
 
 Ideally, we want to examine how AI might serve as a supportive tool, ensuring that students receive high-quality feedback while maintaining the integrity of academic assessment.
 
-**What greater impact do you hope this project will have on the HE sector?**
+## What greater impact do you hope this project will have on the HE sector?
 
 The success of this project will be measured by our ability to establish an evidence-based understanding of the role of AI in marking. We want to identify the conditions under which AI aligns with human judgement and facilitate an open conversation about AI integration in higher education assessment.
 
@@ -60,7 +60,7 @@ If AI proves to be effective, it could prompt further discussions about its pote
 
 Ultimately, we aim to provide recommendations for best practices in AI-assisted assessment, ensuring that any implementation is ethical, fair, and beneficial to students and educators alike.
 
-**What inspired you to work in this field?**
+## What inspired you to work in this field?
 
 As a researcher, I find the process of discovery deeply rewarding. The opportunity to analyse data and uncover new insights that have not been seen before is exhilarating. However, this isn’t just about AI – it’s about the future of education.
 
@@ -68,6 +68,6 @@ Ultimately, this is an opportunity to shape the conversation about AI in higher 
 
 This is an exciting and critical area of research, and I look forward to seeing where the evidence leads us.
 
-**F﻿ind out more**
+## F﻿ind out more
 
 This research is being led by the University of Cambridge in collaboration with the University of Nottingham and Manchester Metropolitan University. If you’re interested in learning more or contributing to the project, please reach out to a member of the [project team](https://ai.cam.ac.uk/projects/supporting-evaluation-through-ai) or [Dr Deborah Talmi.](dt492@cam.ac.uk)
