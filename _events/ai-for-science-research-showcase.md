@@ -20,4 +20,4 @@ The showcase will feature a keynote from [Professor Richard Turner](https://www.
 
 **Registration**
 
-If you would like to attend the event and/or present a short talk or poster on your research, please register via the form: <https://forms.gle/hcCXn8ppupkQJYS1A> by **Wednesday 25 June i**f you would like to present your research or **Friday 11 July** if you would like to attend the event.
+If you would like to attend the event and/or present a short talk or poster on your research, please register via [this form](<https://forms.gle/hcCXn8ppupkQJYS1A>) by **Wednesday 25 June i**f you would like to present your research or **Friday 11 July** if you would like to attend the event.
