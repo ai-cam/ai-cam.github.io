@@ -68,6 +68,6 @@ Ultimately, this is an opportunity to shape the conversation about AI in higher 
 
 This is an exciting and critical area of research, and I look forward to seeing where the evidence leads us.
 
-## F﻿ind out more
+## M﻿ore about the Supporting evaluation through AI Project
 
 This research is being led by the University of Cambridge in collaboration with the University of Nottingham and Manchester Metropolitan University. If you’re interested in learning more or contributing to the project, please reach out to a member of the [project team](https://ai.cam.ac.uk/projects/supporting-evaluation-through-ai) or [Dr Deborah Talmi.](dt492@cam.ac.uk)
