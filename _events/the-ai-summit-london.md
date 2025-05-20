@@ -10,11 +10,13 @@ link_to: https://london.theaisummit.com/the-ai-summit-london-2025/business-atomi
 people:
   - Neil Lawrence
 ---
-**T﻿alk Title: Business and the Atomic Human: Strategic Decision Making in the Age of AI - Prof Neil Lawrence**\
+**T﻿alk Title:** Business and the Atomic Human: Strategic Decision Making in the Age of AI - Prof Neil Lawrence \
 **Time & date:** 11.25-11.50, Wednesday 11 June 2025\
 **Venue:** Headliners Stage, Tobacco Dock, 50 Porters Walk, London E1W 2SF\
 **Entry:** Registration required\
 **Organisers:** AI Summit London
+
+**Business and the Atomic Human: Strategic Decision Making in the Age** 
 
 As AI technologies reshape the business landscape, leaders face questions about balancing automation with individual judgment, information flows, and organisational decision-making. This talk builds on the ideas in Atomic Human to explore the practical implications of AI for businesses through the lens of information topography, decision-making structures, and human-AI collaboration. Drawing from real-world examples and insights from the book we’ll explore how businesses can strategically implement AI while maintaining human agency, intelligent accountability, and organisational effectiveness.\
 \
