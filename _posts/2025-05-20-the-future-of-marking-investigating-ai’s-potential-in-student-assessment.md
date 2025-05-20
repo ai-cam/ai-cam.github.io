@@ -54,7 +54,9 @@ Ideally, we want to examine how AI might serve as a supportive tool, ensuring th
 
 The success of this project will be measured by our ability to establish an evidence-based understanding of the role of AI in marking. We want to identify the conditions under which AI aligns with human judgement and facilitate an open conversation about AI integration in higher education assessment.
 
-As a result of our work, universities will be able to systematically assess the reliability and effectiveness of AI-supported marking systems, facilitating informed decision-making about integrating AI into assessment practices. In the first instance, OpRAISE will provide methodologies, best practices and baseline data required for evidence-based decisions on whether and how to deploy AI assistants as part of varied educational activities. This, in turn, has the potential to substantially improve student outcomes by providing educators with insights into how AI can enhance formative feedback, thereby promoting deeper learning and more tailored educational experiences.
+As a result of our work, universities will be able to systematically assess the reliability and effectiveness of AI-supported marking systems, facilitating informed decision-making about integrating AI into assessment practices.
+
+In the first instance, the project will provide methodologies, best practices and baseline data required for evidence-based decisions on whether and how to deploy AI assistants as part of varied educational activities. This, in turn, has the potential to substantially improve student outcomes by providing educators with insights into how AI can enhance formative feedback, thereby promoting deeper learning and more tailored educational experiences.
 
 If AI proves to be effective, it could prompt further discussions about its potential use in secondary and post-secondary education, including A-levels and GCSEs. Even if AI is found to have limitations, understanding its strengths and weaknesses will enable institutions to make more informed decisions regarding its application.
 
