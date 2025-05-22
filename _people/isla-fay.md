@@ -14,4 +14,5 @@ biography: I am a member of the university's Reimaging Professional Services
   transformation process.  My interest in AI relates to operational
   effectiveness and efficiency.
 image: /assets/uploads/isla-fay.jpg
+email: isla.fay@uis.cam.ac.uk
 ---
