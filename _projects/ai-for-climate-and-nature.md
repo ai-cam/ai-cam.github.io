@@ -44,7 +44,13 @@ The [AI for Climate and Nature](https://ai.conservation.cam.ac.uk/)project is a 
 
 Anil Madhavapeddy, AI-deas challenge co-lead, said: “Mitigating the impacts of climate change while maintaining and restoring biodiversity demands urgent, evidence-based action. We're excited to bring together an interdisciplinary team across computer science, ecology, climate and conservation to use AI to empower decision-makers to equitably tackle the biggest challenge of our generation.”
 
-**Project contributors:**
+T﻿he AI for Climate and Nature team includes three different projects:
+
+* **[Harnessing AI for Forest Monitoring: Impact on Climate and Biodiversity](https://ai.conservation.cam.ac.uk/projects/harnessing-ai-for-large-scale-forest-monitoring-impact-on-climate-and-biodiversity/)**
+* **[AI-Driven Conservation CoPilot: Revolutionising Biodiversity Solutions](https://ai.conservation.cam.ac.uk/projects/ai-driven-conservation-copilot-revolutionising-biodiversity-solutions/)**
+* **[Calculating Optimal Land Choices for a Greener Britain](https://ai.conservation.cam.ac.uk/projects/calculating-optimal-land-choices-for-a-greener-britain/)**
+
+**AI for Climate and Nature team Project Contributors:**
 
 * Alec Christie, Department of Zoology
 * Anil Madhavapeddy, Department of Computer Science & Technology, Cambridge Centre for Carbon Credits
