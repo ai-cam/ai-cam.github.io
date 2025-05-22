@@ -13,4 +13,5 @@ biography: Giulio Corsi is a Research Associate at the Centre for the Future of
   applications, from recommender systems to large language models, examining
   their influence on the dynamics of digital communication and trust.
 image: /assets/uploads/corsi.jpeg
+email: gc540@cam.ac.uk
 ---
