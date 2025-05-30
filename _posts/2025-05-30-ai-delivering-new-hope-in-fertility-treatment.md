@@ -11,6 +11,8 @@ date: 2025-05-29T00:00:00+01:00
 category:
   - ai-deas
 image: /assets/uploads/dr-thum-blog-image.jpg
+people:
+  - Yau Thum
 ---
 Meet Professor Yau Thum, a world-leading fertility expert who has joined forces with computer scientists, psychologists and physicists at the University of Cambridge to pioneer a revolutionary AI-driven approach to transform the fertility journey – making it less stressful and more hopeful for families everywhere.
 
