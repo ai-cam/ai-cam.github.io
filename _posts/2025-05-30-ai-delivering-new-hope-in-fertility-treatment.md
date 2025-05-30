@@ -68,6 +68,6 @@ Professor Thum is equally passionate about nurturing younger generations, even b
 
 “On the research side, being able to expand knowledge in my field through research is deeply fulfilling. And if I can develop an app to support more patients, that would make me very, very happy.”
 
-**Read more about the ground-breaking ai@cam project From Womb to World: Using Innovative AI Methods to Revolutionise Fertility Treatments**
+**Read more about the ground-breaking ai@cam project [From Womb to World: Using Innovative AI Methods to Revolutionise Fertility Treatments](https://ai.cam.ac.uk/blog/from-womb-to-world-using-innovative-ai-methods-to-revolutionise-fertility-treatments)**
 
 ##### *A﻿s told to Vicky Anning*
