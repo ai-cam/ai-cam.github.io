@@ -34,7 +34,7 @@ This wouldn’t just be more efficient for the patient, it would streamline cons
 
 “If people don’t have the luxury to see a doctor,” he says, “they can download the app or digital platform to provide an initial analysis of their health or to get a diagnosis.”
 
-Empowering not replacing clinicians
+## Empowering not replacing clinicians
 
 The obvious question is whether Professor Thum is worried that his invention could potentially make him and his colleagues redundant? His answer is unequivocal.
 
@@ -50,7 +50,7 @@ Professor Thum is the first to admit that AI is still very much in its infancy i
 
 “In terms of development, I would say AI in medicine is still not able to walk on its own yet,” he says. “It’s still crawling. It’s still at a very primitive stage.”
 
-Bridging expertise
+## Bridging expertise
 
 Initiatives like ai@cam are crucial, Professor Thum believes, for bringing experts together from different sectors – bridging their knowledge to make sure that the potential of AI is being harnessed to solve challenges like infertility.
 
