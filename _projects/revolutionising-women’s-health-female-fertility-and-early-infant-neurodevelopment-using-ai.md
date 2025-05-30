@@ -20,6 +20,8 @@ people:
   - Junwei Yang
   - Diana Fusco
   - Nikhil Krishnan
+  - Yau Thum
+  - Gordon Smith
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
