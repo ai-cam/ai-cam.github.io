@@ -5,7 +5,7 @@ start: 2025-06-16 10:00
 end: 2025-06-16 17:15
 category:
   - events
-image: /assets/uploads/annual-conference-monday-16-june-2025-west-court-jesus-college-1-.png
+image: /assets/uploads/chia.jpeg
 ---
 **T﻿alk Title:** CHIA Annual Conference, Shaping the Future of AI\
 **Time & date:** 10.00-17.15, 16 June\
