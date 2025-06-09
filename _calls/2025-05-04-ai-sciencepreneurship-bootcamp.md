@@ -5,7 +5,7 @@ excerpt: "ai@cam announces its inaugural AI Sciencepreneurship Bootcamp, an
   immersive two-day programme convened in collaboration with the ELIAS network
   of European innovation hubs. "
 date: 2025-05-04 06:10:07
-closing_date: 2025-06-06 23:55:07
+closing_date: 2025-06-12 23:55:07
 category:
   - sciencepreneurship
   - events
@@ -60,7 +60,7 @@ paper_submissions:
     * Pitch development and showcase opportunities with local entrepreneurs
 
 
-    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. To apply, please complete the form <https://forms.gle/TEQedN8LtdhyJd8dA> by Friday 6 June.
+    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. To apply, please complete the form <https://forms.gle/TEQedN8LtdhyJd8dA> by **Thursday 12 June** (new extended deadline).
   buttons:
     - link: https://forms.gle/TEQedN8LtdhyJd8dA
       text: Apply here
