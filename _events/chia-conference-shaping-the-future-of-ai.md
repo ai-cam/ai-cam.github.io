@@ -87,6 +87,6 @@ Please see below for the full programme of events.\
 
   * Dr Millie Chapman, ETH Zürich, Google Research
   * Prof Anil Madhavapeddy, University of Cambridge
-  * Prof Richart Turner, University of Cambridge
+  * Prof Richard Turner, University of Cambridge
 * Best poster / demo / presentation prizes
 * Closing
