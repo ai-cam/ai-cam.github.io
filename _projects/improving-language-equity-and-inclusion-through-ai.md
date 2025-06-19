@@ -4,9 +4,11 @@ title: Improving language equity and inclusion through AI
 excerpt: "This project aims to develop new AI methods to understand and address
   these challenges to improve equity and inclusion. It will develop new ways to
   support people with language and communication difficulties. "
-date: 2024-01-01
 category:
   - ai-deas
+date: 2024-01-01
+image: /assets/uploads/jr-korpa-jxb5j1vdwsi-unsplash.jpg
+related: ai-deas
 people:
   - Matt Davis
   - Paula Buttery
@@ -22,7 +24,6 @@ people:
   - Sarah Morgan
   - Amy Orben
   - Alex Woolgar
-image: /assets/uploads/jr-korpa-jxb5j1vdwsi-unsplash.jpg
 ---
 Using language to communicate is something many take for granted. However, a significant proportion of the UK population find spoken or written communication more difficult due to sensory, neural or linguistic challenges such as hearing loss, brain injury or language barriers, and can face substantial disadvantages in many aspects of their lives.
 
@@ -34,12 +35,14 @@ Matt Davis, AI-deas challenge lead, said: "New AI technologies are changing our 
 
 Cambridge University hosts the UK’s largest community of researchers working on speech and language technology and have a remarkable breadth and depth of expertise in understanding the real-world impact of language challenges in education, health or work. This project brings these research communities together to develop new AI technologies to support people who find communicating using language a daily challenge in order to improve equity and inclusion."
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NJ-ot7odAC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Project contributors:
 
 * Matt Davis, MRC Cognition and Brain Sciences Unit
 * Paula Buttery, Department of Computer Science and Technology
 * Guy Emerson, Department of Computer Science and Technology
-*  Brechtje Post, Faculty of Modern and Medieval Languages and Linguistics
+* Brechtje Post, Faculty of Modern and Medieval Languages and Linguistics
 * Jane Walsh, Faculty of Modern and Medieval Languages and Linguistics
 * Soumya Banerjee, Department of Computer Science and Technology
 * Ann Copestake, Department of Computer Science and Technology
