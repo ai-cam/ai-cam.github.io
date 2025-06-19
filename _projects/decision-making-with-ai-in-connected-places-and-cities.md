@@ -34,6 +34,7 @@ Understanding how to practically root AI use in ethical considerations, and show
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cxEjQFUrXTA?si=0DT_YFNErocsIRkW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## \
 Project contributors:
 
 * Dr Kwadwo Oti-Sarpong, Cambridge Centre for Smart Infrastructure and Construction ([CSIC](https://www-smartinfrastructure.eng.cam.ac.uk/ "https\://www-smartinfrastructure.eng.cam.ac.uk/")), Department of Engineering
