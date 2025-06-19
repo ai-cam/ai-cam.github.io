@@ -35,7 +35,7 @@ Matt Davis, AI-deas challenge lead, said: "New AI technologies are changing our 
 
 Cambridge University hosts the UK’s largest community of researchers working on speech and language technology and have a remarkable breadth and depth of expertise in understanding the real-world impact of language challenges in education, health or work. This project brings these research communities together to develop new AI technologies to support people who find communicating using language a daily challenge in order to improve equity and inclusion."
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NJ-ot7odAC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NJ-ot7odAC4?si=uXUTc3R8tf1HncdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Project contributors:
 
