@@ -2,7 +2,7 @@
 layout: event-single
 title: AI for Science Research Showcase
 start: 2025-07-18 09:30
-end: 2025-07-18 14:00
+end: 2025-07-18 18:00
 category:
   - events
   - sciencepreneurship
