@@ -37,7 +37,7 @@ Cambridge University hosts the UK’s largest community of researchers working o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NJ-ot7odAC4?si=uXUTc3R8tf1HncdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Project contributors:
+### Project contributors:
 
 * Matt Davis, MRC Cognition and Brain Sciences Unit
 * Paula Buttery, Department of Computer Science and Technology
