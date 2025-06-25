@@ -34,3 +34,5 @@ The hallucinations – normally viewed as flaws – became a feature, generating
 By exploring subtle synergies and overlooked pathways, GPT-4 helped identify six promising drug pairs, all tested through lab experiments. Among the combinations, simvastatin (commonly used to lower cholesterol) and disulfiram (used in alcohol dependence) stood out against breast cancer cells. Some of these combinations show potential for further research in therapeutic repurposing.
 
 These drugs, while not traditionally associated with cancer care, could be potential cancer treatments, although they would first have to go through extensive clinical trials.
+
+**[Continue to read the full article here](https://www.cam.ac.uk/research/news/ai-scientist-suggests-combinations-of-widely-available-non-cancer-drugs-can-kill-cancer-cells)**
