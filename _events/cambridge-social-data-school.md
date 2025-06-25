@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: Cambridge Social Data School
-start: 2025-06-08 09:00
+start: 2025-09-08 09:00
 end: 2025-09-12 17:00
 category:
   - events
