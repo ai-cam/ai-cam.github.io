@@ -6,16 +6,17 @@ end: 2025-09-12 17:00
 category:
   - events
 image: /assets/uploads/data.jpg
+link_to: https://www.cdh.cam.ac.uk/about/news/sds-2025/
 ---
 D﻿ate: Mon, 8 Sep 2025 9:00 AM - Fri, 12 Sep 2025 5:00 PM\
 Organiser: Cambridge Digital Humanities\
 \
 \
-The Social Data School (SDS)delivers hands-on training that equips participants with the skills and knowledge necessary to conduct data-driven investigations in the public interest. This iteration focusses on the material and societal impact of **artificial intelligence (AI) technologies**.
+The Social Data School (SDS)delivers hands-on training that equips participants with the skills and knowledge necessary to conduct data-driven investigations in the public interest. This iteration focusses on the material and societal impact of artificial intelligence (AI) technologies.
 
 Together with an [expert-led teaching team](https://www.cdh.cam.ac.uk/events/39629/#teaching-team), participants will explore the infrastructure which underpins data-driven platforms, including data centres, supply chains, networks, mineral extraction, e-waste landfills, chip factories and data models.\
 \
-The Social Data School (SDS)delivers hands-on training that equips participants with the skills and knowledge necessary to conduct data-driven investigations in the public interest. This iteration focusses on the material and societal impact of **artificial intelligence (AI) technologies**.
+The Social Data School (SDS)delivers hands-on training that equips participants with the skills and knowledge necessary to conduct data-driven investigations in the public interest. This iteration focusses on the material and societal impact of artificial intelligence (AI) technologies.
 
 Together with an [expert-led teaching team](https://www.cdh.cam.ac.uk/events/39629/#teaching-team), participants will explore the infrastructure which underpins data-driven platforms, including data centres, supply chains, networks, mineral extraction, e-waste landfills, chip factories and data models.
 
