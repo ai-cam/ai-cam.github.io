@@ -28,3 +28,5 @@ It was developed by researchers at the University of Cambridge along with collea
 LightShed works through a three-step process. It first identifies whether an image has been altered with known poisoning techniques.
 
 In a second, reverse engineering step, it learns the characteristics of the perturbations using publicly available poisoned examples. Finally, it eliminates the poison to restore the image to its original, unprotected form.
+
+**[Continue to read the full article here](https://www.cam.ac.uk/research/news/ai-art-protection-tools-still-leave-creators-at-risk-researchers-say)**
