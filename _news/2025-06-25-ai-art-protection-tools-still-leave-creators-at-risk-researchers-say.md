@@ -25,7 +25,7 @@ But the researchers have created a method – called LightShed – that can bypa
 
 It was developed by researchers at the University of Cambridge along with colleagues at the Technical University Darmstadt and the University of Texas at San Antonio. The researchers hope that by publicising their work – which will be presented at the *USENIX Security Symposium*, a major security conference, in August – they can let creatives know that there are major issues with art protection tools.
 
-LightShed works through a three-step process. It first identifies whether an image has been altered with known poisoning techniques.
+LightShed works through a three-step process. It first identifies whether an image has been altered with known poisoning techniques. 
 
 In a second, reverse engineering step, it learns the characteristics of the perturbations using publicly available poisoned examples. Finally, it eliminates the poison to restore the image to its original, unprotected form.
 
