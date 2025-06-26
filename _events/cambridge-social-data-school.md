@@ -8,8 +8,8 @@ category:
 image: /assets/uploads/data.jpg
 link_to: https://www.cdh.cam.ac.uk/about/news/sds-2025/
 ---
-D﻿ate: Mon, 8 Sep 2025 9:00 AM - Fri, 12 Sep 2025 5:00 PM\
-Organiser: Cambridge Digital Humanities\
+**D﻿ate:** Mon, 8 Sep 2025 9:00 AM - Fri, 12 Sep 2025 5:00 PM\
+**Organiser:** Cambridge Digital Humanities\
 \
 \
 The Social Data School (SDS)delivers hands-on training that equips participants with the skills and knowledge necessary to conduct data-driven investigations in the public interest. This iteration focusses on the material and societal impact of artificial intelligence (AI) technologies.
@@ -36,5 +36,3 @@ The Social Data School balances foundational skills with real-world applications
 Along with leading academic researchers and practitioners, the School’s intensive in-person teaching programme will be structured around the lifecycle of a project, exploring the methods used to create, visualise, and analyse digital data. The Data School Team has created a teaching and learning experience which incorporates lectures, digital tools demonstrations, workshops, group work and more. Through this varied programme, participants will not only develop their technical skills but also engage with critical questions about data in society.
 
 Previous participants have benefitted from the practical way digital methods are applied to real problems, the critical way in which they are employed, as well as from the interactions with teachers and peers during a week of activities.
-
-We encourage anyone working with social data to apply.
