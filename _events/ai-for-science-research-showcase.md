@@ -21,3 +21,31 @@ The showcase will feature keynotes from [Professor Richard Turner](https://www.e
 **Registration**
 
 If you would like to attend the event please register via [this form](https://forms.gle/hcCXn8ppupkQJYS1A) by **Friday 11 July.**
+
+**Agenda**
+
+**9:30 - Arrival and registration**
+
+**9:40 -** Welcome and introduction
+
+**9:45 -** Prof Rich Turner
+
+**10:15 -** Prof Zoe Kourtzi
+
+**10:45 - Coffee break**
+
+**11:05 -** Short talk session 1
+
+**12:25 -** Dr Pushmeet Kohli
+
+**13:00 - Lunch and poster session**
+
+**14:00 -** Short talk session 2
+
+**15:15 -** Prof Anil Madhavapeddy
+
+**15:55 -** Closing remarks
+
+**16:00 -** Drinks reception and networking session
+
+**18:00 - Close**
