@@ -11,9 +11,7 @@ category:
 image: /assets/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg
 hero:
   heading: AI for University Operations Project Funding Call
-  content: "Supporting University of Cambridge professional services teams to
-    deploy AI to enhance the efficiency and effectiveness of University
-    operations. "
+  content: ""
   image: ""
 media_text:
   content: >+
@@ -29,7 +27,7 @@ media_text:
     Our previous call for expressions of interest in AI for Operations showed there is huge interest from professional services staff in experimenting with AI across diverse applications - from communications teams using AI for content generation to finance departments exploring contract analysis. Many staff want to upskill in this area, but lack the resources to identify and implement AI tools that could benefit their work. In response, ai@cam is launching the AI for Operations project funding call. This initiative will provide funding and technical support for administrative teams ready to deploy AI solutions that address real operational challenges.
 
   buttons: []
-  image: /assets/uploads/richard-boland-0-iusqzzbdq-unsplash.jpg
+  image: /assets/uploads/cambridge-building.jpg
 paper_submissions:
   content: >-
     Projects supported by this call will receive up to £10,000 to carry out 6
