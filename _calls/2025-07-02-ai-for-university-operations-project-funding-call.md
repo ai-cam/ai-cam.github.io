@@ -47,7 +47,7 @@ paper_submissions:
     How to get started: If you would like to apply to the AI for Operations project funding call please complete the application form below by **12:00, Friday 29 August 2025.**
 
 
-    If you have any questions about the call please email Annabelle Scott as599@cam.ac.uk
+    If you have any questions about the call please email Annabelle Scott (as599@cam.ac.uk)
   buttons:
     - link: https://forms.gle/kKvRo57cmdA95z1u5
       text: Apply here
