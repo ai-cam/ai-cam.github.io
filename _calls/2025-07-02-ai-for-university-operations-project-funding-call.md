@@ -53,7 +53,7 @@ faqs:
       content: The AI for Operations programme enables professional services teams to
         deploy AI in specific projects or workflows that improves the efficiency
         of University operational processes, and develops a network where
-        successful practices can be shared
+        successful practices can be shared.
     - heading: Who is eligible to apply?
       content: Professional services staff teams employed by the University of
         Cambridge are eligible to apply for this funding. Academic and
