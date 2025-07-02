@@ -10,11 +10,12 @@ category:
   - research-and-innovation
 image: /assets/uploads/cancer-ai.jpg
 hero:
-  heading: "Supporting University of Cambridge professional services teams to
+  heading: AI for University Operations Project Funding Call
+  content: "Supporting University of Cambridge professional services teams to
     deploy AI to enhance the efficiency and effectiveness of University
     operations. "
 media_text:
-  content: >
+  content: >+
     Universities face growing administrative complexity while working to support
     their core academic mission. AI offers a capacity-building tool to support
     more efficient administrative processes while freeing up time for complex
@@ -26,19 +27,28 @@ media_text:
 
     Our previous call for expressions of interest in AI for Operations showed there is huge interest from professional services staff in experimenting with AI across diverse applications - from communications teams using AI for content generation to finance departments exploring contract analysis. Many staff want to upskill in this area, but lack the resources to identify and implement AI tools that could benefit their work. In response, ai@cam is launching the AI for Operations project funding call. This initiative will provide funding and technical support for administrative teams ready to deploy AI solutions that address real operational challenges.
 
-
-    Projects supported by this call will receive up to £10,000 to carry out 6 month project sprints, during which time teams will have access to technical support via an AI Clinic, and community engagement activities to develop shared case studies and best practices. Showcase events will share project outcomes with the wider community.
+  buttons:
+    - text: Apply here
+      link: https://forms.gle/kKvRo57cmdA95z1u5
+paper_submissions:
+  content: >-
+    Projects supported by this call will receive up to £10,000 to carry out 6
+    month project sprints, during which time teams will have access to technical
+    support via an AI Clinic, and community engagement activities to develop
+    shared case studies and best practices. Showcase events will share project
+    outcomes with the wider community.
 
 
     Jess Montgomery, Director, ai@cam, said “Professional services staff are eager to experiment with AI, and this programme will help them not just implement solutions, but share their successes and learn from each other. That's how we'll scale real impact across our administrative functions and create more responsive and efficient systems that better support our students and researchers."
 
 
-    How to get started: If you would like to apply to the AI for Operations project funding call please fill out the application form here https://forms.gle/kKvRo57cmdA95z1u5 by 12:00, Friday 29 August 2025.
+    How to get started: If you would like to apply to the AI for Operations project funding call please complete the application form below by **12:00, Friday 29 August 2025.**\
+
 
     If you have any questions about the call please email Annabelle Scott as599@cam.ac.uk
   buttons:
-    - text: Apply here
-      link: https://forms.gle/kKvRo57cmdA95z1u5
+    - link: https://forms.gle/kKvRo57cmdA95z1u5
+      text: Apply here
 faqs:
   faqs:
     - heading: What are the objectives of the AI for Operations programme?
