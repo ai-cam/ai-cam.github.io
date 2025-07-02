@@ -14,6 +14,7 @@ hero:
   content: "Supporting University of Cambridge professional services teams to
     deploy AI to enhance the efficiency and effectiveness of University
     operations. "
+  image: ""
 media_text:
   content: >+
     Universities face growing administrative complexity while working to support
@@ -30,6 +31,7 @@ media_text:
   buttons:
     - text: Apply here
       link: https://forms.gle/kKvRo57cmdA95z1u5
+  image: /assets/uploads/tim-alex-fc1uuekwozc-unsplash-1-.jpg
 paper_submissions:
   content: >-
     Projects supported by this call will receive up to £10,000 to carry out 6
