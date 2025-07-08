@@ -1,6 +1,6 @@
 ---
 layout: call-single
-title: AI for University Operations Project Funding Call
+title: AI for University Operations Funding Call
 excerpt: "Supporting University of Cambridge professional services teams to
   deploy AI to enhance the efficiency and effectiveness of University
   operations. "
