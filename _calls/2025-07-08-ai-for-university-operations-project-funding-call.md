@@ -43,13 +43,13 @@ paper_submissions:
 
     \
 
-    **AI for Ops Launch Workshop - Tuesday 7 October, 10.00-12.30**\
+    **10.00-12.30, Tuesday 7 October - AI for Ops Launch Workshop**   \
 
-    **Community meet up Monday 1 Dec, 10.00-11.00am**\
+    **10.00-11.00, Monday 1 December - Community meet up**\
 
-    **Community meet up Wednesday 4 March, 12.30-13.30**\
+    **12.30-13.30, Wednesday 4 March -  Community meet up** \
 
-    **Show and Tell Final showcase Wednesday 13 May, 13.30 – 15.30**\
+    **13.30 – 15.30, Wednesday 13 May - Show & Tell Final showcase**\
 
     \
      If you have any questions about the call please email Annabelle Scott (as599@cam.ac.uk)
