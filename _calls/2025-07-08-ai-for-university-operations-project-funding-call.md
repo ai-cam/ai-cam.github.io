@@ -52,4 +52,6 @@ paper_submissions:
 
     If you have any questions about the call please email Annabelle Scott ([as599@cam.ac.uk](mailto:as599@cam.ac.uk)
   heading: How to Apply
+faqs:
+  heading: Frequently Asked Questions
 ---
