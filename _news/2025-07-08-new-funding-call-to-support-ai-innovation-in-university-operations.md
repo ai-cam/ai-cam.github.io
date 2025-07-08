@@ -21,7 +21,7 @@ The call is part of its ai@cam’s AI for Operations programme and offers projec
 
 “Professional services staff are eager to experiment with AI,” said Jess Montgomery, Director of ai@cam. “This programme will help them not just implement solutions, but share their successes and learn from each other. That's how we'll scale real impact across our administrative functions and create more responsive and efficient systems that better support our students and researchers."
 
-In addition to funding, successful applicants will benefit from digital support via monthly drop-in AI Clinics run by Accelerate Science’s machine learning engineers, peer learning opportunities and community events to share learnings and outcomes across the University. 
+In addition to funding, successful applicants will benefit from digital support via monthly drop-in AI Clinics run by Accelerate Science’s machine learning engineers and peer learning opportunities. Alongside the project call, ai@cam is launching a series of community events to share learnings and outcomes across the University.
 
 The new initiative builds on strong interest from professional services teams following ai@cam’s recent call for expressions of interest which revealed enthusiasm amongst staff to explore the use of AI across a variety of functions, from document processing and recruitment workflows to timetabling and content generation.
 
