@@ -3,11 +3,10 @@ layout: blog-single
 permalink: /blog/:title
 title: "Advancing Environmental Research Through AI: Highlights from the AI for
   Climate & Nature Community Day"
-excerpt: The [AI for Climate & Nature](https://ai.conservation.cam.ac.uk/)
-  Project, an [ai@cam](https://ai.cam.ac.uk/)-funded interdisciplinary research
-  programme, recently hosted its first Community Day, bringing together
-  researchers and practitioners from across disciplines to explore the growing
-  role of artificial intelligence (AI) in addressing environmental challenges.
+excerpt: The AI for Climate & Nature Project recently hosted its first Community
+  Day, bringing together researchers and practitioners from across disciplines
+  to explore the growing role of artificial intelligence (AI) in addressing
+  environmental challenges.
 date: 2025-06-27T00:00:00+01:00
 category:
   - ai-deas
