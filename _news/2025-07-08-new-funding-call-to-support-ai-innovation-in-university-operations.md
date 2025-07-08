@@ -6,7 +6,7 @@ excerpt: >
   ai@cam has launched a new funding call to support professional services teams
   across the University of Cambridge in deploying AI to improve the efficiency
   of operational processes. 
-author: Eli Pegler
+author: ""
 date: 2025-07-07T00:00:00+01:00
 category:
   - research-and-innovation
