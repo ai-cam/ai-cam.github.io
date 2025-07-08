@@ -5,7 +5,7 @@ excerpt: "Supporting University of Cambridge professional services teams to
   deploy AI to enhance the efficiency and effectiveness of University
   operations. "
 date: 2025-07-08 10:45:33
-closing_date: 2025-07-08 10:45:33
+closing_date: 2025-08-29 12:00:33
 category:
   - education
 image: /assets/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg
