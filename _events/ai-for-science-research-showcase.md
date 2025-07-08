@@ -20,7 +20,7 @@ The showcase will feature keynotes from [Professor Richard Turner](https://www.e
 
 **Registration**
 
-If you would like to attend the event please register via [this form](https://forms.gle/hcCXn8ppupkQJYS1A) by **Friday 11 July.**
+We have closed registration as the event has reached full capacity. If you would like to be placed on the waiting list please get in touch with Annabelle Scott (as599@cam.ac.uk).
 
 **Agenda**
 
