@@ -9,6 +9,11 @@ closing_date: 2025-08-29 12:00:33
 category:
   - education
 image: /assets/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg
+hero:
+  heading: ""
+  content: "ai@cam has launched a new funding call to support professional
+    services teams across the University of Cambridge in deploying AI to improve
+    the efficiency of operational processes. "
 media_text:
   content: >
     Universities face growing administrative complexity while working to support
