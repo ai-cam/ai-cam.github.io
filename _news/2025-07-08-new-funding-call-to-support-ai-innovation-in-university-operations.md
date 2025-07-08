@@ -27,7 +27,6 @@ The new initiative builds on strong interest from professional services teams fo
 
 All projects proposed for the call will be assessed on their operational value, feasibility within the timeframe, and approach to ethical and risk considerations. Teams will not need prior AI expertise, but should demonstrate a willingness to learn and a clear understanding of the challenges they hope to address.
 
-**How to apply:\
-Applications must be submitted by 12:00, Friday 29 August 2025.** 
+**How to apply:**Applications must be submitted via the [AI for Ops Funding Call](https://www.ai.cam.ac.uk/calls/ai-for-university-operations-project-funding-call) page by **12:00, Friday 29 August 2025.** 
 
-**Please find our more on our [Calls page](https://www.ai.cam.ac.uk/calls/ai-for-university-operations-project-funding-call). For more information, contact Annabelle Scott, Programme Manager: as599@cam.ac.uk**
+For more information, contact Annabelle Scott, Programme Manager (as599@cam.ac.uk)
