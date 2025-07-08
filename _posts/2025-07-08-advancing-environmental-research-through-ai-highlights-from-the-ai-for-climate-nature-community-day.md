@@ -11,7 +11,7 @@ date: 2025-06-30T00:00:00+01:00
 category:
   - ai-deas
   - events
-image: /assets/uploads/ai-community-day-1-.jpg
+image: /assets/uploads/ai-community-day-1.jpg
 people:
   - Erik Mackie
   - Bill Sutherland
