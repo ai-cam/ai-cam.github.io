@@ -7,10 +7,10 @@ excerpt: "Supporting University of Cambridge professional services teams to
 date: 2025-07-08 10:45:33
 closing_date: 2025-08-29 12:00:33
 category:
-  - education
+  - research-and-innovation
 image: /assets/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg
 hero:
-  heading: ""
+  heading: ai@cam has launched a new funding call
   content: "ai@cam has launched a new funding call to support professional
     services teams across the University of Cambridge in deploying AI to improve
     the efficiency of operational processes. "
@@ -30,4 +30,5 @@ media_text:
 
     Projects supported by this call will receive up to £10,000 to carry out 6 month project sprints, during which time teams will have access to technical support via an AI Clinic, and community engagement activities to develop shared case studies and best practices. Showcase events will share project outcomes with the wider community.
   image: /assets/uploads/cambridge-building1.jpg
+  heading: ai@cam has launched a funding call
 ---
