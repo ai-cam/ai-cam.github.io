@@ -12,4 +12,4 @@ image: /assets/uploads/getty-images-onlxvzoyomq-unsplash.jpg
 
 After ai@cam’s AI for Ops funding call, we are excited to host our launch workshop for project awardees. 
 
-The workshop will be an opportunity for teams to share more about proposals supported in the first round of the AI for Ops cheme and an opportunity for our community to connect with fellow professional services teams. This event is designed to foster collaboration, exchange ideas, and explore shared challenges.
+The workshop will be an opportunity for teams to share more about proposals supported in the first round of the AI for Ops scheme and an opportunity for our community to connect with fellow professional services teams. This event is designed to foster collaboration, exchange ideas, and explore shared challenges.
