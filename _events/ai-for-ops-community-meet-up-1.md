@@ -6,7 +6,7 @@ end: 2026-03-04 13:30
 category:
   - events
 desc: ""
-image: /assets/uploads/ai-for-ops-3.jpeg
+image: /assets/uploads/cambridge.jpg
 ---
 **Time & date:** 12.30-13.30 | Wednesday 4 March\
 **Organisers:** ai@cam 
