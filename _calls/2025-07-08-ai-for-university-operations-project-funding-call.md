@@ -24,4 +24,5 @@ media_text:
 
 
     Projects supported by this call will receive up to £10,000 to carry out 6 month project sprints, during which time teams will have access to technical support via an AI Clinic, and community engagement activities to develop shared case studies and best practices. Showcase events will share project outcomes with the wider community.
+  image: /assets/uploads/cambridge-building1.jpg
 ---
