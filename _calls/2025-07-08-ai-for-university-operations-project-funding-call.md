@@ -48,5 +48,8 @@ paper_submissions:
     * Community meet up | Wednesday 4 March, 12.30-13.30
 
     * Show and Tell Final showcase | Wednesday 13 May, 13.30 – 15.30
+
+
+    If you have any questions about the call please email Annabelle Scott ([as599@cam.ac.uk](mailto:as599@cam.ac.uk)
   heading: How to Apply
 ---
