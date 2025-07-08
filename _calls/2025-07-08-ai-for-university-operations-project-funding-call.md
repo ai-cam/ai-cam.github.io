@@ -10,10 +10,8 @@ category:
   - research-and-innovation
 image: /assets/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg
 hero:
-  heading: ai@cam has launched a new funding call
-  content: "ai@cam has launched a new funding call to support professional
-    services teams across the University of Cambridge in deploying AI to improve
-    the efficiency of operational processes. "
+  heading: AI for University Operations Funding Call
+  content: ""
 media_text:
   content: >
     Universities face growing administrative complexity while working to support
