@@ -33,24 +33,25 @@ media_text:
     operations. "
 paper_submissions:
   content: >-
-    How to get started: If you would like to apply to the AI for Operations
-    project funding call please fill out the application form
-    [here](https://forms.gle/kKvRo57cmdA95z1u5) by 12:00, Friday 29 August 2025.
+    If you would like to apply to the AI for Operations project funding call
+    please fill out the application form here by 12:00, Friday 29 August 2025.\
 
+    \
 
-    Please register and keep hold in your diary the below dates for upcoming AI for Ops community meet ups. You can find these events listed on our Events page.
+    Please also register and keep hold in your diary the below dates for upcoming AI for Ops community meet ups. You can find these events listed on our Events page. \
 
+    \
 
-    * AI for Ops Launch Workshop - Tuesday 7 October, 10.00-12.30
+    AI for Ops Launch Workshop - Tuesday 7 October, 10.00-12.30\
 
-    * Community meet up | Monday 1 Dec, 10.00-11.00am 
+    Community meet up Monday 1 Dec, 10.00-11.00am\
 
-    * Community meet up | Wednesday 4 March, 12.30-13.30
+    Community meet up Wednesday 4 March, 12.30-13.30\
 
-    * Show and Tell Final showcase | Wednesday 13 May, 13.30 – 15.30
+    Show and Tell Final showcase Wednesday 13 May, 13.30 – 15.30\
 
-
-    If you have any questions about the call please email Annabelle Scott ([as599@cam.ac.uk](mailto:as599@cam.ac.uk)
+    \
+     If you have any questions about the call please email Annabelle Scott (as599@cam.ac.uk)
   heading: How to Apply
 faqs:
   heading: Frequently Asked Questions
