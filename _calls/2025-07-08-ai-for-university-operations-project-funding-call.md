@@ -52,7 +52,8 @@ paper_submissions:
     **13.30 – 15.30, Wednesday 13 May - Show & Tell Final showcase**\
 
     \
-     If you have any questions about the call please email Annabelle Scott (as599@cam.ac.uk)
+
+    If you have any questions about the call, please email Annabelle Scott ([as599@cam.ac.uk](<>)). Further information can be found below in our FAQs.
   heading: How to Apply
   buttons:
     - text: "Apply here "
