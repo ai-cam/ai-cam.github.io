@@ -7,7 +7,7 @@ excerpt: The AI for Climate & Nature Project recently hosted its first Community
   Day, bringing together researchers and practitioners from across disciplines
   to explore the growing role of artificial intelligence (AI) in addressing
   environmental challenges.
-date: 2025-06-27T00:00:00+01:00
+date: 2025-06-30T00:00:00+01:00
 category:
   - ai-deas
 image: /assets/uploads/ai-community-day-1-.jpg
