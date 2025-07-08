@@ -1,7 +1,6 @@
 ---
 layout: call-single
-title: "'AI for University Ops': Supporting administrative innovation across the
-  University"
+title: "'AI for University Ops': Expression of Interest"
 excerpt: ai@cam is launching a new initiative to support administrative staff
   across the University to use AI to enhance University operations. The “AI for
   University Ops” programme will provide funding, technical support, and
