@@ -9,7 +9,7 @@ desc: ""
 image: /assets/uploads/ai-for-ops-3.jpeg
 ---
 **Time & date:** 12.30-13.30 | Wednesday 4 March\
-**Organisers:** ai@cam
+**Organisers:** ai@cam 
 
 ai@cam invites you to join us for our community Lunch & Learn as part of the AI for Ops programme.
 
