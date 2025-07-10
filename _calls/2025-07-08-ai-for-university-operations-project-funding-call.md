@@ -49,7 +49,7 @@ paper_submissions:
 
     **12.30-13.30, Wednesday 4 March -  Community meet up** \
 
-    **13.30 – 15.30, Wednesday 13 May - Show & Tell Final showcase**\
+    **13.30–15.30, Wednesday 13 May - Show & Tell Final showcase**\
 
     \
 
