@@ -24,7 +24,7 @@ We have closed registration as the event has reached full capacity. If you would
 
 **Agenda**
 
-**9:30 - Arrival and registration**
+**9:15 - Arrival and registration**
 
 **9:40 -** Welcome and introduction
 
@@ -34,13 +34,13 @@ We have closed registration as the event has reached full capacity. If you would
 
 **10:45 - Coffee break**
 
-**11:05 -** Short talk session 1
+**11:15 -** Short talk session 1
 
 **12:25 -** Dr Pushmeet Kohli
 
 **13:00 - Lunch and poster session**
 
-**14:00 -** Short talk session 2
+**14:20 -** Short talk session 2
 
 **15:15 -** Prof Anil Madhavapeddy
 
