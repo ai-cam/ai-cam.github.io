@@ -43,13 +43,27 @@ paper_submissions:
 
     \
 
-    **10.00-12.30, Tuesday 7 October - AI for Ops Launch Workshop**   \
+    **10.00-12.30 | Tuesday 7 October - AI for Ops Launch Workshop**   \
 
-    **10.00-11.00, Monday 1 December - Community meet up**\
+    [R﻿egister here](https://forms.gle/aqUbR63GnrBbVrve9)\
 
-    **12.30-13.30, Wednesday 4 March -  Community meet up** \
+    \
 
-    **13.30–15.30, Wednesday 13 May - Show & Tell Final showcase**\
+    **10.00-11.00 | Monday 1 December - Community meet up**\
+
+    Registration details to follow\
+
+    \
+
+    **12.30-13.30 | Wednesday 4 March -  Community meet up**  \
+
+    Registration details to follow\
+
+    \
+
+    **13.30–15.30 | Wednesday 13 May - Show & Tell Final showcase**\
+
+    Registration details to follow\
 
     \
 
@@ -58,8 +72,6 @@ paper_submissions:
   buttons:
     - text: "Apply here "
       link: https://forms.gle/kKvRo57cmdA95z1u5
-    - text: Register for the AI for Ops Workshop
-      link: https://forms.gle/dN9ADJkzgi3r6yd47
 faqs:
   heading: Frequently Asked Questions
   faqs:
