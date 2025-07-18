@@ -58,6 +58,8 @@ paper_submissions:
   buttons:
     - text: "Apply here "
       link: https://forms.gle/kKvRo57cmdA95z1u5
+    - text: Register for the AI for Ops Workshop
+      link: https://forms.gle/dN9ADJkzgi3r6yd47
 faqs:
   heading: Frequently Asked Questions
   faqs:
