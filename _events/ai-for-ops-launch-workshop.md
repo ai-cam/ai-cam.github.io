@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI for Ops Launch Workshop
+title: "AI for Ops Launch Workshop "
 start: 2025-10-07 10:00
 end: 2025-10-07 12:30
 category:
