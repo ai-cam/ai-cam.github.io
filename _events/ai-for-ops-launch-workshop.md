@@ -6,6 +6,7 @@ end: 2025-10-07 12:30
 category:
   - events
 image: /assets/uploads/ai-for-ops-1.jpg
+link_to: https://forms.gle/dN9ADJkzgi3r6yd47
 ---
 **Time & date:** 10.00-12.30 | Tuesday 7th October \
 **Organisers:** ai@cam
