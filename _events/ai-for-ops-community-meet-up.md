@@ -8,7 +8,7 @@ category:
 desc: "\n"
 image: /assets/uploads/getty-images-onlxvzoyomq-unsplash.jpg
 ---
-**Time & date:** 10.00-11.00 | Monday 1 December
+**Time & date:** 10.00-11.00 | Monday 1 December\
 **Organisers:** ai@cam
 
 Join us for the next ai@cam Community Meet-Up as part of the AI for Ops programme.
