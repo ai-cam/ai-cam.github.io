@@ -9,7 +9,7 @@ desc: ""
 image: /assets/uploads/cambridge.jpg
 link_to: https://forms.gle/NNrY8sWd5bJY97HW8
 ---
-**Time & date:** 12.30-13.30 | Wednesday 4 March\
+**Time & date:** 12.30-13.30 | Wednesday 4 March 2026\
 **Organisers:** ai@cam
 
 ai@cam invites you to join us for our community Lunch & Learn as part of the AI for Ops programme.
