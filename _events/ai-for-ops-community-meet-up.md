@@ -7,10 +7,13 @@ category:
   - events
 desc: "\n"
 image: /assets/uploads/getty-images-onlxvzoyomq-unsplash.jpg
+link_to: https://forms.gle/UnYeBtefpJPvP9Vf9
 ---
 **Time & date:** 10.00-11.00 | Monday 1 December\
 **Organisers:** ai@cam
 
 Join us for the next ai@cam Community Meet-Up as part of the AI for Ops programme.
 
-This informal networking event is a chance to connect with colleagues from across the university who are exploring the use of AI in operational teams. This session offers university staff an opportunity to learn how colleagues are leveraging AI to enhance operational effectiveness. Whether you are beginning to explore AI applications within your work or actively implementing tools, this event provides a valuable forum to exchange insights and share best practice. We invite presentations of brief case studies, work-in-progress updates, or current challenges to foster shared learning and collaboration. Registration for this event will open at the end of July.
+This informal networking event is a chance to connect with colleagues from across the university who are exploring the use of AI in operational teams. This session offers university staff an opportunity to learn how colleagues are leveraging AI to enhance operational effectiveness. Whether you are beginning to explore AI applications within your work or actively implementing tools, this event provides a valuable forum to exchange insights and share best practice. We invite presentations of brief case studies, work-in-progress updates, or current challenges to foster shared learning and collaboration. 
+
+**[P﻿lease register here](https://forms.gle/UnYeBtefpJPvP9Vf9)**
