@@ -51,13 +51,13 @@ paper_submissions:
 
     **10.00-11.00 | Monday 1 December - Community meet up**\
 
-    Registration details to follow\
+    [R﻿egister here](https://www.ai.cam.ac.uk/events/ai-for-ops-community-meet-up)\
 
     \
 
     **12.30-13.30 | Wednesday 4 March -  Community meet up**  \
 
-    Registration details to follow\
+    [R﻿egister here](https://www.ai.cam.ac.uk/events/ai-for-ops-community-meet-up-1)\
 
     \
 
