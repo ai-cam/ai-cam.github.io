@@ -18,4 +18,4 @@ Cambridge Tech Week is a global tech gathering designed to unite the brightest m
 
 ## T﻿he week
 
-![](/assets/uploads/tech-week-agenda.png)
+![](/assets/uploads/camtechweek-at-a-glance.png)
