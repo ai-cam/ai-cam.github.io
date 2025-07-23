@@ -14,7 +14,6 @@ people:
 **Organiser:** Cambridge Tech Week\
 **Registration:** [Tickets required](https://cambridgetechweek.co.uk/tickets.html)\
 \
-\
 Cambridge Tech Week is a global tech gathering designed to unite the brightest minds - visionaries, world-leading experts, and strategic investors - to drive growth, collaboration, and transformative innovation across the tech ecosystem.
 
 ## T﻿he week
