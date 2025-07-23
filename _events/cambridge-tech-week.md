@@ -13,6 +13,9 @@ people:
 **D﻿ate:** Monday 15 September - Friday 19 September\
 **Organiser:** Cambridge Tech Week\
 \
+\
 Cambridge Tech Week is a global tech gathering designed to unite the brightest minds - visionaries, world-leading experts, and strategic investors - to drive growth, collaboration, and transformative innovation across the tech ecosystem.
+
+## T﻿he week
 
 ![](/assets/uploads/tech-week-agenda.png)
