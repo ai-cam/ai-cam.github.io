@@ -26,7 +26,7 @@ Two ventures were jointly awarded the Project Prize for overall strength of inno
 * Ötzi – Omer Nivron and Dan Andrei Iliescu\
   An AI-driven tool to improve the accuracy and accessibility of climate-risk modelling for insurance markets, especially in the Global South.
 * From Womb to World – Ekaterina (Kat) Moiseeva and Staci Meredith Weiss\
-  A digital health tool designed to support parents and clinicians during IVF by using advanced ultrasound imaging to track fetal development.
+  An AI-driven digital health tool designed to support parents and clinicians during IVF and high-risk pregnancies. The tool uses computer vision and advanced ultrasound imaging to track fetal development and identify developmental and infant health concerns.
 
 The awards marked the finale of a two-day intensive programme hosted at the Møller Institute, where participants were given the tools and mentoring to explore entrepreneurship and build viable startup concepts rooted in AI.
 
