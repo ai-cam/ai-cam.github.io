@@ -14,8 +14,6 @@ people:
 ---
 Scientists have used AI to re-analyse a clinical trial for an Alzheimer’s medicine, and identified a group of patients who responded to treatment. The work demonstrates that AI can inform the design of future clinical trials to make them more effective and efficient, accelerating the search for new medicines.
 
-Scientists have used an AI model to reassess the results of a completed clinical trial for an Alzheimer’s disease drug. They found the drug slowed cognitive decline by 46% in a group of patients with early stage, slow-progressing mild cognitive impairment – a condition that can progress to Alzheimer’s.
-
 Using AI allowed the team to split trial participants into two groups: either slowly or rapidly progressing towards Alzheimer’s disease. They could then look at the effects of the drug on each group.
 
 More precise selection of trial participants in this way could help select patients most likely to benefit from treatment, with the potential to reduce the cost of developing new medicines by streamlining clinical trials.
