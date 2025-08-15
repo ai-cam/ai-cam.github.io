@@ -10,6 +10,12 @@ closing_date: 2025-10-10 17:00:36
 category:
   - ai-deas
 image: /assets/uploads/national-cancer-institute-bdkid0yjcak-unsplash.jpg
+hero:
+  content: >
+    The AI-deas sprint programme is focused on supporting pioneering and
+    innovative projects to develop breakthrough prototypes that will make a
+    positive impact on society.
+  heading: AI-deas Sprint Programme Call
 media_text:
   content: >+
     Cambridge researchers are developing AI innovations that could transform
