@@ -62,6 +62,7 @@ media_text:
     - Demonstration (month 6): Demo Day showcasing prototypes to potential funders and implementation partners.
 
   image: /assets/uploads/getty-images-m0oc2ojowtg-unsplash-1-.jpg
+  heading: AI-deas Sprint Programme Call
 paper_submissions:
   heading: "How to get started "
   content: >-
@@ -73,4 +74,38 @@ paper_submissions:
 
     3. We’ll be evaluating project teams at a pitch presentation session on Wednesday 29 October. Please register to confirm you can join the pitch presentation session in the [programme call application form](https://forms.gle/Zbc2NVKXxY4T66DA8).**\
        If you have any questions about the call please email Annabelle Scott [as599@cam.ac.uk](mailto:as599@cam.ac.uk)**
+faqs:
+  heading: Frequently Asked Questions
+  faqs:
+    - heading: What are the objectives of the AI-deas sprint programme?
+      content: |-
+        The AI-deas sprint programme aims to:
+
+        * Accelerate real-world implementation of promising research ideas;
+        * Create stronger connections to external partners and stakeholders; and
+        * Enhance the impact of the AI-deas portfolio.
+    - heading: Who is eligible to apply?
+      content: This call is open to research staff at the University of Cambridge,
+        working in any discipline, including natural, physical, biological,
+        social, medical, and computer sciences, arts, humanities, and
+        engineering, and the University’s collections community. We’re looking
+        for projects that build on our existing portfolio, and for applications
+        to think about how they have engaged with our existing programmes or how
+        they might enhance them.
+    - heading: What information is required in the application form?
+      content: >-
+        
+
+        * Names, CRSID, department and job title of all team members
+
+        *  A 2-page proposal on your project idea that sets out:
+
+        * * the problem you hope to address;
+          * the proposed solution;
+          * the deliverables that would need to be met over six months to deliver a minimum viable project
+          * how you have linked with existing ai@cam programmes or how their work will enhance those programmes. 
+        * Budget summary
+
+        * Agreement to collaborate with ai@cam on communications activities related to the project
+    - {}
 ---
