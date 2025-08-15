@@ -5,7 +5,7 @@ excerpt: >
   The AI-deas sprint programme is focused on supporting pioneering and
   innovative projects to develop breakthrough prototypes that will make a
   positive impact on society. 
-date: 2025-08-15 09:02:36
+date: 2025-08-14 09:02:36
 closing_date: 2025-10-10 17:00:36
 category:
   - research-and-innovation
