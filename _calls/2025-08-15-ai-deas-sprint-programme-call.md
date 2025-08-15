@@ -32,19 +32,26 @@ media_text:
 
     We're looking for ambitious projects that can create working prototypes in these high-impact domains:
 
-    🧠 AI for mental health and brain research: Turn diagnostic algorithms into tools clinicians can actually use, or transform research insights into interventions that reach patients.
 
-    🌍 AI for climate and nature: Convert environmental monitoring research into decision-support systems that help organisations take climate action now.
+    - AI for mental health and brain research: Turn diagnostic algorithms into tools clinicians can actually use, or transform research insights into interventions that reach patients.
 
-    👩‍⚕️ Women's health and fertility: Transform research breakthroughs into accessible diagnostic tools or treatment platforms that address the gender health gap.
 
-    🏛️ AI for cultural heritage: Turn digitisation and analysis research into public-facing tools that make cultural collections more accessible and engaging.
+    - AI for climate and nature: Convert environmental monitoring research into decision-support systems that help organisations take climate action now.
 
-    📚 AI in education and assessment: Convert education research into practical tools that can be tested in real educational settings.
 
-    🗣️ Language equity and inclusion: Transform communication research into assistive technologies that support people with language barriers.
+    - Women's health and fertility: Transform research breakthroughs into accessible diagnostic tools or treatment platforms that address the gender health gap.
 
-    🏙️ AI for connected cities: Turn urban research insights into decision-support tools that local authorities can pilot and implement.
+
+    - AI for cultural heritage: Turn digitisation and analysis research into public-facing tools that make cultural collections more accessible and engaging.
+
+
+    - AI in education and assessment: Convert education research into practical tools that can be tested in real educational settings.
+
+
+    - Language equity and inclusion: Transform communication research into assistive technologies that support people with language barriers.
+
+
+    - AI for connected cities: Turn urban research insights into decision-support tools that local authorities can pilot and implement.
 
 
     The AI-deas sprint programme will provide teams with up to £25,000 of funding to rapidly transform their innovative project ideas into a prototype in 6 months. Teams will be given access to technical support from machine learning engineers, in addition to follow-on opportunities to engage and develop external partnerships and validate their prototypes with end-user communities. 
