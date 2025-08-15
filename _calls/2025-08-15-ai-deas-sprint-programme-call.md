@@ -8,7 +8,7 @@ excerpt: >
 date: 2025-08-15 09:02:36
 closing_date: 2025-10-10 17:00:36
 category:
-  - ai-deas
+  - research-and-innovation
 image: /assets/uploads/national-cancer-institute-bdkid0yjcak-unsplash.jpg
 hero:
   content: >
@@ -66,14 +66,19 @@ media_text:
 paper_submissions:
   heading: "How to get started "
   content: >-
-    
-
-    1. Join us for our information session from 14:30 - 15:30, Friday 3 October to find out more about the programme sprint. Make sure to register for the info session [here](https://docs.google.com/forms/d/e/1FAIpQLSetdbGZTWsCKFPKcTSN4xu9DXunnah3ckwk20Tw9SM-tztLWA/viewform?usp=dialog).
+    1. Join us for our information session from 14:30 - 15:30, Friday 3 October
+    to find out more about the programme sprint. Make sure to register for the
+    info session
+    [here](https://docs.google.com/forms/d/e/1FAIpQLSetdbGZTWsCKFPKcTSN4xu9DXunnah3ckwk20Tw9SM-tztLWA/viewform?usp=dialog).
 
     2. Apply to the AI-deas sprint programme call [here](https://forms.gle/Zbc2NVKXxY4T66DA8). The deadline for applications is 17.00, Friday 10 October.
 
-    3. We’ll be evaluating project teams at a pitch presentation session on Wednesday 29 October. Please register to confirm you can join the pitch presentation session in the [programme call application form](https://forms.gle/Zbc2NVKXxY4T66DA8).**\
-       If you have any questions about the call please email Annabelle Scott [as599@cam.ac.uk](mailto:as599@cam.ac.uk)**
+    3. We’ll be evaluating project teams at a pitch presentation session on Wednesday 29 October. Please register to confirm you can join the pitch presentation session in the [programme call application form](https://forms.gle/Zbc2NVKXxY4T66DA8).\
+       \
+       **If you have any questions about the call please email Annabelle Scott [as599@cam.ac.uk](mailto:as599@cam.ac.uk)**
+  buttons:
+    - text: "Apply here "
+      link: https://forms.gle/Zbc2NVKXxY4T66DA8
 faqs:
   heading: Frequently Asked Questions
   faqs:
