@@ -68,7 +68,7 @@ media_text:
 
     - Demonstration (month 6): Demo Day showcasing prototypes to potential funders and implementation partners.
 
-  image: /assets/uploads/getty-images-m0oc2ojowtg-unsplash-1-.jpg
+  image: /assets/uploads/curated-lifestyle-jl_tnv6peza-unsplash-1-.jpg
   heading: AI-deas Sprint Programme Call
 paper_submissions:
   heading: "How to get started "
@@ -119,5 +119,71 @@ faqs:
         * Budget summary
 
         * Agreement to collaborate with ai@cam on communications activities related to the project
-    - {}
+    - heading: How will the application be evaluated?
+      content: Applications will be evaluated based on innovation, real-world impact
+        potential, and achievable delivery within the allocated time frame. All
+        project teams will be invited to deliver an in-person 10 min pitch
+        presentation on their project idea in front of a panel of entrepreneurs,
+        academics and industry experts on Wednesday 29 October 2025 from 13:00 -
+        17:00. Please register to confirm you can join the pitch presentation
+        session in the [application form](https://forms.gle/Zbc2NVKXxY4T66DA8).
+    - heading: What if I can’t make the pitch presentation session?
+      content: If you or a member of your team aren’t able to be present at the pitch
+        session in person on Wednesday 29 October, please get in touch with
+        Annabelle Scott ([as599@cam.ac.uk](mailto:as599@cam.ac.uk)).
+    - heading: How much funding is available per AI-deas sprint project and what will
+        the funding cover?
+      content: Up to £25,000 is available for a duration of 6 months. The funding can
+        cover research related and staff costs.
+    - heading: What support will AI-deas sprint projects receive?
+      content: AI-deas sprint projects will receive access to technical support from
+        machine learning engineers and opportunities to engage and develop
+        external partnerships.
+    - heading: When will I find out if my AI-deas sprint project has been awarded
+        funding?
+      content: Teams that have been selected for funding will be announced at the end
+        of October.
+    - heading: Do we need to submit a costings breakdown?
+      content: Yes, please provide a brief summary in the application form of what you
+        would like to use the funding for. Projects need to be completed within
+        a 6-month time period.
+    - heading: "Are there any restrictions on the team makeup, for example are there a
+        maximum number of researchers that can be in a team, can it be made up
+        of researchers from multiple departments? "
+      content: We encourage you to create cross-disciplinary teams, they can be made
+        up of researchers from different departments. We recommend that teams
+        are made up of no more than 6 researchers.
+    - heading: What topics are covered under the scope of the funding?
+      content: >-
+        AI-deas sprint projects need to fall under one of the seven current
+        AI-deas challenge areas in:
+
+
+        1. AI for mental health and brain research
+
+        2. AI for climate and nature
+
+        3. Women’s health and fertility
+
+        4. AI for cultural heritage
+
+        5. AI in education and assessment
+
+        6. Language equity and inclusion
+
+        7. AI for connected cities
+    - heading: What happens after the funding period?
+      content: Successful AI-deas sprints will be given opportunities to work with
+        external stakeholders to further develop their prototypes, creating
+        pathways to follow-on funding and demonstrable societal benefits.
+    - heading: How can I apply?
+      content: >-
+        Please fill in the application form
+        [here](https://forms.gle/Zbc2NVKXxY4T66DA8) by 17:00, Friday 10 October
+        2025. You will need to be logged in to your @cam.ac.uk account to access
+        the form.\
+
+        **\
+
+        For further questions**Please contact Annabelle Scott, ai@cam Programme Manager ([as599@cam.ac.uk](mailto:as599@cam.ac.uk)).
 ---
