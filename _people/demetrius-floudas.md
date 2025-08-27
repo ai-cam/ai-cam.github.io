@@ -4,6 +4,8 @@ name: Demetrius A. Floudas
 title: "Prof "
 given: Demetrius
 family: A. Floudas
+job_title: Visiting Scholar in Law at Downing College
+department: ""
 biography: >-
   Demetrius A. Floudas is an international lawyer specialising in tech and an AI
   Policy expert. He is Visiting Scholar in Law at Downing College, Cambridge and
