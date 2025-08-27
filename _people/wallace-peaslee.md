@@ -4,6 +4,8 @@ name: "Wallace Peaslee "
 title: " "
 given: Wallace
 family: "Peaslee "
+job_title: PhD student
+institution: Department of Applied Mathematics and Theoretical Physics
 department: Department of Applied Mathematics and Theoretical Physics
 biography: >-
   Wallace Peaslee is a PhD student in the Department of Applied Mathematics and
