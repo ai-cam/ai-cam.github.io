@@ -6,9 +6,9 @@ given: Matteo
 family: Zallio
 job_title: Assistant Professor
 biography: >-
-  Dr. Matteo Zallio is an *[Assistant Professor in
+  Dr. Matteo Zallio is an [Assistant Professor in
   Design](https://www.arct.cam.ac.uk/staff/dr-matteo-zallio
-  "https\://www.arct.cam.ac.uk/staff/dr-matteo-zallio")* at the University of
+  "https\://www.arct.cam.ac.uk/staff/dr-matteo-zallio") at the University of
   Cambridge, where he explores how inclusive design and artificial intelligence
   converge to create ethical, human-centered experiences. 
 
