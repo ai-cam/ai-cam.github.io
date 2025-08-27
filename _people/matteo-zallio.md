@@ -21,4 +21,5 @@ biography: >-
 
   He teaches courses at the [University of Cambridge Professional and Continuing Education](https://www.pace.cam.ac.uk/dr-matteo-zallio "https\://www.pace.cam.ac.uk/dr-matteo-zallio")[ ](https://www.pace.cam.ac.uk/dr-matteo-zallio "https\://www.pace.cam.ac.uk/dr-matteo-zallio")institute, including User Experience Design and AI Essentials for Everyone, where he equips professionals from diverse backgrounds with tools to design more inclusive, ethical, and impactful technologies.
 image: /assets/uploads/matteo-zallio.jpg
+email: mz461@cam.ac.uk
 ---
