@@ -4,6 +4,7 @@ name: Yael Benn
 title: Dr
 given: Yael
 family: Benn
+job_title: Senior Lecturer
 institution: Manchester Metropolitan University
 biography: >-
   I am a Senior Lecturer in the School of Psychology at Manchester Metropolitan
