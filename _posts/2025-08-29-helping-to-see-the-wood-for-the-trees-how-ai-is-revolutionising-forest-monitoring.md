@@ -12,6 +12,8 @@ category:
   - ai-deas
 image: /assets/uploads/emily-lines-blog-3.jpg
 ---
+![](/assets/uploads/emily-lines-blog-5.jpg)
+
 Ever since [Dr Emily Lines](https://www.geog.cam.ac.uk/people/lines/) walked through the woods each day on her way to school, she’s been fascinated by forests. Today, she’s using ground-breaking AI methods to safeguard the future of our trees.
 
 Over the past few years, Dr Lines has been developing a pioneering research programme with her team in the Department of Geography to improve how forests are monitored through unprecedented insights into the minute details of forest structures.
