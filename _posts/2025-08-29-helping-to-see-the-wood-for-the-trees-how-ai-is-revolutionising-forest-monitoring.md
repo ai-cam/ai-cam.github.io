@@ -12,7 +12,7 @@ category:
   - ai-deas
 image: /assets/uploads/emily-lines-blog-3.jpg
 ---
-Ever since Dr Emily Lines walked through the woods each day on her way to school, she’s been fascinated by forests. Today, she’s using ground-breaking AI methods to safeguard the future of our trees.
+Ever since [Dr Emily Lines](https://www.geog.cam.ac.uk/people/lines/) walked through the woods each day on her way to school, she’s been fascinated by forests. Today, she’s using ground-breaking AI methods to safeguard the future of our trees.
 
 Over the past few years, Dr Lines has been developing a pioneering research programme with her team in the Department of Geography to improve how forests are monitored through unprecedented insights into the minute details of forest structures.
 
@@ -48,7 +48,7 @@ Collaborating with other teams across Europe and around the world is going to be
 
 “We are taking a very community-driven approach,” says Dr Lines. “We’ve got small amounts of very high-quality data and many of our collaborators have the same. So by bringing them together, we can tackle these problems at a larger scale.”
 
-Dr Lines’ recent project brought together individually labelled data from 20,000 trees across Europe, drawing on contributions from a wide network of collaborators to develop highly accurate models for species detection. Looking ahead, she hopes that the relatively affordable drone technology her team has been using to gather tree data can be adopted by landowners and land managers to support large-scale land monitoring and biodiversity assessment.
+Dr Lines’ [recent project](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14503) brought together individually labelled data from 20,000 trees across Europe, drawing on contributions from a wide network of collaborators to develop highly accurate models for species detection. Looking ahead, she hopes that the relatively affordable drone technology her team has been using to gather tree data can be adopted by landowners and land managers to support large-scale land monitoring and biodiversity assessment.
 
 “There are farmers using drones to do things like track their cattle or livestock,” says Dr Lines. “There’s lots of interest in high precision remote sensing for identifying when nutrients need adding to soil or when crops need irrigating. So already there’s a lot of this sort of technology in the agricultural and land management sector.”
 
@@ -62,6 +62,7 @@ Dr Lines’ pioneering project is one of several cutting-edge collaborations tha
 
 **Further information**
 
-Read about some of the other work going on as part of the AI for climate and nature
+* Read about some of the other work going on as part of the [AI for climate and nature project.](https://ai.conservation.cam.ac.uk/)
+* Learn more about [Dr Lines’ forest monitoring work here.](www.linesresearchgroup.com)
 
-Learn more about Dr Lines’ forest monitoring work here: Linesresearchgroup.com
+##### *A﻿s told to Vicky Anning*
