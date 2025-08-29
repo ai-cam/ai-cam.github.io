@@ -10,7 +10,7 @@ excerpt: Over the past few years, Dr Lines has been developing a pioneering
 date: 2025-08-28T00:00:00+01:00
 category:
   - ai-deas
-image: /assets/uploads/emily-lines-blog-3.jpg
+image: /assets/uploads/emily-lines-blog-7.jpg
 ---
 ![](/assets/uploads/emily-lines-blog-5.jpg)
 
