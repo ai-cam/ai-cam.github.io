@@ -8,14 +8,14 @@ excerpt: Meet Professor Anil Madhavapeddy, who is one of the drivers behind
   decision makers find solutions to save our planet. Here he explains what he's
   been working on...
 author: Professor Anil Madhavapeddy
-people:
-  - Anil Madhavapeddy
 date: June 9, 2024 10:02 PM
 category:
   - ai-deas
 image: /assets/uploads/ai-cambridge.jpg
+people:
+  - Anil Madhavapeddy
 ---
-**Meet Professor [Anil Madhavapeddy](https://4c.cst.cam.ac.uk/staff/professor-anil-madhavapeddy), who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on...** 
+Meet Professor [Anil Madhavapeddy](https://4c.cst.cam.ac.uk/staff/professor-anil-madhavapeddy), who is one of the drivers behind ai@cam’s pioneering project to tackle the twin climate and biodiversity crises – harnessing the analytical power of AI to provide data that will help decision makers find solutions to save our planet. Here he explains what he's been working on... 
 
 ![Professor Anil Madhavapeddy](/assets/uploads/anil-headshot-67-.png "Professor Anil Madhavapeddy")
 
