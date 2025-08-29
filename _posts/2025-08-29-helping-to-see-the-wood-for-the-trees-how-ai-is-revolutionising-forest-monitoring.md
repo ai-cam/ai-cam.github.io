@@ -38,7 +38,7 @@ In the past, a lot of Dr Lines’ research involved hiking through forests and m
 
 “The technologies allow super accurate carbon measurements,” she says. “There’s been a lot of work where trees have been scanned and then they’ve been cut down and weighed. The accuracy is very high in terms of working out how much carbon is in them. That’s been a really key application of these technologies and the more we can do and the larger the scale, the more we can do for carbon storage.”
 
-#### **Making sense of the data**
+#### Making sense of the data
 
 Making sense of the data is no straightforward task. Research Associate Dr Harry Owen and PhD student Matt Allen have been working with Dr Lines to build AI models from scratch to classify the data points for each tree to help reveal how much carbon is stored and where microhabitats are formed. This has huge potential for conservation and monitoring in future, according to Dr Lines. They have already used this approach to detect and map diseases like ash dieback as well as documenting the impact of drought – and has the potential to help provide stronger evidence for policies and programmes addressing climate change in future.
 
