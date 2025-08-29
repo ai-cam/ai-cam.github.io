@@ -18,4 +18,12 @@ But mapping landslides from satellite imagery by eye can be time-intensive, said
 
 Since the Taiwan earthquake, Nava has been developing his AI method alongside an international team. By employing a suite of satellite technologies—including satellites that can see through clouds and at night—the researchers hope to enhance AI’s landslide detection capabilities.
 
+## Multiplying hazards
+
+Triggered by major earthquakes or intense rainfall, landslides are often worsened by human activities such as deforestation and construction on unstable slopes. In certain environments, they can trigger additional hazards such as fast-moving debris flows or severe flooding, compounding their destructive impact.
+
+Nava’s work fits into a larger effort at Cambridge to understand how landslides and other hazards can set off cascading ‘multihazard’ chains. The CoMHaz group, led by Maximillian Van Wyk de Vries, Professor of Natural Hazards in the Departments of Geography and Earth Sciences, draws on information from satellite imagery, computer modelling and fieldwork to locate landslides, understand why they happen and ultimately predict their occurrence.
+
+They’re also working with communities to raise landslide awareness. In Nepal, Nava and Van Wyk de Vries teamed up with local scientists and the Climate and Disaster Resilience in Nepal (CDRIN) consortium to pilot an early warning system for Butwal, which sits beneath a massive unstable slope.
+
 **[Continue to read the full article here](https://www.cam.ac.uk/research/news/researchers-use-ai-to-see-landslides-and-target-disaster-response)**
