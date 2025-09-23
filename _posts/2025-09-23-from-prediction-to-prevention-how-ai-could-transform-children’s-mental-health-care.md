@@ -17,15 +17,13 @@ category:
   - events
 image: /assets/uploads/anna-moore-blog.png
 ---
-Dr Anna Moore’s experience working as a child psychiatrist within the Child and Adolescent Mental Health Services (CAMHS) has convinced her that something has to change. With mental health problems affecting more than one in five children and young people in England,  it’s a problem reaching near-epidemic proportions. Referrals have nearly doubled since the COVID-19 pandemic and resources have not kept pace with the rising demand. Young people are often waiting for many months before they are seen by a clinician and there are just not enough professionals to respond to the escalating need, with around 30% of posts in CAMHS currently unfilled, according to Dr Moore.
+Dr Anna Moore’s experience working as a child psychiatrist within the [Child and Adolescent Mental Health Services (CAMHS)](https://www.mind.org.uk/for-young-people/camhs/understanding-camhs/) has convinced her that something has to change. With mental health problems affecting more than one in five children and young people in England,  it’s a problem reaching near-epidemic proportions. Referrals have nearly doubled since the COVID-19 pandemic and resources have not kept pace with the rising demand. Young people are often waiting for many months before they are seen by a clinician and there are just not enough professionals to respond to the escalating need, with around 30% of posts in CAMHS currently unfilled, according to Dr Moore.
 
 “As a child psychiatrist, I am working with patients all the time” she says, “but I’m incredibly frustrated with the system I’m having to work in. The waiting lists are often many months to years long, and by the time I see patients, what they are facing is often so severe that it’s much harder to intervene helpfully. We are working in a system that just doesn’t have the capacity or the funding available to help people in the way that the evidence for best practice says we should.”
 
-As a clinician, Dr Moore admits she often feels powerless to make a difference. But her role as an Assistant Professor in Child Psychiatry and Medical Informatics in the Department of Psychiatry at the University of Cambridge has offered her – and her patients – a ray of hope.
+As a clinician, Dr Moore admits she often feels powerless to make a difference. But her role as an Assistant Professor in Child Psychiatry and Medical Informatics in the [Department of Psychiatry](https://www.psychiatry.cam.ac.uk/) at the University of Cambridge has offered her – and her patients – a ray of hope.
 
 “AI and machine learning give me the potential to be able to help change the system,” she says. “We are currently designing and building the first digitally supported preventative pathway for children’s mental health and we’re doing that by using AI and digital tools to think about how we can streamline the pathways to access.”
-
-“As a clinician, I hope that by creating these new pathways, I’ll be working in a system that has the capacity to be able to give the patients access to what they need,” she adds. “This will also free up clinical teams so they can spend more time looking after children who have severe mental health needs and who need extra support.”
 
 ## Easing the pressure with AI-driven solutions
 
@@ -33,7 +31,7 @@ Over the past six months, Dr Moore and her team have been consulting with paedia
 
 Dr Moore’s passion is palpable when she talks about harnessing the potential of AI to help relieve pressure on the current system, particularly when it comes to assessing patients, which is currently a huge bottleneck. The goal of the AI-driven pathway is threefold, she says: first, to identify where support is needed for children in the community; second, to determine whether the child’s need requires CAMHS intervention or can be addressed within the community; and third, to provide community professionals with the tools to signpost children to appropriate support, helping to prevent mental health issues from escalating.
 
-For those cases that are manageable within the community, AI-prescribed solutions might include digital tools, social support networks and groups, referrals to school counsellors or GPs counsellors and other resources, “almost like a personalied Google for children’s mental health”, Dr Moore explains. Crucially, this would ensure that lower-level mental health needs were identified early and met effectively without needing CAMHS referrals.
+For those cases that are manageable within the community, AI-prescribed solutions might include digital tools, social support networks and groups, referrals to school counsellors or GPs counsellors and other resources, “almost like a personalised Google for children’s mental health”, Dr Moore explains. Crucially, this would ensure that lower-level mental health needs were identified early and met effectively without needing CAMHS referrals.
 
 “These tools are not actually there to help child psychiatrists diagnose, because they don’t need that – they’ve been trained for over ten years to do that,” she says. “We want to put the knowledge of the psychiatrist into the hands of social workers and others, so they have access to information about whether there is a mental health need, and whether a CAMHS referral is needed, and if not, then how that young person and family can be best supported in the community.”
 
@@ -47,7 +45,7 @@ Dr Moore and her team have brought together 12 years of anonymised data from aro
 
 “The power of data is transformative,” says Dr Moore. “If I look at all the examples of how there’s been really significant transformations and improvement in quality of care, they’re data-driven – based on how we understand the data and how we use that data to make informed decisions.”
 
-The CADRE concept has now been adopted by the Mental Health Mission, a large national programme to improve mental health research. The plan is to roll the programme out to cities including Birmingham, Liverpool and Manchester to make sure the data set used for training the AI models is as diverse as possible. The team is currently applying for permission to make CADRE data available for ethically approved research projects – once this is in place, the data can be used by other academic teams. This will provide a valuable resource that will speed up health transformation for children across the country.
+The CADRE concept has now been adopted by the [Mental Health Mission](https://oxfordhealthbrc.nihr.ac.uk/mhm/), a large national programme to improve mental health research. The plan is to roll the programme out to cities including Birmingham, Liverpool and Manchester to make sure the data set used for training the AI models is as diverse as possible. The team is currently applying for permission to make CADRE data available for ethically approved research projects – once this is in place, the data can be used by other academic teams. This will provide a valuable resource that will speed up health transformation for children across the country.
 
 “One of the big challenges with these digital solutions is that we absolutely must include representative data so that we’re not building tools that exacerbate inequality,” says Dr Moore. “By having this kind of national reach, involving data for around 3 million children, we’ll be able to have access to rare outcomes so we can predict these more accurately – and, with a more diverse cohort, we can build fair tools that can help everybody.”
 
@@ -69,4 +67,6 @@ The ai@cam initiative – which is bringing together experts from across the Uni
 
 ## Further information
 
-From stigma to solutions: Read more about ai@cam’s ‘responsible AI for better lifelong brain and mental health’ initiative
+From stigma to solutions: Read more about ai@cam’s ‘[Responsible AI for better lifelong brain and mental health](https://www.ai.cam.ac.uk/projects/responsible-ai-for-better-lifelong-brain-and-mental-health.html)’ initiative.
+
+##### *A﻿s told to Vicky Anning*
