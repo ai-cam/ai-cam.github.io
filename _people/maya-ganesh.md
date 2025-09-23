@@ -7,8 +7,7 @@ preferred: ""
 family: Indira Ganesh
 job_title: Associate Director (Research Partnerships) | Programme Co-director,
   Narratives & Justice
-department: "Leverhulme Centre for the Future of Intelligence; Institute for
-  Continuing Education "
+department: Leverhulme Centre for the Future of Intelligence
 biography: >-
   Maya Indira Ganesh is assistant teaching professor co-directing the MSt in AI
   Ethics & Society at the Institute for Continuing Education, and a Senior
