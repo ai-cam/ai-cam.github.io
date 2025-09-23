@@ -12,7 +12,7 @@ excerpt: Dr Anna Moore’s experience working as a child psychiatrist within the
   are often waiting for many months before they are seen by a clinician and
   there are just not enough professionals to respond to the escalating need,
   with around 30% of posts in CAMHS currently unfilled, according to Dr Moore.
-date: 2025-09-17T00:00:00+01:00
+date: 2025-09-22T00:00:00+01:00
 category:
   - ai-deas
 image: /assets/uploads/anna-moore-blog.png
