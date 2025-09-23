@@ -15,7 +15,7 @@ excerpt: Dr Anna Moore’s experience working as a child psychiatrist within the
 date: 2025-09-17T00:00:00+01:00
 category:
   - events
-image: /assets/uploads/hossam-m-omar-3h-cnvedfy4-unsplash.jpg
+image: /assets/uploads/anna-moore-blog.png
 ---
 Dr Anna Moore’s experience working as a child psychiatrist within the Child and Adolescent Mental Health Services (CAMHS) has convinced her that something has to change. With mental health problems affecting more than one in five children and young people in England,  it’s a problem reaching near-epidemic proportions. Referrals have nearly doubled since the COVID-19 pandemic and resources have not kept pace with the rising demand. Young people are often waiting for many months before they are seen by a clinician and there are just not enough professionals to respond to the escalating need, with around 30% of posts in CAMHS currently unfilled, according to Dr Moore.
 
