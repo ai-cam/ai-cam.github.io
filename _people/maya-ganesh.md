@@ -5,7 +5,8 @@ title: Dr
 given: "Maya "
 preferred: ""
 family: Indira Ganesh
-job_title: Senior researcher at LCFI; assistant teaching professor at ICE
+job_title: Associate Director (Research Partnerships) | Programme Co-director,
+  Narratives & Justice
 department: "Leverhulme Centre for the Future of Intelligence; Institute for
   Continuing Education "
 biography: >-
