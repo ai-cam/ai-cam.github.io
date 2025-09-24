@@ -40,9 +40,12 @@ media_text:
 paper_submissions:
   heading: How it works
   content: >-
-    
-
-    The AI in local government fair brings together council staff from across Cambridgeshire, Peterborough, and Greater Manchester with University of Cambridge AI researchers. Local government teams will showcase posters outlining challenges where AI could make a difference - from streamlining social care documentation to optimising transport routes to processing planning applications.
+    The AI in local government fair brings together council staff from across
+    Cambridgeshire, Peterborough, and Greater Manchester with University of
+    Cambridge AI researchers. Local government teams will showcase posters
+    outlining challenges where AI could make a difference - from streamlining
+    social care documentation to optimising transport routes to processing
+    planning applications.
 
 
     Researchers will browse the challenge presentations in a “reverse” poster session, leading to informal discussions and potential collaborations. Promising collaborations from the poster session will then be eligible for ai@cam’s AI for Local Government Accelerator funding programme, launching later this year to support proof-of-concept development.
