@@ -36,6 +36,7 @@ media_text:
 
     The AI in local government fair creates a two-way marketplace: council staff will showcase challenge posters outlining where AI could make a difference, while University researchers will provide profiles of their expertise and research interests via the event registration process. This dual approach ensures council staff can identify researchers with relevant capabilities, while researchers can spot challenges that align with their technical skills and research goals.
 
+  image: /assets/uploads/ai-in-goverment-fair.jpg
 faqs:
   faqs:
     - heading: What makes this a "reverse" poster session?
