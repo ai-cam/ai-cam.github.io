@@ -47,14 +47,18 @@ paper_submissions:
     The AI in local government fair creates a two-way marketplace: council staff will showcase challenge posters outlining where AI could make a difference, while University researchers will provide profiles of their expertise and research interests via the event registration process. This dual approach ensures council staff can identify researchers with relevant capabilities, while researchers can spot challenges that align with their technical skills and research goals.
 
 
-    **W﻿ant to apply?**Council staff and University of Cambridge researchers interested in participating can [apply here](https://forms.gle/GKN5DnmLfyf5ru3X9) by 17:00 on 14 November. \
+    **W﻿ant to apply?**\
+
+    \
+
+    Council staff and University of Cambridge researchers interested in participating can [apply here](https://forms.gle/GKN5DnmLfyf5ru3X9) by 17:00 on 14 November. \
 
     \
 
     The event will run from 13:00-17:00 on Monday 24 November \[location TBC], including lunch and networking opportunities.
 
 
-    I﻿f you have any further questions please contact Jess Montgomery (jkm40@cam.ac.uk)
+    I﻿f you have any further questions, please contact Jess Montgomery (jkm40@cam.ac.uk)
   buttons:
     - link: https://forms.gle/GKN5DnmLfyf5ru3X9
       text: Apply here
