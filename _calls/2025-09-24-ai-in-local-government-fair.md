@@ -91,9 +91,24 @@ faqs:
         opportunities. Many councils find that discussing their challenges with
         researchers generates new insights even without formal collaboration.
       heading: What if my idea doesn't lead to a collaboration?
-    - {}
-    - {}
-    - {}
-    - {}
+    - heading: How do I know if my challenge is suitable for AI?
+      content: If you're dealing with large volumes of data, repetitive tasks, pattern
+        recognition needs, or complex decision support - AI might help.
+    - content: "**Absolutely. We encourage this where it makes sense - shared
+        challenges often lead to more impactful and sustainable solutions.**"
+      heading: Can multiple councils work on the same challenge?
+    - content: >-
+        Create your poster in A0 portrait format (841mm x 1189mm) using software
+        like PowerPoint, Canva, or Google Slides. We can print it for you if you
+        email the PDF to contact@ai.cam.ac.uk by 17:00 on Monday 17 November, or
+        you can arrange your own printing (allow 2-3 working days).
+
+
+        For effective posters: use a clear, bold title; organise content logically with digestible sections; stick to 2-3 complementary colours and clean fonts; include visuals like charts or diagrams; use bullet points and avoid jargon; and include your contact details.
+      heading: How do I create the poster?
+    - heading: How do I apply?
+      content: Complete the registration form
+        [here](https://forms.gle/DZx8ogsHmf1Bejrd8) by 14 November and send us
+        your poster by 17 November if you would like us to print it.
   heading: Frequently Asked Questions
 ---
