@@ -12,6 +12,11 @@ closing_date: 2025-11-14 17:01:45
 category:
   - policy
 image: /assets/uploads/javier-trueba-vfjnewjaa2g-unsplash.jpg
+hero:
+  heading: AI in Local Government Fair
+  content: >
+    First-of-its-kind "challenge fair" connects council staff with university
+    researchers to tackle real-world problems in AI for public services.
 media_text:
   heading: " AI in Local Government Fair "
   content: >-
