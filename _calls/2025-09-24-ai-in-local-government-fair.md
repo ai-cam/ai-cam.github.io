@@ -59,14 +59,41 @@ faqs:
         funding in our second phase to develop proof-of-concept solutions. We'll
         provide structured follow-up to help promising collaborations move
         forward.
+    - heading: Do I need to be technical to participate as a council staff member?
+      content: Not at all. We want people who understand the real operational
+        challenges councils face.
+    - heading: What should my poster include?
+      content: |-
+        
+
+        * The specific challenge you're facing
+        * Why current approaches aren't working
+        * Your ideas (even rough ones) for how AI might help
+        * The potential impact if this problem were solved
+        * Any relevant data or context about scale
+    - heading: How long is the poster session?
+      content: 4 hours (13:00-17:00) including lunch and refreshments. This gives time
+        for meaningful conversations rather than rushed presentations.
+    - heading: "What happens after the session? "
+      content: Later this year, ai@cam will be launching its AI for Local Government
+        Accelerator, which will invite applications for funding and
+        incubator-style support for collaborative projects between the
+        University and local government.
+    - content: " While we welcome poster presentations from all participating
+        councils, we anticipate that our AI for Local Government Accelerator
+        funding programme will be held by University of Cambridge researchers.
+        However, solutions developed could potentially benefit councils across
+        all participating regions, and we anticipate that all funding proposals
+        should include at least one council partner. Full guidance on this will
+        be published after the poster session."
+      heading: Who will be eligible for follow-up funding?
+    - content: The session itself provides valuable networking and learning
+        opportunities. Many councils find that discussing their challenges with
+        researchers generates new insights even without formal collaboration.
+      heading: What if my idea doesn't lead to a collaboration?
     - {}
     - {}
     - {}
     - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
+  heading: Frequently Asked Questions
 ---
