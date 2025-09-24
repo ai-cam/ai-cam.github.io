@@ -25,10 +25,10 @@ media_text:
     event this November.
 
 
-    ai@cam’s AI in local government fair on 24 November flips the traditional conference model: instead of researchers presenting their work, council staff will present their biggest operational challenges and ideas for how AI might help address them.
+    ai@cam’s new AI in local government fair, held on the 24th November, flips the traditional conference model: instead of researchers presenting their work, council staff will present their biggest operational challenges and ideas for how AI might help address them.
 
 
-    Local government is increasingly turning to AI as they seek new ways to improve public services and respond to growing community needs. Early adopters are already seeing promising results that benefit both staff and residents. AI tools are helping social care workers spend more time with service users, councils respond faster to infrastructure problems, and planning teams process community consultations more efficiently.
+    As councils increasingly look to artificial intelligence to improve services and meet rising demand, the AI in local government fair will connect the frontline knowledge of local authorities with Cambridge’s research expertise. By spotlighting real pressures faced by councils – from social care paperwork to planning backlogs and transport congestion – the fair creates a two-way marketplace, designed to explore how AI could provide practical solutions.
   image: /assets/uploads/ai-in-goverment-fair.jpg
 paper_submissions:
   heading: How it works
