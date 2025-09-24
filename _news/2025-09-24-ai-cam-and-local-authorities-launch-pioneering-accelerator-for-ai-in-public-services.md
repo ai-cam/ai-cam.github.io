@@ -24,4 +24,6 @@ As councils increasingly look to artificial intelligence to improve services and
 
 Partnerships emerging from the fair will be eligible to apply for follow-on support through ai@cam’s forthcoming AI for Local Government Accelerator programme, which will provide funding and incubator-style backing for projects later in the year. ai@cam are particularly encouraging challenges that could benefit multiple councils, with the potential for solutions to be scaled and shared across regions.
 
-**The AI in Local Government Challenge Fair takes place from 13:00–17:00 on Monday 24 November and will include lunch and networking opportunities. Council staff and University of Cambridge researchers can apply to take part via the [application form](https://forms.gle/GKN5DnmLfyf5ru3X9) by 17:00 on 14 November.**
+The AI in Local Government Challenge Fair takes place from 13:00–17:00 on Monday 24 November and will include lunch and networking opportunities. 
+
+Council staff and University of Cambridge researchers can apply to take part via the [application form](https://forms.gle/GKN5DnmLfyf5ru3X9) by 17:00 on 14 November.
