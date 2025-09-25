@@ -5,7 +5,7 @@ start: 2025-11-24 12:00
 end: 2025-11-24 16:00
 category:
   - events
-image: /assets/uploads/ai-in-goverment-fair-2.jpg
+image: /assets/uploads/thisisengineering-hocyulmttny-unsplash.jpg
 link_to: https://docs.google.com/forms/d/e/1FAIpQLScwAneh1iWjjS15TYXQovJQazS7QUiBOzA7GyHV2ZW4V1Oj8Q/viewform
 ---
 **E﻿vent Title:** AI in Local Government Fair\
