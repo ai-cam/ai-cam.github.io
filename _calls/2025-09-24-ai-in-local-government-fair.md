@@ -51,11 +51,11 @@ paper_submissions:
 
     \
 
-    Council staff and University of Cambridge researchers interested in participating can [apply here](https://forms.gle/GKN5DnmLfyf5ru3X9) by 17:00 on 14 November. \
+    The AI in Local Government Challenge Fair takes place on Monday 24 November 2025, from 12.00-16.00\
 
     \
 
-    The event will run from 13:00-17:00 on Monday 24 November \[location TBC], including lunch and networking opportunities.
+    Council staff and University of Cambridge researchers interested in participating will need to apply  before h**17:00 on Friday 14 November.**
 
 
     I﻿f you have any further questions, please contact Jess Montgomery (jkm40@cam.ac.uk)
