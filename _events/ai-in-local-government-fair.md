@@ -5,7 +5,7 @@ start: 2025-11-24 12:00
 end: 2025-11-24 16:00
 category:
   - events
-image: /assets/uploads/thisisengineering-hocyulmttny-unsplash.jpg
+image: /assets/uploads/untitled-design-7-.png
 link_to: https://www.ai.cam.ac.uk/calls/ai-in-local-government-fair
 ---
 **E﻿vent Title:** AI in Local Government Fair\
