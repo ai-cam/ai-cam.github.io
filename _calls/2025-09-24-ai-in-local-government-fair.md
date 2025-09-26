@@ -70,11 +70,10 @@ faqs:
         for AI solutions. University researchers will browse these challenge
         presentations to find collaboration opportunities.
     - heading: What types of challenges should councils present?
-      content: "**Any public service challenge where AI might help - from reducing
-        social care paperwork and processing planning applications to optimising
+      content: Any public service challenge where AI might help - from reducing social
+        care paperwork and processing planning applications to optimising
         transport routes and improving customer services. We're particularly
-        interested in challenges that could benefit multiple councils if
-        solved.**"
+        interested in challenges that could benefit multiple councils if solved.
     - content: Local council staff from Cambridgeshire, Peterborough, and Greater
         Manchester, plus University of Cambridge researchers with AI expertise.
         Council staff don't need technical AI knowledge - domain expertise in
@@ -98,20 +97,20 @@ faqs:
         * The potential impact if this problem were solved
         * Any relevant data or context about scale
     - heading: How long is the poster session?
-      content: 4 hours (13:00-17:00) including lunch and refreshments. This gives time
+      content: 4 hours (12:00-16:00) including lunch and refreshments. This gives time
         for meaningful conversations rather than rushed presentations.
     - heading: "What happens after the session? "
       content: Later this year, ai@cam will be launching its AI for Local Government
         Accelerator, which will invite applications for funding and
         incubator-style support for collaborative projects between the
         University and local government.
-    - content: " While we welcome poster presentations from all participating
-        councils, we anticipate that our AI for Local Government Accelerator
-        funding programme will be held by University of Cambridge researchers.
-        However, solutions developed could potentially benefit councils across
-        all participating regions, and we anticipate that all funding proposals
+    - content: While we welcome poster presentations from all participating councils,
+        we anticipate that our AI for Local Government Accelerator funding
+        programme will be held by University of Cambridge researchers. However,
+        solutions developed could potentially benefit councils across all
+        participating regions, and we anticipate that all funding proposals
         should include at least one council partner. Full guidance on this will
-        be published after the poster session."
+        be published after the poster session.
       heading: Who will be eligible for follow-up funding?
     - content: The session itself provides valuable networking and learning
         opportunities. Many councils find that discussing their challenges with
@@ -120,13 +119,13 @@ faqs:
     - heading: How do I know if my challenge is suitable for AI?
       content: If you're dealing with large volumes of data, repetitive tasks, pattern
         recognition needs, or complex decision support - AI might help.
-    - content: "**Absolutely. We encourage this where it makes sense - shared
-        challenges often lead to more impactful and sustainable solutions.**"
+    - content: Absolutely. We encourage this where it makes sense - shared challenges
+        often lead to more impactful and sustainable solutions.
       heading: Can multiple councils work on the same challenge?
     - content: >-
         Create your poster in A0 portrait format (841mm x 1189mm) using software
         like PowerPoint, Canva, or Google Slides. We can print it for you if you
-        email the PDF to contact@ai.cam.ac.uk by 17:00 on Monday 17 November, or
+        email the PDF to contact@ai.cam.ac.uk by 17:00 on Friday 14 November, or
         you can arrange your own printing (allow 2-3 working days).
 
 
@@ -134,7 +133,6 @@ faqs:
       heading: How do I create the poster?
     - heading: How do I apply?
       content: Complete the registration form
-        [here](https://forms.gle/DZx8ogsHmf1Bejrd8) by 14 November and send us
-        your poster by 17 November if you would like us to print it.
+        [here](https://forms.gle/DZx8ogsHmf1Bejrd8) by Friday 14 November.
   heading: Frequently Asked Questions
 ---
