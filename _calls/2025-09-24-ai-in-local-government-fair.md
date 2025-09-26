@@ -132,7 +132,12 @@ faqs:
         For effective posters: use a clear, bold title; organise content logically with digestible sections; stick to 2-3 complementary colours and clean fonts; include visuals like charts or diagrams; use bullet points and avoid jargon; and include your contact details.
       heading: How do I create the poster?
     - heading: How do I apply?
-      content: Complete the registration form
-        [here](https://forms.gle/DZx8ogsHmf1Bejrd8) by Friday 14 November.
+      content: >-
+        Complete the registration form
+        [here](https://forms.gle/DZx8ogsHmf1Bejrd8) by Friday 14 November. \
+
+        \
+
+        For posters, we can print it for you if you email the PDF to **contact@ai.cam.ac.uk** by 17:00 on Friday 14 November, or you can arrange your own printing (allow 2-3 working days).
   heading: Frequently Asked Questions
 ---
