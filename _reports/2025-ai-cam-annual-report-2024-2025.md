@@ -36,6 +36,15 @@ ai@cam is the University of Cambridge’s mission to ensure AI serves science, c
 * Reached 1,200 members of the public through AI dialogues
 * Expanded global impact via the International Computation and AI Network and the European ELIAS Alliance
 
+## \
+L﻿ooking forward
+
+Our priorities for the coming year will include:
+
+* Scaling our challenge-led research incubator to create a sprint-based innovation programme
+* Bridging research and real-world implementation with the launch of our AI Observatory
+* Shaping the national AI agenda with our new policy briefing series and Local Government AI Innovation Programme
+
 ## Download the Full Report
 
 The complete findings and details can be found in the [full report.](/assets/uploads/ai-cam-2025-annual-report.pdf)
