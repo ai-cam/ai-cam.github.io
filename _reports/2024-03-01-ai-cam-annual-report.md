@@ -1,38 +1,48 @@
 ---
+excerpt: Our first year of operations has established ai@cam as an incubator for
+  interdisciplinary AI that addresses real-world needs, launching major
+  initiatives in research, policy engagement, and infrastructure development.
+abstract: This annual report outlines ai@cam's first year of operations
+  establishing itself as an incubator for interdisciplinary AI that addresses
+  real-world needs. Through initiatives like AI-deas and the Policy Lab, ai@cam
+  has catalyzed collaborations across 19 Departments and all 6 Schools,
+  supporting innovative research programs in mental health, fertility, public
+  services, language equity, and climate.
+key_achievements:
+  - Launched five ambitious AI-deas research programmes across 19 Departments
+  - Supported 46 HPC Pioneer Projects from 20 Departments
+  - Generated over £190k in external income
+  - Facilitated over 400 engagements with researchers, policymakers and public
+  - Established Policy Lab connecting research to national priorities
+authors:
+  - given: Jessica
+    preferred: Jess
+    family: Montgomery
+    affiliation: ai@cam
+  - given: Neil D.
+    family: Lawrence
+    affiliation: Department of Computer Science and Technology
 layout: report-single
-title: "ai@cam Annual Report 2023-24"
+title: ai@cam Annual Report 2023-24
 type: report
 date: 2024-03-01
-authors:
-  - given: "Jessica"
-    preferred: "Jess"
-    family: "Montgomery"
-    affiliation: "ai@cam"
-  - given: "Neil D."
-    family: "Lawrence"
-    affiliation: "Department of Computer Science and Technology"
-institution: "ai@cam"
-abstract: "This annual report outlines ai@cam's first year of operations establishing itself as an incubator for interdisciplinary AI that addresses real-world needs. Through initiatives like AI-deas and the Policy Lab, ai@cam has catalyzed collaborations across 19 Departments and all 6 Schools, supporting innovative research programs in mental health, fertility, public services, language equity, and climate."
+publisher: ep742
+id: ep742
+image: /assets/uploads/2023-annual-report.png
+pdf: /assets/uploads/2024-ai-cam-annual-report.pdf
 people:
-  - "Jess Montgomery"
-  - "Neil Lawrence"
-key_achievements:
-  - "Launched five ambitious AI-deas research programmes across 19 Departments"
-  - "Supported 46 HPC Pioneer Projects from 20 Departments"
-  - "Generated over £190k in external income"
-  - "Facilitated over 400 engagements with researchers, policymakers and public"
-  - "Established Policy Lab connecting research to national priorities"
+  - Jess Montgomery
+  - Neil Lawrence
+institution: ai@cam
 strategic_objectives:
-  - "Nurture a dynamic interdisciplinary research community"
-  - "Build partnerships centering societal interests and ethics"
-  - "Create spaces for innovative projects to respond to needs"
-  - "Widen access to AI knowledge and skills"
-  - "Connect Cambridge expertise to national AI priorities"
-excerpt: "Our first year of operations has established ai@cam as an incubator for interdisciplinary AI that addresses real-world needs, launching major initiatives in research, policy engagement, and infrastructure development."
+  - Nurture a dynamic interdisciplinary research community
+  - Build partnerships centering societal interests and ethics
+  - Create spaces for innovative projects to respond to needs
+  - Widen access to AI knowledge and skills
+  - Connect Cambridge expertise to national AI priorities
 category:
   - report
   - research-and-innovation
-pdf: /assets/uploads/2024-ai-cam-annual-report.pdf
 ---
 
 ## Executive Summary
