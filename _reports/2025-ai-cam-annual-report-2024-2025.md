@@ -3,10 +3,8 @@ layout: report-single
 title: ai@cam Annual Report 2024-2025
 type: report
 date: 2025-09-10
-author:
-  - family: "Jessica "
-    given: "Montgomery "
-container-title: Authors
+author: []
+container-title: ""
 publisher: University of Cambridge
 id: ep742
 image: /assets/uploads/annual-report-image-2025-2.jpg
