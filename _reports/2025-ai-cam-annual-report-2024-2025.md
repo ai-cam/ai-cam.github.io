@@ -2,7 +2,7 @@
 layout: report-single
 title: ai@cam Annual Report 2024-2025
 type: report
-date: 2025-09-10
+date: 2025-09-11
 author: []
 container-title: ""
 publisher: University of Cambridge
