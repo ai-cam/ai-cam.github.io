@@ -17,7 +17,7 @@ abstract: >-
   AI innovation that delivers public benefit. 
 
 
-  In its second year, the programme engaged over 3,000 people across all six Schools, brought together researchers from 58 departments, generated more than £9M in funding proposals, and established Cambridge as a trusted voice in national AI policy.
+  In its second year, the programme engaged over 3,000 people across all six Schools, brought together researchers from 58 departments and established Cambridge as a trusted voice in national AI policy.
 people:
   - Jess Montgomery
   - Neil Lawrence
