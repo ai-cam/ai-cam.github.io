@@ -33,7 +33,6 @@ ai@cam is the University of Cambridge’s mission to ensure AI serves science, c
 * Trained more than 1,500 researchers in AI methods
 * Supported 45 projects on the Dawn supercomputer
 * Published five policy briefs and engaged nine government departments
-* Reached 1,200 members of the public through AI dialogues
 * Expanded global impact via the International Computation and AI Network and the European ELIAS Alliance
 
 ## L﻿ooking forward
