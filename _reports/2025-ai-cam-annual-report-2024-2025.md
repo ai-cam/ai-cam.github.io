@@ -7,7 +7,7 @@ author: []
 container-title: ""
 publisher: University of Cambridge
 id: ep742
-image: /assets/uploads/annual-report-image-2025-2123.jpg
+image: /assets/uploads/annual-report-image-2025-21234.jpg
 pdf: /assets/uploads/ai-cam-2025-annual-report.pdf
 abstract: >-
   By connecting the University of Cambridge’s world-leading research with
