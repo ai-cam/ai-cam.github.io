@@ -44,6 +44,9 @@ Our priorities for the coming year will include:
 * Scaling our challenge-led research incubator to create a sprint-based innovation programme
 * Bridging research and real-world implementation with the launch of our AI Observatory
 * Shaping the national AI agenda with our new policy briefing series and Local Government AI Innovation Programme
+* Creating a broader conversation about AI with a structured public dialogue programme
+* Supporting the next generation of researchers and entrepreneurs in AI for science
+* Progressing a long-term vision for AI at Cambridge
 
 ## Download the Full Report
 
