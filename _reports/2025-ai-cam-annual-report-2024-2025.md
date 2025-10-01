@@ -19,6 +19,8 @@ people:
   - Jess Montgomery
   - Neil Lawrence
 ---
+Executive Summary\
+\
 ai@cam is the University of Cambridge’s mission to ensure AI serves science, citizens, and society. In its second year, the initiative has expanded its reach across the University and beyond, advancing interdisciplinary research, training over 1,500 researchers, shaping national policy, and building global partnerships that translate AI innovation into real-world benefit.\
 \
 Download the Full Report
