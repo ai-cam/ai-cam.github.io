@@ -2,7 +2,7 @@
 layout: event-single
 title: Exploring Franco-British Collaboration in Artificial Intelligence
 start: 2025-11-20 09:30
-end: 2025-10-23 16:30
+end: 2025-11-20 16:30
 category:
   - events
 image: /assets/uploads/exploring-franco-british-collaboration-in-artificial-intelligence.jpg
