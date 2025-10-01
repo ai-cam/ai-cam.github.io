@@ -36,8 +36,7 @@ ai@cam is the University of Cambridge’s mission to ensure AI serves science, c
 * Reached 1,200 members of the public through AI dialogues
 * Expanded global impact via the International Computation and AI Network and the European ELIAS Alliance
 
-## \
-L﻿ooking forward
+## L﻿ooking forward
 
 Our priorities for the coming year will include:
 
