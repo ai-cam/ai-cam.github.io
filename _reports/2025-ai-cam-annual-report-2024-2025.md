@@ -6,6 +6,7 @@ date: 2025-09-10
 publisher: University of Cambridge
 id: ep742
 image: /assets/uploads/2025-annual-report.png
+pdf: /assets/uploads/ai-cam-2025-annual-report.pdf
 abstract: >-
   By connecting the University of Cambridge’s world-leading research with
   real-world challenges ranging from local government to global sustainable
@@ -20,4 +21,4 @@ people:
 ---
 ## Download the Full Report
 
-The complete findings and details can be found here.
+The complete findings and details can be found [here.](/assets/uploads/ai-cam-2025-annual-report.pdf)
