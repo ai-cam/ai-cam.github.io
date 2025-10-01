@@ -21,4 +21,4 @@ people:
 ---
 ## Download the Full Report
 
-The complete findings and details can be found [here.](/assets/uploads/ai-cam-2025-annual-report.pdf)
+The complete findings and details can be found in the full report.
