@@ -8,7 +8,7 @@ author:
     given: "Montgomery "
 publisher: University of Cambridge
 id: ep742
-image: /assets/uploads/2025-annual-report.png
+image: /assets/uploads/annual-report-image-2025.png
 pdf: /assets/uploads/ai-cam-2025-annual-report.pdf
 abstract: >-
   By connecting the University of Cambridge’s world-leading research with
