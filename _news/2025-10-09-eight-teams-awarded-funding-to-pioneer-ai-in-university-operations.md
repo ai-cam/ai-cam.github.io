@@ -12,7 +12,7 @@ excerpt: From cutting exam administration time by 90 percent to helping
 date: 2025-10-08T00:00:00+01:00
 category:
   - research-and-innovation
-image: /assets/uploads/ai-for-ops-winners-news-item-ai-for-ops-winners-news-item.jpg
+image: /assets/uploads/ai-for-ops-2-.jpg
 people:
   - Jess Montgomery
   - Neil Lawrence
