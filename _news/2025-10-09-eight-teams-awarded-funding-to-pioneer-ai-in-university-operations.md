@@ -17,6 +17,10 @@ people:
   - Jess Montgomery
   - Neil Lawrence
 ---
+![](/assets/uploads/ai-for-ops-3-.jpeg)
+
+
+
 From cutting exam administration time by 90 percent to helping researchers bring medical software to regulators 60 percent faster, eight new AI for University Operations projects will use artificial intelligence to shape how the University of Cambridge’s administration works. The teams, selected from over 140 expressions of interest, will receive up to £10,000 each, alongside expert mentoring, to develop AI solutions addressing real operational challenges across the University.
 
 The projects tackle diverse problems: automating 65,000 annual exam enrolment checks, analysing energy use to cut carbon emissions, streamlining research grant reviews across hundreds of funders, and making the University's hidden Library collections more accessible. Each represents a practical test of how AI can support staff to make operations more effective.
