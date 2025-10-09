@@ -37,6 +37,7 @@ The eight funded projects span departments across the University and address div
 This project will develop an AI-powered replybot and chatbot to handle high volumes of staff and student recruitment enquiries efficiently. The system will provide instant, consistent responses to frequently asked questions about job opportunities and postgraduate admissions, reducing manual email handling and improving response times. By automating routine queries, it will free up administrative capacity for higher-value work such as interview coordination and candidate support. Designed as a scalable model, the tool could be adapted across departments to support HR and student admissions more widely.
 
 **Team:** Sarah Rosella, Rebecca Learn, Diane Coyle\
+\
 **AI-assisted Regulatory Compliance Technical File Generator for software as a medical device**\
 *Office of Translational Research, School of Clinical Medicine*
 
