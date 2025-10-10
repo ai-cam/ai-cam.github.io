@@ -39,6 +39,7 @@ This project will develop an AI-powered replybot and chatbot to handle high volu
 *Office of Translational Research, School of Clinical Medicine*
 
 By using AI to automate regulatory documentation, the Office for Translational Research and the School of Clinical Medicine are helping researchers bring medical software to patients faster. Its new “TechDoc co-pilot” will generate compliant technical files for Software as a Medical Device (SaMD), cutting preparation time by more than 60 percent and improving audit quality. The tool will be piloted in cancer risk modelling and neonatal care, with potential to support SaMD projects across the University.\
+\
 **Team:** Reza Salek, Antonis Antoniou, Kathryn Beardsall, Raj Jena
 
 **Exploring AI in Research Grants Administration**\
