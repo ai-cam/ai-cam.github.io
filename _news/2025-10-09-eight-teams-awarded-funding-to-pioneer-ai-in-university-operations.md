@@ -19,8 +19,6 @@ people:
 ---
 ![](/assets/uploads/ai-for-ops-3-.jpeg)
 
-
-
 From cutting exam administration time by 90 percent to helping researchers bring medical software to regulators 60 percent faster, eight new AI for University Operations projects will use artificial intelligence to shape how the University of Cambridge’s administration works. The teams, selected from over 140 expressions of interest, will receive up to £10,000 each, alongside expert mentoring, to develop AI solutions addressing real operational challenges across the University.
 
 The projects tackle diverse problems: automating 65,000 annual exam enrolment checks, analysing energy use to cut carbon emissions, streamlining research grant reviews across hundreds of funders, and making the University's hidden Library collections more accessible. Each represents a practical test of how AI can support staff to make operations more effective.
@@ -34,15 +32,13 @@ The eight funded projects span departments across the University and address div
 **AI reply/chatbot for staff and student recruitment**\
 *Bennett School of Public Policy*
 
-This project will develop an AI-powered replybot and chatbot to handle high volumes of staff and student recruitment enquiries efficiently. The system will provide instant, consistent responses to frequently asked questions about job opportunities and postgraduate admissions, reducing manual email handling and improving response times. By automating routine queries, it will free up administrative capacity for higher-value work such as interview coordination and candidate support. Designed as a scalable model, the tool could be adapted across departments to support HR and student admissions more widely.
-
+This project will develop an AI-powered replybot and chatbot to handle high volumes of staff and student recruitment enquiries efficiently. The system will provide instant, consistent responses to frequently asked questions about job opportunities and postgraduate admissions, reducing manual email handling and improving response times. By automating routine queries, it will free up administrative capacity for higher-value work such as interview coordination and candidate support. Designed as a scalable model, the tool could be adapted across departments to support HR and student admissions more widely.\
 **Team:** Sarah Rosella, Rebecca Learn, Diane Coyle\
 \
 **AI-assisted Regulatory Compliance Technical File Generator for software as a medical device**\
 *Office of Translational Research, School of Clinical Medicine*
 
-By using AI to automate regulatory documentation, the Office for Translational Research and the School of Clinical Medicine are helping researchers bring medical software to patients faster. Its new “TechDoc co-pilot” will generate compliant technical files for Software as a Medical Device (SaMD), cutting preparation time by more than 60 percent and improving audit quality. The tool will be piloted in cancer risk modelling and neonatal care, with potential to support SaMD projects across the University.
-
+By using AI to automate regulatory documentation, the Office for Translational Research and the School of Clinical Medicine are helping researchers bring medical software to patients faster. Its new “TechDoc co-pilot” will generate compliant technical files for Software as a Medical Device (SaMD), cutting preparation time by more than 60 percent and improving audit quality. The tool will be piloted in cancer risk modelling and neonatal care, with potential to support SaMD projects across the University.\
 **Team:** Reza Salek, Antonis Antoniou, Kathryn Beardsall, Raj Jena
 
 **Exploring AI in Research Grants Administration**\
