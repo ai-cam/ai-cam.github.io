@@ -45,7 +45,7 @@ Another risk stems from AI’s reliance on digitised material. Most institutions
 
 Finally, there are key environmental considerations. Training and running AI systems consumes significant energy, yet the GLAM sector currently lacks reliable tools for measuring these impacts. With sustainability becoming an increasing priority in galleries, libraries, archives, and museums, understanding and addressing the environmental footprint of AI is critical.
 
-![](/assets/uploads/picture-3.png)
+![](/assets/uploads/picture-3.png "mage caption: Example of a typescript catalogue card describing a map held at Cambridge University Library, which is being used to develop the hub. Photograph by Anne Taylor")
 
 **How did you get involved in this line of research?**
 
@@ -79,7 +79,7 @@ Looking ahead, our vision is that once the hub is fully developed, galleries, li
 
 This research is being led by the University of Cambridge. If you’re interested in learning more about the AI for Cultural Heritage Hub (ArCH) project or contributing to the project, please contact Amelie Roper (researchdevelopment@lib.cam.ac.uk).
 
-•	[AI for Cultural Heritage Hub ](www.lib.cam.ac.uk/arch)
+•	[AI for Cultural Heritage Hub ](https://www.lib.cam.ac.uk/research-institute/projects/arch)
 
 •	[AI for Cultural Heritage Hub Mailing List ](https://cam.us21.list-manage.com/subscribe?u=707258688317f6c4e792b48ab&id=483ee1a0ff)
 
