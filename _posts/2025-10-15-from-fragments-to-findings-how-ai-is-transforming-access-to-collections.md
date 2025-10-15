@@ -13,6 +13,20 @@ category:
   - ai-deas
 image: /assets/uploads/1.png
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AI is reshaping the way we access and interpret cultural heritage collections, from transcribing fragile manuscripts to piecing together fragmented artefacts. At Cambridge University Library, Dr Amelie Roper and her team are leading the AI for Cultural Heritage Hub (ArCH) project, a new initiative exploring how AI can reveal hidden collections while placing expert knowledge, ethical practice, and sustainability at its core.
 
 What was the inspiration AI for Cultural Heritage Hub (ArCH) project and what was the gap that it aims to address?
@@ -23,11 +37,7 @@ The project aims to create a secure, replicable workspace (the “hub”) that w
 
 ArCH addresses the lack of a secure “sandpit” where AI tools can be used on cultural heritage datasets using workflows that are accessible to those with limited technical expertise. The hub’s infrastructure will be open source and built on internationally-recognised standards, ensuring that it can be reused, scaled, and further developed by others. Beyond the technical platform, ArCH is also fostering a community of practice, through events and workshops, to surface common challenges, and build confidence in the responsible use of AI for cultural heritage collections.
 
-
-
 ![](/assets/uploads/2.png "Image caption: Selection of unplaced vignette fragments from the Papyrus of Ramose (P. Cambridge E.2.1922, Fitzwilliam Museum). Photograph by Joel Sams, © Fitzwilliam Museum Cambridge, 2025")
-
-
 
 **How does it tackle some of today’s major challenges when it comes to GLAM institutions (galleries, libraries, archives, and museums)?**
 
@@ -50,3 +60,19 @@ Another risk stems from AI’s reliance on digitised material. Most institutions
 Finally, there are key environmental considerations. Training and running AI systems consumes significant energy, yet the GLAM sector currently lacks reliable tools for measuring these impacts. With sustainability becoming an increasing priority in galleries, libraries, archives, and museums, understanding and addressing the environmental footprint of AI is critical.
 
 ![](/assets/uploads/picture-3.png)
+
+
+
+How did you get involved in this line of research?
+
+I am currently Head of Research at Cambridge University Library, where I manage the University Library Research Institute (ULRI), a centre dedicated to collections-led research. ArCH is one of several projects within our portfolio.
+
+My background is in collections-based research, including a PhD in book history, and I have held a variety of roles in special collections in libraries. From the very beginning of my library career, I have been interested in how technology can be applied to libraries and committed to making collections accessible to diverse audiences. One of my first jobs involved converting typescript catalogue cards into MAchine Readable Cataloguing (MARC) format so that they could be searched via an online catalogue. It is fascinating to see this work come full circle, with one of ArCH’s case studies now exploring how AI can be used to transcribe and structure data from card catalogues.
+
+As a researcher and librarian with a humanities background, I was initially apprehensive about leading what might be considered a technical project. However, as ArCH has progressed, I have come to appreciate how the critical thinking, communication, and documentation skills I developed as a historian, together with my practical experience of working with heritage collections, are real assets to the project.
+
+What challenges have you faced so far throughout the project?
+
+One of the biggest challenges of the ArCH project is logistical. It is a fast-paced project that involves working on six different case studies in order to develop the hub. Each case study is reliant on a different combination of team members and collections: card catalogues and a Mesoamerican pictographic lectionary at Cambridge University Library; specimen labels at the University Herbarium; accession registers and notebooks at the University Museum of Zoology; the Book of the Dead Ramose at the Fitzwilliam Museum; and scrimshaw materials (objects made or decorated by people involved with the whaling industry) at the Scott Polar Research Institute. Coordinating all six case studies and ensuring steady progress while balancing the availability of team members across multiple institutions requires careful planning and organisation.
+
+From a technological perspective, one of the biggest challenges lies in creating a secure, replicable environment where AI can be applied to collections data. Cultural heritage collections often contain material that is sensitive for many reasons, including copyright, data protection, licensing restrictions, subject matter, materiality, and provenance. Cambridge University Library’s strong track record in building secure systems for digital collections gave ArCH a solid foundation for developing a workspace with individual logins for users. However, controlling how uploaded data is subsequently used by AI engines - and ensuring it is not retained for training - remains a much more complex task.
