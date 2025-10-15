@@ -76,3 +76,27 @@ What challenges have you faced so far throughout the project?
 One of the biggest challenges of the ArCH project is logistical. It is a fast-paced project that involves working on six different case studies in order to develop the hub. Each case study is reliant on a different combination of team members and collections: card catalogues and a Mesoamerican pictographic lectionary at Cambridge University Library; specimen labels at the University Herbarium; accession registers and notebooks at the University Museum of Zoology; the Book of the Dead Ramose at the Fitzwilliam Museum; and scrimshaw materials (objects made or decorated by people involved with the whaling industry) at the Scott Polar Research Institute. Coordinating all six case studies and ensuring steady progress while balancing the availability of team members across multiple institutions requires careful planning and organisation.
 
 From a technological perspective, one of the biggest challenges lies in creating a secure, replicable environment where AI can be applied to collections data. Cultural heritage collections often contain material that is sensitive for many reasons, including copyright, data protection, licensing restrictions, subject matter, materiality, and provenance. Cambridge University Library’s strong track record in building secure systems for digital collections gave ArCH a solid foundation for developing a workspace with individual logins for users. However, controlling how uploaded data is subsequently used by AI engines - and ensuring it is not retained for training - remains a much more complex task.
+
+**Could you tell us about the interdisciplinary project team you are working with, and how it draws on expertise from across the University?**
+
+ArCH is a collaborative project led by Cambridge University Library, working with the Department of Applied Mathematics and Theoretical Physics and the Collections, Connections, Communities strategic research initiative. Our team includes 16 members, bringing together cultural heritage practitioners, digital humanities specialists, AI experts, developers, and academics.
+
+Although my role at the University Library Research Institute connects me with colleagues across Cambridge and beyond, ArCH has given me the opportunity to work with them in a much more sustained and meaningful way. Working in such an interdisciplinary team has been one of the real joys of the project. My colleagues Jennie Fletcher (Lead Developer) and Tuan Pham (Digital Transformation Programme Director) have been especially central to building the hub - it simply wouldn’t exist without them. At times, we need to pause to make sure we are “speaking the same language,” but that effort always pays off, leading to shared understanding and more innovative results.
+
+I feel privileged to be part of the ai@cam initiative. When I began my career in libraries, I never imagined I would lead a project like this. It is inspiring to work with colleagues to explore how AI can tackle challenges faced by cultural heritage organisations worldwide, and the support from ai@cam, whether technical or through new research connections, has been invaluable in helping ArCH grow and thrive.
+
+**What partnerships are you hoping to create or draw on as part of the project?**
+
+Partnerships are at the heart of ArCH. Within Cambridge University Library we are collaborating across teams that include developers, digital humanities specialists, curators, cataloguers, and researchers. Beyond the Library, we are working with collections experts and academics from across the University and further afield. Our case studies involve researchers at Birkbeck, University of London, and the University of Liverpool, while our advisory board brings together representatives from the wider cultural heritage sector.
+
+Looking ahead, our vision is that once the hub is fully developed, galleries, libraries, archives, and museums worldwide will be able to implement their own versions to use with their collections, making cultural heritage more discoverable on a global scale.
+
+More about the AI for Cultural Heritage Hub (ArCH)
+
+This research is being led by the University of Cambridge. If you’re interested in learning more about the AI for Cultural Heritage Hub (ArCH) project or contributing to the project, please contact Amelie Roper (researchdevelopment@lib.cam.ac.uk).
+
+•	AI for Cultural Heritage Hub webpage: www.lib.cam.ac.uk/arch
+
+•	AI for Cultural Heritage Hub mailing list: https://cam.us21.list-manage.com/subscribe?u=707258688317f6c4e792b48ab&id=483ee1a0ff
+
+•	Cambridge University Library Research Institute: https://www.lib.cam.ac.uk/research-institute
