@@ -25,6 +25,9 @@ ArCH addresses the lack of a secure “sandpit” where AI tools can be used on 
 
 ![](/assets/uploads/2.png "Image caption: Selection of unplaced vignette fragments from the Papyrus of Ramose (P. Cambridge E.2.1922, Fitzwilliam Museum). Photograph by Joel Sams, © Fitzwilliam Museum Cambridge, 2025")
 
+*Image caption: Selection of unplaced vignette fragments from the Papyrus of Ramose (P. Cambridge E.2.1922, Fitzwilliam Museum). Photograph by Joel Sams, © Fitzwilliam Museum Cambridge, 2025*\
+\
+\
 **How does it tackle some of today’s major challenges when it comes to GLAM institutions (galleries, libraries, archives, and museums)?**
 
 Cultural heritage organisations around the world hold billions of items that remain inaccessible. While there are many reasons for this, one of the most fundamental is that vast numbers of items are simply not discoverable. In many cases, no publicly available descriptions exist, leaving objects effectively invisible to anyone outside the institutions that house them. Even when items are discoverable, they are often preserved in formats that are difficult to access or do not meet users’ needs. For example, a manuscript may need transcription or an artefact may survive only in thousands of fragments that are impossible for humans to piece together unaided.
@@ -47,6 +50,8 @@ Finally, there are key environmental considerations. Training and running AI sys
 
 ![](/assets/uploads/picture-3.png "mage caption: Example of a typescript catalogue card describing a map held at Cambridge University Library, which is being used to develop the hub. Photograph by Anne Taylor")
 
+*Example of a typescript catalogue card describing a map held at Cambridge University Library, which is being used to develop the hub. Photograph by Anne Taylor*\
+\
 **How did you get involved in this line of research?**
 
 I am currently Head of Research at Cambridge University Library, where I manage the University Library Research Institute (ULRI), a centre dedicated to collections-led research. ArCH is one of several projects within our portfolio.
