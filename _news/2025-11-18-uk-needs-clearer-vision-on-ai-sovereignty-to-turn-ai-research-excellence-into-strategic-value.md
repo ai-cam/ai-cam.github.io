@@ -8,7 +8,7 @@ excerpt: A new policy brief from ai@cam, the Bennett School of Public Policy,
   the research capability and policy tools to improve its AI sovereignty, but
   needs clearer vision and better coordination to ensure AI development serves
   citizens' interests.
-date: 2025-11-18T00:00:00+00:00
+date: 2025-11-18T21:34:17+00:00
 category:
   - policy
 image: /assets/uploads/marcin-nowak-ixqtqc-f6ji-unsplash.jpg
