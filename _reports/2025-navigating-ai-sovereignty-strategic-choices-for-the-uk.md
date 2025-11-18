@@ -19,6 +19,7 @@ issued:
       "1": 11
       "2": 18
 id: ai_cam_sovereign_ai
+image: /assets/uploads/marcin-nowak-ixqtqc-f6ji-unsplash.jpg
 pdf: /assets/uploads/ai-cam_navigating_ai_sovereignty.pdf
 abstract: This policy brief addresses whether the UK’s current approach to AI
   sovereignty is able to deliver a future where the nation can influence the AI
