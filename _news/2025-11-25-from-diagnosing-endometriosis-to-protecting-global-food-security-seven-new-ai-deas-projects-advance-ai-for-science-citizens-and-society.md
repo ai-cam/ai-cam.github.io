@@ -23,8 +23,6 @@ The projects span an ambitious range of challenges: making conservation evidence
 
 The seven funded projects address diverse challenges across multiple domains:
 
-Funded Projects
-
 * **Conservation Co-pilot: Making Environmental Evidence Accessible**
 
 With over 1 million users already accessing the Conservation Evidence database, this project will develop the first 'Conservation Co-pilot' – an AI-powered chat interface that retrieves, summarises, and presents conservation evidence to answer user questions. The challenge is ensuring that AI faithfully represents scientific evidence without misrepresentation. Building on rigorous evaluation research comparing frontier AI models with human experts, the team will create an agentic system that draws together evidence while maintaining faithfulness to source material. The tool will be game-changing for conservation decision-makers seeking evidence to guide action.
@@ -35,7 +33,7 @@ With over 1 million users already accessing the Conservation Evidence database, 
 
 Endometriosis affects 1 in 10 women, causing severe pain and fertility complications, yet diagnosis typically takes 7-10 years. Between 35-50% of people struggling to conceive naturally suffer from endometriosis, but detecting the condition requires specialist expertise and it takes sonographers 6-9 months to gain proficiency in identifying the five key sonologic signs. This project will develop an AI tool that analyses 2D ultrasound scans to detect subtle patterns of endometriosis, enabling earlier and more consistent diagnosis. The system will generate grounded outputs linking text descriptions to visual regions of interest, creating bounding boxes for features like endometriomas and adhesions. Beyond improving diagnosis, early detection can prevent cyst development, ease debilitating symptoms, avoid expensive invasive procedures like laparoscopies, and significantly improve IVF outcomes.
 
-**T﻿eam:** Staci 
+**T﻿eam:** Staci Weiss, Mo Vali and May Levin
 
 * **Thermal Imaging for Precision Brain Tumour Surgery**
 
