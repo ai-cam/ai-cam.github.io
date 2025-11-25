@@ -21,7 +21,7 @@ The projects span an ambitious range of challenges: making conservation evidence
 
 "The AI-deas Sprint Programme is about bridging the gap between promising research and real-world impact," said Jess Montgomery, Director of ai@cam. "These seven projects demonstrate the breadth of challenges that AI can help address, from improving women's health outcomes to supporting global food security. What makes this programme special is that we're supporting interdisciplinary teams to move beyond traditional research and build working prototypes that can attract partnerships and funding."
 
-The seven funded projects address diverse challenges across multiple domains:
+The seven funded projects address diverse challenges across multiple domains. The funded projects are:
 
 * **Conservation Co-pilot: Making Environmental Evidence Accessible**
 
