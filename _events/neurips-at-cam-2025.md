@@ -61,9 +61,9 @@ TBD
 |------|---------|-------|
 | 13:30 – 13:40 | Zakhar Shumaylov | [When is a System Discoverable from Data?](https://arxiv.org/abs/2511.08860) |
 | 13:40 – 13:50 | Tiansi Dong | [Neural Reasoning for Sure Through Constructing Explainable Models](https://ojs.aaai.org/index.php/AAAI/article/view/33262) |
-| 13:50 – 14:00 | John Bronskill | [Stroke Patches: Customizable Artistic Styling Using Regression](https://openreview.net/pdf?id=wiLoIjygWP) |
-| 14:00 – 14:10 | Tom Cowperthwaite | [GPGreen: Learning Linear Operators using Gaussian Processes](https://openreview.net/pdf?id=eNFMYj2ZG6) |
-| 14:10 – 14:20 | Cristiana Diaconu | [Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning](https://openreview.net/pdf?id=IQlcfc40Ja) |
+| 13:50 – 14:00 | John Bronskill | [Stroke Patches: Customizable Artistic Styling Using Regression](https://openreview.net/forum?id=wiLoIjygWP) |
+| 14:00 – 14:10 | Tom Cowperthwaite | [GPGreen: Learning Linear Operators using Gaussian Processes](https://openreview.net/forum?id=eNFMYj2ZG6) |
+| 14:10 – 14:20 | Cristiana Diaconu | [Estimating Interventional Distributions with Uncertain Causal Graphs through Meta-Learning](https://openreview.net/forum?id=IQlcfc40Ja) |
 | 14:20 – 14:30 | Shangqi Gao | [Towards Generalizable Retinal Vessel Segmentation with Deformable Graph Priors](https://openreview.net/forum?id=zVkbsGlKn9) |
 | 14:30 – 14:40 | Mohammad Zaid | AI-driven MEMS Acoustic Sensors |
 | 14:40 – 14:50 | Amy Yijie Zhang | [Towards Equitable Photoacoustic Imaging: Digital-Twin Inspired Skin Pigmentation Bias Correction](https://www.medrxiv.org/content/10.1101/2025.03.28.25324605v1) |
