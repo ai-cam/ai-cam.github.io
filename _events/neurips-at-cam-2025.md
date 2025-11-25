@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: NeurIPS@Cam 2025
-start: 2025-12-10 9:00
-end: 2025-12-10 18:00
+start: 2025-12-10 09:00
+end: 2025-12-10 17:00
 category:
   - events
 image: /assets/uploads/neurips@cam-title-slide.png
@@ -96,10 +96,14 @@ TBD
 **Topic:**  
 Beyond Tokens and GPUs: What Survives When the AI Bubble Pops?
 
-**Moderator:** [Emilio Luz Ricca (AI4ER)](https://www.zoo.cam.ac.uk/directory/emilio-luz-ricca)
+**Moderator:** [Emilio Luz-Ricca (AI4ER)](https://www.zoo.cam.ac.uk/directory/emilio-luz-ricca)
 
 **Panellists:**  
 TBA
+
+---
+
+*Drinks Reception (30 minutes)*
 
 ---
 
