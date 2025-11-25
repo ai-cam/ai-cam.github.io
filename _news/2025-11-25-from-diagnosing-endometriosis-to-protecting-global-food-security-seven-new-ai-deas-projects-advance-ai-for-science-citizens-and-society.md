@@ -13,7 +13,7 @@ excerpt: From transforming brain tumour surgery to helping millions of
 date: 2025-11-24T00:00:00+00:00
 category:
   - ai-deas
-image: /assets/uploads/getty-images-l95p6maw35k-unsplash.jpg
+image: /assets/uploads/getty-images-xgnlnwsf8ts-unsplash-1-.jpg
 ---
 From transforming brain tumour surgery to helping millions of smallholder farmers protect their crops, seven new AI-deas Sprint projects will use artificial intelligence to tackle some of society's most pressing challenges. The teams, successful in a competitive open application process, will receive funding and technical mentoring to develop AI prototypes addressing real-world problems across healthcare, education, climate, and urban planning.
 
