@@ -37,8 +37,6 @@ Challenges in interpretability and validation can be found across areas of scien
 
 These problems are methodological, not computational. They don't solve themselves at scale.
 
-![](/assets/uploads/french-event-scriberia.jpg)
-
 **Spaces for interdisciplinary innovation in AI for science**
 
 Today’s research and policy conversations about AI for science are often dominated by a particular strategy: scale. Bigger models, more parameters, more compute, more investment capital. That approach has advanced the field and produced impressive capabilities, but it's not the only research strategy, and whether this strategy will move the frontier forward is an area of debate.
