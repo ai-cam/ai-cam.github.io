@@ -45,7 +45,7 @@ Brain tumours are the leading cause of cancer death in children and adults under
 
 With climate change accelerating crop diseases and threatening food security for millions of smallholder farmers across Africa and South Asia, this project will deploy AI to automate the generation of wheat disease risk advisories. Currently, expert pathologists manually write and translate weekly summaries of disease forecasts. This labour-intensive process limits scalability as demand grows. The team will fine-tune a large language model on five years of expert-edited advisories, enabling it to generate concise, context-aware summaries tailored to each country's communication channels. The system will be augmented with real-time disease forecasts and survey data, dramatically increasing the responsiveness of early warning systems that currently support international collaboration spanning nine countries and tens of millions of farmers.
 
-**Team:** Jacob Smith (jws52@cam.ac.uk), Research Associate, Department of Plant Sciences; Lawrence Bower (lb584@cam.ac.uk), Computing Research Associate, Department of Plant Sciences; Chris Gilligan (cag1@cam.ac.uk), Research Professor, Department of Plant Sciences.
+**Team:** Jacob Smith, Research Associate, Department of Plant Sciences; Lawrence Bower, Computing Research Associate, Department of Plant Sciences; Chris Gilligan, Research Professor, Department of Plant Sciences.
 
 * **Personalised Second Language Learning Through AI**
 
