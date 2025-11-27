@@ -13,6 +13,8 @@ category:
   - policy
 image: /assets/uploads/franco-british-collaboration-in-artificial-intelligence.jpg
 ---
+![](/assets/uploads/french-event-scriberia.jpg)
+
 Policymakers increasingly see AI as a tool for accelerating scientific discovery, and in turn generating a new wave of innovations that tackle critical societal issues and boost productivity. Recent policy announcements from the UK and EU set out aspirations to promote widespread adoption of AI in science. Between that ambition and the reality of AI for science sits a gap between what's technically possible and what's scientifically useful.
 
 On 20 November, as part of an emerging UK-France collaboration in AI, ai@cam brought together researchers working at the intersection of AI and science. The conversation moved across different problems: how do you forecast weather without traditional numerical weather prediction? How do you model how a drug affects tissue structure? How do you predict molecular structures from mass spectrometry data? How do you quantify the extinction impact of agricultural land use? How do you extract reliable insights from the neuroscience literature? How do you diagnose dementia earlier? These aren't separate questions. They're connected by something deeper: a rethinking of how the scientific pipeline works, from data to actionable insight.
