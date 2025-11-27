@@ -37,8 +37,6 @@ Challenges in interpretability and validation can be found across areas of scien
 
 These problems are methodological, not computational. They don't solve themselves at scale.
 
-
-
 ![](/assets/uploads/french-event-scriberia.jpg)
 
 **Spaces for interdisciplinary innovation in AI for science**
