@@ -15,7 +15,7 @@ image: /assets/uploads/1.png
 ---
 AI is reshaping the way we access and interpret cultural heritage collections, from transcribing fragile manuscripts to piecing together fragmented artefacts. At Cambridge University Library, Dr Amelie Roper and her team are leading the AI for Cultural Heritage Hub (ArCH) project, a new initiative exploring how AI can reveal hidden collections while placing expert knowledge, ethical practice, and sustainability at its core.
 
-**What was the inspiration AI for Cultural Heritage Hub (ArCH) project and what was the gap that it aims to address?**
+**What was the inspiration for the AI for Cultural Heritage Hub (ArCH) project and what was the gap that it aims to address?**
 
 The AI for Cultural Heritage Hub (ArCH) grew out of two main inspirations: the untapped potential of the vast and diverse collections across Cambridge’s libraries, archives, galleries, museums, and herbarium - many of which remain underexplored - and the belief that cultural heritage should be accessible to everyone, whether it that be for research, inspiration or enjoyment.
 
