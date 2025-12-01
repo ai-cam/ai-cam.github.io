@@ -74,6 +74,8 @@ Although my role at the University Library Research Institute connects me with c
 
 I feel privileged to be part of the ai@cam initiative. When I began my career in libraries, I never imagined I would lead a project like this. It is inspiring to work with colleagues to explore how AI can tackle challenges faced by cultural heritage organisations worldwide, and the support from ai@cam, whether technical or through new research connections, has been invaluable in helping ArCH grow and thrive.
 
+![](/assets/uploads/ai-cultural-hertiage-project-team.jpg)
+
 **What partnerships are you hoping to create or draw on as part of the project?**
 
 Partnerships are at the heart of ArCH. Within Cambridge University Library we are collaborating across teams that include developers, digital humanities specialists, curators, cataloguers, and researchers. Beyond the Library, we are working with collections experts and academics from across the University and further afield. Our case studies involve researchers at Birkbeck, University of London, and the University of Liverpool, while our advisory board brings together representatives from the wider cultural heritage sector.
