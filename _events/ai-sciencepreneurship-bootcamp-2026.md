@@ -23,6 +23,6 @@ The two-day programme will feature:
 * Founder story sessions with successful AI entrepreneurs;
 * Pitch development and showcase opportunities with local entrepreneurs.
 
-Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions.\
+Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).\
 \
 **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
