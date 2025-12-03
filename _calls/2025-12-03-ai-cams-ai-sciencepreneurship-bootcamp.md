@@ -1,6 +1,6 @@
 ---
 layout: call-single
-title: ai@cam's AI Sciencepreneurship Bootcamp
+title: AI Sciencepreneurship Bootcamp 2026
 excerpt: ai@cam announces its second AI Sciencepreneurship Bootcamp, an
   immersive two-day programme that helps researchers translate AI for science
   ideas to practice through entrepreneurship.
