@@ -25,23 +25,19 @@ media_text:
 
 
     Running from 11-12 February 2026, this hands-on bootcamp will combine technical expertise in scientific applications of AI with entrepreneurial insights from Cambridge’s innovation ecosystem, supporting the next generation of science-based ventures.
+
+
+    Cambridge is home to over 5,500 knowledge-intensive businesses and the world’s highest concentration of academic entrepreneurs. AI could help supercharge scientific discovery and innovation, driving a new wave of breakthroughs in areas from healthcare, to genomics, to sustainable energy. However, researchers looking to translate their scientific AI innovations face challenges, from designing AI tools tailored for specific scientific domains to building product-ready solutions from laboratory innovations.
+
+
+    Our first bootcamp saw teams develop innovative ventures including Nature Network, an AI mapping tool to connect the public with the natural world; Ötzi, an AI-driven climate-risk modelling tool for insurance markets; and From Womb to World, an AI-powered digital health tool for IVF and high-risk pregnancies. Building on this momentum, this second edition will provide an enhanced pathway for researchers to develop their scientific AI innovations into viable ventures.
   buttons: []
 paper_submissions:
   content: >-
-    Cambridge is home to over 5,500 knowledge-intensive businesses and the
-    world’s highest concentration of academic entrepreneurs. AI could help
-    supercharge scientific discovery and innovation, driving a new wave of
-    breakthroughs in areas from healthcare, to genomics, to sustainable energy.
-    However, researchers looking to translate their scientific AI innovations
-    face challenges, from designing AI tools tailored for specific scientific
-    domains to building product-ready solutions from laboratory innovations.
-
-
-    Our first bootcamp saw teams develop innovative ventures including Nature Network, an AI mapping tool to connect the public with the natural world; Ötzi, an AI-driven climate-risk modelling tool for insurance markets; and From Womb to World, an AI-powered digital health tool for IVF and high-risk pregnancies. Building on this momentum, this second edition will provide an enhanced pathway for researchers to develop their scientific AI innovations into viable ventures.\
-
-    \
-
-    From 11-12 February 2026, the ai@cam Sciencepreneurship bootcamp will provide hands-on workshops, training, and mentoring to help researchers develop AI for science tools and learn more about entrepreneurship. The two-day programme will feature:
+    From 11-12 February 2026, the ai@cam Sciencepreneurship bootcamp will
+    provide hands-on workshops, training, and mentoring to help researchers
+    develop AI for science tools and learn more about entrepreneurship. The
+    two-day programme will feature:
 
 
     * Technical workshops on foundation models and AI tools led by the Accelerate Science team; 
@@ -53,13 +49,11 @@ paper_submissions:
     * Pitch development and showcase opportunities with local entrepreneurs.
 
 
-
-
-    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions.
+    Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. We encourage all applicants to read the FAQs below before applying. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).
 
 
     **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
-  heading: Want to apply?
+  heading: How to apply
   buttons:
     - text: Apply here
       link: https://forms.gle/uhKa28UuGWybaviCA
