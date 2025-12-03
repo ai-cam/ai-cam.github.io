@@ -1,6 +1,6 @@
 ---
 layout: call-single
-title: AI Sciencepreneurship Bootcamp
+title: Sciencepreneurship Bootcamp
 excerpt: "ai@cam announces its inaugural AI Sciencepreneurship Bootcamp, an
   immersive two-day programme convened in collaboration with the ELIAS network
   of European innovation hubs. "
