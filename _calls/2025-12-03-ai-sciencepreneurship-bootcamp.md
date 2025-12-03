@@ -5,7 +5,7 @@ excerpt: ai@cam announces its second AI Sciencepreneurship Bootcamp, an
   immersive two-day programme that helps researchers translate AI for science
   ideas to practice through entrepreneurship.
 date: 2025-12-02 17:03:27
-closing_date: 2025-12-02 17:03:27
+closing_date: 2026-01-17 17:00:27
 category:
   - events
 image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash.jpg
