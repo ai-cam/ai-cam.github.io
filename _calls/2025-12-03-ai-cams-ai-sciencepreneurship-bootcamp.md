@@ -50,4 +50,22 @@ paper_submissions:
 
     The deadline for applications is 17:00 on Wednesday 28 January 2026.
   heading: Want to apply?
+  buttons:
+    - text: Apply here
+      link: https://forms.gle/uhKa28UuGWybaviCA
+faqs:
+  heading: Frequently Asked Questions
+  faqs:
+    - heading: Who can participate in this bootcamp?
+      content: >-
+        The bootcamp is open to PhD students, postdocs, and early-career
+        researchers  at the University of Cambridge and its associated research
+        institutions, working on AI applications in scientific domains such as
+        biology, chemistry, physics, environmental science, healthcare, and
+        related fields. Participants should have an understanding of core
+        methods and concepts in AI and an idea for a project they'd like to
+        develop. 
+
+
+        As part of registration for the session, we will ask participants to agree to a confidentiality undertaking, to allow other participants in the workshop to share their ideas during discussions.
 ---
