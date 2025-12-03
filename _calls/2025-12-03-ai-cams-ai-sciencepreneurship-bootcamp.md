@@ -8,8 +8,13 @@ date: 2025-12-02 17:31:55
 closing_date: 2026-01-28 17:00:55
 category:
   - events
-image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash.jpg
+image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-3.jpg
 hero:
+  content: ""
+  heading: AI Sciencepreneurship Bootcamp
+media_text:
+  image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash.jpg
+  heading: AI Sciencepreneurship Bootcamp
   content: >-
     ai@cam announces its second AI Sciencepreneurship Bootcamp, an immersive
     two-day programme that helps researchers translate AI for science ideas to
@@ -23,10 +28,8 @@ hero:
 
 
     Our first bootcamp saw teams develop innovative ventures including Nature Network, an AI mapping tool to connect the public with the natural world; Ötzi, an AI-driven climate-risk modelling tool for insurance markets; and From Womb to World, an AI-powered digital health tool for IVF and high-risk pregnancies. Building on this momentum, this second edition will provide an enhanced pathway for researchers to develop their scientific AI innovations into viable ventures.
-  heading: AI Sciencepreneurship Bootcamp
-media_text:
-  image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy.jpg
-  heading: Want to apply?
+  buttons: []
+paper_submissions:
   content: >-
     From 11-12 February 2026, the ai@cam Sciencepreneurship bootcamp will
     provide hands-on workshops, training, and mentoring to help researchers
@@ -46,7 +49,5 @@ media_text:
 
 
     The deadline for applications is 17:00 on Wednesday 28 January 2026.
-  buttons:
-    - link: https://www.ai.cam.ac.uk/calls/From%2011-12%20February%202026,%20the%20ai@cam%20Sciencepreneurship%20bootcamp%20will%20provide%20hands-on%20workshops,%20training,%20and%20mentoring%20to%20help%20researchers%20develop%20AI%20for%20science%20tools%20and%20learn%20more%20about%20entrepreneurship.%20The%20two-day%20programme%20will%20feature:%20Technical%20workshops%20on%20foundation%20models%20and%20AI%20tools%20led%20by%20the%20Accelerate%20Science%20team;%20Training%20sessions%20on%20start-up%20fundamentals%20from%20Cambridge%20Innovation%20Capital;%20Founder%20story%20sessions%20with%20successful%20AI%20entrepreneurs;%20Pitch%20development%20and%20showcase%20opportunities%20with%20local%20entrepreneurs.%20Applications%20are%20open%20to%20researchers%20and%20PhD%20students%20at%20the%20University%20of%20Cambridge%20and%20its%20associated%20institutions.
-      text: Apply here
+  heading: Want to apply?
 ---
