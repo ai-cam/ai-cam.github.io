@@ -1,6 +1,6 @@
 ---
 layout: call-single
-title: "AI Sciencepreneurship bootcamp  "
+title: ai@cam AI Sciencepreneurship Bootcamp
 excerpt: ai@cam announces its second AI Sciencepreneurship Bootcamp, an
   immersive two-day programme that helps researchers translate AI for science
   ideas to practice through entrepreneurship.
