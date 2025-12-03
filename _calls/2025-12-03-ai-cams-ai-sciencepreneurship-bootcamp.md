@@ -13,7 +13,7 @@ hero:
   content: ""
   heading: AI Sciencepreneurship Bootcamp
 media_text:
-  image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash.jpg
+  image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-5.jpg
   heading: AI Sciencepreneurship Bootcamp
   content: >-
     ai@cam announces its second AI Sciencepreneurship Bootcamp, an immersive
