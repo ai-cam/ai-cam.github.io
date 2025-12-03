@@ -27,6 +27,7 @@ media_text:
 
 
     Our first bootcamp saw teams develop innovative ventures including Nature Network, an AI mapping tool to connect the public with the natural world; Ötzi, an AI-driven climate-risk modelling tool for insurance markets; and From Womb to World, an AI-powered digital health tool for IVF and high-risk pregnancies. Building on this momentum, this second edition will provide an enhanced pathway for researchers to develop their scientific AI innovations into viable ventures.
+  image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy.jpg
 paper_submissions:
   heading: Want to apply?
   content: >-
