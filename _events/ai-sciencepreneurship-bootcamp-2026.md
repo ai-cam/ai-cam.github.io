@@ -7,7 +7,7 @@ category:
   - events
 desc: ai@cam announces its second AI Sciencepreneurship Bootcamp.
 image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-4.jpg
-link_to: https://forms.gle/m4a3pjQvQUCGTuYH7
+link_to: https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp
 ---
 **Time & date:** 09.00 - 17.30 | Wednesday 11 February  - Thursday 12 February 2026\
 **Organisers:** ai@cam\
