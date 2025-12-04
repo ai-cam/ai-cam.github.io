@@ -40,6 +40,8 @@ The joint C2D3/NeurIPS@Cam morning session will include talks on new ways to sol
 ## Joint C2D3/NeurIPS@Cam - Keynote 
 ### 11:30 – 12:30
 
+**Title:** Unveiling Social Tipping Mechanisms in Climate Discourse Using Computational Social Sciences
+
 **Speaker:** [Dr Ramit Debnath](https://www.arct.cam.ac.uk/staff/dr-ramit-debnath-mphil-phd-cantab)
 
 ---
