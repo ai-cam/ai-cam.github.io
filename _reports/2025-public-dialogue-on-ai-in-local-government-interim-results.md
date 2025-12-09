@@ -34,7 +34,7 @@ abstract: >
 
 **Impact and Next Steps**
 
-The findings from this interim report are shaping the direction of our Local Government AI Accelerator, and we encourage applicants to draw on these insights when developing their proposals. This can include consideration of:
+The findings from this interim report are shaping the direction of our [Local Government AI Accelerator](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator), and we encourage applicants to draw on these insights when developing their proposals. This can include consideration of:
 
 * Decision-making boundaries: Is AI making recommendations that humans review, or final decisions that directly affect people's lives? If the latter, how will meaningful human oversight be ensured? 
 * Transparency and consent: How will residents know when AI is being used in their interactions with the council? What information will they receive about how it works and what data it uses? 
