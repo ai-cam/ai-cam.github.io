@@ -6,8 +6,8 @@ excerpt: >
   of Cambridge and local authorities.
 
   The University of Cambridge is launching a new funding scheme to support collaborative AI research and development projects with local government partners. The ai@cam Local Government AI Accelerator will provide grants of up to £25,000 for proof-of-concept projects that address shared challenges across multiple councils.
-date: 2025-12-09 12:18:57
-closing_date: 2025-12-09 12:18:57
+date: 2025-12-08 12:00:57
+closing_date: 2026-02-13 16:00:57
 category:
   - policy
 image: /assets/uploads/getty-images-7fbnxwjaxtg-unsplash.jpg
