@@ -42,10 +42,17 @@ paper_submissions:
     To apply, we ask for some basic project information, a two page project proposal, and supporting documents to demonstrate local authority support and headline spending plans. 
 
 
+    **Information session**\
+
+    We will also be hosting an upcoming Q&A information session about the funding scheme on **10:00 - 11:00,** **Thursday 15 January.** You can [register for this session here](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g)
+
+
     We encourage all applicants to read the FAQs below before applying. If you have any further questions  around eligibility or the application process, please contact Jess Montgomery (jkm40@cam.ac.uk.)
   buttons:
     - text: Apply here
       link: https://forms.gle/KUMDXfy3jCXB68hi9
+    - text: Register for the Information Session
+      link: https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g
 faqs:
   heading: Frequently Asked Questions
   faqs:
