@@ -32,8 +32,6 @@ Key Findings
 * Residents expect to play an active role in shaping how AI is developed and deployed.\
   Participants want meaningful involvement throughout the process, from setting priorities to designing, testing and monitoring AI systems. They also expect councils to consider broader implications, including environmental impacts, data security, future workforce skills and alignment with wider public service goals.
 
- 
-
 Impact and Next Steps
 
 The findings from this interim report are shaping the direction of our Local Government AI Accelerator, and we encourage applicants to draw on these insights when developing their proposals. This can include consideration of:
@@ -44,4 +42,4 @@ The findings from this interim report are shaping the direction of our Local Gov
 * Workforce impact: How will this affect council staff roles and skills? What training or support will be needed? 
 * Exit and contingency planning: What happens if the AI system fails or needs to be withdrawn? How will services continue? What skills and capabilities need to be maintained?
 
-A second phase of dialogue will take place in March 2026, and insights will continue to inform the programme. The interim public dialogue report can be found here.
+A second phase of dialogue will take place in March 2026, and insights will continue to inform the programme. The interim public dialogue report can be found [here.](/assets/uploads/interim-report-public-dialogue-on-ai-in-local-government.pdf)
