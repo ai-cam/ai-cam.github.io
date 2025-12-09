@@ -5,7 +5,7 @@ type: report
 date: 2025-12-09
 publisher: University of Cambridge
 id: ep742
-image: /assets/uploads/summary-report-image.png
+image: /assets/uploads/summary-report-image-2.png
 pdf: /assets/uploads/interim-report-public-dialogue-on-ai-in-local-government.pdf
 abstract: >
   In November 2025, ai@cam worked with Hopkins Van Mil to convene public
