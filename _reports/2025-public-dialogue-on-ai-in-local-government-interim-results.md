@@ -19,17 +19,17 @@ abstract: >
 
   Participants emphasise that AI should generate demonstrable improvements in people’s lives rather than serve primarily as a cost-saving mechanism. They expect AI to enhance, not replace, human roles - automating routine tasks so staff can focus on empathy, creativity and nuanced judgment.
 ---
-Key Findings
+**Key Findings**
 
-* AI should be deployed only where it delivers clear public benefit.\
+* **AI should be deployed only where it delivers clear public benefit.**\
   Residents want AI used to address real service pressures, such as heavy administrative workloads or slow processes. Innovation for its own sake, or deployment driven primarily by cost-savings that do not deliver service improvements, will not gain public trust or support.
-* Humans must remain central to all decisions that affect people’s lives.\
+* **Humans must remain central to all decisions that affect people’s lives.**\
   Participants support AI automating routine tasks but are opposed to AI making final decisions, particularly in sensitive areas involving vulnerable individuals. They expect councils to protect existing jobs, invest in staff training, and ensure robust human oversight is built into AI tools from the start.
-* Public trust requires full transparency, clear accountability and evidence that AI works.\
+* **Public trust requires full transparency, clear accountability and evidence that AI works.**\
   Residents want to know when AI is used, how it operates, what data it relies on, and who is responsible for it. They expect AI systems to be rigorously tested, reliable, unbiased and independently evaluated before wider adoption.
-* AI systems must be inclusive, accessible and secure for all residents.\
+* **AI systems must be inclusive, accessible and secure for all residents.**\
   Participants expect human alternatives to remain available, systems that work for people with different levels of digital literacy, robust protections of personal data and strong safeguards against system failure or malicious attack.
-* Residents expect to play an active role in shaping how AI is developed and deployed.\
+* **Residents expect to play an active role in shaping how AI is developed and deployed.**\
   Participants want meaningful involvement throughout the process, from setting priorities to designing, testing and monitoring AI systems. They also expect councils to consider broader implications, including environmental impacts, data security, future workforce skills and alignment with wider public service goals.
 
 **Impact and Next Steps**
