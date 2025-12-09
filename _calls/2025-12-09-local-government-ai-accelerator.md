@@ -195,8 +195,9 @@ faqs:
         * Confirmation that the PI is eligible to hold funds in Cambridge
     - heading: Where can I learn more?
       content: >-
-        We will also host an information session about the funding scheme on
-        **15 January, 10:00 - 11:00.** You can [register for this session
+        We will be hosting an upcoming information session about the funding
+        scheme on **15 January, 10:00 - 11:00.** You can [register for this
+        session
         here](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g)
 
 
