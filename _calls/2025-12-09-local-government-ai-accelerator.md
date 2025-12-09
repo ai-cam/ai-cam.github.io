@@ -132,6 +132,76 @@ faqs:
         authorities without costly licensing barriers, maximising the public
         benefit of the investment. However, we also understand there may be
         times when commercial considerations require other approaches.
-    - {}
-    - {}
+    - heading: Can projects involve multiple councils?
+      content: We strongly encourage applications that address challenges shared
+        across multiple councils. Projects involving multiple authorities should
+        set out how each partner will contribute and benefit.
+    - heading: What if my council isn't in Cambridgeshire?
+      content: While the programme builds on ai@cam's existing relationships with
+        Cambridgeshire councils, applications involving local authorities from
+        other regions are welcome. The key eligibility requirements are active
+        partnership with at least one council and a Cambridge-based researcher
+        who is eligible to hold funding on behalf of the University. Strong
+        applications that address challenges relevant across multiple
+        authorities will be competitive regardless of geographic location.
+    - heading: What is required for me to apply?
+      content: >-
+        Applications consist of a Google Form (covering basic team and partner
+        details), a two-page project description, and supporting documents.
+
+
+        Your two-page description should cover: 
+
+
+        * The operational challenge you're addressing and why it matters: What problem are you addressing and why does it matter? Who is affected? Is this challenge shared across multiple authorities? 
+
+        * Your proposed AI approach and why it's appropriate: How will you address this challenge? If AI is part of the solution, why is it the right tool for this problem? If you're developing infrastructure or redesigning processes, how does this enable better outcomes?
+
+        * Your council partnership and how you'll work together: Who is your council partner contact? How will you access real operational contexts for testing? What pathway exists for implementation if successful?
+
+        * Your delivery plan and team expertise: What will you deliver in 12 months? Who is on your team and what relevant experience do they bring? What are the key milestones and risks?
+
+        * Potential for scaling across multiple authorities: What would it take for other authorities to adopt this?; and 
+
+        * How you'll address ethical considerations, including how the project aligns with the concerns expressed in ai@cam’s public dialogues.
+
+
+        You'll also need to attach: a letter of support from your local authority partner to confirm their willingness to collaborate, and a budget breakdown showing how you'll use the funding (up to £25,000). We don’t need detailed budgets at this time, but we are looking for headlines on breakdown of spend. 
+
+
+        The Google Form requests the following basic project information:
+
+
+        * Project title
+
+        * Lead applicant (PI) name, department, email
+
+        * Co-investigators (if any)
+
+        * Local authority partner(s) name(s)
+
+        * Main council contact person(s) and their role/department
+
+        * Is this an existing relationship or new partnership?
+
+        * Proposed project duration 
+
+        * Requested funding amount (up to £25,000)
+
+        * Proposed start date
+
+        * Confirmation that council partner(s) are actively engaged
+
+        * Confirmation that the PI is eligible to hold funds in Cambridge
+    - heading: Where can I learn more?
+      content: >-
+        We will also host an information session about the funding scheme on
+        **15 January, 10:00 - 11:00.** You can [register for this session
+        here](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g)
+
+
+        For more information about the Local Government AI Accelerator, contact Jess Montgomery (jkm40@cam.ac.uk).
+
+
+        Applications are now open and you can apply here. **T﻿he deadline for applications if 16.00, Friday 13 February 2026.**
 ---
