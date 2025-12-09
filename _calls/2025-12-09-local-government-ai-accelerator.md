@@ -28,6 +28,7 @@ media_text:
 
 
     The initiative builds on ai@cam's work with local government partners across Cambridgeshire and beyond. Early AI adopters in local government are already demonstrating the technology's potential in areas like social care, planning consultation analysis, and infrastructure maintenance. This collaboration aims to support councils in identifying promising AI applications and developing appropriate solutions.
+  image: /assets/uploads/news-item-calls-page.jpg
 paper_submissions:
   heading: How the fund works
   content: >-
