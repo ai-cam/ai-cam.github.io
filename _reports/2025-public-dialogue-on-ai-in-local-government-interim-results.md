@@ -32,7 +32,7 @@ Key Findings
 * Residents expect to play an active role in shaping how AI is developed and deployed.\
   Participants want meaningful involvement throughout the process, from setting priorities to designing, testing and monitoring AI systems. They also expect councils to consider broader implications, including environmental impacts, data security, future workforce skills and alignment with wider public service goals.
 
-Impact and Next Steps
+**Impact and Next Steps**
 
 The findings from this interim report are shaping the direction of our Local Government AI Accelerator, and we encourage applicants to draw on these insights when developing their proposals. This can include consideration of:
 
