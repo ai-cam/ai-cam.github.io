@@ -44,7 +44,8 @@ paper_submissions:
 
     We encourage all applicants to read the FAQs below before applying. If you have any further questions  around eligibility or the application process, please contact Jess Montgomery (jkm40@cam.ac.uk.)
   buttons:
-    - text: ""
+    - text: Apply here
+      link: https://forms.gle/KUMDXfy3jCXB68hi9
 faqs:
   heading: Frequently Asked Questions
   faqs:
