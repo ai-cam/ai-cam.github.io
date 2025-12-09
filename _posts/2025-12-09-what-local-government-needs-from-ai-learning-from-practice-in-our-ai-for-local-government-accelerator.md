@@ -71,3 +71,7 @@ We’re bringing these insights from councils and public dialogues into the desi
 Projects supported by the Accelerator will receive up to £25,000 for 6-12 months of proof-of-concept work. We're supporting multiple types of work, exploring AI applications as well as being open to infrastructure development or enabling processes. We’re looking to support partnerships between Cambridge University researchers and councils, creating active collaborations that tackle challenges of both operational and academic interest. We’re embedding public dialogue, and planning continued dialogue to test ideas as they develop. And we’re supporting a community of practice in which councils and researchers learn from each other.
 
 If you're a University of Cambridge researcher with ideas about addressing challenges in local government – and you have or want council partners for collaboration – we want to hear from you. If you're a local authority with problems you think might benefit from university partnership, please get in touch.
+
+The ai@cam Local Government AI Accelerator is now open for applications. For those interested, [please apply here.](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator)
+
+***About this work:** This post draws on the AI in Local Government Innovation Showcase (November 2025) and ongoing [public dialogues](https://www.ai.cam.ac.uk/reports/2025-public-dialogue-on-ai-in-local-government-interim-results) conducted by ai@cam with Hopkins Van Mil.*
