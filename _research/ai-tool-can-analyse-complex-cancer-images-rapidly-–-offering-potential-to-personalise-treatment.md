@@ -6,7 +6,7 @@ excerpt: Complex digital images of tissue samples that can take an experienced
   pathologist up to 20 minutes to annotate could be analysed in just one minute
   using a new AI tool developed by researchers at the University of Cambridge.
 image: /assets/uploads/ai-tools-can-analyse-complex-cancer-images.jpg
-date: December 8, 2025 12:00 AM
+date: November 20, 2025 12:00 AM
 ---
 SMMILe, a machine learning algorithm, is able not only to correctly detect the presence of cancer cells on slides taken from biopsies and surgical sections, but it can predict where the tumour lesions are located and even the proportion of regions with different levels of aggressiveness.
 
