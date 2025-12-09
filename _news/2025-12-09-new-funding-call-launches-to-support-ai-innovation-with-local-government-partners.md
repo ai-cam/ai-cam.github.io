@@ -11,7 +11,7 @@ excerpt: The University of Cambridge has launched a new Local Government AI
 date: 2025-12-08T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/central-cambridge_0039.jpg
+image: /assets/uploads/central-cambridge-resized.jpg
 ---
 The University of Cambridge has launched a new Local Government AI Accelerator, offering grants of up to £25,000 for proof-of-concept projects that develop AI solutions in partnership with local authorities. The funding scheme aims to connect academic expertise with real operational needs in public services.
 
