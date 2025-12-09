@@ -204,5 +204,5 @@ faqs:
         For more information about the Local Government AI Accelerator, contact Jess Montgomery (jkm40@cam.ac.uk).
 
 
-        Applications are now open and you can apply here. **T﻿he deadline for applications if 16.00, Friday 13 February 2026.**
+        Applications are now open and you can [apply here.](https://forms.gle/ke8uJuWUi9ikNBVg7) **T﻿he deadline for applications if 16.00, Friday 13 February 2026.**
 ---
