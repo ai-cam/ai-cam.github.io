@@ -118,12 +118,13 @@ faqs:
         develops.](https://elias-ai.eu/elias-alliance/#eliasnodes)
     - heading: What is the time commitment?
       content: >-
-        Participants must commit to attending all two full days of the bootcamp
-        (11-12 February 2026) and actively participate in working sessions. \
+        Participants must commit to attending all two full days of the bootcamp,
+        from **Wednesday 11 February - Thursday 12 February 2026**, and actively
+        participate in working sessions.\
 
         \
 
-        We are currently planning for sessions to run from 09:30 - 17:30 across both days.
+        We are currently planning for sessions to run from **09:30 - 17:30** across both days.
     - heading: "Can teams apply together? "
       content: Yes, we welcome applications from research teams working on shared
         projects. However, each team member must submit an individual
