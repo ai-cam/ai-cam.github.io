@@ -31,13 +31,9 @@ media_text:
 
 
     Our first bootcamp saw teams develop innovative ventures including Nature Network, an AI mapping tool to connect the public with the natural world; Ötzi, an AI-driven climate-risk modelling tool for insurance markets; and From Womb to World, an AI-powered digital health tool for IVF and high-risk pregnancies. Building on this momentum, this second edition will provide an enhanced pathway for researchers to develop their scientific AI innovations into viable ventures.
-  buttons: []
-paper_submissions:
-  content: >-
-    From 11-12 February 2026, the ai@cam Sciencepreneurship bootcamp will
-    provide hands-on workshops, training, and mentoring to help researchers
-    develop AI for science tools and learn more about entrepreneurship. The
-    two-day programme will feature:
+
+
+    The ai@cam AI Sciencepreneurship bootcamp will provide hands-on workshops, training, and mentoring to help researchers develop AI for science tools and learn more about entrepreneurship. The two-day programme will feature:
 
 
     * Technical workshops on foundation models and AI tools led by the Accelerate Science team; 
@@ -47,9 +43,42 @@ paper_submissions:
     * Founder story sessions with successful AI entrepreneurs;
 
     * Pitch development and showcase opportunities with local entrepreneurs.
+  buttons: []
+paper_submissions:
+  content: >-
+    Registration is now open for our 2026 Bootcamp. We have a limited number of
+    spaces at the workshop, so encourage early registration. Teams working on
+    shared challenges are welcome to apply, but we ask that each team member
+    must submit an individual application.\
+
+    \
+
+    The registration asks for:
+
+
+    * Your research background
+
+    * Your AI experience and expertise
+
+    * A description of the idea you want to develop
+
+    * Your motivation for joining the bootcamp
 
 
     Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. We encourage all applicants to read the FAQs below before applying. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).
+
+
+    **K﻿ey Details**\
+
+    \
+
+    **Time:** 9:30 -17.30\
+
+    **Date:** Wednesday 11 February - Thursday 12 February 2026\
+
+    **Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD\
+
+    **Organisers:** ai@cam
 
 
     **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
