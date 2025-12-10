@@ -27,7 +27,7 @@ The two-day programme will feature:
 
 Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).
 
-For full details about the AI Sciencepreneurship Bootcamp, including our FAQs, please visit our ai@cam [Calls Page.](https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp) \
+For full details about the AI Sciencepreneurship Bootcamp, including our FAQs, please visit our ai@cam [Calls Page.](https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp)  \
 \
 **Application deadline**\
 **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
