@@ -70,15 +70,11 @@ paper_submissions:
 
     **K﻿ey Details**\
 
-    \
-
     **Time:** 9:30 -17.30\
 
     **Date:** Wednesday 11 February - Thursday 12 February 2026\
 
-    **Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD\
-
-    **Organisers:** ai@cam
+    **Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD
 
 
     **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
