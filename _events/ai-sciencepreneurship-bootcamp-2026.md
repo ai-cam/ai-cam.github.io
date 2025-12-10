@@ -9,7 +9,9 @@ desc: ai@cam announces its second AI Sciencepreneurship Bootcamp.
 image: /assets/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-4.jpg
 link_to: https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp
 ---
-**Time & date:** 09.00 - 17.30 | Wednesday 11 February  - Thursday 12 February 2026\
+**Time:** 9:30 -17.30\
+**Date:** Wednesday 11 February - Thursday 12 February 2026\
+**Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD\
 **Organisers:** ai@cam\
 \
 Following the success of our first event in June 2025, ai@cam is launching the second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day programme designed to help researchers transform breakthrough AI innovations in scientific research into real-world impact. \
@@ -23,6 +25,9 @@ The two-day programme will feature:
 * Founder story sessions with successful AI entrepreneurs;
 * Pitch development and showcase opportunities with local entrepreneurs.
 
-Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).\
+Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](<>)).
+
+For full details about the AI Sciencepreneurship Bootcamp, including our FAQs, please visit our ai@cam [Calls Page.](https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp) \
 \
+**Application deadline**\
 **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
