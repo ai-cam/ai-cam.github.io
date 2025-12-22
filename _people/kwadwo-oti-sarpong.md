@@ -1,12 +1,10 @@
 ---
-layout: person
-title: Dr
-name: Kwadwo Oti-Sarpong
-given: Kwadwo
-family: Oti-Sarpong
-department: Department of Engineering
+title: Kwadwo Oti-Sarpong
+photo: /assets/images/uploads/kwado_os-1-.png
 job_title: Senior Research and Teaching Associate in Urban Systems and
   Infrastructure Managemen
+department: Department of Engineering
+contact: http://www.eng.cam.ac.uk/profiles/ko363
 biography: Kwadwo is currently a Senior Research and Teaching Associate in Urban
   Systems and Infrastructure Management at the Cambridge Centre for Smart
   Infrastructure and Construction (CSIC) in the Department of Engineering,
@@ -15,6 +13,4 @@ biography: Kwadwo is currently a Senior Research and Teaching Associate in Urban
   the urban built environment to deliver public value. He also leads the
   development of educational material focused on Leadership of Urban Digital
   Innovation for Public Value (LeadUP) to be run at the University of Cambridge.
-image: /assets/uploads/kwado_os.png
-webpage: http://www.eng.cam.ac.uk/profiles/ko363
 ---

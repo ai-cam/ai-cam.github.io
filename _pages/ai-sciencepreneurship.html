@@ -1,0 +1,207 @@
+---
+layout: default
+title: AI Sciencepreneurship
+page_description: Building a network of European AI and Science incubators
+permalink: /ai-sciencepreneurship/
+hero:
+  hero_title: Pioneering AI Innovation and Entrepreneurship in Europe with the
+    ELIAS Alliance
+  hero_text: >-
+    European Leadership in Innovation with AI and Science (ELIAS) is a
+    cross-European network of AI incubators. The Cambridge ELIAS Node will
+    bridge between Cambridge’s world-class innovation ecosystem and the
+    frontiers of AI, driving innovation in AI that serves science, citizens, and
+    society. Working collaboratively across the Cambridge ecosystem, the node
+    will
+
+
+    * Convene networks across the academic, start-up, and VC communities;
+
+    * Create training and mentorship opportunities for scientists interested in entrepreneurship;
+
+    * Connect sciencepreneurs to technical support and infrastructure to enable innovation at the frontiers of AI.
+blog_posts:
+  - AI needs to serve people, science, and society
+news_posts:
+  - ai@cam launches second AI Sciencepreneurship Bootcamp to accelerate
+    AI-driven research innovation
+  - Winners announced at inaugural AI Sciencepreneurship Bootcamp
+  - ai@cam joins new European Alliance for AI sciencepreneurship
+events:
+  - AI for Ops Launch Workshop
+  - AI for Science Research Showcase
+---
+
+<!-- AI In The University Page -->
+<section class="ai-in-the-university-page">
+    <div class="shapes">
+        <img src="{{ '/assets/images/materials/home-slider-shape-light.svg' | relative_url }}" class="light-img" alt="">
+        <img src="{{ '/assets/images/materials/home-slider-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+    </div>
+
+    <div class="container">
+        <div class="title">
+            {% if page.page_title%}<h1>{{ page.page_title }}</h1>{% else %}<h1>AI Sciencepreneurship</h1>{% endif %}
+            {% if page.page_description %}<p>{{ page.page_description }}</p>{% else %}<p>Building a network of European AI and Science incubators</p>{% endif %}
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>{{ page.hero.hero_title }}</h3>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="text">
+                    {{ page.hero.hero_text | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- AI In The University Page End -->
+
+<!-- AI In The University List -->
+ <section class="ai-in-the-university-list">
+    <div class="container">
+        <ul class="list nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#blogs" role="tab" aria-controls="blogs" aria-selected="true">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">Events</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- Blogs Tab -->
+            <div class="tab-pane fade show active" id="blogs" role="tabpanel" aria-labelledby="blogs-tab">
+                <div class="row">
+                    {% assign blog_posts = page.blog_posts | default: page.data.blog_posts %}
+                    {% if blog_posts and blog_posts.size > 0 %}
+                        {% for blog_title in blog_posts %}
+                            {% assign blog = site.blog_posts | where: "title", blog_title | first %}
+                            {% if blog %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-light.svg' | relative_url }}" class="light-img" alt="">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+                                    </div>
+
+                                    <a href="{{ blog.url }}" class="picture">
+                                        <span class="category">Blog</span>
+                                        {% if blog.cover_image %}
+                                        <img src="{{ blog.cover_image | relative_url }}" alt="{{ blog.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ blog.url }}"><h3>{{ blog.title }}</h3></a>
+                                            <a href="{{ blog.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if blog.date %}<p>{{ blog.date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- News Tab -->
+            <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
+                <div class="row">
+                    {% assign news_posts = page.news_posts | default: page.data.news_posts %}
+                    {% if news_posts and news_posts.size > 0 %}
+                        {% for news_title in news_posts %}
+                            {% assign news = site.news | where: "title", news_title | first %}
+                            {% if news %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-light.svg' | relative_url }}" class="light-img" alt="">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+                                    </div>
+
+                                    <a href="{{ news.url }}" class="picture">
+                                        <span class="category">News</span>
+                                        {% if news.cover_image %}
+                                        <img src="{{ news.cover_image | relative_url }}" alt="{{ news.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ news.url }}"><h3>{{ news.title }}</h3></a>
+                                            <a href="{{ news.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if news.date %}<p>{{ news.date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Events Tab -->
+            <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+                <div class="row">
+                    {% assign events = page.events | default: page.data.events %}
+                    {% if events and events.size > 0 %}
+                        {% for event_title in events %}
+                            {% assign event = site.events | where: "title", event_title | first %}
+                            {% if event %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-light.svg' | relative_url }}" class="light-img" alt="">
+                                        <img src="{{ '/assets/images/materials/events-item-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+                                    </div>
+
+                                    <a href="{{ event.url }}" class="picture">
+                                        {% if event.event_categories %}
+                                            {% assign category_name = event.event_categories %}
+                                            {% assign category = site.event_categories | where: "name", category_name | first %}
+                                            {% if category %}
+                                                {% if category_name == 'Past Events' %}
+                                                    <span class="category past-event">{{ category_name }}</span>
+                                                {% else %}
+                                                    <span class="category">{{ category_name }}</span>
+                                                {% endif %}
+                                            {% else %}
+                                                <span class="category">{{ category_name }}</span>
+                                            {% endif %}
+                                        {% endif %}
+                                        {% if event.cover_image %}
+                                        <img src="{{ event.cover_image | relative_url }}" alt="{{ event.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ event.url }}"><h3>{{ event.title }}</h3></a>
+                                            <a href="{{ event.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if event.event_date %}<p>{{ event.event_date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- AI In The University List End -->

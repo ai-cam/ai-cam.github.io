@@ -1,25 +1,62 @@
-{%-include bibliography/extractinfo_publication.html entry=entry-%}TY  - {% if type=='inproceedings' %}CPAPER{%elsif type=='report'%}RPRT{%elsif type=='article'%}JOUR{%else%}GEN{%endif%}
+{%-include bibliography/extractinfo_publication.html entry=entry-%}
+TY  - RPRT
 TI  - {{ title }}
-AU  - {% assign lastone = authors.last %}{% for person in authors %}{% if person.consortium %}{{ person.consortium.name }}{% else %}{{ person.given }} {%if person.prefix %}{{person.prefix}} {%endif%}{{ person.family }}{%if person.suffix %}, {{ person.suffix }}{% endif %}{% endif %}{% unless person == lastone %}
-AU  - {%endunless %}{% endfor %}{% if container-title %}
-BT  - {{ container-title }}{%endif%}{% if publish %}
-PY  - {{ publish | date: "%Y/%m/%d" }}{% endif %}
-DA  - {{ date | date: "%Y/%m/%d" }}{%if editors%}
-ED  - {% assign lastone = editors.last %}{% for person in editors %}{{ person.given }} {%if person.prefix %}{{ person.prefix }} {%endif%}{{ person.family }}{%if person.suffix %}, {{ person.suffix }}{% endif %}{% unless person == lastone %}
-ED  - {%endunless %}{% endfor %}{%endif%}{% if id %}	
-ID  - {{ id }}{%endif%}{% if publisher %}
-PB  - {{ publisher }}{%elsif site.style=='pmlr' %}
-PB  - PMLR{% endif %}{%if series%}
-DP  - {{ series }}{%endif%}{%if volume%}
-VL  - {{ volume }}{%endif%}{%if number%}
-IS  - {{ number }}{%endif%}{%if firstpage %}
-SP  - {{ firstpage }}{%endif%}{%if lastpage %}
-EP  - {{ lastpage }}{%endif%}{%if doi %}
-DO  - {{ doi }}{% endif %}{%if pdf%}
-L1  - {{ pdf }}{%endif%}{%if fulltext%}
-L2  - {{ fulltext }}{% endif %}{%if url%}
-UR  - {{ url }}{%endif%}{%if abstract %}
-AB  - {{ abstract }}{%endif%}{% if note %}
-N1  - {{ note }}{% endif %}
+{%-if authors and authors.size > 0-%}
+  {%-for author in authors-%}
+    {%-if author.name-%}
+      {%-assign name_parts = author.name | split: " "-%}
+      {%-if name_parts.size > 1-%}
+        {%-assign family = name_parts.last-%}
+        {%-assign given = name_parts | pop | join: " "-%}
+      {%-else-%}
+        {%-assign family = author.name-%}
+        {%-assign given = ""-%}
+      {%-endif-%}
+      {%-if family != ""-%}
+AU  - {{ given }} {{ family }}
+      {%-else-%}
+AU  - {{ author.name }}
+      {%-endif-%}
+    {%-else-%}
+AU  - {{ author.name | default: "Unknown" }}
+    {%-endif-%}
+  {%-endfor-%}
+{%-endif-%}
+{%-if container-title-%}
+BT  - {{ container-title }}
+{%-endif-%}
+{%-if date-%}
+PY  - {{ date | date: "%Y/%m/%d" }}
+{%-endif-%}
+{%-if id-%}
+ID  - {{ id }}
+{%-endif-%}
+{%-if publisher-%}
+PB  - {{ publisher }}
+{%-endif-%}
+{%-if volume-%}
+VL  - {{ volume }}
+{%-endif-%}
+{%-if number-%}
+IS  - {{ number }}
+{%-endif-%}
+{%-if firstpage-%}
+SP  - {{ firstpage }}
+{%-endif-%}
+{%-if lastpage-%}
+EP  - {{ lastpage }}
+{%-endif-%}
+{%-if doi-%}
+DO  - {{ doi }}
+{%-endif-%}
+{%-if pdf-%}
+L1  - {{ pdf }}
+{%-endif-%}
+{%-if url-%}
+UR  - {{ url }}
+{%-endif-%}
+{%-if abstract-%}
+AB  - {{ abstract }}
+{%-endif-%}
 ER  -
 

@@ -1,0 +1,108 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<!-- Projects Page -->
+<section class="projects-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        {% if site.project_categories %}
+            {% assign first_category = site.project_categories | first %}
+        {% else %}
+            {% assign first_category = site.collections.project_categories.docs | first %}
+        {% endif %}
+
+        <h1>{{ first_category.hero_top_title | default: first_category.name }}</h1>
+
+        {% if first_category.hero_title or first_category.hero_description %}
+        <div class="row">
+            {% if first_category.hero_title %}
+            <div class="col-lg-6">
+                <h3>{{ first_category.hero_title }}</h3>
+            </div>
+            {% endif %}
+
+            {% if first_category.hero_description %}
+            <div class="col-lg-6">
+                <p>{{ first_category.hero_description }}</p>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+ </section>
+<!-- Projects Page End -->
+
+<!-- Projects Page Content -->
+ <section class="projects-page-content">
+    <div class="container">
+        <h2>AI-deas Projects</h2>
+
+        <ul class="list">
+            {% if site.project_categories %}
+                {% assign first_category = site.project_categories | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+                {% for category in site.project_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    <li {% if category_name == first_category_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% else %}
+                {% assign first_category = site.collections.project_categories.docs | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+                {% for category in site.collections.project_categories.docs %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    <li {% if category_name == first_category_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row" id="projects-container">
+            {% if site.project_categories %}
+                {% assign first_category = site.project_categories | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+            {% else %}
+                {% assign first_category = site.collections.project_categories.docs | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+            {% endif %}
+            {% if first_category_name %}
+                {% assign filtered_projects = site.projects | where: 'project_categories', first_category_name %}
+            {% else %}
+                {% assign filtered_projects = site.projects %}
+            {% endif %}
+            {% assign sorted_projects = filtered_projects | sort: 'title' %}
+            {% for project in sorted_projects %}
+                <div class="col-lg-4 d-flex" data-project-id="{{ project.slug }}">
+                    <div class="item flex-fill">
+                        {% if project.cover_image %}
+                        <a href="{{ project.url }}">
+                            <img src="{{ project.cover_image | relative_url }}" class="main-img" alt="{{ project.title }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="text">
+                            {% if project.title %}
+                            <a href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
+                            {% endif %}
+
+                            <a href="{{ project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+ </section>
+<!-- Projects Page Content End -->

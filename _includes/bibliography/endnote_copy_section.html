@@ -1,9 +1,0 @@
-{%-if site.display.copy_button.endnote-%}
-{% unless entry %}{% assign entry=page %}{% endunless %}
-{%capture filetext%}{% include bibliography/endnote_entry %}{%endcapture%}
-{%-assign filetype = 'enw'-%}
-{%-assign button_name = 'Endnote'-%}
-{%include bibliography/copy_buttons.html%}
-{%-endif-%}    
-    
-

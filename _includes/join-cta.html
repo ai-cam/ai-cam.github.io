@@ -1,0 +1,26 @@
+<!-- Global Join CTA Component -->
+{% if site.data.options.join_cta %}
+<section class="global-join{% if include.bg_soft %} bg-soft{% endif %}">
+    <div class="container">
+        <div class="item">
+            {% if site.data.options.join_cta.cta_title %}<h2>{{ site.data.options.join_cta.cta_title }}</h2>{% endif %}
+            {% if site.data.options.join_cta.cta_description %}<p>{{ site.data.options.join_cta.cta_description }}</p>{% endif %}
+            {% if site.data.options.join_cta.cta_links and site.data.options.join_cta.cta_links.size > 0 %}
+            <div class="buttons">
+                {% for link_item in site.data.options.join_cta.cta_links %}
+                <a href="{{ link_item.link }}" class="button" {% unless link_item.link == '#' or link_item.link == '' %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+                    {{ link_item.link_text }}
+
+                    <div class="icon">
+                        <img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt="">
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- Global Join CTA End -->
+

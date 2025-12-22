@@ -1,0 +1,93 @@
+top_nav:
+  - label: Stay at Cambridge
+    url: https://www.cam.ac.uk/about-the-university#study-at-cambridge/
+    external: true
+  - label: About the University
+    url: https://www.cam.ac.uk/about-the-university#about-the-university/
+    external: true
+  - label: Research at Cambridge
+    url: https://www.cam.ac.uk/research/
+    external: true
+main_nav:
+  - label: About
+    url: /about
+    external: false
+    has_dropdown: true
+    dropdown:
+      - external: false
+        label: People
+        url: /people
+      - external: false
+        label: Team
+        url: /team
+  - label: News & Events
+    url: "#"
+    external: false
+    has_dropdown: true
+    dropdown:
+      - label: News
+        url: /news
+        external: false
+      - label: Events
+        url: /events
+        external: false
+  - label: Initiatives
+    url: "#"
+    external: false
+    has_dropdown: true
+    dropdown:
+      - label: AI in the University
+        url: /ai-in-the-university
+        external: false
+      - label: AI-deas
+        url: /projects
+        external: false
+      - label: Policy Lab
+        url: /policies
+        external: false
+      - label: Sciencepreneurship
+        url: /ai-sciencepreneurship
+        external: false
+  - label: Study
+    url: /study
+    external: false
+    has_dropdown: false
+    dropdown: []
+  - label: Blog
+    url: /blog
+    external: false
+    has_dropdown: false
+  - label: Reports
+    url: /reports
+    external: false
+    has_dropdown: false
+  - label: Calls
+    url: /calls
+    external: false
+    has_dropdown: false
+  - external: false
+    has_dropdown: false
+    label: Contact
+    url: /contact
+footer_nav:
+  - label: News
+    url: /news
+    external: false
+  - label: Events
+    url: /events
+    external: false
+  - label: Study
+    url: /study
+    external: false
+  - label: Reports
+    url: /reports
+    external: false
+  - label: Our People
+    url: /people
+    external: false
+  - label: Team
+    url: /team
+    external: false
+  - label: Contact
+    url: /contact
+    external: false

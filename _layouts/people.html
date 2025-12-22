@@ -1,0 +1,387 @@
+---
+layout: default
+---
+
+<!-- People Page -->
+<section class="people-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main-title">
+            <h1>People</h1>
+            <p>ai@cam brings together researchers from departments across the University.</p>
+        </div>
+    </div>
+ </section>
+<!-- People Page End -->
+
+<!-- People Page Content -->
+ <section class="people-page-content">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <form action="">
+            <p>Select department to filter by:</p>
+
+            <div class="select-box">
+                <select name="" id="department-filter">
+                    <option value="">All</option>
+                    {% assign all_departments = '' | split: '' %}
+                    {% for person in site.people %}
+                        {% assign person_dept = person.department %}
+                        {% if person.team_member and person.team_member != '' and person.team_member != '/' %}
+                            {% assign team_member = site.team_members | where: "title", person.team_member | first %}
+                            {% if team_member and team_member.department %}
+                                {% assign person_dept = team_member.department %}
+                            {% endif %}
+                        {% endif %}
+                        {% if person_dept and person_dept != '' %}
+                            {% assign all_departments = all_departments | push: person_dept %}
+                        {% endif %}
+                    {% endfor %}
+                    {% assign unique_departments = all_departments | uniq | sort %}
+                    {% for dept in unique_departments %}
+                        <option value="{{ dept }}">{{ dept }}</option>
+                    {% endfor %}
+                </select>
+
+                <div class="icon"><img src="{{ '/assets/images/icons/filter-dark.svg' | relative_url }}" alt=""></div>
+            </div>
+        </form>
+
+        <div class="row" id="people-container">
+            {% assign sorted_people = site.people | sort: 'title' %}
+            {% assign total_people = sorted_people | size %}
+            {% assign initial_limit = 12 %}
+            {% if total_people < 12 %}
+                {% assign initial_limit = total_people %}
+            {% endif %}
+            {% for person in sorted_people limit: initial_limit %}
+                {% assign person_photo = person.photo %}
+                {% assign person_job_title = person.job_title %}
+                {% assign person_department = person.department %}
+                
+                {% if person.team_member and person.team_member != '' and person.team_member != '/' %}
+                    {% assign team_member = site.team_members | where: "title", person.team_member | first %}
+                    {% if team_member %}
+                        {% if team_member.photo %}{% assign person_photo = team_member.photo %}{% endif %}
+                        {% if team_member.job_title %}{% assign person_job_title = team_member.job_title %}{% endif %}
+                        {% if team_member.department %}{% assign person_department = team_member.department %}{% endif %}
+                    {% endif %}
+                {% endif %}
+                
+                <div class="col-lg-3" data-person-id="{{ person.slug }}" data-department="{{ person_department }}">
+                    <div class="item">
+                        {% if person_photo %}
+                        <a href="{{ person.url }}">
+                            <img src="{{ person_photo | relative_url }}" alt="{{ person.title }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="text">
+                            {% if person.title %}
+                            <a href="{{ person.url }}"><h3>{{ person.title }}</h3></a>
+                            {% endif %}
+                            {% if person_job_title %}
+                            <p>{{ person_job_title }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if total_people > 12 %}
+        <div class="load-more">
+            <a href="#" id="load-more-btn" data-page="1">Load more</a>
+        </div>
+        {% endif %}
+    </div>
+ </section>
+<!-- People Page Content End -->
+
+<!-- Global Contact Banner -->
+ <section class="global-contact-banner">
+    <div class="container">
+        <div class="item">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="text">
+                        {% if site.data.options.people_cta.cta_title %}
+                        <h2>{{ site.data.options.people_cta.cta_title }}</h2>
+                        {% endif %}
+
+                        <div class="alt-text">
+                            {% if site.data.options.people_cta.cta_description %}
+                            <div class="description">
+                                {{ site.data.options.people_cta.cta_description | markdownify }}
+                            </div>
+                            {% endif %}
+
+                            {% if site.data.options.people_cta.cta_link and site.data.options.people_cta.cta_link_text %}
+                            <a href="{{ site.data.options.people_cta.cta_link }}" class="button">{{ site.data.options.people_cta.cta_link_text }} <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt=""></div></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                {% if site.data.options.people_cta.cta_image %}
+                <div class="col-lg-5">
+                    <img src="{{ site.data.options.people_cta.cta_image | relative_url }}" alt="" class="main-img">
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Global Contact Banner End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const peopleContainer = document.getElementById('people-container');
+    const departmentFilter = document.getElementById('department-filter');
+    let currentPage = 1;
+    const itemsPerPage = 12;
+    let allPeople = [];
+    let displayedCount = 0;
+    
+    // Calculate the number of items displayed on initial load
+    const initialItems = document.querySelectorAll('#people-container > div[data-person-id]');
+    displayedCount = initialItems.length;
+
+    // Load all people from JSON
+    if (loadMoreBtn) {
+        fetch('/people.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    allPeople = Array.isArray(data) ? data : [];
+                    // Sort by name
+                    allPeople.sort((a, b) => {
+                        const nameA = (a.title || '').toLowerCase();
+                        const nameB = (b.title || '').toLowerCase();
+                        return nameA.localeCompare(nameB);
+                    });
+                    // Hide load more button if there are 12 or fewer items
+                    if (allPeople.length <= 12) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allPeople = [];
+                }
+            })
+            .catch(error => console.error('Error loading people:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // Loading state
+            const originalText = loadMoreBtn.textContent;
+            loadMoreBtn.textContent = 'Loading...';
+            loadMoreBtn.style.pointerEvents = 'none';
+            loadMoreBtn.style.opacity = '0.7';
+            
+            // Mevcut scroll pozisyonunu kaydet
+            const scrollBefore = window.scrollY;
+            
+            if (allPeople.length === 0) {
+                fetch('/people.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            allPeople = Array.isArray(data) ? data : [];
+                            allPeople.sort((a, b) => {
+                                const nameA = (a.title || '').toLowerCase();
+                                const nameB = (b.title || '').toLowerCase();
+                                return nameA.localeCompare(nameB);
+                            });
+                            // 1 saniye bekle
+                            setTimeout(() => {
+                                loadMorePeople(scrollBefore);
+                                loadMoreBtn.textContent = originalText;
+                                loadMoreBtn.style.pointerEvents = '';
+                                loadMoreBtn.style.opacity = '';
+                            }, 1000);
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allPeople = [];
+                            loadMoreBtn.textContent = originalText;
+                            loadMoreBtn.style.pointerEvents = '';
+                            loadMoreBtn.style.opacity = '';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error loading people:', error);
+                        loadMoreBtn.textContent = originalText;
+                        loadMoreBtn.style.pointerEvents = '';
+                        loadMoreBtn.style.opacity = '';
+                    });
+            } else {
+                // 1 saniye bekle
+                setTimeout(() => {
+                    loadMorePeople(scrollBefore);
+                    loadMoreBtn.textContent = originalText;
+                    loadMoreBtn.style.pointerEvents = '';
+                    loadMoreBtn.style.opacity = '';
+                }, 1000);
+            }
+        });
+    }
+
+    // When department filter changes
+    if (departmentFilter) {
+        departmentFilter.addEventListener('change', function() {
+            const selectedDept = this.value;
+            const allItems = peopleContainer.querySelectorAll('[data-person-id]');
+            
+            allItems.forEach(item => {
+                const itemDept = item.getAttribute('data-department') || '';
+                if (selectedDept === '' || itemDept === selectedDept) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    }
+
+    function loadMorePeople(scrollBefore) {
+        if (!loadMoreBtn || !peopleContainer) return;
+        
+        const nextPeople = allPeople.slice(displayedCount, displayedCount + itemsPerPage);
+        
+        if (nextPeople.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        // Find load more div
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+        
+        // We will keep reference to the first newly added element
+        let firstNewElement = null;
+        
+        // Find the last row
+        const rows = peopleContainer.querySelectorAll('.row');
+        let rowElement = rows.length > 0 ? rows[rows.length - 1] : null;
+        
+        // Create new row if no row exists or last row has 4 col-lg-3 items
+        if (!rowElement || rowElement.querySelectorAll('.col-lg-3').length >= 4) {
+            rowElement = document.createElement('div');
+            rowElement.className = 'row';
+            // Insert before load more div
+            if (loadMoreDiv && loadMoreDiv.parentNode) {
+                loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
+            } else {
+                peopleContainer.appendChild(rowElement);
+            }
+        }
+        
+        nextPeople.forEach((person, index) => {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = `
+                <div class="col-lg-3" data-person-id="${person.slug}" data-department="${person.department || ''}">
+                    <div class="item">
+                        ${person.photo ? `<a href="${person.url}"><img src="${person.photo}" alt="${person.title || ''}"></a>` : ''}
+                        <div class="text">
+                            ${person.title ? `<a href="${person.url}"><h3>${person.title}</h3></a>` : ''}
+                            ${person.job_title ? `<p>${person.job_title}</p>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            const newElement = tempDiv.firstElementChild;
+            
+            // Save first element
+            if (index === 0) {
+                firstNewElement = newElement;
+            }
+            
+            // Add HTML to end of row
+            rowElement.appendChild(newElement);
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            const newItemElement = newElement.querySelector('.item');
+            if (newItemElement) {
+                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItemElement, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: newElement,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+            
+            // Create new row if row has 4 items and more items exist
+            if (rowElement.querySelectorAll('.col-lg-3').length >= 4 && index < nextPeople.length - 1) {
+                rowElement = document.createElement('div');
+                rowElement.className = 'row';
+                if (loadMoreDiv && loadMoreDiv.parentNode) {
+                    loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
+                } else {
+                    peopleContainer.appendChild(rowElement);
+                }
+            }
+        });
+
+        displayedCount += nextPeople.length;
+        currentPage++;
+
+        // Preserve scroll position and scroll down slightly
+        if (scrollBefore !== undefined && firstNewElement) {
+            window.scrollTo({
+                top: scrollBefore + 100,
+                behavior: 'smooth'
+            });
+        }
+
+        if (displayedCount >= allPeople.length) {
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>

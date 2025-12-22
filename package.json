@@ -1,0 +1,19 @@
+{
+  "name": "aiatcam",
+  "version": "1.0.0",
+  "description": "AIAT CAM Project - Jekyll and Decap CMS",
+  "scripts": {
+    "build": "jekyll build",
+    "serve": "jekyll serve",
+    "start": "jekyll serve --watch",
+    "cms": "npx decap-server"
+  },
+  "keywords": [
+    "jekyll",
+    "decap-cms",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+

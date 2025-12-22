@@ -1,25 +1,24 @@
 ---
-layout: event-single
-title: "The AI Summit London "
-start: 2025-06-11 11:25
-end: 2025-06-11 11:50
-category:
-  - events
-image: /assets/uploads/ai-summit-london.jpg
-link_to: https://london.theaisummit.com/the-ai-summit-london-2025/business-atomic-human-strategic-decision-making-age-ai
-people:
-  - Neil Lawrence
+title: AI in Local Government Fair
+excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
+  ecosystem and is rapidly becoming a global force in applied AI research across
+  many disciplines.
+cover_image: /assets/images/uploads/untitled-design-7-.png
+event_categories: Past Events
+event_content: >-
+  ai@cam, in collaboration with local government partners, is convening an AI in
+  Local Government Fair on Monday 24 November to develop collaborations between
+  council staff and University of Cambridge researchers.
+
+
+  In this workshop, council staff will have the opportunity to showcase the real-world challenges they face, on topics from social care to transport, and will be able to present their ideas on how AI (artificial intelligence) tools might help address them.
+registration_title: /
+registration_text: /
+registration_link: https://aiatcam.netlify.app/calls/ai3-art-protection-tools-still-leave-creators-at-risk-researchers-says/
+registration_link_text: Find out More
+event_date: 2025-11-24
+time: 12:00 - 16:00
+location: TBC
+organizers: ai@cam
+agenda: []
 ---
-**T﻿alk Title:** Business and the Atomic Human: Strategic Decision Making in the Age of AI - Prof Neil Lawrence \
-**Time & date:** 11.25-11.50, Wednesday 11 June 2025\
-**Venue:** Headliners Stage, Tobacco Dock, 50 Porters Walk, London E1W 2SF\
-**Entry:** Registration required\
-**Organisers:** AI Summit London
-
-**Business and the Atomic Human: Strategic Decision Making in the Age** 
-
-As AI technologies reshape the business landscape, leaders face questions about balancing automation with individual judgment, information flows, and organisational decision-making. In this talk, Prof Neil Lawrence will build on the ideas in The Atomic Human to explore the practical implications of AI for businesses through the lens of information topography, decision-making structures, and human-AI collaboration. Drawing from real-world examples and insights from the book we’ll explore how businesses can strategically implement AI while maintaining human agency, intelligent accountability, and organisational effectiveness\
-\
-**A﻿I Summit London**
-
-The AI Summit London unites the UK's and Europe's most innovative technologists and business leaders to explore AI’s transformative real-world applications. Hosted at London’s iconic Tobacco Dock as the headline AI event of London Tech Week, the Summit offers networking opportunities, expert-led sessions and exclusive insights.

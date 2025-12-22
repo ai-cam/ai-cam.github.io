@@ -1,12 +1,8 @@
 ---
-layout: person
-name: Ann Copestake
-given: Ann
-family: Copestake
-department: Department of Computer Science and Technology
-title: Prof
+title: Ann Copestake
+photo: /assets/images/uploads/copestake_anne-1-.jpg
 job_title: Professor of Computational Linguistics
+department: Department of Computer Science and Technology
 crsid: aac10
-image: /assets/uploads/Copestake_Anne.jpg
-webpage: https://www.cst.cam.ac.uk/people/aac10
+contact: https://www.cst.cam.ac.uk/people/aac10
 ---

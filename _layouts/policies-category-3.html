@@ -1,0 +1,332 @@
+---
+layout: default
+---
+
+<!-- Policy Page -->
+<section class="policy-page">
+    <div class="shapes">
+        <img src="{{ '/assets/images/materials/home-slider-shape-light.svg' | relative_url }}" class="light-img" alt="">
+        <img src="{{ '/assets/images/materials/home-slider-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+    </div>
+    <div class="container">
+        <h1>Policy Lab</h1>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Access to trustworthy information and insights to inform public conversations and policy debates about AI is more important than ever.</h3>
+            </div>
+
+            <div class="col-lg-6">
+                <p>As policymakers around the world grapple with questions about the future of AI, evidence and advice about its progress, use, and impact is vital. ai@cam's PolicyLab provides a forum for bringing together researchers and policymakers to generate high-quality insights to inform public and policy debates. Bridging research, policy, and practice, and drawing from the University's expertise across disciplines, it will convene expertise that helps build a well-founded public conversation about AI.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Policy Page End -->
+
+<!-- Policy Page List -->
+<section class="policy-page-list">
+    <div class="main-shapes">
+        <img src="{{ '/assets/images/materials/home-news-shape-light.svg' | relative_url }}" class="light-img" alt="">
+        <img src="{{ '/assets/images/materials/home-news-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+    </div>
+
+    <div class="container">
+        <ul class="list">
+            {% if site.policy_categories %}
+                {% assign sorted_policy_categories = site.policy_categories | sort: "order" %}
+                {% for category in sorted_policy_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    {% if category_name == "AI Policy" %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ '/policies/' | relative_url }}">{{ category_name }}</a>
+                    </li>
+                    {% else %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% assign sorted_policy_categories_fallback = site.collections.policy_categories.docs | sort: "order" %}
+                {% for category in sorted_policy_categories_fallback %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    {% if category_name == "AI Policy" %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ '/policies/' | relative_url }}">{{ category_name }}</a>
+                    </li>
+                    {% else %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row" id="reports-container">
+            {% assign selected_reports = page.data.selected_reports | default: page.selected_reports %}
+            {% if selected_reports and selected_reports.size > 0 %}
+                {% assign total_reports = selected_reports.size %}
+                {% assign initial_limit = 3 %}
+                {% if total_reports < 3 %}
+                    {% assign initial_limit = total_reports %}
+                {% endif %}
+                {% for report_title in selected_reports limit: initial_limit %}
+                    {% assign report = site.reports | where: "title", report_title | first %}
+                    {% if report %}
+                    <div class="reports-item" data-report-id="{{ report.slug }}">
+                        <div class="shapes">
+                            <img src="{{ '/assets/images/materials/news-shape.svg' | relative_url }}" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="text">
+                                    <a href="{{ report.url }}"><h3>{{ report.title }}</h3></a>
+                                    {% if report.date %}<h6>{{ report.date | date: "%-d %B %Y" }}</h6>{% endif %}
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="description">
+                                    {% if report.excerpt %}<p>{{ report.excerpt }}</p>{% endif %}
+                                    <a href="{{ report.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+
+                {% if total_reports > 3 %}
+                <div class="col-lg-12">
+                    <div class="load-more">
+                        <a href="javascript:void(0)" id="load-more-btn">Load More <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                    </div>
+                </div>
+                {% endif %}
+            {% else %}
+                <div style="height: 400px;"></div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<!-- Policy Page List End -->
+
+<script>
+// Pass selected_reports list from Liquid template to JavaScript
+var selectedReportsData = [
+{% if selected_reports and selected_reports.size > 0 %}
+{% for report_title in selected_reports %}
+    {{ report_title | jsonify }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% endif %}
+];
+
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const reportsContainer = document.getElementById('reports-container');
+    let currentPage = 1;
+    const itemsPerPage = 3;
+    let allReports = [];
+    
+    // Calculate the number of items displayed on initial load
+    const initialItems = document.querySelectorAll('#reports-container [data-report-id]');
+    let displayedCount = initialItems.length;
+
+    // Get selected_reports list
+    let selectedReports = Array.isArray(selectedReportsData) ? selectedReportsData : [];
+
+    // Load all reports from JSON and filter by selected_reports
+    if (loadMoreBtn && selectedReports.length > 0) {
+        fetch('/reports.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    const allReportsData = Array.isArray(data) ? data : [];
+                    
+                    // Sort reports according to the order in selected_reports list
+                    allReports = selectedReports.map(selectedTitle => {
+                        return allReportsData.find(report => report.title === selectedTitle);
+                    }).filter(report => report !== undefined);
+                    
+                    // Hide load more button if there are 3 or fewer items
+                    if (allReports.length <= 3) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allReports = [];
+                }
+            })
+            .catch(error => console.error('Error loading reports:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            if (allReports.length === 0) {
+                fetch('/reports.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            const allReportsData = Array.isArray(data) ? data : [];
+                            
+                            // Sort reports according to the order in selected_reports list
+                            allReports = selectedReports.map(selectedTitle => {
+                                return allReportsData.find(report => report.title === selectedTitle);
+                            }).filter(report => report !== undefined);
+                            loadMoreReports();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allReports = [];
+                        }
+                    })
+                    .catch(error => console.error('Error loading reports:', error));
+            } else {
+                loadMoreReports();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMoreReports() {
+        if (!loadMoreBtn || !reportsContainer) return;
+        
+        // Check remaining item count
+        const remainingReports = allReports.length - displayedCount;
+        const reportsToLoad = Math.min(itemsPerPage, remainingReports);
+        
+        if (reportsToLoad <= 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+        
+        const nextReports = allReports.slice(displayedCount, displayedCount + reportsToLoad);
+        
+        if (nextReports.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        // Find load more div
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+
+        nextReports.forEach((report) => {
+            const formattedDate = formatDate(report.report_date);
+            
+            const html = `
+                <div class="reports-item" data-report-id="${report.slug}">
+                    <div class="shapes">
+                        <img src="/assets/images/materials/news-shape.svg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text">
+                                <a href="${report.url}"><h3>${report.title || ''}</h3></a>
+                                ${formattedDate ? `<h6>${formattedDate}</h6>` : ''}
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="description">
+                                ${report.excerpt ? `<p>${report.excerpt}</p>` : ''}
+                                <a href="${report.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Insert before load more button
+            if (loadMoreDiv && loadMoreDiv.parentNode) {
+                loadMoreDiv.insertAdjacentHTML('beforebegin', html);
+            } else {
+                reportsContainer.insertAdjacentHTML('beforeend', html);
+            }
+            
+            // Find newly added item
+            const newItem = reportsContainer.querySelector(`[data-report-id="${report.slug}"]`);
+            const newItemShapes = newItem ? newItem.querySelector('.shapes') : null;
+            
+            if (newItemShapes && 'IntersectionObserver' in window) {
+                const reportsItemObserverOptions = {
+                    root: null,
+                    rootMargin: '0% 0% -20% 0%',
+                    threshold: 0
+                };
+                const reportsItemObserverCallback = function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            reportsItemObserver.unobserve(entry.target);
+                        }
+                    });
+                };
+                const reportsItemObserver = new IntersectionObserver(reportsItemObserverCallback, reportsItemObserverOptions);
+                reportsItemObserver.observe(newItemShapes);
+            }
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            if (newItem && typeof gsap !== 'undefined') {
+                gsap.set(newItem, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItem, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: newItem,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+        });
+
+        displayedCount += nextReports.length;
+        currentPage++;
+
+        if (displayedCount >= allReports.length) {
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>

@@ -1,0 +1,143 @@
+---
+layout: default
+---
+
+<!-- Home Main -->
+<section class="home-main">
+    <!-- <img src="{{ '/assets/images/materials/home-main.png' | relative_url }}" alt=""> -->
+    {% if page.hero.video_embed %}
+    <div class="video-container">{{ page.hero.video_embed }}</div>
+    {% endif %}
+    <div class="text container">
+        {% if page.hero.title %}<h1>{{ page.hero.title }}</h1>{% endif %}
+        {% if page.hero.description %}<p>{{ page.hero.description }}</p>{% endif %}
+    </div>
+  </section>
+ <!-- Home Main End -->
+
+<!-- Home Slider -->
+{% if page.calls.selected_calls %}
+ <section class="home-slider">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="slider-wrapper">
+            <button class="slider-arrow slider-arrow-prev" aria-label="Previous slide">
+                <img src="{{ '/assets/images/icons/arrow-left-dark.svg' | relative_url }}" alt="Previous">
+            </button>
+            <div class="loop">
+                {% for selected_call_title in page.calls.selected_calls %}
+                {% assign call = site.calls | where: 'title', selected_call_title | first %}
+                {% if call %}
+                <div class="item">
+                    <div class="picture">
+                        {% if call.cover_image %}
+                        <img src="{{ call.cover_image | relative_url }}" alt="">
+                        {% endif %}
+                    </div>
+
+                    <div class="text">
+                        <div class="top-title">
+                            {% if call.call_categories %}<span class="category">{{ call.call_categories }}</span>{% endif %}
+                            {% if call.title %}<h2>{{ call.title }}</h2>{% endif %}
+                            {% if call.call_date %}<h5>{{ call.call_date | date: "%B %Y" }}</h5>{% endif %}
+                        </div>
+
+                        {% if call.call_content %}<p>{{ call.call_content | strip_html | truncatewords: 30 }}</p>{% endif %}
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            <button class="slider-arrow slider-arrow-next" aria-label="Next slide">
+                <img src="{{ '/assets/images/icons/arrow-right-dark.svg' | relative_url }}" alt="Next">
+            </button>
+        </div>
+    </div>
+ </section>
+{% endif %}
+<!-- Home Slider End  -->
+
+<!-- Home Latest News -->
+{% if page.news_events %}
+ <section class="home-latest-news">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        {% if page.news_events.title %}<h2>{{ page.news_events.title }}</h2>{% endif %}
+
+        <div class="row">
+            {% if page.news_events.selected_news %}
+                {% for selected_news_title in page.news_events.selected_news %}
+                    {% assign news_item = site.news | where: 'title', selected_news_title | first %}
+                    {% if news_item %}
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <a href="{{ news_item.url }}" class="picture">
+                                <span class="category">News</span>
+                                {% if news_item.cover_image %}
+                                <img src="{{ news_item.cover_image | relative_url }}" alt="">
+                                {% endif %}
+                            </a>
+
+                            <div class="text">
+                                <div class="top-title">
+                                    <a href="{{ news_item.url }}"><h3>{{ news_item.title }}</h3></a>
+                                    <a href="{{ news_item.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                </div>
+
+                                {% if news_item.date %}<p>{{ news_item.date | date: "%-d %B %Y" }}</p>{% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+            {% if page.news_events.selected_events %}
+                {% for selected_event_title in page.news_events.selected_events %}
+                    {% assign event_item = site.events | where: 'title', selected_event_title | first %}
+                    {% if event_item %}
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <a href="{{ event_item.url }}" class="picture">
+                                <span class="category">Events</span>
+                                {% if event_item.cover_image %}
+                                <img src="{{ event_item.cover_image | relative_url }}" alt="">
+                                {% endif %}
+                            </a>
+
+                            <div class="text">
+                                <div class="top-title">
+                                    <a href="{{ event_item.url }}"><h3>{{ event_item.title }}</h3></a>
+                                    <a href="{{ event_item.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                </div>
+
+                                {% if event_item.event_date %}<p>{{ event_item.event_date | date: "%-d %B %Y" }}</p>{% elsif event_item.date %}<p>{{ event_item.date | date: "%-d %B %Y" }}</p>{% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+ </section>
+{% endif %}
+<!-- Home Latest News End -->
+
+<!-- Global Join CTA -->
+{% include join-cta.html %}
+<!-- Global Join CTA End -->

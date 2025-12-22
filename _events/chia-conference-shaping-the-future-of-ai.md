@@ -1,92 +1,62 @@
 ---
-layout: event-single
-title: "CHIA Conference: Shaping the Future of AI"
-start: 2025-06-16 10:00
-end: 2025-06-16 17:15
-category:
-  - events
-image: /assets/uploads/chia.jpeg
+title: AI for Science Research Showcase
+excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
+  ecosystem and is rapidly becoming a global force in applied AI research across
+  many disciplines.
+cover_image: /assets/images/uploads/arthur-mazi-xdsagqjumby-unsplash.jpg
+event_categories: Past Events
+event_content: >-
+  Cambridge is at the heart of a vibrant and thriving AI innovation ecosystem
+  and is rapidly becoming a global force in applied AI research across many
+  disciplines. To highlight the groundbreaking projects that are being carried
+  out at the University and to create opportunities to network and collaborate,
+  ai@cam, Accelerate Science, and the Cambridge ELLIS unit are hosting a half
+  day showcase event on Friday 18 July. This event will bring together
+  researchers from across the University who are using innovations in AI to
+  drive their research.
+
+
+  The showcase will feature keynotes from [Professor Richard Turner](https://www.eng.cam.ac.uk/profiles/ret26), [Professor Zoe Kourtzi](https://www.psychol.cam.ac.uk/staff/professor-zoe-kourtzi), [Professor Anil Madhavapeddy](https://4c.cst.cam.ac.uk/staff/professor-anil-madhavapeddy) and [Dr Pushmeet Kohli](https://www.linkedin.com/in/pushmeet-kohli-4838994/?originalSubdomain=uk), plus short talks on topics ranging from AI in climate, biology and healthcare to education and cultural heritage, and will also include lunch and networking and poster sessions.
+
+
+  **Registration**
+
+
+  We have closed registration as the event has reached full capacity. If you would like to be placed on the waiting list please get in touch with Annabelle Scott (as599@cam.ac.uk).
+registration_title: Registration
+registration_text: Registration required
+registration_link: https://forms.gle/hcCXn8ppupkQJYS1A
+registration_link_text: Register here
+event_date: 2025-07-18
+time: 09:30 - 18:00
+location: Dept of Computer Science and Technology, William Gates Building, 15 JJ
+  Thomson Ave, Cambridge, CB3 0FD
+organizers: ai@cam, Accelerate Science and the Cambridge ELLIS Unit
+agenda:
+  - time: 9:15
+    session_name: Arrival and registration
+  - time: 9:40
+    session_name: Welcome and introduction
+  - time: 9:45
+    session_name: Prof Rich Turner
+  - time: 10:15
+    session_name: Prof Zoe Kourtzi
+  - time: 10:45
+    session_name: Coffee break
+  - time: 11:15
+    session_name: Short talk session 1
+  - time: 12:25
+    session_name: Dr Pushmeet Kohli
+  - time: 13:00
+    session_name: Lunch and poster session
+  - time: 14:20
+    session_name: Short talk session 2
+  - time: 15:15
+    session_name: Prof Anil Madhavapeddy
+  - time: 15:55
+    session_name: Closing remarks
+  - time: 16:00
+    session_name: Drinks reception and networking session
+  - time: 18:00
+    session_name: Close
 ---
-**T﻿alk Title:** CHIA Annual Conference, Shaping the Future of AI\
-**Time & date:** 10.00-17.15, 16 June\
-**Venue:** West Court, Jesus College, Cambridge\
-**Entry:** [Registration required](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.gle%2FXQrDWPM8tacgLzu97&data=05%7C02%7Cep742%40cam.ac.uk%7Cc3eb5cc3f173461247ad08dda2899a62%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638845434078717203%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=xqjYtLo2UJFvOjYAokxhb7IN7xkXStp7XDkRB8ASyaM%3D&reserved=0)\
-**Organisers:** CHIA\
-\
-The CHIA conference 2025 will be taking place on Monday 16 June at Jesus College. Attendance is free, but limited, so please ***[fill out this form](https://docs.google.com/forms/d/e/1FAIpQLScXV-lF0dlQa0VIDKgWUJZjyMHoWImkCmbT6vrq_qddfm0vlg/viewform?usp=dialog)*** to secure your space
-
-Please see below for the full programme of events.\
-\
-**Conference Schedule**
-
-**10:30**\
-**Welcome coffee and registration**\
-*Foyer West Court*
-
-**11:00 – 12:30**
-
-**Morning session: *Towards AI that works for everyone***
-
-*Frankopan Hall*
-
-* **Conference opening:**\
-  **Prof John Aston**, University of Cambridge
-* **Keynote:**\
-  **Prof Neil Lawrence**, University of Cambridge
-* **Keynote:**\
-  **Prof Milind Tambe**, Harvard University, Google DeepMind
-* **CHIA Early Career Community:**\
-  1-minute research pitches
-
-**12:30 – 14:00**
-
-**Lunch**
-
-*The Forum Rooms*
-
-* A networking lunch with posters and lab demos
-
-**14:00 – 15:15**
-
-**Afternoon session: *What’s next for AI research and education***
-
-*Frankopan Hall*
-
-* **Keynote:**\
-  **Hatice Gunes**, University of Cambridge
-* **Panel discussion: *The future of AI Research***\
-  **Chair:** Dr John Suckling, University of Cambridge\
-  **Panel:**
-
-  * Prof Milind Tambe, Harvard University, Google DeepMind
-  * Prof Roi Reichart, Technion, Israel
-* **Panel discussion: *The future of AI Education***\
-  **Chair:** Prof Jenny Gibson, University of Cambridge\
-  **Panel:**
-
-  * Prof Per Ola Kristensson, University of Cambridge
-  * Dr Umang Bhatt, New York University
-
-**15:15 – 15:45**
-
-**Coffee**
-
-*Foyer West Court*
-
-**15:45 – 17:15**
-
-**Closing session: *AI for the planet’s future***
-
-*Frankopan Hall*
-
-* **Keynote:**\
-  **Dr Millie Chapman**, ETH Zürich, Google Research
-* **Panel discussion: *AI for the planet***\
-  **Chair:** Dr Robert Doubleday, University of Cambridge\
-  **Panel:**
-
-  * Dr Millie Chapman, ETH Zürich, Google Research
-  * Prof Anil Madhavapeddy, University of Cambridge
-  * Prof Richard Turner, University of Cambridge
-* Best poster / demo / presentation prizes
-* Closing

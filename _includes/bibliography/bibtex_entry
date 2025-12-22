@@ -1,23 +1,37 @@
-{%-include bibliography/extractinfo_publication.html entry=entry-%}{% if type=='inproceedings' %}@InProceedings{%elsif type=='report'%}@TechReport{%elsif type=='article'%}@Article{%else%}@Misc{%endif%}{{o}}{{ id }},
-  title = 	 {{o}}{% if entry.tex_title %}{{ entry.tex_title }}{% else %}{{entry.title}}{% endif %}{{c}}{% if entry.bibtex_author %},
-  author =       {{o}}{{ entry.bibtex_author }}{{c}}{%else%},
-  author = 	 {{o}}{% for person in authors %}{%-if person.consortium.name -%}{{o}}{{ person.consortium.name }}{{c}}{%elsif person.name %}{{o}}{{ person.name }}{{c}}{% else %}{%if person.prefix %}{{person.prefix}} {%endif%}{{ person.family }}{%if person.suffix %}, {{ person.suffix }}{%endif%}, {{ person.given }}{% endif %}{% unless forloop.last %} and {%endunless %}{% endfor %}{{c}}{% endif %}{% if layout=='inproceedings' %}{% if container-title %},
-  booktitle = 	 {{o}}{{ container-title }}{{c}}{% endif %}{% elsif type=='article' %}{% if journal %},
-  journal =      {{o}}{{ journal }}{{c}}{% endif %}{% endif %}{% if firstpage and lastpage %},
-  pages = 	 {{o}}{{ firstpage }}--{{ lastpage }}{{c}}{% endif %}{% if year %},
-  year =         {{o}}{{ year }}{{c}}{% elsif date %},
-  year = 	 {{o}}{{ date | date: "%Y" }}{{c}}{% endif %}{% if editors %},
-  editor = 	 {{o}}{% assign lastone = editors.last %}{% for person in editors %}{%if person.prefix %}{{person.prefix}} {%endif%}{{ person.family }}{%if person.suffix %}, {{ person.suffix }}{%endif%}, {{ person.given }}{% unless person == lastone %} and {%endunless %}{% endfor %}{{c}}{% endif %}{% if volume %},
-  volume = 	 {{o}}{{ volume }}{{c}}{% endif %}{% if number %},
-  number =       {{o}}{{ number }}{{c}}{% endif %}{% if series %},
-  series = 	 {{o}}{{ series }}{{c}}{% endif %}{% if address %},
-  address = 	 {{o}}{{ address }}{{c}}{% endif %}{% if site.date_str %},
-  month = 	 {{o}}{{ site.date_str }}{{c}}{% endif %}{% if publisher %},
-  publisher =    {{o}}{{ publisher }}{{c}}{%elsif site.style=='pmlr' %},
-  publisher = 	 {PMLR},{% endif %}{% if doi %},
-  doi = 	 {{o}}{{ doi }}{{c}}{% endif %}{% if pdf %},
-  pdf = 	 {{o}}{{ pdf }}{{c}}{% endif %}{% if url %},
-  url = 	 {{o}}{{ url }}{{c}}{% endif %}{% if abstract %},
-  abstract = 	 {{o}}{{ abstract }}{{c}}{% endif %}{% if note %},
-  note =         {{o}}{{ note }}{{c}}{% endif %}
-{{c}}
+{%-include bibliography/extractinfo_publication.html entry=entry-%}
+{%-assign o = '{'-%}
+{%-assign c = '}'-%}
+@TechReport{{ o }}{{ id }},
+  title = {{ o }}{{ title }}{{ c }}{%-if authors and authors.size > 0-%},
+  author = {{ o }}{%-assign lastone = authors.last-%}{%-for author in authors-%}
+    {%-if author.name-%}
+      {%-assign name_parts = author.name | split: " "-%}
+      {%-if name_parts.size > 1-%}
+        {%-assign family = name_parts.last-%}
+        {%-assign given = name_parts | pop | join: " "-%}
+      {%-else-%}
+        {%-assign family = author.name-%}
+        {%-assign given = ""-%}
+      {%-endif-%}
+      {%-if family != ""-%}
+        {{ family }}, {{ given }}
+      {%-else-%}
+        {{ author.name }}
+      {%-endif-%}
+    {%-else-%}
+      {{ author.name | default: "Unknown" }}
+    {%-endif-%}
+    {%-unless forloop.last-%} and {%-endunless-%}
+  {%-endfor-%}{{ c }}{%-endif-%}{%-if date-%},
+  year = {{ o }}{{ date | date: "%Y" }}{{ c }}{%-endif-%}{%-if publisher-%},
+  publisher = {{ o }}{{ publisher }}{{ c }}{%-endif-%}{%-if container-title-%},
+  series = {{ o }}{{ container-title }}{{ c }}{%-endif-%}{%-if volume-%},
+  volume = {{ o }}{{ volume }}{{ c }}{%-endif-%}{%-if number-%},
+  number = {{ o }}{{ number }}{{ c }}{%-endif-%}{%-if firstpage and lastpage-%},
+  pages = {{ o }}{{ firstpage }}--{{ lastpage }}{{ c }}{%-endif-%}{%-if doi-%},
+  doi = {{ o }}{{ doi }}{{ c }}{%-endif-%}{%-if pdf-%},
+  pdf = {{ o }}{{ pdf }}{{ c }}{%-endif-%}{%-if url-%},
+  url = {{ o }}{{ url }}{{ c }}{%-endif-%}{%-if abstract-%},
+  abstract = {{ o }}{{ abstract }}{{ c }}{%-endif-%}
+{{ c }}
+

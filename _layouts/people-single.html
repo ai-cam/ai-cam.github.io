@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+<!-- People Single Page -->
+<section class="people-single-page">
+    <div class="container">
+        <div class="top-actions">
+            <a href="{{ '/people/' | relative_url }}" class="back">
+                <div class="icon">
+                    <img src="{{ '/assets/images/icons/arrow-left-green.svg' | relative_url }}" alt="">
+                </div>
+
+                Back to People
+            </a>
+
+            <ul class="share">
+                <li>Share</li>
+                {% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+                {% assign page_title = page.title | url_encode %}
+                <li><a href="https://bsky.app/intent/compose?text={{ page_title }}%20{{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt="Share on Bluesky"></a></li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Share on Facebook"></a></li>
+                <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="Share on LinkedIn"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?url={{ page_url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt="Share on Twitter/X"></a></li>
+            </ul>
+        </div>
+
+        {% assign person_title = page.title %}
+        {% assign person_photo = page.photo %}
+        {% assign person_job_title = page.job_title %}
+        {% assign person_department = page.department %}
+        {% assign person_institute = page.institute %}
+        {% assign person_contact = page.contact %}
+        {% assign person_biography = page.biography %}
+        {% assign person_crsid = page.crsid %}
+        {% assign person_email = page.email %}
+        
+        {% if page.team_member and page.team_member != '' and page.team_member != '/' %}
+            {% assign team_member = site.team_members | where: "title", page.team_member | first %}
+            {% if team_member %}
+                {% if team_member.title %}{% assign person_title = team_member.title %}{% endif %}
+                {% if team_member.photo %}{% assign person_photo = team_member.photo %}{% endif %}
+                {% if team_member.job_title %}{% assign person_job_title = team_member.job_title %}{% endif %}
+                {% if team_member.department %}{% assign person_department = team_member.department %}{% endif %}
+                {% if team_member.contact %}{% assign person_contact = team_member.contact %}{% endif %}
+                {% if team_member.biography %}{% assign person_biography = team_member.biography %}{% endif %}
+                {% if team_member.email %}{% assign person_email = team_member.email %}{% endif %}
+            {% endif %}
+        {% endif %}
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="people-info">
+                    {% if person_title %}<h3>{{ person_title }}</h3>{% endif %}
+                    {% if person_photo %}
+                    <div class="picture">
+                        <img src="{{ person_photo | relative_url }}" alt="{{ person_title }}">
+                    </div>
+                    {% endif %}
+
+                    {% if person_department %}
+                    <div class="item">
+                        <h6>Department</h6>
+                        <p>{{ person_department }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% if person_institute %}
+                    <div class="item">
+                        <h6>Institute</h6>
+                        <p>{{ person_institute }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% if person_job_title %}
+                    <div class="item">
+                        <h6>Job Title</h6>
+                        <p>{{ person_job_title }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% if person_crsid %}
+                    <div class="item">
+                        <h6>CRSID</h6>
+                        <p>{{ person_crsid }}</p>
+                    </div>
+                    {% endif %}
+
+                    {% if person_contact %}
+                    <div class="item">
+                        <h6>Contact</h6>
+                        {% if person_contact contains 'http' %}
+                        <a href="{{ person_contact }}" target="_blank" rel="noopener noreferrer">{{ person_contact }}</a>
+                        {% else %}
+                        <p>{{ person_contact }}</p>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    {% if person_email and person_email != '' and person_email != '/' %}
+                    <div class="item">
+                        <h6>Email</h6>
+                        <p><a href="mailto:{{ person_email }}">{{ person_email }}</a></p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="main-content">
+                    {% if person_biography %}
+                    <h4>Biography</h4>
+                    {{ person_biography | markdownify }}
+                    {% elsif page.content %}
+                    <h4>Biography</h4>
+                    {{ page.content | markdownify }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- People Single Page End -->

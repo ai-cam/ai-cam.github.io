@@ -1,0 +1,97 @@
+<!-- Header -->
+<header>
+    <div class="container">
+
+        <div class="header-top">
+            {% if site.data.options.logos.university_logo_light %}
+            <a href="{{ site.data.options.logos.university_link | default: '#' }}" class="logo">
+                {% if page.url == '/' or page.url == '/index.html' or page.layout == 'home' %}
+                {% comment %} Anasayfada her zaman light logo göster {% endcomment %}
+                <img src="{{ site.data.options.logos.university_logo_light | default: site.data.options.logos.university_logo_light | relative_url }}" class="dark-logo" alt="">
+                <img src="{{ site.data.options.logos.university_logo_light | relative_url }}" class="light-logo" alt="">
+                {% else %}
+                {% comment %} Diğer sayfalarda tema kontrolü ile dark/light {% endcomment %}
+                <img src="{{ site.data.options.logos.university_logo_dark | default: site.data.options.logos.university_logo_light | relative_url }}" class="dark-logo" alt="">
+                <img src="{{ site.data.options.logos.university_logo_light | relative_url }}" class="light-logo" alt="">
+                {% endif %}
+            </a>
+            {% endif %}
+
+            <div class="actions">
+                <ul class="top-menu">
+                    {% for item in site.data.menus.top_nav %}
+                    <li><a href="{{ item.url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a></li>
+                    {% endfor %}
+                </ul>
+
+                <form action="">
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <img src="{{ '/assets/images/icons/switch-1.svg' | relative_url }}" alt="" class="first-img">
+                        <img src="{{ '/assets/images/icons/switch-2.svg' | relative_url }}" alt="">
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <a href="{{ '/' | relative_url }}" class="logo">
+                {% if page.url == '/' or page.url == '/index.html' or page.layout == 'home' %}
+                {% comment %} Anasayfada her zaman light logo göster {% endcomment %}
+                {% if site.data.options.logos.logo_light %}
+                <img src="{{ site.data.options.logos.logo_light | relative_url }}" class="dark-logo" alt="{{ site.data.options.site_name | default: 'ai@cam' }}">
+                <img src="{{ site.data.options.logos.logo_light | relative_url }}" class="light-logo" alt="{{ site.data.options.site_name | default: 'ai@cam' }}">
+                {% endif %}
+                {% else %}
+                {% comment %} Diğer sayfalarda tema kontrolü ile dark/light {% endcomment %}
+                {% if site.data.options.logos.logo_dark %}
+                <img src="{{ site.data.options.logos.logo_dark | relative_url }}" class="dark-logo" alt="{{ site.data.options.site_name | default: 'ai@cam' }}">
+                {% endif %}
+                {% if site.data.options.logos.logo_light %}
+                <img src="{{ site.data.options.logos.logo_light | relative_url }}" class="light-logo" alt="{{ site.data.options.site_name | default: 'ai@cam' }}">
+                {% endif %}
+                {% endif %}
+            </a>
+            <nav>
+                <ul class="menu">
+                    {% for item in site.data.menus.main_nav %}
+                    <li class="{% if item.has_dropdown %}has-dropdown{% endif %}">
+                        <a href="{{ item.url | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                            {{ item.label }}
+                            {% if item.has_dropdown %}
+                            <svg class="dropdown-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            {% endif %}
+                        </a>
+                        {% if item.has_dropdown and item.dropdown %}
+                        <ul class="dropdown-menu">
+                            {% for subitem in item.dropdown %}
+                            <li>
+                                <a href="{{ subitem.url | relative_url }}" {% if subitem.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ subitem.label }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                    <li>
+                        <form action="">
+                            <input type="checkbox" id="check-mobile">
+                            <label for="check-mobile">
+                                <img src="{{ '/assets/images/icons/switch-1.svg' | relative_url }}" alt="" class="first-img">
+                                <img src="{{ '/assets/images/icons/switch-2.svg' | relative_url }}" alt="">
+                            </label>
+                        </form>
+                    </li>
+                </ul>
+                <a href="#" class="menu-trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- Header End -->

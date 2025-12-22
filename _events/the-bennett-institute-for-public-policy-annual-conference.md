@@ -1,22 +1,31 @@
 ---
-layout: event-single
-title: The Bennett Institute for Public Policy Annual Conference
-start: 2024-03-22 09:00
-end: 2024-03-22 19:30
-category:
-  - events
-desc: The Bennett Institute for Public Policy Annual Conference creates an
-  opportunity for some of our leading practitioners, academic thinkers and
-  policy experts to engage with each other in productive and wide-angled
-  conversations about some of the most pressing challenges facing governments
-  around the world.
-image: /assets/uploads/luke-stackpoole-moeqotmupg8-unsplash.jpg
-link_to: https://www.bennettinstitute.cam.ac.uk/events/annual-conference/
+title: "AI Needs You: An evening with Verity Harding in conversation with Diane Coyle"
+excerpt: "From One of Time’s 100 Most Influential People in AI, Verity Harding,
+  comes a human manifesto for the age of AI. AI Needs You: How We Can Change
+  AI’s Future and Save Our Own draws inspiring lessons from the histories of
+  three twentieth-century tech revolutions—the space race, in vitro
+  fertilization, and the internet—to empower each of us to join the conversation
+  about AI and its possible futures."
+cover_image: /assets/images/uploads/harding_verity-1-.png
+event_categories: Past Events
+event_content: >-
+  From One of Time’s 100 Most Influential People in AI, Verity Harding, comes a
+  human manifesto for the age of AI. AI Needs You: How We Can Change AI’s Future
+  and Save Our Own draws inspiring lessons from the histories of three
+  twentieth-century tech revolutions—the space race, in vitro fertilization, and
+  the internet—to empower each of us to join the conversation about AI and its
+  possible futures.
+
+
+  Verity will be in conversation with Professor Diane Coyle.
+
+
+  Book signing to follow.
+
+
+  Book your place on the Cambridge Waterstones website.
+registration_link: https://www.bennettinstitute.cam.ac.uk/events/ai-needs-you/
+registration_link_text: Find out more
+event_date: 2024-03-14
+time: 18:00 - 19:30
 ---
-**The Bennett Institute for Public Policy Annual Conference creates an opportunity for some of our leading practitioners, academic thinkers and policy experts to engage with each other in productive and wide-angled conversations about some of the most pressing challenges facing governments around the world.** 
-
-Henry Dimbleby MBE, co-founder of Leon, food campaigner, speaker and non-executive director, will deliver the keynote lecture and discuss the impact of food systems on society in conversation with Deborah Prentice, Vice-Chancellor, University of Cambridge.
-
-This year’s panel discussions are organised under the thematic headings of **resilience**, **infrastructure**, **governance**and **disruption**.  
-
-This hybrid event brings together delegates from the worlds of government, business, civil society and academia.

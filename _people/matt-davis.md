@@ -1,14 +1,12 @@
 ---
-layout: person
-title: Dr
-given: Matt
-family: Davis
-department: MRC Cognition and Brain Sciences Unit
+title: Matt Davis
+photo: /assets/images/uploads/matt.davis-1-.png
 job_title: Programme leader
-biography: "Matt leads a programme of research at the CBU on 'Adaptive processing\
-  \ of spoken language' including projects on these and other topics: \n\nPredictive\
-  \ processing of speech\nOscillatory synchronisation to speech\nIndividual differences\
-  \ in speech"
-image: /assets/uploads/matt.davis.png
-name: Matt Davis
+department: MRC Cognition and Brain Sciences Unit
+biography: >-
+  Matt leads a programme of research at the CBU on ‘Adaptive processing of
+  spoken language’ including projects on these and other topics:
+
+
+  Predictive processing of speech Oscillatory synchronisation to speech Individual differences in speech
 ---

@@ -1,11 +1,7 @@
 ---
-layout: person
-title: Mr
-name: Jerry Chen
-given: Jerry
-family: Chen
-department: Department of Land Economy
+title: Jerry Chen
+photo: /assets/images/uploads/jerry_chen-1-.jpeg
 job_title: PhD Candidate
-image: /assets/uploads/jerry_chen.jpeg
-webpage: https://liwan.work/jerrychen.html
+department: Department of Land Economy
+contact: https://liwan.work/jerrychen.html
 ---

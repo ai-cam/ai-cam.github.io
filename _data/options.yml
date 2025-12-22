@@ -1,0 +1,48 @@
+site_name: ai@cam
+site_description: ai@cam project
+logos:
+  logo_dark: /assets/images/ai-cam-logo-dark.svg
+  logo_light: /assets/images/ai-cam-logo-light.svg
+  university_logo_dark: /assets/images/university-of-cambridge-logo-dark.svg
+  university_logo_light: /assets/images/university-of-cambridge-logo-light.svg
+  university_link: "#"
+social_media:
+  linkedin:
+    url: "#"
+    icon: /assets/images/icons/linkedin.svg
+  twitter:
+    url: "#"
+    icon: /assets/images/icons/x.svg
+  bluesky:
+    url: "#"
+    icon: /assets/images/icons/fly.svg
+  facebook:
+    url: ""
+    icon: /assets/images/icons/facebook.svg
+footer:
+  footer_copyright: Copyright ai@cam 2025
+  footer_designer: Designed by Colouring Department
+  footer_designer_url: https://colouringdepartment.com/
+  subscribe_link: "#"
+join_cta:
+  cta_title: Join our ai@cam community
+  cta_description: Keep up to date with the latest.
+  cta_links:
+    - link: https://cam.us17.list-manage.com/subscribe?u=eebd562cf8763d2b7f3d6902e&id=b05fad9b7b
+      link_text: Subscribe
+    - link: https://www.philanthropy.cam.ac.uk/give-now/ai-research/aicam
+      link_text: Support Us
+contact:
+  email: ""
+  phone: ""
+  address: ""
+people_cta:
+  cta_title: Are you working on AI at Cambridge University?
+  cta_description: >
+    In such a dynamic field, it isn't easy to keep our researcher database up to
+    date. If you think you should be on the list above, submit a profile via our
+    website update form at the link below, or a pull request via our GitHub
+    repo.
+  cta_link: /contact
+  cta_link_text: Contact Us
+  cta_image: /assets/images/materials/global-contact-banner-1.png

@@ -1,9 +1,6 @@
 ---
-layout: person
-name: Inbar Bobrovsky
-title: " "
-given: "Inbar "
-family: Bobrovsky
+title: Inbar Bobrovsky
+photo: /assets/images/uploads/inbar-bobrovsky-1-.jpg
 job_title: OpRaise Project Coordinator
 department: Department of Psychology
 biography: With an MPhil in Ethics of AI from the University of Cambridge, Inbar
@@ -13,6 +10,4 @@ biography: With an MPhil in Ethics of AI from the University of Cambridge, Inbar
   in education, project management, and AI governance with expertise in
   knowledge brokering to develop approaches that empower students and educators
   to engage thoughtfully with emerging technologies
-image: /assets/uploads/inbar-bobrovsky.jpg
-email: ib513@cam.ac.uk
 ---

@@ -1,6 +1,3 @@
 ---
-layout: person
-given: Luigi
-family: Occhipinti
-name: Luigi Occhipinti
+title: Luigi Occhipinti
 ---

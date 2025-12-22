@@ -1,12 +1,9 @@
 ---
-layout: person
-name: Anne Ferguson Smith
-title: Prof
-given: Anne
-family: Ferguson Smith
+title: Anne Ferguson Smith
+photo: /assets/images/uploads/ferguson-smith_anne.jpg
 job_title: Arthur Balfour Professor of Genetics; Pro-Vice-Chancellor for Research
 department: Department of Genetics
-category: null
+contact: https://www.gen.cam.ac.uk/directory/anne-ferguson-smith
 biography: "Professor Anne Ferguson-Smith was Pro-Vice-Chancellor for Research
   when ai@cam launched. Currently she is Chief Executive of the BBSRC. She is
   the Arthur Balfour Professor of Genetics at the University of Cambridge.
@@ -22,6 +19,4 @@ biography: "Professor Anne Ferguson-Smith was Pro-Vice-Chancellor for Research
   Sciences in 2012 and became a Fellow of the Royal Society in 2017. She became
   Pro-Vice-Chancellor for Research (interim) at the University of Cambridge in
   January 2021."
-image: /assets/uploads/Ferguson-Smith_Anne.jpg
-webpage: https://www.gen.cam.ac.uk/directory/anne-ferguson-smith
 ---

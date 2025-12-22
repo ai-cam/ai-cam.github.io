@@ -1,0 +1,214 @@
+---
+layout: default
+title: AI in the University
+page_description: Deploying AI to improve the effectiveness of University operations.
+permalink: /ai-in-the-university/
+hero:
+  hero_title: Deploying AI to improve the effectiveness of University operations.
+  hero_text: AI offers new ways to support universities to deliver high-quality
+    research and student experiences. AI for University Operations is ai@cam's
+    programme to pioneer the integration of AI into operational workflows,
+    supporting professional services teams to explore innovative applications of
+    AI, share learning across the professional services staff community, and
+    shape more responsive and efficient systems for the future.
+blog_posts:
+  - "What Local Government Needs from AI: Learning from Practice in our AI for
+    Local Government Accelerator"
+  - How AI is Changing the Practice of Science
+  - Untangling the web of supply chain data
+news_posts:
+  - New funding call launches to support AI innovation with local government
+    partners
+  - ai@cam and local authorities launch pioneering accelerator for AI in public
+    services
+  - UK needs clearer vision on AI sovereignty to turn AI research excellence
+    into strategic value
+projects:
+  - AI reply/chatbot for staff and student recruitment
+  - AI-assisted Regulatory Compliance Technical File Generator for software as a
+    medical device
+  - Exploring AI in Research Grants Administration
+  - Automation of ‘exam standing’ process
+  - Libraries Working Smarter with AI
+  - "Smart-Review: AI-Powered Analysis of Grant Funding Terms"
+  - AI for Committee Management
+  - "AERO: Analytics for Energy-efficient and Resilient Operations"
+---
+
+<!-- AI In The University Page -->
+<section class="ai-in-the-university-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            {% if page.title %}<h1>{{ page.title }}</h1>{% else %}<h1>AI in the University</h1>{% endif %}
+            {% if page.page_description %}<p>{{ page.page_description }}</p>{% else %}<p>Deploying AI to improve the effectiveness of University operations.</p>{% endif %}
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>{{ page.hero.hero_title }}</h3>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="text">
+                    {{ page.hero.hero_text | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- AI In The University Page End -->
+
+<!-- AI In The University List -->
+ <section class="ai-in-the-university-list">
+    <div class="container">
+        <ul class="list nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="true">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#blogs" role="tab" aria-controls="blogs" aria-selected="false">Blogs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#news" role="tab" aria-controls="news" aria-selected="false">News</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- Projects Tab -->
+            <div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <div class="row">
+                    {% assign projects = page.projects | default: page.data.projects %}
+                    {% if projects and projects.size > 0 %}
+                        {% for project_title in projects %}
+                            {% assign project = site.projects | where: "title", project_title | first %}
+                            {% if project %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <div class="light-img">
+                                            {% include icons/events-item-shape-light.svg %}
+                                        </div>
+                                        <div class="dark-img">
+                                            {% include icons/events-item-shape-dark.svg %}
+                                        </div>
+                                    </div>
+
+                                    <a href="{{ project.url }}" class="picture">
+                                        <span class="category">Project</span>
+                                        {% if project.cover_image %}
+                                        <img src="{{ project.cover_image | relative_url }}" alt="{{ project.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
+                                            <a href="{{ project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if project.date %}<p>{{ project.date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Blogs Tab -->
+            <div class="tab-pane fade" id="blogs" role="tabpanel" aria-labelledby="blogs-tab">
+                <div class="row">
+                    {% assign blog_posts = page.blog_posts | default: page.data.blog_posts %}
+                    {% if blog_posts and blog_posts.size > 0 %}
+                        {% for blog_title in blog_posts %}
+                            {% assign blog = site.blog_posts | where: "title", blog_title | first %}
+                            {% if blog %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <div class="light-img">
+                                            {% include icons/events-item-shape-light.svg %}
+                                        </div>
+                                        <div class="dark-img">
+                                            {% include icons/events-item-shape-dark.svg %}
+                                        </div>
+                                    </div>
+
+                                    <a href="{{ blog.url }}" class="picture">
+                                        <span class="category">Blog</span>
+                                        {% if blog.cover_image %}
+                                        <img src="{{ blog.cover_image | relative_url }}" alt="{{ blog.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ blog.url }}"><h3>{{ blog.title }}</h3></a>
+                                            <a href="{{ blog.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if blog.date %}<p>{{ blog.date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- News Tab -->
+            <div class="tab-pane fade" id="news" role="tabpanel" aria-labelledby="news-tab">
+                <div class="row">
+                    {% assign news_posts = page.news_posts | default: page.data.news_posts %}
+                    {% if news_posts and news_posts.size > 0 %}
+                        {% for news_title in news_posts %}
+                            {% assign news = site.news | where: "title", news_title | first %}
+                            {% if news %}
+                            <div class="col-lg-4 d-flex">
+                                <div class="item flex-fill">
+                                    <div class="shapes">
+                                        <div class="light-img">
+                                            {% include icons/events-item-shape-light.svg %}
+                                        </div>
+                                        <div class="dark-img">
+                                            {% include icons/events-item-shape-dark.svg %}
+                                        </div>
+                                    </div>
+
+                                    <a href="{{ news.url }}" class="picture">
+                                        <span class="category">News</span>
+                                        {% if news.cover_image %}
+                                        <img src="{{ news.cover_image | relative_url }}" alt="{{ news.title }}" class="main-img">
+                                        {% endif %}
+                                    </a>
+
+                                    <div class="text">
+                                        <div class="top-title">
+                                            <a href="{{ news.url }}"><h3>{{ news.title }}</h3></a>
+                                            <a href="{{ news.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                        </div>
+
+                                        {% if news.date %}<p>{{ news.date | date: "%-d %B %Y" }}</p>{% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- AI In The University List End -->

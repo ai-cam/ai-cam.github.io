@@ -1,11 +1,8 @@
 ---
-layout: person
-title: Dr
-given: Ann Kristin
-family: Glenster
-name: Ann Kristin Glenster
-department: Minderoo Centre for Technology & Democracy
+title: Ann Kristin Glenster
+photo: /assets/images/uploads/glensterak-1-.jpeg
 job_title: Senior Policy Adviser
+department: Minderoo Centre for Technology & Democracy
 biography: >-
   Dr Ann Kristin Glenster is a Technology and Human Rights Fellow at the Carr
   Centre for Human Rights Policy at the Harvard Kennedy School; a Senior Policy
@@ -18,5 +15,4 @@ biography: >-
 
 
   Ann Kristin holds a PhD in Law from the University of Cambridge with a dissertation entitled The Commodification of Personal Data. She has published on AI, intellectual, property, and personal data with Edward Elgar and held a workshop on deceptive design for legislators, regulators and civil society in Washington D.C. as part of the Nobel Prize Summit 2023.
-image: /assets/uploads/glensterak.jpeg
 ---

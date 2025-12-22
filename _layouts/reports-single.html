@@ -1,0 +1,311 @@
+---
+layout: default
+---
+
+<!-- Reports Single Page -->
+<section class="reports-single-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="top-actions">
+            <a href="{{ '/reports/' | relative_url }}" class="back">
+                <div class="icon">
+                    <img src="{{ '/assets/images/icons/arrow-left-green.svg' | relative_url }}" alt="">
+                </div>
+
+                Back to Reports
+            </a>
+
+            <ul class="share">
+                <li>Share</li>
+                {% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+                {% assign page_title = page.title | url_encode %}
+                <li><a href="https://bsky.app/intent/compose?text={{ page_title }}%20{{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt="Share on Bluesky"></a></li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Share on Facebook"></a></li>
+                <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="Share on LinkedIn"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?url={{ page_url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt="Share on Twitter/X"></a></li>
+            </ul>
+        </div>
+
+        <div class="main-title">
+            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+            <ul class="category">
+                {% if page.report_date %}<li>{{ page.report_date | date: "%-d %B %Y" | downcase }}</li>{% endif %}
+            </ul>
+        </div>
+    </div>
+ </section>
+<!-- Reports Single Page End -->
+
+<!-- Reports Single Page Content -->
+ <section class="reports-single-page-content">
+    <div class="shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1">
+                {% if page.authors and page.authors.size > 0 %}
+                <div class="authors">
+                    <h3>Authors</h3>
+
+                    <div class="users">
+                        {% for author in page.authors %}
+                        <div class="item">
+                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                <a href="{{ author.author_link | relative_url }}">
+                            {% endif %}
+                            {% if author.photo %}
+                            <img src="{{ author.photo | relative_url }}" alt="{{ author.name }}">
+                            {% else %}
+                            <img src="{{ '/assets/images/icons/user.svg' | relative_url }}" alt="{{ author.name }}">
+                            {% endif %}
+                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                </a>
+                            {% endif %}
+                            <div class="text">
+                                {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                    <a href="{{ author.author_link | relative_url }}"><h4>{{ author.name }}</h4></a>
+                                {% elsif author.name %}
+                                    <h4>{{ author.name }}</h4>
+                                {% endif %}
+                                {% if author.role %}<p>{{ author.role }}</p>{% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if page.abstract %}
+                <div class="abstract">
+                    <h3>Abstract</h3>
+                    <p>{{ page.abstract }}</p>
+
+                    {% if page.links %}
+                    <div class="buttons">
+                        {% for link_item in page.links %}
+                            {% if link_item.link and link_item.link_text %}
+                            <a href="{{ link_item.link }}" class="button" target="_blank" rel="noopener noreferrer">{{ link_item.link_text }} <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                            {% endif %}
+                        {% endfor %}
+                        <button class="button button--cite" onclick="toggleCitationPanel()">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 18px; height: 18px; margin-right: 8px;">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                            </svg>
+                            Cite this publication
+                        </button>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if page.title %}
+                <div class="citation-panel" id="citationPanel" style="display: none;">
+                    <div class="citation-formats">
+                        <div class="citation-format-tabs">
+                            <button class="tab-button active" onclick="switchFormat('apa')">APA</button>
+                            <button class="tab-button" onclick="switchFormat('bibtex')">BibTeX</button>
+                            <button class="tab-button" onclick="switchFormat('endnote')">EndNote</button>
+                            <button class="tab-button" onclick="switchFormat('ris')">RIS</button>
+                        </div>
+
+                        {% assign entry=page %}
+                        
+                        <div class="citation-format active" id="apa">
+                            {%capture apa_text%}{% include bibliography/apa_entry %}{%endcapture%}
+                            <div class="citation-actions">
+                                <button class="button button--small" onclick="copyToClipboard('apa_text')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                                    </svg>
+                                    Copy
+                                </button>
+                                <a href="#" onclick="downloadCitation('{{apa_text | replace: '"', '\"'}}', 'citation.txt'); return false;" class="button button--small">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                    </svg>
+                                    Download
+                                </a>
+                            </div>
+                            <textarea id="apa_text" readonly>{{apa_text}}</textarea>
+                        </div>
+
+                        <div class="citation-format" id="bibtex">
+                            {%capture bibtex_text%}{% include bibliography/bibtex_entry %}{%endcapture%}
+                            <div class="citation-actions">
+                                <button class="button button--small" onclick="copyToClipboard('bibtex_text')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                                    </svg>
+                                    Copy
+                                </button>
+                                <a href="data:text/bib;charset=utf-8,{{bibtex_text | url_encode}}" download="citation.bib" class="button button--small">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                    </svg>
+                                    Download
+                                </a>
+                            </div>
+                            <textarea id="bibtex_text" readonly>{{bibtex_text}}</textarea>
+                        </div>
+
+                        <div class="citation-format" id="endnote">
+                            {%capture endnote_text%}{% include bibliography/endnote_entry %}{%endcapture%}
+                            <div class="citation-actions">
+                                <button class="button button--small" onclick="copyToClipboard('endnote_text')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                                    </svg>
+                                    Copy
+                                </button>
+                                <a href="data:text/enw;charset=utf-8,{{endnote_text | url_encode}}" download="citation.enw" class="button button--small">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                    </svg>
+                                    Download
+                                </a>
+                            </div>
+                            <textarea id="endnote_text" readonly>{{endnote_text}}</textarea>
+                        </div>
+
+                        <div class="citation-format" id="ris">
+                            {%capture ris_text%}{% include bibliography/ris_entry %}{%endcapture%}
+                            <div class="citation-actions">
+                                <button class="button button--small" onclick="copyToClipboard('ris_text')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+                                    </svg>
+                                    Copy
+                                </button>
+                                <a href="data:text/ris;charset=utf-8,{{ris_text | url_encode}}" download="citation.ris" class="button button--small">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 16px; height: 16px;">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                                    </svg>
+                                    Download
+                                </a>
+                            </div>
+                            <textarea id="ris_text" readonly>{{ris_text}}</textarea>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="col-lg-8 order-1 order-lg-2">
+                <div class="main-content">
+                    {% if page.cover_image %}
+                    <div class="cover-image">
+                        <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}">
+                    </div>
+                    {% endif %}
+
+                    {% if page.body %}
+                    <div class="text">
+                        {{ page.body | markdownify }}
+                    </div>
+                    {% elsif page.content %}
+                    <div class="text">
+                        {{ page.content | markdownify }}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Reports Single Page Content End -->
+
+<script>
+function toggleCitationPanel() {
+  const panel = document.getElementById('citationPanel');
+  const button = document.querySelector('.button--cite');
+  
+  if (panel && button) {
+    if (panel.style.display === 'none' || panel.style.display === '') {
+      panel.style.display = 'block';
+      button.classList.add('active');
+    } else {
+      panel.style.display = 'none';
+      button.classList.remove('active');
+    }
+  }
+}
+
+function switchFormat(format) {
+  // Hide all formats
+  document.querySelectorAll('.citation-format').forEach(el => {
+    el.classList.remove('active');
+  });
+  // Show selected format
+  const formatEl = document.getElementById(format);
+  if (formatEl) {
+    formatEl.classList.add('active');
+  }
+  
+  // Update tab buttons
+  document.querySelectorAll('.tab-button').forEach(button => {
+    button.classList.remove('active');
+  });
+  if (event && event.target) {
+    event.target.classList.add('active');
+  }
+}
+
+function copyToClipboard(elementId) {
+  const textarea = document.getElementById(elementId);
+  if (textarea) {
+    textarea.select();
+    textarea.setSelectionRange(0, 99999); // For mobile devices
+    
+    try {
+      document.execCommand('copy');
+      
+      const button = event.target.closest('button');
+      if (button) {
+        const originalText = button.innerHTML;
+        button.innerHTML = 'Copied!';
+        setTimeout(function() {
+          button.innerHTML = originalText;
+        }, 2000);
+      }
+    } catch (err) {
+      // Fallback for modern browsers
+      navigator.clipboard.writeText(textarea.value).then(function() {
+        const button = event.target.closest('button');
+        if (button) {
+          const originalText = button.innerHTML;
+          button.innerHTML = 'Copied!';
+          setTimeout(function() {
+            button.innerHTML = originalText;
+          }, 2000);
+        }
+      });
+    }
+  }
+}
+
+function downloadCitation(text, filename) {
+  const blob = new Blob([text], { type: 'text/plain' });
+  const url = window.URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  window.URL.revokeObjectURL(url);
+  document.body.removeChild(a);
+}
+</script>

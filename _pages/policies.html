@@ -1,0 +1,126 @@
+---
+layout: default
+title: Policies
+permalink: /policies/
+---
+
+<!-- Policy Page -->
+<section class="policy-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <h1>Policy Lab</h1>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Access to trustworthy information and insights to inform public conversations and policy debates about AI is more important than ever.</h3>
+            </div>
+
+            <div class="col-lg-6">
+                <p>As policymakers around the world grapple with questions about the future of AI, evidence and advice about its progress, use, and impact is vital. ai@cam's PolicyLab provides a forum for bringing together researchers and policymakers to generate high-quality insights to inform public and policy debates. Bridging research, policy, and practice, and drawing from the University's expertise across disciplines, it will convene expertise that helps build a well-founded public conversation about AI.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Policy Page End -->
+
+<!-- Policy Page List -->
+<section class="policy-page-list">
+    <div class="main-shapes shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <ul class="list">
+            {% if site.policy_categories %}
+                {% assign sorted_policy_categories = site.policy_categories | sort: "order" %}
+                {% for category in sorted_policy_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% if category_name == "AI Policy" %}
+                    <li class="active">
+                        <a href="{{ '/policies/' | relative_url }}">{{ category_name }}</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% assign sorted_policy_categories_fallback = site.collections.policy_categories.docs | sort: "order" %}
+                {% for category in sorted_policy_categories_fallback %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% if category_name == "AI Policy" %}
+                    <li class="active">
+                        <a href="{{ '/policies/' | relative_url }}">{{ category_name }}</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row">
+            {% assign ai_policy_category = site.policy_categories | where: "name", "AI Policy" | first %}
+            {% if ai_policy_category %}
+                {% assign category_name = ai_policy_category.data.name | default: ai_policy_category.name %}
+                {% assign filtered_policies = site.policies | where: 'policy_categories', category_name %}
+            {% else %}
+                {% assign filtered_policies = site.policies | where: 'policy_categories', 'AI Policy' %}
+            {% endif %}
+            {% assign sorted_policies = filtered_policies | sort: 'date' | reverse %}
+            {% for policy in sorted_policies %}
+            <div class="col-lg-4">
+                <div class="item">
+                    <div class="shapes">
+                        <div class="light-img">
+                            {% include icons/policy-item-shape-light.svg %}
+                        </div>
+                        <div class="dark-img">
+                            {% include icons/policy-item-shape-dark.svg %}
+                        </div>
+                    </div>
+
+                    {% if policy.tags and policy.tags.size > 0 %}
+                        {% assign first_tag = policy.tags[0] %}
+                        <span class="category">{{ first_tag.tag }}</span>
+                    {% endif %}
+                    <h3><a href="{{ policy.url }}">{{ policy.title }}</a></h3>
+                    {% if policy.excerpt %}
+                    <p>{{ policy.excerpt }}</p>
+                    {% elsif policy.body %}
+                    <p>{{ policy.body | strip_html | truncatewords: 30 }}</p>
+                    {% endif %}
+
+                    <div class="button">
+                        <a href="{{ policy.url }}"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if sorted_policies.size > 6 %}
+            <div class="col-lg-12">
+                <div class="load-more">
+                    <a href="#">Load More <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<!-- Policy Page List End -->
+

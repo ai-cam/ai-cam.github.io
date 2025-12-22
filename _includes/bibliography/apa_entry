@@ -1,2 +1,28 @@
-{%-include bibliography/extractinfo_publication.html entry=entry-%}{% assign lastone = authors.last %}{% for person in authors %}{% if person.consortium %}{{ person.consortium.name }}{%else%}{% if person.prefix %}{{person.prefix }} {%endif%}{{ person.family }}{%if person.suffix %}, {{person.suffix}}{%endif%}, {% assign firstnames = person.given | split:" " %}{% for name in firstnames %}{{ name | slice: 0, 1}}.{% unless name==firstnames.last %} {% endunless %}{% endfor %}{% endif %}{% if authors.size>1 %}{%if authors[-2]==person %} & {% else %}{% unless person == lastone %}, {%endunless %}{% endif %}{% endif %}{% endfor %}. ({{ date | date: "%Y" }}). {{ title }}. {% if type=='inproceedings' %}{% if container-title %}<i>{{ container-title }}</i>{% endif %}{% if series %}, in <i>{{ series }}</i>{% endif %}{% endif %}{% if type=='article' %}{% if journal %}<i>{{ journal }}</i>{% endif %}{% endif %}{%if volume %} {{ volume }}{%endif%}{%if number%}({{number}}){%endif%}{%if firstpage %}:{{firstpage}}{%endif%}{%if lastpage %}-{{lastpage}}{%endif%}{% if doi %} doi:{{ doi }}{%endif%}{% if url %} Available from {{ url }}.{%endif%}{% if note %} {{ note }}{% endif %}
+{%-include bibliography/extractinfo_publication.html entry=entry-%}
+{%-if authors and authors.size > 0-%}
+  {%-assign lastone = authors.last -%}
+  {%-for author in authors-%}
+    {%-if author.name-%}
+      {%-assign name_parts = author.name | split: " "-%}
+      {%-if name_parts.size > 1-%}
+        {%-assign family = name_parts.last-%}
+        {%-assign given = name_parts | pop | join: " "-%}
+      {%-else-%}
+        {%-assign family = author.name-%}
+        {%-assign given = ""-%}
+      {%-endif-%}
+    {%-else-%}
+      {%-assign family = ""-%}
+      {%-assign given = ""-%}
+    {%-endif-%}
+    {%-if family != ""-%}
+      {{ family }}{% if given != "" %}, {%-assign firstnames = given | split:" " -%}{%-for name in firstnames-%}{{ name | slice: 0, 1 }}.{%-unless name==firstnames.last-%} {%-endunless-%}{%-endfor-%}{%-endif-%}
+    {%-endif-%}
+    {%-if authors.size > 1-%}
+      {%-if authors[-2] == author-%} & {%-else-%}
+        {%-unless author == lastone-%}, {%-endunless-%}
+      {%-endif-%}
+    {%-endif-%}
+  {%-endfor-%}
+{%-endif-%}. {%-if date-%}({{ date | date: "%Y" }}){%-endif-%}. {{ title }}. {%-if container-title-%}<i>{{ container-title }}</i>{%-endif-%}{%-if volume-%} {{ volume }}{%-endif-%}{%-if number-%}({{ number }}){%-endif-%}{%-if firstpage-%}:{{ firstpage }}{%-endif-%}{%-if lastpage-%}-{{ lastpage }}{%-endif-%}{%-if publisher-%}. {{ publisher }}{%-endif-%}{%-if doi-%}. doi:{{ doi }}{%-endif-%}{%-if url-%}. Available from {{ url }}{%-endif-%}
 

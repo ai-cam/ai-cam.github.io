@@ -1,137 +1,143 @@
-name: "ai@cam"
-title: ai@cam
-description: >- # this means to ignore newlines until "baseurl:"
-  ai@cam is the University of Cambridge's mission to drive a new wave of AI innovation that delivers public value.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ai.cam.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ai_cam_mission
-github_username: ai-cam
-permalinks: pretty
+# Site Settings
+title: "ai@cam"
+description: "ai@cam project"
+url: ""
+baseurl: ""
+
+# Jekyll Settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Collections
 collections:
+  blog_posts:
+    output: true
+    permalink: /blog/:name/
+  calls:
+    output: true
+    permalink: /calls/:name/
   news:
     output: true
-    sort_by: date
-    order: reverse
+    permalink: /news/:slug/
   events:
     output: true
-    sort_by: date
-    order: reverse
-  team:
-    output: true
-    sort_by: date
-    order: reverse
-  people:
-    output: true
-    sort_by: date
-    order: reverse
-  research:
-    output: true
-    sort_by: date
-    order: reverse
+    permalink: /events/:slug/
   projects:
     output: true
-    sort_by: date
-    order: reverse
-  opportunities:
-    output: true
-    sort_by: date
-    order: reverse
-  initiatives:
-    permalink: "/initiatives/:title"
-    output: true
-  calls:
-    permalink: "/calls/:title"
-    output: true
-    sort_by: date
-    order: reverse
+    permalink: /projects/:name/
   reports:
     output: true
-    sort_by: date
-    order: reverse
-    permalink: "/reports/:title"
+    permalink: /reports/:name/
+  team_members:
+    output: true
+    permalink: /team/:name/
+  people:
+    output: true
+    permalink: /people/:name/
+  policies:
+    output: true
+    permalink: /policies/:name/
+  call_categories:
+    output: true
+    permalink: /calls/category/:name/
+  event_categories:
+    output: true
+    permalink: /events/category/:name/
+  team_categories:
+    output: true
+    permalink: /team/category/:name/
+  project_categories:
+    output: true
+    permalink: /projects/category/:name/
+  policy_categories:
+    output: true
+    permalink: /policies/category/:name/
+  pages:
+    output: true
 
-# Default front matter for collections
+# Defaults
 defaults:
   - scope:
-      path: "_calls"
+      path: ""
+      type: "calls"
     values:
-      layout: call-single
-      permalink: "/calls/:title"
+      layout: "calls-single"
   - scope:
-      path: "_initiatives"
+      path: ""
+      type: "call_categories"
     values:
-      layout: initiative-single
+      layout: "calls-category"
   - scope:
-      path: "_reports"
+      path: ""
+      type: "reports"
     values:
-      layout: report-single
+      layout: "reports-single"
+  - scope:
+      path: ""
+      type: "blog_posts"
+    values:
+      layout: "blog-single"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news-single"
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "events-single"
+  - scope:
+      path: ""
+      type: "event_categories"
+    values:
+      layout: "events-category"
+  - scope:
+      path: ""
+      type: "team_members"
+    values:
+      layout: "teams-single"
+  - scope:
+      path: ""
+      type: "team_categories"
+    values:
+      layout: "teams-category"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "people-single"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "projects-single"
+  - scope:
+      path: ""
+      type: "project_categories"
+    values:
+      layout: "projects-category"
+  - scope:
+      path: ""
+      type: "policies"
+    values:
+      layout: "policies-single"
+  - scope:
+      path: ""
+      type: "policy_categories"
+    values:
+      layout: "policies-category"
 
-# Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-
-# For giki settings
-ghub:
-  edit: true
-  repository: ai-cam.github.io
-github_username: ai-cam
-  
-display:
-  copy_button:
-    bibtex: true
-    ris: true
-    endnote: true
-    apa: true
-sass:
-  sass_dir: _sass
-  style: compressed
-  sourcemap: always
-
-# Add any other configuration options as needed
-
-# SEO settings
-social:
-  name: AI@CAM
-  links:
-    - https://twitter.com/ai_cam_mission
-
-# for paginate-v2 (not supported by github pages)
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: "/page/:num/"
-  title: ":title"
-  limit: 0
-  sort_field: "date"
-  sort_reverse: true
-  trail:
-    before: 2
-    after: 2
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Exclude
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - scripts/
-
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
 

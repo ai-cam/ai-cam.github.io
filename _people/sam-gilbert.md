@@ -1,10 +1,6 @@
 ---
-layout: person
-title: Mr
-given: Sam
-family: Gilbert
-name: Sam Gilbert
-department: Bennett Institute for Public Policy
+title: Sam Gilbert
+photo: /assets/images/uploads/sg_headshot-1-.jpeg
 job_title: Affiliated Researcher
-image: /assets/uploads/sg_headshot.jpeg
+department: Bennett Institute for Public Policy
 ---

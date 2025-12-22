@@ -1,0 +1,162 @@
+---
+layout: default
+---
+
+<!-- Reports Single Page -->
+<section class="reports-single-page">
+    <div class="shapes">
+        <img src="{{ '/assets/images/materials/home-slider-shape-light.svg' | relative_url }}" class="light-img" alt="">
+        <img src="{{ '/assets/images/materials/home-slider-shape-dark.svg' | relative_url }}" class="dark-img" alt="">
+    </div>
+
+    <div class="container">
+        <div class="top-actions">
+            <a href="{{ '/policies/' | relative_url }}" class="back">
+                <div class="icon">
+                    <img src="{{ '/assets/images/icons/arrow-left-green.svg' | relative_url }}" alt="">
+                </div>
+
+                Back to Policies
+            </a>
+
+            <ul class="share">
+                <li>Share</li>
+                {% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+                {% assign page_title = page.title | url_encode %}
+                <li><a href="https://bsky.app/intent/compose?text={{ page_title }}%20{{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt="Share on Bluesky"></a></li>
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Share on Facebook"></a></li>
+                <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="Share on LinkedIn"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?url={{ page_url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt="Share on Twitter/X"></a></li>
+            </ul>
+        </div>
+
+        <div class="main-title">
+            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+            <ul class="category">
+                {% if page.date %}<li>{{ page.date | date: "%-d %B %Y" | downcase }}</li>{% endif %}
+                {% if page.tags and page.tags.size > 0 %}
+                    {% for tag_item in page.tags %}
+                        {% if tag_item.tag %}<li>{{ tag_item.tag }}</li>{% endif %}
+                    {% endfor %}
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+ </section>
+<!-- Reports Single Page End -->
+
+<!-- Reports Single Page Content -->
+ <section class="reports-single-page-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1">
+                {% if page.authors %}
+                <div class="authors">
+                    <h3>Authors</h3>
+
+                    <div class="users">
+                        {% for author in page.authors %}
+                        <div class="item">
+                            {% if author.photo %}
+                            <img src="{{ author.photo | relative_url }}" alt="{{ author.name }}">
+                            {% else %}
+                            <img src="{{ '/assets/images/icons/user.svg' | relative_url }}" alt="{{ author.name }}">
+                            {% endif %}
+                            <div class="text">
+                                {% if author.name %}<h4>{{ author.name }}</h4>{% endif %}
+                                {% if author.role %}<p>{{ author.role }}</p>{% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                {% if page.abstract %}
+                <div class="abstract">
+                    <h3>Abstract</h3>
+                    <p>{{ page.abstract }}</p>
+
+                    {% if page.links %}
+                    <div class="buttons">
+                        {% for link_item in page.links %}
+                            {% if link_item.link and link_item.link_text %}
+                            <a href="{{ link_item.link }}" class="button" target="_blank" rel="noopener noreferrer">{{ link_item.link_text }} <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="col-lg-8 order-1 order-lg-2">
+                <div class="main-content">
+                    {% if page.cover_image %}
+                    <div class="cover-image">
+                        <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}">
+                    </div>
+                    {% endif %}
+
+                    {% if page.body %}
+                    <div class="text">
+                        {{ page.body | markdownify }}
+                    </div>
+                    {% elsif page.content %}
+                    <div class="text">
+                        {{ page.content | markdownify }}
+                    </div>
+                    {% endif %}
+
+                    {% if page.videos and page.videos.size > 0 %}
+                    {% for video in page.videos %}
+                        {% if video.video_link and video.video_link != '' and video.video_link != '/' %}
+                            {% assign video_id = '' %}
+                            {% assign video_type = '' %}
+                            {% assign embed_url = '' %}
+                            
+                            {% if video.video_link contains 'youtube.com/watch' %}
+                                {% assign video_type = 'youtube' %}
+                                {% assign video_id = video.video_link | split: 'v=' | last | split: '&' | first %}
+                                {% assign embed_url = 'https://www.youtube.com/embed/' | append: video_id %}
+                            {% elsif video.video_link contains 'youtu.be' %}
+                                {% assign video_type = 'youtube' %}
+                                {% assign video_id = video.video_link | split: '/' | last | split: '?' | first %}
+                                {% assign embed_url = 'https://www.youtube.com/embed/' | append: video_id %}
+                            {% elsif video.video_link contains 'youtube.com/embed' %}
+                                {% assign video_type = 'youtube' %}
+                                {% assign embed_url = video.video_link %}
+                            {% elsif video.video_link contains 'vimeo.com' %}
+                                {% assign video_type = 'vimeo' %}
+                                {% if video.video_link contains 'player.vimeo.com' %}
+                                    {% assign embed_url = video.video_link %}
+                                {% else %}
+                                    {% assign video_id = video.video_link | split: '/' | last | split: '?' | first %}
+                                    {% assign embed_url = 'https://player.vimeo.com/video/' | append: video_id %}
+                                {% endif %}
+                            {% endif %}
+                            
+                            {% if embed_url != '' %}
+                            <div class="video-item" style="margin-bottom: 40px; margin-top: 40px;">
+                                {% if video.video_title and video.video_title != '' %}
+                                <h3 style="margin-bottom: 20px;">{{ video.video_title }}</h3>
+                                {% endif %}
+                                <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                                    {% if video_type == 'youtube' %}
+                                    <iframe src="{{ embed_url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                                    {% elsif video_type == 'vimeo' %}
+                                    <iframe src="{{ embed_url }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Reports Single Page Content End -->
+
