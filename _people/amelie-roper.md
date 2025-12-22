@@ -1,10 +1,7 @@
 ---
-layout: person
-given: Amelie
-family: Roper
-name: Amelie Roper
-department: Cambridge University Library
+title: Amelie Roper
+photo: /assets/images/uploads/amelie-roper-1-.jpg
 job_title: Head of Research
-webpage: https://www.lib.cam.ac.uk/research-institute/people/amelie-roper
-image: /assets/uploads/amelie-roper.jpg
+department: Cambridge University Library
+contact: https://www.lib.cam.ac.uk/research-institute/people/amelie-roper
 ---

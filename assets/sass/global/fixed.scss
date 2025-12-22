@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+div:focus {
+  outline: none;
+}
+
+ul {
+  @extend %ul;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label,
+address {
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font01;
+  font-weight: 400;
+  width: 100%;
+  overflow-x: hidden;
+  padding-top: 138px;
+  background: url('../images/background-light.webp') center center / cover no-repeat;
+  background-color: var(--bg-color);
+  transition: $eio;
+  
+  @include max992 {
+    padding-top: 85px;
+  }
+}
+
+[data-theme='dark'] {
+  body {
+    background: url('../images/background-dark.webp') center center / cover no-repeat;
+    background-color: var(--bg-color);
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+input:invalid {
+  border-color: red;
+}
+
+form:invalid button[type="submit"] {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1380px;
+  }
+}
+
+/* Sadece scrollbar track'i şeffaf yap (beyaz arka planı kaldır) */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* beyaz arka planı kaldır */
+}
+
+/* Firefox için scrollbar track'i şeffaf yap */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: auto transparent; /* thumb native, track şeffaf */
+}
+
+/* Loading Screen */
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F7EFED;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+
+  &.fade-out {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+#lottie-container {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  max-height: 600px;
+}

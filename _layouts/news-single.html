@@ -1,22 +1,80 @@
 ---
-layout: single
-collection_url: "/news/"
-back_text: "Back to news"
-hero_image: "/assets/images/news-bg.svg"
+layout: default
 ---
 
-{% capture hero_meta %}
-{% if page.author %}
-<p>{{ page.author }}</p>
-{% endif %}
-{% if page.date %}
-<p>{{ page.date | date: '%d %B %Y' }}</p>
-{% endif %}
-{% endcapture %}
+<!-- News Single Page -->
+<section class="news-single-page">
+    <div class="shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/shape-bottom.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/shape-dark-bottom.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="top-actions">
+                    <a href="{{ '/news/' | relative_url }}" class="back">
+                        <div class="icon">
+                            <img src="{{ '/assets/images/icons/arrow-left-green.svg' | relative_url }}" alt="">
+                        </div>
 
-{% include hero/single.html hero_image=layout.hero_image hero_meta=hero_meta title=page.title collection_url=layout.collection_url back_text=layout.back_text %}
+                        Back to News
+                    </a>
 
-{% include single.html %}
+                    <ul class="share">
+                        <li>Share</li>
+                        {% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+                        {% assign page_title = page.title | url_encode %}
+                        <li><a href="https://bsky.app/intent/compose?text={{ page_title }}%20{{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt="Share on Bluesky"></a></li>
+                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Share on Facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="Share on LinkedIn"></a></li>
+                        <li><a href="https://twitter.com/intent/tweet?url={{ page_url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt="Share on Twitter/X"></a></li>
+                    </ul>
+                </div>
 
-{% include related-researchers.html %}
-{% include related-news.html %}
+                <div class="content">
+                    {% if page.date %}<span class="date">{{ page.date | date: "%-d %B %Y" }}</span>{% endif %}
+                    {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+                    {% if page.cover_image %}
+                    <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}" class="main-img">
+                    {% endif %}
+
+                    {% if page.body %}
+                    <div class="text">
+                        {{ page.body | markdownify }}
+                    </div>
+                    {% elsif page.content %}
+                    <div class="text">
+                        {{ page.content | markdownify }}
+                    </div>
+                    {% endif %}
+
+                    {% if page.information and page.information != '' and page.information != '/' %}
+                    <div class="information">
+                        {{ page.information | markdownify }}
+                    </div>
+                    {% endif %}
+
+                    {% if page.apply_title and page.apply_title != '' and page.apply_title != '/' or page.apply_content and page.apply_content != '' and page.apply_content != '/' %}
+                    <div class="how-to-apply">
+                        {% if page.apply_title and page.apply_title != '' and page.apply_title != '/' %}<h4>{{ page.apply_title }}</h4>{% endif %}
+                        {% if page.apply_content and page.apply_content != '' and page.apply_content != '/' %}
+                        <div class="apply-content">
+                            {{ page.apply_content | markdownify }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    {% if page.apply_link and page.apply_link != '' and page.apply_link != '/' and page.apply_link_text and page.apply_link_text != '' and page.apply_link_text != '/' %}
+                    <a href="{{ page.apply_link }}" class="button" target="_blank" rel="noopener noreferrer">{{ page.apply_link_text }} <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt=""></div></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- News Single Page End -->

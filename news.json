@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /news.json
+---
+{% if site.news.size > 0 %}
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+[
+  {% for news_item in sorted_news %}
+  {
+    "slug": "{{ news_item.slug }}",
+    "title": {{ news_item.title | jsonify }},
+    "url": "{{ news_item.url }}",
+    "cover_image": {% if news_item.cover_image %}"{{ news_item.cover_image | relative_url }}"{% else %}null{% endif %},
+    "date": {% if news_item.date %}"{{ news_item.date }}"{% else %}null{% endif %},
+    "tags": {% if news_item.tags %}{{ news_item.tags | jsonify }}{% else %}[]{% endif %},
+    "excerpt": {% if news_item.body %}{{ news_item.body | strip_html | truncatewords: 30 | jsonify }}{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+

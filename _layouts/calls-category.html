@@ -1,0 +1,372 @@
+---
+layout: default
+---
+
+<!-- Calls Page -->
+<section class="calls-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="main-title">
+            <h1>{{ page.data.name | default: page.name }}</h1>
+            <p>Join us in shaping the future of AI research and innovation through our funding calls and collaborative opportunities.</p>
+        </div>
+    </div>
+ </section>
+<!-- Calls Page End -->
+
+<!-- Calls Page Content -->
+  <section class="calls-page-content">
+     <div class="main-shapes shapes-bottom shapes">
+         <div class="light-img">
+             {% include icons/home-news-shape-light.svg %}
+         </div>
+         <div class="dark-img">
+             {% include icons/home-news-shape-dark.svg %}
+         </div>
+     </div>
+    <div class="container">
+        <ul class="list">
+            <li><a href="{{ '/calls/' | relative_url }}">All</a></li>
+            {% if site.call_categories %}
+                {% assign sorted_call_categories = site.call_categories | sort: "order" %}
+                {% for category in sorted_call_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% else %}
+                {% assign sorted_call_categories_fallback = site.collections.call_categories.docs | sort: "order" %}
+                {% for category in sorted_call_categories_fallback %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row" id="calls-container">
+            {% assign page_name = page.data.name | default: page.name %}
+            {% assign filtered_calls = site.calls | where: 'call_categories', page_name %}
+            {% assign sorted_calls = filtered_calls | sort: 'call_date' | reverse %}
+            {% assign total_calls = sorted_calls | size %}
+            {% assign initial_limit = 5 %}
+            {% if total_calls < 5 %}
+                {% assign initial_limit = total_calls %}
+            {% endif %}
+            {% for call in sorted_calls limit: initial_limit %}
+                {% if forloop.first %}
+                    <div class="col-lg-8" data-call-id="{{ call.slug }}">
+                        <div class="big-box">
+                            <div class="shapes">
+                                <div class="light-img">
+                                    {% include icons/events-item-shape-light.svg %}
+                                </div>
+                                <div class="dark-img">
+                                    {% include icons/events-item-shape-dark.svg %}
+                                </div>
+                            </div>
+
+                            <a href="{{ call.url }}" class="picture">
+                                {% assign category_class = '' %}
+                                {% if call.call_categories == 'Past Calls' %}
+                                    {% assign category_class = 'past-call' %}
+                                {% endif %}
+                                <span class="category {{ category_class }}">{{ call.call_categories }}</span>
+                                {% if call.cover_image %}
+                                <img src="{{ call.cover_image | relative_url }}" alt="" class="main-img">
+                                {% endif %}
+                            </a>
+
+                            <div class="text">
+                                <a href="{{ call.url }}"><h3>{{ call.title }}</h3></a>
+                                {% if call.call_categories == 'Open Calls' and call.application_deadline %}
+                                <h6>Application Deadline: {{ call.application_deadline | date: "%-d %B %Y" }}</h6>
+                                {% elsif call.call_categories == 'Past Calls' and call.call_date %}
+                                <h6>Closed on: {{ call.call_date | date: "%-d %B %Y" }}</h6>
+                                {% elsif call.call_date %}
+                                <h6>{{ call.call_date | date: "%-d %B %Y" }}</h6>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="col-lg-4" data-call-id="{{ call.slug }}">
+                        <div class="item">
+                            <div class="shapes">
+                                <div class="light-img">
+                                    {% include icons/events-item-shape-light.svg %}
+                                </div>
+                                <div class="dark-img">
+                                    {% include icons/events-item-shape-dark.svg %}
+                                </div>
+                            </div>
+
+                            <a href="{{ call.url }}" class="picture">
+                                {% assign category_class = '' %}
+                                {% if call.call_categories == 'Past Calls' %}
+                                    {% assign category_class = 'past-call' %}
+                                {% endif %}
+                                <span class="category {{ category_class }}">{{ call.call_categories }}</span>
+                                {% if call.cover_image %}
+                                <img src="{{ call.cover_image | relative_url }}" alt="" class="main-img">
+                                {% endif %}
+                            </a>
+
+                            <div class="text">
+                                <div class="top-title">
+                                    <a href="{{ call.url }}"><h3>{{ call.title }}</h3></a>
+                                    <a href="{{ call.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                                </div>
+
+                                {% if call.call_categories == 'Open Calls' and call.application_deadline %}
+                                <h6>Application Deadline: {{ call.application_deadline | date: "%-d %B %Y" }}</h6>
+                                {% elsif call.call_categories == 'Past Calls' and call.call_date %}
+                                <h6>Closed on: {{ call.call_date | date: "%-d %B %Y" }}</h6>
+                                {% elsif call.call_date %}
+                                <h6>{{ call.call_date | date: "%-d %B %Y" }}</h6>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+            {% if total_calls > 5 %}
+            <div class="col-lg-12">
+                <div class="load-more">
+                    <a href="#" id="load-more-btn" data-page="1" data-category="{{ page.data.name | default: page.name }}">Load more</a>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+ </section>
+<!-- Calls Page Content End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const callsContainer = document.getElementById('calls-container');
+    let currentPage = 1;
+    const itemsPerPage = 4;
+    let allCalls = [];
+    const categoryName = '{{ page.data.name | default: page.name }}';
+    
+    // Calculate the number of items displayed on initial load
+    const initialItems = document.querySelectorAll('#calls-container > div[data-call-id]');
+    let displayedCount = initialItems.length;
+
+    // Convert category name to slug (Past Calls -> past-calls, Open Calls -> upcoming-calls)
+    const categorySlug = categoryName.toLowerCase().replace(/\s+/g, '-');
+    
+    // Load calls filtered by category from JSON
+    fetch(`/calls/category/${categorySlug}.json`)
+        .then(response => {
+            if (!response.ok) {
+                console.error(`Failed to load JSON: ${response.status} ${response.statusText}`);
+                return null;
+            }
+            return response.text();
+        })
+        .then(text => {
+            if (!text) {
+                allCalls = [];
+                return;
+            }
+            try {
+                const data = JSON.parse(text);
+                allCalls = Array.isArray(data) ? data : [];
+                // Sort by date (newest first)
+                allCalls.sort((a, b) => {
+                    if (!a.call_date) return 1;
+                    if (!b.call_date) return -1;
+                    return new Date(b.call_date) - new Date(a.call_date);
+                });
+                // Hide load more button if there are 5 or fewer items
+                if (allCalls.length <= 5 && loadMoreBtn) {
+                    const loadMoreDiv = loadMoreBtn.closest('.col-lg-12');
+                    if (loadMoreDiv) {
+                        loadMoreDiv.style.display = 'none';
+                    }
+                }
+            } catch (e) {
+                console.error('Error parsing JSON:', e, 'Response text:', text);
+                allCalls = [];
+            }
+        })
+        .catch(error => {
+            console.error('Error loading calls:', error);
+            allCalls = [];
+        });
+
+    // When load more button is clicked
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            if (allCalls.length === 0) {
+                fetch(`/calls/category/${categorySlug}.json`)
+                    .then(response => {
+                        if (!response.ok) {
+                            console.error(`Failed to load JSON: ${response.status} ${response.statusText}`);
+                            return null;
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        if (!text) {
+                            allCalls = [];
+                            return;
+                        }
+                        try {
+                            const data = JSON.parse(text);
+                            allCalls = Array.isArray(data) ? data : [];
+                            // Sort by date (newest first)
+                            allCalls.sort((a, b) => {
+                                if (!a.call_date) return 1;
+                                if (!b.call_date) return -1;
+                                return new Date(b.call_date) - new Date(a.call_date);
+                            });
+                            loadMoreCalls();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allCalls = [];
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error loading calls:', error);
+                        allCalls = [];
+                    });
+            } else {
+                loadMoreCalls();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMoreCalls() {
+        const nextCalls = allCalls.slice(displayedCount, displayedCount + itemsPerPage);
+        
+        if (nextCalls.length === 0) {
+            if (loadMoreBtn) {
+                loadMoreBtn.style.display = 'none';
+            }
+            return;
+        }
+
+        nextCalls.forEach((call, index) => {
+            const isFirst = displayedCount === 0 && index === 0;
+            const colClass = isFirst ? 'col-lg-8' : 'col-lg-4';
+            const itemClass = isFirst ? 'big-box' : 'item';
+            
+            const categoryClass = call['call_categories'] === 'Past Calls' ? 'past-call' : '';
+            let dateDisplay = '';
+            if (call['call_categories'] === 'Open Calls' && call.application_deadline) {
+                dateDisplay = 'Application Deadline: ' + formatDate(call.application_deadline);
+            } else if (call['call_categories'] === 'Past Calls' && call.call_date) {
+                dateDisplay = 'Closed on: ' + formatDate(call.call_date);
+            } else if (call.call_date) {
+                dateDisplay = formatDate(call.call_date);
+            }
+            
+            let html = '';
+            if (isFirst) {
+                html = `
+                    <div class="${colClass}" data-call-id="${call.slug}">
+                        <div class="${itemClass}">
+                            <div class="shapes">
+                                <img src="/assets/images/materials/events-item-shape-light.svg" class="light-img" alt="">
+                                <img src="/assets/images/materials/events-item-shape-dark.svg" class="dark-img" alt="">
+                            </div>
+                            <a href="${call.url}" class="picture">
+                                <span class="category ${categoryClass}">${call['call_categories'] || ''}</span>
+                                ${call.cover_image ? `<img src="${call.cover_image}" alt="" class="main-img">` : ''}
+                            </a>
+                            <div class="text">
+                                <a href="${call.url}"><h3>${call.title}</h3></a>
+                                ${dateDisplay ? `<h6>${dateDisplay}</h6>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                html = `
+                    <div class="${colClass}" data-call-id="${call.slug}">
+                        <div class="${itemClass}">
+                            <div class="shapes">
+                                <img src="/assets/images/materials/events-item-shape-light.svg" class="light-img" alt="">
+                                <img src="/assets/images/materials/events-item-shape-dark.svg" class="dark-img" alt="">
+                            </div>
+                            <a href="${call.url}" class="picture">
+                                <span class="category ${categoryClass}">${call['call_categories'] || ''}</span>
+                                ${call.cover_image ? `<img src="${call.cover_image}" alt="" class="main-img">` : ''}
+                            </a>
+                            <div class="text">
+                                <div class="top-title">
+                                    <a href="${call.url}"><h3>${call.title}</h3></a>
+                                    <a href="${call.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                                </div>
+                                ${dateDisplay ? `<h6>${dateDisplay}</h6>` : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            // Insert before load more button
+            const loadMoreDiv = callsContainer.querySelector('.col-lg-12');
+            if (loadMoreDiv) {
+                loadMoreDiv.insertAdjacentHTML('beforebegin', html);
+                
+                // Add observer to newly added item's shape
+                const newItem = callsContainer.querySelector('[data-call-id="' + call.slug + '"] .shapes');
+                if (newItem && 'IntersectionObserver' in window) {
+                    const callsItemObserverOptions = {
+                        root: null,
+                        rootMargin: '0% 0% -20% 0%',
+                        threshold: 0
+                    };
+                    const callsItemObserverCallback = function(entries) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('in-view');
+                                callsItemObserver.unobserve(entry.target);
+                            }
+                        });
+                    };
+                    const callsItemObserver = new IntersectionObserver(callsItemObserverCallback, callsItemObserverOptions);
+                    callsItemObserver.observe(newItem);
+                }
+            }
+        });
+
+        displayedCount += nextCalls.length;
+        currentPage++;
+
+        if (displayedCount >= allCalls.length && loadMoreBtn) {
+            loadMoreBtn.style.display = 'none';
+        }
+    }
+});
+</script>
+

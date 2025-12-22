@@ -1,0 +1,336 @@
+---
+layout: default
+---
+
+<!-- Events Page -->
+<section class="events-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>{{ page.data.name | default: page.name }}</h1>
+    </div>
+</section>
+<!-- Events Page End -->
+
+<!-- Events Page List -->
+ <section class="events-page-list">
+    <div class="container">
+        <ul class="list">
+            <li><a href="{{ '/events/' | relative_url }}">All</a></li>
+            {% assign sorted_categories = site.event_categories | sort: 'order' %}
+            {% for category in sorted_categories %}
+                {% assign category_name = category.data.name | default: category.name %}
+                {% assign page_name = page.data.name | default: page.name %}
+                <li {% if category_name == page_name %}class="active"{% endif %}>
+                    <a href="{{ category.url }}">{{ category_name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <div id="events-container">
+            <div class="row">
+            {% assign page_name = page.data.name | default: page.name %}
+            {% assign filtered_events = site.events | where: 'event_categories', page_name %}
+            {% if page_name == 'Upcoming Events' %}
+                {% assign sorted_events = filtered_events | sort: 'event_date' %}
+            {% else %}
+                {% assign sorted_events = filtered_events | sort: 'event_date' | reverse %}
+            {% endif %}
+            {% assign total_events = sorted_events | size %}
+            {% assign initial_limit = 9 %}
+            {% if total_events < 9 %}
+                {% assign initial_limit = total_events %}
+            {% endif %}
+            {% for event in sorted_events limit: initial_limit %}
+                <div class="col-lg-4" data-event-id="{{ event.slug }}">
+                    <div class="item">
+                        <div class="shapes">
+                            <div class="light-img">
+                                {% include icons/events-item-shape-light.svg %}
+                            </div>
+                            <div class="dark-img">
+                                {% include icons/events-item-shape-dark.svg %}
+                            </div>
+                        </div>
+
+                        <a href="{{ event.url }}" class="picture">
+                            {% assign category_class = '' %}
+                            {% if event.event_categories == 'Past Events' %}
+                                {% assign category_class = 'past-event' %}
+                            {% endif %}
+                            <span class="category {{ category_class }}">{{ event.event_categories }}</span>
+                            {% if event.cover_image %}
+                            <img src="{{ event.cover_image | relative_url }}" alt="{{ event.title }}">
+                            {% endif %}
+                        </a>
+
+                        <div class="text">
+                            <div class="top-title">
+                                <a href="{{ event.url }}"><h3>{{ event.title }}</h3></a>
+                                <a href="{{ event.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                            </div>
+
+                            {% if event.event_date %}<p>{{ event.event_date | date: "%-d %B %Y" }}</p>{% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+
+        {% if total_events > 9 %}
+        <div class="load-more">
+            <a href="javascript:void(0)" id="load-more-btn">Load more</a>
+        </div>
+        {% endif %}
+    </div>
+ </section>
+<!-- Events Page List End -->
+
+<!-- Global Join CTA -->
+{% include join-cta.html bg_soft=true %}
+<!-- Global Join CTA End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const eventsContainer = document.getElementById('events-container');
+    let currentPage = 1;
+    const itemsPerPage = 3;
+    let allEvents = [];
+    const categoryName = '{{ page.data.name | default: page.name }}';
+    
+    // Calculate the number of items displayed on initial load
+    const initialItems = document.querySelectorAll('#events-container [data-event-id]');
+    let displayedCount = initialItems.length;
+
+    // Load events filtered by category from JSON
+    if (loadMoreBtn) {
+        fetch('/events/category/{{ page.slug }}.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    allEvents = Array.isArray(data) ? data : [];
+                    // Sort by date
+                    allEvents.sort((a, b) => {
+                        if (!a.event_date) return 1;
+                        if (!b.event_date) return -1;
+                        // For Upcoming Events: nearest date first (ascending)
+                        if (categoryName === 'Upcoming Events') {
+                            return new Date(a.event_date) - new Date(b.event_date);
+                        }
+                        // For other categories: newest first (descending)
+                        return new Date(b.event_date) - new Date(a.event_date);
+                    });
+                    // Hide load more button if there are 9 or fewer items
+                    if (allEvents.length <= 9 && loadMoreBtn) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allEvents = [];
+                }
+            })
+            .catch(error => console.error('Error loading events:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            if (allEvents.length === 0) {
+                fetch('/events/category/{{ page.slug }}.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            allEvents = Array.isArray(data) ? data : [];
+                            // Sort by date
+                            allEvents.sort((a, b) => {
+                                if (!a.event_date) return 1;
+                                if (!b.event_date) return -1;
+                                // For Upcoming Events: nearest date first (ascending)
+                                if (categoryName === 'Upcoming Events') {
+                                    return new Date(a.event_date) - new Date(b.event_date);
+                                }
+                                // For other categories: newest first (descending)
+                                return new Date(b.event_date) - new Date(a.event_date);
+                            });
+                            loadMoreEvents();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allEvents = [];
+                        }
+                    })
+                    .catch(error => console.error('Error loading events:', error));
+            } else {
+                loadMoreEvents();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMoreEvents() {
+        if (!loadMoreBtn || !eventsContainer) return;
+        
+        // Check remaining item count
+        const remainingEvents = allEvents.length - displayedCount;
+        const eventsToLoad = Math.min(itemsPerPage, remainingEvents);
+        
+        if (eventsToLoad <= 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+        
+        const nextEvents = allEvents.slice(displayedCount, displayedCount + eventsToLoad);
+        
+        if (nextEvents.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        // Find load more div
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+        
+        // Find the last row (all rows within events-container)
+        const rows = eventsContainer.querySelectorAll('.row');
+        let rowElement = rows.length > 0 ? rows[rows.length - 1] : null;
+        
+        // Create new row if no row exists or last row has 3 col-lg-4 items
+        if (!rowElement || rowElement.querySelectorAll('.col-lg-4').length >= 3) {
+            rowElement = document.createElement('div');
+            rowElement.className = 'row';
+            // Add row to events-container
+            eventsContainer.appendChild(rowElement);
+        }
+        
+        nextEvents.forEach((event_item, index) => {
+            const formattedDate = formatDate(event_item.event_date);
+            const categoryName = event_item.category_name || '';
+            const categoryClass = categoryName === 'Past Events' ? 'past-event' : '';
+            
+            // Always add in col-lg-4 format after load more
+            const html = `
+                <div class="col-lg-4" data-event-id="${event_item.slug}">
+                    <div class="item">
+                        <div class="shapes">
+                            <img src="/assets/images/materials/events-item-shape-light.svg" class="light-img" alt="">
+                            <img src="/assets/images/materials/events-item-shape-dark.svg" class="dark-img" alt="">
+                        </div>
+                        <a href="${event_item.url}" class="picture">
+                            ${categoryName ? `<span class="category ${categoryClass}">${categoryName}</span>` : ''}
+                            ${event_item.cover_image ? `<img src="${event_item.cover_image}" alt="${event_item.title || ''}">` : ''}
+                        </a>
+                        <div class="text">
+                            <div class="top-title">
+                                <a href="${event_item.url}"><h3>${event_item.title || ''}</h3></a>
+                                <a href="${event_item.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                            </div>
+                            ${formattedDate ? `<p>${formattedDate}</p>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Add HTML to end of row
+            rowElement.insertAdjacentHTML('beforeend', html);
+            
+            // Add observer to newly added item's shape
+            const newItem = rowElement.querySelector('.col-lg-4:last-child');
+            const newItemShapes = newItem ? newItem.querySelector('.shapes') : null;
+            const newItemElement = newItem ? newItem.querySelector('.item') : null;
+            
+            if (newItemShapes && 'IntersectionObserver' in window) {
+                const eventsItemObserverOptions = {
+                    root: null,
+                    rootMargin: '0% 0% -20% 0%',
+                    threshold: 0
+                };
+                const eventsItemObserverCallback = function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            eventsItemObserver.unobserve(entry.target);
+                        }
+                    });
+                };
+                const eventsItemObserver = new IntersectionObserver(eventsItemObserverCallback, eventsItemObserverOptions);
+                eventsItemObserver.observe(newItemShapes);
+            }
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            if (newItemElement && typeof gsap !== 'undefined') {
+                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItemElement, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: newItem,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+            
+            // Create new row if row has 3 items and more items exist
+            if (rowElement.querySelectorAll('.col-lg-4').length >= 3 && index < nextEvents.length - 1) {
+                rowElement = document.createElement('div');
+                rowElement.className = 'row';
+                // Add row to events-container
+                eventsContainer.appendChild(rowElement);
+            }
+        });
+
+        displayedCount += nextEvents.length;
+        currentPage++;
+
+        if (displayedCount >= allEvents.length) {
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>
+

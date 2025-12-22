@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /blog.json
+---
+{% if site.blog_posts.size > 0 %}
+{% assign sorted_posts = site.blog_posts | sort: 'date' | reverse %}
+[
+  {% for post in sorted_posts %}
+  {
+    "slug": "{{ post.slug }}",
+    "title": {{ post.title | jsonify }},
+    "url": "{{ post.url }}",
+    "cover_image": {% if post.cover_image %}"{{ post.cover_image | relative_url }}"{% else %}null{% endif %},
+    "date": {% if post.date %}"{{ post.date }}"{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+

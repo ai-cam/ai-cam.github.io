@@ -1,11 +1,8 @@
 ---
-layout: person
-title: Dr
-given: Staci
-family: Weiss
-name: Staci Weiss
-department: Department of Psychology
+title: Staci Weiss
+photo: /assets/images/uploads/staci-weiss-1-.jpeg
 job_title: Research Associate
+department: Department of Psychology
 biography: >-
   As a postdoctoral research associate in the PIPkin (Perinatal Imaging Project:
   in partnership with families) longitudinal study of variability within and
@@ -25,5 +22,4 @@ biography: >-
 
 
   Across levels of organization from cellular to organism, systems adjust their actions and activity utilizing sensory-driven feedback (Delafield-Butt & Gangopadhyay, 2013; Grillner, 2003). In the womb, anticipatory trajectories of fetal spontaneous movements appear to reflect a ‘body map’, or the somatotopic neural representation of bodily position, physical arrangement of facial features, joints and overall body morphology by the third trimester (Zoia et al., 2007). Hand-to-mouth movements emerge late in the second trimester (Myowa-Yamakoshi & Takeshita, 2006; Reissland et al., 2014), are consistently evident in fetal behavior during the third trimester (Ferrari et al., 2016) and linearly increase from 1 month to 6 months of age (Delaney & Arvedson, 2008), yet are noticeably absent in wake of birth, perhaps to facilitate neonatal feeding. Further, there is recognition of how correspondences between one’s felt body and the sight of others may facilitate preverbal social capacities (Meltzoff, 2007). Despite advances in developmental science of pregnancy and infancy, there is a paucity of work focused on the transformative perinatal period.
-image: /assets/uploads/staci-weiss.jpeg
 ---

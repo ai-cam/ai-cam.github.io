@@ -1,0 +1,322 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<!-- News Page -->
+<section class="news-page">
+    <div class="shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/shape-bottom.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/shape-dark-bottom.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <h1>News</h1>
+
+        <div id="news-container">
+            {% assign sorted_news = site.news | sort: 'date' | reverse %}
+            {% assign total_news = sorted_news | size %}
+            {% assign initial_limit = 6 %}
+            {% if total_news < 6 %}
+                {% assign initial_limit = total_news %}
+            {% endif %}
+            {% for news_item in sorted_news limit: initial_limit %}
+                {% if forloop.index == 1 %}
+        <div class="main-box" data-news-id="{{ news_item.slug }}">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text">
+                        <a href="{{ news_item.url }}"><h2>{{ news_item.title }}</h2></a>
+                        {% if news_item.excerpt %}
+                        <p>{{ news_item.excerpt }}</p>
+                        {% endif %}
+
+                        <ul class="date">
+                            {% if news_item.date %}<li>{{ news_item.date | date: "%-d %B %Y" }}</li>{% endif %}
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    {% if news_item.cover_image %}
+                    <img src="{{ news_item.cover_image | relative_url }}" alt="" class="main-img">
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+                {% elsif forloop.index == 2 %}
+            <div class="col-lg-8" data-news-id="{{ news_item.slug }}">
+                <div class="big-box">
+                    <a href="{{ news_item.url }}">
+                        {% if news_item.cover_image %}
+                        <img src="{{ news_item.cover_image | relative_url }}" alt="" class="main-img">
+                        {% endif %}
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="{{ news_item.url }}"><h3>{{ news_item.title }}</h3></a>
+                            <a href="{{ news_item.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+                        {% if news_item.date %}<h6>{{ news_item.date | date: "%-d %B %Y" }}</h6>{% endif %}
+                    </div>
+                </div>
+            </div>
+                {% elsif forloop.index == 3 %}
+            <div class="col-lg-4" data-news-id="{{ news_item.slug }}">
+                <div class="item">
+                    <a href="{{ news_item.url }}">
+                        {% if news_item.cover_image %}
+                        <img src="{{ news_item.cover_image | relative_url }}" alt="" class="main-img">
+                        {% endif %}
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="{{ news_item.url }}"><h3>{{ news_item.title }}</h3></a>
+                            <a href="{{ news_item.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+
+                        {% if news_item.date %}<h6>{{ news_item.date | date: "%-d %B %Y" }}</h6>{% endif %}
+                    </div>
+                </div>
+            </div>
+                {% elsif forloop.index >= 4 %}
+            <div class="col-lg-4" data-news-id="{{ news_item.slug }}">
+                <div class="item">
+                    <a href="{{ news_item.url }}">
+                        {% if news_item.cover_image %}
+                        <img src="{{ news_item.cover_image | relative_url }}" alt="" class="main-img">
+                        {% endif %}
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="{{ news_item.url }}"><h3>{{ news_item.title }}</h3></a>
+                            <a href="{{ news_item.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+
+                        {% if news_item.date %}<h6>{{ news_item.date | date: "%-d %B %Y" }}</h6>{% endif %}
+                    </div>
+                </div>
+            </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        {% if total_news > 6 %}
+        <div class="load-more">
+            <a href="#" id="load-more-btn">Load more</a>
+        </div>
+        {% endif %}
+    </div>
+ </section>
+ <!-- News Page End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const newsContainer = document.getElementById('news-container');
+    let currentPage = 1;
+    const itemsPerPage = 3;
+    let allNews = [];
+    
+    // Calculate the number of items displayed on initial load (all elements with data-news-id)
+    const initialItems = document.querySelectorAll('#news-container [data-news-id]');
+    let displayedCount = initialItems.length;
+
+    // Load all news from JSON
+    if (loadMoreBtn) {
+        fetch('/news.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    allNews = Array.isArray(data) ? data : [];
+                    // Sort by date (newest first)
+                    allNews.sort((a, b) => {
+                        if (!a.date) return 1;
+                        if (!b.date) return -1;
+                        return new Date(b.date) - new Date(a.date);
+                    });
+                    // Hide load more button if there are 6 or fewer items
+                    if (allNews.length <= 6) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allNews = [];
+                }
+            })
+            .catch(error => console.error('Error loading news:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            if (allNews.length === 0) {
+                fetch('/news.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            allNews = Array.isArray(data) ? data : [];
+                            // Sort by date (newest first)
+                            allNews.sort((a, b) => {
+                                if (!a.date) return 1;
+                                if (!b.date) return -1;
+                                return new Date(b.date) - new Date(a.date);
+                            });
+                            loadMoreNews();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allNews = [];
+                        }
+                    })
+                    .catch(error => console.error('Error loading news:', error));
+            } else {
+                loadMoreNews();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMoreNews() {
+        if (!loadMoreBtn || !newsContainer) return;
+        
+        // Update displayedCount (based on current item count on page - all elements with data-news-id)
+        const currentItems = document.querySelectorAll('#news-container [data-news-id]');
+        displayedCount = currentItems.length;
+        
+        // Check remaining item count
+        const remainingNews = allNews.length - displayedCount;
+        const newsToLoad = Math.min(itemsPerPage, remainingNews);
+        
+        const nextNews = allNews.slice(displayedCount, displayedCount + newsToLoad);
+        
+        if (nextNews.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        // Find load more div
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+        
+        // Find the last row (all rows within news-container)
+        const rows = newsContainer.querySelectorAll('.row');
+        let rowElement = rows.length > 0 ? rows[rows.length - 1] : null;
+        
+        // Create new row if no row exists or last row has 3 col-lg-4 items
+        if (!rowElement || rowElement.querySelectorAll('.col-lg-4').length >= 3) {
+            rowElement = document.createElement('div');
+            rowElement.className = 'row';
+            // Insert before load more div
+            if (loadMoreDiv && loadMoreDiv.parentNode) {
+                loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
+            } else {
+                newsContainer.appendChild(rowElement);
+            }
+        }
+        
+        nextNews.forEach((news_item, index) => {
+            const formattedDate = formatDate(news_item.date);
+            
+            // Always add in col-lg-4 format after load more
+            const html = `
+                <div class="col-lg-4" data-news-id="${news_item.slug}">
+                    <div class="item">
+                        <a href="${news_item.url}">
+                            ${news_item.cover_image ? `<img src="${news_item.cover_image}" alt="" class="main-img">` : ''}
+                        </a>
+                        <div class="text">
+                            <div class="top-title">
+                                <a href="${news_item.url}"><h3>${news_item.title || ''}</h3></a>
+                                <a href="${news_item.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                            </div>
+                            ${formattedDate ? `<h6>${formattedDate}</h6>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Add HTML to end of row
+            rowElement.insertAdjacentHTML('beforeend', html);
+            
+            // Find newly added item
+            const newItem = rowElement.querySelectorAll('.col-lg-4')[rowElement.querySelectorAll('.col-lg-4').length - 1];
+            const newItemElement = newItem ? newItem.querySelector('.item') : null;
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            if (newItemElement && typeof gsap !== 'undefined') {
+                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItemElement, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: newItem,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+            
+            // Create new row if row has 3 items and more items exist
+            if (rowElement.querySelectorAll('.col-lg-4').length >= 3 && index < nextNews.length - 1) {
+                rowElement = document.createElement('div');
+                rowElement.className = 'row';
+                if (loadMoreDiv && loadMoreDiv.parentNode) {
+                    loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
+                } else {
+                    newsContainer.appendChild(rowElement);
+                }
+            }
+        });
+
+        displayedCount += nextNews.length;
+        currentPage++;
+
+        if (displayedCount >= allNews.length) {
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>
+<!-- News Page End -->

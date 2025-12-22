@@ -1,12 +1,12 @@
 ---
-layout: person
-title: Prof
-name: Zoe Kourtzi
-given: Zoe
-family: Kourtzi
-department: Department of Psychology
+team_member: ""
+title: Zoe Kourtzi
+photo: /assets/images/uploads/kourtzi_zoe-1-.png
 job_title: Professor of Cognitive Computational Neuroscience, Royal Society
   Industry Fellow
+department: Department of Psychology
+crsid: zk240
+contact: https://www.abg.psychol.cam.ac.uk
 biography: My research in cognitive computational neuroscience sits at the
   interface of computational science and neuroscience. My experimental work aims
   to understand the role of lifelong learning and brain plasticity in enabling
@@ -16,7 +16,4 @@ biography: My research in cognitive computational neuroscience sits at the
   disorders and personalised interventions. I am a Royal Society Industry
   Fellow, Co-director of Cambridge’s Centre for Data Driven Discovery, Fellow
   and Cambridge University Lead at the Alan Turing Institute.
-image: /assets/uploads/Kourtzi_Zoe.png
-webpage: https://www.abg.psychol.cam.ac.uk
-crsid: zk240
 ---

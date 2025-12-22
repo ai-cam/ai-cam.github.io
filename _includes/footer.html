@@ -1,0 +1,67 @@
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="top-actions">
+            <ul class="social-media">
+                {% if site.data.options.social_media.linkedin.url %}
+                <li><a href="{{ site.data.options.social_media.linkedin.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.data.options.social_media.linkedin.icon | default: '/assets/images/icons/linkedin.svg' | relative_url }}" alt="LinkedIn">
+                </a></li>
+                {% endif %}
+                {% if site.data.options.social_media.twitter.url %}
+                <li><a href="{{ site.data.options.social_media.twitter.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.data.options.social_media.twitter.icon | default: '/assets/images/icons/x.svg' | relative_url }}" alt="Twitter/X">
+                </a></li>
+                {% endif %}
+                {% if site.data.options.social_media.bluesky.url %}
+                <li><a href="{{ site.data.options.social_media.bluesky.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.data.options.social_media.bluesky.icon | default: '/assets/images/icons/fly.svg' | relative_url }}" alt="Bluesky">
+                </a></li>
+                {% endif %}
+                {% if site.data.options.social_media.facebook.url %}
+                <li><a href="{{ site.data.options.social_media.facebook.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ site.data.options.social_media.facebook.icon | default: '/assets/images/icons/facebook.svg' | relative_url }}" alt="Facebook">
+                </a></li>
+                {% endif %}
+            </ul>
+            
+            <ul class="menu">
+                {% for item in site.data.menus.footer_nav %}
+                <li><a href="{{ item.url | relative_url }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="middle-actions">
+            {% if site.data.options.logos.university_logo_light %}
+            <a href="{{ site.data.options.logos.university_link | default: '#' }}" class="logo">
+                <img src="{{ site.data.options.logos.university_logo_light | relative_url }}" alt="University of Cambridge">
+            </a>
+            {% endif %}
+            {% if site.data.options.logos.university_link %}
+            <a href="{{ site.data.options.logos.university_link }}" class="button" {% unless site.data.options.logos.university_link == '#' %}target="_blank" rel="noopener noreferrer"{% endunless %}>University of cambridge <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></div></a>
+            {% endif %}
+        </div>
+
+        <div class="bottom-actions">
+            {% if site.data.options.footer.footer_copyright %}
+            <span class="copy">{{ site.data.options.footer.footer_copyright }}</span>
+            {% endif %}
+            {% if site.data.options.footer.footer_designer %}
+            <div class="designed">
+                <span>
+                    {% if site.data.options.footer.footer_designer_url %}
+                    Designed by <a href="{{ site.data.options.footer.footer_designer_url }}" target="_blank" rel="noopener noreferrer">{{ site.data.options.footer.footer_designer }}</a>
+                    {% else %}
+                    {{ site.data.options.footer.footer_designer }}
+                    {% endif %}
+                </span>
+            </div>
+            {% endif %}
+            {% if site.data.options.footer.subscribe_link %}
+            <div class="subscribe">Stay up to date <a href="{{ site.data.options.footer.subscribe_link }}">Subscribe <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></div></a></div>
+            {% endif %}
+        </div>
+    </div>
+ </footer>
+<!-- Footer End -->

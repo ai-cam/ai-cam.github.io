@@ -1,0 +1,250 @@
+---
+layout: default
+title: Reports
+permalink: /reports/
+---
+
+<!-- Reports Page -->
+<section class="reports-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            <h1>Reports</h1>
+        </div>
+
+        <div class="row justify-content-center" id="reports-container">
+            {% assign sorted_reports = site.reports | sort: 'report_date' | reverse %}
+            {% assign total_reports = sorted_reports | size %}
+            {% assign initial_limit = 5 %}
+            {% if total_reports < 5 %}
+                {% assign initial_limit = total_reports %}
+            {% endif %}
+            {% for report in sorted_reports limit: initial_limit %}
+            <div class="reports-item col-lg-10" data-report-id="{{ report.slug }}">
+                <div class="shapes">
+                    {% include icons/news-shape.svg %}
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text">
+                            <a href="{{ report.url }}"><h3>{{ report.title }}</h3></a>
+                            {% if report.report_date %}<h6>{{ report.report_date | date: "%-d %B %Y" }}</h6>{% endif %}
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="description">
+                            {% if report.excerpt %}<p>{{ report.excerpt }}</p>{% endif %}
+                            <a href="{{ report.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if total_reports > 5 %}
+            <div class="load-more">
+                <a href="#" id="load-more-btn">Load more <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+ </section>
+<!-- Reports Page End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const reportsContainer = document.getElementById('reports-container');
+    let currentPage = 1;
+    const itemsPerPage = 4;
+    let allReports = [];
+    
+    // Calculate the number of items displayed on initial load
+    const initialItems = document.querySelectorAll('#reports-container > .reports-item[data-report-id]');
+    let displayedCount = initialItems.length;
+
+    // Load all reports from JSON
+    if (loadMoreBtn) {
+        fetch('/reports.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    allReports = Array.isArray(data) ? data : [];
+                    // Sort by date (newest first)
+                    allReports.sort((a, b) => {
+                        if (!a.report_date) return 1;
+                        if (!b.report_date) return -1;
+                        return new Date(b.report_date) - new Date(a.report_date);
+                    });
+                    // Hide load more button if there are 5 or fewer items
+                    if (allReports.length <= 5) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allReports = [];
+                }
+            })
+            .catch(error => console.error('Error loading reports:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            if (allReports.length === 0) {
+                fetch('/reports.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            allReports = Array.isArray(data) ? data : [];
+                            // Sort by date (newest first)
+                            allReports.sort((a, b) => {
+                                if (!a.report_date) return 1;
+                                if (!b.report_date) return -1;
+                                return new Date(b.report_date) - new Date(a.report_date);
+                            });
+                            loadMoreReports();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allReports = [];
+                        }
+                    })
+                    .catch(error => console.error('Error loading reports:', error));
+            } else {
+                loadMoreReports();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMoreReports() {
+        if (!loadMoreBtn) return;
+        
+        const nextReports = allReports.slice(displayedCount, displayedCount + itemsPerPage);
+        
+        if (nextReports.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        nextReports.forEach((report) => {
+            const formattedDate = formatDate(report.report_date);
+            
+            const html = `
+                <div class="reports-item col-lg-10" data-report-id="${report.slug}">
+                    <div class="shapes">
+                        <img src="/assets/images/materials/news-shape.svg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text">
+                                <a href="${report.url}"><h3>${report.title || ''}</h3></a>
+                                ${formattedDate ? `<h6>${formattedDate}</h6>` : ''}
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="description">
+                                ${report.excerpt ? `<p>${report.excerpt}</p>` : ''}
+                                <a href="${report.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Insert before load more button
+            const loadMoreDiv = reportsContainer.querySelector('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.insertAdjacentHTML('beforebegin', html);
+                
+                // Add observer to newly added item's shape
+                const newItem = reportsContainer.querySelector('.reports-item:last-child');
+                const newItemShapes = newItem ? newItem.querySelector('.shapes') : null;
+                
+                if (newItemShapes && 'IntersectionObserver' in window) {
+                    const reportsItemObserverOptions = {
+                        root: null,
+                        rootMargin: '0% 0% -20% 0%',
+                        threshold: 0
+                    };
+                    const reportsItemObserverCallback = function(entries) {
+                        entries.forEach(function(entry) {
+                            if (entry.isIntersecting) {
+                                entry.target.classList.add('in-view');
+                                reportsItemObserver.unobserve(entry.target);
+                            }
+                        });
+                    };
+                    const reportsItemObserver = new IntersectionObserver(reportsItemObserverCallback, reportsItemObserverOptions);
+                    reportsItemObserver.observe(newItemShapes);
+                }
+                
+                // Fade-in animation with GSAP - with ScrollTrigger
+                if (newItem && typeof gsap !== 'undefined') {
+                    gsap.set(newItem, { opacity: 0, y: 50, scale: 0.95 });
+                    
+                    gsap.to(newItem, {
+                        opacity: 1,
+                        y: 0,
+                        scale: 1,
+                        duration: 0.8,
+                        ease: "power3.out",
+                        scrollTrigger: {
+                            trigger: newItem,
+                            start: "top 85%",
+                            toggleActions: "play none none none",
+                            once: true
+                        }
+                    });
+                }
+            }
+        });
+
+        displayedCount += nextReports.length;
+        currentPage++;
+
+        if (displayedCount >= allReports.length) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>

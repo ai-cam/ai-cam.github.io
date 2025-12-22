@@ -1,15 +1,12 @@
 ---
-layout: person
-name: Ramit Debnath
-title: Dr
-given: Ramit
-family: Debnath
+title: Ramit Debnath
+photo: /assets/images/uploads/ramit_debnath-1-.jpeg
 job_title: Assistant Professor of Mathematics and Social Design
 department: Department of Architecture
 biography: >-
   Dr. Ramit Debnath is a university assistant professor and inaugural Cambridge
   Zero fellow at the University of Cambridge, and a visiting faculty at
-  Caltech's Humanities and Social Sciences division and Cambridge Computer
+  Caltech’s Humanities and Social Sciences division and Cambridge Computer
   Laboratory.
 
 
@@ -17,5 +14,4 @@ biography: >-
 
 
   He has a background in electrical engineering and an MPhil-PhD in computational social science as a Gates Scholar from Cambridge. For more info, see: camcid.github.io.
-image: /assets/uploads/ramit_debnath.jpeg
 ---

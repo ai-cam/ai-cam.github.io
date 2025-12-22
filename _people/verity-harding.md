@@ -1,15 +1,8 @@
 ---
-layout: person
-name: Verity Harding
-title: "  "
-given: Verity
-family: Harding
+title: Verity Harding
+photo: /assets/images/uploads/verity-harding.jpg
 job_title: Director of the AI and Geopolitics Project (AIxGEO)
-institution: ""
 department: Bennett School of Public Policy
-category: []
-start: ""
-end: ""
 biography: >-
   Verity Harding is a globally recognised expert in AI, technology and public
   policy. She is currently Director of the [AI and Geopolitics
@@ -24,16 +17,4 @@ biography: >-
 
 
   In her spare time, Verity serves on the Cabinet Office Digital Advisory Board, a group of independent experts recruited to provide insight on digital, data, and technology to the UK government. She is also a Director of the Friends of the Royal Academy of Arts.
-twitter: ""
-github: ""
-scholar: ""
-supervisor: ""
-position: ""
-url: ""
-website: ""
-image: /assets/uploads/verity-harding.jpg
-email: ""
-linkedin: ""
-crsid: ""
-orcid: ""
 ---

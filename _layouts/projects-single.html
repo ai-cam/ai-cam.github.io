@@ -1,13 +1,205 @@
 ---
-layout: single
-collection_url: "/projects/"
-back_text: "Back to projects"
-hero_image: "/assets/images/news-bg.svg"
+layout: default
 ---
 
-{% include hero/single.html hero_image=layout.hero_image hero_meta=hero_meta title=page.title collection_url=layout.collection_url back_text=layout.back_text %}
+<!-- Projects Single Page -->
+<section class="projects-single-page">
+    <div class="shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="main-title">
+            {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+            {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1">
+                {% if page.authors %}
+                <div class="authors">
+                    <h3>Project Contributors</h3>
 
-{% include single-project.html %}
+                    <div class="users">
+                        {% for author in page.authors %}
+                        <div class="item">
+                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                {% assign is_external = false %}
+                                {% if author.author_link contains 'http://' or author.author_link contains 'https://' %}
+                                    {% assign is_external = true %}
+                                {% endif %}
+                                <a href="{% if is_external %}{{ author.author_link }}{% else %}{{ author.author_link | relative_url }}{% endif %}" {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                            {% endif %}
+                            {% if author.photo %}
+                            <img src="{{ author.photo | relative_url }}" alt="{{ author.name }}">
+                            {% else %}
+                            <img src="{{ '/assets/images/icons/user.svg' | relative_url }}" alt="{{ author.name }}">
+                            {% endif %}
+                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                </a>
+                            {% endif %}
+                            <div class="text">
+                                {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                                    {% assign is_external = false %}
+                                    {% if author.author_link contains 'http://' or author.author_link contains 'https://' %}
+                                        {% assign is_external = true %}
+                                    {% endif %}
+                                    <a href="{% if is_external %}{{ author.author_link }}{% else %}{{ author.author_link | relative_url }}{% endif %}" {% if is_external %}target="_blank" rel="noopener noreferrer"{% endif %}><h4>{{ author.name }}</h4></a>
+                                {% elsif author.name %}
+                                    <h4>{{ author.name }}</h4>
+                                {% endif %}
+                                {% if author.role %}<p>{{ author.role }}</p>{% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
 
-{% include related-researchers.html %}
-{% include related-content.html %}
+            <div class="col-lg-8 order-1 order-lg-2">
+                <div class="main-content">
+                    <div class="text">
+                        {% if page.body or page.content %}
+                        <h3>Overview</h3>
+                        {% endif %}
+
+                        {% if page.alternative_image and page.alternative_image != '' %}
+                        <a href="javascript:;" class="picture" target="_blank">
+                            <img src="{{ page.alternative_image | relative_url }}" alt="{{ page.title }}" class="main-img">
+                        </a>
+                        {% elsif page.cover_image %}
+                        <a href="javascript:;" class="picture" target="_blank">
+                            <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}" class="main-img">
+                        </a>
+                        {% endif %}
+
+                        {% if page.body %}
+                        {{ page.body | markdownify }}
+                        {% elsif page.content %}
+                        {{ page.content | markdownify }}
+                        {% endif %}
+
+                        {% if page.videos and page.videos.size > 0 %}
+                        {% for video in page.videos %}
+                            {% if video.video_link and video.video_link != '' and video.video_link != '/' %}
+                                {% assign video_id = '' %}
+                                {% assign video_type = '' %}
+                                {% assign embed_url = '' %}
+                                
+                                {% if video.video_link contains 'youtube.com/watch' %}
+                                    {% assign video_type = 'youtube' %}
+                                    {% assign video_id = video.video_link | split: 'v=' | last | split: '&' | first %}
+                                    {% assign embed_url = 'https://www.youtube.com/embed/' | append: video_id %}
+                                {% elsif video.video_link contains 'youtu.be' %}
+                                    {% assign video_type = 'youtube' %}
+                                    {% assign video_id = video.video_link | split: '/' | last | split: '?' | first %}
+                                    {% assign embed_url = 'https://www.youtube.com/embed/' | append: video_id %}
+                                {% elsif video.video_link contains 'youtube.com/embed' %}
+                                    {% assign video_type = 'youtube' %}
+                                    {% assign embed_url = video.video_link %}
+                                {% elsif video.video_link contains 'vimeo.com' %}
+                                    {% assign video_type = 'vimeo' %}
+                                    {% if video.video_link contains 'player.vimeo.com' %}
+                                        {% assign embed_url = video.video_link %}
+                                    {% else %}
+                                        {% assign video_id = video.video_link | split: '/' | last | split: '?' | first %}
+                                        {% assign embed_url = 'https://player.vimeo.com/video/' | append: video_id %}
+                                    {% endif %}
+                                {% endif %}
+                                
+                                {% if embed_url != '' %}
+                                <div class="video-item" style="margin-bottom: 40px; margin-top: 40px;">
+                                    {% if video.video_title and video.video_title != '' %}
+                                    <h3 style="margin-bottom: 20px;">{{ video.video_title }}</h3>
+                                    {% endif %}
+                                    <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                                        {% if video_type == 'youtube' %}
+                                        <iframe src="{{ embed_url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                                        {% elsif video_type == 'vimeo' %}
+                                        <iframe src="{{ embed_url }}" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Projects Single Page End -->
+
+<!-- Policy Page Related -->
+ <section class="policy-page-related d-none">
+    <div class="container">
+        <h2 class="title">Related News and Events</h2>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="item">
+
+                    <a href="#" class="picture">
+                        <span class="category">News</span>
+                        <img src="images/materials/policy-related-1.jpeg" alt="">
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="#"><h3>AI art protection tools still leave creators at risk..</h3></a>
+                            <a href="#" class="button"><img src="images/icons/arrow-right-up-black.svg" alt=""></a>
+                        </div>
+
+                        <p>08 September 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="item">
+
+                    <a href="#" class="picture">
+                        <span class="category">News</span>
+                        <img src="images/materials/policy-related-2.jpeg" alt="">
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="#"><h3>Connecting AI to public benefit.</h3></a>
+                            <a href="#" class="button"><img src="images/icons/arrow-right-up-black.svg" alt=""></a>
+                        </div>
+
+                        <p>08 September 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="item">
+
+                    <a href="#" class="picture">
+                        <span class="category">News</span>
+                        <img src="images/materials/policy-related-3.jpeg" alt="">
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="#"><h3>AI for science research showcase</h3></a>
+                            <a href="#" class="button"><img src="images/icons/arrow-right-up-black.svg" alt=""></a>
+                        </div>
+
+                        <p>08 September 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Policy Page Related End -->

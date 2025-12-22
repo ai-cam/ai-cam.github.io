@@ -1,0 +1,92 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+
+<!-- Team Page -->
+<section class="team-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="main-title">
+            <h1>Team</h1>
+            <p>ai@cam's mission is to drive a new wave of AI innovation that serves science, citizens, and society.</p>
+        </div>
+    </div>
+ </section>
+ <!-- Team Page End -->
+ 
+ <!-- Team Page Content -->
+  <section class="team-page-content">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <ul class="list">
+            {% if site.team_categories %}
+                {% assign first_category = site.team_categories | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+                {% for category in site.team_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    <li {% if category_name == first_category_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% else %}
+                {% assign first_category = site.collections.team_categories.docs | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+                {% for category in site.collections.team_categories.docs %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    <li {% if category_name == first_category_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row" id="team-container">
+            {% if site.team_categories %}
+                {% assign first_category = site.team_categories | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+            {% else %}
+                {% assign first_category = site.collections.team_categories.docs | first %}
+                {% assign first_category_name = first_category.data.name | default: first_category.name %}
+            {% endif %}
+            {% assign filtered_members = site.team_members | where_exp: "member", "member.team_categories contains first_category_name or member.team_categories == first_category_name" %}
+            {% assign sorted_members = filtered_members | sort: 'title' %}
+            {% for member in sorted_members %}
+                <div class="col-lg-3" data-team-id="{{ member.slug }}">
+                    <div class="item">
+                        {% if member.photo %}
+                        <a href="{{ member.url }}">
+                            <img src="{{ member.photo | relative_url }}" alt="{{ member.title }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="text">
+                            {% if member.title %}
+                            <a href="{{ member.url }}"><h3>{{ member.title }}</h3></a>
+                            {% endif %}
+                            {% if member.job_title %}
+                            <p>{{ member.job_title }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+ </section>
+ <!-- Team Page Content End -->

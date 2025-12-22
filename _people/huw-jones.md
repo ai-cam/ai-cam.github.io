@@ -1,9 +1,6 @@
 ---
-layout: person
-name: Huw Jones
-title: "  "
-given: "Huw "
-family: Jones
+title: Huw Jones
+photo: /assets/images/uploads/huw-jones-1-.jpg
 job_title: Head of Digital Library
 biography: >-
   Huw Jones is Head of the Digital Library at Cambridge University Library, and
@@ -16,6 +13,5 @@ biography: >-
   University.
 
 
-  Cambridge Digital Library is the University’s main platform for the digital humanities, containing almost 50,000 items ranging from the papers of Isaac Newton and Charles Darwin, to manuscript and photograph collections representing the global scope of the Cambridge's physical collections.
-image: /assets/uploads/huw-jones.jpg
+  Cambridge Digital Library is the University’s main platform for the digital humanities, containing almost 50,000 items ranging from the papers of Isaac Newton and Charles Darwin, to manuscript and photograph collections representing the global scope of the Cambridge’s physical collections.
 ---

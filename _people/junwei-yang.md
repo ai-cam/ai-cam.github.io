@@ -1,9 +1,5 @@
 ---
-layout: person
-title: Mr
-given: Junwei
-family: Yang
-department: Department of Computer Science and Technology
+title: Junwei Yang
 job_title: PhD Candidate
-name: Junwei Yang
+department: Department of Computer Science and Technology
 ---

@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /reports.json
+---
+{% if site.reports.size > 0 %}
+{% assign sorted_reports = site.reports | sort: 'report_date' | reverse %}
+[
+  {% for report in sorted_reports %}
+  {
+    "slug": "{{ report.slug }}",
+    "title": {{ report.title | jsonify }},
+    "url": "{{ report.url }}",
+    "excerpt": {% if report.excerpt %}{{ report.excerpt | jsonify }}{% else %}null{% endif %},
+    "tags": {% if report.tags %}{{ report.tags | jsonify }}{% else %}[]{% endif %},
+    "cover_image": {% if report.cover_image %}"{{ report.cover_image | relative_url }}"{% else %}null{% endif %},
+    "report_date": {% if report.report_date %}"{{ report.report_date }}"{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+
