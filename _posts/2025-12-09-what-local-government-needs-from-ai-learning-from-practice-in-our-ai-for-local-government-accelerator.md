@@ -13,7 +13,7 @@ excerpt: >
 date: 2025-12-08T00:00:00+00:00
 category:
   - policy
-image: /assets/uploads/getty-images-0o-ctq1td94-unsplash.jpg
+image: /assets/uploads/ai-for-ops-blog-2026.jpeg
 ---
 Last month, we convened local authority officials from across the region to share their early work on AI in public services.
 
