@@ -17,7 +17,7 @@ apply_content: Applications must be submitted via the AI for Ops Funding Call
 information: For more information, contact Annabelle Scott, Programme
   Manager [(as599@cam.ac.uk)](mailto:(as599@cam.ac.uk))
 apply_link: ""
-apply_link_text: Apply Here
+apply_link_text: ""
 ---
 The University of Cambridge has launched a new Local Government AI Accelerator, offering grants of up to £25,000 for proof-of-concept projects that develop AI solutions in partnership with local authorities. The funding scheme aims to connect academic expertise with real operational needs in public services.
 
