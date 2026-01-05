@@ -1,0 +1,136 @@
+---
+layout: default
+title: About
+permalink: /about/
+hero_top:
+  page_title: About
+  page_description: ai@cam’s mission is to drive a new wave of AI innovation that
+    serves science, citizens, and society.
+about:
+  description: Progress in AI research and innovation can provide tools to help
+    tackle the complex challenges society faces – in economic growth, health and
+    social care, environment and wellbeing, and more. To deliver on this
+    promise, AI research and development needs to connect to public interests,
+    concerns, and areas of need. ai@cam is building an infrastructure for
+    interdisciplinary AI innovation through research, education, and innovation
+    programmes that leverage the world-leading research already taking place
+    across the University and connecting this to real-world needs. Read more
+    about our work in our 2023-24 annual report at this link.
+  title: The University of Cambridge is home to a dynamic AI community, pursuing
+    high-quality interdisciplinary collaborations that take AI from the lab to
+    areas of need.
+find_out_more:
+  boxes:
+    - title: AI-deas
+      link: "#"
+      image: /assets/images/uploads/about-find-1.png
+    - title: Policy Lab
+      link: "#"
+      image: /assets/images/uploads/about-find-2.png
+    - title: Sciencepreneurship
+      link: "#"
+      image: /assets/images/uploads/about-find-3.png
+    - title: AI in the University
+      link: "#"
+      image: /assets/images/uploads/about-find-2.png
+---
+
+<!-- About Page -->
+<section class="about-page">
+    <div class="shapes shapes-top">
+        <div class="light-img">
+            {% include icons/shape-white.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/shape-dark-white.svg %}
+        </div>
+    </div>
+    <div class="shapes shapes-bottom">
+        <div class="light-img">
+            {% include icons/shape-bottom.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/shape-dark-bottom.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="main-title">
+                    {% if page.hero_top.page_title %}<h2>{{ page.hero_top.page_title }}</h2>{% endif %}
+                    {% if page.hero_top.page_description %}<p>{{ page.hero_top.page_description }}</p>{% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            {% if page.about %}
+            <div class="main-text">
+                <div class="row">
+                    <div class="col-lg-6">
+                        {% if page.about.title %}<h3>{{ page.about.title }}</h3>{% endif %}
+                    </div>
+
+                    <div class="col-lg-6">
+                        {% if page.about.description %}{{ page.about.description | markdownify }}{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if page.find_out_more.boxes %}
+              {% assign boxes_count = page.find_out_more.boxes.size %}
+              {% if boxes_count <= 3 %}
+                <div class="find-out">
+                    <h2 class="title">Find out more about our initiatives</h2>
+
+                    <div class="row">
+                        {% for box in page.find_out_more.boxes %}
+                        <div class="col-lg-4">
+                            <div class="item">
+                                <div class="top-title">
+                                    {% if box.link %}<a href="{{ box.link }}">{% endif %}
+                                        {% if box.title %}<h3>{{ box.title }}</h3>{% endif %}
+                                    {% if box.link %}</a>{% endif %}
+                                    {% if box.link %}<a href="{{ box.link }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>{% endif %}
+                                </div>
+
+                                {% if box.image %}
+                                {% if box.link %}<a href="{{ box.link }}">{% endif %}
+                                    <img src="{{ box.image | relative_url }}" alt="" class="main-img">
+                                {% if box.link %}</a>{% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+              {% else %}
+                <div class="find-out-slider">
+                    <h2 class="title">Find out more about our initiatives</h2>
+
+                    <div class="find-out-loop">
+                        {% for box in page.find_out_more.boxes %}
+                        <div class="item">
+                            <div class="top-title">
+                                {% if box.link %}<a href="{{ box.link }}">{% endif %}
+                                    {% if box.title %}<h3>{{ box.title }}</h3>{% endif %}
+                                {% if box.link %}</a>{% endif %}
+                                {% if box.link %}<a href="{{ box.link }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>{% endif %}
+                            </div>
+
+                            {% if box.image %}
+                            {% if box.link %}<a href="{{ box.link }}">{% endif %}
+                                <img src="{{ box.image | relative_url }}" alt="" class="main-img">
+                            {% if box.link %}</a>{% endif %}
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+              {% endif %}
+            {% endif %}
+        </div>
+    </div>
+ </section>
+<!-- About Page End -->

@@ -1,11 +1,7 @@
 ---
-layout: person
-name: "Wallace Peaslee "
-title: " "
-given: Wallace
-family: "Peaslee "
+title: Wallace Peaslee
+photo: /assets/images/uploads/wallace-peaslee-1-.jpg
 job_title: PhD student
-institution: Department of Applied Mathematics and Theoretical Physics
 department: Department of Applied Mathematics and Theoretical Physics
 biography: >-
   Wallace Peaslee is a PhD student in the Department of Applied Mathematics and
@@ -14,5 +10,4 @@ biography: >-
 
 
   His PhD is focused on applications to cultural heritage, using imaging data of multiple modalities to investigate historical manuscripts and old-master paintings. Before starting at Cambridge, Wallace completed bachelor’s degrees in mathematics and computer science at Duke University, where he began working on applications to cultural heritage with the research group ARTICT.
-image: /assets/uploads/wallace-peaslee.jpg
 ---

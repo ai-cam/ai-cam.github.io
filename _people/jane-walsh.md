@@ -1,10 +1,6 @@
 ---
-layout: person
-title: Ms
-given: Jane
-family: Walsh
-department: Faculty of Modern and Medieval Languages and Linguistics
+title: Jane Walsh
+photo: /assets/images/uploads/walsh_jane-1-.jpeg
 job_title: Manager, Cambridge Language Sciences Interdisciplinary Research Centre
-image: /assets/uploads/walsh_jane.jpeg
-name: Jane Walsh
+department: Faculty of Modern and Medieval Languages and Linguistics
 ---

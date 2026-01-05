@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /events.json
+---
+{% if site.events.size > 0 %}
+{% assign sorted_events = site.events | sort: 'event_date' | reverse %}
+[
+  {% for event in sorted_events %}
+  {
+    "slug": "{{ event.slug }}",
+    "title": {{ event.title | jsonify }},
+    "url": "{{ event.url }}",
+    "cover_image": {% if event.cover_image %}"{{ event.cover_image | relative_url }}"{% else %}null{% endif %},
+    "event_date": {% if event.event_date %}"{{ event.event_date }}"{% else %}null{% endif %},
+    "event_categories": {% if event.event_categories %}"{{ event.event_categories }}"{% else %}null{% endif %},
+    "category_name": {% if event.event_categories %}"{{ event.event_categories }}"{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+

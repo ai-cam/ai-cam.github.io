@@ -1,11 +1,9 @@
 ---
-layout: person
-title: Dr
-name: Anna Moore
-given: Anna
-family: Moore
-department: Department of Psychiatry
+team_member: ""
+title: Anna Moore
+photo: /assets/images/uploads/am2708-1-.jpeg
 job_title: Assistant Professor in Child Psychiatry and Medical Informatics
+department: Department of Psychiatry
 biography: "I am Dr Anna Moore, Assistant Professor in Child Psychiatry and
   Medical Informatics in the Department of Psychiatry, University of Cambridge.
   My goal is to develop personalised, preventative clinical pathways for
@@ -51,6 +49,4 @@ biography: "I am Dr Anna Moore, Assistant Professor in Child Psychiatry and
   led the national CAMHS transformation programme, i-THRIVE – over 70% of
   children in England are now cared for by i-THRIVE services. Happy to hear from
   prospective students: am2708@cam.ac.uk"
-image: /assets/uploads/am2708.jpeg
-email: am2708@cam.ac.uk
 ---

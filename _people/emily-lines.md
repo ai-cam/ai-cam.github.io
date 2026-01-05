@@ -1,13 +1,8 @@
 ---
-layout: person
-title: Dr
-given: Emily
-family: Lines
+title: Emily Lines
+photo: /assets/images/uploads/emily_lines-1-.jpeg
+job_title: University Associate Professor in Physical Geography, UKRI Future
+  Leaders Fellow, Turing Fellow
 department: Department of Geography
-job_title: University Associate Professor in Physical Geography, UKRI Future Leaders
-  Fellow, Turing Fellow
-biography: ''
-image: /assets/uploads/emily_lines.jpeg
-webpage: https://www.linesresearchgroup.com
-name: Emily Lines
+contact: https://www.linesresearchgroup.com
 ---

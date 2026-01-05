@@ -1,10 +1,6 @@
 ---
-layout: person
-title: Dr
-name: Sadiq Jaffer
-given: Sadiq
-family: Jaffer
-department: Department of Computer Science and Technology
+title: Sadiq Jaffer
+photo: /assets/images/uploads/jaffer_sadiq1-1-.jpeg
 job_title: Senior Research Associate
-image: /assets/uploads/jaffer_sadiq1.jpeg
+department: Department of Computer Science and Technology
 ---

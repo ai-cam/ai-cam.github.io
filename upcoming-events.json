@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /events/category/upcoming-events.json
+---
+{% assign filtered_events = site.events | where: 'event_categories', 'Upcoming Events' %}
+{% if filtered_events.size > 0 %}
+{% assign sorted_events = filtered_events | sort: 'event_date' %}
+[
+  {% for event in sorted_events %}
+  {
+    "slug": "{{ event.slug }}",
+    "title": {{ event.title | jsonify }},
+    "url": "{{ event.url }}",
+    "event_categories": {{ event.event_categories | jsonify }},
+    "category_name": {{ event.event_categories | jsonify }},
+    "cover_image": {% if event.cover_image %}"{{ event.cover_image | relative_url }}"{% else %}null{% endif %},
+    "event_date": {% if event.event_date %}"{{ event.event_date }}"{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+

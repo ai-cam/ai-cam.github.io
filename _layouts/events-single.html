@@ -1,0 +1,146 @@
+---
+layout: default
+---
+
+<!-- Events Single Page -->
+<section class="events-single-page">
+    <div class="container">
+        <div class="top-actions">
+            <a href="{{ '/events/' | relative_url }}" class="back">
+                <div class="icon">
+                    <img src="{{ '/assets/images/icons/arrow-left-dark.svg' | relative_url }}" alt="">
+                </div>
+
+                Back to Events
+            </a>
+
+            <ul class="share">
+                <li><a href="#"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ '/assets/images/icons/github.svg' | relative_url }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt=""></a></li>
+                <li><a href="#"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt=""></a></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1">
+                <ul class="info">
+                    {% if page.event_date %}
+                    <li>
+                        <h4>Date</h4>
+                        <p>
+                            <img src="{{ '/assets/images/icons/calendar.svg' | relative_url }}" alt="">
+                            {{ page.event_date | date: "%-d %B %Y" }}
+                        </p>
+                    </li>
+                    {% endif %}
+
+                    {% if page.event_end_date %}
+                    <li>
+                        <h4>End Date</h4>
+                        <p>
+                            <img src="{{ '/assets/images/icons/calendar.svg' | relative_url }}" alt="">
+                            {{ page.event_end_date | date: "%-d %B %Y" }}
+                        </p>
+                    </li>
+                    {% endif %}
+
+                    {% if page.time and page.time != '' and page.time != '/' %}
+                    <li>
+                        <h4>Time</h4>
+                        <p>
+                            <img src="{{ '/assets/images/icons/clock.svg' | relative_url }}" alt="">
+                            {{ page.time }}
+                        </p>
+                    </li>
+                    {% endif %}
+
+                    {% if page.location and page.location != '' and page.location != '/' %}
+                    <li>
+                        <h4>Location</h4>
+                        <p>
+                            <img src="{{ '/assets/images/icons/map-marker.svg' | relative_url }}" alt="">
+                            {{ page.location }}
+                        </p>
+                    </li>
+                    {% endif %}
+
+                    {% if page.organizers and page.organizers != '' and page.organizers != '/' %}
+                    <li>
+                        <h4>Organizers</h4>
+                        <p>
+                            <img src="{{ '/assets/images/icons/clipboard.svg' | relative_url }}" alt="">
+                            {{ page.organizers }}
+                        </p>
+                    </li>
+                    {% endif %}
+                </ul>
+
+                {% if page.agenda and page.agenda.size > 0 %}
+                <ul class="agenda">
+                    <h3>Agenda</h3>
+                    {% for agenda_item in page.agenda %}
+                    <li>
+                        <div class="square"></div>
+                        <span>
+                            {% if agenda_item.time %}{{ agenda_item.time | raw }}{% endif %}
+                            {% assign speaker_name = '' %}
+                            {% if agenda_item.speaker_team and agenda_item.speaker_team != '' and agenda_item.speaker_team != '/' %}
+                                {% assign speaker = site.team_members | where: "title", agenda_item.speaker_team | first %}
+                                {% if speaker %}{% assign speaker_name = speaker.title %}{% endif %}
+                            {% elsif agenda_item.speaker_people and agenda_item.speaker_people != '' and agenda_item.speaker_people != '/' %}
+                                {% assign speaker = site.people | where: "title", agenda_item.speaker_people | first %}
+                                {% if speaker %}{% assign speaker_name = speaker.title %}{% endif %}
+                            {% elsif agenda_item.speaker_manual and agenda_item.speaker_manual != '' and agenda_item.speaker_manual != '/' %}
+                                {% assign speaker_name = agenda_item.speaker_manual %}
+                            {% endif %}
+                            {% if speaker_name != '' %}
+                            <br><span class="speaker">{{ speaker_name }}</span>
+                            {% endif %}
+                        </span>
+                        <h6>
+                            {% if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' %}
+                                <a href="{{ agenda_item.session_link }}">{% endif %}
+                            {% if agenda_item.session_name %}{{ agenda_item.session_name }}{% endif %}
+                            {% if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' %}</a>{% endif %}
+                        </h6>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% if page.agenda_pdf and page.agenda_pdf != '' %}
+                <div class="agenda-pdf">
+                    <a href="{{ page.agenda_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" class="button">Download Agenda PDF <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                </div>
+                {% endif %}
+                {% endif %}
+            </div>
+
+            <div class="col-lg-8 order-1 order-lg-2">
+                <div class="content">
+                    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+                    {% if page.cover_image %}
+                    <img src="{{ page.cover_image | relative_url }}" alt="{{ page.title }}" class="main-img">
+                    {% endif %}
+                    {% if page.event_content %}
+                    {{ page.event_content | markdownify }}
+                    {% endif %}
+
+                    {% if page.registration_title and page.registration_title != '' and page.registration_title != '/' or page.registration_text and page.registration_text != '' and page.registration_text != '/' %}
+                    <div class="registration">
+                        {% if page.registration_title and page.registration_title != '' and page.registration_title != '/' %}<h3>{{ page.registration_title }}</h3>{% endif %}
+                        {% if page.registration_text and page.registration_text != '' and page.registration_text != '/' %}
+                        {{ page.registration_text | markdownify }}
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    {% if page.registration_link and page.registration_link != '' and page.registration_link != '/' and page.registration_link_text and page.registration_link_text != '' and page.registration_link_text != '/' %}
+                    <a href="{{ page.registration_link }}" class="button">{{ page.registration_link_text }} <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Events Single Page End -->

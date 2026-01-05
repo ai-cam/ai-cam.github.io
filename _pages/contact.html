@@ -1,0 +1,85 @@
+---
+layout: default
+title: Contact
+permalink: /contact/
+hero:
+  page_title: Contact
+  page_description: Join us in shaping the future of AI research and innovation
+    through our funding calls and collaborative opportunities.
+contact_form:
+  form_title: Get in touch
+  form_description: If you have any questions about our work or opportunities to
+    get involved, contact us using this form.
+  topics:
+    - topic: x
+    - topic: y
+    - topic: z
+---
+
+<!-- Contact Page -->
+<section class="contact-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="shapes second-shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="main-title">
+            {% if page.hero.page_title %}<h1>{{ page.hero.page_title }}</h1>{% else %}<h1>Contact</h1>{% endif %}
+            {% if page.hero.page_description %}<p>{{ page.hero.page_description }}</p>{% else %}<p>Join us in shaping the future of AI research and innovation through our funding calls and collaborative opportunities.</p>{% endif %}
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contact-form" netlify>
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p style="display: none;">
+                        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                    
+                    <div class="title">
+                        {% if page.contact_form.form_title %}<h3>{{ page.contact_form.form_title }}</h3>{% else %}<h3>Get in touch</h3>{% endif %}
+                        {% if page.contact_form.form_description %}<p>{{ page.contact_form.form_description }}</p>{% else %}<p>If you have any questions about our work or opportunities to get involved, contact us using this form.</p>{% endif %}
+                    </div>
+
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+
+                    <label for="button" class="button">
+                        <input type="submit" id="button" hidden>
+                        Contact <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt=""></div>
+                    </label>
+                </form>
+
+                <div id="form-success-message" class="form-success-message" style="display: none;">
+                    <h3>Thanks for getting in touch.</h3>
+                    <p>We've received your message and will get back to you as soon as possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- Contact Page End -->
+
+<!-- Global Join CTA -->
+{% include join-cta.html %}
+<!-- Global Join CTA End -->

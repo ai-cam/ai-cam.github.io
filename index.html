@@ -1,219 +1,33 @@
 ---
-layout: default
-title: 'Home'
-permalink: '/'
-description: 'ai@cam is the University of Cambridge''s mission to drive a new wave of AI innovation that delivers public value'
-image: '/assets/images/social.jpeg'
+layout: home
+hero:
+  video_embed: <iframe
+    src="https://player.vimeo.com/video/1147314098?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1&amp;muted=1&amp;controls=0&amp;loop=1"
+    frameborder="0" allow="autoplay; fullscreen; picture-in-picture;
+    clipboard-write; encrypted-media; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" title="MAIN_3"></iframe>
+  title: AI that serves science, citizens, and society
+  description: ai@cam is the University of Cambridge’s mission to drive <br/> a
+    new wave of AI innovation that delivers public value
+calls:
+  selected_calls:
+    - AI Sciencepreneurship Bootcamp 2026
+    - Local Government AI Accelerator
+news_events:
+  title: Latest News and Events
+  selected_news:
+    - ai@cam launches second AI Sciencepreneurship Bootcamp to accelerate
+      AI-driven research innovation
+    - New funding call launches to support AI innovation with local government
+      partners
+  selected_events:
+    - AI for Ops Community Meet Up 2026
+cta:
+  title: Join our ai@cam community
+  text: Keep up to date with the latest.
+  links:
+    - link: https://cam.us17.list-manage.com/subscribe?u=eebd562cf8763d2b7f3d6902e&id=b05fad9b7b
+      text: Subscribe
+    - link: https://www.philanthropy.cam.ac.uk/give-now/ai-research/aicam
+      text: Support Us
 ---
-
-{% assign hero_slider = site.data.homepage.hero_slider %}
-{% include hero/main.html 
-  style="slider"
-  shapes=true
-  heading=hero_slider.first.heading
-  content=hero_slider.first.content
-  buttons=hero_slider.first.buttons
-  image=hero_slider.first.image %}
-
-{% assign latest_overview = site.data.homepage.latest_overview %}
-<section class="block block__latest-overview">
-  <div class="container">
-    <div class="latest-overview__column latest-overview__column--research">
-      <h3>Latest Research</h3>
-      {% assign research_entries = site.research | sort: 'date' | reverse %}
-      {% for post in research_entries limit:3 %}
-        <a href="{{ post.url }}" class="post post--small">
-          <div class="post__thumbnail">
-            {% if post.image %}
-              <img src="{{ post.image }}">
-            {% else %}
-              <img alt="" src="../assets/images/placeholder-1.jpg"/>
-            {% endif %}
-          </div>
-
-          <div class="post__content">
-            <span class="category">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <!-- {% if post.category and post.category != '' %}
-              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-            {% endif %} -->
-            <h4>{{ post.title }}</h4>
-            <span class="button button--simple">Read more</span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-    <div class="latest-overview__column latest-overview__column--news">
-      <h3>AI News</h3>
-      {% assign news_entries = site.news | sort: 'date' | reverse %}
-      {% for post in news_entries limit:3 %}
-        <a href="{{ post.url }}" class="post post--small">
-          <div class="post__thumbnail">
-            {% if post.image %}
-              <img src="{{ post.image }}">
-            {% else %}
-              <img alt="" src="../assets/images/placeholder-1.jpg"/>
-            {% endif %}
-          </div>
-
-          <div class="post__content">
-            {% if post.category %}
-              <span class="category">{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</span>
-            {% endif %}
-            <h4>{{ post.title }}</h4>
-            <span class="button button--simple">Read more</span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-    <div class="latest-overview__column latest-overview__column--events">
-      <h3>Upcoming Events</h3>
-      {% assign currentDate = 'now' | date: '%Y-%m-%d' %}
-      {% assign upcomingEvents = site.events | sort: "start" %}
-      {% assign displayedEvents = 0 %}
-    
-      <div class="posts__sticky">
-        {% for event in upcomingEvents %}
-          {% assign eventStartDate = event.start | date: '%Y-%m-%d' %}
-          {% assign eventEndDate = event.end | date: '%Y-%m-%d' %}
-    
-          {% if eventEndDate >= currentDate and eventStartDate >= currentDate and displayedEvents < 3 %}
-            {% assign displayedEvents = displayedEvents | plus: 1 %}
-            <a href="{{ event.url }}" class="post post--small">
-              <div class="post__thumbnail">
-                {% if event.image %}
-                  <img src="{{ event.image }}">
-                {% else %}
-                  <img alt="" src="../assets/images/placeholder-1.jpg" />
-                {% endif %}
-              </div>
-    
-              <div class="post__content">
-                <span class="category">{{ event.start | date: "%b %-d, %Y" }}</span>
-                <h4>{{ event.title }}</h4>
-                <span class="button button--simple">Read more</span>
-              </div>
-            </a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    
-      {% if displayedEvents == 0 %}
-        <p>No upcoming events</p>
-      {% endif %}
-    </div>
-    
-    
-    
-  </div>
-</section>
-
-{% assign media_text = site.data.homepage.media_text %}
-<section class="block block__media-text" id="find-out-more">
-  <div class="container">
-    {% if media_text.image or media_text.image_small %}
-      <div class="media-text__media {% if media_text.image_small and media_text.image_small != '' %} media-text__media--two {% endif %}">
-        {% if media_text.image %}
-          <img class="media-text__media-image" src="{{ media_text.image }}"/>
-        {% endif %}
-
-        {% if media_text.image_small %}
-          <img class="media-text__media-image--floating" src="{{ media_text.image_small }}"/>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div class="media-text__content">
-      {% if media_text.heading %}
-        <h2>{{ media_text.heading }}</h2>
-      {% endif %}
-      {% if media_text.content  %}
-        {{ media_text.content | markdownify }}
-      {% endif %}
-      <!-- {% if media_text.quick_links and media_text.quick_links.size > 0 %}
-        <ul class="media-text__content-quicklinks">
-          {% for item in media_text.quick_links %}
-            {% if item.link and item.link != '' %}
-              <li>
-                <a href="{{ item.link }}">
-                {{ item.text }}
-		{% include icons/down-arrow.svg %}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %} -->
-
-      {% if media_text.buttons and media_text.buttons.size > 0 %}
-        <div class="button-box">
-          {% for item in media_text.buttons %}
-            {% if item.link and item.link != '' %}
-              <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{% assign slider = site.data.homepage.slider %}
-<section class="block block--bg-dark-blue block__slider">
-  <div class="container">
-    <div class="slider__top">
-      {% if slider.heading or slider.content  or slider.buttons and slider.buttons.size > 0 %}
-        <div class="slider__intro intro">
-          {% if slider.heading %}
-            <h2>{{ slider.heading }}</h2>
-          {% endif %}
-
-          {% if slider.content %}
-            {{ slider.content | markdownify }}
-          {% endif %}
-
-          {% if slider.buttons and slider.buttons.size > 0 %}
-            <div class="button-box">
-              {% for item in slider.buttons %}
-                {% if item.link %}
-                  <a class="button button--standard" href="{{ item.link }}">{{ item.text }}</a>
-                {% endif %}
-              {% endfor %}
-            </div>
-          {% endif %}
-        </div>
-      {% endif %}
-
-      <p class="slider__notice">Drag to explore</p>
-    </div>
-
-
-    {% if slider.slider_items  and slider.slider_items.size > 0 %}
-      <div class="slider__main">
-        {% for item in slider.slider_items %}
-          <div class="slider__slide">
-            {% if item.image  and item.image != '' %}
-              <div class="slider__slide-image">
-                <img src="{{ item.image }}">
-              </div>
-            {% endif %}
-            <div class="slider__slide-heading">
-              {% if item.heading  and item.heading != '' %}
-                <h3>{{ item.heading }}</h3>
-              {% endif %}
-              {% if item.link  and item.link != '' %}
-              <a href="{{ item.link }}">
-	      {% include icons/right-arrow.svg %}
-                </a>
-              {% endif %}
-            </div>
-            {% if item.content and item.content != '' %}
-              <div class="slider__slide-content">
-                {{ item.content | markdownify }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
-</section>

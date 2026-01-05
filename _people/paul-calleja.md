@@ -1,15 +1,7 @@
 ---
-layout: person
-name: Paul Calleja
-title: Dr
-given: Paul
-family: Calleja
-job_title: "Director of Research Computing Services "
-institution: ""
-department: ""
-category: []
-start: ""
-end: ""
+title: Paul Calleja
+photo: /assets/images/uploads/paul-calleja.jpeg
+job_title: Director of Research Computing Services
 biography: >-
   Paul Calleja is the Director of the Cambridge Open Zettascale Lab and of
   Research Computing Services at the University of Cambridge.
@@ -22,16 +14,4 @@ biography: >-
 
 
   Dr Calleja sits on numerous national and international HPC committees and advisory boards, as well as being a founding member of the UK HPC Special Interest Group.
-twitter: ""
-github: ""
-scholar: ""
-supervisor: ""
-position: ""
-url: ""
-website: ""
-image: /assets/uploads/paul-calleja.jpeg
-email: ""
-linkedin: ""
-crsid: ""
-orcid: ""
 ---

@@ -1,19 +1,44 @@
 ---
-layout: event-single
-title: AI for Ops Community Meet Up
-start: 2025-12-01 10:00
-end: 2025-12-01 11:00
-category:
-  - events
-desc: "\n"
-image: /assets/uploads/getty-images-onlxvzoyomq-unsplash.jpg
-link_to: https://forms.gle/UnYeBtefpJPvP9Vf9
+title: AI Sciencepreneurship bootcamp 2026
+excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
+  ecosystem and is rapidly becoming a global force in applied AI research across
+  many disciplines.
+cover_image: /assets/images/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-4.jpg
+event_categories: Upcoming Events
+event_content: >-
+  Following the success of our first event in June 2025, ai@cam is launching the
+  second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day
+  programme designed to help researchers transform breakthrough AI innovations
+  in scientific research into real-world impact.
+
+
+  Running from 11-12 February 2026, this hands-on bootcamp will combine technical expertise in scientific applications of AI with entrepreneurial insights from Cambridge’s innovation ecosystem, supporting the next generation of science-based ventures.
+
+
+  The two-day programme will feature:
+
+
+  * Technical workshops on foundation models and AI tools led by the Accelerate Science team;
+
+  * Training sessions on start-up fundamentals from Cambridge Innovation Capital;
+
+  * Founder story sessions with successful AI entrepreneurs;
+
+  * Pitch development and showcase opportunities with local entrepreneurs.
+
+
+  Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](https://www.ai.cam.ac.uk/events/ai-sciencepreneurship-bootcamp-2026)).
+
+
+  For full details about the AI Sciencepreneurship Bootcamp, including our FAQs, please visit our ai@cam [Calls Page.](https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp)
+registration_title: Application deadline
+registration_text: The deadline for applications is 17:00 on Wednesday 28 January 2026.
+registration_link: https://aiatcam.netlify.app/calls/ai-art-protection-tools-still-leave-creators-at-risk-researchers-say/
+registration_link_text: Find out More
+event_date: 2026-02-11
+event_end_date: 2026-02-12
+time: 09:00-17.30
+location: Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD
+organizers: ai@cam
+agenda: []
 ---
-**Time & date:** 10.00-11.00 | Monday 1 December\
-**Organisers:** ai@cam
-
-Join us for the next ai@cam Community Meet-Up as part of the AI for Ops programme.
-
-This informal networking event is a chance to connect with colleagues from across the university who are exploring the use of AI in operational teams. This session offers university staff an opportunity to learn how colleagues are leveraging AI to enhance operational effectiveness. Whether you are beginning to explore AI applications within your work or actively implementing tools, this event provides a valuable forum to exchange insights and share best practice. We invite presentations of brief case studies, work-in-progress updates, or current challenges to foster shared learning and collaboration. 
-
-**[P﻿lease register here](https://forms.gle/UnYeBtefpJPvP9Vf9)**

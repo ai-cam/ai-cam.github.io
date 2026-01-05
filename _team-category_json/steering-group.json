@@ -1,0 +1,24 @@
+---
+layout: null
+permalink: /team/category/steering-group.json
+---
+{% assign filtered_members = site.team_members | where_exp: "member", "member.team_categories contains 'Steering Group' or member.team_categories == 'Steering Group'" %}
+{% if filtered_members.size > 0 %}
+{% assign sorted_members = filtered_members | sort: 'title' %}
+[
+  {% for member in sorted_members %}
+  {
+    "slug": "{{ member.slug }}",
+    "title": {{ member.title | jsonify }},
+    "url": "{{ member.url }}",
+    "photo": {% if member.photo %}"{{ member.photo | relative_url }}"{% else %}null{% endif %},
+    "job_title": {% if member.job_title %}{{ member.job_title | jsonify }}{% else %}null{% endif %},
+    "team_categories": {% if member.team_categories %}{% if member.team_categories.first %}{{ member.team_categories | jsonify }}{% else %}"{{ member.team_categories }}"{% endif %}{% else %}null{% endif %},
+    "category_name": {% if member.team_categories %}{% if member.team_categories.first %}{{ member.team_categories | join: ", " | jsonify }}{% else %}"{{ member.team_categories }}"{% endif %}{% else %}null{% endif %}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+{% else %}
+[]
+{% endif %}
+

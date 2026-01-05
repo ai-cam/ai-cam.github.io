@@ -1,9 +1,6 @@
 ---
-layout: person
-name: Helen Strudwick
-title: "  "
-given: "Helen "
-family: Strudwick
+title: Helen Strudwick
+photo: /assets/images/uploads/helen-strudwick1-1-.jpeg
 job_title: Senior Curator
 biography: >-
   Helen Strudwick cares for the Egyptian collections at the Fitzwilliam Museum.
@@ -16,5 +13,4 @@ biography: >-
 
 
   As well as academic papers, her publications include The Tombs of Amenhotep, Khnummose and Amenmose at Thebes and Thebes in Egypt, The Encylopedia of Ancient Egypt and Death on the Nile: Uncovering the Afterlife of Ancient Egypt, which was produced to accompany the 2016 exhibition of the same name that she curated with the Museum’s Head of Conservation. She is currently curating a new exhibition opening in October 2025.
-image: /assets/uploads/helen-strudwick1.jpeg
 ---

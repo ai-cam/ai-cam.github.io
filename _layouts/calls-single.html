@@ -1,0 +1,127 @@
+---
+layout: default
+---
+
+<!-- Calls Single Page -->
+<section class="calls-single-page">
+    <div class="shapes-bottom shapes">
+        <div class="light-img">
+            {% include icons/home-news-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-news-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="top-actions">
+                    <a href="{{ '/calls/' | relative_url }}" class="back">
+                        <div class="icon">
+                            <img src="{{ '/assets/images/icons/arrow-left-green.svg' | relative_url }}" alt="">
+                        </div>
+
+                        Back to Calls
+                    </a>
+
+                    <ul class="share">
+                        <li>Share</li>
+                        {% assign page_url = page.url | prepend: site.baseurl | prepend: site.url %}
+                        {% assign page_title = page.title | url_encode %}
+                        <li><a href="https://bsky.app/intent/compose?text={{ page_title }}%20{{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/fly.svg' | relative_url }}" alt="Share on Bluesky"></a></li>
+                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/facebook.svg' | relative_url }}" alt="Share on Facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page_url }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="Share on LinkedIn"></a></li>
+                        <li><a href="https://twitter.com/intent/tweet?url={{ page_url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer"><img src="{{ '/assets/images/icons/x.svg' | relative_url }}" alt="Share on Twitter/X"></a></li>
+                    </ul>
+                </div>
+
+                <div class="main-box">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text">
+                                {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+                                {% if page.call_excerpt %}<p>{{ page.call_excerpt }}</p>{% endif %}
+                                <ul class="date" style="margin-top: unset;">
+                                    {% if page.application_deadline %}
+                                    <li>
+                                        {% if page.call_categories == 'Past Calls' %}Closed on:{% else %}Application Deadline:{% endif %} {{ page.application_deadline | date: "%-d %B %Y" }}
+                                    </li>
+                                    {% elsif page.call_date %}
+                                    <li>
+                                        {{ page.call_date | date: "%-d %B %Y" }}
+                                    </li>
+                                    {% endif %}
+                                </ul>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            {% if page.cover_image %}
+                            <img src="{{ page.cover_image | relative_url }}" alt="" class="main-img">
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    {% if page.call_content %}
+                    {{ page.call_content | markdownify }}
+                    {% endif %}
+
+                    {% if page.apply_title or page.apply_text or page.apply_links %}
+                    <div class="how-to-apply">
+                        {% if page.apply_title %}<h4>{{ page.apply_title }}</h4>{% endif %}
+                        {% if page.apply_text %}
+                        {{ page.apply_text | markdownify }}
+                        {% endif %}
+
+                        {% if page.apply_links %}
+                        {% for apply_link in page.apply_links %}
+                        {% if apply_link.link and apply_link.link_text %}
+                        <a href="{{ apply_link.link }}" class="button">{{ apply_link.link_text }} <div class="icon"><img
+                                    src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if page.faq_title or page.faqs %}
+                <div class="faq">
+                    {% if page.faq_title %}<h4>{{ page.faq_title }}</h4>{% endif %}
+
+                    {% if page.faqs %}
+                    <div class="accordion" id="accordionExample">
+                        {% for faq in page.faqs %}
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading{{ forloop.index }}">
+                                <button class="accordion-button {% unless forloop.first %}collapsed{% endunless %}" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse{{ forloop.index }}" aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="collapse{{ forloop.index }}">
+                                    {% if faq.question %}{{ faq.question }}{% endif %}
+
+                                    <div class="icon">
+                                        <img src="{{ '/assets/images/icons/plus.svg' | relative_url }}" alt="" class="faq-plus-icon">
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse {% if forloop.first %}show{% endif %}"
+                                aria-labelledby="heading{{ forloop.index }}" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    {% if faq.answer %}
+                                    {{ faq.answer | markdownify }}
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Calls Single Page End -->

@@ -1,12 +1,8 @@
 ---
-layout: person
-name: Richard Turner
-title: Prof
-given: "Richard "
-family: Turner
+team_member: ""
+title: Richard Turner
+photo: /assets/images/uploads/rich-square_0-1-.png
 job_title: Professor of Machine Learning
-category:
-  - steering-group
 biography: >-
   Dr. Turner is a Professor of Machine Learning in the Department of Engineering
   at the University of Cambridge and Research Lead, AI for Weather Prediction,
@@ -19,9 +15,8 @@ biography: >-
   AAAI, AIStats, ICLR, ICML and NeurIPS and he has given keynote lectures and
   tutorials at the Machine Learning and Signal Processing Summer School, the
   International Conference on Machine Learning, Optimization & Data Science, and
-  the Machine Learning Summer School. 
+  the Machine Learning Summer School.
 
 
-  He has been the lead supervisor for 26 PhD students (13 now graduated) and seven Research Assistants and Associates. He has received over £10M of industrial funding from Microsoft, Toyota, Google, DeepMind, Amazon, and Improbable and over £15M of funding from the EPSRC as Principal or Co-investigator. Dr. Turner has been awarded the Cambridge Students' Union Teaching Award for Lecturing. His work has featured on BBC Radio 5 Live’s The Naked Scientist, BBC World Service’s Click and in Wired Magazine.
-image: /assets/uploads/rich-square_0.png
+  He has been the lead supervisor for 26 PhD students (13 now graduated) and seven Research Assistants and Associates. He has received over £10M of industrial funding from Microsoft, Toyota, Google, DeepMind, Amazon, and Improbable and over £15M of funding from the EPSRC as Principal or Co-investigator. Dr. Turner has been awarded the Cambridge Students’ Union Teaching Award for Lecturing. His work has featured on BBC Radio 5 Live’s The Naked Scientist, BBC World Service’s Click and in Wired Magazine.
 ---

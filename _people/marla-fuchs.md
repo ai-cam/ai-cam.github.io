@@ -1,11 +1,6 @@
 ---
-layout: person
-title: Dr
-given: Marla
-family: Fuchs
-department: Department of Applied Mathematics and Theoretical Physics
+title: Marla Fuchs
+photo: /assets/images/uploads/marla_fuchs-1-.jpeg
 job_title: Executive Director, Institute of Computing for Climate Science
-biography: ''
-image: /assets/uploads/marla_fuchs.jpeg
-name: Marla Fuchs
+department: Department of Applied Mathematics and Theoretical Physics
 ---

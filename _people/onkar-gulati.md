@@ -1,9 +1,5 @@
 ---
-layout: person
-title: Mr
-given: Onkar
-family: Gulati
-department: Department of Computer Science and Technology
+title: Onkar Gulati
 job_title: PhD Candidate
-name: Onkar Gulati
+department: Department of Computer Science and Technology
 ---

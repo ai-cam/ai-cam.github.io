@@ -1,0 +1,325 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<!-- Blog Page -->
+<section class="blog-page">
+    <div class="main-shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Blog</h1>
+
+        <div class="row" id="blog-container">
+            {% assign sorted_posts = site.blog_posts | sort: 'date' | reverse %}
+            {% assign total_posts = sorted_posts | size %}
+            {% assign initial_limit = 7 %}
+            {% if total_posts < 7 %}
+                {% assign initial_limit = total_posts %}
+            {% endif %}
+            {% for post in sorted_posts limit: initial_limit %}
+                {% if forloop.index == 1 %}
+            <div class="col-lg-7" data-post-id="{{ post.slug }}">
+                <div class="big-box">
+                    <div class="shapes">
+                        <div class="light-img">
+                            {% include icons/events-item-shape-light.svg %}
+                        </div>
+                        <div class="dark-img">
+                            {% include icons/events-item-shape-dark.svg %}
+                        </div>
+                    </div>
+                    <a href="{{ post.url }}">
+                        {% if post.cover_image %}
+                        <img src="{{ post.cover_image | relative_url }}" alt="" class="main-img">
+                        {% endif %}
+                    </a>
+
+                    <div class="text">
+                        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                        {% if post.date %}<p>{{ post.date | date: "%-d %B %Y" }}</p>{% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                {% elsif forloop.index >= 2 and forloop.index <= 4 %}
+                <div class="small-box" data-post-id="{{ post.slug }}">
+                    <div class="shapes">
+                        <div class="light-img">
+                            {% include icons/events-item-shape-light.svg %}
+                        </div>
+                        <div class="dark-img">
+                            {% include icons/events-item-shape-dark.svg %}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <a href="{{ post.url }}">
+                                {% if post.cover_image %}
+                                <img src="{{ post.cover_image | relative_url }}" alt="">
+                                {% endif %}
+                            </a>
+                        </div>
+
+                        <div class="col-lg-7">
+                            <div class="text">
+                                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                                {% if post.date %}<p>{{ post.date | date: "%-d %B %Y" }}</p>{% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if forloop.index == 4 %}
+            </div>
+                {% endif %}
+                {% elsif forloop.index >= 5 %}
+            <div class="col-lg-4" data-post-id="{{ post.slug }}">
+                <div class="item">
+                    <div class="shapes">
+                        <div class="light-img">
+                            {% include icons/events-item-shape-light.svg %}
+                        </div>
+                        <div class="dark-img">
+                            {% include icons/events-item-shape-dark.svg %}
+                        </div>
+                    </div>
+                    <a href="{{ post.url }}" class="picture">
+                        {% if post.cover_image %}
+                        <img src="{{ post.cover_image | relative_url }}" alt="">
+                        {% endif %}
+                    </a>
+
+                    <div class="text">
+                        <div class="top-title">
+                            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+                            <a href="{{ post.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+
+                        {% if post.date %}<p>{{ post.date | date: "%-d %B %Y" }}</p>{% endif %}
+                    </div>
+                </div>
+            </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        </div>
+
+        {% if total_posts > 7 %}
+        <div class="load-more">
+            <a href="#" id="load-more-btn">Load more</a>
+        </div>
+        {% endif %}
+    </div>
+ </section>
+<!-- Blog Page End -->
+
+<!-- Global Join CTA -->
+{% include join-cta.html %}
+<!-- Global Join CTA End -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const blogContainer = document.getElementById('blog-container');
+    let currentPage = 1;
+    const itemsPerPage = 6;
+    let allPosts = [];
+    
+    // Calculate the number of items displayed on initial load (all elements with data-post-id)
+    const initialItems = document.querySelectorAll('#blog-container [data-post-id]');
+    let displayedCount = initialItems.length;
+
+    // Load all posts from JSON
+    if (loadMoreBtn) {
+        fetch('/blog.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(text => {
+                try {
+                    const data = JSON.parse(text);
+                    allPosts = Array.isArray(data) ? data : [];
+                    // Sort by date (newest first)
+                    allPosts.sort((a, b) => {
+                        if (!a.date) return 1;
+                        if (!b.date) return -1;
+                        return new Date(b.date) - new Date(a.date);
+                    });
+                    // Hide load more button if there are 7 or fewer items
+                    if (allPosts.length <= 7) {
+                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+                        if (loadMoreDiv) {
+                            loadMoreDiv.style.display = 'none';
+                        }
+                    }
+                } catch (e) {
+                    console.error('Error parsing JSON:', e, 'Response text:', text);
+                    allPosts = [];
+                }
+            })
+            .catch(error => console.error('Error loading posts:', error));
+
+        // When load more button is clicked
+        loadMoreBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            if (allPosts.length === 0) {
+                fetch('/blog.json')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(text => {
+                        try {
+                            const data = JSON.parse(text);
+                            allPosts = Array.isArray(data) ? data : [];
+                            // Sort by date (newest first)
+                            allPosts.sort((a, b) => {
+                                if (!a.date) return 1;
+                                if (!b.date) return -1;
+                                return new Date(b.date) - new Date(a.date);
+                            });
+                            loadMorePosts();
+                        } catch (e) {
+                            console.error('Error parsing JSON:', e, 'Response text:', text);
+                            allPosts = [];
+                        }
+                    })
+                    .catch(error => console.error('Error loading posts:', error));
+            } else {
+                loadMorePosts();
+            }
+        });
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '';
+        const date = new Date(dateString);
+        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        const day = date.getDate();
+        const month = months[date.getMonth()];
+        const year = date.getFullYear();
+        return `${day} ${month} ${year}`;
+    }
+
+    function loadMorePosts() {
+        if (!loadMoreBtn || !blogContainer) return;
+        
+        // Update displayedCount (based on current item count on page - all elements with data-post-id)
+        const currentItems = document.querySelectorAll('#blog-container [data-post-id]');
+        displayedCount = currentItems.length;
+        
+        // Check remaining item count
+        const remainingPosts = allPosts.length - displayedCount;
+        const postsToLoad = Math.min(itemsPerPage, remainingPosts);
+        
+        const nextPosts = allPosts.slice(displayedCount, displayedCount + postsToLoad);
+        
+        if (nextPosts.length === 0) {
+            const loadMoreDiv = loadMoreBtn.closest('.load-more');
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+            return;
+        }
+
+        // Find load more div
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+        
+        nextPosts.forEach((post) => {
+            const formattedDate = formatDate(post.date);
+            
+            // Always add in col-lg-4 format after load more
+            const html = `
+                <div class="col-lg-4" data-post-id="${post.slug}">
+                    <div class="item">
+                        <div class="shapes">
+                            <img src="/assets/images/materials/events-item-shape-light.svg" class="light-img" alt="">
+                            <img src="/assets/images/materials/events-item-shape-dark.svg" class="dark-img" alt="">
+                        </div>
+                        <a href="${post.url}" class="picture">
+                            ${post.cover_image ? `<img src="${post.cover_image}" alt="">` : ''}
+                        </a>
+                        <div class="text">
+                            <div class="top-title">
+                                <a href="${post.url}"><h3>${post.title || ''}</h3></a>
+                                <a href="${post.url}" class="button"><img src="/assets/images/icons/arrow-right-up-black.svg" alt=""></a>
+                            </div>
+                            ${formattedDate ? `<p>${formattedDate}</p>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Add HTML to end of blog-container
+            blogContainer.insertAdjacentHTML('beforeend', html);
+            
+            // Add observer to newly added item's shape
+            const newItem = blogContainer.querySelector('.col-lg-4:last-child');
+            const newItemShapes = newItem ? newItem.querySelector('.shapes') : null;
+            const newItemElement = newItem ? newItem.querySelector('.item') : null;
+            
+            if (newItemShapes && 'IntersectionObserver' in window) {
+                const blogItemObserverOptions = {
+                    root: null,
+                    rootMargin: '0% 0% -20% 0%',
+                    threshold: 0
+                };
+                const blogItemObserverCallback = function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('in-view');
+                            blogItemObserver.unobserve(entry.target);
+                        }
+                    });
+                };
+                const blogItemObserver = new IntersectionObserver(blogItemObserverCallback, blogItemObserverOptions);
+                blogItemObserver.observe(newItemShapes);
+            }
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            if (newItemElement && typeof gsap !== 'undefined') {
+                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItemElement, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: newItem,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+        });
+
+        displayedCount += nextPosts.length;
+        currentPage++;
+
+        if (displayedCount >= allPosts.length) {
+            if (loadMoreDiv) {
+                loadMoreDiv.style.display = 'none';
+            }
+        }
+    }
+});
+</script>

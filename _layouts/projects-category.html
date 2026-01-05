@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+<!-- Projects Page -->
+<section class="projects-page">
+    <div class="shapes">
+        <div class="light-img">
+            {% include icons/home-slider-shape-light.svg %}
+        </div>
+        <div class="dark-img">
+            {% include icons/home-slider-shape-dark.svg %}
+        </div>
+    </div>
+    <div class="container">
+        <h1>{{ page.hero_top_title | default: page.name }}</h1>
+
+        {% if page.hero_title or page.hero_description %}
+        <div class="row">
+            {% if page.hero_title %}
+            <div class="col-lg-6">
+                <h3>{{ page.hero_title }}</h3>
+            </div>
+            {% endif %}
+
+            {% if page.hero_description %}
+            <div class="col-lg-6">
+                <p>{{ page.hero_description }}</p>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+ </section>
+<!-- Projects Page End -->
+ 
+ <!-- Projects Page Content -->
+  <section class="projects-page-content">
+    <div class="container">
+        <h2>AI-deas Projects</h2>
+
+        <ul class="list">
+            {% if site.project_categories %}
+                {% for category in site.project_categories %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% else %}
+                {% for category in site.collections.project_categories.docs %}
+                    {% assign category_name = category.data.name | default: category.name %}
+                    {% assign page_name = page.data.name | default: page.name %}
+                    <li {% if category_name == page_name %}class="active"{% endif %}>
+                        <a href="{{ category.url }}">{{ category_name }}</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+
+        <div class="row" id="projects-container">
+            {% assign page_name = page.data.name | default: page.name %}
+            {% assign filtered_projects = site.projects | where: 'project_categories', page_name %}
+            {% assign sorted_projects = filtered_projects | sort: 'title' %}
+            {% for project in sorted_projects %}
+                <div class="col-lg-4 d-flex" data-project-id="{{ project.slug }}">
+                    <div class="item flex-fill">
+                        {% if project.cover_image %}
+                        <a href="{{ project.url }}">
+                            <img src="{{ project.cover_image | relative_url }}" class="main-img" alt="{{ project.title }}">
+                        </a>
+                        {% endif %}
+
+                        <div class="text">
+                            {% if project.title %}
+                            <a href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
+                            {% endif %}
+
+                            <a href="{{ project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+ </section>
+ <!-- Projects Page Content End -->
