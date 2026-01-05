@@ -54,15 +54,9 @@ layout: default
 
         <div class="row" id="team-container">
             {% assign page_name = page.data.name | default: page.name %}
-            {% assign sorted_members = site.team_members | sort: 'title' %}
+            {% assign filtered_members = site.team_members | where_exp: "member", "member.team_categories contains page_name or member.team_categories == page_name" %}
+            {% assign sorted_members = filtered_members | sort: 'title' %}
             {% for member in sorted_members %}
-                {% assign show_member = false %}
-                {% if member.team_categories contains page_name %}
-                    {% assign show_member = true %}
-                {% elsif member.team_categories == page_name %}
-                    {% assign show_member = true %}
-                {% endif %}
-                {% if show_member %}
                 <div class="col-lg-3" data-team-id="{{ member.slug }}">
                     <div class="item">
                         {% if member.photo %}
@@ -81,7 +75,6 @@ layout: default
                         </div>
                     </div>
                 </div>
-                {% endif %}
             {% endfor %}
         </div>
     </div>
