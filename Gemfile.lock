@@ -169,5 +169,8 @@ DEPENDENCIES
   logger
   wdm (~> 0.1.1)
 
+RUBY VERSION
+  ruby 3.2.2
+
 BUNDLED WITH
-   2.7.2
+  4.0.3
