@@ -1,18 +1,8 @@
 ---
-layout: blog-single
-permalink: /blog/:title
 title: "From ideas to impact: Early lessons from our AI for Operations programme"
-excerpt: "ai@cam's AI for Ops initiative now has a cohort of projects underway
-  where colleagues are actively exploring how AI could improve their work. We've
-  seen great enthusiasm for this work, demonstrating energy and readiness for
-  change. The projects also show colleagues aren't only looking for quick wins -
-  they're thinking about the broader changes AI could bring in their areas,
-  asking questions about purpose and process that will be essential to realising
-  AI's potential. "
-date: 2025-12-22T00:00:00+00:00
-category:
-  - dialogue
-image: /assets/uploads/cambridge-2026-blog1.jpg
+date: 2025-12-22
+cover_image: /assets/images/uploads/cambridge-2026-blog1.jpg
+related_title: Related Posts
 ---
 ai@cam's AI for Ops initiative now has a cohort of projects underway where colleagues are actively exploring how AI could improve their work. We've seen great enthusiasm for this work, demonstrating energy and readiness for change. The projects also show colleagues aren't only looking for quick wins - they're thinking about the broader changes AI could bring in their areas, asking questions about purpose and process that will be essential to realising AI's potential.
 

@@ -1,19 +1,8 @@
 ---
-layout: blog-single
-permalink: /blog/:title
-title: "What Local Government Needs from AI: Learning from Practice in our AI
-  for Local Government Accelerator"
-excerpt: >
-  Local councils are exploring how AI can improve public services, from reducing
-  administrative burdens to enabling earlier support for residents, while
-  navigating challenges around data, ethics, and infrastructure.
-
-
-  Our new AI for Local Government Accelerator brings together councils, researchers, and the public to develop practical, responsible solutions that meet real community needs.
-date: 2025-12-08T00:00:00+00:00
-category:
-  - policy
-image: /assets/uploads/ai-for-ops-blog-2026.jpeg
+title: "What Local Government Needs from AI: Learning from Practice in our AI for Local Government Accelerator"
+date: 2025-12-08
+cover_image: /assets/images/uploads/ai-for-ops-blog-2026.jpeg
+related_title: Related Posts
 ---
 Last month, we convened local authority officials from across the region to share their early work on AI in public services.
 
