@@ -1,14 +1,16 @@
 [build]
+  command = "bundle exec jekyll build"
   publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.2.2"
+  JEKYLL_ENV = "production"
+
+[context.production]
   command = "bundle exec jekyll build"
 
-[[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-  status = 200
+[context.deploy-preview]
+  command = "bundle exec jekyll build --future"
 
-[[redirects]]
-  from = "/admin/*"
-  to = "/admin/index.html"
-  status = 200
-
+[context.branch-deploy]
+  command = "bundle exec jekyll build --future"
