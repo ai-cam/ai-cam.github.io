@@ -184,7 +184,7 @@ faqs:
       * We will be hosting an upcoming information session about the funding scheme from 10:00 - 11:00, Thursday 15 January. You can register for this session here
 
 
-      Applications are now open and you can apply here. T﻿he deadline for applications if 16.00, Friday 13 February 2026.
+      Applications are now open and you can [apply here.](https://forms.gle/StL951Fb2tEE7hYr5) T﻿he deadline for applications if 16.00, Friday 13 February 2026.
     question: What is required for me to apply?
   - answer: >-
       We will be hosting an upcoming information session about the funding
@@ -196,6 +196,6 @@ faqs:
       For more information about the Local Government AI Accelerator, contact Jess Montgomery (jkm40@cam.ac.uk).
 
 
-      Applications are now open and you can [apply here](forms.gle/ke8uJuWUi9ikNBVg7). **T﻿he deadline for applications if 16.00, Friday 13 February 2026.**
+      Applications are now open and you can [apply here](https://forms.gle/StL951Fb2tEE7hYr5). **T﻿he deadline for applications if 16.00, Friday 13 February 2026.**
     question: Where can I learn more?
 ---
