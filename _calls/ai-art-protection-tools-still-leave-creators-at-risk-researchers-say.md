@@ -42,9 +42,9 @@ apply_text: >-
 
   **K﻿ey Details**
 
-  **Time:** 9:30 -17.30
+  **Time:** 9:30 -17.30\
 
-  **Date:** Wednesday 11 February - Thursday 12 February 2026
+  **Date:** Wednesday 11 February - Thursday 12 February 2026\
 
   **Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD
 
