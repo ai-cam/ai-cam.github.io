@@ -3,6 +3,7 @@ title: AI Sciencepreneurship Bootcamp 2026
 call_categories: Open Calls
 cover_image: /assets/images/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-3.jpg
 call_date: 2026-01-28
+application_deadline: 2026-01-28
 call_content: >-
   ai@cam announces its second AI Sciencepreneurship Bootcamp, an immersive
   two-day programme that helps researchers translate AI for science ideas to
