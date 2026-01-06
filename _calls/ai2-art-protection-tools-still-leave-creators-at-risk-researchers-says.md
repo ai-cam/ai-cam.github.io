@@ -38,7 +38,7 @@ apply_text: >-
 
   We encourage all applicants to read the FAQs below before applying. If you have any further questions around eligibility or the application process, please contact Jess Montgomery (jkm40@cam.ac.uk.)
 apply_links:
-  - link: forms.gle/KUMDXfy3jCXB68hi9
+  - link: https://forms.gle/pajM2M1od8cuFvUY7
     link_text: Apply here
   - link: https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g#/registration
     link_text: Register for information session
