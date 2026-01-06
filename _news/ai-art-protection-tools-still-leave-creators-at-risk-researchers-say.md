@@ -11,11 +11,9 @@ cover_image: /assets/images/uploads/central-cambridge-resized.jpg
 date: 2025-12-08
 tags:
   - tag: Research-and-innovation
-apply_title: How to apply
-apply_content: Applications must be submitted via the AI for Ops Funding Call
-  page **by 12:00, Friday 29 August 2025.**
-information: For more information, contact Annabelle Scott, Programme
-  Manager [(as599@cam.ac.uk)](mailto:(as599@cam.ac.uk))
+apply_title: ""
+apply_content: ""
+information: "[](mailto:(as599@cam.ac.uk))"
 apply_link: ""
 apply_link_text: ""
 ---
