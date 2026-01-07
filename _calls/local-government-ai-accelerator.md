@@ -69,7 +69,8 @@ faqs:
       We’re looking for proof-of-concept AI projects that address real-world
       challenges in local government. The call will not restrict topic areas
       (but you can read about areas that councils have already flagged as being
-      of interest in our recent ai@cam blog.)
+      of interest in our [recent ai@cam
+      blog.)](https://www.ai.cam.ac.uk/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator/)
 
 
       All projects must demonstrate clear public benefit potential. This might include:
