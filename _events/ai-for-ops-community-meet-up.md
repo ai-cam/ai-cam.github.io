@@ -1,4 +1,5 @@
 ---
+slug: AI Sciencepreneurship bootcamp 2026
 title: AI Sciencepreneurship bootcamp 2026
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
