@@ -136,8 +136,9 @@ faqs:
   - question: What is required for the application form?
     answer: >-
       Applications consist of a Google Form (covering basic team and partner
-      details), a two-page project description, and supporting documents.
+      details), a two-page project description, and supporting documents.\
 
+      \
 
       Your two-page description should cover: 
 
@@ -155,8 +156,12 @@ faqs:
       * How you'll address ethical considerations, including how the project aligns with the concerns expressed in ai@cam’s public dialogues.
 
 
+      \
+
       You'll also need to attach: a letter of support from your local authority partner to confirm their willingness to collaborate, and a budget breakdown showing how you'll use the funding (up to £25,000). We don’t need detailed budgets at this time, but we are looking for headlines on breakdown of spend. 
 
+
+      \
 
       The Google Form requests the following basic project information:
 
