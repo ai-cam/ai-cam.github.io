@@ -23,7 +23,7 @@ abstract: >-
 
   Participants emphasise that AI should generate demonstrable improvements in people’s lives rather than serve primarily as a cost-saving mechanism. They expect AI to enhance, not replace, human roles - automating routine tasks so staff can focus on empathy, creativity and nuanced judgment.
 links:
-  - link: assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf
+  - link: /assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf
     link_text: Download full report
 authors: []
 content: >-
