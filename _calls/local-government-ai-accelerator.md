@@ -58,7 +58,7 @@ faqs:
       multiple councils, as these have greater potential for sector-wide impact.
 
 
-      We have already heard from some local authority partners about areas where they would welcome support during a workshop on 24 November 2025. You can read more about these areas on our recent ai@cam blog.
+      We have already heard from some local authority partners about areas where they would welcome support during a workshop on 24 November 2025. You can read more about these areas on our [recent ai@cam blog.](https://www.ai.cam.ac.uk/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator/)
   - question: What level of council involvment is required?
     answer: Projects must have engagement with local authority partners throughout
       development, not just at the application stage. This means ongoing
