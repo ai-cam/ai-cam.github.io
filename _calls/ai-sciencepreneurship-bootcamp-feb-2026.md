@@ -50,4 +50,7 @@ apply_text: >-
 
 
   **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
+apply_links:
+  - link_text: Apply here
+    link: https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform
 ---
