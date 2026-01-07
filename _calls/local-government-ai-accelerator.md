@@ -19,20 +19,22 @@ call_content: >-
   The initiative builds on ai@cam’s work with local government partners across Cambridgeshire and beyond. Early AI adopters in local government are already demonstrating the technology’s potential in areas like social care, planning consultation analysis, and infrastructure maintenance. This collaboration aims to support councils in identifying promising AI applications and developing appropriate solutions.
 apply_title: How the fund works
 apply_text: >-
-  Funded projects will receive up to £25,000 for 9-12 months of proof-of-concept
-  development, with ongoing support through monthly community of practice
-  sessions and technical support clinics with ai@cam’s machine learning
-  engineers. A final showcase will document lessons learned and explore pathways
-  for scaling successful solutions across the sector.
+  **Deadline:** 16.00 on Friday 13 February\
 
+  \
 
-  Proposals must be submitted by 16.00 on Friday 13 February and should demonstrate clear partnership with at least one local authority.
+  Funded projects will receive up to £25,000 for 9-12 months of proof-of-concept development, with ongoing support through monthly community of practice sessions and technical support clinics with ai@cam’s machine learning engineers. A final showcase will document lessons learned and explore pathways for scaling successful solutions across the sector.
 
 
   To apply, we ask for some basic project information, a two page project proposal, and supporting documents to demonstrate local authority support and headline spending plans.
 
 
-  **Information session** We will also be hosting an upcoming Q&A information session about the funding scheme on **10:00 - 11:00,** **Thursday 15 January.** You can [register for this session here](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g)
+  Proposals must be submitted by 16.00 on Friday 13 February and should demonstrate clear partnership with at least one local authority.
+
+
+  **Information session** \
+
+  We will also be hosting an upcoming Q&A information session about the funding scheme on **10:00 - 11:00,** **Thursday 15 January.** You can [register for this session here](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g)
 
 
   We encourage all applicants to read the FAQs below before applying. If you have any further questions around eligibility or the application process, please contact Jess Montgomery (jkm40@cam.ac.uk.)
