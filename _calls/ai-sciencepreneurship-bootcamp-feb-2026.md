@@ -53,4 +53,43 @@ apply_text: >-
 apply_links:
   - link_text: Apply here
     link: https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform
+faqs:
+  - question: "Who can participate in this bootcamp? "
+    answer: >-
+      The bootcamp is open to PhD students, postdocs, and early-career
+      researchers at the University of Cambridge and its associated research
+      institutions, working on AI applications in scientific domains such as
+      biology, chemistry, physics, environmental science, healthcare, and
+      related fields. Participants should have an understanding of core methods
+      and concepts in AI and an idea for a project they’d like to develop.\
+
+      \
+
+      As part of registration for the session, we will ask participants to agree to a confidentiality undertaking, to allow other participants in the workshop to share their ideas during discussions.
+  - question: What level of AI expertise is required to join?
+    answer: Participants should have foundational knowledge of AI methods and
+      concepts. Those looking to build these skills can access preparatory
+      courses through Accelerate Science's training programmes before applying.
+      We find participants gain most from this workshop when they have an idea
+      for an AI for science project that they would like to develop or are
+      already working on.
+  - question: "How can I apply? "
+    answer: >-
+      Registration is now open and you can apply here. The deadline for
+      applications is 17:00 on Wednesday 28 January 2026.
+
+
+      The registration asks for:
+
+
+      * Your research background
+
+      * Your AI experience and expertise
+
+      * A description of the idea you want to develop
+
+      * Your motivation for joining the bootcamp
+
+
+      We have a limited number of spaces at the workshop, so encourage early registration. Teams working on shared challenges are welcome to apply, but we ask that each team member must submit an individual application.
 ---
