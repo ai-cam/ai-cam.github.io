@@ -1,5 +1,5 @@
 ---
-title: Local Government AI Accelerator
+title: Local Government AI Accelerator OLD
 call_categories: Open Calls
 cover_image: /assets/images/uploads/localgovernment.jpg
 call_date: 2026-02-13
