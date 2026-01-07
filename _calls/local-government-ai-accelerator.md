@@ -102,16 +102,8 @@ faqs:
 
       * Potential for scalability across multiple authorities: Could this work for multiple authorities? What would it take to adapt or adopt elsewhere?
 
-      * Learning value: Will this generate useful insights even if the AI approach doesn’t work? Does the team have an idea about how to evaluate their impact? 
-
+      * Learning value: Will this generate useful insights even if the AI approach doesn’t work? Does the team have an idea about how to evaluate their impact? \
         \
-
-
-
-
-        \
-
-
         Selection criteria are informed by public dialogues carried out by ai@cam in autumn 2025. You can read more about those dialogues in this ai@cam report.
   - question: What support will funded projects receive?
     answer: >-
