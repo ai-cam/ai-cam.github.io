@@ -1,5 +1,5 @@
 ---
-slug: "  "
+slug: "  ai@cam-launches-second-AI-Sciencepreneurship-Bootcamp"
 title: ai@cam launches second AI Sciencepreneurship Bootcamp to accelerate
   AI-driven research innovation
 excerpt: Professional services staff are eager to experiment with AI,” said Jess
