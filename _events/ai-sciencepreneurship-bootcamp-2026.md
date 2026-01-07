@@ -1,0 +1,40 @@
+---
+slug: AI Sciencepreneurship bootcamp 2026
+title: AI Sciencepreneurship bootcamp Feb 2026
+excerpt: >+
+  Following the success of our first event in June 2025, ai@cam is launching the
+  second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day
+  programme designed to help researchers transform breakthrough AI innovations
+  in scientific research into real-world impact.
+
+cover_image: /assets/images/uploads/bootcamp101.jpg
+event_categories: Upcoming Events
+event_content: >-
+  Following the success of our first event in June 2025, ai@cam is launching the
+  second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day
+  programme designed to help researchers transform breakthrough AI innovations
+  in scientific research into real-world impact.
+
+
+  Running from 11-12 February 2026, this hands-on bootcamp will combine technical expertise in scientific applications of AI with entrepreneurial insights from Cambridge’s innovation ecosystem, supporting the next generation of science-based ventures.
+
+
+  The two-day programme will feature:
+
+
+  * Technical workshops on foundation models and AI tools led by the Accelerate Science team;
+
+  * Training sessions on start-up fundamentals from Cambridge Innovation Capital;
+
+  * Founder story sessions with successful AI entrepreneurs;
+
+  * Pitch development and showcase opportunities with local entrepreneurs.
+
+
+  Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](https://www.ai.cam.ac.uk/events/ai-sciencepreneurship-bootcamp-2026)).
+event_date: 2026-02-11
+event_end_date: 2026-02-12
+time: 09:00-17.30
+location: Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD
+organizers: ai@cam
+---
