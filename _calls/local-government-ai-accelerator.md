@@ -138,7 +138,8 @@ faqs:
       will be competitive regardless of geographic location.
   - question: What is required for the application form?
     answer: >-
-      Applications consist of a Google Form (covering basic team and partner
+      Applications consist of a [Google Form
+      ](https://forms.gle/jx1PczaPaUXLisSTA)(covering basic team and partner
       details), a two-page project description, and supporting documents.\
 
       \
@@ -166,7 +167,7 @@ faqs:
 
       \
 
-      The Google Form requests the following basic project information:
+      The [Google Form](https://forms.gle/jx1PczaPaUXLisSTA) requests the following basic project information:
 
 
       * Project title
