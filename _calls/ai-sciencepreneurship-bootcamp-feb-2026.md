@@ -75,8 +75,9 @@ faqs:
       already working on.
   - question: "How can I apply? "
     answer: >-
-      Registration is now open and you can apply here. The deadline for
-      applications is 17:00 on Wednesday 28 January 2026.
+      Registration is now open and you can [apply
+      here.](https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform)
+      The deadline for applications is 17:00 on Wednesday 28 January 2026.
 
 
       The registration asks for:
