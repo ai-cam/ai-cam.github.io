@@ -1,5 +1,5 @@
 ---
-title: AI Sciencepreneurship Bootcamp Feb 2026
+title: AI Sciencepreneurship Bootcamp 2026
 call_excerpt: ""
 call_categories: Open Calls
 cover_image: /assets/images/uploads/bootcamp101.jpg
