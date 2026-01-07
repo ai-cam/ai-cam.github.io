@@ -89,4 +89,37 @@ faqs:
       documentation of lessons learned, and presentation at the final showcase
       event. The timeline ensures solutions remain relevant to current council
       needs and maintains momentum for potential scaling.
+  - question: How will projects be selected?
+    answer: >-
+      Proposals will be reviewed to consider their:
+
+
+      * Public benefit potential: Does this address a need that will improve people’s lives? Does the approach align with public expectations from our dialogue work, particularly regarding human oversight, transparency, and accessibility
+
+      * Technical feasibility: Can this be delivered within 9-12 months? Does the team have the right expertise? Are there insurmountable technical or governance barriers?
+
+      * Strength of council partnerships: Is there collaboration with committed capacity? Can the team access real operational contexts for testing? Delivery capability within 12 months; and
+
+      * Potential for scalability across multiple authorities: Could this work for multiple authorities? What would it take to adapt or adopt elsewhere?
+
+      * Learning value: Will this generate useful insights even if the AI approach doesn’t work? Does the team have an idea about how to evaluate their impact? 
+
+        \
+
+
+
+
+        \
+
+
+        Selection criteria are informed by public dialogues carried out by ai@cam in autumn 2025. You can read more about those dialogues in this ai@cam report.
+  - question: What support will funded projects receive?
+    answer: >-
+      Beyond financial support, funded projects will receive: monthly community
+      of practice sessions to share progress and lessons learned with other
+      funded teams; technical support clinics offering advice from ai@cam's
+      machine learning engineers; and focused workshops on shared challenges.
+
+
+      Alongside these project-specific activities, ai@cam will continue to convene networking sessions across councils to support sharing of lessons learned and successful solutions.
 ---
