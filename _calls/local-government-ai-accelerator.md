@@ -62,4 +62,20 @@ faqs:
       development, not just at the application stage. This means ongoing
       engagement with council staff who understand the operational context and
       can help ensure the solutions being developed address real needs.
+  - question: What types of projects will be funded?
+    answer: >-
+      We’re looking for proof-of-concept AI projects that address real-world
+      challenges in local government. The call will not restrict topic areas
+      (but you can read about areas that councils have already flagged as being
+      of interest in our recent ai@cam blog.)
+
+
+      All projects must demonstrate clear public benefit potential. This might include:
+
+
+      * AI tools and applications: AI capabilities to support specific service delivery challenges (for example, document processing, data analysis, prediction models).
+
+      * Infrastructure and standards development: Frameworks, protocols, or integration layers that enable AI deployment across fragmented systems. This might include data sharing standards, orchestration platforms, or API specifications that allow different systems to work together.
+
+      * Process redesign with AI enablement: Rethinking service delivery processes where AI is one component of a broader improvement. For example, simplifying a complex application process while using AI to support specific steps.
 ---
