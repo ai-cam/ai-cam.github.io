@@ -106,7 +106,7 @@ faqs:
 
       * Learning value: Will this generate useful insights even if the AI approach doesn’t work? Does the team have an idea about how to evaluate their impact? \
         \
-        Selection criteria are informed by public dialogues carried out by ai@cam in autumn 2025. You can read more about those dialogues in this ai@cam report.
+        Selection criteria are informed by public dialogues carried out by ai@cam in autumn 2025. You can read more about those dialogues in this [ai@cam report.](https://www.ai.cam.ac.uk/assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf)
   - question: What support will funded projects receive?
     answer: >-
       Beyond financial support, funded projects will receive: monthly community
