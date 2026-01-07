@@ -123,4 +123,28 @@ faqs:
       use of AI for science, providing a space to work through practical issues
       associated with building AI tools and introducing topics in
       entrepreneurship.
+  - question: What happens after the bootcamp?
+    answer: >-
+      The sciencepreneurship bootcamp is designed as an entry point to
+      Cambridge's AI and science innovation ecosystem. After completing the
+      bootcamp, participants will have several pathways for continued support.
+      Next-stage programmes in the Cambridge ecosystem include:
+
+
+      * Founders at Cambridge
+
+      * DeepTech Labs accelerator programme (for suitable deep tech ventures)
+
+      * Further events through the ELIAS network
+
+
+      Participants will be invited to join our ELIAS AI for sciencepreneurship community, with regular meetups, skill-sharing sessions, and opportunities to connect with potential co-founders, team members, and advisors.
+  - question: What prize is awarded for a successful pitch presentation?
+    answer: >-
+      The workshop will conclude with a presentation session that showcases work
+      developed during the bootcamp. The strongest project will receive a prize
+      of £3,000 in the form of a grant to develop their work.
+
+
+      The prize funds are intended to support further development of the project created during the bootcamp and must be used in accordance with University financial policies.
 ---
