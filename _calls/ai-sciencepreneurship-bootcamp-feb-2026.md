@@ -92,4 +92,35 @@ faqs:
 
 
       We have a limited number of spaces at the workshop, so encourage early registration. Teams working on shared challenges are welcome to apply, but we ask that each team member must submit an individual application.
+  - question: What will be covered by the bootcamp?
+    answer: >-
+      * Technical workshops on foundation models and AI tools led by the
+      Accelerate Science team
+
+      * Training sessions on start-up fundamentals from Cambridge Innovation Capital
+
+      * Founder story sessions with successful AI entrepreneurs
+
+      * Pitch development and showcase opportunities with local entrepreneurs
+  - question: "Will there be further opportunities to get involved in ELIAS Cambridge? "
+    answer: Yes, this is part of an ongoing series of initiatives by the Cambridge
+      ELIAS node. Future workshops and events will be announced as the ELIAS
+      Alliance develops.
+  - question: What is the time commitment?
+    answer:  Participants must commit to attending all two full days of the bootcamp
+      (11-12 February 2026) and actively participate in working sessions. We are
+      currently planning for sessions to run from 09:30 - 17:30 across both
+      days.
+  - answer:  Yes, we welcome applications from research teams working on shared
+      projects, though each team member must submit an individual application.
+    question: Can teams apply together?
+  - question: How does this relate to other entrepreneurship programmes in Cambridge?
+    answer: The bootcamp is part of Cambridge's European Leadership in Innovation
+      with AI and Science (ELIAS) node, an initiative to accelerate AI-driven
+      scientific innovation in the Cambridge ecosystem. Researchers at Cambridge
+      have the opportunity to benefit from a range of programmes that provide
+      support for research commercialisation. This programme is focused on the
+      use of AI for science, providing a space to work through practical issues
+      associated with building AI tools and introducing topics in
+      entrepreneurship.
 ---
