@@ -8,7 +8,7 @@ application_deadline: 2026-01-28
 call_content: >-
   ai@cam announces its second AI Sciencepreneurship Bootcamp, an immersive
   two-day programme that helps researchers translate AI for science ideas to
-  practice through entrepreneurship.
+  practice through entrepreneurship. 
 
 
   Following the success of our first event in June 2025, ai@cam is launching the second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day programme designed to help researchers transform breakthrough AI innovations in scientific research into real-world impact.
