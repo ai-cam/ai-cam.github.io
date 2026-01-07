@@ -78,4 +78,15 @@ faqs:
       * Infrastructure and standards development: Frameworks, protocols, or integration layers that enable AI deployment across fragmented systems. This might include data sharing standards, orchestration platforms, or API specifications that allow different systems to work together.
 
       * Process redesign with AI enablement: Rethinking service delivery processes where AI is one component of a broader improvement. For example, simplifying a complex application process while using AI to support specific steps.
+  - question: How much funding is available?
+    answer: Individual projects can receive up to £25,000 for 6-12 months of
+      proof-of-concept development. Additional support including technical
+      clinics, monthly community of practice sessions, and programme management
+      is provided by ai@cam.
+  - question: What is the project timeline?
+    answer: Funded projects must deliver within 12 months of receiving funding. This
+      includes proof-of-concept development, testing with council partners,
+      documentation of lessons learned, and presentation at the final showcase
+      event. The timeline ensures solutions remain relevant to current council
+      needs and maintains momentum for potential scaling.
 ---
