@@ -54,6 +54,7 @@ apply_text: >-
 apply_links:
   - link_text: Apply here
     link: https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform
+faq_title: FAQ's
 faqs:
   - question: "Who can participate in this bootcamp? "
     answer: >-
