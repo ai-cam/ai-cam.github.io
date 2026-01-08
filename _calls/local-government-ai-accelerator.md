@@ -42,7 +42,7 @@ apply_links:
   - link: https://forms.gle/pajM2M1od8cuFvUY7
     link_text: Apply here
   - link: https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g#/registration
-    link_text: Register for further information
+    link_text: Register for the Q&A Session
 faq_title: FAQ's
 faqs:
   - answer: The fund provides grants of up to £25,000 to support collaborative
