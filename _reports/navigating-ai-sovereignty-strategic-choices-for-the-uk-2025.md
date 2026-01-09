@@ -44,7 +44,7 @@ citation_fields:
 
 * **Make government an anchor customer for UK AI**
 
-  Public sector AI procurement, particularly by the NHS and government digital services, should include an assessment of whether spending builds UK capabilities or reinforces dependencies.
+  : Public sector AI procurement, particularly by the NHS and government digital services, should include an assessment of whether spending builds UK capabilities or reinforces dependencies.
 * **Use competition policy to keep markets contestable**
 
   Prevent anti-competitive practices that lock customers into proprietary systems, creating space for UK alternatives.
