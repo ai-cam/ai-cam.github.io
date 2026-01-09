@@ -47,13 +47,13 @@ citation_fields:
   : Public sector AI procurement, particularly by the NHS and government digital services, should include an assessment of whether spending builds UK capabilities or reinforces dependencies.
 * **Use competition policy to keep markets contestable**
 
-  Prevent anti-competitive practices that lock customers into proprietary systems, creating space for UK alternatives.
+  : Prevent anti-competitive practices that lock customers into proprietary systems, creating space for UK alternatives.
 * **Partner to build capacity, not only access near-term capabilities**
 
-  Restructure partnerships around knowledge transfer requirements and joint development programmes.
+  : Restructure partnerships around knowledge transfer requirements and joint development programmes.
 * **Support open-source AI development**
 
-  Connect open-source model development with public compute resources and institutional adoption to position the UK as a hub for open-source AI.
+  : Connect open-source model development with public compute resources and institutional adoption to position the UK as a hub for open-source AI.
 
 **Impact and Next Steps**
 
