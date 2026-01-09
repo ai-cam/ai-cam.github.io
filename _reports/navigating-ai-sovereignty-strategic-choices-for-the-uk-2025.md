@@ -13,6 +13,9 @@ abstract: This policy brief addresses whether the UK’s current approach to AI
   capabilities that serve UK interests, a new, integrated approach is required,
   connecting research, industrial strategy, and procurement to create enduring
   capacity rather than temporary access to technology.
+links:
+  - link: /assets/images/uploads/navigating-ai-sovereignty-strategic-choices-for-the-uk.-2025.pdf
+    link_text: Download Report
 citation_fields:
   publisher: University of Cambridge
 ---
