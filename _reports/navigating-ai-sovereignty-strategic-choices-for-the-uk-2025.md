@@ -16,6 +16,19 @@ abstract: This policy brief addresses whether the UK’s current approach to AI
 links:
   - link: /assets/images/uploads/navigating-ai-sovereignty-strategic-choices-for-the-uk.-2025.pdf
     link_text: Download Report
+authors:
+  - name: Jessica Montgomery
+    role: Director ai@cam
+    photo: /assets/images/uploads/montgomery_jessica.jpg
+  - photo: /assets/images/uploads/lawrence_neil.png
+    name: Neil Lawrence
+    role: Chair ai@cam
+  - photo: /assets/images/uploads/coyle_diane-1-.jpg
+    name: Diane Coyle
+    role: Bennett Professor of Public Policy
+  - photo: /assets/images/uploads/neff_gina.jpg
+    name: Gina Neff
+    role: Executive Director of the Minderoo Centre for Technology & Democracy
 citation_fields:
   publisher: University of Cambridge
 ---
