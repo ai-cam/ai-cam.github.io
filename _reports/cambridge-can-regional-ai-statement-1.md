@@ -146,6 +146,6 @@ The findings from this interim report are shaping the direction of our [Local G
 * Workforce impact: How will this affect council staff roles and skills? What training or support will be needed? 
 * Exit and contingency planning: What happens if the AI system fails or needs to be withdrawn? How will services continue? What skills and capabilities need to be maintained?
 
-A second phase of dialogue will take place in March 2026, and insights will continue to inform the programme. The interim public dialogue report can be found [here.](https://www.ai.cam.ac.uk/assets/uploads/interim-report-public-dialogue-on-ai-in-local-government.pdf)
+A second phase of dialogue will take place in March 2026, and insights will continue to inform the programme.[](https://www.ai.cam.ac.uk/assets/uploads/interim-report-public-dialogue-on-ai-in-local-government.pdf)
 
 [](https://www.ai.cam.ac.uk/)
