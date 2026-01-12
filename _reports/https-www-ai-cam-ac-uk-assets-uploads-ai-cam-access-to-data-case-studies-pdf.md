@@ -1,4 +1,5 @@
 ---
+slug: https-www-ai-cam-ac-uk-assets-uploads-ai-cam-access-to-data-case-studies-pdf
 title: "AI Public Dialogues: Understanding Public Perspectives on AI in
   Government Missions"
 excerpt: This report presents findings from public dialogue workshops conducted

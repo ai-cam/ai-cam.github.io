@@ -1,4 +1,5 @@
 ---
+slug: thermal-imaging-for-precision-brain-tumour-ai-powered-crop-disease-advisories-for-global-food-security
 title: Thermal Imaging for Precision Brain Tumour AI-Powered Crop Disease
   Advisories for Global Food Security
 description: With climate change accelerating crop diseases and threatening food

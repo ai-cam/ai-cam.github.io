@@ -1,4 +1,5 @@
 ---
+slug: local-government-ai-accelerator
 title: Local Government AI Accelerator
 call_excerpt: ""
 call_categories: Open Calls

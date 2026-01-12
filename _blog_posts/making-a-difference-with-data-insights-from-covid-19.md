@@ -1,4 +1,5 @@
 ---
+slug: making-a-difference-with-data-insights-from-covid-19
 title: "Making a difference with data: Insights from COVID-19"
 date: 2025-01-30
 cover_image: /assets/images/uploads/covid-blog1.jpg

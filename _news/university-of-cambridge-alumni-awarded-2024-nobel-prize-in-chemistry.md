@@ -1,4 +1,5 @@
 ---
+slug: university-of-cambridge-alumni-awarded-2024-nobel-prize-in-chemistry
 title: University of Cambridge alumni awarded 2024 Nobel Prize in Chemistry
 excerpt: "Two University alumni, Sir Demis Hassabis and Dr John Jumper, have
   been jointly awarded this year’s Nobel Prize in Chemistry for developing an AI

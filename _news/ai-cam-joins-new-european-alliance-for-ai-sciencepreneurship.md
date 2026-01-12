@@ -1,4 +1,5 @@
 ---
+slug: ai-cam-joins-new-european-alliance-for-ai-sciencepreneurship
 title: ai@cam joins new European Alliance for AI sciencepreneurship
 excerpt: >+
   ai@cam, Cambridge University’s flagship mission on artificial intelligence,

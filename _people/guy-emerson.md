@@ -1,4 +1,5 @@
 ---
+slug: guy-emerson
 title: Guy Emerson
 photo: /assets/images/uploads/guy-emerson-1-.jpeg
 job_title: Executive Director, Cambridge Language Sciences

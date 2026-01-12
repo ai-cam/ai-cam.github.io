@@ -1,4 +1,5 @@
 ---
+slug: pauline-luise-pfuderer
 title: Pauline Luise Pfuderer
 photo: /assets/images/uploads/pfuderer_pauline-luise.png
 job_title: PhD student

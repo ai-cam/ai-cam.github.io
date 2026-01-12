@@ -1,3 +1,13 @@
+// Safari/iOS tespiti - backdrop-filter düzgün çalışmayan tarayıcılar için fallback
+(function() {
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    
+    if (isSafari || isIOS) {
+        document.documentElement.classList.add('no-backdrop-blur');
+    }
+})();
+
 $(function () {
 
     // Loading Screen with Cookie Control

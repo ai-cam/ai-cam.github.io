@@ -1,4 +1,5 @@
 ---
+slug: ai-cafe-st-edmunds-college
 title: AI Cafe - St Edmund's College
 excerpt: >+
   Have you thought about using AI in your research but aren’t sure how to get

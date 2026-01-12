@@ -1,4 +1,5 @@
 ---
+slug: ramit-debnath
 title: Ramit Debnath
 photo: /assets/images/uploads/ramit_debnath-1-.jpeg
 job_title: Assistant Professor of Mathematics and Social Design

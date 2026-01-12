@@ -1,4 +1,5 @@
 ---
+slug: ai-research-resource-second-call-for-pioneer-projects
 title: "AI Research Resource: Second Call for Pioneer Projects"
 call_excerpt: "Building on the success of our first cohort of 44 pioneer
   projects, Research Computing Services, the Cambridge Centre for Data Driven

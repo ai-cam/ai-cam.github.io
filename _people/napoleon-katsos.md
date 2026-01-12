@@ -1,4 +1,5 @@
 ---
+slug: napoleon-katsos
 title: Napoleon Katsos
 photo: /assets/images/uploads/katsos-1-.jpeg
 job_title: Professor in Experimental Linguistics

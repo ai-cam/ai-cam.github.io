@@ -1,4 +1,5 @@
 ---
+slug: nikhil-krishnan
 title: Nikhil Krishnan
 photo: /assets/images/uploads/nakul-krishna-1-.png
 job_title: Lecturer

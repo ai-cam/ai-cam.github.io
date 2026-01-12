@@ -1,4 +1,5 @@
 ---
+slug: workshop-ai-time-politics-and-ideologies-of-the-future
 title: AI for Ops Community Meet Up 2026
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across

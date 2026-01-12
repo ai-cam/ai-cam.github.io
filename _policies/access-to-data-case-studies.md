@@ -1,4 +1,5 @@
 ---
+slug: access-to-data-case-studies
 title: Access to Data Case Studies
 excerpt: "Access to data for research: lessons for the National Data Library
   from the front lines of AI innovation."

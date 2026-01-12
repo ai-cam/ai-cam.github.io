@@ -14,7 +14,10 @@ collections:
     folder: "_blog_posts"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-blog-post). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
@@ -42,7 +45,10 @@ collections:
     folder: "_calls"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-call). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Call Excerpt", name: "call_excerpt", widget: "text", required: false }
       - label: "Call Category"
@@ -89,6 +95,7 @@ collections:
     create: true
     slug: "{{slug}}"
     identifier_field: "slug"
+    summary: "{{title}}"
     fields:
       - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-event-name)" }
       - { label: "Title", name: "title", widget: "string" }
@@ -158,6 +165,7 @@ collections:
     create: true
     slug: "{{slug}}"
     identifier_field: "slug"
+    summary: "{{title}}"
     fields:
       - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-news-item)" }
       - { label: "Title", name: "title", widget: "string" }
@@ -182,7 +190,10 @@ collections:
     folder: "_projects"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-project). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
@@ -231,7 +242,10 @@ collections:
     folder: "_reports"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-report). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Report Date", name: "report_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
@@ -277,7 +291,10 @@ collections:
     folder: "_team_members"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., john-doe). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Job Title", name: "job_title", widget: "string" }
       - { label: "Photo", name: "photo", widget: "image" }
@@ -309,7 +326,10 @@ collections:
     folder: "_people"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., john-doe). This will be used in the URL." }
       - label: "Team Member (Optional)"
         name: "team_member"
         widget: "relation"
@@ -336,7 +356,10 @@ collections:
     folder: "_policies"
     create: true
     slug: "{{slug}}"
+    identifier_field: "slug"
+    summary: "{{title}}"
     fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-policy). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }

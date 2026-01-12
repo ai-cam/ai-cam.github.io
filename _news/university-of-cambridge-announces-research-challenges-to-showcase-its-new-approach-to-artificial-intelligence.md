@@ -1,4 +1,5 @@
 ---
+slug: university-of-cambridge-announces-research-challenges-to-showcase-its-new-approach-to-artificial-intelligence
 title: University of Cambridge announces research challenges to showcase its new
   approach to Artificial Intelligence
 excerpt: The winners of a new prize supporting ambitious ideas for how

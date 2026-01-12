@@ -1,4 +1,5 @@
 ---
+slug: personalised-second-language-learning-through-ai
 title: Personalised Second Language Learning Through AI
 description: Despite the societal and economic benefits of second language
   learning, participation in language education has been declining, with marked

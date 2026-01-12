@@ -1,4 +1,5 @@
 ---
+slug: ai-in-local-government-shaping-the-future-of-public-services
 title: "AI in Local Government: Shaping the Future of Public Services"
 date: 2024-11-20
 cover_image: /assets/images/uploads/blog12.png

@@ -1,4 +1,5 @@
 ---
+slug: ai-house-davos-ai-for-public-benefit-bridging-technology-and-society
 title: "AI House Davos - AI for Public Benefit: Bridging Technology and Society"
 excerpt: We stand at a critical moment in the development of AI. Technical
   capabilities are advancing rapidly, but there is a persistent gap between

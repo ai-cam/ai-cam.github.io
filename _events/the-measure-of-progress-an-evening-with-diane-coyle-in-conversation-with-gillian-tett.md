@@ -1,4 +1,5 @@
 ---
+slug: the-measure-of-progress-an-evening-with-diane-coyle-in-conversation-with-gillian-tett
 title: "The Measure of Progress: an evening with Diane Coyle in conversation
   with Gillian Tett"
 excerpt: "Join renowned economist Diane Coyle for the launch of her latest book,

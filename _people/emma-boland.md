@@ -1,4 +1,5 @@
 ---
+slug: emma-boland
 title: Emma Boland
 photo: /assets/images/uploads/boland_emma.jpg
 job_title: Physical Oceanographer

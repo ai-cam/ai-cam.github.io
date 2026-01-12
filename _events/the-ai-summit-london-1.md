@@ -1,4 +1,5 @@
 ---
+slug: the-ai-summit-london-1
 title: The AI Summit London
 excerpt: As AI technologies reshape the business landscape, leaders face
   questions about balancing automation with individual judgment, information

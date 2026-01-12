@@ -1,4 +1,5 @@
 ---
+slug: commercialisation-of-ai-for-university-researchers
 title: Commercialisation of AI for University Researchers
 excerpt: >+
   Are you developing AI and ML as part of your research? Perhaps you’ve created

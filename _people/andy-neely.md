@@ -1,4 +1,5 @@
 ---
+slug: andy-neely
 title: Andy Neely
 photo: /assets/images/uploads/neely_andy.jpeg
 job_title: Pro-Vice-Chancellor

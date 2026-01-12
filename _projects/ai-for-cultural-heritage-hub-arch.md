@@ -1,4 +1,5 @@
 ---
+slug: ai-for-cultural-heritage-hub-arch
 title: AI for Cultural Heritage Hub (ArCH)
 description: Cambridge’s GLAM institutions (galleries, libraries, archives, and
   museums) house millions of objects from across the globe, representing an

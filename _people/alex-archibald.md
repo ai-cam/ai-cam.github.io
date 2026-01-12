@@ -1,4 +1,5 @@
 ---
+slug: alex-archibald
 title: Alex Archibald
 photo: /assets/images/uploads/archibald_alex.jpeg
 job_title: Lecturer

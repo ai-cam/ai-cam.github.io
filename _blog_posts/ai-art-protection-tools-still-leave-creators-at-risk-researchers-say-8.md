@@ -1,4 +1,5 @@
 ---
+slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-8
 title: The Future of Marking? Investigating AI’s Potential in Student Assessment
 date: 2025-05-18
 cover_image: /assets/images/uploads/kateryna-hliznitsova-jt5iuqhtl7e-unsplash.jpg

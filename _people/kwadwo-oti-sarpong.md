@@ -1,4 +1,5 @@
 ---
+slug: kwadwo-oti-sarpong
 title: Kwadwo Oti-Sarpong
 photo: /assets/images/uploads/kwado_os-1-.png
 job_title: Senior Research and Teaching Associate in Urban Systems and

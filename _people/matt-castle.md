@@ -1,4 +1,5 @@
 ---
+slug: matt-castle
 title: Matt Castle
 photo: /assets/images/uploads/matt_castle_2018_-_copy.jpeg
 job_title: Head of Bioinformatics Training

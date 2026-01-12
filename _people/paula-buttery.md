@@ -1,4 +1,5 @@
 ---
+slug: paula-buttery
 title: Paula Buttery
 photo: /assets/images/uploads/paula_buttery-1-.jpeg
 job_title: Professor of Language and Machine Learning

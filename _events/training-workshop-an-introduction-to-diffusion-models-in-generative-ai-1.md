@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-an-introduction-to-diffusion-models-in-generative-ai-1
 title: "Training Workshop: An Introduction to Diffusion Models in Generative AI"
 excerpt: With the increase in AI-generated imagery using models such as Dall-E,
   Midjourney and Sora and research applications such as AlphaFold, there has

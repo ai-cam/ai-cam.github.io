@@ -1,4 +1,5 @@
 ---
+slug: onkar-gulati
 title: Onkar Gulati
 job_title: PhD Candidate
 department: Department of Computer Science and Technology

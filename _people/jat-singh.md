@@ -1,4 +1,5 @@
 ---
+slug: jat-singh
 title: Jat Singh
 photo: /assets/images/uploads/singh_jatinder.jpg
 job_title: Principal Researcher

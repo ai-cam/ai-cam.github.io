@@ -1,4 +1,5 @@
 ---
+slug: new-funding-call-to-support-ai-innovation-in-university-operations-1
 title: New funding call to support AI innovation in University operations
 excerpt: >+
   ai@cam has launched a new funding call to support professional services teams

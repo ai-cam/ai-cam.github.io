@@ -1,4 +1,5 @@
 ---
+slug: frank-kelly
 title: Frank Kelly
 photo: /assets/images/uploads/kelly_francis.jpg
 job_title: Emeritus Professor of the Mathematics of Systems

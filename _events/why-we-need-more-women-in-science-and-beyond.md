@@ -1,4 +1,5 @@
 ---
+slug: why-we-need-more-women-in-science-and-beyond
 title: Why we need more women in science and beyond
 excerpt: What progress has been made, and what more is needed to bring more
   women into science and other professions where they are under-represented?

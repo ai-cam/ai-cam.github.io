@@ -1,4 +1,5 @@
 ---
+slug: libraries-working-smarter-with-ai
 title: Libraries Working Smarter with AI
 description: Cambridge University Library
 cover_image: /assets/images/uploads/images.jpeg

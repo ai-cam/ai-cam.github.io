@@ -5,25 +5,26 @@ logos:
   logo_light: /assets/images/ai-cam-logo-light.svg
   university_logo_dark: /assets/images/university-of-cambridge-logo-dark.svg
   university_logo_light: /assets/images/university-of-cambridge-logo-light.svg
-  university_link: "#"
+  university_link: https://www.cam.ac.uk/
 social_media:
   linkedin:
-    url: "#"
+    url: "https://www.linkedin.com/company/103543261/admin/feed/posts/ "
     icon: /assets/images/icons/linkedin.svg
   twitter:
-    url: "#"
+    url: https://twitter.com/ai_cam_mission
     icon: /assets/images/icons/x.svg
   bluesky:
-    url: "#"
+    url: https://bsky.app/profile/ai.cam.ac.uk
     icon: /assets/images/icons/fly.svg
   facebook:
     url: ""
     icon: /assets/images/icons/facebook.svg
 footer:
-  footer_copyright: Copyright ai@cam 2025
+  footer_copyright: Copyright ai@cam 2026
   footer_designer: Designed by Colouring Department
   footer_designer_url: https://colouringdepartment.com/
-  subscribe_link: "#"
+  subscribe_link: "https://cam.us17.list-manage.com/subscribe?u=eebd562cf8763d2b7\
+    f3d6902e&id=b05fad9b7b "
 join_cta:
   cta_title: Join our ai@cam community
   cta_description: Keep up to date with the latest.

@@ -1,4 +1,5 @@
 ---
+slug: integrated-cancer-medicine-symposium-machine-learning-and-ai-for-hard-to-treat-cancers-datasets-pipelines-and-clinical-implementation
 title: "Integrated Cancer Medicine Symposium Machine Learning and AI for
   Hard-To-Treat Cancers: Datasets, Pipelines and Clinical Implementation"
 excerpt: >+

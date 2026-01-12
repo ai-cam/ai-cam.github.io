@@ -1,4 +1,5 @@
 ---
+slug: somenath-bakshi
 team_member: ""
 title: Somenath Bakshi
 photo: /assets/images/uploads/bakshi_somenath.png

@@ -1,4 +1,5 @@
 ---
+slug: from-ideas-to-impact-early-lessons-from-our-ai-for-operations-programme
 title: "From ideas to impact: Early lessons from our AI for Operations programme"
 date: 2025-12-22
 cover_image: /assets/images/uploads/cambridge-2026-blog1.jpg

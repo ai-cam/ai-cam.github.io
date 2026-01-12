@@ -1,4 +1,5 @@
 ---
+slug: alex-woolgar
 title: Alex Woolgar
 photo: /assets/images/uploads/alex_woolgar-1-.jpeg
 job_title: Professor of Cognitive Neuroscience

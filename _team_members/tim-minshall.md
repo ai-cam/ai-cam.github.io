@@ -1,4 +1,5 @@
 ---
+slug: tim-minshall
 title: Tim Minshall
 job_title: Dr John C Taylor Professor of Innovation, and Head of the Institute
   for Manufacturine

@@ -1,4 +1,5 @@
 ---
+slug: mireia-crispin
 title: Mireia Crispin
 job_title: Assistant Professor
 photo: /assets/images/uploads/team-8.png

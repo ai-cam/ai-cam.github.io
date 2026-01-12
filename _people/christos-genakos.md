@@ -1,4 +1,5 @@
 ---
+slug: christos-genakos
 title: Christos Genakos
 photo: /assets/images/uploads/christos-genakos-703x396-1.jpg
 job_title: Professor of Economics

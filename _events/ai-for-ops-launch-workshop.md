@@ -1,4 +1,5 @@
 ---
+slug: ai-for-ops-launch-workshop
 title: AI for Ops Launch Workshop
 excerpt: After ai@cam’s AI for Ops funding call, we are excited to host our
   launch workshop for project awardees.

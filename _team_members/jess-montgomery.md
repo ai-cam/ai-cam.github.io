@@ -1,4 +1,5 @@
 ---
+slug: jess-montgomery
 title: Jess Montgomery
 job_title: Director, ai@cam
 photo: /assets/images/uploads/team-6.png

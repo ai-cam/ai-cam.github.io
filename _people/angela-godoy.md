@@ -1,4 +1,5 @@
 ---
+slug: angela-godoy
 title: Angela Godoy
 photo: /assets/images/uploads/angela-godoy.jpg
 biography: I am the programme manager for the Brain Health AI-deas Hub. I have

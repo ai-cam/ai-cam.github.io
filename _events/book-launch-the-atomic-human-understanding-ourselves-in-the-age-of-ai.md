@@ -1,4 +1,5 @@
 ---
+slug: book-launch-the-atomic-human-understanding-ourselves-in-the-age-of-ai
 title: "Book Launch: The Atomic Human - Understanding Ourselves in the Age of AI"
 excerpt: "Join the Minderoo Centre for Technology & Democracy and ai@cam for the
   launch of Atomic Human: Understanding Ourselves in the Age of AI ,a visionary

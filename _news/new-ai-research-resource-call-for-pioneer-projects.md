@@ -1,4 +1,5 @@
 ---
+slug: new-ai-research-resource-call-for-pioneer-projects
 title: "New AI Research Resource: Call for pioneer projects"
 excerpt: Earlier this month, the UK Government announced a £300 million package
   of support for the UK’s AI Research Resource, strengthened by a further

@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-llm-hands-on-workshop-2
 title: "Training Workshop: LLM Hands on Workshop"
 excerpt: We know that when you’re learning AI & ML, a mix of classroom theory
   and hands-on practice is the best way to learn. So, we’re running a 1-day

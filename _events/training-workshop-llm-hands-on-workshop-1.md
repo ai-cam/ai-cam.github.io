@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-llm-hands-on-workshop-1
 title: "Training Workshop: LLM Hands on Workshop"
 excerpt: Accelerate Science are running a 1-day hands-on ML workshop to help you
   apply and develop further practical ML skills. This workshop will focus on

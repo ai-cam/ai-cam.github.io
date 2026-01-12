@@ -1,4 +1,5 @@
 ---
+slug: lucia-reisch
 title: Lucia Reisch
 photo: /assets/images/uploads/reisch_lucia.jpg
 job_title: Professor for Behavioural Economics and Public Policy

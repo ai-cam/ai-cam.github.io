@@ -1,4 +1,5 @@
 ---
+slug: zoe-kourtzi
 team_member: ""
 title: Zoe Kourtzi
 photo: /assets/images/uploads/kourtzi_zoe-1-.png

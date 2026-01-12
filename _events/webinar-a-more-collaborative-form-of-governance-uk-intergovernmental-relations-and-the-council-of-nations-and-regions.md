@@ -1,4 +1,5 @@
 ---
+slug: webinar-a-more-collaborative-form-of-governance-uk-intergovernmental-relations-and-the-council-of-nations-and-regions
 title: "Webinar: A more collaborative form of governance? UK intergovernmental
   relations and the Council of Nations and Regions"
 excerpt: Researchers at the Bennett Institute for Public Policy and PolicyWISE

@@ -1,4 +1,5 @@
 ---
+slug: cambridge-ai-club-for-biomedicine
 title: Cambridge AI Club for Biomedicine
 excerpt: Bringing together the Biomedical AI and Machine Learning community to
   discuss common themes and explore different topics and methodologies. These

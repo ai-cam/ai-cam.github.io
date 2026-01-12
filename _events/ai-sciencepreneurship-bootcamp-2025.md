@@ -1,4 +1,5 @@
 ---
+slug: ai-sciencepreneurship-bootcamp-2025
 title: AI Sciencepreneurship bootcamp 2025
 excerpt: ai@cam is hosting an inaugural AI Sciencepreneurship bootcamp convened
   in collaboration with the ELIAS network of European innovation hubs. This

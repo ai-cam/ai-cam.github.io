@@ -1,4 +1,5 @@
 ---
+slug: what-are-the-geopolitical-implications-of-ai
 title: What are the geopolitical implications of AI?
 date: 2023-11-01
 cover_image: /assets/images/uploads/harding_verity.png

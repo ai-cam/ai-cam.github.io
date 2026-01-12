@@ -1,4 +1,5 @@
 ---
+slug: jenny-gibson
 title: Jenny Gibson
 photo: /assets/images/uploads/gibson_jenny-1-.jpeg
 job_title: Professor of Developmental Psychology

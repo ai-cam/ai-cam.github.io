@@ -1,4 +1,5 @@
 ---
+slug: florian-markowetz
 title: Florian Markowetz
 photo: /assets/images/uploads/markowetz_florian.jpg
 job_title: Professor of Computational Oncology

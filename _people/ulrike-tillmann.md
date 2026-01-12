@@ -1,4 +1,5 @@
 ---
+slug: ulrike-tillmann
 title: Ulrike Tillmann
 photo: /assets/images/uploads/tillman_ulrike.jpeg
 job_title: Director

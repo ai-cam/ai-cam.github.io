@@ -1,4 +1,5 @@
 ---
+slug: giulio-corsi
 title: Giulio Corsi
 photo: /assets/images/uploads/corsi-1-.jpeg
 job_title: Research Associate

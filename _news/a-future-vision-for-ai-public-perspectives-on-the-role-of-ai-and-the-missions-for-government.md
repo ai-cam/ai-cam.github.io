@@ -1,4 +1,5 @@
 ---
+slug: a-future-vision-for-ai-public-perspectives-on-the-role-of-ai-and-the-missions-for-government
 title: "A future vision for AI: public perspectives on the role of AI and the
   Missions for Government"
 excerpt: A new ai@cam report sets out the guardrails needed to increase

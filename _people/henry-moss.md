@@ -1,4 +1,5 @@
 ---
+slug: henry-moss
 title: Henry Moss
 photo: /assets/images/uploads/henry_moss-1-.jpeg
 job_title: Early Career Advanced Fellow

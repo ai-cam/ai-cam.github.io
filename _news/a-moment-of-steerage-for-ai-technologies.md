@@ -1,4 +1,5 @@
 ---
+slug: a-moment-of-steerage-for-ai-technologies
 title: "'A moment of steerage' for AI technologies"
 excerpt: "How will AI large language models shape the future? And what is the
   right regulatory approach to this rapidly-changing technology area? These

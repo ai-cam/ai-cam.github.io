@@ -1,4 +1,5 @@
 ---
+slug: alex-almeida
 title: Alex Almeida
 photo: /assets/images/uploads/almeida_alexandre.jpg
 job_title: Principal Investigator, MRC Career Development Fellow

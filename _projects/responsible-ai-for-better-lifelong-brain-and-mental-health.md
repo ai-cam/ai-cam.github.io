@@ -1,4 +1,5 @@
 ---
+slug: responsible-ai-for-better-lifelong-brain-and-mental-health
 title: Responsible AI for better lifelong brain and mental health
 description: Brain diseases and mental health disorders are taking a toll on
   people throughout their lives. Dementia is the leading cause of death in

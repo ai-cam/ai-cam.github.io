@@ -1,4 +1,5 @@
 ---
+slug: alexandru-marcoci
 title: Alexandru Marcoci
 photo: /assets/images/uploads/marcoci_alexandru-1-.jpg
 job_title: Research Associate in AI Risk and Foresight

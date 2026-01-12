@@ -1,4 +1,5 @@
 ---
+slug: cambridge-can-regional-ai-statement-6
 title: Refreshing the UK's strategic approach to AI
 excerpt: This policy brief examines how to bridge the gap between AI’s technical
   capabilities and real-world public benefit. Through analysis of current policy

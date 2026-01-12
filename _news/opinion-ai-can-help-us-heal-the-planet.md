@@ -1,4 +1,5 @@
 ---
+slug: opinion-ai-can-help-us-heal-the-planet
 title: "Opinion: AI can help us heal the planet"
 excerpt: We need to act fast to mitigate the impacts of climate change, and to
   protect and restore biodiversity. There’s incredible potential in using AI to

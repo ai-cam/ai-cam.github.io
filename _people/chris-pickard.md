@@ -1,4 +1,5 @@
 ---
+slug: chris-pickard
 title: Chris Pickard
 photo: /assets/images/uploads/pickard_chris.jpg
 job_title: Sir Alan Cottrell Professor of Materials Science

@@ -1,4 +1,5 @@
 ---
+slug: katarzyna-nowaczyk-basińska
 title: Katarzyna Nowaczyk-Basińska
 photo: /assets/images/uploads/nowaczyk-basińska_katarzyna.png
 job_title: Research Fellow

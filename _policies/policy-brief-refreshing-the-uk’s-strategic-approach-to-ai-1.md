@@ -1,4 +1,5 @@
 ---
+slug: policy-brief-refreshing-the-uk’s-strategic-approach-to-ai-1
 title: Navigating AI Sovereignty
 excerpt: AI is at risk of following a well-worn path that results in
   technological innovations that fail to address real-world challenges. We have

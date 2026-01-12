@@ -1,4 +1,5 @@
 ---
+slug: ai6-art-protection-tools-still-leave-creators-at-risk-researchers-says
 title: ai@cam launches Sciencepreneurship Bootcamp to accelerate
   entrepreneurship in AI for science
 call_categories: Past Calls

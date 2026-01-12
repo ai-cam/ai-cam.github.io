@@ -1,4 +1,5 @@
 ---
+slug: ajay-halai
 title: Ajay Halai
 photo: /assets/images/uploads/ajay.halai-1-.png
 job_title: Senior Research Associate

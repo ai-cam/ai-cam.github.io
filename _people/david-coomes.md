@@ -1,4 +1,5 @@
 ---
+slug: david-coomes
 title: David Coomes
 photo: /assets/images/uploads/coomes-david-1-.jpeg
 job_title: Conservation Research Institute Director; Head of Forest Ecology and

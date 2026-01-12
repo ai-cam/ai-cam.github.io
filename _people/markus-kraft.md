@@ -1,4 +1,5 @@
 ---
+slug: markus-kraft
 title: Markus Kraft
 photo: /assets/images/uploads/markus-kraft.jpg
 job_title: Professor of Chemical Engineering; CARES Director

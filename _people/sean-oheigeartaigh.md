@@ -1,4 +1,5 @@
 ---
+slug: sean-oheigeartaigh
 title: Sean O'hEigeartaigh
 photo: /assets/images/uploads/oheigeartaigh_sean.jpeg
 job_title: "Director, AI: Futures and Responsibility Programme"

@@ -1,4 +1,5 @@
 ---
+slug: anna-korhonen
 title: Anna Korhonen
 photo: /assets/images/uploads/korhonen_anna.jpg
 job_title: Professor

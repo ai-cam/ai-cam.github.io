@@ -1,4 +1,5 @@
 ---
+slug: paul-calleja
 title: Paul Calleja
 photo: /assets/images/uploads/paul-calleja.jpeg
 job_title: Director of Research Computing Services

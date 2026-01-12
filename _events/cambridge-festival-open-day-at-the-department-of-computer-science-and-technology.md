@@ -1,4 +1,5 @@
 ---
+slug: cambridge-festival-open-day-at-the-department-of-computer-science-and-technology
 title: Cambridge Festival Open Day at the Department of Computer Science and
   Technology
 excerpt: Join us at the Computer Science and Technology event to meet the

@@ -1,4 +1,5 @@
 ---
+slug: opinion-ai-can-democratise-weather-forecasting
 title: "Opinion: AI can democratise weather forecasting"
 excerpt: AI will give us the next leap forward in forecasting the weather, says
   Richard Turner, and make it available to all countries, not just those with

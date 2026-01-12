@@ -1,4 +1,5 @@
 ---
+slug: generative-ai-policy-brief
 title: Generative AI policy brief
 excerpt: The rapid rollout of generative AI models, and public attention to Open
   AI’s ChatGPT, has raised concerns about AI’s impact on the economy and

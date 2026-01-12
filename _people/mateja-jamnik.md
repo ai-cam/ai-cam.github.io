@@ -1,4 +1,5 @@
 ---
+slug: mateja-jamnik
 title: Mateja Jamnik
 photo: /assets/images/uploads/jamnik_mateja.png
 job_title: Professor

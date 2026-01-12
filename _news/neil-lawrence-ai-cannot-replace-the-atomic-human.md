@@ -1,4 +1,5 @@
 ---
+slug: neil-lawrence-ai-cannot-replace-the-atomic-human
 title: "Neil Lawrence: AI cannot replace the atomic human"
 excerpt: Neil Lawrence, Chair of ai@cam, recently wrote an op-ed for the
   Financial Times discussing how to bridge the gap between supply and demand in

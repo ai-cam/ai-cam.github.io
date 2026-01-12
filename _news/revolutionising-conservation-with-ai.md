@@ -1,4 +1,5 @@
 ---
+slug: revolutionising-conservation-with-ai
 title: Revolutionising Conservation with AI
 excerpt: >+
   With biodiversity facing unprecedented challenges, researchers have identified

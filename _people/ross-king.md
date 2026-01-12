@@ -1,4 +1,5 @@
 ---
+slug: ross-king
 title: Ross King
 photo: /assets/images/uploads/king_ross.jpg
 job_title: Automating Science using Robot Scientists

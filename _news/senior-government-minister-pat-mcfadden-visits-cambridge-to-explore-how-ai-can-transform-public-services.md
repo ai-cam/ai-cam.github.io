@@ -1,4 +1,5 @@
 ---
+slug: senior-government-minister-pat-mcfadden-visits-cambridge-to-explore-how-ai-can-transform-public-services
 title: Senior Government Minister, Pat McFadden, visits Cambridge to explore how
   AI can transform public services
 excerpt: "The University welcomed the Chancellor of the Duchy of Lancaster, Rt

@@ -1,4 +1,5 @@
 ---
+slug: richard-prager
 title: Richard Prager
 photo: /assets/images/uploads/prager_richard.jpg
 job_title: Head of Cambridge University Engineering Department

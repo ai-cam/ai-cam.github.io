@@ -45,7 +45,7 @@ layout: default
                     <div class="text">
                         <div class="top-title">
                             {% if call.call_categories %}<span class="category">{{ call.call_categories }}</span>{% endif %}
-                            {% if call.title %}<h2>{{ call.title }}</h2>{% endif %}
+                            {% if call.title %}<h2><a href="{{ call.url }}" style="color: inherit;">{{ call.title }}</a></h2>{% endif %}
                             {% if call.call_date %}<h5>{{ call.call_date | date: "%B %Y" }}</h5>{% endif %}
                         </div>
 

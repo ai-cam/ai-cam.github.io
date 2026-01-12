@@ -1,4 +1,5 @@
 ---
+slug: how-can-ai-safety-research-reduce-the-risks-of-ai
 title: How can AI safety research reduce the risks of AI?
 date: 2023-11-01
 cover_image: /assets/images/uploads/krueger_david.png

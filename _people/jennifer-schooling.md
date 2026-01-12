@@ -1,4 +1,5 @@
 ---
+slug: jennifer-schooling
 title: Jennifer Schooling
 photo: /assets/images/uploads/jennifer-schooling-1-.jpg
 biography: >-

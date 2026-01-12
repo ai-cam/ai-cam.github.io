@@ -1,4 +1,5 @@
 ---
+slug: richard-turner
 title: Richard Turner
 job_title: Professor of Machine Learning
 photo: /assets/images/uploads/rich-square_0.png

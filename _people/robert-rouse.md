@@ -1,4 +1,5 @@
 ---
+slug: robert-rouse
 team_member: ""
 title: Robert Rouse
 photo: /assets/images/uploads/robert-rouse-1-.jpeg

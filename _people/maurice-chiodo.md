@@ -1,4 +1,5 @@
 ---
+slug: maurice-chiodo
 title: Maurice Chiodo
 photo: /assets/images/uploads/chiodo_maurice.jpg
 job_title: Research Associate

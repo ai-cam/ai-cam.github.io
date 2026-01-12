@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-packaging-and-publishing-python-code-for-research
 title: "Training Workshop: Packaging and Publishing Python Code for Research"
 excerpt: A one day workshop to equip researchers with knowledge of workflows and
   tools they can use to package and publish their code. Releasing software

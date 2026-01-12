@@ -1,4 +1,5 @@
 ---
+slug: neil-lawrence
 title: Neil Lawrence
 job_title: Chair, ai@cam
 photo: /assets/images/uploads/team-9.png

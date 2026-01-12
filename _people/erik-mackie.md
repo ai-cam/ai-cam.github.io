@@ -1,4 +1,5 @@
 ---
+slug: erik-mackie
 title: Erik Mackie
 photo: /assets/images/uploads/erik_mackie-1-.jpeg
 job_title: Research Engagement Manager

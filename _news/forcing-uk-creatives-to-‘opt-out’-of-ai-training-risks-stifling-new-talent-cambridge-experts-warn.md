@@ -1,4 +1,5 @@
 ---
+slug: forcing-uk-creatives-to-‘opt-out’-of-ai-training-risks-stifling-new-talent-cambridge-experts-warn
 title: Forcing UK creatives to ‘opt out’ of AI training risks stifling new
   talent, Cambridge experts warn
 excerpt: The UK government’s proposed ‘rights reservation’ model for AI data

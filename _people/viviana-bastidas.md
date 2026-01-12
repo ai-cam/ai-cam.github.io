@@ -1,4 +1,5 @@
 ---
+slug: viviana-bastidas
 title: Viviana Bastidas
 photo: /assets/images/uploads/viviana_bm-1-.jpeg
 job_title: Research Associate in Urban Systems and Infrastructure

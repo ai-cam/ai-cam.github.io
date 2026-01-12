@@ -1,4 +1,5 @@
 ---
+slug: sebastian-eves-van-den-akker
 title: Sebastian Eves-van den Akker
 photo: /assets/images/uploads/eves-van-den-akker_sebastian.jpg
 job_title: Head of the Plant-Parasite Interactions Group

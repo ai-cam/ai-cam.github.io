@@ -1,4 +1,5 @@
 ---
+slug: ai-needs-to-serve-people-science-and-society
 title: AI needs to serve people, science, and society
 date: 2022-04-29
 cover_image: /assets/images/uploads/ai-885-2-.png

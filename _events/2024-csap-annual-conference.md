@@ -1,4 +1,5 @@
 ---
+slug: 2024-csap-annual-conference
 title: 2024 CSaP Annual Conference
 excerpt: The CSaP Annual Conference brings together an audience of policy
   professionals, academic experts and business leaders for a day of talks and

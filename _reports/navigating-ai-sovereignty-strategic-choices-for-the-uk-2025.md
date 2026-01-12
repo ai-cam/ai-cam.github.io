@@ -1,4 +1,5 @@
 ---
+slug: navigating-ai-sovereignty-strategic-choices-for-the-uk-2025
 title: "Navigating AI Sovereignty: Strategic Choices for the UK"
 excerpt: This policy brief addresses whether the UK’s current approach to AI
   sovereignty is able to deliver a future where the nation can influence the AI

@@ -1,4 +1,5 @@
 ---
+slug: kerry-mcinerney
 title: Kerry McInerney
 photo: /assets/images/uploads/mcinerney_kerry.webp
 job_title: Research Fellow

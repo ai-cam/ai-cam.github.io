@@ -1,4 +1,5 @@
 ---
+slug: cambridge-can-regional-ai-statement-3
 title: ai@cam Annual Report 2024-2025
 excerpt: >-
   By connecting the University of Cambridge’s world-leading research with

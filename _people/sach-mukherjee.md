@@ -1,4 +1,5 @@
 ---
+slug: sach-mukherjee
 title: Sach Mukherjee
 photo: /assets/images/uploads/mukherjee_sach.jpg
 job_title: MRC Investigator

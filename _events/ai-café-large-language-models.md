@@ -1,4 +1,5 @@
 ---
+slug: ai-café-large-language-models
 title: "AI Café: Large Language Models"
 excerpt: Are you using LLMs in your research, or considering doing so? Would you
   like to meet other researchers exploring the challenges and possibilities of

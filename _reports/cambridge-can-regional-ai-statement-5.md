@@ -1,4 +1,5 @@
 ---
+slug: cambridge-can-regional-ai-statement-5
 title: "Policy Brief: AI, Copyright, and Productivity in the Creative Industries"
 excerpt: The report is a collaboration between the Minderoo Centre for
   Technology and Democracy, the Bennett Institute for Public Policy, and ai@cam

@@ -1,4 +1,5 @@
 ---
+slug: vito-mennella
 title: Vito Mennella
 photo: /assets/images/uploads/mennella_vito.jpeg
 job_title: MRC investigator Director of Research

@@ -1,4 +1,5 @@
 ---
+slug: liz-soilleux
 title: Liz Soilleux
 photo: /assets/images/uploads/dr-elizabeth-soilleux-969px-x-969px.jpeg
 job_title: Professor/ Group Leader/ Honorary Consultant

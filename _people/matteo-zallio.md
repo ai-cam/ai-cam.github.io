@@ -1,4 +1,5 @@
 ---
+slug: matteo-zallio
 title: Matteo Zallio
 photo: /assets/images/uploads/matteo-zallio.jpg
 job_title: Assistant Professor

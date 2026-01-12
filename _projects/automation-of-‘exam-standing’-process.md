@@ -1,4 +1,5 @@
 ---
+slug: automation-of-‘exam-standing’-process
 title: Automation of ‘exam standing’ process
 description: Education Services
 cover_image: /assets/images/uploads/images.jpeg

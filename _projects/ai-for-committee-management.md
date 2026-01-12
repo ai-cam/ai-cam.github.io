@@ -1,4 +1,5 @@
 ---
+slug: ai-for-committee-management
 title: AI for Committee Management
 description: School of Clinical Medicine and Governance and Compliance Division
 cover_image: /assets/images/uploads/images.jpeg

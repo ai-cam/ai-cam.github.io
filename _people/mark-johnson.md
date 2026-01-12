@@ -1,4 +1,5 @@
 ---
+slug: mark-johnson
 title: Mark Johnson
 photo: /assets/images/uploads/mark_johnson-1-.jpeg
 job_title: Professor of Experimental Psychology

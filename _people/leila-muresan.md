@@ -1,4 +1,5 @@
 ---
+slug: leila-muresan
 title: Leila Muresan
 photo: /assets/images/uploads/muresan_leila.jpg
 job_title: SRA

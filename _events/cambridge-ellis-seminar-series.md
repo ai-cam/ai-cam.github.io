@@ -1,4 +1,5 @@
 ---
+slug: cambridge-ellis-seminar-series
 title: Cambridge ELLIS Seminar Series
 excerpt: The Cambridge ELLIS Unit Seminar Series holds talks by leading
   researchers in the area of machine learning and AI. Our next speaker for 2023

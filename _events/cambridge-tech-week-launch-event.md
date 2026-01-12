@@ -1,4 +1,5 @@
 ---
+slug: cambridge-tech-week-launch-event
 title: Cambridge Tech Week Launch Event
 excerpt: Cambridge Tech Week (CTW) is rapidly becoming a must-attend event,
   offering a high-profile platform for knowledge sharing, product launches,

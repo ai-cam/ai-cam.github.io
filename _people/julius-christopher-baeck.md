@@ -1,4 +1,5 @@
 ---
+slug: julius-christopher-baeck
 title: Julius Christopher Baeck
 photo: /assets/images/uploads/baeck_julius-christopher.jpeg
 job_title: PhD student

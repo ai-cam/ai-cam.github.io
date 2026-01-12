@@ -1,4 +1,5 @@
 ---
+slug: elinor-pegler
 title: Elinor Pegler
 job_title: Communications Manager
 photo: /assets/images/uploads/eli-pegler.jpg

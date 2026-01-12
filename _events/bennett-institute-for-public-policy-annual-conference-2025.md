@@ -1,4 +1,5 @@
 ---
+slug: bennett-institute-for-public-policy-annual-conference-2025
 title: Bennett Institute for Public Policy Annual Conference 2025
 excerpt: The Bennett Institute for Public Policy Annual Conference has become a
   highlight of the public policy calendar for hundreds of policymakers,

@@ -1,4 +1,5 @@
 ---
+slug: staci-weiss
 title: Staci Weiss
 photo: /assets/images/uploads/staci-weiss-1-.jpeg
 job_title: Research Associate

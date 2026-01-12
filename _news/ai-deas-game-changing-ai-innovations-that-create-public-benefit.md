@@ -1,4 +1,5 @@
 ---
+slug: ai-deas-game-changing-ai-innovations-that-create-public-benefit
 title: "AI-deas: game-changing AI innovations that create public benefit"
 excerpt: "Connecting AI development to public value is more important than ever.
   AI@Cam will drive a new wave of challenge-led innovation, tackling the

@@ -1,4 +1,5 @@
 ---
+slug: c2d3-ecr-and-student-conference-2024
 title: C2D3 ECR and student conference 2024
 excerpt: "C2D3 seeks to create an interdisciplinary data science and AI
   community for Early Career Researchers (ECRs) and students, as a place for

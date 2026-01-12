@@ -1,4 +1,5 @@
 ---
+slug: cambridge-can-regional-ai-statement-4
 title: "Cambridge Can: Regional AI Statement"
 excerpt: This regional AI Statement showcases the wide range of AI activity
   taking place across the Cambridgeshire region and reflects our commitment to

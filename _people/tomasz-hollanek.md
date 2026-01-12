@@ -1,4 +1,5 @@
 ---
+slug: tomasz-hollanek
 title: Tomasz Hollanek
 photo: /assets/images/uploads/hollanek_tomasz.jpeg
 job_title: Research Fellow

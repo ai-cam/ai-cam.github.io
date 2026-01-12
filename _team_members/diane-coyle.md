@@ -1,4 +1,5 @@
 ---
+slug: diane-coyle
 title: Diane Coyle
 job_title: Bennett Professor of Public Policy
 photo: /assets/images/uploads/coyle_diane-1-.jpg

@@ -1,4 +1,5 @@
 ---
+slug: diana-fusco
 title: Diana Fusco
 photo: /assets/images/uploads/dr_diana_fusco-1-.png
 job_title: University Assistant Professor in Biological Physics

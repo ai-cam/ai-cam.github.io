@@ -1,4 +1,5 @@
 ---
+slug: haydn-belfield
 team_member: ""
 title: Haydn Belfield
 photo: /assets/images/uploads/belfield_haydn.jpg

@@ -1,4 +1,5 @@
 ---
+slug: irene-galandra
 title: Irene Galandra
 photo: /assets/images/uploads/irene-galandra-1-.jpg
 job_title: Coordinator for Collections, Connections, Communities

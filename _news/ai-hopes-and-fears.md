@@ -1,4 +1,5 @@
 ---
+slug: ai-hopes-and-fears
 title: AI Hopes and Fears
 excerpt: Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the
   public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss

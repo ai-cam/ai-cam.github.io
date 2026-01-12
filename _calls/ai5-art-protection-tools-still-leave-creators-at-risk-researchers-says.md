@@ -1,4 +1,5 @@
 ---
+slug: ai5-art-protection-tools-still-leave-creators-at-risk-researchers-says
 title: AI for University Operations Funding Call
 call_categories: Past Calls
 cover_image: /assets/images/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg

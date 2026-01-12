@@ -1,4 +1,5 @@
 ---
+slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-1
 title: AI art protection tools still leave creators at risk, researchers say
 excerpt: "Artists urgently need stronger defences to protect their work from
   being used to train AI models without their consent.  "

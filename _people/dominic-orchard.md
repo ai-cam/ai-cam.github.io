@@ -1,4 +1,5 @@
 ---
+slug: dominic-orchard
 title: Dominic Orchard
 photo: /assets/images/uploads/dominic_orchard-1-.jpeg
 job_title: Co-director of the Institute of Computing for Climate Science

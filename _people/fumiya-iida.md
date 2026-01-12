@@ -1,4 +1,5 @@
 ---
+slug: fumiya-iida
 title: Fumiya Iida
 photo: /assets/images/uploads/iida_fumiya.jpg
 job_title: Professor of robotics

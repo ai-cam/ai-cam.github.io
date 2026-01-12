@@ -1,4 +1,5 @@
 ---
+slug: reham-hosny
 title: Reham Hosny
 photo: /assets/images/uploads/hosny_reham.jpeg
 department: Leverhulme Centre for the Future of Intelligence

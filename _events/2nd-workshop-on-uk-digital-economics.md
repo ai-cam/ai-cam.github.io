@@ -1,4 +1,5 @@
 ---
+slug: 2nd-workshop-on-uk-digital-economics
 title: 2nd workshop on UK digital economics
 excerpt: "DigEcon connects research about the Economics of Digitization to
   policy and managerial practice. The aim is to create a network that gets

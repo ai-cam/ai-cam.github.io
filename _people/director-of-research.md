@@ -1,4 +1,5 @@
 ---
+slug: director-of-research
 title: Director of Research
 photo: /assets/images/uploads/abraham_luke.jpeg
 job_title: Director of Research

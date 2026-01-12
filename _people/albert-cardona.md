@@ -1,4 +1,5 @@
 ---
+slug: albert-cardona
 title: Albert Cardona
 photo: /assets/images/uploads/cardona_albert.jpg
 job_title: Professor

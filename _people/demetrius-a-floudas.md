@@ -1,4 +1,5 @@
 ---
+slug: demetrius-a-floudas
 title: Demetrius A. Floudas
 photo: /assets/images/uploads/people-1.png
 job_title: Visiting Scholar in Law at Downing College

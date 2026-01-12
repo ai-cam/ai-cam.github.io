@@ -7683,10 +7683,27 @@ header {
   z-index: 2;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.08));
   backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
 }
 [data-theme=dark] header {
   background: rgba(0, 0, 0, 0.01);
   backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
+.no-backdrop-blur header {
+  background: #F8EDEB !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.no-backdrop-blur[data-theme=dark] header {
+  background: #05385E !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.no-backdrop-blur body.is-homepage header {
+  background: #05385E !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 header .container .header-top {
   display: flex;

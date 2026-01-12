@@ -1,4 +1,5 @@
 ---
+slug: wallace-peaslee
 title: Wallace Peaslee
 photo: /assets/images/uploads/wallace-peaslee-1-.jpg
 job_title: PhD student

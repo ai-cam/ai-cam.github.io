@@ -1,4 +1,5 @@
 ---
+slug: smart-review-ai-powered-analysis-of-grant-funding-terms
 title: "Smart-Review: AI-Powered Analysis of Grant Funding Terms"
 description: Cambridge Research Office
 cover_image: /assets/images/uploads/images.jpeg

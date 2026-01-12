@@ -1,4 +1,5 @@
 ---
+slug: scott-hosking
 title: Scott Hosking
 photo: /assets/images/uploads/hosking_scott-1-.jpg
 job_title: Research leader in AI and Digital Twinning for the environment

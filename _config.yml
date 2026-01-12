@@ -16,10 +16,10 @@ plugins:
 collections:
   blog_posts:
     output: true
-    permalink: /blog/:name/
+    permalink: /blog/:slug/
   calls:
     output: true
-    permalink: /calls/:name/
+    permalink: /calls/:slug/
   news:
     output: true
     permalink: /news/:slug/
@@ -28,19 +28,19 @@ collections:
     permalink: /events/:slug/
   projects:
     output: true
-    permalink: /projects/:name/
+    permalink: /projects/:slug/
   reports:
     output: true
-    permalink: /reports/:name/
+    permalink: /reports/:slug/
   team_members:
     output: true
-    permalink: /team/:name/
+    permalink: /team/:slug/
   people:
     output: true
-    permalink: /people/:name/
+    permalink: /people/:slug/
   policies:
     output: true
-    permalink: /policies/:name/
+    permalink: /policies/:slug/
   call_categories:
     output: true
     permalink: /calls/category/:name/

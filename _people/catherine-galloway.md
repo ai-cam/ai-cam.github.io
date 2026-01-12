@@ -1,4 +1,5 @@
 ---
+slug: catherine-galloway
 title: Catherine Galloway
 photo: /assets/images/uploads/catherine-galloway-1-.jpg
 job_title: Innovation and Translation Lead at The Kavli Centre for Ethics,

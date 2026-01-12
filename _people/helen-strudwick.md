@@ -1,4 +1,5 @@
 ---
+slug: helen-strudwick
 title: Helen Strudwick
 photo: /assets/images/uploads/helen-strudwick1-1-.jpeg
 job_title: Senior Curator

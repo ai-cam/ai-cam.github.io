@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-llm-hands-on-workshop
 title: AI for Ops Community Meet Up
 excerpt: Join us for the next ai@cam Community Meet-Up as part of the AI for Ops
   programme.

@@ -1,4 +1,5 @@
 ---
+slug: alan-blackwell
 title: Alan Blackwell
 photo: /assets/images/uploads/blackwell_alan.jpg
 job_title: Professor of Interdisciplinary Design

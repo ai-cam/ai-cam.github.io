@@ -1,4 +1,5 @@
 ---
+slug: gordon-smith
 title: Gordon Smith
 photo: /assets/images/uploads/gordon-smith-1-.jpeg
 job_title: Head of Department

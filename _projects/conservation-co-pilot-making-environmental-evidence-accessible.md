@@ -1,4 +1,5 @@
 ---
+slug: conservation-co-pilot-making-environmental-evidence-accessible
 title: "Conservation Co-pilot: Making Environmental Evidence Accessible"
 description: "\n"
 cover_image: /assets/images/uploads/brain-image.jpg
@@ -23,7 +24,4 @@ authors:
     photo: /assets/images/uploads/download.jpeg
     role: Department of Zoology
 ---
-
-
-
 With over 1 million users already accessing the Conservation Evidence database, this project will develop the first ‘Conservation Co-pilot’ – an AI-powered chat interface that retrieves, summarises, and presents conservation evidence to answer user questions. The challenge is ensuring that AI faithfully represents scientific evidence without misrepresentation. Building on rigorous evaluation research comparing frontier AI models with human experts, the team will create an agentic system that draws together evidence while maintaining faithfulness to source material. The tool will be game-changing for conservation decision-makers seeking evidence to guide action.

@@ -1,4 +1,5 @@
 ---
+slug: cambridge-can-regional-ai-statement
 title: "Access to Data Case Studies: Lessons for the National Data Library"
 excerpt: This joint report from ai@cam, Minderoo Centre for Technology and
   Democracy, and the Bennett Institute for Public Policy presents a series of

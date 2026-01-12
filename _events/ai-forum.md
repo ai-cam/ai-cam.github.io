@@ -1,4 +1,5 @@
 ---
+slug: ai-forum
 title: AI Forum
 excerpt: The AI Forum is a platform for the AI ecosystem to support, track and
   constructively challenge the Government in delivering the AI Opportunities

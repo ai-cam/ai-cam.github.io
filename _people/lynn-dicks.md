@@ -1,4 +1,5 @@
 ---
+slug: lynn-dicks
 title: Lynn Dicks
 photo: /assets/images/uploads/lynn_dicks-1-.jpeg
 job_title: University Lecturer in Animal Ecology

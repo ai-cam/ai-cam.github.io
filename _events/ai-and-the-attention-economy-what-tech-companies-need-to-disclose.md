@@ -1,4 +1,5 @@
 ---
+slug: ai-and-the-attention-economy-what-tech-companies-need-to-disclose
 title: "AI and the Attention Economy: What tech companies need to disclose"
 excerpt: Join Tim O’Reilly in conversation with John Naughton, to discuss how to
   make AI more accountable.

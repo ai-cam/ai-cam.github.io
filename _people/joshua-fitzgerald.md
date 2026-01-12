@@ -1,4 +1,5 @@
 ---
+slug: joshua-fitzgerald
 title: Joshua Fitzgerald
 photo: /assets/images/uploads/joshua-1-.jpg
 job_title: Munby Fellow in Bibliography, Cambridge University Library
