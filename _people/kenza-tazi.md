@@ -1,4 +1,5 @@
 ---
+slug: kenza-tazi
 title: Kenza Tazi
 photo: /assets/images/uploads/tazi_kenza.png
 job_title: PhD Student

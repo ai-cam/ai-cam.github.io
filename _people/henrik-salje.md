@@ -1,4 +1,5 @@
 ---
+slug: henrik-salje
 title: Henrik Salje
 photo: /assets/images/uploads/salje_henrik.png
 job_title: Professor

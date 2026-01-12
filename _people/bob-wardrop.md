@@ -1,4 +1,5 @@
 ---
+slug: bob-wardrop
 title: Bob Wardrop
 photo: /assets/images/uploads/wardrop_robert.jpg
 job_title: CEO, RegGenome

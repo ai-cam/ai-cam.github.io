@@ -1,4 +1,5 @@
 ---
+slug: digital-twins-industry-and-academic-perspectives
 title: Digital Twins - Industry and Academic Perspectives
 excerpt: >-
   The iDMT is pleased to announce the fifth lecture in the current series. 

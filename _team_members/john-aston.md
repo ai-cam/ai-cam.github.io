@@ -1,4 +1,5 @@
 ---
+slug: john-aston
 title: John Aston
 job_title: Harding Professor of Statistics in Public Life
 photo: /assets/images/uploads/team-7.png

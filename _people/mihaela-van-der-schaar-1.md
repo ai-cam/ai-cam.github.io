@@ -1,4 +1,5 @@
 ---
+slug: mihaela-van-der-schaar-1
 title: Sjors Scheres
 photo: /assets/images/uploads/scheres_sjors.png
 job_title: Group Leader

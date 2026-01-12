@@ -1,4 +1,5 @@
 ---
+slug: connecting-ai-to-public-benefit
 title: Connecting AI to public benefit
 excerpt: There’s no shortage of buzz around artificial intelligence (AI). From
   self-driving cars to the promise of revolutionising healthcare, AI is being

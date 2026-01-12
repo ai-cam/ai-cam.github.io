@@ -1,4 +1,5 @@
 ---
+slug: how-can-we-harness-the-power-of-ai-for-public-benefit
 title: How can we harness the power of AI for public benefit?
 excerpt: As artificial intelligence continues to advance at a rapid pace, how
   can we harness its potential to improve public services?

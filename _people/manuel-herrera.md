@@ -1,4 +1,5 @@
 ---
+slug: manuel-herrera
 title: Manuel Herrera
 job_title: Senior Research Associate in Distributed Intelligent Systems
 department: Department of Engineering

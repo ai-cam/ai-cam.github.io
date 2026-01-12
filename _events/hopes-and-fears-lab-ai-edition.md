@@ -1,4 +1,5 @@
 ---
+slug: hopes-and-fears-lab-ai-edition
 title: "Hopes and Fears Lab: AI Edition"
 excerpt: As part of this year’s Cambridge Festival, The Copper Kettle is opening
   its door to welcome the public for our pop-up conversation lab on all things

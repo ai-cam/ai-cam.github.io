@@ -1,4 +1,5 @@
 ---
+slug: li-wan
 title: Li Wan
 photo: /assets/images/uploads/li_wan-1-.jpeg
 job_title: Associate Professor in Urban Planning and Development

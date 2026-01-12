@@ -1,4 +1,5 @@
 ---
+slug: ai-public-dialogues
 title: AI Public Dialogues
 excerpt: In September 2024, ai@cam convened public dialogue workshops in
   Liverpool and Cambridge to better understand public perspectives on the role

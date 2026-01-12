@@ -1,4 +1,5 @@
 ---
+slug: ai-needs-to-serve-people-science-and-society-a-vision-for-ai-cam
 title: "AI needs to serve people, science, and society: A vision for ai@cam"
 excerpt: This report sets out the vision for AI@Cam, a new flagship mission at
   the University of Cambridge. It examines how AI can be leveraged to benefit

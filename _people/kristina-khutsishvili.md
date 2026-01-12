@@ -1,4 +1,5 @@
 ---
+slug: kristina-khutsishvili
 title: Kristina Khutsishvili
 photo: /assets/images/uploads/kristina-khutsishvili-1-.jpg
 job_title: Research Associate

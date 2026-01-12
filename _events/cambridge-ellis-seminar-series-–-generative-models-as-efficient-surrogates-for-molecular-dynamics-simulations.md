@@ -1,4 +1,5 @@
 ---
+slug: cambridge-ellis-seminar-series-–-generative-models-as-efficient-surrogates-for-molecular-dynamics-simulations
 title: Cambridge Ellis Seminar series – Generative models as efficient
   surrogates for molecular dynamics simulations
 excerpt: The Cambridge ELLIS Unit Seminar Series holds talks by leading

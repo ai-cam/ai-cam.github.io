@@ -1,4 +1,5 @@
 ---
+slug: towards-a-sustainable-digital-future-in-uk-film-and-television
 title: Towards a sustainable digital future in UK film and television
 excerpt: "Film and television production leads to a significant environmental
   footprint due to carbon-intensive infrastructures, energy dependencies, and

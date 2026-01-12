@@ -1,4 +1,5 @@
 ---
+slug: generative-ai-policy-brief-building-uk-national-capability
 title: "Generative AI Policy Brief: Building UK National Capability"
 excerpt: This policy brief examines the UK’s path forward in building national
   capability for generative AI, focusing on leveraging existing strengths in

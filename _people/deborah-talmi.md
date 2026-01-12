@@ -1,4 +1,5 @@
 ---
+slug: deborah-talmi
 title: Deborah Talmi
 photo: /assets/images/uploads/deborah-talmi-1-.jpg
 job_title: Associate Professor

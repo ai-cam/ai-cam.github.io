@@ -1,4 +1,5 @@
 ---
+slug: improving-language-equity-and-inclusion-through-ai
 title: Improving language equity and inclusion through AI
 description: Using language to communicate is something many take for granted.
   However, a significant proportion of the UK population find spoken or written

@@ -1,4 +1,5 @@
 ---
+slug: introducing-the-ai-deas-challenge-projects
 title: Introducing the AI-deas challenge projects
 date: 2024-02-05
 cover_image: /assets/images/uploads/skye-studios-ndllfxtelru-unsplash-1-.jpg

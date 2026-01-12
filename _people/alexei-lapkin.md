@@ -1,4 +1,5 @@
 ---
+slug: alexei-lapkin
 title: Alexei Lapkin
 photo: /assets/images/uploads/lapkin_alexei.jpg
 job_title: Professor of Sustainable Reaction Engineering

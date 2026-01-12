@@ -1,4 +1,5 @@
 ---
+slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-6
 title: "Advancing Environmental Research Through AI: Highlights from the AI for
   Climate & Nature Community Day"
 date: 2025-06-29

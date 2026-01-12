@@ -1,4 +1,5 @@
 ---
+slug: richard-harrison
 title: Richard Harrison
 photo: /assets/images/uploads/harrison_richard.jpg
 job_title: Director

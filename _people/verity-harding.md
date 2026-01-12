@@ -1,4 +1,5 @@
 ---
+slug: verity-harding
 title: Verity Harding
 photo: /assets/images/uploads/verity-harding.jpg
 job_title: Director of the AI and Geopolitics Project (AIxGEO)

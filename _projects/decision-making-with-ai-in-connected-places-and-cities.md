@@ -1,4 +1,5 @@
 ---
+slug: decision-making-with-ai-in-connected-places-and-cities
 title: Decision-making with AI in connected places and cities
 description: >+
   Decision-making with AI in connected places and cities: Developing an ethical

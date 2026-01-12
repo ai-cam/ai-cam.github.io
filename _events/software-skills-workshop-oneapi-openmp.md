@@ -1,4 +1,5 @@
 ---
+slug: software-skills-workshop-oneapi-openmp
 title: Software skills workshop 'oneAPI OpenMP'
 excerpt: >-
   A hands-on, practical workshop where you will learn the fundamentals of

@@ -1,4 +1,5 @@
 ---
+slug: sarah-morgan
 title: Sarah Morgan
 photo: /assets/images/uploads/morgan_s-1-.png
 job_title: Departmental Early Career Research Fellow

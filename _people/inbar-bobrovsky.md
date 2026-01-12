@@ -1,4 +1,5 @@
 ---
+slug: inbar-bobrovsky
 title: Inbar Bobrovsky
 photo: /assets/images/uploads/inbar-bobrovsky-1-.jpg
 job_title: OpRaise Project Coordinator

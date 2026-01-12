@@ -1,4 +1,5 @@
 ---
+slug: ai-and-statistical-innovations-for-palaeoecological-research
 title: AI and Statistical Innovations for Palaeoecological Research
 excerpt: We are excited to announce the upcoming PaleoStats Workshop at
   Robinson’s College, Cambridge, from 7th to 12th July 2024. This workshop

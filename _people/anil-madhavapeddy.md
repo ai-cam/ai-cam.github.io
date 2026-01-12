@@ -1,4 +1,5 @@
 ---
+slug: anil-madhavapeddy
 title: Anil Madhavapeddy
 photo: /assets/images/uploads/anil-headshot-1-.jpeg
 job_title: Professor of Planetary Computing

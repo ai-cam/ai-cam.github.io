@@ -1,4 +1,5 @@
 ---
+slug: pietro-liò
 title: Pietro Liò
 photo: /assets/images/uploads/lio_pietro-2-.jpg
 job_title: Professor of Computational Biology

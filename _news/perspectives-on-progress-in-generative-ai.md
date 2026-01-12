@@ -1,4 +1,5 @@
 ---
+slug: perspectives-on-progress-in-generative-ai
 title: Perspectives on progress in generative AI
 excerpt: "This week, world leaders are gathering at Bletchley Park to consider
   the implications of rapid progress in AI, and how policymakers can work

@@ -1,4 +1,5 @@
 ---
+slug: richard-mcmahon
 title: Richard McMahon
 job_title: Professor of Astronomy
 photo: /assets/images/uploads/team-10.png

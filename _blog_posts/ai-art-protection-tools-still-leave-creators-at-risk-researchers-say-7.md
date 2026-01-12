@@ -1,4 +1,5 @@
 ---
+slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-7
 title: "AI: Delivering new hope in fertility treatment?"
 date: 2025-05-28
 cover_image: /assets/images/uploads/dr-thum-blog-image.jpg

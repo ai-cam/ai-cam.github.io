@@ -1,4 +1,5 @@
 ---
+slug: a-sea-change-in-social-media-research
 title: A sea change in social media research
 date: 2025-01-03
 cover_image: /assets/images/uploads/magnus-andersson-0todl-2po1y-unsplash.jpg

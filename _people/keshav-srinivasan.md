@@ -1,4 +1,5 @@
 ---
+slug: keshav-srinivasan
 title: Keshav Srinivasan
 photo: /assets/images/uploads/srinivasan_keshav-1-.jpeg
 job_title: Robert Sansom Professor of Computer Science

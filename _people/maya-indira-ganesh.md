@@ -1,4 +1,5 @@
 ---
+slug: maya-indira-ganesh
 title: Maya Indira Ganesh
 photo: /assets/images/uploads/ganesh_indira-2-.jpg
 job_title: Associate Director (Research Partnerships) | Programme Co-director,

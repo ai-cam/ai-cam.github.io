@@ -1,4 +1,5 @@
 ---
+slug: namshik-han
 title: Namshik Han
 photo: /assets/images/uploads/han_namshik_885_x_432_-2.png
 job_title: Group Leader

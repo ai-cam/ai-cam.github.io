@@ -1,4 +1,5 @@
 ---
+slug: the-hopes-and-fears-lab-ai-edition-london
 title: "The Hopes and Fears Lab: AI edition (London)"
 excerpt: Join us in our pop-up conversation lab, to meet some of the people
   working on this technology every day. Do we feel hopeful about the benefits

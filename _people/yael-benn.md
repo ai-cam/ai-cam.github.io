@@ -1,4 +1,5 @@
 ---
+slug: yael-benn
 title: Yael Benn
 photo: /assets/images/uploads/yael-benn.jpeg
 job_title: Senior Lecturer

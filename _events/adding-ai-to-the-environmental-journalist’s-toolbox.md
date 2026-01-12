@@ -1,4 +1,5 @@
 ---
+slug: adding-ai-to-the-environmental-journalist’s-toolbox
 title: Adding AI to the environmental journalist’s toolbox
 excerpt: "Can AI help unlock insights from the vast array of publicly available
   earth observation data to support journalists investigating threats to some of

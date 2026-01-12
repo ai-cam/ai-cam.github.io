@@ -1,4 +1,5 @@
 ---
+slug: winners-announced-at-inaugural-ai-sciencepreneurship-bootcamp
 title: Winners announced at inaugural AI Sciencepreneurship Bootcamp
 excerpt: >+
   Three teams of early-career researchers have been named winners at the

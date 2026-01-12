@@ -1,4 +1,5 @@
 ---
+slug: shahar-richard-turner
 title: Shahar Richard Turner
 job_title: Professor of Machine Learning
 photo: /assets/images/uploads/team-11.png

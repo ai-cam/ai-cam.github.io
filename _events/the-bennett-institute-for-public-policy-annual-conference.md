@@ -1,4 +1,5 @@
 ---
+slug: the-bennett-institute-for-public-policy-annual-conference
 title: "AI Needs You: An evening with Verity Harding in conversation with Diane Coyle"
 excerpt: "From One of Time’s 100 Most Influential People in AI, Verity Harding,
   comes a human manifesto for the age of AI. AI Needs You: How We Can Change

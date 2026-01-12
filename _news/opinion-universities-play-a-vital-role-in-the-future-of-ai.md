@@ -1,4 +1,5 @@
 ---
+slug: opinion-universities-play-a-vital-role-in-the-future-of-ai
 title: "Opinion: Universities play a vital role in the future of AI"
 excerpt: As the government considers its ambitious agenda to drive wider roll
   out of AI across the public sector in areas that directly affect people’s

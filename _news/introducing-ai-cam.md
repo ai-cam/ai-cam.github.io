@@ -1,4 +1,5 @@
 ---
+slug: introducing-ai-cam
 title: Introducing ai@cam
 excerpt: AI today is both a rapidly-advancing technical field and a technology
   deployed at scale. Its pervasiveness has implications for science, society,

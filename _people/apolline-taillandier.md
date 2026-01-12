@@ -1,4 +1,5 @@
 ---
+slug: apolline-taillandier
 title: Apolline Taillandier
 photo: /assets/images/uploads/taillandier_apolline.jpg
 job_title: Postdoctoral Research Fellow

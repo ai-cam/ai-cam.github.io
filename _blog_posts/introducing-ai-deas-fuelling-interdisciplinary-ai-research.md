@@ -1,4 +1,5 @@
 ---
+slug: introducing-ai-deas-fuelling-interdisciplinary-ai-research
 title: "Introducing AI-deas: fuelling interdisciplinary AI research"
 date: 2023-11-30
 cover_image: /assets/images/uploads/jason-goodman-oalh2mojuuk-unsplash-1-.jpg

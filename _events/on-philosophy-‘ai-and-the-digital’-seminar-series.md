@@ -1,4 +1,5 @@
 ---
+slug: on-philosophy-‘ai-and-the-digital’-seminar-series
 title: "On Philosophy: ‘AI and the Digital’ Seminar Series"
 excerpt: ‘AI and the Digital’ sets out to explore the theoretical ramifications
   and implications of algorithmic systems and digital tools, and how they shape

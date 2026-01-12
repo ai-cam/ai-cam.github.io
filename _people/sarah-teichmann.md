@@ -1,4 +1,5 @@
 ---
+slug: sarah-teichmann
 title: Sarah Teichmann
 photo: /assets/images/uploads/teichmann_sarah.jpg
 job_title: Senior Research Fellow

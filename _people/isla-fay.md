@@ -1,4 +1,5 @@
 ---
+slug: isla-fay
 team_member: ""
 title: Isla Fay
 photo: /assets/images/uploads/isla-fay-1-.jpg

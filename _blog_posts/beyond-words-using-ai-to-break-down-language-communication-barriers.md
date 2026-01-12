@@ -1,4 +1,5 @@
 ---
+slug: beyond-words-using-ai-to-break-down-language-communication-barriers
 title: "Beyond words: Using AI to break down language communication barriers"
 date: 2024-06-23
 cover_image: /assets/images/uploads/picture-1-language-equity.jpg

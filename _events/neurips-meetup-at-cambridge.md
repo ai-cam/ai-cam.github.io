@@ -1,4 +1,5 @@
 ---
+slug: neurips-meetup-at-cambridge
 title: NeurIPS meetup at Cambridge
 excerpt: "Registration for the NeurIPS meetup@Cambridge on Friday 6 December
   (10.00 - 19.00) is now open.  Hosted by ai@cam, the aim of this meetup is to

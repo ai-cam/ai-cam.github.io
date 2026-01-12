@@ -1,4 +1,5 @@
 ---
+slug: tuan-pham
 title: Tuan Pham
 photo: /assets/images/uploads/tuan-pham-1-.jpeg
 job_title: Digital Transformation Programme Director

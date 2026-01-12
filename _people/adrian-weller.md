@@ -1,4 +1,5 @@
 ---
+slug: adrian-weller
 title: Adrian Weller
 photo: /assets/images/uploads/weller_adrian.jpg
 job_title: Director of Research in Machine Learning

@@ -1,4 +1,5 @@
 ---
+slug: opinion-ai-can-unlock-productivity-in-public-services-1
 title: "Opinion: AI can unlock productivity in public services"
 excerpt: “Sluggish technology has hampered our public services for too long, and
   it’s costing us all a fortune in time and money,” said The Rt Hon Peter Kyle

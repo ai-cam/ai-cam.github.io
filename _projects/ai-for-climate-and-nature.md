@@ -1,4 +1,5 @@
 ---
+slug: ai-for-climate-and-nature
 title: AI for Climate and Nature
 description: The twin climate and biodiversity crises are two of the world’s
   most complex challenges to tackle. This project aims to develop AI approaches

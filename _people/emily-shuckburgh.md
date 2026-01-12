@@ -1,4 +1,5 @@
 ---
+slug: emily-shuckburgh
 team_member: ""
 title: Emily Shuckburgh
 photo: /assets/images/uploads/shuckburgh_emily-1-.jpg

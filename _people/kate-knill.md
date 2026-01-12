@@ -1,4 +1,5 @@
 ---
+slug: kate-knill
 title: Kate Knill
 photo: /assets/images/uploads/kate_knill-1-.jpeg
 job_title: Principal Research Associate

@@ -1,4 +1,5 @@
 ---
+slug: ai-assisted-regulatory-compliance-technical-file-generator-for-software-as-a-medical-device
 title: AI-assisted Regulatory Compliance Technical File Generator for software
   as a medical device
 description: "By using AI to automate regulatory documentation, the Office for

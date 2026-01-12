@@ -1,4 +1,5 @@
 ---
+slug: mathew-lowe
 title: Mathew Lowe
 photo: /assets/images/uploads/mathew-lowe-1-.jpg
 job_title: Collections Manager

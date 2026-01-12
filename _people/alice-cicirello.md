@@ -1,4 +1,5 @@
 ---
+slug: alice-cicirello
 title: Alice Cicirello
 photo: /assets/images/uploads/dr-alice-cicirello.jpeg
 job_title: Assistant Professor in Applied Mechanics

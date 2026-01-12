@@ -1,4 +1,5 @@
 ---
+slug: supporting-evaluation-through-ai-5
 title: Supporting evaluation through AI
 description: As AI continues to advance, concerns are growing about its impact
   on traditional grading systems across the HE sector. AI models are now capable

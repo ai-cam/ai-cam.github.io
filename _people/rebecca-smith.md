@@ -1,4 +1,5 @@
 ---
+slug: rebecca-smith
 title: Rebecca Smith
 photo: /assets/images/uploads/dr-rebecca-smith-1-.jpeg
 job_title: Senior Research Associate

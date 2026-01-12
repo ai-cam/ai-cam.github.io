@@ -1,4 +1,5 @@
 ---
+slug: carola-schönlieb
 title: Carola Schönlieb
 job_title: Professor of Applied Mathematics
 photo: /assets/images/uploads/team-3.png

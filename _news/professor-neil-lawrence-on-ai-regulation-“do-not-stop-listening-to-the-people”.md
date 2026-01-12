@@ -1,4 +1,5 @@
 ---
+slug: professor-neil-lawrence-on-ai-regulation-“do-not-stop-listening-to-the-people”
 title: "Professor Neil Lawrence on AI regulation: “Do not stop listening to the
   people”"
 excerpt: As part of a new video series on the UK General Election from the

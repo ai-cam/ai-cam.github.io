@@ -1,4 +1,5 @@
 ---
+slug: mark-girolami
 title: Mark Girolami
 photo: /assets/images/uploads/girolami_mark.jpeg
 job_title: Sir Kirby Laing Professor of Civil Engineering

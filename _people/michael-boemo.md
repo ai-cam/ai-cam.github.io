@@ -1,4 +1,5 @@
 ---
+slug: michael-boemo
 title: Michael Boemo
 photo: /assets/images/uploads/boemo_michael.jpg
 job_title: Assistant Professor of AI and Disease

@@ -1,4 +1,5 @@
 ---
+slug: how-will-ai-impact-“the-year-of-elections”
 title: How will AI impact “the year of elections”?
 excerpt: "As nations globally approach a critical juncture with 68 countries
   partaking in elections, the rise of AI-generated synthetic media presents both

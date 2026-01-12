@@ -1,4 +1,5 @@
 ---
+slug: dr-endo-accelerating-endometriosis-diagnosis-through-ai-enhanced-ultrasound
 title: "Dr. Endo: Accelerating Endometriosis Diagnosis Through AI-Enhanced Ultrasound"
 description: "\n"
 cover_image: /assets/images/uploads/images.jpeg

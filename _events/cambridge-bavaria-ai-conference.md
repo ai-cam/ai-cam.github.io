@@ -1,4 +1,5 @@
 ---
+slug: cambridge-bavaria-ai-conference
 title: Cambridge Bavaria AI Conference
 excerpt: AI is the most rapidly advancing deep technology sector worldwide,
   offering immense potential to revolutionise entire industries, foster

@@ -1,4 +1,5 @@
 ---
+slug: gina-neff
 title: Gina Neff
 job_title: Executive Director
 photo: /assets/images/uploads/team-5.png

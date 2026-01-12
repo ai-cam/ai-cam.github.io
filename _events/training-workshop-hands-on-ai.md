@@ -1,4 +1,5 @@
 ---
+slug: training-workshop-hands-on-ai
 title: "Training Workshop: Hands on AI"
 excerpt: We know that when you’re learning AI & ML, a mix of classroom theory
   and hands-on practice is the best way to learn. So, we’re running a 1-day

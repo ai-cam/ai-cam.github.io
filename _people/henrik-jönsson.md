@@ -1,4 +1,5 @@
 ---
+slug: henrik-jönsson
 title: Henrik Jönsson
 photo: /assets/images/uploads/jönsson_henrik.jpg
 job_title: Professor
