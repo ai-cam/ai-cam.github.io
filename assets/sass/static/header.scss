@@ -5,16 +5,40 @@ header {
     left: 0;
     width: 100%;
     z-index: 2;
-    //background: rgba(255, 255, 255, 0.01);
+    
+    // Modern tarayıcılar için blur efekti
     background: linear-gradient(
         rgba(0,0,0,0.25),
-      rgba(0,0,0,0.08)
+        rgba(0,0,0,0.08)
     );
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
 
     [data-theme='dark'] & {
         background: rgba(0, 0, 0, 0.01);
         backdrop-filter: blur(40px);
+        -webkit-backdrop-filter: blur(40px);
+    }
+    
+    // Safari/iOS fallback - backdrop-filter düzgün çalışmadığında solid background
+    .no-backdrop-blur & {
+        background: #F8EDEB !important; // Light mode - pembemsi
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    
+    // Dark mode + no-backdrop-blur (aynı html elementi üzerinde)
+    .no-backdrop-blur[data-theme='dark'] & {
+        background: #05385E !important; // Dark mode - mavi (primary color)
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    
+    // Anasayfada Safari/iOS için her zaman mavi arkaplan (light/dark fark etmez)
+    .no-backdrop-blur body.is-homepage & {
+        background: #05385E !important;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
     }
 
     .container {

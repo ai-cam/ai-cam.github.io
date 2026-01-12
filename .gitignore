@@ -39,3 +39,4 @@ _drafts/
 package-lock.json
 yarn.lock
 Gemfile.lock
+.ruby-version
