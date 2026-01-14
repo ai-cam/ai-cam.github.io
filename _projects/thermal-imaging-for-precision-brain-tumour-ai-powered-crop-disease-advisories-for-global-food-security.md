@@ -4,7 +4,7 @@ description: With climate change accelerating crop diseases and threatening food
   security for millions of smallholder farmers across Africa and South Asia,
   this project will deploy AI to automate the generation of wheat disease risk
   advisories
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/ai-powered-crop-disease-advisories-for-global-food-security.jpg
 project_categories: Sprints
 authors:
   - name: Jacob Smith
