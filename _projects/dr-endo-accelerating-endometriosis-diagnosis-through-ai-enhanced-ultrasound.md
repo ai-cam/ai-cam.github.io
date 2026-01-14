@@ -1,7 +1,7 @@
 ---
 title: "Dr. Endo: Accelerating Endometriosis Diagnosis Through AI-Enhanced Ultrasound"
 description: "\n"
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/scans-ai.jpg
 project_categories: Sprints
 authors:
   - name: Staci Weiss
