@@ -1,7 +1,7 @@
 ---
 title: "Conservation Co-pilot: Making Environmental Evidence Accessible"
 description: "\n"
-cover_image: /assets/images/uploads/brain-image.jpg
+cover_image: /assets/images/uploads/frog.jpg
 project_categories: Sprints
 authors:
   - name: Sam Reynolds
