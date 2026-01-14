@@ -11,7 +11,7 @@ authors:
     role: Clinical Professor of Neurosurgical Oncology at Department of Clinical
       Neurosciences
   - name: Richard Mair
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/richard-mair.jpg
     role: Assistant Professor and Honorary Consultant Neurosurgeon at CRUK Cambridge
       Centre
   - name: Gita Khalili Moghaddam
