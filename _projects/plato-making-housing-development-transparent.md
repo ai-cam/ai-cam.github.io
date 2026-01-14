@@ -4,7 +4,7 @@ description: "The UK housing crisis is characterised not only by shortage but by
   information asymmetry – residents lack clear, integrated information about
   what is being built, where, and whether schools, healthcare, and green spaces
   will be sufficient. "
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/housing.jpg
 project_categories: Sprints
 authors:
   - photo: /assets/images/uploads/download.jpeg
