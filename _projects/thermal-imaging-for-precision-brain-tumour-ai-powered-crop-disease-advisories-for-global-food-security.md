@@ -1,6 +1,5 @@
 ---
-title: Thermal Imaging for Precision Brain Tumour AI-Powered Crop Disease
-  Advisories for Global Food Security
+title: AI-Powered Crop Disease Advisories for Global Food Security
 description: With climate change accelerating crop diseases and threatening food
   security for millions of smallholder farmers across Africa and South Asia,
   this project will deploy AI to automate the generation of wheat disease risk
