@@ -3,7 +3,7 @@ title: Personalised Second Language Learning Through AI
 description: Despite the societal and economic benefits of second language
   learning, participation in language education has been declining, with marked
   inequalities in provision across educational settings.
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/language-learning.jpg
 project_categories: Sprints
 authors:
   - name: Mirjana Bozic
