@@ -5,6 +5,8 @@ excerpt: "By connecting the University of Cambridge’s world-leading research
   development, ai@cam is demonstrating how universities can drive a new wave of
   AI innovation that delivers public benefit. "
 report_date: 2025-09-05
+tags:
+  - tag: Policy Brief
 cover_image: /assets/images/uploads/annual-report-image-2025-21234.jpg
 abstract: >-
   
