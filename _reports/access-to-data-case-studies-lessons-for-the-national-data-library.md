@@ -13,6 +13,9 @@ abstract: This joint report from ai@cam, Minderoo Centre for Technology and
   case studies examining access to data for research. Through real-world
   examples across multiple disciplines, the report illustrates current barriers
   researchers face and proposes policy developments to address these challenges.
+links:
+  - link: /assets/images/uploads/ai-cam-access-to-data-case-studies.pdf
+    link_text: Download full report
 citation_fields:
   publisher: University of Cambridge
 ---
