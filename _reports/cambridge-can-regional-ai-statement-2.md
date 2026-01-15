@@ -26,7 +26,7 @@ This regional AI Statement highlights the breadth AI activity happening across t
 
 We aim to foster connected communities by building AI capabilities across our region, widening access to the tools, knowledge, and know how which can focuse on delivering meaningful improvements to people’s lives.
 
-**Collaborative Approach**
+## **Collaborative Approach**
 
 This statement represents a collaboration between a number of organisations across Cambridge including: 
 
