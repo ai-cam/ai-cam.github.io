@@ -12,6 +12,9 @@ abstract: >
   place across the Cambridgeshire region and reflects our commitment to
   fostering AI development that is responsible, inclusive, sustainable, and a
   driver of innovation for public benefit.
+links:
+  - link: /assets/images/uploads/cambridge-can-regional-ai-statement.pdf
+    link_text: Download full report
 citation_fields:
   publisher: University of Cambridge
 ---
