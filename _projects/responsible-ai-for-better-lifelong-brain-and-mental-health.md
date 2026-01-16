@@ -28,10 +28,3 @@ This project will use the latest advances in AI to better understand brain healt
 The project will be led by the Department of Psychology at the University of Cambridge and delivered by an interdisciplinary team of experts in areas including data science, software engineering, neuroscience and clinical practice from across the university. 
 
 Professor Zoe Kourtzi, AI-deas challenge lead, said: “AI-deas is a springboard for thinking outside the box about using AI to tackle real-world challenges like those associated with brain and mental health disorders. Brain and mental health disorders touch every family. Building robust and responsible AI tools has the potential to help clinicians diagnose early, improve patient wellbeing and outcomes and reduce misdiagnosis, making resources available to people that need them the most.”
-
-Project contributors:
-
-* Professor Zoe Kourtzi, Department ofPsychology;
-* Dr Anna Moore, Department of Psychiatry;
-* Professor Pietro Liò, Department of Computer Science;
-* Dr Soumya Banerjee, Department of Computer Science
