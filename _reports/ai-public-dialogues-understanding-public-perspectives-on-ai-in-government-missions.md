@@ -12,6 +12,13 @@ abstract: This report presents findings from public dialogue workshops conducted
   education, energy and net zero, and health, the dialogues reveal public
   aspirations for AI in public services and highlight necessary interventions to
   ensure AI delivers public benefit while maintaining appropriate safeguards.
+authors:
+  - photo: /assets/images/uploads/montgomery_jessica.jpg
+    name: Jessica Montgomery
+    role: ai@cam Director
+  - name: Neil Lawrence
+    role: Chair of ai@cam
+    photo: /assets/images/uploads/lawrence_neil.png
 citation_fields:
   publisher: University of Cambridge
 ---
