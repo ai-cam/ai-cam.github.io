@@ -36,7 +36,13 @@ authors:
     photo: /assets/images/uploads/yau-thum-profile.jpg
   - name: Gordon Smith
     photo: /assets/images/uploads/gordon-smith.jpeg
-    role: Head of Department
+    role: Professor of Obstetrics & Gynaecology
+  - photo: /assets/images/uploads/eleanoregibbons.jpeg
+    name: Eleanor Gibbons
+    role: Clinical Medicine
+  - name: Saaliha Vali
+    photo: /assets/images/uploads/saaliha-vali.jpg
+    role: Clinical Research Fellow
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
@@ -64,8 +70,3 @@ Project contributors:
 
 * Professor Yau Thum
 * Dr Saaliha Vali
-
-**Addenbrooke’s Hospital**
-
-* Professor Gordon Smith, Obstetrics and Gynaecology
-* Eleanor Gibbons, Clinical Medicine
