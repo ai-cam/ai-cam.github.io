@@ -1,6 +1,6 @@
 ---
 title: "AI needs to serve people, science, and society: A vision for ai@cam"
-excerpt: This report sets out the vision for AI@Cam, a new flagship mission at
+excerpt: This report sets out the vision for ai@cam, a new flagship mission at
   the University of Cambridge. It examines how AI can be leveraged to benefit
   science and society while addressing challenges of equity and inclusion. The
   report emphasizes the need for coordination across research, engineering,
