@@ -15,7 +15,8 @@ authors:
       Managemen
   - photo: /assets/images/uploads/jennifer-schooling.jpg
     name: Jennifer Schooling
-    role: /
+    role: Professor of Digital Innovation and Smart Places at Anglia Ruskin
+      University
   - photo: /assets/images/uploads/viviana_bm.jpeg
     name: Viviana Bastidas Melo
     role: Research Associate in Urban Systems and Infrastructure
