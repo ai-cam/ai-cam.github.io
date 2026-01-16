@@ -8,7 +8,7 @@ authors:
     photo: /assets/images/uploads/staci-weiss-.jpg
     role: " Lecturer in Developmental Cognitive Neuroscience"
   - name: Mo Vali
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/movali.jpeg
     role: PhD Student
   - name: May Levin
     photo: /assets/images/uploads/download.jpeg
