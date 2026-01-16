@@ -1,7 +1,7 @@
 ---
 title: "AERO: Analytics for Energy-efficient and Resilient Operations"
 description: Department of Materials Science and Metallurgy
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/aero.jpg
 project_categories: ""
 authors:
   - name: Jeanne Estabel
