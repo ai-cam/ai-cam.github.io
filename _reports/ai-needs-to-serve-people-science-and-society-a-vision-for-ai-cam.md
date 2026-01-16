@@ -17,7 +17,7 @@ abstract: This report sets out the vision for AI@Cam, a new flagship mission at
   policy and practice to ensure AI innovations deliver societal benefit while
   mitigating potential harms.
 links:
-  - link: "/assets/uploads/aicam_review_april22.pdf "
+  - link: /assets/images/uploads/ai-cam-review-building-cambridge’s-ai-capabilities.pdf
     link_text: Download the full report
 authors:
   - photo: /assets/images/uploads/lawrence_neil.png
