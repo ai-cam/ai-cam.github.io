@@ -6,6 +6,8 @@ excerpt: This policy brief examines how to bridge the gap between AI’s technic
   centering social needs in AI development and deployment while building
   effective governance frameworks.
 report_date: 2024-12-05
+tags:
+  - tag: Policy, Research and innovation
 cover_image: /assets/images/uploads/policy-lab-scriberia.jpg
 abstract: This policy brief examines how to bridge the gap between AI’s
   technical capabilities and real-world public benefit. Through analysis of
