@@ -3,7 +3,7 @@ title: "AI Public Dialogues: Understanding Public Perspectives on AI in
   Government Missions"
 excerpt: This report presents findings from public dialogue workshops conducted
   in Liverpool and Cambridge to understand public perspectives on the role of AI
-  in delivering the UK Government’s Missions
+  in delivering the UK Government’s Missions.
 report_date: 2024-09-27
 cover_image: /assets/images/uploads/missions-for-government-2-.png
 abstract: This report presents findings from public dialogue workshops conducted
