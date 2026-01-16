@@ -4,7 +4,7 @@ title: AI-assisted Regulatory Compliance Technical File Generator for software
 description: "By using AI to automate regulatory documentation, the Office for
   Translational Research and the School of Clinical Medicine are helping
   researchers bring medical software to patients faster. "
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/20241106_students-at-pathology-research-lab_0260.jpg
 project_categories: ""
 authors:
   - name: Reza Salek
