@@ -69,7 +69,7 @@ authors:
   - name: Silviu Petrrovan
     photo: /assets/images/uploads/silviu-petrovan.jpeg
     role: Senior Research Associate
-  - name: Keshav Srinivasan
+  - name: Srinivasan Keshav
     photo: /assets/images/uploads/srinivasan_keshav.jpeg
     role: Robert Sansom Professor of Computer Science
   - name: William Sutherland
