@@ -35,6 +35,9 @@ authors:
   - photo: /assets/images/uploads/neff_gina.jpg
     name: Gina Neff
     role: Executive Director
+  - photo: /assets/images/uploads/montgomery_jessica.jpg
+    name: Jessica Montgomery
+    role: ai@cam Director
 ---
 This policy brief addresses three key questions regarding the UK’s approach to generative AI development and governance.
 
