@@ -17,8 +17,8 @@ abstract: This annual report outlines ai@cam’s first year of operations
   supporting innovative research programs in mental health, fertility, public
   services, language equity, and climate.
 links:
-  - link: https://www.ai.cam.ac.uk/assets/uploads/2024-ai-cam-annual-report.pdf
-    link_text: Download PDF
+  - link: /assets/images/uploads/ai-cam-annual-report-2023-24.pdf
+    link_text: Download full report
 authors:
   - photo: /assets/images/uploads/montgomery_jessica.jpg
     name: Jessica Montgomery
