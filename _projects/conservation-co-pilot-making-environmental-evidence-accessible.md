@@ -20,7 +20,7 @@ authors:
     role: Department of Zoology
     photo: /assets/images/uploads/dr-rebecca-smith-1-.jpeg
   - name: William Sutherland
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/billsutherland.jpg
     role: Department of Zoology
 ---
 
