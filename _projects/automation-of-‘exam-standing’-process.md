@@ -1,7 +1,7 @@
 ---
 title: Automation of ‘exam standing’ process
 description: Education Services
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/20230726_a-postrgraduate-student-working-on-a-laptop-in-darwin-college-library_dsc00542.jpg
 project_categories: ""
 authors:
   - name: Jenny Blakesley
