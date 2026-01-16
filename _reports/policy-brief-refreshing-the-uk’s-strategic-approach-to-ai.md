@@ -15,6 +15,19 @@ abstract: This policy brief examines how to bridge the gap between AI’s
 links:
   - link: /assets/images/uploads/refreshing-the-uks-strategic-approach-to-ai.pdf
     link_text: Download full report
+authors:
+  - photo: /assets/images/uploads/montgomery_jessica.jpg
+    name: Jessica Montgomery
+    role: "ai@cam Director "
+  - photo: /assets/images/uploads/lawrence_neil.png
+    role: Chair of ai@cam
+    name: Neil Lawrence
+  - photo: /assets/images/uploads/neff_gina.jpg
+    name: Gina Neff
+    role: Executive Director of the Minderoo Centre for Technology & Democracy
+  - role: Bennett Professor of Public Policy
+    name: Diane Coyle
+    photo: /assets/images/uploads/coyle_diane-1-.jpg
 citation_fields:
   publisher: University of Cambridge
 ---
