@@ -1,6 +1,6 @@
 ---
 title: "AERO: Analytics for Energy-efficient and Resilient Operations"
-description: Department of Materials Science and Metallurgy
+description: " "
 cover_image: /assets/images/uploads/aero.jpg
 project_categories: ""
 authors:
