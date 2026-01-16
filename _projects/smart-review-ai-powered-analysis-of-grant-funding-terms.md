@@ -1,7 +1,7 @@
 ---
 title: "Smart-Review: AI-Powered Analysis of Grant Funding Terms"
 description: Cambridge Research Office
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/20241106_staff-members-at-the-old-cavendish_0222.jpg
 project_categories: ""
 authors:
   - name: Claire Piffard
