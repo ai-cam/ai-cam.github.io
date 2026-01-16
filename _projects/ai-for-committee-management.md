@@ -1,7 +1,7 @@
 ---
 title: AI for Committee Management
 description: School of Clinical Medicine and Governance and Compliance Division
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/committee.jpg
 project_categories: ""
 authors:
   - name: Jackie Hall
