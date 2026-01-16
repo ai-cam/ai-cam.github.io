@@ -7,7 +7,7 @@ excerpt: "By connecting the University of Cambridge’s world-leading research
 report_date: 2025-09-05
 tags:
   - tag: Policy Brief
-cover_image: /assets/images/uploads/annual-report-image-2025-21234.jpg
+cover_image: /assets/images/uploads/annual-report-2025.png
 abstract: >-
   
   By connecting the University of Cambridge’s world-leading research with real-world challenges ranging from local government to global sustainable development, ai@cam is demonstrating how universities can drive a new wave of AI innovation that delivers public benefit.
