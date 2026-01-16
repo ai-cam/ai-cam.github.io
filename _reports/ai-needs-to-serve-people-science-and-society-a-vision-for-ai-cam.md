@@ -18,16 +18,14 @@ abstract: This report sets out the vision for AI@Cam, a new flagship mission at
   mitigating potential harms.
 links:
   - link: https://www.ai.cam.ac.uk/assets/uploads/aicam_review_april22.pdf
-    link_text: Download the PDF
-  - link: /
-    link_text: Cite the Publication
+    link_text: Download the full report
 authors:
   - photo: /assets/images/uploads/lawrence_neil.png
     name: Neil Lawrence
-    role: Chair ai@cam
+    role: Chair of ai@cam
   - photo: /assets/images/uploads/montgomery_jessica.jpg
     name: Jessica Montgomery
-    role: Director ai@cam
+    role: "ai@cam Director "
 ---
 This report outlines the vision for ai@cam, examining how artificial intelligence can be leveraged to benefit science and society while addressing key challenges of equity and inclusion.
 
