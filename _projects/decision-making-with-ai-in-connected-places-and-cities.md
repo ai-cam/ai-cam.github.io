@@ -19,7 +19,7 @@ authors:
       University
   - photo: /assets/images/uploads/viviana_bm.jpeg
     name: Viviana Bastidas Melo
-    role: Research Associate in Urban Systems and Infrastructure
+    role: " Assistant Research Professor in Urban Systems and Infrastructure"
   - name: Li Wan
     photo: /assets/images/uploads/li_wan.jpeg
     role: Associate Professor in Urban Planning and Development
@@ -51,28 +51,3 @@ The Department of Engineering at the University of Cambridge will lead this proj
 Dr Kwadwo Oti-Sarpong, AI-deas challenge lead, said: “We’re excited to be one of the winners of AI-deas and work on this project with practitioners across disciplines to shape the future of public sector decision-making using AI in creating connected places. 
 
 Understanding how to practically root AI use in ethical considerations, and showing how that can be done, will significantly change how we create the future we want.”
-
-
-Project contributors:
-
-* Dr Kwadwo Oti-Sarpong, Cambridge Centre for Smart Infrastructure and Construction (
-
-  [CSIC](https://www-smartinfrastructure.eng.cam.ac.uk/)
-
-  ), Department of Engineering
-* Dr Jennifer Schooling FICE OBE, 
-
-  [Former Director, CSIC](https://www-smartinfrastructure.eng.cam.ac.uk/news/decade-innovation-professor-jennifer-schooling-reflects-evolution-smart-infrastructure-and#:~:text=Professor%20Jennifer%20Schooling%2C%20former%20director,Places%20at%20Anglia%20Ruskin%20University.)
-
-  ; Faculty of Science and Engineering, 
-
-  [Anglia Ruskin University](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.aru.ac.uk%2Fpeople%2Fjennifer-schooling&data=05%7C02%7Cep742%40cam.ac.uk%7C5ec7d84d5e594dc5458e08dc7a4c5bdb%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638519715778460944%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=KAfTIAABl7fH8EVRq4nfCL%2FMy7gW7%2Ftvn0pSxnC5VHw%3D&reserved=0)
-
-
-* Dr Viviana Bastidas, Cambridge Centre for Smart Infrastructure and Construction (CSIC), Department of Engineering
-* Dr Li Wan, Department of Land Economy
-* Dr Ramit Debnath, Department of Architecture and Cambridge Zero
-* Dr Maya Ganesh, Leverhulme Centre for the Future of Intelligence, Institute of Continuing Education
-* Dr Manuel Herrera, Department of Engineering
-* Jerry Chen, Department of Land Economy
-* Dr Kristina Khutsishvili, Department of Engineering
