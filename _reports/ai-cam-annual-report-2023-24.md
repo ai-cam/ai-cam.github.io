@@ -9,7 +9,7 @@ excerpt: This annual report outlines ai@cam’s first year of operations
 report_date: 2024-03-01
 tags:
   - tag: Report, research and innovation
-cover_image: /assets/images/uploads/2023-annual-report.png
+cover_image: /assets/images/uploads/annual-report-2023.png
 abstract: This annual report outlines ai@cam’s first year of operations
   establishing itself as an incubator for interdisciplinary AI that addresses
   real-world needs. Through initiatives like AI-deas and the Policy Lab, ai@cam
