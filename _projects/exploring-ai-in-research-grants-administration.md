@@ -3,7 +3,7 @@ title: Exploring AI in Research Grants Administration
 description: Departments of Psychology and Engineering, UIS, Leverhulme Centre
   for the Future of Intelligence, MMLL, RSO, ROO, CRASSH, and Judge Business
   School
-cover_image: /assets/images/uploads/zulfugar-karimov-carba5zxjtq-unsplash.jpg
+cover_image: /assets/images/uploads/20250514_two-university-staff-members-talking_pic0016.jpg
 project_categories: ""
 authors:
   - name: Petra Georgoulis-Hluzova
