@@ -1,7 +1,7 @@
 ---
 title: Libraries Working Smarter with AI
 description: Cambridge University Library
-cover_image: /assets/images/uploads/2020_girton-college-library-1-.jpg
+cover_image: /assets/images/uploads/toa-heftiba-jeorue7x5zu-unsplash-2-.jpg
 project_categories: ""
 authors:
   - name: Lesley Gray
