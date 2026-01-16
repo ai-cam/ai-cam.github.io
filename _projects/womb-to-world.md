@@ -4,6 +4,8 @@ description: "From conception to childhood: Revolutionising women’s health,
   female fertility and early infant neurodevelopment using AI"
 cover_image: /assets/images/uploads/womb-to-world-2.jpg
 project_categories: Challenges
+videos:
+  - video_link: https://www.youtube.com/watch?v=1AGz5oAN7iI
 authors:
   - photo: /assets/images/uploads/staci-weiss.jpeg
     name: Staci Weiss
