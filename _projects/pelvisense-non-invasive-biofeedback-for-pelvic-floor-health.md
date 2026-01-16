@@ -5,8 +5,8 @@ description: "Pelvic floor muscle dysfunction affects over 14 million people in
 cover_image: /assets/images/uploads/yoga-matt.jpg
 project_categories: Sprints
 authors:
-  - name: Dr Hristo Dimitrov
-    photo: /assets/images/uploads/download.jpeg
+  - name: Hristo Dimitrov
+    photo: /assets/images/uploads/hristo-dimitrov.jpg
     role: MRC Cognition and Brain Sciences Unit
   - name: "Ms Alexandra Williams "
     photo: /assets/images/uploads/images.jpeg
