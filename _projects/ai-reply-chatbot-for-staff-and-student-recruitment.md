@@ -5,7 +5,7 @@ description: "This project will develop an AI-powered replybot and chatbot to
   The system will provide instant, consistent responses to frequently asked
   questions about job opportunities and postgraduate admissions, reducing manual
   email handling and improving response times. "
-cover_image: /assets/images/uploads/images.jpeg
+cover_image: /assets/images/uploads/20241106_university-staff-member_0154.jpg
 project_categories: ""
 authors:
   - name: Sarah Rosella
