@@ -7,10 +7,10 @@ cover_image: /assets/images/uploads/20250514_two-university-staff-members-walkin
 project_categories: ""
 authors:
   - name: Petra Georgoulis-Hluzova
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/petra-georgoulis-hluzova-.jpg
     role: Department of Psychology
   - name: Peter Thomas-McEwen
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/peter-thomas-mcewen.jpg
     role: Department of Engineering
   - name: Sabrina Yang
     photo: /assets/images/uploads/download.jpeg
