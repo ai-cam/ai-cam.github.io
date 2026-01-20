@@ -6,18 +6,18 @@ project_categories: ""
 authors:
   - name: Jackie Hall
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: School of Clinical Medicine
   - name: Michael Morgan
-    role: /
+    role: "School of Clinical Medicine "
     photo: /assets/images/uploads/download.jpeg
   - name: Claire Darracott
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: School of Clinical Medicine
   - name: Barbara Bennett
-    role: /
+    role: School of Clinical Medicine
     photo: /assets/images/uploads/download.jpeg
   - name: Adam Russell
-    role: /
+    role: School of Clinical Medicine
     photo: /assets/images/uploads/download.jpeg
   - name: Jo Craigwood
     role: /
