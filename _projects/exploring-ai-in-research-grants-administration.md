@@ -17,27 +17,28 @@ authors:
     role: /
   - photo: /assets/images/uploads/download.jpeg
     name: Hannah Tigg
-    role: /
+    role: Leverhulme Centre for the Future of Intelligence
   - name: Yvonne Martin-Portugues
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Leverhulme Centre for the Future of Intelligence
   - name: Miyoung Kim
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Modern and Medieval Languages and Linguistics Library (MMLL)
   - name: Sarah Lamont
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Research Strategy Office (RSO) - Academic Division
   - name: Simeon Burke
-    role: /
+    role: Research Strategy Office (RSO) - Academic Division
     photo: /assets/images/uploads/download.jpeg
   - name: Katerina Tsormpatzoglou
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Research Operations Office (ROO) - Academic Division
   - name: Russell Manning
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Centre for Research in the Arts, Humanities and Social Sciences (CRASSH)
   - name: Rowena Harvey
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Judge Business School
+    author_link: ""
 ---
 Research support teams handle a high volume of complex queries about funding opportunities, often searching across multiple funder websites and documents to find key eligibility details. This project will test AI tools such as Microsoft Copilot, ChatGPT, and Google NotebookLM to see how they can streamline these processes - from summarising funder guidance to checking eligibility and interpreting terms and conditions. The team will develop prompt libraries, usage guides, and practical recommendations to help research administrators work more efficiently and consistently, freeing up time for higher-value support.
