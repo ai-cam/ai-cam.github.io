@@ -12,8 +12,8 @@ authors:
     photo: /assets/images/uploads/sarah-rosella.png
     role: Bennett School of Public Policy
   - name: Rebecca Learn
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/rebecca_leam.jpg
+    role: Bennett School of Public Policy
   - name: Diane Coyle
     photo: /assets/images/uploads/coyle_diane-1-.jpg
     role: /
