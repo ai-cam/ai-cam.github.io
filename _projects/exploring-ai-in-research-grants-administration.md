@@ -14,7 +14,7 @@ authors:
     role: /
   - name: Sabrina Yang
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: University Information Services (UIS)
   - photo: /assets/images/uploads/download.jpeg
     name: Hannah Tigg
     role: Leverhulme Centre for the Future of Intelligence
