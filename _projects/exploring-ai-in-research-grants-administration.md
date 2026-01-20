@@ -15,11 +15,11 @@ authors:
   - name: Sabrina Yang
     photo: /assets/images/uploads/download.jpeg
     role: University Information Services (UIS)
-  - photo: /assets/images/uploads/download.jpeg
+  - photo: /assets/images/uploads/hannah-tigg.png
     name: Hannah Tigg
     role: Leverhulme Centre for the Future of Intelligence
   - name: Yvonne Martin-Portugues
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/yvonne-martin-portugues.jpg
     role: Leverhulme Centre for the Future of Intelligence
   - name: Miyoung Kim
     photo: /assets/images/uploads/download.jpeg
@@ -34,7 +34,7 @@ authors:
     photo: /assets/images/uploads/download.jpeg
     role: Research Operations Office (ROO) - Academic Division
   - name: Russell Manning
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/russell-re-manning-740x740.jpg
     role: Centre for Research in the Arts, Humanities and Social Sciences (CRASSH)
   - name: Rowena Harvey
     photo: /assets/images/uploads/download.jpeg
