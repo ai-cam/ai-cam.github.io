@@ -8,10 +8,10 @@ project_categories: ""
 authors:
   - name: Petra Georgoulis-Hluzova
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Department of Psychology
   - name: Peter Thomas-McEwen
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Department of Engineering
   - name: Sabrina Yang
     photo: /assets/images/uploads/download.jpeg
     role: University Information Services (UIS)
