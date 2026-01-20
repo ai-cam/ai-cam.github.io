@@ -5,7 +5,7 @@ cover_image: /assets/images/uploads/20250514_university-staff-meeting_pic0004.jp
 project_categories: ""
 authors:
   - name: Jackie Hall
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/jackiehall.jpeg
     role: School of Clinical Medicine
   - name: Michael Morgan
     role: "School of Clinical Medicine "
