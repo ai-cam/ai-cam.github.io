@@ -16,7 +16,7 @@ authors:
     role: Bennett School of Public Policy
   - name: Diane Coyle
     photo: /assets/images/uploads/coyle_diane-1-.jpg
-    role: /
+    role: Bennett School of Public Policy
 ---
 
 
