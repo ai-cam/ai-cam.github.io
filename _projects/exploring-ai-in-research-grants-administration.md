@@ -25,11 +25,11 @@ authors:
     photo: /assets/images/uploads/download.jpeg
     role: Modern and Medieval Languages and Linguistics Library (MMLL)
   - name: Sarah Lamont
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/sarahlamont.jpeg
     role: Research Strategy Office (RSO) - Academic Division
   - name: Simeon Burke
     role: Research Strategy Office (RSO) - Academic Division
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/simeon.burke.jpg
   - name: Katerina Tsormpatzoglou
     photo: /assets/images/uploads/download.jpeg
     role: Research Operations Office (ROO) - Academic Division
