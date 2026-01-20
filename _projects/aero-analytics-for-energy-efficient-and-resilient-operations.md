@@ -6,9 +6,9 @@ project_categories: ""
 authors:
   - name: Jeanne Estabel
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: Department of Materials Science and Metallurgy
   - name: James Elliott
-    role: /
+    role: Department of Materials Science and Metallurgy
     photo: /assets/images/uploads/download.jpeg
   - name: Xavier Montiel
     photo: /assets/images/uploads/download.jpeg
