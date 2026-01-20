@@ -9,8 +9,8 @@ cover_image: /assets/images/uploads/staff-member.jpg
 project_categories: ""
 authors:
   - name: Sarah Rosella
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/sarah-rosella.png
+    role: Bennett School of Public Policy
   - name: Rebecca Learn
     photo: /assets/images/uploads/download.jpeg
     role: /
