@@ -1,6 +1,6 @@
 ---
 title: Libraries Working Smarter with AI
-description: Cambridge University Library
+description: "  "
 cover_image: /assets/images/uploads/toa-heftiba-jeorue7x5zu-unsplash-2-.jpg
 project_categories: ""
 authors:
