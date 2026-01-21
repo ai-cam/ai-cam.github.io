@@ -12,6 +12,9 @@ abstract: This report presents findings from public dialogue workshops conducted
   education, energy and net zero, and health, the dialogues reveal public
   aspirations for AI in public services and highlight necessary interventions to
   ensure AI delivers public benefit while maintaining appropriate safeguards.
+links:
+  - link: /assets/images/uploads/ai-and-this-missions-for-government-public-dialogue-report.pdf
+    link_text: Download full report
 authors:
   - photo: /assets/images/uploads/montgomery_jessica.jpg
     name: Jessica Montgomery
