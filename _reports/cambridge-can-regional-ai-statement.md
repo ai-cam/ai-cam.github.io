@@ -36,4 +36,3 @@ This statement represents a collaboration between a number of organisations acro
 * ai@cam
 * Innovate Cambridge
 * Cambridge Ahead
-* Impact and Next Steps
