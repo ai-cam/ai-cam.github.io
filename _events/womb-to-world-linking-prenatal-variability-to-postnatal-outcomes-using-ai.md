@@ -21,8 +21,11 @@ event_content: >-
   \
 
   If you have any questions about registration or about the workshop in general, please contact Christina Rozeik ([coordinator@repro.cam.ac.uk](mailto:coordinator@repro.cam.ac.uk)).
+registration_link: https://www.repro.cam.ac.uk/womb-to-world
+registration_link_text: Find out more
 event_date: 2026-03-13
 event_end_date: 2026-03-13
 time: 09:30 to 15:00
 location: The Pitt Building, Trumpington Street, Cambridge CB2 1RP
+organizers: Cambridge Reproduction
 ---
