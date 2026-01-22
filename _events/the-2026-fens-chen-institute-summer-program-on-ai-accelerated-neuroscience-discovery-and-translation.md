@@ -27,7 +27,7 @@ event_content: >-
   **Applications close: Midnight on Monday 16th February 2026**
 registration_text: ""
 registration_link: https://www.fens.org/news-activities/fens-and-societies-calendar/training-event/fens-chen-institute-summer-program-on-ai-accelerated-neuroscience-discovery-and-translation-hosted-by-the-university-of-cambridge
-registration_link_text: Find out More
+registration_link_text: Find out more
 event_date: 2026-07-12
 event_end_date: 2026-07-18
 time: 09:00-17.30
