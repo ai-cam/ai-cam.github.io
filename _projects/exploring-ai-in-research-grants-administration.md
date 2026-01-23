@@ -37,7 +37,7 @@ authors:
     photo: /assets/images/uploads/russell-re-manning-740x740.jpg
     role: Centre for Research in the Arts, Humanities and Social Sciences (CRASSH)
   - name: Rowena Harvey
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/rowena-harvey.jpg
     role: Judge Business School
     author_link: ""
 ---
