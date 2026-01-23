@@ -2,6 +2,21 @@
 title: "From Fragments to Findings: How AI is Transforming Access to Collections"
 date: 2025-10-15
 cover_image: /assets/images/uploads/fragments.png
+information_title: More about the AI for Cultural Heritage Hub (ArCH)
+information_content: >-
+  This research is being led by the University of Cambridge. If you’re
+  interested in learning more about the AI for Cultural Heritage Hub (ArCH)
+  project or contributing to the project, please contact Amelie Roper
+  (researchdevelopment@lib.cam.ac.uk).
+
+
+  • [AI for Cultural Heritage Hub](<>)
+
+
+  • [AI for Cultural Heritage Hub Mailing List](<>)
+
+
+  • [Cambridge University Library Research Institute](<>)
 related_title: " "
 ---
 AI is reshaping the way we access and interpret cultural heritage collections, from transcribing fragile manuscripts to piecing together fragmented artefacts. At Cambridge University Library, Dr Amelie Roper and her team are leading the AI for Cultural Heritage Hub (ArCH) project, a new initiative exploring how AI can reveal hidden collections while placing expert knowledge, ethical practice, and sustainability at its core.
@@ -62,12 +77,4 @@ Partnerships are at the heart of ArCH. Within Cambridge University Library we ar
 
 Looking ahead, our vision is that once the hub is fully developed, galleries, libraries, archives, and museums worldwide will be able to implement their own versions to use with their collections, making cultural heritage more discoverable on a global scale.
 
-###### More about the AI for Cultural Heritage Hub (ArCH)
-
-This research is being led by the University of Cambridge. If you’re interested in learning more about the AI for Cultural Heritage Hub (ArCH) project or contributing to the project, please contact Amelie Roper (researchdevelopment@lib.cam.ac.uk).
-
-• [AI for Cultural Heritage Hub](https://www.lib.cam.ac.uk/research-institute/projects/arch)
-
-• [AI for Cultural Heritage Hub Mailing List](https://cam.us21.list-manage.com/subscribe?u=707258688317f6c4e792b48ab&id=483ee1a0ff)
-
-• [Cambridge University Library Research Institute](https://www.lib.cam.ac.uk/research-institute)
+[](https://www.lib.cam.ac.uk/research-institute)
