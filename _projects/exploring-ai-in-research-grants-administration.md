@@ -20,7 +20,7 @@ authors:
     photo: /assets/images/uploads/yvonne-martin-portugues.jpg
     role: Leverhulme Centre for the Future of Intelligence
   - name: Miyoung Kim
-    photo: /assets/images/uploads/miyoung-kim.jpg
+    photo: /assets/images/uploads/miyoung-kim-1.png
     role: Modern and Medieval Languages and Linguistics Library (MMLL)
   - name: Sarah Lamont
     photo: /assets/images/uploads/sarahlamont.jpeg
