@@ -1,8 +1,6 @@
 ---
 title: Exploring AI in Research Grants Administration
-description: Departments of Psychology and Engineering, UIS, Leverhulme Centre
-  for the Future of Intelligence, MMLL, RSO, ROO, CRASSH, and Judge Business
-  School
+description: " "
 cover_image: /assets/images/uploads/20250514_two-university-staff-members-walking_pic0013.jpg
 project_categories: ""
 authors:
