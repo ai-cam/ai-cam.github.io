@@ -13,7 +13,7 @@ authors:
     photo: /assets/images/uploads/peter-thomas-mcewen.jpg
     role: Department of Engineering
   - name: Sabrina Yang
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/sabrina-yang.jpg
     role: University Information Services (UIS)
   - photo: /assets/images/uploads/hannah-tigg.png
     name: Hannah Tigg
@@ -22,7 +22,7 @@ authors:
     photo: /assets/images/uploads/yvonne-martin-portugues.jpg
     role: Leverhulme Centre for the Future of Intelligence
   - name: Miyoung Kim
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/miyoung-kim2026.jpg
     role: Modern and Medieval Languages and Linguistics Library (MMLL)
   - name: Sarah Lamont
     photo: /assets/images/uploads/sarahlamont.jpeg
