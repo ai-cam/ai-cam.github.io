@@ -35,11 +35,9 @@ Cultural heritage organisations around the world hold billions of items that rem
 
 ArCH is tackling the accessibility of collections by focusing on three core challenges.
 
-Challenge 1 is unlocking inaccessible data by using AI transcription and computer vision tools on digitised documents. While transcription can be carried out manually, the vast scale of untranscribed material, and the time required to process it, far exceeds the staffing capacity of most cultural heritage organisations.
-
-Challenge 2 is reconstructing fragmentary or dispersed cultural objects, enabling new insights into their form, meaning, and historical context.
-
-Challenge 3 is embedding expert cultural knowledge into AI algorithms, drawing not only on academic expertise but also on the knowledge of practitioners and communities connected to the collections.
+* Challenge 1 is unlocking inaccessible data by using AI transcription and computer vision tools on digitised documents. While transcription can be carried out manually, the vast scale of untranscribed material, and the time required to process it, far exceeds the staffing capacity of most cultural heritage organisations.
+* Challenge 2 is reconstructing fragmentary or dispersed cultural objects, enabling new insights into their form, meaning, and historical context.
+* Challenge 3 is embedding expert cultural knowledge into AI algorithms, drawing not only on academic expertise but also on the knowledge of practitioners and communities connected to the collections.
 
 **Are there any potential risks of using AI in the cultural heritage sector?**
 
