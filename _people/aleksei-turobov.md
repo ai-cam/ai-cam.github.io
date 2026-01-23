@@ -1,5 +1,6 @@
 ---
 title: Aleksei Turobov
+photo: /assets/images/uploads/aleksei-turobov.jpg
 job_title: Research Associate
 department: Bennett Institute for Public Policy, Department of Politics and
   International Studies
