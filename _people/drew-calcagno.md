@@ -1,6 +1,7 @@
 ---
 title: Drew Calcagno
 photo: /assets/images/uploads/drew-calcagno.jpg
+job_title: " PhD student"
 department: Centre for Human-Inspired Artificial Intelligence (CHIA)
 biography: Drew is a PhD student at CHIA researching trustworthy AI deployment
   and human-AI interaction in high-stakes domains. Previously, Drew worked at
