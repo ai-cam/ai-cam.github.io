@@ -11,11 +11,9 @@ biography: >-
   centres around the intersection of AI policy, geopolitics, and security,
   particularly emphasising the socio-political implications of digital
   transformation. Additionally, he is interested in evaluating institutional AI
-  readiness and adaptation using machine learning.
+  readiness and adaptation using machine learning.\
 
-
-   
-
+  \
 
   He was previously a Postdoctoral Fellow in Cybersecurity and Technology Policy at Northumbria University, where he explored how the digital sovereignty narrative shapes and influences UK politics in the face of geopolitical tensions and post-Brexit challenges. Aleksei holds a doctoral degree in Political Science focused on security transformation under digitalisation and automation technologies (notably AI).
 ---
