@@ -27,8 +27,6 @@ At its core, the project addresses both informational and structural gaps in fer
 
 The Womb to World AI prototype responds to these challenges by using a short set of questions to understand where individuals are in their reproductive journey, then provides personalised guidance on appropriate next steps for seeking reproductive support. For those who are pregnant, the platform also uses ultrasound data to visualise a baby’s movements in the womb, an approach that can support parent–child bonding, and may be particularly valuable for parents who have experienced a complex path to pregnancy.
 
-###### \
-
 How does artificial intelligence feature in your approach and why is personalisation particularly important in fertility care?
 
 The project uses a multimodal AI framework capable of learning from multiple types of data simultaneously, including electronic health records, routine ultrasound imaging, structured clinical information, and free-text patient accounts. Our intention is not to replace clinicians, but to support clinical decision-making. By learning from clinician-informed decision pathways and historical outcomes, the system can provide contextual insights that would be difficult to synthesise during a single consultation.
