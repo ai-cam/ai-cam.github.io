@@ -1,5 +1,5 @@
 ---
-title: "From Womb to World: Exploring the role of AI in Personalised Fertility Care"
+title: Exploring the role of AI in Personalised Fertility Care
 date: 2026-01-27
 cover_image: /assets/images/uploads/fertility-care-blog.jpg
 information_title: "Join us at this year's AI bootcamp "
