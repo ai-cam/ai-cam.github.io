@@ -11,13 +11,13 @@ related_title: "  "
 
 Developed by Dr Staci Weiss and Mo Vali, and pitched alongside Research Coordinator Ekaterina Moiseeva, the project explores how artificial intelligence could bring together fragmented women’s health data to enable more personalised, transparent fertility care. The platform is currently being co-designed with expectant parents and those navigating fertility treatment, ensuring it reflects lived experiences as well as clinical insight.
 
-### What did you learn from participating in the AI Sciencepreneurship Bootcamp?
+#### What did you learn from joining the AI Sciencepreneurship Bootcamp?
 
 Participating in the bootcamp encouraged us to view our research through a different lens. As researchers, we often know there is a problem, but we do not always need to articulate why it matters beyond academic contexts. The bootcamp pushed us to think more explicitly about impact, demand, and how our research might translate into something that people would actively use.
 
 It also highlighted the importance of storytelling around AI, and describing the tricky balance of how it can provide solutions which are at scale, yet highly tailored to the person. The bootcamp helped us imagine an audience beyond women’s health, to broader commercial horizons: we were able to communicate why a problem is worth attention and investment. Learning how to frame our work in terms of value, need, and real-world relevance has since become part of how we discuss the project.
 
-### What motivated the development of the Womb to World project and what problem is the project trying to address?
+#### What motivated the development of the Womb to World project and what problem is the project trying to address?
 
 Womb to World emerged from a shared concern about how women experience fertility care and reproductive health more broadly. Across both clinical practice and psychological research, we repeatedly encountered the same issue: women often receive fragmented information about their bodies, particularly at critical moments such as fertility treatment.
 
