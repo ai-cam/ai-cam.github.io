@@ -7,7 +7,7 @@ information_content: Applications for ai@cam’s 2026 bootcamp are open for
   registration – don’s miss out on your chance to apply here.
 related_title: "  "
 ---
-Womb to World was one of the winning projects at the inaugural AI Sciencepreneurship Bootcamp, which supports early-stage researchers in translating AI research into real-world applications.
+[Womb to World](https://www.wombs2world.com/) was one of the winning projects at the inaugural AI Sciencepreneurship Bootcamp, which supports early-stage researchers in translating AI research into real-world applications.
 
 Developed by Dr Staci Weiss and Mo Vali, and pitched alongside Research Coordinator Ekaterina Moiseeva, the project explores how artificial intelligence could bring together fragmented women’s health data to enable more personalised, transparent fertility care. The platform is currently being co-designed with expectant parents and those navigating fertility treatment, ensuring it reflects lived experiences as well as clinical insight.
 
@@ -19,7 +19,7 @@ It also highlighted the importance of storytelling around AI, and describing the
 
 **What motivated the development of the Womb to World project and what problem is the project trying to address?**
 
-Womb to World emerged from a shared concern about how women experience fertility care and reproductive health more broadly. Across both clinical practice and psychological research, we repeatedly encountered the same issue: women often receive fragmented information about their bodies, particularly at critical moments such as fertility treatment.
+[Womb to World](https://www.youtube.com/watch?v=1AGz5oAN7iI) emerged from a shared concern about how women experience fertility care and reproductive health more broadly. Across both clinical practice and psychological research, we repeatedly encountered the same issue: women often receive fragmented information about their bodies, particularly at critical moments such as fertility treatment.
 
 For many, meaningful education about reproductive health begins only when something goes wrong - often at the point of IVF. By then, decisions are urgent, emotionally charged, and costly. We were interested in exploring how earlier, more integrated insight could support not only clinical outcomes, but also psychological wellbeing and a greater sense of agency throughout the fertility journey.
 
@@ -38,3 +38,5 @@ Fertility is highly individual, yet care pathways are often based on averages. T
 Being selected as a winning project helped validate that this work resonates beyond academic settings. It reinforced that this is not only a technically interesting problem, but a socially significant one. The recognition also provided momentum to think more seriously about scale - how this work could move from research into practice, while remaining clinically responsible and ethically grounded. The next phase involves working with fertility clinics to establish a shared data consortium, enabling the system to be trained on a wider and more representative range of patient experiences.
 
 Alongside technical development, we are also focused on public engagement - improving visibility, sharing progress transparently, and contributing to better fertility education. The aim is not only to build a technological solution, but to support more informed and empowered conversations around reproductive health.
+
+[Find out more about the Womb to World project. ](https://www.wombs2world.com/)
