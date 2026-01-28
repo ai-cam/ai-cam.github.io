@@ -11,7 +11,7 @@ Womb to World was one of the winning projects at the inaugural AI Sciencepreneur
 
 Developed by Dr Staci Weiss and Mo Vali, and pitched alongside Research Coordinator Ekaterina Moiseeva, the project explores how artificial intelligence could bring together fragmented women’s health data to enable more personalised, transparent fertility care. The platform is currently being co-designed with expectant parents and those navigating fertility treatment, ensuring it reflects lived experiences as well as clinical insight.
 
-##### What did you learn from joining the AI Sciencepreneurship Bootcamp?
+#### What did you learn from joining the AI Sciencepreneurship Bootcamp?
 
 Participating in the bootcamp encouraged us to view our research through a different lens. As researchers, we often know there is a problem, but we do not always need to articulate why it matters beyond academic contexts. The bootcamp pushed us to think more explicitly about impact, demand, and how our research might translate into something that people would actively use.
 
