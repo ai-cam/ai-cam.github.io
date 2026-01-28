@@ -4,7 +4,8 @@ date: 2026-01-27
 cover_image: /assets/images/uploads/fertility-care-blog.jpg
 information_title: "Join us at this year's AI bootcamp "
 information_content: Applications for ai@cam’s 2026 bootcamp are open for
-  registration – don’s miss out on your chance to apply here.
+  registration – don’s miss out on your chance to [apply
+  here.](https://www.ai.cam.ac.uk/calls/ai-sciencepreneurship-bootcamp-feb-2026/)
 related_title: "  "
 ---
 [Womb to World](https://www.wombs2world.com/) was one of the winning projects at the inaugural AI Sciencepreneurship Bootcamp, which supports early-stage researchers in translating AI research into real-world applications.
