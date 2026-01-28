@@ -11,7 +11,7 @@ Womb to World was one of the winning projects at the inaugural AI Sciencepreneur
 
 Developed by Dr Staci Weiss and Mo Vali, and pitched alongside Research Coordinator Ekaterina Moiseeva, the project explores how artificial intelligence could bring together fragmented women’s health data to enable more personalised, transparent fertility care. The platform is currently being co-designed with expectant parents and those navigating fertility treatment, ensuring it reflects lived experiences as well as clinical insight.
 
-### What did you learn from joining the AI Sciencepreneurship Bootcamp?
+**What did you learn from joining the AI Sciencepreneurship Bootcamp?**
 
 Participating in the bootcamp encouraged us to view our research through a different lens. As researchers, we often know there is a problem, but we do not always need to articulate why it matters beyond academic contexts. The bootcamp pushed us to think more explicitly about impact, demand, and how our research might translate into something that people would actively use.
 
@@ -33,7 +33,7 @@ The project uses a multimodal AI framework capable of learning from multiple typ
 
 Fertility is highly individual, yet care pathways are often based on averages. Time, in particular, plays a critical role, but it does not affect everyone in the same way. Standardised advice may be appropriate for some, but harmful for others. Personalisation allows women to understand their fertility in relation to their own health history rather than relying on population-level statistics. Earlier access to personalised insight can support more informed decisions around family planning, fertility preservation, treatment timing, or alternative pathways.
 
-###### What does being selected as a winning project mean for Womb to World?
+**What does being selected as a winning project mean for Womb to World?**
 
 Being selected as a winning project helped validate that this work resonates beyond academic settings. It reinforced that this is not only a technically interesting problem, but a socially significant one. The recognition also provided momentum to think more seriously about scale - how this work could move from research into practice, while remaining clinically responsible and ethically grounded. The next phase involves working with fertility clinics to establish a shared data consortium, enabling the system to be trained on a wider and more representative range of patient experiences.
 
