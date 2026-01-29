@@ -1,7 +1,7 @@
 ---
 slug: ai-needs-to-serve-people-science-and-society-a-vision-for-ai-cam
 title: "AI needs to serve people, science, and society: A vision for ai@cam"
-excerpt: This report sets out the vision for AI@Cam, a new flagship mission at
+excerpt: This report sets out the vision for ai@cam, a new flagship mission at
   the University of Cambridge. It examines how AI can be leveraged to benefit
   science and society while addressing challenges of equity and inclusion. The
   report emphasizes the need for coordination across research, engineering,
@@ -18,17 +18,15 @@ abstract: This report sets out the vision for AI@Cam, a new flagship mission at
   policy and practice to ensure AI innovations deliver societal benefit while
   mitigating potential harms.
 links:
-  - link: https://www.ai.cam.ac.uk/assets/uploads/aicam_review_april22.pdf
-    link_text: Download the PDF
-  - link: /
-    link_text: Cite the Publication
+  - link: /assets/images/uploads/ai-cam-review-building-cambridge’s-ai-capabilities.pdf
+    link_text: Download the full report
 authors:
   - photo: /assets/images/uploads/lawrence_neil.png
     name: Neil Lawrence
-    role: Chair ai@cam
+    role: Chair of ai@cam
   - photo: /assets/images/uploads/montgomery_jessica.jpg
     name: Jessica Montgomery
-    role: Director ai@cam
+    role: "ai@cam Director "
 ---
 This report outlines the vision for ai@cam, examining how artificial intelligence can be leveraged to benefit science and society while addressing key challenges of equity and inclusion.
 

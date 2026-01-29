@@ -4,14 +4,11 @@ title: "Public dialogue on AI in local government: Interim Results"
 excerpt: "In November 2025, ai@cam worked with Hopkins Van Mil to convene public
   dialogues with 95 Cambridgeshire residents to explore their expectations,
   hopes, and concerns regarding the use of AI in local government. This interim
-  report explores the findings from that first phase. The dialogue reveals
-  cautious optimism: residents recognise the substantial potential for AI to
-  enhance service delivery, and emphasise that its adoption must adhere to
-  defined safeguards."
+  report explores the findings from that first phase. "
 report_date: 2025-12-09
 tags:
   - tag: Policy Brief
-cover_image: /assets/images/uploads/summary-report-image-2.png
+cover_image: /assets/images/uploads/summary-report-interim-results.png
 abstract: >-
   In November 2025, ai@cam worked with Hopkins Van Mil to convene public
   dialogues with 95 Cambridgeshire residents to explore their expectations,

@@ -16,8 +16,8 @@ abstract: This policy brief examines the UK’s path forward in building nationa
   development. The brief outlines policy recommendations for supporting an
   ecosystem of AI applications while prioritizing human safety and flourishing.
 links:
-  - link_text: Download the PDF
-    link: https://www.ai.cam.ac.uk/assets/uploads/2023-10-16_generative-ai-policy-brief.pdf
+  - link_text: Download full report
+    link: /assets/images/uploads/generativeai-policybrief.pdf
   - link_text: Cite this publication
     link: /
 authors:
@@ -36,6 +36,9 @@ authors:
   - photo: /assets/images/uploads/neff_gina.jpg
     name: Gina Neff
     role: Executive Director
+  - photo: /assets/images/uploads/montgomery_jessica.jpg
+    name: Jessica Montgomery
+    role: ai@cam Director
 ---
 This policy brief addresses three key questions regarding the UK’s approach to generative AI development and governance.
 

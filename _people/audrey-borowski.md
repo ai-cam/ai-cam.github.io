@@ -1,7 +1,7 @@
 ---
 slug: audrey-borowski
 title: Audrey Borowski
-photo: /assets/images/uploads/audrey-borowski.jpg
+photo: /assets/images/uploads/audrey-borowski-2026.jpg
 job_title: Leverhulme Early Career Fellow and Isaac Newton Trust Fellow
 department: Cambridge Digital Humanities and CRASSH
 biography: >-
