@@ -1,4 +1,5 @@
 ---
+slug: milena-ivanova
 title: Milena Ivanova
 photo: /assets/images/uploads/ivanova_milena.jpg
 job_title: Teaching Associate

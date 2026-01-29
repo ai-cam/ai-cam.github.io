@@ -1,4 +1,5 @@
 ---
+slug: workshop-ai-time-politics-and-ideologies-of-the-future-1
 title: "Workshop: AI Time, Politics, and Ideologies of the Future"
 excerpt: Time haunts AI. An origin story in the summer of 1955 that has acquired
   the status of myth and fact; geopolitical races; the contradictions and

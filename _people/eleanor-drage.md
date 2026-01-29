@@ -1,4 +1,5 @@
 ---
+slug: eleanor-drage
 title: Eleanor Drage
 photo: /assets/images/uploads/drage_eleanor.jpeg
 job_title: Senior Research Fellow

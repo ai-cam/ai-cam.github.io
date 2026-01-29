@@ -1,4 +1,5 @@
 ---
+slug: ai-house-davos-open-source-ai-infrastructure-ecosystem-a-leveling-force-in-a-globalized-world
 title: "AI House Davos - Open Source AI Infrastructure Ecosystem: A Leveling
   Force in a Globalized World"
 excerpt: >+

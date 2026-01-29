@@ -1,4 +1,5 @@
 ---
+slug: gábor-csányi
 title: Gábor Csányi
 photo: /assets/images/uploads/csanyi_gabor.jpeg
 job_title: Professor of Molecular Modelling

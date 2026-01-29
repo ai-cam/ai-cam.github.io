@@ -1,4 +1,5 @@
 ---
+slug: earning-public-trust-in-evidence-informed-policy-professor-alondra-nelson
 title: "Earning public trust in evidence informed policy: Professor Alondra Nelson"
 excerpt: To build public trust in the use of science in policy making,
   scientists are increasingly required to engage with the social context and the

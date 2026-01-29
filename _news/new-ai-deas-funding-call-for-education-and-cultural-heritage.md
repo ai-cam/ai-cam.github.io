@@ -1,4 +1,5 @@
 ---
+slug: new-ai-deas-funding-call-for-education-and-cultural-heritage
 title: New AI-deas funding call for education and cultural heritage
 excerpt: A new funding call has been announced under the ai@cam AI-deas scheme
   targeting research in AI for education and cultural heritage.

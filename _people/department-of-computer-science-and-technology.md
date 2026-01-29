@@ -1,4 +1,5 @@
 ---
+slug: department-of-computer-science-and-technology
 title: Carl Henrik Ek
 photo: /assets/images/uploads/ek_carl-henrik.png
 job_title: Senior Lecturer

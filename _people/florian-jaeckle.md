@@ -1,4 +1,5 @@
 ---
+slug: florian-jaeckle
 title: Florian Jaeckle
 photo: /assets/images/uploads/screenshot-2025-12-16-at-13.40.49.png
 job_title: Research Associate

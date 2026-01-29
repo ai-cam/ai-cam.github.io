@@ -1,4 +1,5 @@
 ---
+slug: winners-of-ai-deas-education-and-cultural-heritage-announced
 title: Winners of AI-deas education and cultural heritage announced
 excerpt: "ai@cam and the Accelerate Programme for Scientific Discovery are
   delighted to announce the winners of the second cohort of ai@cam’s AI-deas

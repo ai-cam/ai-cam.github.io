@@ -1,4 +1,5 @@
 ---
+slug: alec-christie
 title: Alec Christie
 photo: /assets/images/uploads/alec_christie-1-.jpeg
 job_title: Henslow Research Fellow

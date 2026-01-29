@@ -1,4 +1,5 @@
 ---
+slug: thermal-imaging-for-precision-brain-tumour-surgery
 title: Thermal Imaging for Precision Brain Tumour Surgery
 description: "Brain tumours are the leading cause of cancer death in children
   and adults under 45, with complete surgical resection being the most powerful

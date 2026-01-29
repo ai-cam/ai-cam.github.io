@@ -1,4 +1,5 @@
 ---
+slug: women-in-robotics-robotics-and-embodied-intelligence-workshop
 title: "Women in Robotics: Robotics and Embodied Intelligence Workshop"
 excerpt: The relationship between the body and mind of a robot has been a topic
   of debate for centuries, driving scientists to explore intelligent and

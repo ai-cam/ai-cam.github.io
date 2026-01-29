@@ -1,4 +1,5 @@
 ---
+slug: anne-ferguson-smith
 title: Anne Ferguson-Smith
 job_title: Arthur Balfour Professor of Genetics; Pro-Vice-Chancellor for Research
 photo: /assets/images/uploads/team-1.png

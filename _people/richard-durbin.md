@@ -1,4 +1,5 @@
 ---
+slug: richard-durbin
 title: Richard Durbin
 photo: /assets/images/uploads/durbin_richard.jpg
 job_title: Professor of Genetics

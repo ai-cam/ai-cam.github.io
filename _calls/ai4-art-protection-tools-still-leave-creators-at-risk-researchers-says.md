@@ -1,4 +1,5 @@
 ---
+slug: ai4-art-protection-tools-still-leave-creators-at-risk-researchers-says
 title: AI-deas Sprint Programme Call
 call_categories: Past Calls
 cover_image: /assets/images/uploads/curated-lifestyle-jl_tnv6peza-unsplash-1-.jpg

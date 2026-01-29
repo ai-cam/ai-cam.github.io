@@ -1,9 +1,10 @@
 ---
+slug: ai3-art-protection-tools-still-leave-creators-at-risk-researchers-says
 title: AI in Local Government Fair
 call_categories: Past Calls
 cover_image: /assets/images/uploads/ai-in-goverment-fair.jpg
 call_date: 2025-11-14
-application_deadline: 2025-11-14
+application_deadline: ""
 call_content: >-
   Local government staff will have the chance to find academic partners who can
   help them use AI to tackle their biggest operational challenges at a new event

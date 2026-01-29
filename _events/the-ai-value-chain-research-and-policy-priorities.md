@@ -1,4 +1,5 @@
 ---
+slug: the-ai-value-chain-research-and-policy-priorities
 title: "The AI value chain: research and policy priorities"
 excerpt: This 1.5-day online workshop will bring together experts in the field
   of artificial intelligence to discuss priority areas for policy-oriented

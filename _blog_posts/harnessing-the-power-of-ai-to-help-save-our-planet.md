@@ -1,4 +1,5 @@
 ---
+slug: harnessing-the-power-of-ai-to-help-save-our-planet
 title: Harnessing the power of AI to help save our planet
 date: 2024-06-09
 cover_image: /assets/images/uploads/ai-cambridge.jpg

@@ -1,4 +1,5 @@
 ---
+slug: simon-godsill
 title: Simon Godsill
 job_title: Head of Information Engineering
 photo: /assets/images/uploads/team-12.png

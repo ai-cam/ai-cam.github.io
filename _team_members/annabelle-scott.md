@@ -1,4 +1,5 @@
 ---
+slug: annabelle-scott
 title: Annabelle Scott
 job_title: Programme Manager
 photo: /assets/images/uploads/annabelle-image.jpg

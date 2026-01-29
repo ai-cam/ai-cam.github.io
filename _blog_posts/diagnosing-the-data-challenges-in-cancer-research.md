@@ -1,4 +1,5 @@
 ---
+slug: diagnosing-the-data-challenges-in-cancer-research
 title: Diagnosing the data challenges in cancer research
 date: 2024-12-09
 cover_image: /assets/images/uploads/national-cancer-institute-2fyelhueypg-unsplash.jpg

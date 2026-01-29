@@ -1,4 +1,5 @@
 ---
+slug: how-do-we-regulate-to-ensure-the-development-of-ai-for-societal-benefit
 title: How do we regulate to ensure the development of AI for societal benefit?
 date: 2023-11-01
 cover_image: /assets/images/uploads/fly-d-vh91igy0fhw-unsplash-1-.jpg

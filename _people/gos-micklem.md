@@ -1,4 +1,5 @@
 ---
+slug: gos-micklem
 title: Gos Micklem
 photo: /assets/images/uploads/micklem_gos.png
 job_title: Professor in Computation and Molecular Biology

@@ -1,4 +1,5 @@
 ---
+slug: ann-kristin-glenster
 title: Ann Kristin Glenster
 photo: /assets/images/uploads/glensterak-1-.jpeg
 job_title: Senior Policy Adviser

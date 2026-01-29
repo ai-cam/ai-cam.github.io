@@ -1,4 +1,5 @@
 ---
+slug: brechtje-post
 title: Brechtje Post
 photo: /assets/images/uploads/brechtje-1-.jpeg
 job_title: Professor of Phonetics and Phonology

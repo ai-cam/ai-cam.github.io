@@ -1,4 +1,5 @@
 ---
+slug: ai-at-work-a-critical-introduction-to-machine-learning-systems
 title: "AI at work: a critical introduction to Machine Learning systems"
 excerpt: "Convenors: Dr Anne Alexander (CDH Director of Learning), Dr Emily
   Sandford (Research Fellow, Gonville & Caius) and Jarrah O’Neill (Reproductive

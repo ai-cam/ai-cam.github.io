@@ -117,8 +117,8 @@ permalink: /events/
                 {% assign list_events = list_events | push: event %}
             {% endfor %}
             {% assign total_events = list_events | size %}
-            {% assign initial_limit = 10 %}
-            {% if total_events < 10 %}
+            {% assign initial_limit = 9 %}
+            {% if total_events < 9 %}
                 {% assign initial_limit = total_events %}
             {% endif %}
             {% for event in list_events limit: initial_limit %}
@@ -165,7 +165,7 @@ permalink: /events/
             {% endfor %}
         </div>
 
-        {% if total_events > 10 %}
+        {% if total_events > 9 %}
         <div class="load-more">
             <a href="javascript:void(0)" id="load-more-btn">Load more</a>
         </div>
@@ -174,33 +174,9 @@ permalink: /events/
  </section>
 <!-- Events Page List End -->
 
-<!-- Global Join -->
-<section class="global-join bg-soft">
-    <div class="container">
-        <div class="item">
-            <h2>Join our ai@cam community</h2>
-            <p>Keep up to date with the latest.</p>
-            <div class="buttons">
-                <a href="#" class="button">
-                    Subscribe
-
-                    <div class="icon">
-                        <img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt="">
-                    </div>
-                </a>
-
-                <a href="#" class="button">
-                    Support Us
-
-                    <div class="icon">
-                        <img src="{{ '/assets/images/icons/arrow-right-up-white.svg' | relative_url }}" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Global Join End -->
+<!-- Global Join CTA -->
+{% include join-cta.html bg_soft=true %}
+<!-- Global Join CTA End -->
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -242,8 +218,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         if (!b.event_date) return -1;
                         return new Date(b.event_date) - new Date(a.event_date);
                     });
-                    // Hide load more button if there are 10 or fewer items
-                    if (allEvents.length <= 10) {
+                    // Hide load more button if there are 9 or fewer items
+                    if (allEvents.length <= 9) {
                         const loadMoreDiv = loadMoreBtn.closest('.load-more');
                         if (loadMoreDiv) {
                             loadMoreDiv.style.display = 'none';

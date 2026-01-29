@@ -11,13 +11,11 @@ cover_image: /assets/images/uploads/central-cambridge-resized.jpg
 date: 2025-12-08
 tags:
   - tag: Research-and-innovation
-apply_title: How to apply
-apply_content: Applications must be submitted via the AI for Ops Funding Call
-  page **by 12:00, Friday 29 August 2025.**
-information: For more information, contact Annabelle Scott, Programme
-  Manager [(as599@cam.ac.uk)](mailto:(as599@cam.ac.uk))
-apply_link: "#"
-apply_link_text: Apply Here
+apply_title: ""
+apply_content: ""
+information: "[](mailto:(as599@cam.ac.uk))"
+apply_link: ""
+apply_link_text: ""
 ---
 The University of Cambridge has launched a new Local Government AI Accelerator, offering grants of up to £25,000 for proof-of-concept projects that develop AI solutions in partnership with local authorities. The funding scheme aims to connect academic expertise with real operational needs in public services.
 
@@ -29,6 +27,6 @@ Funded projects will run for 6–12 months and receive not only financial suppor
 
 **Community insights drive scheme requirements**
 
-The scheme has been shaped by [ai@cam’s recent public dialogues](https://www.ai.cam.ac.uk/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator) with Cambridgeshire residents, which revealed cautious optimism about the role of AI in local government alongside clear expectations for its responsible use. Residents emphasised that AI should deliver tangible public benefit, strengthen rather than replace human judgment, and be introduced transparently with designs that remain accessible to all. Reflecting these priorities, applicants will be expected to use the public dialogue findings in developing their proposals, demonstrating how their projects uphold these principles.
+The scheme has been shaped by [ai@cam’s recent public dialogues](https://www.ai.cam.ac.uk/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator/) with Cambridgeshire residents, which revealed cautious optimism about the role of AI in local government alongside clear expectations for its responsible use. Residents emphasised that AI should deliver tangible public benefit, strengthen rather than replace human judgment, and be introduced transparently with designs that remain accessible to all. Reflecting these priorities, applicants will be expected to use the public dialogue findings in developing their proposals, demonstrating how their projects uphold these principles.
 
-The Accelerator is now open for applications from eligible Cambridge researchers working with at least one local authority partner. A Q&A information session will be held on 15 January, and applications must be submitted by 16:00 on Friday 13 February 2026. To find out more and apply, visit the [ai@cam Calls page.](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator)
+The Accelerator is now open for applications from eligible Cambridge researchers working with at least one local authority partner. A [Q&A information session will be held on 15 January](https://cam-ac-uk.zoom.us/meeting/register/SRLizoXXSIKVHMrruc7H6g#/registration), and applications must be submitted by 16:00 on Friday 13 February 2026. To find out more and apply, visit the [ai@cam Calls page.](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator/)

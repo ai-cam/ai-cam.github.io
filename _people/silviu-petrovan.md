@@ -1,4 +1,5 @@
 ---
+slug: silviu-petrovan
 title: Silviu Petrovan
 photo: /assets/images/uploads/silviu-petrovan-1-.jpeg
 job_title: Senior Research Associate

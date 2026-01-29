@@ -1,4 +1,5 @@
 ---
+slug: julian-huppert
 title: Julian Huppert
 photo: /assets/images/uploads/huppert_julian.jpg
 job_title: Director

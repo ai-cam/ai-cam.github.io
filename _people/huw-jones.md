@@ -1,4 +1,5 @@
 ---
+slug: huw-jones
 title: Huw Jones
 photo: /assets/images/uploads/huw-jones-1-.jpg
 job_title: Head of Digital Library

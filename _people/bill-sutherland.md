@@ -1,4 +1,5 @@
 ---
+slug: bill-sutherland
 title: Bill Sutherland
 photo: /assets/images/uploads/sutherland_bill-1-.jpg
 job_title: Professor of Conservation Biology

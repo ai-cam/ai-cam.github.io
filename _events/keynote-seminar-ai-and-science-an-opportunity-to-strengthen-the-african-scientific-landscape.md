@@ -1,4 +1,5 @@
 ---
+slug: keynote-seminar-ai-and-science-an-opportunity-to-strengthen-the-african-scientific-landscape
 title: "Keynote Seminar: AI and Science - An Opportunity To Strengthen the
   African Scientific Landscape"
 excerpt: "Join us for a keynote seminar on AI and Science: An opportunity to

@@ -1,4 +1,5 @@
 ---
+slug: nic-lane
 title: Nic Lane
 photo: /assets/images/uploads/lane_nicholas.jpg
 job_title: Professor of Machine Learning Systems

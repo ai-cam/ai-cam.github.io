@@ -1,4 +1,5 @@
 ---
+slug: aleksei-turobov
 title: Aleksei Turobov
 job_title: Research Associate
 department: Bennett Institute for Public Policy, Department of Politics and

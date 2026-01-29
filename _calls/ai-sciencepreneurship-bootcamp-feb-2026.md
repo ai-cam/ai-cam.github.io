@@ -1,12 +1,15 @@
 ---
+slug: ai-sciencepreneurship-bootcamp-feb-2026
 title: AI Sciencepreneurship Bootcamp 2026
+call_excerpt: ""
 call_categories: Open Calls
-cover_image: /assets/images/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-3.jpg
-call_date: 2026-01-28
+cover_image: /assets/images/uploads/bootcamp101.jpg
+call_date: 2026-01-05
+application_deadline: 2026-01-28
 call_content: >-
   ai@cam announces its second AI Sciencepreneurship Bootcamp, an immersive
   two-day programme that helps researchers translate AI for science ideas to
-  practice through entrepreneurship.
+  practice through entrepreneurship. 
 
 
   Following the success of our first event in June 2025, ai@cam is launching the second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day programme designed to help researchers transform breakthrough AI innovations in scientific research into real-world impact.
@@ -39,43 +42,45 @@ apply_text: >-
   Applications are open to researchers and PhD students at the University of Cambridge and its associated institutions. We encourage all applicants to read the FAQs below before applying. If you have any further questions, please reach out to Zoë Walker-Fagg ([zw249@cam.ac.uk](https://www.ai.cam.ac.uk/calls/ai-cams-ai-sciencepreneurship-bootcamp)).
 
 
-  **K﻿ey Details**
+  **K﻿ey Details** \
 
-  **Time:** 9:30 -17.30
+  **Time:** 9:30 -17.30 \
 
-  **Date:** Wednesday 11 February - Thursday 12 February 2026
+  **Date:** Wednesday 11 February - Thursday 12 February 2026 \
 
   **Location:** Crausaz Wordsworth Building, Robinson College, Cambridge CB3 9AD
 
 
   **The deadline for applications is 17:00 on Wednesday 28 January 2026.**
 apply_links:
-  - link: https://forms.gle/uhKa28UuGWybaviCA
-    link_text: Apply here
-faq_title: F.A.Q.
+  - link_text: Apply here
+    link: https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform
+faq_title: FAQ's
 faqs:
-  - question: Who can participate in the bootcamp?
+  - question: "Who can participate in this bootcamp? "
     answer: >-
       The bootcamp is open to PhD students, postdocs, and early-career
-      researchers  at the University of Cambridge and its associated research
+      researchers at the University of Cambridge and its associated research
       institutions, working on AI applications in scientific domains such as
       biology, chemistry, physics, environmental science, healthcare, and
       related fields. Participants should have an understanding of core methods
-      and concepts in AI and an idea for a project they’d like to develop. 
+      and concepts in AI and an idea for a project they’d like to develop.\
 
+      \
 
       As part of registration for the session, we will ask participants to agree to a confidentiality undertaking, to allow other participants in the workshop to share their ideas during discussions.
   - question: What level of AI expertise is required to join?
-    answer: "**Participants** should have foundational knowledge of AI methods and
+    answer: Participants should have foundational knowledge of AI methods and
       concepts. Those looking to build these skills can access preparatory
-      courses through Accelerate Science’s training programmes before applying.
+      courses through Accelerate Science's training programmes before applying.
       We find participants gain most from this workshop when they have an idea
       for an AI for science project that they would like to develop or are
-      already working on."
-  - question: How can I apply?
+      already working on.
+  - question: "How can I apply? "
     answer: >-
-      Registration is now open and you can apply here. The deadline for
-      applications is 17:00 on Wednesday 28 January 2026.
+      Registration is now open and you can [apply
+      here.](https://docs.google.com/forms/d/e/1FAIpQLScoaZYIsvI3w5SNsRbHnnm_HOICXejvhGrj6CJGVglMzbpc2A/viewform)
+      The deadline for applications is 17:00 on Wednesday 28 January 2026.
 
 
       The registration asks for:
@@ -89,35 +94,32 @@ faqs:
 
       * Your motivation for joining the bootcamp
 
-      * We have a limited number of spaces at the workshop, so encourage early registration. Teams working on shared challenges are welcome to apply, but we ask that each team member must submit an individual application.
-  - answer: >-
-      Technical workshops on foundation models and AI tools led by the
+
+      We have a limited number of spaces at the workshop, so encourage early registration. Teams working on shared challenges are welcome to apply, but we ask that each team member must submit an individual application.
+  - question: What will be covered by the bootcamp?
+    answer: >-
+      * Technical workshops on foundation models and AI tools led by the
       Accelerate Science team
 
-      Training sessions on start-up fundamentals from Cambridge Innovation Capital
+      * Training sessions on start-up fundamentals from Cambridge Innovation Capital
 
-      Founder story sessions with successful AI entrepreneurs
+      * Founder story sessions with successful AI entrepreneurs
 
-      Pitch development and showcase opportunities with local entrepreneurs
-    question: What will be covered by the bootcamp?
-  - question: Will there be further opportunities to get involved ELIAS Cambridge?
+      * Pitch development and showcase opportunities with local entrepreneurs
+  - question: "Will there be further opportunities to get involved in ELIAS Cambridge? "
     answer: Yes, this is part of an ongoing series of initiatives by the Cambridge
       ELIAS node. Future workshops and events will be announced as the ELIAS
       Alliance develops.
-  - answer: >-
-      Participants must commit to attending all two full days of the bootcamp
-      (11-12 February 2026) and actively participate in working sessions.
-
-
-
-
-      We are currently planning for sessions to run from 09:30 - 17:30 across both days.
-    question: What is the time commitment?
-  - question: Can teams apply together?
-    answer: Yes, we welcome applications from research teams working on shared
-      projects. However, each team member must submit an individual application
-      before 17.00, Wednesday 28 January 2026.
-  - answer: The bootcamp is part of Cambridge’s European Leadership in Innovation
+  - question: What is the time commitment?
+    answer:  Participants must commit to attending all two full days of the bootcamp
+      (11-12 February 2026) and actively participate in working sessions. We are
+      currently planning for sessions to run from 09:30 - 17:30 across both
+      days.
+  - answer:  Yes, we welcome applications from research teams working on shared
+      projects, though each team member must submit an individual application.
+    question: Can teams apply together?
+  - question: How does this relate to other entrepreneurship programmes in Cambridge?
+    answer: The bootcamp is part of Cambridge's European Leadership in Innovation
       with AI and Science (ELIAS) node, an initiative to accelerate AI-driven
       scientific innovation in the Cambridge ecosystem. Researchers at Cambridge
       have the opportunity to benefit from a range of programmes that provide
@@ -125,11 +127,11 @@ faqs:
       use of AI for science, providing a space to work through practical issues
       associated with building AI tools and introducing topics in
       entrepreneurship.
-    question: How does this relate to other entrepreneurship programmes in Cambridge?
   - question: What happens after the bootcamp?
-    answer: >-2
-       The sciencepreneurship bootcamp is designed as an entry point to Cambridge’s AI and science innovation ecosystem. After completing the bootcamp, participants will have several pathways for continued support.
-
+    answer: >-
+      The sciencepreneurship bootcamp is designed as an entry point to
+      Cambridge's AI and science innovation ecosystem. After completing the
+      bootcamp, participants will have several pathways for continued support.
       Next-stage programmes in the Cambridge ecosystem include:
 
 
@@ -139,13 +141,14 @@ faqs:
 
       * Further events through the ELIAS network
 
-      * Participants will be invited to join our ELIAS AI for sciencepreneurship community, with regular meetups, skill-sharing sessions, and opportunities to connect with potential co-founders, team members, and advisors.
-  - answer: >-
+
+      Participants will be invited to join our ELIAS AI for sciencepreneurship community, with regular meetups, skill-sharing sessions, and opportunities to connect with potential co-founders, team members, and advisors.
+  - question: What prize is awarded for a successful pitch presentation?
+    answer: >-
       The workshop will conclude with a presentation session that showcases work
       developed during the bootcamp. The strongest project will receive a prize
       of £3,000 in the form of a grant to develop their work.
 
 
       The prize funds are intended to support further development of the project created during the bootcamp and must be used in accordance with University financial policies.
-    question: What prize is awarded for a successful pitch presentation?
 ---

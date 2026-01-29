@@ -1,4 +1,5 @@
 ---
+slug: soumya-banerjee
 team_member: ""
 title: Soumya Banerjee
 photo: /assets/images/uploads/sb2333-1-.png

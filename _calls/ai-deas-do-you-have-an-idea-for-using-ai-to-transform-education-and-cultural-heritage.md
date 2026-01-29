@@ -1,4 +1,5 @@
 ---
+slug: ai-deas-do-you-have-an-idea-for-using-ai-to-transform-education-and-cultural-heritage
 title: "AI-deas: Do you have an idea for using AI to transform education and
   cultural heritage?"
 call_categories: Past Calls

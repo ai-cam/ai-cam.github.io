@@ -1,4 +1,5 @@
 ---
+slug: colm-caulfield
 title: Colm Caulfield
 job_title: Professor of Environmental and Industrial Fluid Dynamics
 photo: /assets/images/uploads/team-4.png

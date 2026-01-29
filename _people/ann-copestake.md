@@ -1,4 +1,5 @@
 ---
+slug: ann-copestake
 title: Ann Copestake
 photo: /assets/images/uploads/copestake_anne-1-.jpg
 job_title: Professor of Computational Linguistics

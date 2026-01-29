@@ -1,4 +1,5 @@
 ---
+slug: audrey-borowski
 title: Audrey Borowski
 photo: /assets/images/uploads/audrey-borowski.jpg
 job_title: Leverhulme Early Career Fellow and Isaac Newton Trust Fellow

@@ -1,4 +1,5 @@
 ---
+slug: andrew-grace
 title: Andrew Grace
 photo: /assets/images/uploads/grace_andrew.jpg
 job_title: Professor Experimental Cardiology

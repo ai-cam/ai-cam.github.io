@@ -1,4 +1,5 @@
 ---
+slug: shahar-avin
 title: Shahar Avin
 photo: /assets/images/uploads/avin_shahar.jpg
 job_title: Senior Research Associate

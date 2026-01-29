@@ -1,4 +1,5 @@
 ---
+slug: stephen-cave
 title: Stephen Cave
 photo: /assets/images/uploads/cave_stephen.jpg
 job_title: Director

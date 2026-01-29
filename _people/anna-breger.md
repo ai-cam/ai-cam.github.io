@@ -1,4 +1,5 @@
 ---
+slug: anna-breger
 title: Anna Breger
 photo: /assets/images/uploads/anna-breger-1-.jpg
 job_title: Senior Research Associate

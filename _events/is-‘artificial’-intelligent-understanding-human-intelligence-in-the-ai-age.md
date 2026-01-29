@@ -1,4 +1,5 @@
 ---
+slug: is-‘artificial’-intelligent-understanding-human-intelligence-in-the-ai-age
 title: Is ‘artificial’ intelligent? Understanding human intelligence in the AI age
 excerpt: oin BAFTA award winning documentary filmmaker Sheila Hayman in
   conversation with John Naughton

@@ -1,4 +1,5 @@
 ---
+slug: how-can-we-harness-generative-ai-to-boost-productivity
 title: How can we harness generative AI to boost productivity?
 date: 2023-11-01
 cover_image: /assets/images/uploads/coyle_diane-1-.jpg

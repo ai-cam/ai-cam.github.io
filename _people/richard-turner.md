@@ -1,4 +1,5 @@
 ---
+slug: richard-turner
 team_member: ""
 title: Richard Turner
 photo: /assets/images/uploads/rich-square_0-1-.png

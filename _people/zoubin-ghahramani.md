@@ -1,4 +1,5 @@
 ---
+slug: zoubin-ghahramani
 title: Zoubin Ghahramani
 photo: /assets/images/uploads/ghahramani_zoubin.jpg
 job_title: Professor of Information Engineering

@@ -1,4 +1,5 @@
 ---
+slug: breaking-the-ice-addressing-data-barriers-in-polar-research
 title: "Breaking the ice: Addressing data barriers in Polar research"
 date: 2025-01-08
 cover_image: /assets/images/uploads/annie-spratt-wrqtfirtolw-unsplash.jpg

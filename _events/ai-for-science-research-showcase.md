@@ -1,4 +1,5 @@
 ---
+slug: ai-for-science-research-showcase
 title: Cambridge Social Data School
 excerpt: The Social Data School (SDS) delivers hands-on training that equips
   participants with the skills and knowledge necessary to conduct data-driven

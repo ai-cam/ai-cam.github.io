@@ -1,4 +1,5 @@
 ---
+slug: untangling-the-web-of-supply-chain-data
 title: Untangling the web of supply chain data
 date: 2025-02-27
 cover_image: /assets/images/uploads/blog-vasco-final-.jpg

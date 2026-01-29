@@ -1,4 +1,5 @@
 ---
+slug: matt-davis
 title: Matt Davis
 photo: /assets/images/uploads/matt.davis-1-.png
 job_title: Programme leader

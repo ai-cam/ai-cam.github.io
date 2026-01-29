@@ -1,4 +1,5 @@
 ---
+slug: anna-moore
 team_member: ""
 title: Anna Moore
 photo: /assets/images/uploads/am2708-1-.jpeg

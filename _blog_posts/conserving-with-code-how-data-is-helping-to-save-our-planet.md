@@ -1,4 +1,5 @@
 ---
+slug: conserving-with-code-how-data-is-helping-to-save-our-planet
 title: "Conserving with code: How data is helping to save our planet"
 date: 2025-02-05
 cover_image: /assets/images/uploads/ai-cam-crane-2.png

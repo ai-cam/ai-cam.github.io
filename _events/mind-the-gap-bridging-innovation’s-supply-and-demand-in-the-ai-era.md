@@ -1,4 +1,5 @@
 ---
+slug: mind-the-gap-bridging-innovation’s-supply-and-demand-in-the-ai-era
 title: "Mind the gap: bridging innovation’s supply and demand in the AI era"
 excerpt: "Prof Neil Lawrence, inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge, will deliver this year’s Annual Public Policy

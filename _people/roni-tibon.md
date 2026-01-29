@@ -1,4 +1,5 @@
 ---
+slug: roni-tibon
 title: Roni Tibon
 photo: /assets/images/uploads/roni-tibon-2-1-.jpg
 job_title: Assistant Professor

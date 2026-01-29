@@ -1,5 +1,7 @@
 ---
-title: "What Local Government Needs from AI: Learning from Practice in our AI for Local Government Accelerator"
+slug: what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator
+title: "What Local Government Needs from AI: Learning from Practice in our AI
+  for Local Government Accelerator"
 date: 2025-12-08
 cover_image: /assets/images/uploads/ai-for-ops-blog-2026.jpeg
 related_title: Related Posts
@@ -63,4 +65,4 @@ If you're a University of Cambridge researcher with ideas about addressing chall
 
 The ai@cam Local Government AI Accelerator is now open for applications. For those interested, [please apply here.](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator)
 
-***About this work:** This post draws on the AI in Local Government Innovation Showcase (November 2025) and ongoing [public dialogues](https://www.ai.cam.ac.uk/reports/2025-public-dialogue-on-ai-in-local-government-interim-results) conducted by ai@cam with Hopkins Van Mil.*
+**\*About this work:** This post draws on the AI in Local Government Innovation Showcase (November 2025) and ongoing [public dialogues](https://www.ai.cam.ac.uk/reports/cambridge-can-regional-ai-statement-1/) conducted by ai@cam with Hopkins Van Mil.*

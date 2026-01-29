@@ -1,4 +1,5 @@
 ---
+slug: opinion-whether-democracy-can-survive-ai-will-depend-on-us
 title: "Opinion: Whether democracy can survive AI will depend on us"
 excerpt: What is the best framework for the global governance of AI? How do we
   respond to tech companies who argue against regulation? Is our current pace of

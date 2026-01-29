@@ -1,4 +1,5 @@
 ---
+slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-4
 title: "From prediction to prevention: How AI could transform children’s mental
   health care"
 date: 2025-09-21

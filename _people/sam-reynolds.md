@@ -1,4 +1,5 @@
 ---
+slug: sam-reynolds
 title: Sam Reynolds
 photo: /assets/images/uploads/sam_reynolds-1-.jpeg
 job_title: Research Associate
