@@ -1,5 +1,6 @@
 ---
-slug: from-womb-to-world-using-innovative-ai-methods-to-revolutionise-fertility-treatments
+slug: "From stigma to solutions: Tackling the global brain and mental health
+  crisis using AI"
 title: "From stigma to solutions: Tackling the global brain and mental health
   crisis using AI"
 date: 2024-07-07
