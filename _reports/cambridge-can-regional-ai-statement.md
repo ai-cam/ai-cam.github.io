@@ -11,8 +11,8 @@ abstract: This regional AI Statement highlights the breadth AI activity
   ensure AI development is responsible, inclusive, sustainable, and an engine
   for innovation that serves the public good.
 links:
-  - link_text: /assets/images/uploads/cambridge-can-regional-ai-statement.pdf
-    link: Download full report
+  - link_text: Download full report
+    link: /assets/images/uploads/cambridge-can-regional-ai-statement.pdf
 citation_fields:
   publisher: University of Cambridge
 ---
