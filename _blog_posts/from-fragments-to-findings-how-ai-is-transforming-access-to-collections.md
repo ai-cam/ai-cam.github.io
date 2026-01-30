@@ -1,5 +1,5 @@
 ---
-slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-3
+slug: "From Fragments to Findings: How AI is Transforming Access to Collections"
 title: "From Fragments to Findings: How AI is Transforming Access to Collections"
 date: 2025-10-15
 cover_image: /assets/images/uploads/fragments.png
