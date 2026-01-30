@@ -1,5 +1,6 @@
 ---
-slug: new-funding-call-to-support-ai-innovation-in-university-operations
+slug: ai@cam and local authorities launch pioneering accelerator for AI in
+  public services
 title: ai@cam and local authorities launch pioneering accelerator for AI in
   public services
 excerpt: >+
