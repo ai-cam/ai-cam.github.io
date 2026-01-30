@@ -1,5 +1,5 @@
 ---
-slug: ai-sciencepreneurship-bootcamp
+slug: Cambridge Tech Week
 title: Cambridge Tech Week
 excerpt: Cambridge Tech Week is a global tech gathering designed to unite the
   brightest minds - visionaries, world-leading experts, and strategic investors
@@ -7,10 +7,10 @@ excerpt: Cambridge Tech Week is a global tech gathering designed to unite the
   tech ecosystem.
 cover_image: /assets/images/uploads/cam-tech-weeek.png
 event_categories: Past Events
-event_content: Cambridge Tech Week is a global tech gathering designed to unite the
-  brightest minds - visionaries, world-leading experts, and strategic investors
-  - to drive growth, collaboration, and transformative innovation across the
-  tech ecosystem.
+event_content: Cambridge Tech Week is a global tech gathering designed to unite
+  the brightest minds - visionaries, world-leading experts, and strategic
+  investors - to drive growth, collaboration, and transformative innovation
+  across the tech ecosystem.
 registration_title: Registration
 registration_text: We have closed registration as the event has reached full
   capacity. If you would like to be placed on the waiting list please get in
