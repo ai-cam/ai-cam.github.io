@@ -10,6 +10,9 @@ abstract: This regional AI Statement highlights the breadth AI activity
   happening across the Cambridgeshire region and represents our commitment to
   ensure AI development is responsible, inclusive, sustainable, and an engine
   for innovation that serves the public good.
+links:
+  - link_text: /assets/images/uploads/cambridge-can-regional-ai-statement.pdf
+    link: Download full report
 citation_fields:
   publisher: University of Cambridge
 ---
