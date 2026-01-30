@@ -1,5 +1,5 @@
 ---
-slug: launching-ai-for-university-ops-supporting-administrative-innovation-across-the-university
+slug: Eight teams awarded funding to pioneer AI in University operations
 title: Eight teams awarded funding to pioneer AI in University operations
 excerpt: From cutting exam administration time by 90 percent to helping
   researchers bring medical software to regulators 60 percent faster, eight new
