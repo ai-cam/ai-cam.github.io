@@ -1,5 +1,5 @@
 ---
-slug: ai3-art-protection-tools-still-leave-creators-at-risk-researchers-says
+slug: AI-in-Local-Government-Fair
 title: AI in Local Government Fair
 call_categories: Past Calls
 cover_image: /assets/images/uploads/ai-in-goverment-fair.jpg
