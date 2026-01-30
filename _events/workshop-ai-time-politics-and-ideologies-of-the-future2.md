@@ -1,5 +1,5 @@
 ---
-slug: workshop-ai-time-politics-and-ideologies-of-the-future2
+slug: AI for Ops Show & Tell Final Showcase
 title: AI for Ops Show & Tell Final Showcase
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
