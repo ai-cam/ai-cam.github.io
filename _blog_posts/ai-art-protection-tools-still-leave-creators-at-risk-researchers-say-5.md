@@ -1,5 +1,6 @@
 ---
-slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-5
+slug: "Helping to see the wood for the trees: How AI is revolutionising forest
+  monitoring"
 title: "Helping to see the wood for the trees: How AI is revolutionising forest
   monitoring"
 date: 2025-07-27
