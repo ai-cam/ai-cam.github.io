@@ -1,5 +1,5 @@
 ---
-slug: ai-for-ops-community-meet-up-2
+slug: NeurIPS@Cam 2025
 title: NeurIPS@Cam 2025
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
