@@ -1,5 +1,5 @@
 ---
-slug: ai-art-protection-tools-still-leave-creators-at-risk-researchers-say-2
+slug: How AI is Changing the Practice of Science
 title: How AI is Changing the Practice of Science
 date: 2025-11-25
 cover_image: /assets/images/uploads/french-event-scriberia.jpg
