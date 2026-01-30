@@ -1,5 +1,5 @@
 ---
-slug: ai7-art-protection-tools-still-leave-creators-at-risk-researchers-says
+slug: Launching-AI-for-University-Ops-Supporting-administrative-innovation-across-the-University
 title: "Launching 'AI for University Ops': Supporting administrative innovation
   across the University"
 call_categories: Past Calls
