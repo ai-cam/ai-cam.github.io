@@ -1,5 +1,6 @@
 ---
-slug: ai3-art-protection-tools-still-leave-creators-at-risk-researchers-say
+slug: "From Diagnosing Endometriosis to Protecting Global Food Security: Seven
+  New AI-deas Projects Advance AI for Science, Citizens, and Society"
 title: "From Diagnosing Endometriosis to Protecting Global Food Security: Seven
   New AI-deas Projects Advance AI for Science, Citizens, and Society"
 excerpt: Professional services staff are eager to experiment with AI,” said Jess
