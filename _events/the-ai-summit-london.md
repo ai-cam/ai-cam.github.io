@@ -1,5 +1,5 @@
 ---
-slug: the-ai-summit-london
+slug: AI in Local Government Fair
 title: AI in Local Government Fair
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
