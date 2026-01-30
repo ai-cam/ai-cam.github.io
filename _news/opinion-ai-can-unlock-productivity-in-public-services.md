@@ -1,5 +1,6 @@
 ---
-slug: opinion-ai-can-unlock-productivity-in-public-services
+slug: Cambridge launches AI-deas Sprint Programme to accelerate real-world
+  impact of AI research
 title: Cambridge launches AI-deas Sprint Programme to accelerate real-world
   impact of AI research
 excerpt: Professional services staff are eager to experiment with AI,” said Jess
