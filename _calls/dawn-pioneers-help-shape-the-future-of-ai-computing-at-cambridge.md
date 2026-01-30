@@ -1,6 +1,6 @@
 ---
 slug: dawn-pioneers-help-shape-the-future-of-ai-computing-at-cambridge
-title: "} Dawn Pioneers: Help shape the future of AI computing at Cambridge"
+title: "Dawn Pioneers: Help shape the future of AI computing at Cambridge"
 call_excerpt: The Dawn system will significantly expand Cambridge’s compute
   capabilities, supercharging AI and simulation research across the University.
   With five times the performance of Cambridge’s previous GPU system, it is
