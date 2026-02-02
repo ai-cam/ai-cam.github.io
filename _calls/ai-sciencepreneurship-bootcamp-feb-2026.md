@@ -2,7 +2,7 @@
 slug: ai-sciencepreneurship-bootcamp-feb-2026
 title: AI Sciencepreneurship Bootcamp 2026
 call_excerpt: ""
-call_categories: Open Calls
+call_categories: Past Calls
 cover_image: /assets/images/uploads/bootcamp101.jpg
 call_date: 2026-01-05
 application_deadline: 2026-01-30
