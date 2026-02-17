@@ -3,22 +3,23 @@ TY  - RPRT
 TI  - {{ title }}
 {%-if authors and authors.size > 0-%}
   {%-for author in authors-%}
-    {%-if author.name-%}
-      {%-assign name_parts = author.name | split: " "-%}
+    {%-include resolve-author.html author=author-%}
+    {%-if author_name and author_name != ''-%}
+      {%-assign name_parts = author_name | split: " "-%}
       {%-if name_parts.size > 1-%}
         {%-assign family = name_parts.last-%}
         {%-assign given = name_parts | pop | join: " "-%}
       {%-else-%}
-        {%-assign family = author.name-%}
+        {%-assign family = author_name-%}
         {%-assign given = ""-%}
       {%-endif-%}
       {%-if family != ""-%}
 AU  - {{ given }} {{ family }}
       {%-else-%}
-AU  - {{ author.name }}
+AU  - {{ author_name }}
       {%-endif-%}
     {%-else-%}
-AU  - {{ author.name | default: "Unknown" }}
+AU  - {{ author_name | default: "Unknown" }}
     {%-endif-%}
   {%-endfor-%}
 {%-endif-%}

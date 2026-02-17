@@ -85,7 +85,7 @@ layout: default
                             <div class="col-lg-6">
                                 <div class="text">
                                     <a href="{{ report.url }}"><h3>{{ report.title }}</h3></a>
-                                    {% if report.date %}<h6>{{ report.date | date: "%-d %B %Y" }}</h6>{% endif %}
+                                    {% if report.report_date %}<h6>{{ report.report_date | date: "%-d %B %Y" }}</h6>{% endif %}
                                 </div>
                             </div>
 

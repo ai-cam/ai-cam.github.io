@@ -44,11 +44,11 @@ layout: default
                         {% assign person_dept = person.department %}
                         {% if person.team_member and person.team_member != '' and person.team_member != '/' %}
                             {% assign team_member = site.team_members | where: "title", person.team_member | first %}
-                            {% if team_member and team_member.department %}
+                            {% if team_member and team_member.department and team_member.department != '/' and team_member.department != 'x' %}
                                 {% assign person_dept = team_member.department %}
                             {% endif %}
                         {% endif %}
-                        {% if person_dept and person_dept != '' %}
+                        {% if person_dept and person_dept != '' and person_dept != '/' and person_dept != 'x' %}
                             {% assign all_departments = all_departments | push: person_dept %}
                         {% endif %}
                     {% endfor %}
@@ -79,8 +79,11 @@ layout: default
                     {% if team_member %}
                         {% if team_member.photo %}{% assign person_photo = team_member.photo %}{% endif %}
                         {% if team_member.job_title %}{% assign person_job_title = team_member.job_title %}{% endif %}
-                        {% if team_member.department %}{% assign person_department = team_member.department %}{% endif %}
+                        {% if team_member.department and team_member.department != '/' and team_member.department != 'x' %}{% assign person_department = team_member.department %}{% endif %}
                     {% endif %}
+                {% endif %}
+                {% if person_department == '/' or person_department == 'x' %}
+                    {% assign person_department = '' %}
                 {% endif %}
                 
                 <div class="col-lg-3" data-person-id="{{ person.slug }}" data-department="{{ person_department }}">
@@ -157,15 +160,17 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentPage = 1;
     const itemsPerPage = 12;
     let allPeople = [];
+    let filteredPeople = [];
     let displayedCount = 0;
+    let isFiltered = false;
     
     // Calculate the number of items displayed on initial load
     const initialItems = document.querySelectorAll('#people-container > div[data-person-id]');
     displayedCount = initialItems.length;
 
-    // Load all people from JSON
-    if (loadMoreBtn) {
-        fetch('/people.json')
+    // Fetch all people data from JSON
+    function fetchAllPeople() {
+        return fetch('/people.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -182,21 +187,79 @@ document.addEventListener('DOMContentLoaded', function() {
                         const nameB = (b.title || '').toLowerCase();
                         return nameA.localeCompare(nameB);
                     });
-                    // Hide load more button if there are 12 or fewer items
-                    if (allPeople.length <= 12) {
-                        const loadMoreDiv = loadMoreBtn.closest('.load-more');
-                        if (loadMoreDiv) {
-                            loadMoreDiv.style.display = 'none';
-                        }
-                    }
                 } catch (e) {
                     console.error('Error parsing JSON:', e, 'Response text:', text);
                     allPeople = [];
                 }
+                return allPeople;
             })
-            .catch(error => console.error('Error loading people:', error));
+            .catch(error => {
+                console.error('Error loading people:', error);
+                return [];
+            });
+    }
 
-        // When load more button is clicked
+    // Render people cards into the container
+    function renderPeople(people) {
+        // Clear existing content in the container
+        peopleContainer.innerHTML = '';
+        
+        people.forEach((person, index) => {
+            const dept = person.department || '';
+            const col = document.createElement('div');
+            col.className = 'col-lg-3';
+            col.setAttribute('data-person-id', person.slug);
+            col.setAttribute('data-department', dept);
+            col.innerHTML = `
+                <div class="item">
+                    ${person.photo ? `<a href="${person.url}"><img src="${person.photo}" alt="${person.title || ''}"></a>` : ''}
+                    <div class="text">
+                        ${person.title ? `<a href="${person.url}"><h3>${person.title}</h3></a>` : ''}
+                        ${person.job_title ? `<p>${person.job_title}</p>` : ''}
+                    </div>
+                </div>
+            `;
+            peopleContainer.appendChild(col);
+            
+            // Fade-in animation with GSAP - with ScrollTrigger
+            const newItemElement = col.querySelector('.item');
+            if (newItemElement && typeof gsap !== 'undefined') {
+                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                
+                gsap.to(newItemElement, {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.8,
+                    ease: "power3.out",
+                    scrollTrigger: {
+                        trigger: col,
+                        start: "top 85%",
+                        toggleActions: "play none none none",
+                        once: true
+                    }
+                });
+            }
+        });
+    }
+
+    // Update load more button visibility
+    function updateLoadMoreVisibility(totalItems, shownItems) {
+        if (!loadMoreBtn) return;
+        const loadMoreDiv = loadMoreBtn.closest('.load-more');
+        if (loadMoreDiv) {
+            loadMoreDiv.style.display = (shownItems >= totalItems) ? 'none' : '';
+        }
+    }
+
+    // Load all people from JSON on page load
+    fetchAllPeople().then(() => {
+        // Hide load more button if there are 12 or fewer items
+        updateLoadMoreVisibility(allPeople.length, displayedCount);
+    });
+
+    // When load more button is clicked
+    if (loadMoreBtn) {
         loadMoreBtn.addEventListener('click', function(e) {
             e.preventDefault();
             
@@ -208,180 +271,128 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Mevcut scroll pozisyonunu kaydet
             const scrollBefore = window.scrollY;
-            
-            if (allPeople.length === 0) {
-                fetch('/people.json')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-                        return response.text();
-                    })
-                    .then(text => {
-                        try {
-                            const data = JSON.parse(text);
-                            allPeople = Array.isArray(data) ? data : [];
-                            allPeople.sort((a, b) => {
-                                const nameA = (a.title || '').toLowerCase();
-                                const nameB = (b.title || '').toLowerCase();
-                                return nameA.localeCompare(nameB);
-                            });
-                            // 1 saniye bekle
-                            setTimeout(() => {
-                                loadMorePeople(scrollBefore);
-                                loadMoreBtn.textContent = originalText;
-                                loadMoreBtn.style.pointerEvents = '';
-                                loadMoreBtn.style.opacity = '';
-                            }, 1000);
-                        } catch (e) {
-                            console.error('Error parsing JSON:', e, 'Response text:', text);
-                            allPeople = [];
-                            loadMoreBtn.textContent = originalText;
-                            loadMoreBtn.style.pointerEvents = '';
-                            loadMoreBtn.style.opacity = '';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error loading people:', error);
-                        loadMoreBtn.textContent = originalText;
-                        loadMoreBtn.style.pointerEvents = '';
-                        loadMoreBtn.style.opacity = '';
-                    });
-            } else {
-                // 1 saniye bekle
-                setTimeout(() => {
-                    loadMorePeople(scrollBefore);
+
+            const doLoadMore = () => {
+                const sourceList = isFiltered ? filteredPeople : allPeople;
+                const nextPeople = sourceList.slice(displayedCount, displayedCount + itemsPerPage);
+                
+                if (nextPeople.length === 0) {
+                    updateLoadMoreVisibility(0, 0);
                     loadMoreBtn.textContent = originalText;
                     loadMoreBtn.style.pointerEvents = '';
                     loadMoreBtn.style.opacity = '';
-                }, 1000);
+                    return;
+                }
+
+                let firstNewElement = null;
+                
+                nextPeople.forEach((person, index) => {
+                    const dept = person.department || '';
+                    const col = document.createElement('div');
+                    col.className = 'col-lg-3';
+                    col.setAttribute('data-person-id', person.slug);
+                    col.setAttribute('data-department', dept);
+                    col.innerHTML = `
+                        <div class="item">
+                            ${person.photo ? `<a href="${person.url}"><img src="${person.photo}" alt="${person.title || ''}"></a>` : ''}
+                            <div class="text">
+                                ${person.title ? `<a href="${person.url}"><h3>${person.title}</h3></a>` : ''}
+                                ${person.job_title ? `<p>${person.job_title}</p>` : ''}
+                            </div>
+                        </div>
+                    `;
+                    
+                    if (index === 0) {
+                        firstNewElement = col;
+                    }
+                    
+                    peopleContainer.appendChild(col);
+                    
+                    // Fade-in animation with GSAP - with ScrollTrigger
+                    const newItemElement = col.querySelector('.item');
+                    if (newItemElement && typeof gsap !== 'undefined') {
+                        gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
+                        
+                        gsap.to(newItemElement, {
+                            opacity: 1,
+                            y: 0,
+                            scale: 1,
+                            duration: 0.8,
+                            ease: "power3.out",
+                            scrollTrigger: {
+                                trigger: col,
+                                start: "top 85%",
+                                toggleActions: "play none none none",
+                                once: true
+                            }
+                        });
+                    }
+                });
+
+                displayedCount += nextPeople.length;
+                currentPage++;
+
+                // Preserve scroll position and scroll down slightly
+                if (scrollBefore !== undefined && firstNewElement) {
+                    window.scrollTo({
+                        top: scrollBefore + 100,
+                        behavior: 'smooth'
+                    });
+                }
+
+                updateLoadMoreVisibility(sourceList.length, displayedCount);
+                
+                loadMoreBtn.textContent = originalText;
+                loadMoreBtn.style.pointerEvents = '';
+                loadMoreBtn.style.opacity = '';
+            };
+
+            if (allPeople.length === 0) {
+                fetchAllPeople().then(() => {
+                    setTimeout(doLoadMore, 1000);
+                });
+            } else {
+                // 1 saniye bekle
+                setTimeout(doLoadMore, 1000);
             }
         });
     }
 
-    // When department filter changes
+    // When department filter changes - render all matching people from JSON
     if (departmentFilter) {
         departmentFilter.addEventListener('change', function() {
             const selectedDept = this.value;
-            const allItems = peopleContainer.querySelectorAll('[data-person-id]');
             
-            allItems.forEach(item => {
-                const itemDept = item.getAttribute('data-department') || '';
-                if (selectedDept === '' || itemDept === selectedDept) {
-                    item.style.display = '';
+            // Ensure data is loaded before filtering
+            const applyFilter = () => {
+                if (selectedDept === '') {
+                    // "All" selected - reset to initial state with pagination
+                    isFiltered = false;
+                    filteredPeople = [];
+                    const initialPeople = allPeople.slice(0, itemsPerPage);
+                    renderPeople(initialPeople);
+                    displayedCount = initialPeople.length;
+                    updateLoadMoreVisibility(allPeople.length, displayedCount);
                 } else {
-                    item.style.display = 'none';
+                    // Filter by department - show all matching results (no pagination)
+                    isFiltered = true;
+                    filteredPeople = allPeople.filter(person => {
+                        const dept = person.department || '';
+                        return dept === selectedDept;
+                    });
+                    renderPeople(filteredPeople);
+                    displayedCount = filteredPeople.length;
+                    // Filtrelenmiş sonuçlarda load more gizle
+                    updateLoadMoreVisibility(filteredPeople.length, displayedCount);
                 }
-            });
-        });
-    }
+            };
 
-    function loadMorePeople(scrollBefore) {
-        if (!loadMoreBtn || !peopleContainer) return;
-        
-        const nextPeople = allPeople.slice(displayedCount, displayedCount + itemsPerPage);
-        
-        if (nextPeople.length === 0) {
-            const loadMoreDiv = loadMoreBtn.closest('.load-more');
-            if (loadMoreDiv) {
-                loadMoreDiv.style.display = 'none';
-            }
-            return;
-        }
-
-        // Find load more div
-        const loadMoreDiv = loadMoreBtn.closest('.load-more');
-        
-        // We will keep reference to the first newly added element
-        let firstNewElement = null;
-        
-        // Find the last row
-        const rows = peopleContainer.querySelectorAll('.row');
-        let rowElement = rows.length > 0 ? rows[rows.length - 1] : null;
-        
-        // Create new row if no row exists or last row has 4 col-lg-3 items
-        if (!rowElement || rowElement.querySelectorAll('.col-lg-3').length >= 4) {
-            rowElement = document.createElement('div');
-            rowElement.className = 'row';
-            // Insert before load more div
-            if (loadMoreDiv && loadMoreDiv.parentNode) {
-                loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
+            if (allPeople.length === 0) {
+                fetchAllPeople().then(applyFilter);
             } else {
-                peopleContainer.appendChild(rowElement);
-            }
-        }
-        
-        nextPeople.forEach((person, index) => {
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = `
-                <div class="col-lg-3" data-person-id="${person.slug}" data-department="${person.department || ''}">
-                    <div class="item">
-                        ${person.photo ? `<a href="${person.url}"><img src="${person.photo}" alt="${person.title || ''}"></a>` : ''}
-                        <div class="text">
-                            ${person.title ? `<a href="${person.url}"><h3>${person.title}</h3></a>` : ''}
-                            ${person.job_title ? `<p>${person.job_title}</p>` : ''}
-                        </div>
-                    </div>
-                </div>
-            `;
-            const newElement = tempDiv.firstElementChild;
-            
-            // Save first element
-            if (index === 0) {
-                firstNewElement = newElement;
-            }
-            
-            // Add HTML to end of row
-            rowElement.appendChild(newElement);
-            
-            // Fade-in animation with GSAP - with ScrollTrigger
-            const newItemElement = newElement.querySelector('.item');
-            if (newItemElement) {
-                gsap.set(newItemElement, { opacity: 0, y: 50, scale: 0.95 });
-                
-                gsap.to(newItemElement, {
-                    opacity: 1,
-                    y: 0,
-                    scale: 1,
-                    duration: 0.8,
-                    ease: "power3.out",
-                    scrollTrigger: {
-                        trigger: newElement,
-                        start: "top 85%",
-                        toggleActions: "play none none none",
-                        once: true
-                    }
-                });
-            }
-            
-            // Create new row if row has 4 items and more items exist
-            if (rowElement.querySelectorAll('.col-lg-3').length >= 4 && index < nextPeople.length - 1) {
-                rowElement = document.createElement('div');
-                rowElement.className = 'row';
-                if (loadMoreDiv && loadMoreDiv.parentNode) {
-                    loadMoreDiv.parentNode.insertBefore(rowElement, loadMoreDiv);
-                } else {
-                    peopleContainer.appendChild(rowElement);
-                }
+                applyFilter();
             }
         });
-
-        displayedCount += nextPeople.length;
-        currentPage++;
-
-        // Preserve scroll position and scroll down slightly
-        if (scrollBefore !== undefined && firstNewElement) {
-            window.scrollTo({
-                top: scrollBefore + 100,
-                behavior: 'smooth'
-            });
-        }
-
-        if (displayedCount >= allPeople.length) {
-            if (loadMoreDiv) {
-                loadMoreDiv.style.display = 'none';
-            }
-        }
     }
 });
 </script>

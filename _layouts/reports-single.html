@@ -63,27 +63,30 @@ layout: default
 
                     <div class="users">
                         {% for author in page.authors %}
+                        {% include resolve-author.html author=author %}
+                        {% if author_name and author_name != '' %}
                         <div class="item">
-                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
-                                <a href="{{ author.author_link | relative_url }}">
+                            {% if author_link and author_link != '' and author_link != '/' %}
+                                <a href="{{ author_link | relative_url }}">
                             {% endif %}
-                            {% if author.photo %}
-                            <img src="{{ author.photo | relative_url }}" alt="{{ author.name }}">
+                            {% if author_photo and author_photo != '' %}
+                            <img src="{{ author_photo | relative_url }}" alt="{{ author_name }}">
                             {% else %}
-                            <img src="{{ '/assets/images/icons/user.svg' | relative_url }}" alt="{{ author.name }}">
+                            <img src="{{ '/assets/images/icons/user.svg' | relative_url }}" alt="{{ author_name }}">
                             {% endif %}
-                            {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
+                            {% if author_link and author_link != '' and author_link != '/' %}
                                 </a>
                             {% endif %}
                             <div class="text">
-                                {% if author.author_link and author.author_link != '' and author.author_link != '/' %}
-                                    <a href="{{ author.author_link | relative_url }}"><h4>{{ author.name }}</h4></a>
-                                {% elsif author.name %}
-                                    <h4>{{ author.name }}</h4>
+                                {% if author_link and author_link != '' and author_link != '/' %}
+                                    <a href="{{ author_link | relative_url }}"><h4>{{ author_name }}</h4></a>
+                                {% else %}
+                                    <h4>{{ author_name }}</h4>
                                 {% endif %}
-                                {% if author.role %}<p>{{ author.role }}</p>{% endif %}
+                                {% if author_role and author_role != '' %}<p>{{ author_role }}</p>{% endif %}
                             </div>
                         </div>
+                        {% endif %}
                         {% endfor %}
                     </div>
                 </div>

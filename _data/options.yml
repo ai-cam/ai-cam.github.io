@@ -1,5 +1,5 @@
 site_name: ai@cam
-site_description: ai@cam project
+site_description: ai@cam is Cambridge University's flagship mission to develop AI for the benefit of science, citizens, and society.
 logos:
   logo_dark: /assets/images/ai-cam-logo-dark.svg
   logo_light: /assets/images/ai-cam-logo-light.svg
@@ -18,7 +18,7 @@ social_media:
     icon: /assets/images/icons/fly.svg
   facebook:
     url: ""
-    icon: /assets/images/icons/facebook.svg
+    icon: ""
 footer:
   footer_copyright: Copyright ai@cam 2026
   footer_designer: Designed by Colouring Department

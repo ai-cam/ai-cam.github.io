@@ -4,22 +4,23 @@
 {%-if authors and authors.size > 0-%}
   {%-assign lastone = authors.last-%}
   {%-for author in authors-%}
-    {%-if author.name-%}
-      {%-assign name_parts = author.name | split: " "-%}
+    {%-include resolve-author.html author=author-%}
+    {%-if author_name and author_name != ''-%}
+      {%-assign name_parts = author_name | split: " "-%}
       {%-if name_parts.size > 1-%}
         {%-assign family = name_parts.last-%}
         {%-assign given = name_parts | pop | join: " "-%}
       {%-else-%}
-        {%-assign family = author.name-%}
+        {%-assign family = author_name-%}
         {%-assign given = ""-%}
       {%-endif-%}
       {%-if family != ""-%}
 %A {{ given }} {{ family }}
       {%-else-%}
-%A {{ author.name }}
+%A {{ author_name }}
       {%-endif-%}
     {%-else-%}
-%A {{ author.name | default: "Unknown" }}
+%A {{ author_name | default: "Unknown" }}
     {%-endif-%}
   {%-endfor-%}
 {%-endif-%}

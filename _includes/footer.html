@@ -3,22 +3,26 @@
     <div class="container">
         <div class="top-actions">
             <ul class="social-media">
-                {% if site.data.options.social_media.linkedin.url %}
+                {% assign linkedin_url = site.data.options.social_media.linkedin.url | default: "" | strip %}
+                {% if linkedin_url != "" %}
                 <li><a href="{{ site.data.options.social_media.linkedin.url }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ site.data.options.social_media.linkedin.icon | default: '/assets/images/icons/linkedin.svg' | relative_url }}" alt="LinkedIn">
                 </a></li>
                 {% endif %}
-                {% if site.data.options.social_media.twitter.url %}
+                {% assign twitter_url = site.data.options.social_media.twitter.url | default: "" | strip %}
+                {% if twitter_url != "" %}
                 <li><a href="{{ site.data.options.social_media.twitter.url }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ site.data.options.social_media.twitter.icon | default: '/assets/images/icons/x.svg' | relative_url }}" alt="Twitter/X">
                 </a></li>
                 {% endif %}
-                {% if site.data.options.social_media.bluesky.url %}
+                {% assign bluesky_url = site.data.options.social_media.bluesky.url | default: "" | strip %}
+                {% if bluesky_url != "" %}
                 <li><a href="{{ site.data.options.social_media.bluesky.url }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ site.data.options.social_media.bluesky.icon | default: '/assets/images/icons/fly.svg' | relative_url }}" alt="Bluesky">
                 </a></li>
                 {% endif %}
-                {% if site.data.options.social_media.facebook.url %}
+                {% assign fb_url = site.data.options.social_media.facebook.url | default: "" | strip %}
+                {% if fb_url != "" %}
                 <li><a href="{{ site.data.options.social_media.facebook.url }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ site.data.options.social_media.facebook.icon | default: '/assets/images/icons/facebook.svg' | relative_url }}" alt="Facebook">
                 </a></li>
