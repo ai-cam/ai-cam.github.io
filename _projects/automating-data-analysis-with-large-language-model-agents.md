@@ -7,7 +7,7 @@ description: This project explores how Large Language Models (LLMs) can be
   custom multi-agent AI systems, the team builds intelligent research assistants
   that can plan, execute and check complex tasks — from data analysis and
   simulation to idea generation and manuscript drafting.
-cover_image: /assets/images/uploads/boris-bolliet-blogpost-photo.png
+cover_image: /assets/images/uploads/boris-bolliet-blogpost-photo2026.jpg
 project_categories: Sprints
 authors:
   - photo: /assets/images/uploads/boris-bolliet-official.jpg
