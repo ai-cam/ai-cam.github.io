@@ -1,12 +1,9 @@
 ---
 slug: Automating Data Analysis with Large Language Model Agents
 title: Automating Data Analysis with Large Language Model Agents
-description: This project explores how Large Language Models (LLMs) can be
-  harnessed to automate and optimise scientific research workflows, enabling
-  discoveries to be made faster and more reliably than ever before. Leveraging
-  custom multi-agent AI systems, the team builds intelligent research assistants
-  that can plan, execute and check complex tasks — from data analysis and
-  simulation to idea generation and manuscript drafting.
+description: This project investigates how Large Language Models (LLMs) can be
+  deployed within multi-agent systems to streamline and enhance scientific
+  research workflows, accelerating the pace and reliability of discovery.
 cover_image: /assets/images/uploads/boris-bolliet-blogpost-photo2026.jpg
 project_categories: Sprints
 authors:
@@ -14,7 +11,7 @@ authors:
     name: Boris Bolliet
     role: Department of Physics
 ---
-This project explores how Large Language Models (LLMs) can be harnessed to automate and optimise scientific research workflows, enabling discoveries to be made faster and more reliably than ever before. Leveraging custom *multi-agent AI systems*, the team builds intelligent research assistants that can plan, execute and check complex tasks — from data analysis and simulation to idea generation and manuscript drafting. 
+This project investigates how Large Language Models (LLMs) can be deployed within multi-agent systems to streamline and enhance scientific research workflows, accelerating the pace and reliability of discovery. Leveraging custom *multi-agent AI systems*, the team builds intelligent research assistants that can plan, execute and check complex tasks — from data analysis and simulation to idea generation and manuscript drafting. 
 
 This work extends beyond conventional LLM use by designing autonomous agents that collaborate like expert humans: assigning roles (e.g., idea generator, critic, engineer), breaking problems into manageable steps, and cross-verifying outputs. These agents have already demonstrated the ability to reproduce sophisticated cosmological data analyses in minutes rather than hours, a task previously requiring significant expert time. 
 
