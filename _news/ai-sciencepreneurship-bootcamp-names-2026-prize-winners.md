@@ -14,8 +14,6 @@ Project Prize winner
 
 The £3,000 Project Prize was presented to Syed Haider for Vocaloci, an AI-powered speech assistance tool designed to support people who stutter. The tool addresses longstanding gaps in how mainstream voice technologies handle disfluent speech.
 
-![](/assets/images/uploads/winner-2026-1-.jpg)
-
 “Joining the bootcamp has been an incredibly valuable experience alongside meeting Cambridge founders, VCs, postdocs, and professors,” said Syed Haider. “At its core, my tool aims to revolutionise communication technologies, making them more inclusive and accessible. Winning the Best Project Prize has given me real momentum, confidence, and support to continue building the technology and moving it towards real-world use. I’m also grateful to my team at the Isaac Newton Institute — Dr. Milla Kibble, Dr. Ewan Kirk and especially to my brother, Syed Muhammad Shahmeer Haider, for helping me develop the technical foundations of my AI idea.”
 
 ## Pitch Prize winners
