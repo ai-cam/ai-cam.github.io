@@ -10,6 +10,9 @@ authors:
   - photo: /assets/images/uploads/boris-bolliet-official.jpg
     name: Boris Bolliet
     role: Department of Physics
+  - role: Department of Applied Mathematics and Theoretical Physics
+    photo: /assets/images/uploads/james-fergusson1.jpg
+    name: James Fergusson
 ---
 This project investigates how Large Language Models (LLMs) can be deployed within multi-agent systems to streamline and enhance scientific research workflows, accelerating the pace and reliability of discovery. Leveraging custom *multi-agent AI systems*, the team builds intelligent research assistants that can plan, execute and check complex tasks — from data analysis and simulation to idea generation and manuscript drafting. 
 
