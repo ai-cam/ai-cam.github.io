@@ -3,14 +3,14 @@ slug: AI Sciencepreneurship Bootcamp names 2026 prize winners
 title: AI Sciencepreneurship Bootcamp names 2026 prize winners
 excerpt: Researchers from across the University of Cambridge gathered last week
   for the second annual ai@cam AI Sciencepreneurship Bootcamp.
-cover_image: /assets/images/uploads/bootcamp-2026-2-.jpg
+cover_image: /assets/images/uploads/bootcamp-20261.jpg
 date: 2026-02-17
 ---
 Researchers from across the University of Cambridge gathered last week for the second annual ai@cam AI Sciencepreneurship Bootcamp, an intensive two-day programme designed to help translate AI-enabled research into real-world ventures.
 
 Building on the success of its inaugural year, the bootcamp brought together PhD students, postdoctoral researchers and early-career academics working at the intersection of AI and science. Through practical workshops, mentoring and a pitch showcase, participants explored how to turn promising research into viable start-ups, with prizes awarded for best project and best pitches.
 
-Project Prize winner
+## Project Prize winner
 
 The £3,000 Project Prize was presented to Syed Haider for Vocaloci, an AI-powered speech assistance tool designed to support people who stutter. The tool addresses longstanding gaps in how mainstream voice technologies handle disfluent speech.
 
