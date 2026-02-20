@@ -91,3 +91,6 @@ footer_nav:
   - label: Contact
     url: /contact
     external: false
+  - label: Privacy Policy
+    url: /privacy-policy
+    external: false

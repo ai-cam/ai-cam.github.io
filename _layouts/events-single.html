@@ -84,26 +84,51 @@ layout: default
                     <li>
                         <div class="square"></div>
                         <span>
-                            {% if agenda_item.time %}{{ agenda_item.time | raw }}{% endif %}
-                            {% assign speaker_name = '' %}
-                            {% if agenda_item.speaker_team and agenda_item.speaker_team != '' and agenda_item.speaker_team != '/' %}
-                                {% assign speaker = site.team_members | where: "title", agenda_item.speaker_team | first %}
-                                {% if speaker %}{% assign speaker_name = speaker.title %}{% endif %}
-                            {% elsif agenda_item.speaker_people and agenda_item.speaker_people != '' and agenda_item.speaker_people != '/' %}
-                                {% assign speaker = site.people | where: "title", agenda_item.speaker_people | first %}
-                                {% if speaker %}{% assign speaker_name = speaker.title %}{% endif %}
-                            {% elsif agenda_item.speaker_manual and agenda_item.speaker_manual != '' and agenda_item.speaker_manual != '/' %}
-                                {% assign speaker_name = agenda_item.speaker_manual %}
-                            {% endif %}
-                            {% if speaker_name != '' %}
+                            {%- if agenda_item.time -%}
+                                {%- assign time_str = agenda_item.time | append: "" -%}
+                                {%- assign time_num = agenda_item.time | plus: 0 -%}
+                                {%- assign time_num_back = time_num | append: "" -%}
+                                {%- if time_str == time_num_back and time_num > 0 -%}
+                                    {%- comment -%} YAML sexagesimal dönüşümü: sayıyı saat formatına çevir {%- endcomment -%}
+                                    {%- if time_num > 1439 -%}
+                                        {%- comment -%} Saniye cinsinden (H:MM:SS formatından dönüşmüş) {%- endcomment -%}
+                                        {%- assign t_hours = time_num | divided_by: 3600 -%}
+                                        {%- assign t_remainder = time_num | modulo: 3600 -%}
+                                        {%- assign t_minutes = t_remainder | divided_by: 60 -%}
+                                    {%- else -%}
+                                        {%- comment -%} Base-60 cinsinden (H:MM formatından dönüşmüş) {%- endcomment -%}
+                                        {%- assign t_hours = time_num | divided_by: 60 -%}
+                                        {%- assign t_minutes = time_num | modulo: 60 -%}
+                                    {%- endif -%}
+                                    {%- if t_minutes < 10 -%}
+                                        {{ t_hours }}:0{{ t_minutes }}
+                                    {%- else -%}
+                                        {{ t_hours }}:{{ t_minutes }}
+                                    {%- endif -%}
+                                {%- else -%}
+                                    {{- agenda_item.time -}}
+                                {%- endif -%}
+                            {%- endif -%}
+                            {%- assign speaker_name = '' -%}
+                            {%- if agenda_item.speaker_team and agenda_item.speaker_team != '' and agenda_item.speaker_team != '/' -%}
+                                {%- assign speaker = site.team_members | where: "title", agenda_item.speaker_team | first -%}
+                                {%- if speaker -%}{%- assign speaker_name = speaker.title -%}{%- endif -%}
+                            {%- elsif agenda_item.speaker_people and agenda_item.speaker_people != '' and agenda_item.speaker_people != '/' -%}
+                                {%- assign speaker = site.people | where: "title", agenda_item.speaker_people | first -%}
+                                {%- if speaker -%}{%- assign speaker_name = speaker.title -%}{%- endif -%}
+                            {%- elsif agenda_item.speaker_manual and agenda_item.speaker_manual != '' and agenda_item.speaker_manual != '/' -%}
+                                {%- assign speaker_name = agenda_item.speaker_manual -%}
+                            {%- endif -%}
+                            {%- if speaker_name != '' %}
                             <br><span class="speaker">{{ speaker_name }}</span>
-                            {% endif %}
+                            {%- endif %}
                         </span>
                         <h6>
-                            {% if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' %}
-                                <a href="{{ agenda_item.session_link }}">{% endif %}
-                            {% if agenda_item.session_name %}{{ agenda_item.session_name }}{% endif %}
-                            {% if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' %}</a>{% endif %}
+                            {%- if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' -%}
+                                <a href="{{ agenda_item.session_link }}">
+                            {%- endif -%}
+                            {%- if agenda_item.session_name -%}{{ agenda_item.session_name }}{%- endif -%}
+                            {%- if agenda_item.session_link and agenda_item.session_link != '' and agenda_item.session_link != '/' -%}</a>{%- endif %}
                         </h6>
                     </li>
                     {% endfor %}
