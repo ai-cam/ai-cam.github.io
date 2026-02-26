@@ -5,7 +5,7 @@ title: "Using AI to illuminate 600 years of learning at Cambridge University
   Libraries "
 date: 2026-02-24
 cover_image: /assets/images/uploads/20230616_student-at-gonville-and-caius_0236.jpg
-related_title: " "
+related_title: "Related Posts "
 ---
 Cambridge University Library is one of the oldest university libraries in the world. Today, it provides a home to more than ten million physical books, maps, manuscripts, photographs and other priceless objects – including the archives of Sir Isaac Newton, Charles Darwin and Stephen Hawking – across more than 35 locations.
 
