@@ -13,9 +13,9 @@ Yet even the most historic of institutions are looking for ways to adapt to the 
 
 The Library’s digital services team received funding through ai@cam’s AI for Ops programme, which supports AI solutions for operational challenges across the University. The initiative focuses on two areas:
 
-•	using AI tools to unlock the University’s vast treasure trove of “hidden collections”,
+•	Using AI tools to unlock the University’s vast treasure trove of “hidden collections”
 
-•	and developing a chatbot to guide users through the Library’s archives.
+•	Developing a chatbot to guide users through the Library’s archives.
 
 “While we have a number of established workflows that have served us well,” explains Deputy Director of Digital Initiatives Lesley Gray, “we’re aware that ways of working are changing. We’re looking to see if we can use AI to augment our processes and automate some tasks, so we can work on areas where human expertise adds greatest value. This is not about replacing people – it’s about working smarter.”
 
