@@ -1,7 +1,7 @@
 ---
 slug: how-can-we-make-ai-supply-chains-more-accountable
 title: How can we make AI supply chains more accountable?
-date: 2025-11-01
+date: 2023-11-01
 cover_image: /assets/images/uploads/ugur-akdemir-hbyngldqmuo-unsplash-1-.jpg
 related_title: Related Posts
 ---
