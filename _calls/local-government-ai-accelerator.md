@@ -2,7 +2,7 @@
 slug: local-government-ai-accelerator
 title: Local Government AI Accelerator
 call_excerpt: ""
-call_categories: Open Calls
+call_categories: Past Calls
 cover_image: /assets/images/uploads/localgovernment-1-.jpg
 call_date: 2026-02-13
 application_deadline: 2026-02-13

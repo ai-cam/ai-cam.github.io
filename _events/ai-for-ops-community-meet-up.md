@@ -5,7 +5,7 @@ excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
   many disciplines.
 cover_image: /assets/images/uploads/sandip-kalal-n-uu1v7xfda-unsplash-copy-4.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Following the success of our first event in June 2025, ai@cam is launching the
   second edition of its AI Sciencepreneurship Bootcamp, an intensive two-day
