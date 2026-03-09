@@ -195,6 +195,7 @@ collections:
     fields:
       - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-project). This will be used in the URL." }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Date", name: "project_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false, hint: "Optional date for this project" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
       - { label: "Alternative Image", name: "alternative_image", widget: "image", required: false, hint: "If provided, this will be shown instead of cover image" }
@@ -219,10 +220,30 @@ collections:
         name: "authors"
         widget: "list"
         fields:
-          - { label: "Photo", name: "photo", widget: "image" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role", name: "role", widget: "string" }
-          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Link to author page (internal or external)" }
+          - label: "Author (from Team)"
+            name: "author_team"
+            widget: "relation"
+            collection: "team_members"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from team members, or use manual entry below"
+          - label: "Author (from People)"
+            name: "author_people"
+            widget: "relation"
+            collection: "people"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from people, or use manual entry below"
+          - { label: "Photo", name: "photo", widget: "image", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Name", name: "name", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Role", name: "role", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
 
   # Project Categories
   - name: "project_categories"
@@ -267,10 +288,30 @@ collections:
         name: "authors"
         widget: "list"
         fields:
-          - { label: "Photo", name: "photo", widget: "image" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role", name: "role", widget: "string" }
-          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Link to team member single page" }
+          - label: "Author (from Team)"
+            name: "author_team"
+            widget: "relation"
+            collection: "team_members"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from team members, or use manual entry below"
+          - label: "Author (from People)"
+            name: "author_people"
+            widget: "relation"
+            collection: "people"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from people, or use manual entry below"
+          - { label: "Photo", name: "photo", widget: "image", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Name", name: "name", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Role", name: "role", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
       - label: "Citation Fields"
         name: "citation_fields"
         widget: "object"
@@ -388,10 +429,30 @@ collections:
         name: "authors"
         widget: "list"
         fields:
-          - { label: "Photo", name: "photo", widget: "image" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role", name: "role", widget: "string" }
-          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Link to author page (internal or external)" }
+          - label: "Author (from Team)"
+            name: "author_team"
+            widget: "relation"
+            collection: "team_members"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from team members, or use manual entry below"
+          - label: "Author (from People)"
+            name: "author_people"
+            widget: "relation"
+            collection: "people"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            multiple: false
+            required: false
+            hint: "Select an author from people, or use manual entry below"
+          - { label: "Photo", name: "photo", widget: "image", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Name", name: "name", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Role", name: "role", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
+          - { label: "Author Link", name: "author_link", widget: "string", required: false, hint: "Only needed if not selecting from Team/People above" }
       - label: "Policy Category"
         name: "policy_categories"
         widget: "relation"
@@ -577,6 +638,18 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Topic", name: "topic", widget: "string" }
+
+  # Privacy Policy Page
+  - name: "privacy_policy"
+    label: "Privacy Policy"
+    files:
+      - label: "Privacy Policy Page"
+        name: "privacy_policy"
+        file: "_pages/privacy-policy.html"
+        fields:
+          - { label: "Layout", name: "layout", widget: "string", default: "default" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Permalink", name: "permalink", widget: "string", default: "/privacy-policy/" }
 
   # Study Page
   - name: "study"

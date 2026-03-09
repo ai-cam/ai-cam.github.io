@@ -133,7 +133,56 @@
             z-index: 2;
         }
         
+        /* Authors section - .text h4 styled like h2 */
+        .reports-single-page-content .authors .users .item .text h4,
+        .projects-single-page .authors .users .item .text h4 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--primary-color);
+            margin-bottom: 4px;
+        }
+        .reports-single-page-content .authors .users .item .text a,
+        .projects-single-page .authors .users .item .text a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        .reports-single-page-content .authors .users .item .text a:hover,
+        .projects-single-page .authors .users .item .text a:hover {
+            text-decoration: underline;
+        }
+        .reports-single-page-content .authors .users .item .text a h4,
+        .projects-single-page .authors .users .item .text a h4 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--primary-color);
+            margin-bottom: 4px;
+        }
+        .reports-single-page-content .authors .users .item .text p,
+        .projects-single-page .authors .users .item .text p {
+            color: var(--primary-color);
+        }
+
+        /* Blog single page - .text h4 */
+        .blog-single-page .content .text h4 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 16px;
+        }
+
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F52GNYN3C1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F52GNYN3C1');
+    </script>
+
 
 </head>
 
@@ -2583,49 +2632,7 @@
                     reportsSinglePageContentShapes.classList.add('in-view');
                 }
 
-                // Authors Section Animation
-                const reportsAuthors = reportsSinglePageContent.querySelector('.authors');
-                if (reportsAuthors) {
-                    const authorsTitle = reportsAuthors.querySelector('h3');
-                    const authorsItems = reportsAuthors.querySelectorAll('.item');
-                    
-                    if (authorsTitle) {
-                        gsap.set(authorsTitle, { opacity: 0, y: 30 });
-                        
-                        gsap.to(authorsTitle, {
-                            opacity: 1,
-                            y: 0,
-                            duration: 0.8,
-                            ease: "power3.out",
-                            scrollTrigger: {
-                                trigger: reportsAuthors,
-                                start: "top 85%",
-                                toggleActions: "play none none none",
-                                once: true
-                            }
-                        });
-                    }
-                    
-                    if (authorsItems.length > 0) {
-                        authorsItems.forEach((item, index) => {
-                            gsap.set(item, { opacity: 0, x: -30 });
-                            
-                            gsap.to(item, {
-                                opacity: 1,
-                                x: 0,
-                                duration: 0.7,
-                                ease: "power3.out",
-                                delay: index * 0.1,
-                                scrollTrigger: {
-                                    trigger: reportsAuthors,
-                                    start: "top 85%",
-                                    toggleActions: "play none none none",
-                                    once: true
-                                }
-                            });
-                        });
-                    }
-                }
+                // Authors Section - No animation, displayed directly
 
                 // Abstract Section Animation
                 const reportsAbstract = reportsSinglePageContent.querySelector('.abstract');

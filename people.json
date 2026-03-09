@@ -15,8 +15,11 @@ permalink: /people.json
         {% if team_member %}
             {% if team_member.photo %}{% assign person_photo = team_member.photo %}{% endif %}
             {% if team_member.job_title %}{% assign person_job_title = team_member.job_title %}{% endif %}
-            {% if team_member.department %}{% assign person_department = team_member.department %}{% endif %}
+            {% if team_member.department and team_member.department != '/' and team_member.department != 'x' %}{% assign person_department = team_member.department %}{% endif %}
         {% endif %}
+    {% endif %}
+    {% if person_department == '/' or person_department == 'x' %}
+        {% assign person_department = nil %}
     {% endif %}
   {
     "slug": "{{ person.slug }}",
@@ -24,7 +27,7 @@ permalink: /people.json
     "url": "{{ person.url }}",
     "photo": {% if person_photo %}"{{ person_photo | relative_url }}"{% else %}null{% endif %},
     "job_title": {% if person_job_title %}{{ person_job_title | jsonify }}{% else %}null{% endif %},
-    "department": {% if person_department %}{{ person_department | jsonify }}{% else %}null{% endif %}
+    "department": {% if person_department and person_department != '' and person_department != '/' and person_department != 'x' %}{{ person_department | jsonify }}{% else %}null{% endif %}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

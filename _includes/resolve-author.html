@@ -1,0 +1,40 @@
+<!-- Resolve author info from team member, people, or manual entry -->
+<!-- Usage: {% raw %}{% include resolve-author.html author=author %}{% endraw %} -->
+<!-- Sets: author_name, author_photo, author_role, author_link -->
+
+{% assign author_name = '' %}
+{% assign author_photo = '' %}
+{% assign author_role = '' %}
+{% assign author_link = '' %}
+
+{% if include.author.author_team and include.author.author_team != '' and include.author.author_team != '/' %}
+  {% assign resolved_member = site.team_members | where: "title", include.author.author_team | first %}
+  {% if resolved_member %}
+    {% assign author_name = resolved_member.title %}
+    {% assign author_photo = resolved_member.photo %}
+    {% assign author_role = resolved_member.job_title %}
+    {% assign author_link = resolved_member.url %}
+  {% endif %}
+{% elsif include.author.author_people and include.author.author_people != '' and include.author.author_people != '/' %}
+  {% assign resolved_person = site.people | where: "title", include.author.author_people | first %}
+  {% if resolved_person %}
+    {% assign author_name = resolved_person.title %}
+    {% assign author_photo = resolved_person.photo %}
+    {% assign author_role = resolved_person.job_title %}
+    {% assign author_link = resolved_person.url %}
+  {% endif %}
+{% endif %}
+
+<!-- Fallback to manual fields if no team/people match or manual entry used -->
+{% if author_name == '' and include.author.name %}
+  {% assign author_name = include.author.name %}
+{% endif %}
+{% if author_photo == '' and include.author.photo %}
+  {% assign author_photo = include.author.photo %}
+{% endif %}
+{% if author_role == '' and include.author.role %}
+  {% assign author_role = include.author.role %}
+{% endif %}
+{% if author_link == '' and include.author.author_link %}
+  {% assign author_link = include.author.author_link %}
+{% endif %}
