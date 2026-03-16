@@ -515,21 +515,61 @@ collections:
               - { label: "Video Embed", name: "video_embed", widget: "text" }
               - { label: "Hero Title", name: "title", widget: "string" }
               - { label: "Hero Description", name: "description", widget: "string" }
-          - label: "Calls Section"
-            name: "calls"
-            widget: "object"
-            collapsed: true
-            fields:
-              - label: "Selected Calls"
-                name: "selected_calls"
-                widget: "relation"
-                collection: "calls"
-                displayFields: ["title"]
-                searchFields: ["title"]
-                valueField: "title"
-                multiple: true
-                required: false
-                hint: "Select calls to display in the slider"
+          - label: "Spotlight Section"
+            name: "spotlight"
+            widget: "list"
+            hint: "Add items to display in the homepage slider. You can mix different content types."
+            types:
+              - label: "Call"
+                name: "call"
+                fields:
+                  - label: "Selected Call"
+                    name: "selected_item"
+                    widget: "relation"
+                    collection: "calls"
+                    displayFields: ["title"]
+                    searchFields: ["title"]
+                    valueField: "title"
+              - label: "Blog Post"
+                name: "blog"
+                fields:
+                  - label: "Selected Blog Post"
+                    name: "selected_item"
+                    widget: "relation"
+                    collection: "blog_posts"
+                    displayFields: ["title"]
+                    searchFields: ["title"]
+                    valueField: "title"
+              - label: "Report"
+                name: "report"
+                fields:
+                  - label: "Selected Report"
+                    name: "selected_item"
+                    widget: "relation"
+                    collection: "reports"
+                    displayFields: ["title"]
+                    searchFields: ["title"]
+                    valueField: "title"
+              - label: "Event"
+                name: "event"
+                fields:
+                  - label: "Selected Event"
+                    name: "selected_item"
+                    widget: "relation"
+                    collection: "events"
+                    displayFields: ["title"]
+                    searchFields: ["title"]
+                    valueField: "title"
+              - label: "News"
+                name: "news_item"
+                fields:
+                  - label: "Selected News"
+                    name: "selected_item"
+                    widget: "relation"
+                    collection: "news"
+                    displayFields: ["title"]
+                    searchFields: ["title"]
+                    valueField: "title"
           - label: "News & Events Section"
             name: "news_events"
             widget: "object"
