@@ -1,0 +1,197 @@
+<!-- Cookie Consent Banner -->
+<div id="cookie-notice">
+    <p>We use cookies to understand how visitors interact with our site, helping us improve resources for the AI and research community. You can manage your preferences at any time.</p>
+    <div class="cookie-buttons">
+        <button class="btn-accept-all" onclick="acceptAllCookies()">Accept All</button>
+        <button class="btn-refuse-all" onclick="refuseAllCookies()">Refuse All</button>
+        <button class="btn-manage" onclick="showCookiePreferences()">Manage Preferences</button>
+        <a href="/privacy-policy" class="btn-more-info">Privacy Policy</a>
+    </div>
+</div>
+<!-- Cookie Consent Banner End -->
+
+<!-- Cookie Settings Button -->
+<button id="cookie-settings-btn" onclick="showCookiePreferences()">Cookie Settings</button>
+<!-- Cookie Settings Button End -->
+
+<!-- Cookie Preferences Modal -->
+<div class="cookie-overlay" id="cookie-overlay" onclick="hideCookiePreferences()"></div>
+<div id="cookie-preferences">
+    <h3>Cookie Preferences</h3>
+    <p>Choose which cookies you allow us to use. Your choices will be saved for one year.</p>
+
+    <div class="cookie-category">
+        <h4>
+            Essential Cookies
+            <div class="cookie-toggle">
+                <span style="font-size: 12px; color: #666;">Always Required</span>
+                <div class="toggle-switch active disabled">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+        </h4>
+        <p>These cookies are necessary for the website to function properly. They enable basic features like page navigation, security, and remembering your cookie preferences. The website cannot function without these cookies.</p>
+    </div>
+
+    <div class="cookie-category">
+        <h4>
+            Analytics Cookies
+            <div class="cookie-toggle">
+                <div class="toggle-switch" id="analytics-toggle" onclick="toggleCookieCategory('analytics')">
+                    <div class="toggle-slider"></div>
+                </div>
+            </div>
+        </h4>
+        <p>These cookies help us understand how visitors use our website by collecting anonymous usage data (via Google Analytics). This information helps us improve our content and user experience. No personally identifiable information is collected.</p>
+    </div>
+
+    <div class="preference-buttons">
+        <button onclick="savePreferences()" style="background: #28a745; color: white;">Save Preferences</button>
+        <button onclick="acceptAllFromModal()" style="background: #515FE7; color: white;">Accept All</button>
+        <button onclick="refuseAllFromModal()" style="background: #6c757d; color: white;">Refuse All</button>
+        <button onclick="hideCookiePreferences()" style="background: #f8f9fa; color: #333; border: 1px solid #ddd;">Cancel</button>
+    </div>
+</div>
+<!-- Cookie Preferences Modal End -->
+
+<!-- Cookie Consent Script -->
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/; SameSite=Lax";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    var cookiePreferences = {
+        essential: true,
+        analytics: false
+    };
+
+    function updateAnalyticsConsent(granted) {
+        if (typeof gtag !== 'undefined') {
+            gtag('consent', 'update', {
+                'analytics_storage': granted ? 'granted' : 'denied'
+            });
+        }
+    }
+
+    function toggleCookieCategory(category) {
+        if (category === 'essential') return;
+        cookiePreferences[category] = !cookiePreferences[category];
+        updateToggleDisplay(category);
+    }
+
+    function updateToggleDisplay(category) {
+        var toggle = document.getElementById(category + '-toggle');
+        if (toggle) {
+            if (cookiePreferences[category]) {
+                toggle.classList.add('active');
+            } else {
+                toggle.classList.remove('active');
+            }
+        }
+    }
+
+    function updateAllToggles() {
+        Object.keys(cookiePreferences).forEach(function (category) {
+            if (category !== 'essential') {
+                updateToggleDisplay(category);
+            }
+        });
+    }
+
+    function showCookiePreferences() {
+        document.getElementById('cookie-overlay').style.display = 'block';
+        document.getElementById('cookie-preferences').style.display = 'block';
+        updateAllToggles();
+    }
+
+    function hideCookiePreferences() {
+        document.getElementById('cookie-overlay').style.display = 'none';
+        document.getElementById('cookie-preferences').style.display = 'none';
+    }
+
+    function acceptAllCookies() {
+        cookiePreferences = {
+            essential: true,
+            analytics: true
+        };
+        savePreferences();
+    }
+
+    function refuseAllCookies() {
+        cookiePreferences = {
+            essential: true,
+            analytics: false
+        };
+        savePreferences();
+    }
+
+    function acceptAllFromModal() {
+        acceptAllCookies();
+        hideCookiePreferences();
+    }
+
+    function refuseAllFromModal() {
+        refuseAllCookies();
+        hideCookiePreferences();
+    }
+
+    function savePreferences() {
+        Object.keys(cookiePreferences).forEach(function (category) {
+            createCookie('cookie-' + category, cookiePreferences[category] ? 'true' : 'false', 365);
+        });
+
+        createCookie('cookie-notice-dismissed', 'true', 365);
+
+        document.getElementById('cookie-notice').style.display = 'none';
+        document.getElementById('cookie-settings-btn').style.display = 'block';
+
+        updateAnalyticsConsent(cookiePreferences.analytics);
+
+        hideCookiePreferences();
+    }
+
+    function loadPreferences() {
+        var dismissed = readCookie('cookie-notice-dismissed');
+
+        if (dismissed === 'true') {
+            Object.keys(cookiePreferences).forEach(function (category) {
+                var saved = readCookie('cookie-' + category);
+                if (saved !== null) {
+                    cookiePreferences[category] = saved === 'true';
+                }
+            });
+
+            updateAnalyticsConsent(cookiePreferences.analytics);
+
+            document.getElementById('cookie-settings-btn').style.display = 'block';
+        } else {
+            document.getElementById('cookie-notice').style.display = 'block';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        loadPreferences();
+    });
+</script>
+<!-- Cookie Consent Script End -->

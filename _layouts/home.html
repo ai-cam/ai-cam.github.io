@@ -16,7 +16,7 @@ layout: default
  <!-- Home Main End -->
 
 <!-- Home Slider -->
-{% if page.calls.selected_calls %}
+{% if page.spotlight and page.spotlight.size > 0 %}
  <section class="home-slider">
     <div class="shapes">
         <div class="light-img">
@@ -32,24 +32,67 @@ layout: default
                 <img src="{{ '/assets/images/icons/arrow-left-dark.svg' | relative_url }}" alt="Previous">
             </button>
             <div class="loop">
-                {% for selected_call_title in page.calls.selected_calls %}
-                {% assign call = site.calls | where: 'title', selected_call_title | first %}
-                {% if call %}
+                {% for spotlight_entry in page.spotlight %}
+
+                {% assign item = nil %}
+                {% assign item_category = nil %}
+                {% assign item_date = nil %}
+                {% assign item_content = nil %}
+
+                {% case spotlight_entry.type %}
+                    {% when "call" %}
+                        {% assign item = site.calls | where: 'title', spotlight_entry.selected_item | first %}
+                        {% if item %}
+                            {% assign item_category = item.call_categories %}
+                            {% assign item_date = item.call_date %}
+                            {% assign item_content = item.call_content %}
+                        {% endif %}
+                    {% when "blog" %}
+                        {% assign item = site.blog_posts | where: 'title', spotlight_entry.selected_item | first %}
+                        {% if item %}
+                            {% assign item_category = "Blog" %}
+                            {% assign item_date = item.date %}
+                            {% assign item_content = item.body %}
+                        {% endif %}
+                    {% when "report" %}
+                        {% assign item = site.reports | where: 'title', spotlight_entry.selected_item | first %}
+                        {% if item %}
+                            {% assign item_category = "Report" %}
+                            {% assign item_date = item.report_date %}
+                            {% assign item_content = item.excerpt %}
+                        {% endif %}
+                    {% when "event" %}
+                        {% assign item = site.events | where: 'title', spotlight_entry.selected_item | first %}
+                        {% if item %}
+                            {% assign item_category = item.event_categories %}
+                            {% assign item_date = item.event_date %}
+                            {% assign item_content = item.event_content %}
+                        {% endif %}
+                    {% when "news_item" %}
+                        {% assign item = site.news | where: 'title', spotlight_entry.selected_item | first %}
+                        {% if item %}
+                            {% assign item_category = "News" %}
+                            {% assign item_date = item.date %}
+                            {% assign item_content = item.body %}
+                        {% endif %}
+                {% endcase %}
+
+                {% if item %}
                 <div class="item">
                     <div class="picture">
-                        {% if call.cover_image %}
-                        <img src="{{ call.cover_image | relative_url }}" alt="">
+                        {% if item.cover_image %}
+                        <img src="{{ item.cover_image | relative_url }}" alt="">
                         {% endif %}
                     </div>
 
                     <div class="text">
                         <div class="top-title">
-                            {% if call.call_categories %}<span class="category">{{ call.call_categories }}</span>{% endif %}
-                            {% if call.title %}<h2><a href="{{ call.url }}" style="color: inherit;">{{ call.title }}</a></h2>{% endif %}
-                            {% if call.call_date %}<h5>{{ call.call_date | date: "%B %Y" }}</h5>{% endif %}
+                            {% if item_category %}<span class="category">{{ item_category }}</span>{% endif %}
+                            {% if item.title %}<h2><a href="{{ item.url }}" style="color: inherit;">{{ item.title }}</a></h2>{% endif %}
+                            {% if item_date %}<h5>{{ item_date | date: "%B %Y" }}</h5>{% endif %}
                         </div>
 
-                        {% if call.call_content %}<p>{{ call.call_content | strip_html | truncatewords: 30 }}</p>{% endif %}
+                        {% if item_content %}<p>{{ item_content | strip_html | truncatewords: 30 }}</p>{% endif %}
                     </div>
                 </div>
                 {% endif %}
