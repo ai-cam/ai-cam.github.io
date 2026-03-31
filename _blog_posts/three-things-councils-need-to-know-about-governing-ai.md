@@ -2,7 +2,7 @@
 slug: Three things councils need to know about governing AI
 title: Three things councils need to know about governing AI
 date: 2026-03-27
-cover_image: /assets/images/uploads/policy-blog.jpg
+cover_image: /assets/images/uploads/policy-blog-2.jpg
 related_title: "  "
 ---
 AI is already shaping decisions in councils across England — from social care to planning. Getting the governance right turns out to be less about values and more about plumbing. New research from ai@cam’s Decision-Making with AI in Connected Places and Cities project suggests the main obstacle facing councils isn’t a lack of ethical intent, but the institutional capacity to translate principles into routine administrative work.
