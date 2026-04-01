@@ -15,8 +15,8 @@ authors:
     photo: /assets/images/uploads/download.jpeg
     role: /
   - name: Sabrina Yang
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/sabrina-yang.jpg
+    role: " "
   - photo: /assets/images/uploads/download.jpeg
     name: Hannah Tigg
     role: /
