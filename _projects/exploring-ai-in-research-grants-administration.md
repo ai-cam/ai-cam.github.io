@@ -33,7 +33,7 @@ authors:
     role: ""
     photo: /assets/images/uploads/simeon.burke.jpg
   - name: Katerina Tsormpatzoglou
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/katerina-tsormpatzoglou.jpg
     role: ""
   - name: Russell Manning
     photo: /assets/images/uploads/russell-re-manning-740x740.jpg
