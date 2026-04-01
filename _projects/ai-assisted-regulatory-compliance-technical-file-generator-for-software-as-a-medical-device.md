@@ -6,7 +6,7 @@ project_date: ""
 description: "By using AI to automate regulatory documentation, the Office for
   Translational Research and the School of Clinical Medicine are helping
   researchers bring medical software to patients faster. "
-cover_image: /assets/images/uploads/20190927_inside-the-university-library_178.jpg
+cover_image: /assets/images/uploads/20240702_postgraduates-collaborating-on-work-in-clare-hall-library_dsc00795.jpg
 project_categories: ""
 authors:
   - name: Reza Salek
