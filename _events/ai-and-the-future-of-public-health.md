@@ -3,7 +3,7 @@ slug: AI and the Future of Public Health
 title: AI and the Future of Public Health
 excerpt: Join us to explore how AI is shaping the future of public health.
 cover_image: /assets/images/uploads/2026-ai-and-the-future-of-public-health-event.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   At Cambridge, we’re exploring how artificial intelligence (AI) can be used
   responsibly to improve lives and strengthen communities. From predicting
