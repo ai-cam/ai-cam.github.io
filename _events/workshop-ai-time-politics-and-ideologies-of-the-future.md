@@ -5,7 +5,7 @@ excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
   many disciplines.
 cover_image: /assets/images/uploads/cambridge.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   ai@cam invites you to join us for our community Lunch & Learn as part of the
   AI for Ops programme.
