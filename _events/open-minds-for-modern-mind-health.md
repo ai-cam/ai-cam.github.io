@@ -15,7 +15,7 @@ event_content: >-
 
 
   The event brings together participants from academia and industry to exchange ideas, share research, and build new collaborations in this rapidly developing field. The programme features a series of short flash talks alongside open-mic discussion sessions.
-registration_link: ""
+registration_link: https://www.cardiovascular.cam.ac.uk/events/open-minds-modern-mind-health
 registration_link_text: Find out more
 event_date: 2026-04-21
 event_end_date: 2026-04-21
