@@ -6,14 +6,11 @@ excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   many disciplines.
 cover_image: /assets/images/uploads/jean-luc-benazet-upnzyco94-unsplash.jpg
 event_categories: Upcoming Events
-event_content: >-
-  After ai@cam’s AI for Ops funding call, we are excited to host our Show & Tell
-  Final Showcase for project awardees to share their achievements over the
-  previous six months. The workshop will be an opportunity for our community to
-  connect with fellow professional services teams and foster collaboration.
-
-
-  **Registration details to follow.**
+event_content: After ai@cam’s AI for Ops funding call, we are excited to host
+  our Show & Tell Final Showcase for project awardees to share their
+  achievements over the previous six months. The workshop will be an opportunity
+  for our community to connect with fellow professional services teams and
+  foster collaboration.
 registration_title: Registration
 registration_text: /
 registration_link: https://forms.gle/XhuuEm7hutuASxra8
