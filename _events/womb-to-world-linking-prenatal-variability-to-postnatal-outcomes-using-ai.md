@@ -3,7 +3,7 @@ slug: "Womb to World: Linking Prenatal Variability to Postnatal Outcomes using A
 title: "Womb to World: Linking Prenatal Variability to Postnatal Outcomes using AI"
 excerpt: " "
 cover_image: /assets/images/uploads/womb_to_world.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Longitudinal monitoring of physiological characteristics and reproductive
   health can impact lifelong health, including menopause symptoms and timing,
