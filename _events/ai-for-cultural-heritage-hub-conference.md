@@ -3,7 +3,7 @@ slug: AI for Cultural Heritage Hub Conference
 title: AI for Cultural Heritage Hub Conference
 excerpt: " "
 cover_image: /assets/images/uploads/ai-for-cultural-heritage-hub-conference.jpeg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   **AI for Cultural Heritage Hub Conference**
 
