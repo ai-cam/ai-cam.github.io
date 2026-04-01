@@ -9,8 +9,8 @@ cover_image: /assets/images/uploads/20241106_staff-members-at-the-old-cavendish_
 project_categories: ""
 authors:
   - name: Petra Georgoulis-Hluzova
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/petra-georgoulis-hluzova-.jpg
+    role: " "
   - name: Peter Thomas-McEwen
     photo: /assets/images/uploads/download.jpeg
     role: /
