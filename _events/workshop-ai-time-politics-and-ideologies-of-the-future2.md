@@ -14,7 +14,7 @@ event_content: After ai@cam’s AI for Ops funding call, we are excited to host
 registration_title: Registration
 registration_text: /
 registration_link: https://forms.gle/XhuuEm7hutuASxra8
-registration_link_text: Find out More
+registration_link_text: Find out more & register
 event_date: 2026-05-13
 event_end_date: 2026-05-13
 time: 09:30-12.00
