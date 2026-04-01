@@ -11,10 +11,10 @@ cover_image: /assets/images/uploads/20241106_university-staff-member_0154.jpg
 project_categories: ""
 authors:
   - name: Sarah Rosella
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/sarahroseella1.png
     role: /
   - name: Rebecca Learn
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/rebecca_leam.jpg
     role: /
   - name: Diane Coyle
     photo: /assets/images/uploads/coyle_diane-1-.jpg
