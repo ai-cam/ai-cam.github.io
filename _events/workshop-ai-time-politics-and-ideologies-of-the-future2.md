@@ -16,7 +16,7 @@ event_content: >-
   **Registration details to follow.**
 registration_title: Registration
 registration_text: /
-registration_link: "#"
+registration_link: https://forms.gle/XhuuEm7hutuASxra8
 registration_link_text: Find out More
 event_date: 2026-05-13
 time: 10:00-12.00
