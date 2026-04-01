@@ -3,7 +3,7 @@ slug: Hands on with the Hub
 title: Hands on with the Hub
 excerpt: "  "
 cover_image: /assets/images/uploads/hands-on-with-the-hub.jpeg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Get hands-on with the AI for Cultural Heritage Hub (ArCH)!
 
