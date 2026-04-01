@@ -17,21 +17,21 @@ authors:
   - name: Sabrina Yang
     photo: /assets/images/uploads/sabrina-yang.jpg
     role: " "
-  - photo: /assets/images/uploads/download.jpeg
+  - photo: /assets/images/uploads/hannah-tigg.png
     name: Hannah Tigg
     role: /
   - name: Yvonne Martin-Portugues
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/yvonne-martin-portugues.jpg
     role: /
   - name: Miyoung Kim
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/miyoung-kim-1.png
     role: /
   - name: Sarah Lamont
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/sarahlamont.jpeg
     role: /
   - name: Simeon Burke
     role: /
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/simeon.burke.jpg
   - name: Katerina Tsormpatzoglou
     photo: /assets/images/uploads/download.jpeg
     role: /
