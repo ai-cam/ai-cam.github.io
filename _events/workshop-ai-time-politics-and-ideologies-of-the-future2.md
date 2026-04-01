@@ -19,6 +19,7 @@ registration_text: /
 registration_link: https://forms.gle/XhuuEm7hutuASxra8
 registration_link_text: Find out More
 event_date: 2026-05-13
+event_end_date: 2026-05-13
 time: 09:30-12.00
 location: Central Cambridge
 organizers: ai@cam
