@@ -12,34 +12,34 @@ authors:
     photo: /assets/images/uploads/petra-georgoulis-hluzova-.jpg
     role: " "
   - name: Peter Thomas-McEwen
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/peter-thomas-mcewen.jpg
+    role: " "
   - name: Sabrina Yang
     photo: /assets/images/uploads/sabrina-yang.jpg
     role: " "
   - photo: /assets/images/uploads/hannah-tigg.png
     name: Hannah Tigg
-    role: /
+    role: " "
   - name: Yvonne Martin-Portugues
     photo: /assets/images/uploads/yvonne-martin-portugues.jpg
-    role: /
+    role: " "
   - name: Miyoung Kim
     photo: /assets/images/uploads/miyoung-kim-1.png
-    role: /
+    role: " "
   - name: Sarah Lamont
     photo: /assets/images/uploads/sarahlamont.jpeg
-    role: /
+    role: " "
   - name: Simeon Burke
-    role: /
+    role: ""
     photo: /assets/images/uploads/simeon.burke.jpg
   - name: Katerina Tsormpatzoglou
     photo: /assets/images/uploads/download.jpeg
-    role: /
+    role: ""
   - name: Russell Manning
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/russell-re-manning-740x740.jpg
+    role: ""
   - name: Rowena Harvey
-    photo: /assets/images/uploads/download.jpeg
-    role: /
+    photo: /assets/images/uploads/rowena-harvey.jpg
+    role: ""
 ---
 Research support teams handle a high volume of complex queries about funding opportunities, often searching across multiple funder websites and documents to find key eligibility details. This project will test AI tools such as Microsoft Copilot, ChatGPT, and Google NotebookLM to see how they can streamline these processes - from summarising funder guidance to checking eligibility and interpreting terms and conditions. The team will develop prompt libraries, usage guides, and practical recommendations to help research administrators work more efficiently and consistently, freeing up time for higher-value support.
