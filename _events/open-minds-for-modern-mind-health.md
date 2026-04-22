@@ -6,7 +6,7 @@ excerpt: The BrainHealthX Hub and the Cambridge Centre for Data-Driven Discovery
   researchers and professionals interested in the role of artificial
   intelligence in improving brain and mental health.
 cover_image: /assets/images/uploads/open-minds-for-mind-health.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   The BrainHealthX Hub and the Cambridge Centre for Data-Driven Discovery are
   hosting an interactive afternoon event in Cambridge for early-career
