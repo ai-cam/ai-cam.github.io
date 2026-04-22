@@ -3,7 +3,7 @@ slug: Exploring Munich-Cambridge Collaboration in Artificial Intelligence
 title: Exploring Munich-Cambridge Collaboration in Artificial Intelligence
 excerpt: "  "
 cover_image: /assets/images/uploads/german-event.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   In partnership with colleagues from the Munich Center for Machine Learning
   (MCML), this event will convene senior researchers from the University of
