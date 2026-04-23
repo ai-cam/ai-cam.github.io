@@ -19,7 +19,7 @@ The second was the need for funding to support experimentation, which could incl
 
 The third was the recognition that the UK and Germany — and the different scientific domains within them — are developing different approaches to AI in science. Participants reflected on how shared research ambition sits alongside these different national and disciplinary contexts, and what that means for the design of joint work.
 
-![](/assets/images/uploads/img_1764.jpg)
+![](/assets/images/uploads/16-april-resize.jpg)
 
 "What struck me most today is just how aligned our two communities are — not just in the technical approaches we're taking but, also, in our shared recognition that AI for science is still a field being shaped," said Professor Daniel Rückert, Alexander von Humboldt Professor for AI in Medicine and Healthcare at the Technical University of Munich. "AI has the potential to fundamentally change the pace and ambition of scientific discovery, but that only happens when you create the conditions for genuine collaboration. Science has always thrived on diversity of thought — the question now is how we turn today's conversations into something lasting."
 
