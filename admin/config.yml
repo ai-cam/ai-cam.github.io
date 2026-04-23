@@ -686,10 +686,14 @@ collections:
       - label: "Privacy Policy Page"
         name: "privacy_policy"
         file: "_pages/privacy-policy.html"
+        preview_path: "/privacy-policy/"
         fields:
           - { label: "Layout", name: "layout", widget: "string", default: "default" }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Permalink", name: "permalink", widget: "string", default: "/privacy-policy/" }
+          - { label: "Page Heading", name: "page_heading", widget: "string", default: "Data Protection and Privacy" }
+          # "body" is reserved in Decap for post-frontmatter file content; use a distinct key so the markdown editor appears.
+          - { label: "Content", name: "policy_body", widget: "markdown" }
 
   # Study Page
   - name: "study"

@@ -2,6 +2,45 @@
 layout: default
 title: Privacy Policy
 permalink: /privacy-policy/
+page_heading: Data Protection and Privacy
+policy_body: |
+  The ML@CL group is a research group within the University of Cambridge. We follow the University of Cambridge's privacy policy as given on this page <a href="https://www.cam.ac.uk/about-this-site/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.cam.ac.uk/about-this-site/privacy-policy</a>.
+  If you sign up for our events or mailings lists, or otherwise engage with us, we will use your data to run the relevant process and for related purposes, including to analyse data about those engaging with us for administrative purposes (e.g. to help plan future activities) and/or for academic research.
+
+  ## Cookies
+
+  This website uses cookies to function properly and to help us understand how visitors use our site. When you first visit, a cookie consent banner will appear allowing you to accept, refuse, or manage your cookie preferences. You can change your preferences at any time using the "Cookie Settings" button.
+
+  #### Essential Cookies
+
+  These cookies are necessary for the website to work correctly. They cannot be disabled.
+
+  **cookie-notice-dismissed** records that you have made a cookie preference choice.  
+  Expires: 1 year after being set
+
+  **cookie-essential** stores your essential cookie preference (always enabled).  
+  Expires: 1 year after being set
+
+  **cookie-analytics** stores your analytics cookie preference (enabled or disabled based on your choice).  
+  Expires: 1 year after being set
+
+  #### Analytics Cookies (Google Analytics)
+
+  These cookies are only set if you give consent via the cookie banner. This website uses Google Analytics (GA4) which provides us with statistical information about how people use our website; for example the pages visited, the length of time spent on each page, whether visitors are new or returning and what site referred the visitor to our website. We use this information to help improve our website. We use Google Consent Mode v2, which means no analytics data is collected until you explicitly grant consent. We do not share visitor information with any other Google services.
+
+  <strong>_ga</strong> is used to determine the current visitor session.  
+  Expires: 2 years after being set
+
+  <strong>_ga_*</strong> is used to persist session state.  
+  Expires: 2 years after being set
+
+  More information about these cookies is available on the <a href="https://developers.google.com/analytics/devguides/collection/gtagjs/cookie-usage" target="_blank" rel="noopener noreferrer">Google Analytics (link is external)</a> website.
+
+  If you wish to delete cookies that have already been set, please visit <a href="http://www.aboutcookies.org/how-to-delete-cookies/" target="_blank" rel="noopener noreferrer">How to delete cookies (link is external)</a> (aboutcookies.org).
+
+  ## Our emails to you
+
+  If you are subscribed to our newsletter we will send you emails occasionally with information which we think will be relevant and interesting for you. You can unsubscribe at any time by following the links in the footers of our emails. We gather statistics about email opens and clicks using industry-standard technologies, including tracking pixels, to help us monitor popular content and improve the content of our emails.
 ---
 
 <!-- Privacy Policy Page -->
@@ -18,46 +57,10 @@ permalink: /privacy-policy/
         <div class="row justify-content-center">
             <div class="col-lg-9">
                 <div class="content">
-                    <h2>Data Protection and Privacy</h2>
+                    <h2>{{ page.page_heading | default: "Data Protection and Privacy" }}</h2>
 
                     <div class="text">
-                        <p>The ML@CL group is a research group within the University of Cambridge. We follow the University of Cambridge's privacy policy as given on this page&nbsp;<a href="https://www.cam.ac.uk/about-this-site/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.cam.ac.uk/about-this-site/privacy-policy</a>.
-                        If you sign up for our events or mailings lists, or otherwise engage with us, we will use your data to run the relevant process and for related purposes, including to analyse data about those engaging with us for administrative purposes (e.g. to help plan future activities) and/or for academic research.</p>
-
-                        <h2>Cookies</h2>
-
-                        <p>This website uses cookies to function properly and to help us understand how visitors use our site. When you first visit, a cookie consent banner will appear allowing you to accept, refuse, or manage your cookie preferences. You can change your preferences at any time using the "Cookie Settings" button.</p>
-
-                        <h4>Essential Cookies</h4>
-
-                        <p>These cookies are necessary for the website to work correctly. They cannot be disabled.</p>
-
-                        <p><strong>cookie-notice-dismissed</strong>&nbsp;records that you have made a cookie preference choice.<br>
-                        Expires: 1 year after being set</p>
-
-                        <p><strong>cookie-essential</strong>&nbsp;stores your essential cookie preference (always enabled).<br>
-                        Expires: 1 year after being set</p>
-
-                        <p><strong>cookie-analytics</strong>&nbsp;stores your analytics cookie preference (enabled or disabled based on your choice).<br>
-                        Expires: 1 year after being set</p>
-
-                        <h4>Analytics Cookies (Google Analytics)</h4>
-
-                        <p>These cookies are only set if you give consent via the cookie banner. This website uses Google Analytics (GA4) which provides us with statistical information about how people use our website; for example the pages visited, the length of time spent on each page, whether visitors are new or returning and what site referred the visitor to our website. We use this information to help improve our website. We use Google Consent Mode v2, which means no analytics data is collected until you explicitly grant consent. We do not share visitor information with any other Google services.</p>
-
-                        <p><strong>_ga</strong>&nbsp;is used to determine the current visitor session.<br>
-                        Expires: 2 years after being set</p>
-
-                        <p><strong>_ga_*</strong>&nbsp;is used to persist session state.<br>
-                        Expires: 2 years after being set</p>
-
-                        <p>More information about these cookies is available on the&nbsp;<a href="https://developers.google.com/analytics/devguides/collection/gtagjs/cookie-usage" target="_blank" rel="noopener noreferrer">Google Analytics (link is external)</a>&nbsp;website.</p>
-
-                        <p>If you wish to delete cookies that have already been set, please visit&nbsp;<a href="http://www.aboutcookies.org/how-to-delete-cookies/" target="_blank" rel="noopener noreferrer">How to delete cookies (link is external)</a>&nbsp;(aboutcookies.org).</p>
-
-                        <h2>Our emails to you</h2>
-
-                        <p>If you are subscribed to our newsletter we will send you emails occasionally with information which we think will be relevant and interesting for you. You can unsubscribe at any time by following the links in the footers of our emails. We gather statistics about email opens and clicks using industry-standard technologies, including tracking pixels, to help us monitor popular content and improve the content of our emails.</p>
+                        {{ page.policy_body | markdownify }}
                     </div>
                 </div>
             </div>
