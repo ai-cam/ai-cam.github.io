@@ -6,11 +6,16 @@ excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   many disciplines.
 cover_image: /assets/images/uploads/jean-luc-benazet-upnzyco94-unsplash.jpg
 event_categories: Upcoming Events
-event_content: After ai@cam’s AI for Ops funding call, we are excited to host
-  our Show & Tell Final Showcase for project awardees to share their
-  achievements over the previous six months. The workshop will be an opportunity
-  for our community to connect with fellow professional services teams and
-  foster collaboration.
+event_content: >-
+  After ai@cam’s AI for Ops funding call, we are excited to host our Show & Tell
+  Final Showcase for project awardees to share their achievements over the
+  previous six months. 
+
+
+  This event marks the culmination of the funding programme, bringing together project teams to present their work and demonstrate how artificial intelligence is being applied to enhance operational effectiveness across the University.
+
+
+  The event offers an opportunity for staff to learn from colleagues who are exploring and implementing AI in their work. Whether you are at an early stage of discovery or already applying AI tools, the showcase provides a valuable forum to exchange ideas, gain practical insights, and share emerging best practices.
 registration_title: Registration
 registration_text: /
 registration_link: https://forms.gle/XhuuEm7hutuASxra8
