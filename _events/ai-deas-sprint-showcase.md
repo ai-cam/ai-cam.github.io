@@ -2,7 +2,7 @@
 slug: AI-deas Sprint Showcase
 title: AI-deas Sprint Showcase
 excerpt: " "
-cover_image: /assets/images/uploads/20241106_staff-members-at-the-old-cavendish_0207.jpg
+cover_image: /assets/images/uploads/20230616_student-at-gonville-and-caius_0234.jpg
 event_categories: Upcoming Events
 event_content: >-
   Join us on Thursday 14 May to celebrate the results of the AI-deas Sprint
