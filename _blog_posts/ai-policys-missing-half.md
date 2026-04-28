@@ -41,17 +41,12 @@ That changes where the value is. It means we should expect the cost and skill th
 
 Although we’ve dragged our feet on this, it’s not too late. This programme has some reasonably clear contours:
 
-•	closing the adoption gap between large firms and SMEs as a competitiveness issue;
-
-•	investing in the organisational and management capacity that determines whether institutions can absorb new tools;
-
-•	supporting the system of open innovation, including open-source software, that gives our businesses access to this technology;
-
-•	using public procurement to create contestable markets and first-customer pathways for UK suppliers;
-
-•	valuing universities for the capability they build;
-
-•	treating public trust, transparency and accountability as adoption infrastructure rather than as ethics-shaped obstacles to it.
+* closing the adoption gap between large firms and SMEs as a competitiveness issue;
+* investing in the organisational and management capacity that determines whether institutions can absorb new tools;
+* supporting the system of open innovation, including open-source software, that gives our businesses access to this technology;
+* using public procurement to create contestable markets and first-customer pathways for UK suppliers;
+* valuing universities for the capability they build;
+* treating public trust, transparency and accountability as adoption infrastructure rather than as ethics-shaped obstacles to it.
 
 We can't outspend the largest economies on compute. But we can outcompete by sharing the lessons of clever deployment with each other. The new capabilities come with new risks. Our focus should be on sharing how AI is deployed safely, productively, and in ways that make our institutions stronger rather than more on companies that don’t align with UK interests.
 
