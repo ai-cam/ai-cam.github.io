@@ -1,6 +1,6 @@
 ---
 slug: AI policy's missing half
-title: AI policy's missing half
+title: AI Policy's Missing Half
 date: 2026-04-28
 cover_image: /assets/images/uploads/zetong-li-cn-cjo_9dq0-unsplash.jpg
 information_content: "*Neil Lawrence is theDeepMind Professor of Machine
@@ -19,27 +19,19 @@ Opening the first evidence session of their new inquiry on AI, business, and the
 
 That’s not to say these interventions aren’t necessary. But they are also obscuring the important question. What would have to be true for AI to make the UK's nurses, schoolteachers, small business owners, logistics managers, accountants, lawyers and others, better at their jobs? My evidence tried to suggest that question is at the heart of what the inquiry is about: how AI is adopted and what that means for the future of work and our shared prosperity.
 
-
-
 **We have supply-side policy. We need a demand-side strategy.**
 
 If you sit through enough policy meetings on AI, a pattern becomes hard to miss. Almost everyone advising government has a supply-side interest. They sell infrastructure, or they build models, or they run platforms. These perspectives do matter and need to be represented. But it does mean that the menu of options ministers see is shaped, structurally, by those suppliers’ interests. The result is a policy agenda that mistakes the input for the output.
 
 We want is broad-based productivity growth, better public services, and a workforce engaged in quality work, with more agency over its own institutional decision making. The inputs we have arranged are foreign capital and foreign software. Neither becomes British productivity on its own. It’s all the work in between: the adoption work, the institutional work, the tool-building work, that is missing.
 
-
-
 I told the Committee that if they were looking for a single intervention, it would not be on the supply side. Major US technology firms have enormous (and growing) lobbying capability. They have deep pockets. We do not need to worry about whether their interests are being represented. We need to worry about whether everyone else's are. What about the mainstream UK businesses that have been left behind by previous waves of digital technology? What about the small and medium enterprises that struggle to invest? What about the councils, hospitals and schools that — left to the market — will be sold platforms rather than supported to build and adapt? Those are the parts of the economy where the productivity prize lives, but they are almost entirely absent from the conversation that ministers are hearing.
-
-
 
 We have policy tools that we can use to respond to this. The Digital Markets, Competition and Consumers Act gives the Competition and Markets Authority powers to keep markets contestable for small and medium suppliers. Unfortunately its role seems to have been misunderstood in some quarters. A pro-innovation agenda is not the same as a pro-big-tech agenda. Pro-innovation, properly understood, means making sure that there is room for the next wave of UK entrants to build, validate and scale, and that requires using the powers we already have to deliver these outcomes.
 
-
-
 **What demand-side work looks like**
 
-A team in Cambridge has been collaborating with South Cambridgeshire District Council on planning. Council officers had already formed AI clubs of their own — they wanted to understand the technology and use it in their work. Researchers from the Universities of Liverpool and Cambridge have been helping them build planning tools that they themselves design, deploy and maintain. The work is doing several things at once: it is solving a real operational problem for the council, it is building durable institutional capability inside the council itself, and it is generating expertise that could catalyse a business serving local authorities across the country.
+A team in Cambridge has been collaborating with [South Cambridgeshire District Council](https://www.ai.cam.ac.uk/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator/) on [planning.](https://www.cambridge.gov.uk/news/2025/07/21/harnessing-the-power-of-ai-to-transform-planning-consultations) Council officers had already formed AI clubs of their own — they wanted to understand the technology and use it in their work. Researchers from the Universities of Liverpool and Cambridge have been helping them build planning tools that they themselves design, deploy and maintain. The work is doing several things at once: it is solving a real operational problem for the council, it is building durable institutional capability inside the council itself, and it is generating expertise that could catalyse a business serving local authorities across the country.
 
 The South Cambridgeshire example is not unusual. It is unusual only in being mentioned. Across the country there are nurses who could help design tools that make nursing better. There are teachers who could help design tools that that support their teaching. There are small business owners who could adopt AI in ways that make their firms more. None of this requires a frontier model. Most of it does not even require very much money. What it requires is that the policy environment notices it exists, takes it seriously, and stops assuming that the only stories worth telling are those with a US tech company’s logo on them.
 
@@ -67,9 +59,9 @@ We can't outspend the largest economies on compute. But we can outcompete by sha
 
 At the heart of this is what I call Campus UK. If you draw a circle around the educational and research expertise that can be reached by train within the United Kingdom — Southampton, Cambridge, Manchester, Oxford, Glasgow, Derby, Sheffield and a great many places in between — the concentration of knowledge inside that circle is unmatched. We are, by virtue of geography, unusually well placed to translate research into adoption.
 
-But we do not currently reward our universities for delivering on that. The incentives push us more towards the cover of Nature than towards the cover of our local paper. But that forgets why many of these Universities were developed. Our civic universities were founded to support advance learning and knowledge for the benefit of their city and region. AI presents an opportunity for them to do just that. We should be proud of the international quality of our research. But we should also be proud of Lincoln’s work supporting farmers through agricultural robotics and Nottingham Trent’s work improving inclusion of students with learning disabilities and autism in education. AI will revolutionise our lives and our economy. Campus UK is the route to putting our citizens and companies at the heart of that revolution.
+But we do not currently reward our universities for delivering on that. The incentives push us more towards the cover of Nature than towards the cover of our local paper. But that forgets why many of these Universities were developed. Our civic universities were founded to support advance learning and knowledge for the benefit of their city and region. AI presents an opportunity for them to do just that. We should be proud of the international quality of our research. But we should also be proud of [Lincoln’s work](https://results2021.ref.ac.uk/impact/e8423765-a6f6-4a40-9b18-96d8216efcc0?page=1) supporting farmers through agricultural robotics and [Nottingham Trent’s work](https://results2021.ref.ac.uk/impact/7a3a2c0c-980e-4d9d-9ed0-eb85d688dee3?page=1) improving inclusion of students with learning disabilities and autism in education. AI will revolutionise our lives and our economy. Campus UK is the route to putting our citizens and companies at the heart of that revolution.
 
-Our own work in Cambridge has these ambitions at its heart. To learn from our colleagues and collaborators and to share those learnings through our policy work on AI sovereignty, our accelerator programmes with local authorities, and our interdisciplinary research incubator. Perhaps none of these are as glamorous as the frontier lab announcements that are the fodder of current govement policy. But they are not meant to be. They are meant to be useful.
+Our [own work in Cambridge](https://ai.cam.ac.uk/) has these ambitions at its heart. To learn from our colleagues and collaborators and to share those learnings through our [policy work on AI sovereignty](https://www.ai.cam.ac.uk/reports/navigating-ai-sovereignty-strategic-choices-for-the-uk-2025/), our [accelerator programmes with local authorities](https://www.ai.cam.ac.uk/calls/local-government-ai-accelerator), and our [interdisciplinary research incubator.](https://www.ai.cam.ac.uk/projects/) Perhaps none of these are as glamorous as the frontier lab announcements that are the fodder of current govement policy. But they are not meant to be. They are meant to be useful.
 
 **Taking the demand side seriously**
 
