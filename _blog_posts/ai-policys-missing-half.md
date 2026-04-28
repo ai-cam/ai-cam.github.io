@@ -3,9 +3,9 @@ slug: AI policy's missing half
 title: AI Policy's Missing Half
 date: 2026-04-28
 cover_image: /assets/images/uploads/zetong-li-cn-cjo_9dq0-unsplash.jpg
-information_content: "*Neil Lawrence is theDeepMind Professor of Machine
+information_content: "*Neil Lawrence is the DeepMind Professor of Machine
   Learning at the University of Cambridge and Chairof ai@cam. He gave oral
-  evidence to the Business and Trade Select Committee on14 April 2026 alongside
+  evidence to the Business and Trade Select Committee on 14th April 2026 alongside
   Dame Wendy Hall. The full transcript is
   available [here.](https://committees.parliament.uk/event/26983/formal-meeting\
   -oral-evidence-session/)*"
@@ -60,6 +60,6 @@ Our [own work in Cambridge](https://ai.cam.ac.uk/) has these ambitions at its he
 
 **Taking the demand side seriously**
 
-This is not to be against the large technology companies. They do serious work, and we want them present in the UK. But let’s not confuse their presence with a strategy. On its own their presence doesn’t doesn’t solve the productivity problem of a British SME. It doesn’t solve the workflow problem of a planning officer. It doesn’t solve the staffing pressure on an NHS ward.
+This is not to be against the large technology companies. They do serious work, and we want them present in the UK. But let’s not confuse their presence with a strategy. On its own their presence doesn’t solve the productivity problem of a British SME. It doesn’t solve the workflow problem of a planning officer. It doesn’t solve the staffing pressure on an NHS ward.
 
 I hope on the back of my evidence that the Committee, and the wider policy conversation, will take the demand side seriously as a matter in its own right. Not as a downstream consequence of supply.  But as the battleground where the economic and public value of AI must be realised. Perhaps that’s a less dramatic framing than a global race, but it is a framing that could work for the UK.
