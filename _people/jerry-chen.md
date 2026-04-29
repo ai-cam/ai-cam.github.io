@@ -2,7 +2,7 @@
 slug: jerry-chen
 title: Jerry Chen
 photo: /assets/images/uploads/jerry-chen-resized.jpg
-job_title: Isaac Newton Trust Academic Career Development Fellow
+job_title: Isaac Newton Trust Academic Career Development Fellow in Land Economy
 department: Department of Land Economy
 institute: ""
 contact: https://liwan.work/jerrychen.html
