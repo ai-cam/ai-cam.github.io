@@ -3,6 +3,7 @@ slug: Bidding Behaviour and Outcomes in Choice-Based Lettings
 title: Bidding Behaviour and Outcomes in Choice-Based Lettings
 excerpt: " "
 date: 2026-04-29
+cover_image: /assets/images/uploads/camden.jpg
 authors:
   - author_people: Jerry Chen
     photo: /assets/images/uploads/camden.jpg
