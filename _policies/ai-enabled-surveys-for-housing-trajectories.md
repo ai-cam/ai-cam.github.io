@@ -3,7 +3,7 @@ slug: AI-Enabled Surveys for Housing Trajectories
 title: AI-Enabled Surveys for Housing Trajectories
 excerpt: " "
 date: 2026-04-29
-cover_image: /assets/images/uploads/resize-ai.jpg
+cover_image: /assets/images/uploads/mattteo-project1.jpg
 authors:
   - author_people: Matteo Zallio
 policy_categories: AI for Public Services
