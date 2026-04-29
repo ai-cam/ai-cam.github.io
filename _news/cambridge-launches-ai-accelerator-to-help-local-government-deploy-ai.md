@@ -6,7 +6,7 @@ excerpt: >
   Communities and Local Government, launches six collaborative research projects
   with local councils - combining academic expertise with frontline experience
   to reshape public service delivery.
-cover_image: /assets/images/uploads/resize-ai.jpg
+cover_image: /assets/images/uploads/resize-ai-news.jpg
 date: 2026-04-29
 ---
 The University of Cambridge's flagship mission on AI, ai@cam, has today announced the six projects selected for its inaugural Local Government AI Accelerator - a programme that establishes a new model for how universities and government can work together to advance AI innovation in public services.
