@@ -4,6 +4,8 @@ title: Deep Learning for Fly-tipped Waste Detection
 excerpt: " "
 date: 2026-04-29
 cover_image: /assets/images/uploads/bin-lorry-2.jpg
+authors:
+  - author_people: Tyler Holderness
 policy_categories: AI for Public Services
 ---
 **Deep Learning for Fly-tipped Waste Detection**
