@@ -3,7 +3,7 @@ slug: Deep Learning for Fly-tipped Waste Detection
 title: Deep Learning for Fly-tipped Waste Detection
 excerpt: " "
 date: 2026-04-29
-cover_image: /assets/images/uploads/fly-tipping.jpg
+cover_image: /assets/images/uploads/bin-lorry-2.jpg
 policy_categories: AI for Public Services
 ---
 **Deep Learning for Fly-tipped Waste Detection**
