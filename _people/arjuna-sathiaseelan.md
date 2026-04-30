@@ -1,5 +1,6 @@
 ---
 slug: Arjuna Sathiaseelan
+title: Arjuna Sathiaseelan
 photo: /assets/images/uploads/arjuna-sathiaseelan.png
 job_title: Visiting Fellow and Technical Lead, Frugal AI Hub, Cambridge Judge
   Business School
