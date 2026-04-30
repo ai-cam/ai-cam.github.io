@@ -1,7 +1,7 @@
 ---
 slug: ronita-bardhan
 title: Ronita Bardhan
-photo: /assets/images/uploads/dr-ronita-bardhan.png
+photo: /assets/images/uploads/ronita.jpg
 job_title: Professor of Sustainable Built Environment & Health
 department: Department of Architecture
 email: rb867@cam.ac.uk
