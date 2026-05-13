@@ -1,6 +1,6 @@
 ---
 slug: ai-for-operations-emerging-insights
-title: "Distributing innovation: Insights from ai@cam's AI for Ops programme"
+title: "Distributed innovation: Insights from ai@cam's AI for Ops programme"
 date: 2026-05-13
 cover_image: /assets/images/uploads/20250514_two-university-staff-members-talking_pic0016.jpg
 related_title: AI for University Operations
