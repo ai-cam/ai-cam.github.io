@@ -5,7 +5,7 @@ excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
   many disciplines.
 cover_image: /assets/images/uploads/jean-luc-benazet-upnzyco94-unsplash.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   After ai@cam’s AI for Ops funding call, we are excited to host our Show & Tell
   Final Showcase for project awardees to share their achievements over the
