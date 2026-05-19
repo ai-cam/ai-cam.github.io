@@ -3257,6 +3257,18 @@ form:invalid button[type=submit] {
 .policy-page-list .col-lg-4 {
   margin-bottom: 24px;
 }
+/* Projects-style grid override: wrapper inherits `.projects-page-content .item`
+   styles (image on top, title at bottom) but we neutralize the wrapper's own
+   section paddings/headings since this is rendered inside `.policy-page-list`. */
+.policy-page-list .projects-page-content.policy-projects-grid {
+  padding: 0;
+}
+.policy-page-list .projects-page-content.policy-projects-grid h2 {
+  display: none;
+}
+.policy-page-list .projects-page-content.policy-projects-grid .item {
+  padding: 0;
+}
 .policy-page-list .item {
   display: flex;
   flex-direction: column;
