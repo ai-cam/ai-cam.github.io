@@ -43,3 +43,5 @@ For the study, AI was also asked to provide student feedback, and it churned out
 However, when AI responses were kept to a word count comparable to those from humans, focus groups of staff and students found it difficult to distinguish between human and AI feedback. Once the identity of the writer was revealed, not everyone appreciated AI-generated insights.
 
 University staff and students who took part in the study told researchers that, while current assessment practices are not perfect, being graded and receiving feedback from humans is fundamental to the “social contract” between academics and students.
+
+[Continue to read the full article](https://www.cam.ac.uk/stories/ai-university-essay-grading)
