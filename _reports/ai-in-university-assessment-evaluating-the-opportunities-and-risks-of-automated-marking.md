@@ -5,7 +5,7 @@ title: "AI in University Assessment: Evaluating the Opportunities and Risks of
   Automated Marking"
 excerpt: "  "
 report_date: 2026-05-29
-cover_image: /assets/images/uploads/opraise-project.png
+cover_image: /assets/images/uploads/opraise-project-1-.png
 abstract: "\n"
 links:
   - link: /assets/images/uploads/opraise-report-2026.pdf
