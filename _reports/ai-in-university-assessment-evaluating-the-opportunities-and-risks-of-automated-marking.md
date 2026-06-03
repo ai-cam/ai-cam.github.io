@@ -3,7 +3,9 @@ slug: "AI in University Assessment: Evaluating the Opportunities and Risks of
   Automated Marking"
 title: "AI in University Assessment: Evaluating the Opportunities and Risks of
   Automated Marking"
-excerpt: "  "
+excerpt: "The ai@cam OpRaise project tested whether AI can reliably mark
+  students' written exam responses, comparing AI scores to human assessor marks
+  across three UK universities. "
 report_date: 2026-05-29
 cover_image: /assets/images/uploads/opraise-project-1-.png
 abstract: "\n"
