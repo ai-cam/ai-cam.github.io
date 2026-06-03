@@ -1,32 +1,32 @@
 ---
-slug: supporting-evaluation-through-ai-5
-title: Supporting evaluation through AI
+slug: Opportunities and potential risks of AI in supporting evaluation (OpRaise)
+title: Opportunities and potential risks of AI in supporting evaluation (OpRaise)
 project_date: ""
-description: As AI continues to advance, concerns are growing about its impact on
-  traditional grading systems across the HE sector. AI models are now capable of writing
-  essays and providing detailed feedback that is improving rapidly, raising questions
-  about how universities should adapt to this technology.
-cover_image: "/assets/images/uploads/sarah-noltner-4u3d6u_p-fe-unsplash.jpg"
+description: As AI continues to advance, concerns are growing about its impact
+  on traditional grading systems across the HE sector. AI models are now capable
+  of writing essays and providing detailed feedback that is improving rapidly,
+  raising questions about how universities should adapt to this technology.
+cover_image: /assets/images/uploads/sarah-noltner-4u3d6u_p-fe-unsplash.jpg
 project_categories: Challenges
 authors:
-- name: Deborah Talmi
-  photo: "/assets/images/uploads/deborah-talmi.jpg"
-  role: Associate Professor
-- name: Giulio Corsi
-  role: Research Associate
-  photo: "/assets/images/uploads/corsi.jpeg"
-- name: Alexandru Marcoci
-  role: Research Associate in AI risk and Foresight
-  photo: "/assets/images/uploads/marcoci_alexandru.jpg"
-- name: Isla Faye
-  photo: "/assets/images/uploads/isla-fay.jpg"
-  role: Senior User Researcher
-- name: Inbar Brobrovsky
-  role: OpRaise Project Coordinator
-  photo: "/assets/images/uploads/inbar-bobrovsky.jpg"
-- name: Roni Tibon
-  photo: "/assets/images/uploads/roni-tibon-2.jpg"
-  role: Assistant Professor
+  - name: Deborah Talmi
+    photo: /assets/images/uploads/deborah-talmi.jpg
+    role: Associate Professor
+  - name: Giulio Corsi
+    role: Research Associate
+    photo: /assets/images/uploads/corsi.jpeg
+  - name: Alexandru Marcoci
+    role: Research Associate in AI risk and Foresight
+    photo: /assets/images/uploads/marcoci_alexandru.jpg
+  - name: Isla Faye
+    photo: /assets/images/uploads/isla-fay.jpg
+    role: Senior User Researcher
+  - name: Inbar Brobrovsky
+    role: OpRaise Project Coordinator
+    photo: /assets/images/uploads/inbar-bobrovsky.jpg
+  - name: Roni Tibon
+    photo: /assets/images/uploads/roni-tibon-2.jpg
+    role: Assistant Professor
 ---
 As AI continues to advance, concerns are growing about its impact on traditional grading systems across the HE sector. AI models are now capable of writing essays and providing detailed feedback that is improving rapidly, raising questions about how universities should adapt to this technology.
 
