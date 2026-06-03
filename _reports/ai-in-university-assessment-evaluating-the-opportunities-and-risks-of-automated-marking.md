@@ -7,6 +7,9 @@ excerpt: "  "
 report_date: 2026-05-29
 cover_image: /assets/images/uploads/opraise-project.png
 abstract: "\n"
+links:
+  - link: /assets/images/uploads/opraise-report-2026.pdf
+    link_text: Download full report
 citation_fields:
   publisher: University of Cambridge
 ---
