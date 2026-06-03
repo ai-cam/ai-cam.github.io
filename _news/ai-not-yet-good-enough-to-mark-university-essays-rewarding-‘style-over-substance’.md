@@ -36,7 +36,7 @@ However, the team cautions that AI alone is far too shallow and inconsistent to 
 
 The report, ‘AI in University Assessment: Evaluating the Opportunities and Risks of Automated Marking’, is supported by ai@cam, Cambridge University's flagship mission to develop AI for the benefit of society and is launched at an event with the British Psychological Society.
 
-![](/assets/images/uploads/opraise_event_image2.jpg)
+![](/assets/images/uploads/opraise_event_image3.jpg)
 
 For the study, AI was also asked to provide student feedback, and it churned out reflections between three and eight times longer than those provided by the original assessors.
 
