@@ -14,6 +14,8 @@ abstract: "The ai@cam OpRaise project tested whether AI can reliably mark
 links:
   - link: /assets/images/uploads/opraise-report-2026.pdf
     link_text: Download full report
+authors:
+  - author_people: Deborah Talmi
 citation_fields:
   publisher: University of Cambridge
 ---
