@@ -16,17 +16,13 @@ A University of Cambridge-led team of psychologists and AI experts tested three 
 
 While accuracy of AI in grading the essays, from coursework to exam answers, was “not uniformly high”, say researchers, it did manage to match the broad grading bands – a first, 2:1, 2:2 and so on – given out by human examiners between 35-65% of the time.
 
-However, major stumbling blocks for AI include routinely undervaluing work awarded top marks by humans, or overvaluing essays ranked among the lowest.
+However, major stumbling blocks for AI include routinely undervaluing work awarded top marks by humans, or overvaluing essays ranked among the lowest. Unlike human examiners, all the AI systems were “oversensitive to linguistic features”: giving out higher marks based on essay length, vocabulary range and sentence complexity, which are often unrelated to academic standards.
 
-Unlike human examiners, all the AI systems were “oversensitive to linguistic features”: giving out higher marks based on essay length, vocabulary range and sentence complexity, which are often unrelated to academic standards.
-
-In the latest report, researchers suggest that AI could be valuable for aspects of student assessment such as error detection and consistency checks – a “second pair of eyes” – as well as triaging feedback for students.
+[In the latest report](https://www.ai.cam.ac.uk/assets/images/uploads/opraise-report-2026.pdf), researchers suggest that AI could be valuable for aspects of student assessment such as error detection and consistency checks – a “second pair of eyes” – as well as triaging feedback for students.
 
 For example, large discrepancies between AI and human marks could help flag assignments requiring further review by a human assessor.
 
-However, the team cautions that AI alone is far too shallow and inconsistent to grade undergraduate work, and a human should always determine the final mark.
-
-“Universities are under huge pressure to reduce staff workload and improve efficiency, all while meeting rising student expectations, and some may start to lean on AI for assessment,” said Dr Deborah Talmi, the Cambridge psychologist who leads the OpRaise project behind the new report.
+However, the team cautions that AI alone is far too shallow and inconsistent to grade undergraduate work, and a human should always determine the final mark. “Universities are under huge pressure to reduce staff workload and improve efficiency, all while meeting rising student expectations, and some may start to lean on AI for assessment,” said Dr Deborah Talmi, the Cambridge psychologist who leads the [OpRaise project](https://www.ai.cam.ac.uk/projects/opportunities-and-potential-risks-of-ai-in-supporting-evaluation-opraise/) behind the new report.
 
 “AI could perhaps automate some of the labour-intensive aspects of marking, freeing academics up for direct student engagement.”
 
@@ -34,9 +30,9 @@ However, the team cautions that AI alone is far too shallow and inconsistent to 
 
 “Assessment is not just a system for distributing marks. It is part of how educational meaning is made, so students feel seen, standards are upheld, and trust is maintained. Use of AI in assessment poses a risk to these values.”
 
-The report, ‘AI in University Assessment: Evaluating the Opportunities and Risks of Automated Marking’, is supported by ai@cam, Cambridge University's flagship mission to develop AI for the benefit of society and is launched at an event with the British Psychological Society.
+The report, ‘[AI in University Assessment: Evaluating the Opportunities and Risks of Automated Marking](https://www.ai.cam.ac.uk/reports/ai-in-university-assessment-evaluating-the-opportunities-and-risks-of-automated-marking/)’, is supported by ai@cam and was launched at an event with the British Psychological Society.
 
-![](/assets/images/uploads/opraise_event_image3.jpg)
+![](/assets/images/uploads/opraise_event_image3.jpg "Artificial Intelligence in Assessment of BPS-Accredited Psychology Degrees Launch Event – May 22nd, 2026")
 
 For the study, AI was also asked to provide student feedback, and it churned out reflections between three and eight times longer than those provided by the original assessors.
 
