@@ -26,3 +26,13 @@ Generative Artificial Intelligence (AI) has disrupted the entire education secto
 * AI marks were oversensitive to surface features like essay length and vocabulary range, rather than the quality of academic reasoning that human markers prioritise.
 * Performance varied significantly across institutions, meaning results from one context cannot be used as evidence of readiness elsewhere.
 * Students and staff view human contact and judgement as fundamental to the social contract of higher education — many students said they would feel "cheated" if AI marked their work.
+
+
+
+**Recommendations**
+
+* Proceed with caution — current AI systems are not accurate or valid enough for formal assessment use.
+* Evaluate AI locally before any deployment, using own materials, cohort, and marking practices.
+* Preserve human authority over final marks in all scenarios — AI should support human judgement, not replace it.
+* Engage staff and students openly before any adoption, building trust through transparency and concrete discussion of specific use cases.
+* Monitor continuously — AI model performance is unstable over time and institution-specific, making ongoing review essential.
