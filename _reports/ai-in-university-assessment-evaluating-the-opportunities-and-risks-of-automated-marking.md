@@ -16,6 +16,10 @@ links:
     link_text: Download full report
 authors:
   - author_people: Deborah Talmi
+  - author_people: Yael Benn
+  - author_people: Roni Tibon
+  - author_people: Giulio Corsi
+  - author_people: Alexandru Marcoci
 citation_fields:
   publisher: University of Cambridge
 ---
