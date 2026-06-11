@@ -3,7 +3,7 @@ slug: How AI is transforming cultural heritage research
 title: How AI is transforming cultural heritage research
 excerpt: " "
 cover_image: /assets/images/uploads/from_archive_to_algorithm_how_ai_is_transforming_cultural_heritage_research_3.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   From archive to algorithm, join us for this unique insight on how AI is
   transforming cultural heritage research here at Cambridge.
