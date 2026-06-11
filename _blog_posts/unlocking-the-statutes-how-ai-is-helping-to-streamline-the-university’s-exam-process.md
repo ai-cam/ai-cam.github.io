@@ -39,9 +39,7 @@ When Jenny was matched with a machine learning mentor through the programme, she
 
 Using AI for Ops funding, she recruited a recent graduate to develop the system in Python. Alongside the code, a step-by-step “Haynes manual” is being produced, enabling colleagues with a working knowledge of the exam-standing process to update and maintain the system as regulations evolve. This approach supports long-term sustainability.
 
-At the same time, the team has been testing a range of LLMs, benchmarking their outputs against previously produced manual reports to assess accuracy and reliability.
-
-“One of the strengths of this project is that we can test it rigorously,” says Jenny. “We have years of historical data, where exam combinations have already been checked manually. That gives us a strong basis for validating the system.”
+At the same time, the team has been testing a range of LLMs, benchmarking their outputs against previously produced manual reports to assess accuracy and reliability. “One of the strengths of this project is that we can test it rigorously,” says Jenny. “We have years of historical data, where exam combinations have already been checked manually. That gives us a strong basis for validating the system.”
 
 If successful, the ambition is to extend the solution across all 33 undergraduate degree programmes, with the aim of having the AI-supported process in place as soon as practicable—ideally for the next academic year. In the longer term, similar approaches could be applied to postgraduate exams and other areas of the University that rely on complex regulatory frameworks.
 
