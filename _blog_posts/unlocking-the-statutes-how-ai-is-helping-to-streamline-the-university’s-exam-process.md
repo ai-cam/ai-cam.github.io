@@ -5,7 +5,16 @@ title: "Unlocking the Statutes: How AI is helping to streamline the University�
   exam process"
 date: 2026-06-11
 cover_image: /assets/images/uploads/library-resized.jpg
-information_content: "***A﻿s told to Vicky Anning***"
+information_content: >-
+  **Further information**\
+
+  \
+
+  Find out more about all the [AI for Ops projects here. ](https://www.ai.cam.ac.uk/ai-in-the-university/)\
+
+  \
+
+  ***A﻿s told to Vicky Anning***
 related_title: "  "
 ---
 When Jenny Blakesley heard about the [AI for Ops programme](https://www.ai.cam.ac.uk/news/eight-teams-awarded-funding-to-pioneer-ai-in-university-operations/), it prompted a new way of thinking about a long-standing operational challenge. As one of the Deputy Heads of Cambridge University’s Education Services, she was aware of the increasing complexity facing colleagues in the Exams team each year.
