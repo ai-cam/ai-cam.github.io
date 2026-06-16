@@ -192,7 +192,7 @@ faqs:
       1. **Information session:** 09:30 - 10:30, Wednesday 22 July. [Sign up
       here. ](https://cam-ac-uk.zoom.us/meeting/register/njLWUtamS_eTER18us2p0A)
 
-      2. **Application Deadline:** 09:00, Mobday 14 September
+      2. **Application Deadline:** 09:00, Monday 14 September
 
       3. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day. **The pitch day is: 12:30 - 17:00, Monday 5 October.** The venue will be confirmed shortly.
   - question: How can I apply?
