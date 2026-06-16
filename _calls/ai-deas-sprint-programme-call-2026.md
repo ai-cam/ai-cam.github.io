@@ -66,6 +66,7 @@ call_content: >-
 
 
   **Demonstration (month 6):** Showcase event presenting prototypes to potential funders and implementation partners.
+apply_links: []
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the AI-deas Sprint Programme?
@@ -167,4 +168,25 @@ faqs:
       * AI for science
 
       * Wild card (a compelling, problem-first project in any other domain)
+  - question: "Can I submit more than one application? "
+    answer: Researchers may submit more than one application. We’d encourage you to
+      think about strength of application over volume.
+  - question: What dates do I need to save in my diary?
+    answer: |-
+      **1. Information session: 09:30 - 10:30, 22 July**
+
+      **2. Deadline day: 09:00, 14 September**
+
+      **3. Pitch day: 12:30 - 17:00, 5 October**
+  - question: How can I apply?
+    answer: >-
+      Please fill in the [application form
+      here](https://forms.gle/piYM8vheD7bwGenh7) by 09:00, Monday 14 September
+      2026. \
+
+      \
+
+      You will need to be logged in to your @cam.ac.uk account to access the form.
+  - question: I have more questions, who can I contact?
+    answer: "Please contact ai@cam via: contact@ai.cam.ac.uk"
 ---
