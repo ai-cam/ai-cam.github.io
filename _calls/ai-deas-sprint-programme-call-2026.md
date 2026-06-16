@@ -189,7 +189,8 @@ faqs:
       think about strength of application over volume.
   - question: What dates do I need to save in my diary?
     answer: >-
-      1. **Information session:** 09:30 - 10:30, Wednesday 22 July
+      1. **Information session:** 09:30 - 10:30, Wednesday 22 July. [Sign up
+      here. ](https://cam-ac-uk.zoom.us/meeting/register/njLWUtamS_eTER18us2p0A)
 
       2. **Application Deadline:** 09:00, Mobday 14 September
 
