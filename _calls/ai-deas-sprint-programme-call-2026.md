@@ -45,6 +45,18 @@ call_content: >-
 
 
   ✨  **Wild card:** Have a compelling problem that doesn’t fit neatly into the categories above? We welcome ambitious, problem-first projects in any domain where AI can deliver real societal value.
+
+
+  **What a strong project looks like**
+
+
+  The AI-deas Sprint Programme will provide teams with up to £25,000 of funding to rapidly transform their innovative project ideas into a prototype in 6 months. Teams will be given access to technical support from machine learning engineers, in addition to follow-on opportunities to engage and develop external partnerships and validate their prototypes with end-user communities.
+
+
+  The best Sprint projects start from a concrete problem identified by the people closest to it, and a clear sense of who would use the result. We’re looking for teams who understand the problem they’re tackling, who have established connections or pathways to engage partners or end-user communities to act on a solution, and who have thought realistically about the data, workflows, and relationships it will take to get a prototype working in six months. Projects that arrive with those foundations in place are the ones that go on to attract partnerships and follow-on funding.
+
+
+  Each sprint team will follow a 6-month programme from November 2026 to April 2027:
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the AI-deas Sprint Programme?
