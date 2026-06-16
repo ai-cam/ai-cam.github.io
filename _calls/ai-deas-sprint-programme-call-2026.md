@@ -195,7 +195,14 @@ faqs:
 
       3. Pitch day: 12:30 - 17:00, 5 October
   - question: How can I apply?
-    answer: "Please contact ai@cam via: **contact@ai.cam.ac.uk**"
+    answer: >-
+      Please fill in the application form here
+      <https://forms.gle/piYM8vheD7bwGenh7> by 09:00, Monday 14 September 2026.
+      \
+
+      \
+
+      **You will need to be logged in to your @cam.ac.uk account to access the form.**
   - question: I have more questions, who can I contact?
     answer: "Please contact ai@cam via: contact@ai.cam.ac.uk"
 ---
