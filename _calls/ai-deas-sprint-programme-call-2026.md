@@ -196,8 +196,8 @@ faqs:
       3. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day. **The pitch day is: 12:30 - 17:00, Monday 5 October.** The venue will be confirmed shortly.
   - question: How can I apply?
     answer: >-
-      Please fill in the application form here
-      <https://forms.gle/piYM8vheD7bwGenh7> by 09:00, Monday 14 September 2026.
+      Please complete the [application form here
+      ](https://forms.gle/piYM8vheD7bwGenh7)by 09:00, Monday 14 September 2026.
       \
 
       \
