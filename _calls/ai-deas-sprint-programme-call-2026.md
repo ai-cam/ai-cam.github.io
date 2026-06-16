@@ -133,7 +133,7 @@ faqs:
   - question: What if I can’t make the pitch day?
     answer: If your team is shortlisted but you or a member of your team aren’t able
       to be present in person on the pitch day, please get in touch with
-      contact@ai.cam.ac.uk
+      **contact@ai.cam.ac.uk**
   - question: How much funding is available per AI-deas sprint project and what will
       the funding cover?
     answer: Up to £25,000 is available for a duration of 6 months. The funding can
