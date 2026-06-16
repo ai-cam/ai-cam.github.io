@@ -35,38 +35,7 @@ call_content: >-
   * AI for connected cities: Turn urban research insights into decision-support tools that local authorities can pilot and implement.
 
 
-
-
-
-
-  * AI for mental health and brain research: Turn diagnostic algorithms into tools clinicians can actually use, or transform research insights into interventions that reach patients.
-
-  * AI for climate and nature: Convert environmental monitoring research into decision-support systems that help organisations take climate action now.
-
-  * Women’s health and fertility: Transform research breakthroughs into accessible diagnostic tools or treatment platforms that address the gender health gap.
-
-  * AI for cultural heritage: Turn digitisation and analysis research into public-facing tools that make cultural collections more accessible and engaging.
-
-  * AI in education and assessment: Convert education research into practical tools that can be tested in real educational settings.
-
-  * Language equity and inclusion: Transform communication research into assistive technologies that support people with language barriers.
-
-  * AI for connected cities: Turn urban research insights into decision-support tools that local authorities can pilot and implement.
-
-
   The AI-deas sprint programme will provide teams with up to £25,000 of funding to rapidly transform their innovative project ideas into a prototype in 6 months. Teams will be given access to technical support from machine learning engineers, in addition to follow-on opportunities to engage and develop external partnerships and validate their prototypes with end-user communities.
-
-
-  Each sprint team will follow a 6-month programme from November 2025 to April 2026:
-
-
-  * Challenge definition and team formation (month 1): Interdisciplinary teams form around concrete deliverables and begin rapid development
-
-  * Mid-sprint check in (month 3): Teams to provide a project update in a networking event with potential partners.
-
-  * Demonstration (month 6): Demo Day showcasing prototypes to potential funders and implementation partners.
-
-
 
 
   Each sprint team will follow a 6-month programme from November 2025 to April 2026:
