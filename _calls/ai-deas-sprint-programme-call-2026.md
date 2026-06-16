@@ -129,7 +129,7 @@ faqs:
 
       \
 
-      Shortlisted teams will then be invited to deliver an in-person 10-minute pitch presentation on their project idea in front of a panel of entrepreneurs, academics and industry experts on our pitch day (5 October, 12:30 - 17:30**)**. We ask applicants to please hold this date in their diary, as we have limited scope for flexibility.
+      Shortlisted teams will then be invited to deliver an in-person 10-minute pitch presentation on their project idea in front of a panel of entrepreneurs, academics and industry experts on our pitch day **(5 October, 12:30 - 17:30)**. We ask applicants to please hold this date in their diary, as we have limited scope for flexibility.
   - question: What if I can’t make the pitch day?
     answer: If your team is shortlisted but you or a member of your team aren’t able
       to be present in person on the pitch day, please get in touch with
