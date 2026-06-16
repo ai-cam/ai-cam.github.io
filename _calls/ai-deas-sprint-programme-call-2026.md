@@ -108,4 +108,27 @@ faqs:
       * Agreement to collaborate with ai@cam on communications activities related to the project
   - question: "When is the application deadline? "
     answer: 09:00 (UK) on Monday 14 September.
+  - question: How will the application be evaluated?
+    answer: >-
+      This year the programme runs in two stages. All applications will first be
+      assessed on the written proposal by a shortlisting panel, evaluated on
+      innovation, real-world impact potential, and achievable delivery within
+      the allocated time frame.\
+
+      \
+
+      Shortlisted teams will then be invited to deliver an in-person 10-minute pitch presentation on their project idea in front of a panel of entrepreneurs, academics and industry experts on our pitch day (5 October, 12:30 - 17:30**)**. We ask applicants to please hold this date in their diary, as we have limited scope for flexibility.
+  - question: What if I can’t make the pitch day?
+    answer: If your team is shortlisted but you or a member of your team aren’t able
+      to be present in person on the pitch day, please get in touch with
+      contact@ai.cam.ac.uk
+  - question: How much funding is available per AI-deas sprint project and what will
+      the funding cover?
+    answer: Up to £25,000 is available for a duration of 6 months. The funding can
+      cover research related and staff costs. Projects should be costed in line
+      with University and Departmental policies.
+  - question: What support will AI-deas sprint projects receive?
+    answer: AI-deas sprint projects will have access to technical support from
+      machine learning engineers while they set up their projects and
+      opportunities to shape a support programme for the cohort.
 ---
