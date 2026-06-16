@@ -77,7 +77,9 @@ apply_text: >-
 
 
   3. This year the programme is run in two stages. All applications will first be assessed by a shortlisting panel against the written proposal. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day, **5 October, 12:30 - 17:30. The venue will be confirmed shortly.**
-apply_links: []
+apply_links:
+  - link: "https://forms.gle/piYM8vheD7bwGenh7 "
+    link_text: Apply now
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the AI-deas Sprint Programme?
