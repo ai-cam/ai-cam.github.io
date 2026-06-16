@@ -188,12 +188,12 @@ faqs:
     answer: Researchers may submit more than one application. We’d encourage you to
       think about strength of application over volume.
   - question: What dates do I need to save in my diary?
-    answer: |-
-      1. Information session: 09:30 - 10:30, 22 July
+    answer: >-
+      1. **Information session:** 09:30 - 10:30, Wednesday 22 July
 
-      2. Deadline day: 09:00, 14 September
+      2. **Application Deadline:** 09:00, Mobday 14 September
 
-      3. Pitch day: 12:30 - 17:00, 5 October
+      3. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day. **The pitch day is: 12:30 - 17:00, Monday 5 October.** The venue will be confirmed shortly.
   - question: How can I apply?
     answer: >-
       Please fill in the application form here
