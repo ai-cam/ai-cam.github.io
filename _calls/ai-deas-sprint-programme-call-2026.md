@@ -15,6 +15,36 @@ call_content: >-
 
 
   Our first cohort — eight interdisciplinary teams — built prototypes addressing challenges from adenomyosis diagnosis and brain tumour surgery to crop disease forecasting and housing planning. Building on that, ai@cam is running a second 6-month accelerator to turn pioneering research ideas into minimum viable products that make a positive impact on society.
+
+
+  We’re looking for ambitious projects that can create working prototypes in these high-impact domains:
+
+
+  🧠  **AI for mental health and brain research:** Turn diagnostic algorithms into tools clinicians can actually use, or transform research insights into interventions that reach patients.
+
+
+  🌍  **AI for climate and nature:** Convert environmental monitoring research into decision-support systems that help organisations take climate action now.
+
+
+  👩‍⚕️  **Women’s health:** Transform research breakthroughs into accessible diagnostic tools or treatment platforms that address the gender health gap.
+
+
+  🏛️  **AI for cultural heritage:** Turn digitisation and analysis research into public-facing tools that make cultural collections more accessible and engaging.
+
+
+  📚  **AI in education and assessment:** Convert education research into practical tools that can be tested in real educational settings.
+
+
+  🗣️  **Language equity and inclusion:** Transform communication research into assistive technologies that support people with language barriers.
+
+
+  🏙️  **AI for connected cities:** Turn urban research insights into decision-support tools that local authorities can pilot and implement.
+
+
+  🔬  **AI for science:** Build tools that accelerate the scientific process itself, from autonomous discovery and reproducibility to making research evidence accessible and trustworthy.
+
+
+  ✨  **Wild card:** Have a compelling problem that doesn’t fit neatly into the categories above? We welcome ambitious, problem-first projects in any domain where AI can deliver real societal value.
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the AI-deas Sprint Programme?
