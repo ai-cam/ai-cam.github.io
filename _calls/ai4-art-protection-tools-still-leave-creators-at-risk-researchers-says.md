@@ -65,6 +65,18 @@ call_content: >-
   * Mid-sprint check in (month 3): Teams to provide a project update in a networking event with potential partners.
 
   * Demonstration (month 6): Demo Day showcasing prototypes to potential funders and implementation partners.
+
+
+
+
+  Each sprint team will follow a 6-month programme from November 2025 to April 2026:
+
+
+  * Challenge definition and team formation (month 1): Interdisciplinary teams form around concrete deliverables and begin rapid development
+
+  * Mid-sprint check in (month 3): Teams to provide a project update in a networking event with potential partners.
+
+  * Demonstration (month 6): Demo Day showcasing prototypes to potential funders and implementation partners.
 apply_title: How to get started
 apply_text: >-
   1. Join us for our information session from 14:30 - 15:30, Friday 3 October to
