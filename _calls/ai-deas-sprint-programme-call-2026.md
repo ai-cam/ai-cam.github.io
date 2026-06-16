@@ -66,6 +66,17 @@ call_content: >-
 
 
   **Demonstration (month 6):** Showcase event presenting prototypes to potential funders and implementation partners.
+apply_title: How to get started
+apply_text: >-
+  1. Join us for our information session 22 July, 09:30 - 10:30 to find out more
+  about the programme sprint. Make sure to register for the information session
+  **\[link TBC]**.
+
+
+  2. Apply to the AI-deas Sprint Programme call here: <https://forms.gle/piYM8vheD7bwGenh7> The deadline for applications is **09:00, 14 September 2026.**
+
+
+  3. This year the programme is run in two stages. All applications will first be assessed by a shortlisting panel against the written proposal. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day, **5 October, 12:30 - 17:30 \[LOCATION]**.
 apply_links: []
 faq_title: Frequently Asked Questions
 faqs:
@@ -172,12 +183,14 @@ faqs:
     answer: Researchers may submit more than one application. We’d encourage you to
       think about strength of application over volume.
   - question: What dates do I need to save in my diary?
-    answer: |-
-      **1. Information session: 09:30 - 10:30, 22 July**
+    answer: >-
+      **1. Information session: 09:30 - 10:30, Wednesday 22 July**
 
-      **2. Deadline day: 09:00, 14 September**
 
-      **3. Pitch day: 12:30 - 17:00, 5 October**
+      **2. Application deadline: 09:00, Monday 14 September**
+
+
+      **3.** Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day. **The Pitch day is 12:30 - 17:00, Monday 5 October.**
   - question: How can I apply?
     answer: >-
       Please fill in the [application form
