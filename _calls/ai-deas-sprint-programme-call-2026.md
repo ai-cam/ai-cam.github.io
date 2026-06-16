@@ -179,6 +179,10 @@ faqs:
       * AI for science
 
       * Wild card (a compelling, problem-first project in any other domain)
+  - question: What happens after the funding period?
+    answer: Successful AI-deas sprints will be given opportunities to work with
+      external stakeholders to further develop their prototypes, creating
+      pathways to follow-on funding and demonstrable societal benefits.
   - question: "Can I submit more than one application? "
     answer: Researchers may submit more than one application. We’d encourage you to
       think about strength of application over volume.
@@ -202,8 +206,4 @@ faqs:
       You will need to be logged in to your @cam.ac.uk account to access the form.
   - question: I have more questions, who can I contact?
     answer: "Please contact ai@cam via: contact@ai.cam.ac.uk"
-  - question: What happens after the funding period?
-    answer: Successful AI-deas sprints will be given opportunities to work with
-      external stakeholders to further develop their prototypes, creating
-      pathways to follow-on funding and demonstrable societal benefits.
 ---
