@@ -75,7 +75,9 @@ apply_text: >-
 
   2. Apply to the [AI-deas Sprint Programme call here](https://forms.gle/piYM8vheD7bwGenh7). The deadline for applications is **09:00, Monday 14 September 2026.**
 
-  3. This year the programme is run in two stages. All applications will first be assessed by a shortlisting panel against the written proposal. Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day, **5 October, 12:30 - 17:30. The venue will be confirmed shortly.**
+  3. This year the programme is run in two stages. All applications will first be assessed by a shortlisting panel against the written proposal. 
+
+     Shortlisted teams will then be invited to deliver a short in-person pitch to our selection panel on our pitch day, **5 October, 12:30 - 17:30. The venue will be confirmed shortly.**
 apply_links:
   - link: "https://forms.gle/piYM8vheD7bwGenh7 "
     link_text: Apply now
