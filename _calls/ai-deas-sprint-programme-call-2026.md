@@ -204,5 +204,5 @@ faqs:
 
       **You will need to be logged in to your @cam.ac.uk account to access the form.**
   - question: I have more questions, who can I contact?
-    answer: "Please contact ai@cam via: contact@ai.cam.ac.uk"
+    answer: "Please contact ai@cam via: **contact@ai.cam.ac.uk**"
 ---
