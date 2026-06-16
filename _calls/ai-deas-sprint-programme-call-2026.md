@@ -131,4 +131,40 @@ faqs:
     answer: AI-deas sprint projects will have access to technical support from
       machine learning engineers while they set up their projects and
       opportunities to shape a support programme for the cohort.
+  - question: When will I find out if my AI-deas sprint project has been awarded funding?
+    answer: Teams that have been selected for funding will be announced in late
+      October, following the pitch day. Projects will be set up over the
+      following two weeks, with sprints beginning at the start of November.
+  - question: Do we need to submit a costings breakdown?
+    answer: Yes, please provide a brief summary in the application form of what you
+      would like to use the funding for. Projects need to be completed within a
+      6-month time period.
+  - question: Are there any restrictions on the team makeup, for example are there a
+      maximum number of researchers that can be in a team, can it be made up of
+      researchers from multiple departments?
+    answer: We encourage you to create cross-disciplinary teams; they can be made up
+      of researchers from different departments.
+  - question: What topics are covered under the scope of the funding?
+    answer: >-
+      AI-deas sprint projects should fall under one of the following challenge
+      areas:
+
+
+      * AI for mental health and brain research
+
+      * AI for climate and nature
+
+      * Women’s health and fertility
+
+      * AI for cultural heritage
+
+      * AI in education and assessment
+
+      * Language equity and inclusion
+
+      * AI for connected cities
+
+      * AI for science
+
+      * Wild card (a compelling, problem-first project in any other domain)
 ---
