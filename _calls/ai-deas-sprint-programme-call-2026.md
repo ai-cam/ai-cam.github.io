@@ -57,6 +57,15 @@ call_content: >-
 
 
   Each sprint team will follow a 6-month programme from November 2026 to April 2027:
+
+
+  **Challenge definition and team formation (month 1):** Interdisciplinary teams form around concrete deliverables and begin rapid development.
+
+
+  **Mid-sprint check in (month 3):** Teams to provide a project update in a networking event with potential partners.
+
+
+  **Demonstration (month 6):** Showcase event presenting prototypes to potential funders and implementation partners.
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the AI-deas Sprint Programme?
