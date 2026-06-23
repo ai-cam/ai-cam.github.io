@@ -3,7 +3,7 @@ slug: "CHIA's Annual Conference: AI for a Changing World"
 title: "CHIA's Annual Conference: AI for a Changing World"
 excerpt: " "
 cover_image: /assets/images/uploads/chia-event-image.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   CHIA’s Annual Conference, *AI for a Changing World,* will take place at The
   Cambridge Union, a historic venue at the heart of debate and intellectual
