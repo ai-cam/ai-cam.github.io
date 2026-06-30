@@ -19,7 +19,7 @@ event_content: >-
   To share experiences from the frontline of AI for local government, the University of Cambridge and Turing Innovation Catalyst Manchester would like to invite you to our ‘AI for Local Government in Practice’  Workshop bringing together council innovators, practitioners, and partners to discuss the opportunities, challenges, and lessons emerging from real-world implementation. 
 
 
-  The workshop is hosted by ai@cam and the Turing Innovation Catalyst Manchester. It builds discussions through the Cambridge–Manchester Innovation Bridge collaboration.
+  The workshop is hosted by ai@cam and the Turing Innovation Catalyst Manchester. It builds discussions through the Cambridge x Manchester Partnership. 
 
 
   This event is for local government officials and connected partner organisations. If you would like to attend please contact Elinor Pegler (ep742@cam.ac.uk)
