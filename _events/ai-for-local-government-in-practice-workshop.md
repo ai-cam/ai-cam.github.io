@@ -22,7 +22,9 @@ event_content: >-
   The workshop is hosted by ai@cam and the Turing Innovation Catalyst Manchester. It builds discussions through the Cambridge x Manchester Partnership. 
 
 
-  This event is for local government officials and connected partner organisations. If you would like to attend please contact Elinor Pegler (ep742@cam.ac.uk)
+  **This event is for local government officials and those working within a local authority. If you would like to attend, [please register here ](https://forms.gle/ka9PQAY4bS9eMyUj6)and save the date in your diary.**
+registration_link: https://forms.gle/ka9PQAY4bS9eMyUj6
+registration_link_text: Register here
 event_date: 2026-07-14
 event_end_date: 2026-07-14
 time: "09.30 - 16.00 "
