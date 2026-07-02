@@ -5,9 +5,9 @@ date: 2026-04-28
 cover_image: /assets/images/uploads/zetong-li-cn-cjo_9dq0-unsplash.jpg
 information_content: "*Neil Lawrence is the DeepMind Professor of Machine
   Learning at the University of Cambridge and Chair of ai@cam. He gave oral
-  evidence to the Business and Trade Select Committee on14 April 2026 alongside
+  evidence to the Business and Trade Select Committee on 14 April 2026 alongside
   Dame Wendy Hall. The full transcript is
-  available [here.](https://committees.parliament.uk/event/26983/formal-meeting\
+  available [here.](https://committees.parliament.uk/event/26983/formal-meeting\
   -oral-evidence-session/)*"
 related_title: " "
 ---
