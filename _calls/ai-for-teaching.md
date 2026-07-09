@@ -53,8 +53,9 @@ call_content: >-
 
 
   We aim to notify applicants of the outcome during w/c 12 October. We expect that funded teams will take part in an opening workshop in November 2026, a community workshop during the project, and a final showcase in May/June 2027. Dates will be confirmed with successful applicants.
+apply_title: How to get started
 apply_text: >-
-  To submit your concept paper, fill out the form below by end of day on 24
+  To submit your application, fill out the form below by end of day on 24
   September 2026. Log in using your @cam.ac.uk email address.
 
 
@@ -70,7 +71,11 @@ faqs:
       teaching and learning in a world with AI.
 
 
+
+
       The programme supports educators to develop practical responses to the changes AI is creating for teaching and learning, grounded in their educational goals, and to learn from what happens when those approaches are tried in practice.
+
+
 
 
       It also aims to build a network across the University through which what teams learn — including what does not work — can inform teaching practice and future guidance.
@@ -85,11 +90,15 @@ faqs:
       effective teaching practice.
 
 
+
+
       These are examples rather than priority topics. We welcome other questions grounded in a real teaching or learning challenge.
   - question: Who can apply?
     answer: >-
       Anyone involved in the direct delivery of modules or courses to
       undergraduate or postgraduate students.
+
+
 
 
       The call is open to everyone who shapes teaching and learning: academics who teach, Directors of Studies, supervisors and examiners, as well as education managers and course administrators who design the educational experience. We welcome teams that bring these roles together.
