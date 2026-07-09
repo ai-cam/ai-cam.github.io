@@ -53,6 +53,15 @@ call_content: >-
 
 
   We aim to notify applicants of the outcome during w/c 12 October. We expect that funded teams will take part in an opening workshop in November 2026, a community workshop during the project, and a final showcase in May/June 2027. Dates will be confirmed with successful applicants.
+apply_text: >-
+  To submit your concept paper, fill out the form below by end of day on 24
+  September 2026. Log in using your @cam.ac.uk email address.
+
+
+  If you have questions about the initiative, check out our FAQs below.
+apply_links:
+  - link: https://forms.gle/TsZBaU7yojSFxoaj7
+    link_text: Apply here
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the programme?
