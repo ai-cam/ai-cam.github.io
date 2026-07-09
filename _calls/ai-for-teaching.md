@@ -1,11 +1,11 @@
 ---
 slug: ai-for-teaching
-title: "AI for Teaching and Learning: Could you develop and test new approaches
-  to excellent education in a world with AI?"
+title: AI for Teaching and Learning
 call_excerpt: A funding call from ai@cam, supporting the people who shape
   teaching and learning at Cambridge to develop and test new approaches to
   excellent education in a world with AI.
 call_categories: Open Calls
+cover_image: /assets/images/uploads/20241106_-students-in-city-centre_0359.jpg
 call_date: 2026-07-09
 application_deadline: 2026-09-24
 call_content: >-
@@ -53,6 +53,7 @@ call_content: >-
 
 
   We aim to notify applicants of the outcome during w/c 12 October. We expect that funded teams will take part in an opening workshop in November 2026, a community workshop during the project, and a final showcase in May/June 2027. Dates will be confirmed with successful applicants.
+faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the programme?
     answer: >-
