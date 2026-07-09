@@ -66,57 +66,42 @@ apply_links:
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the programme?
-    answer: >-
-      To help Cambridge develop and share practical evidence about excellent
-      teaching and learning in a world with AI.
-
-
-
-
-      The programme supports educators to develop practical responses to the changes AI is creating for teaching and learning, grounded in their educational goals, and to learn from what happens when those approaches are tried in practice.
-
-
-
-
-      It also aims to build a network across the University through which what teams learn — including what does not work — can inform teaching practice and future guidance.
+    answer: We're convening this programme to help Cambridge develop and share
+      practical evidence about excellent teaching and learning in a world with
+      AI. The programme supports educators to develop practical responses to the
+      changes AI is creating for teaching and learning, grounded in their
+      educational goals, and to learn from what happens when those approaches
+      are tried in practice. It also aims to build a network across the
+      University through which what teams learn — including what does not work —
+      can inform teaching practice and future guidance.
   - question: What kinds of questions might projects explore?
-    answer: >-
-      Projects might explore how AI can improve an aspect of teaching or
+    answer: Projects might explore how AI can improve an aspect of teaching or
       learning; how teaching should be redesigned when students use AI as part
       of their work; how formative work or supervision can continue to develop
       and reveal student understanding; how educators can strengthen creativity,
       original thinking or disciplinary judgement in an AI-enabled environment;
       or how expectations about appropriate AI use can be translated into
-      effective teaching practice.
-
-
-
-
-      These are examples rather than priority topics. We welcome other questions grounded in a real teaching or learning challenge.
+      effective teaching practice. These are examples rather than priority
+      topics. We welcome other questions grounded in a real teaching or learning
+      challenge.
   - question: Who can apply?
-    answer: >-
-      Anyone involved in the direct delivery of modules or courses to
-      undergraduate or postgraduate students.
-
-
-
-
-      The call is open to everyone who shapes teaching and learning: academics who teach, Directors of Studies, supervisors and examiners, as well as education managers and course administrators who design the educational experience. We welcome teams that bring these roles together.
+    answer: "The call is open to everyone who shapes teaching and learning:
+      academics who teach, Directors of Studies, supervisors and examiners, as
+      well as education managers and course administrators who design the
+      educational experience. We welcome teams that bring these roles together."
   - question: Do I need technical or AI expertise?
     answer: No. What matters is a clear educational question and a willingness to
       learn. If you anticipate that your project will require significant
       development work to deliver, you should factor how to find this into your
       plans.
   - question: What makes a strong proposal?
-    answer: >-
-      A strong proposal starts with an important question about teaching or
-      learning, rather than with a particular AI tool.
-
-
-      It should identify a concrete approach that can be developed and tested within six months, explain what the team hopes to learn, and consider relevant risks and the relationship with students.
-
-
-      We are particularly interested in projects whose findings could be useful to colleagues beyond the immediate course or department.
+    answer: A strong proposal starts with an important question about teaching or
+      learning, rather than with a particular AI tool. It should identify a
+      concrete approach that can be developed and tested within six months,
+      explain what the team hopes to learn, and consider relevant risks and the
+      relationship with students. We are particularly interested in projects
+      whose findings could be useful to colleagues beyond the immediate course
+      or department.
   - question: How will projects be assessed?
     answer: >-
       Proposals will be judged on:
@@ -134,10 +119,7 @@ faqs:
   - question: What do I need to submit to apply?
     answer: >-
       You will need to complete a short application form and upload a project
-      proposal of no more than two A4 pages.
-
-
-      Your proposal should tell us:
+      proposal of no more than two A4 pages. Your proposal should tell us:
 
 
       * What teaching or learning challenge or opportunity you want to address, and how AI is changing it or creating new possibilities.
@@ -154,32 +136,29 @@ faqs:
 
 
       The application form will also ask for information about your project team, a short project summary, your budget, any support you may need from the AI Clinic, relevant risks and ethical considerations.
-  - answer: >-
-      Up to £10,000 per project, used flexibly to enable the work. This might
+  - answer: Up to £10,000 per project, used flexibly to enable the work. This might
       include software subscriptions, development or implementation costs, or
       resources for gathering student and staff input and evaluating what
-      happens.
-
-
-      Project must finish within six months and attend the launch workshop and closing showcase.
+      happens. Project must finish within six months and attend the launch
+      workshop and closing showcase.
     question: What can the funding be used for and over what period?
   - question: How does this relate to University guidance on generative AI?
-    answer: >-
-      The General Board's Education Committee has asked all Triposes to have
+    answer: The General Board's Education Committee has asked all Triposes to have
       clear student-facing guidance on the use of generative AI before the start
       of the next academic year, including expectations for formative and
-      supervision work.
-
-
-      This programme does not replace that process. It can help build the practical evidence and experience needed to inform future teaching practice and guidance as AI capabilities and patterns of student use continue to develop.
+      supervision work. This programme does not replace that process. It can
+      help build the practical evidence and experience needed to inform future
+      teaching practice and guidance as AI capabilities and patterns of student
+      use continue to develop.
   - question: How are risks and ethics considered?
-    answer: >-
-      Each project must consider its risks, including academic integrity,
+    answer: Each project must consider its risks, including academic integrity,
       fairness between students, data protection, and the relationship with
-      students.
-
-
-      The University's current guidance on AI and education, generative AI tools, and data protection offers a place to start. Successful teams are responsible for obtaining any ethics approvals their project requires. You can see the relevant policy [here](<https://blendedlearning.cam.ac.uk/artificial-intelligence-and-education/ai-policy-framework >).
+      students. The University's current guidance on AI and education,
+      generative AI tools, and data protection offers a place to start.
+      Successful teams are responsible for obtaining any ethics approvals their
+      project requires. You can see the relevant policy
+      [here](<https://blendedlearning.cam.ac.uk/artificial-intelligence-and-education/ai-policy-framework
+      >).
   - answer: We will let applicants know whether they have been funded in the week
       commencing 12 October.
     question: When will I hear back?
