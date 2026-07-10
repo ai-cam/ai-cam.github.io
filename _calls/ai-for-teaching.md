@@ -155,6 +155,13 @@ faqs:
       project requires. You can see the relevant policy
       [here](<https://blendedlearning.cam.ac.uk/artificial-intelligence-and-education/ai-policy-framework
       >).
+  - question: When is the application deadline?
+    answer: >-
+      Deadline for applications closes at 23:59 on Thursday 24 September 2026.\
+
+      \
+
+      You can apply here. Please note: You will need to be signed in to your @cam.ac.uk account to access the application form.
   - answer: We will let applicants know whether they have been funded in the week
       commencing 12 October.
     question: When will I hear back?
