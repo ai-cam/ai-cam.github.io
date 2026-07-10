@@ -44,19 +44,15 @@ call_content: >-
 
 
   Teams get technical help with scoping and set-up through AI Clinic sessions with Accelerate Science's Machine Learning Engineers during project set-up through the autumn, and join a community of funded teams for peer learning and shared documentation. Every project presents its work at a closing showcase.
-
-
-  **How to apply**
-
-
-  Complete the application form - accessible [here](<https://forms.gle/TsZBaU7yojSFxoaj7 >) - by 23:59, 24 September 2026. You will need to be signed in to your @cam.ac.uk account to access the application form.
+apply_title: "How to apply "
+apply_text: >-
+  1. Complete the application form - [accessible
+  here](https://docs.google.com/forms/d/e/1FAIpQLScKh983vsCKNT5JKo8nAAH9B4jk7yqPt6VosDmUa8dd8zeKaw/viewform) -
+  by 23:59, 24 September 2026. You will need to be signed in to your @cam.ac.uk
+  account to access the application form.
 
 
   We aim to notify applicants of the outcome during w/c 12 October. We expect that funded teams will take part in an opening workshop in November 2026, a community workshop during the project, and a final showcase in May/June 2027. Dates will be confirmed with successful applicants.
-apply_title: How to get started
-apply_text: >-
-  To submit your application, fill out the form below by end of day on 24
-  September 2026. Log in using your @cam.ac.uk email address.
 
 
   If you have questions about the initiative, check out our FAQs below.
