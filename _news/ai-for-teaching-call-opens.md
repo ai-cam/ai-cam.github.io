@@ -22,7 +22,7 @@ AI tools are already changing how students learn and produce work. The new progr
 
 “We want to back the people who understand teaching and learning at Cambridge to try new approaches, learn from what happens in practice, and build evidence that others across the University can use.”
 
-## Supporting educator-led experimentation
+**Supporting educator-led experimentation**
 
 The programme is open to people involved in undergraduate or postgraduate teaching, including academics, Directors of Studies, supervisors and examiners, as well as education managers and course administrators who shape the educational experience. 
 
@@ -32,7 +32,7 @@ Projects might explore how AI can support better feedback or student understandi
 
 Each funded project will be expected to produce something that colleagues can use or learn from, such as a redesigned element of a course, new teaching or learning materials, a tool or resource, practical guidance, or evidence about how a new approach works in practice.
 
-## Building evidence for excellent teaching
+**Building evidence for excellent teaching**
 
 The programme comes as the University develops its approach to generative AI in education, including new expectations for Tripos-level guidance on students' use of generative AI.
 
@@ -40,9 +40,9 @@ By supporting practical experiments in live teaching contexts, ai@cam aims to bu
 
 Funded teams will join a community of projects to share what they learn, including approaches that do not work as expected, and will present their findings at a final showcase in 2027.
 
-## Find out more
+**Find out more**
 
-Applications must be submitted by 23:59 on Thursday 24 September 2026 via [the application form](< https://forms.gle/TsZBaU7yojSFxoaj7>).
+Applications must be submitted by **23:59 on Thursday 24 September 2026** via [the application form](< https://forms.gle/TsZBaU7yojSFxoaj7>).
 
 Applicants are asked to submit a project proposal of no more than two A4 pages setting out the teaching or learning challenge or opportunity they want to address, what they propose to develop and test, and what they hope to learn.
 
