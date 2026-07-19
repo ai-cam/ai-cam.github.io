@@ -9,7 +9,7 @@ excerpt: The 2026 FENS-Chen Institute Summer Program on AI-Accelerated
   including topics in Cognitive Computational Neuroscience, AI in Neuroscience,
   Neurotechnology and Translation of AI for brain and mental health.
 cover_image: /assets/images/uploads/brain-hub-event-image_summerschool.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   The 2026 FENS-Chen Institute Summer Program on AI-Accelerated Neuroscience
   Discovery and Translation hosted by the University of Cambridge will focus on
