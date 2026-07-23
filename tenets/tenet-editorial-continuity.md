@@ -16,11 +16,11 @@ tags:
 
 ## Tenet
 
-**Description**: The website exists to publish content. When the CMS is broken, the organisation cannot communicate — and communications staff cannot fix it themselves. Any change to infrastructure, dependencies, or configuration must therefore be evaluated first against the question: does this keep Eli able to publish? A crashed CMS is a P1 incident regardless of what caused it. Everything else is secondary.
+**Description**: The website exists to publish content. When the CMS is broken, the organisation cannot communicate — and communications staff cannot fix it themselves. Any change to infrastructure, dependencies, or configuration must therefore be evaluated first against the question: does this keep the comms lead able to publish? A crashed CMS is a P1 incident regardless of what caused it. Everything else is secondary.
 
 This tenet is grounded in the numbers: 88% of commits in this repository are content operations initiated through Decap CMS. The technical infrastructure serves those operations; it does not justify itself.
 
-**Quote**: *"If Eli can't publish, we've failed."*
+**Quote**: *"If the comms lead can't publish, we've failed."*
 
 **Examples**:
 - Pinning Decap CMS to 3.14.1 within hours of 3.15.0 breaking the editor — restoring publishing before investigating the root cause
