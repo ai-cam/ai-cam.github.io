@@ -2,7 +2,7 @@
 slug: anne-ferguson-smith
 title: Anne Ferguson Smith
 photo: /assets/images/uploads/ferguson-smith_anne.jpg
-job_title: Arthur Balfour Professor of Genetics; Pro-Vice-Chancellor for Research
+job_title: Arthur Balfour Professor of Genetics; Executive Chair BBSRC
 department: Department of Genetics
 contact: https://www.gen.cam.ac.uk/directory/anne-ferguson-smith
 biography: "Professor Anne Ferguson-Smith was Pro-Vice-Chancellor for Research
