@@ -17,7 +17,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-blog-post). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-blog-post). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
@@ -25,7 +25,7 @@ collections:
       - { label: "Content", name: "body", widget: "markdown" }
       - { label: "Information Title", name: "information_title", widget: "string", required: false }
       - { label: "Information Content", name: "information_content", widget: "markdown", required: false }
-      - { label: "Related Title", name: "related_title", widget: "string" }
+      - { label: "Related Title", name: "related_title", widget: "string", required: false }
       - label: "Related Posts"
         name: "related_posts"
         widget: "list"
@@ -48,7 +48,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-call). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-call). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Call Excerpt", name: "call_excerpt", widget: "text", required: false }
       - label: "Call Category"
@@ -84,7 +84,7 @@ collections:
     label: "Call Categories"
     folder: "_call_categories"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name | slugify}}"
     fields:
       - { label: "Category Name", name: "name", widget: "string" }
 
@@ -97,7 +97,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-event-name)" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-event-name). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
@@ -167,7 +167,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-news-item)" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-news-item). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Cover Image", name: "cover_image", widget: "image" }
@@ -193,7 +193,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-project). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-project). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Project Date", name: "project_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false, hint: "Optional date for this project" }
       - { label: "Description", name: "description", widget: "text" }
@@ -266,7 +266,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-report). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-report). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Report Date", name: "report_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
@@ -335,7 +335,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., john-doe). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., john-doe). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Job Title", name: "job_title", widget: "string" }
       - { label: "Photo", name: "photo", widget: "image" }
@@ -370,7 +370,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., john-doe). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., john-doe). This becomes the page URL and must be unique." }
       - label: "Team Member (Optional)"
         name: "team_member"
         widget: "relation"
@@ -400,7 +400,7 @@ collections:
     identifier_field: "slug"
     summary: "{{title}}"
     fields:
-      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier (e.g., my-policy). This will be used in the URL." }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL-friendly identifier — lowercase and hyphens only, no spaces or capitals (e.g., my-policy). This becomes the page URL and must be unique." }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Excerpt", name: "excerpt", widget: "text" }
       - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
@@ -492,7 +492,7 @@ collections:
     label: "Pages"
     folder: "_pages"
     create: true
-    slug: "{{slug}}"
+    slug: "{{title | slugify}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
