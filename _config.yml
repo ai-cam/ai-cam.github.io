@@ -140,4 +140,9 @@ exclude:
   - vendor
   - .git
   - .gitignore
+  - tenets
+  - backlog
+  - requirements
+  - scripts
+  - tests
 
