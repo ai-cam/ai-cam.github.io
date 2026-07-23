@@ -5,7 +5,7 @@ excerpt: Are you a Cambridge researcher with an AI project idea that could
   deliver real-world impact? Join us for an online information session to find
   out more about the ai@cam AI-deas Sprint Programme and how to apply.
 cover_image: /assets/images/uploads/ai-deas-event-image.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Are you a Cambridge researcher with an AI project idea that could deliver
   real-world impact? Join us for an online information session to find out more
