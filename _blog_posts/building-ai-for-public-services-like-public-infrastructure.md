@@ -30,3 +30,5 @@ Taken together, participants described a distinctive vision for AI in public ser
 Universities have an important role in that model. Throughout the dialogue, participants told us they valued the University's independence from both government and commercial interests. They valued bringing researchers, councils, and residents into the same conversation. They valued research that could be shared openly with other local authorities.
 
 That describes a model of AI innovation that is more collaborative, and often less visible than the latest progress in frontier foundation models. It also reflects the way public institutions themselves work: through stewardship, accountability, and long-term investment. As governments consider how AI should become part of everyday public services, the question is what kind of public infrastructure we want AI to become.
+
+**Read our report: [Public Dialogue on AI in Local Government](https://www.ai.cam.ac.uk/assets/images/uploads/ai-cam-public-dialogue-report-2026.pdf)**
