@@ -1,5 +1,5 @@
 ---
-slug: AI for Science Research Showcase
+slug: chia-conference-shaping-the-future-of-ai
 title: AI for Science Research Showcase
 excerpt: Cambridge is at the heart of a vibrant and thriving AI innovation
   ecosystem and is rapidly becoming a global force in applied AI research across
