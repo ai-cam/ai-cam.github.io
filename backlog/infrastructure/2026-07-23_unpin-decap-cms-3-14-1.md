@@ -1,12 +1,23 @@
+---
+id: "2026-07-23_unpin-decap-cms-3-14-1"
+title: "Unpin Decap CMS from 3.14.1 once 3.15.x JSX bug is fixed"
+status: "Proposed"
+priority: "Medium"
+created: "2026-07-23"
+last_updated: "2026-07-23"
+category: "infrastructure"
+related_cips: []
+owner: ""
+dependencies: []
+tags:
+- backlog
+- decap-cms
+- dependencies
+---
+
 # Task: Unpin Decap CMS from 3.14.1
 
-| Field | Value |
-|---|---|
-| **ID** | 2026-07-23_unpin-decap-cms-3-14-1 |
-| **Status** | Proposed |
-| **Priority** | Medium |
-| **Created** | 2026-07-23 |
-| **GitHub Issue** | [#29](https://github.com/ai-cam/ai-cam.github.io/issues/29) |
+- **GitHub Issue**: [#29](https://github.com/ai-cam/ai-cam.github.io/issues/29)
 
 ## Description
 

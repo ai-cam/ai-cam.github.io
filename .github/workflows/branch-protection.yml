@@ -1,0 +1,165 @@
+name: Branch Protection Validation
+
+on:
+  # Trigger on push to main branch
+  push:
+    branches:
+      - main
+  # Trigger on pull request targeting main
+  pull_request:
+    branches:
+      - main
+  # Schedule daily validation at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+  # Allow manual triggering
+  workflow_dispatch:
+
+env:
+  GITHUB_REPOSITORY: ${{ github.repository }}
+
+jobs:
+  validate-branch-protection:
+    name: Validate Branch Protection
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+      statuses: read
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Validate branch protection settings
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/configure-branch-protection.py \
+            --repo "$GITHUB_REPOSITORY" \
+            --branch main \
+            --dry-run
+      
+      - name: Apply branch protection (if needed)
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/configure-branch-protection.py \
+            --repo "$GITHUB_REPOSITORY" \
+            --branch main
+      
+      - name: Check for protection violations
+        id: check-protection
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/configure-branch-protection.py \
+            --repo "$GITHUB_REPOSITORY" \
+            --branch main \
+            --dry-run > protection-check.log 2>&1 || true
+          
+          if grep -q "not compliant" protection-check.log; then
+            echo "violations_detected=true" >> $GITHUB_OUTPUT
+            cat protection-check.log
+          else
+            echo "violations_detected=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Create issue on violations
+        if: steps.check-protection.outputs.violations_detected == 'true' && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const logContent = fs.readFileSync('protection-check.log', 'utf8');
+            
+            const title = '⚠️ Branch Protection Settings Non-Compliant';
+            const body = `## Branch Protection Validation Failed
+            
+            The automated branch protection validation detected that the main branch protection settings are not compliant with the configured requirements.
+            
+            ### Details
+            \`\`\`
+            ${logContent}
+            \`\`\`
+            
+            ### Action Required
+            Please review and update the branch protection settings to ensure compliance with security requirements.
+            
+            This issue was automatically created by the Branch Protection Validation workflow.
+            `;
+            
+            // Check if issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'branch-protection'
+            });
+            
+            const existingIssue = issues.data.find(issue => issue.title === title);
+            
+            if (!existingIssue) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['branch-protection', 'security', 'automated']
+              });
+            } else {
+              // Update existing issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: `## Update: ${new Date().toISOString()}\n\n${body}`
+              });
+            }
+  
+  security-monitor:
+    name: Security Event Monitoring
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Run security monitoring
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/security-monitor.py \
+            --repo "$GITHUB_REPOSITORY" \
+            --event-type ${{ github.event_name }} \
+            --event-data "${{ toJson(github.event) }}"
+

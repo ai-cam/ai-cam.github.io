@@ -1,11 +1,21 @@
-# Task: Decap CMS config — medium-priority improvements
+---
+id: "2026-07-23_decap-cms-config-improvements"
+title: "Decap CMS config — medium-priority UX improvements"
+status: "Proposed"
+priority: "Medium"
+created: "2026-07-23"
+last_updated: "2026-07-23"
+category: "infrastructure"
+related_cips: []
+owner: ""
+dependencies: []
+tags:
+- backlog
+- decap-cms
+- ux
+---
 
-| Field | Value |
-|---|---|
-| **ID** | 2026-07-23_decap-cms-config-improvements |
-| **Status** | Proposed |
-| **Priority** | Medium |
-| **Created** | 2026-07-23 |
+# Task: Decap CMS config — medium-priority improvements
 
 ## Description
 

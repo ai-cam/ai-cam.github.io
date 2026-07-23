@@ -1,0 +1,2056 @@
+Annual
+
+Report
+
+2023 
+–24
+
+02
+002
+
+048
+002
+
+M
+M
+A
+A
+C
+C
+@
+@
+A
+A
+•
+•
+
+I
+I
+
+4
+4
+2
+2
+0
+0
+2
+2
+
+T
+T
+R
+R
+O
+O
+P
+P
+E
+E
+R
+R
+L
+L
+A
+A
+U
+U
+N
+N
+N
+N
+A
+A
+
+Contents
+
+/01
+Summary
+Page 04 - 09
+
+/02
+Introduction
+
+Page 10 - 15
+
+/03
+Progress against 
+strategic objectives
+
+Page 16 - 29
+
+/05
+2024-25 planning
+Page 36 - 43
+
+/04
+Looking Ahead
+
+Page 30 - 35
+
+/06
+Annex 1: Steering group 
+membership
+
+Page 44 - 47
+
+1
+
+I
+
+S
+T
+N
+N
+O
+E
+T
+T
+N
+C
+O
+E
+C
+S
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+04
+
+048
+
+M
+A
+C
+@
+A
+•
+
+I
+
+4
+2
+0
+2
+
+T
+R
+O
+P
+E
+R
+L
+A
+U
+N
+N
+A
+
+1
+
+I
+
+N
+O
+T
+C
+E
+S
+
+Section1
+Summary
+
+START
+
+0 1
+
+“
+
+ai@cam is the 
+University of 
+Cambridge’s mission to 
+create AI innovations 
+that serve science, 
+citizens, and society.
+
+FINISH
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048 
+ 
+ 
+ 
+06
+
+AI innovations that serve  
+science, citizens, and society.
+
+2022’s ai@cam review identified five core functions needed 
+to  deliver  Cambridge’s  vision  of  AI  that  serves  science, 
+citizens,  and  society:  a  dynamic  research  community; 
+partnerships that centre societal needs; spaces that help 
+projects to spin up and respond to areas of need; wider 
+access to AI knowledge and skills; and connections to local, 
+national, and international priorities for AI. These areas of 
+need have been central to ai@cam’s first year of activities:
+
+ → Our AI-deas initiative launched five ambitious 
+research programmes that bring together 
+researchers from 19 Departments across all 6 
+Schools using AI to to tackle critical challenges in 
+mental health, fertility, public services, language 
+equity, and nature and climate. 
+
+ → Our Policy Lab has catalysed collaborations across 
+five University research centres, connecting the 
+University’s expertise in AI, policy, and public 
+dialogue to the challenges faced by policymakers 
+locally, in Westminster and Whitehall, and 
+internationally. 
+
+ → Responding to an opportunity presented by 
+Research Computing Services’s new High 
+Performance Computing (HPC) system, our HPC 
+Pioneer Project scheme has helped 46 research 
+projects from 20 Departments get off the ground 
+with access to the University’s world-leading 
+compute resource and support from dedicated 
+machine learning engineers. 
+
+ → ai@cam has also played an enabling role, 
+
+supporting the AI community to respond to external 
+opportunities, such as UKRI funding schemes, 
+providing support for large-scale funding bids, and 
+developing philanthropic and industry partnerships.
+
+These initiatives are rooted in both community need and 
+public interest. They are shaped by over 400 engagements 
+with  researchers,  policymakers,  partner  organisations, 
+and the public across 2023-24, and have been guided by 
+our cross-institutional Steering Group.
+
+Engagement  with  early  career  researchers  has  been  a 
+strong  feature  of  our  first  year.  Out  of  73  expressions 
+of interest in our AI-deas call for projects, 41 came from 
+early  career  staff,  and  26  (of  46)  of  our  HPC  pioneers 
+are  PhD  students.  Feedback  from  these  engagements 
+suggests that our approach to convening the community 
+has helped researchers find new collaborators and unlock 
+access to resources.
+
+1
+
+Collaborations with University of Cambridge Development 
+and  Alumni  Relations  (CUDAR)  and  the  Strategic 
+Partnerships  Office  are  building  connections  with 
+stakeholders  in  industry  and  philanthropy  to  help  scale 
+our activities and our next year of operations will bring 
+further work in this area.
+
+“
+
+Our first 
+year of 
+operations has 
+established 
+ai@cam as an 
+incubator for 
+interdisciplinary 
+AI that addresses 
+real-world needs.
+
+0 1
+
+100+
+
+Number of people consulted to 
+create Cambridge’s AI vision
+
+46 
+
+46 research projects from  
+20 Departments across  
+6 Schools onboarded to the 
+Dawn system.
+
+400+
+
+Number of participants in 
+workshops and events
+
+Breadth and diversity of 
+engagement in the AI-deas 
+scheme:
+
+73
+
+73 applications from  
+27 Departments
+
+£750k
+
+Resulting in 5 funded 
+challenges, with a total  
+value of £750k
+
+19 
+
+Working across 19 
+Departments spread  
+over all 6 Schools.
+
+£190k+
+
+External income 
+generated
+
+£100M+
+
+Applications pending  
+or in development.
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048 
+08
+
+008
+008
+
+1
+
+0 1
+
+ai@cam’s vision for a 
+world-class AI research 
+resource
+
+ai@cam offers a mechanism for the University 
+to be a global force in AI research, a world-
+leader in education, and an engine for 
+innovation that delivers social benefit. By 
+investing in core research capabilities and 
+creating collaborations that drive progress
+in areas of scientific and social concern, the 
+University can build a world-class AI research 
+resource. 
+
+By  building  these  pillars,  Cambridge  can 
+ensure  it  has  the  talent,  connections,  and 
+collaborative culture to scale its research and 
+education activities, leading a new wave of AI 
+innovation. This will continue to be a priority 
+for the ai@cam mission in the coming years.
+
+This vision is built on three pillars of activity:
+
+ → Growing our research capability:  
+
+cluster hiring of new faculty, machine 
+learning engineers, and PhD students  
+can create a critical mass of expertise 
+in AI technologies and their safe and 
+effective use. 
+
+ → Building a core of activity around world-
+class compute: new HPC systems offer 
+an opportunity to convene core AI teams 
+around world-leading research facilities. 
+
+ → Creating connections for impact: 
+
+interdisciplinary engagements with policy, 
+industry, civil society, and the public offer 
+opportunities for creating new challenge-
+led research programmes and enhancing 
+the impact of existing activities. 
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISHSECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISHSection2
+Introduction
+
+010
+
+2
+
+02
+
+“
+
+Supporting the next generation 
+of AI innovation is central to 
+ai@cam’s vision, and has been 
+a major focus of our first year’s 
+work. Our AI-deas initiative is 
+providing funding and expertise 
+for innovative projects to 
+respond to critical areas of need, 
+delivering AI that serves society.
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048012
+
+0012
+0012
+
+Introduction from the chair
+
+Society  faces  deeply  complex  challenges, 
+from  economic  growth  to  population  health, 
+to climate change. The potential of AI to help 
+tackle these challenges is clear, but technology, 
+policy, and practice in this fast-moving domain 
+are not yet positioned to realise this promise. 
+Achieving  positive  societal  impact  with  AI 
+requires interdisciplinary research that is deeply 
+connected to real-world needs. Universities have 
+a  crucial  role  to  play  as  an  incubator  for  this 
+interdisciplinary innovation.
+
+In a year that has brought rapid progress in AI 
+technologies and a new wave of public debate 
+about their implications, we’ve been delighted 
+to launch ai@cam as a new mission to deliver 
+the University’s vision for AI that serves science, 
+citizens, and society. Leveraging world-leading 
+research  from  across  the  University,  ai@cam 
+will  create  connections  between  disciplines, 
+sectors, and communities to unlock a new wave 
+of  progress  in  AI  for  the  benefit  of  science, 
+citizens, and society.
+
+Supporting the next generation of AI innovation 
+is  central  to  ai@cam’s  vision,  and  has  been  a 
+major focus of our first year’s work. Our AI-deas 
+initiative is providing funding and expertise for 
+innovative projects to respond to critical areas 
+of  need,  delivering AI that  serves  society. The 
+first AI-deas funding awards are supporting five 
+ambitious projects using AI to tackle challenges 
+spanning  fertility,  climate  change,  mental 
+health,  language  equity,  and  public  services 
+delivery. These projects were selected following 
+a  process  that  was  both  highly  competitive 
+and designed to catalyse new cross-University 
+collaborations.  The  resulting  challenges  are 
+interdisciplinary by design – the five challenges 
+engage 19 Departments across 6 Schools – and 
+rooted in public purpose. It has been fantastic 
+to  see  the  University  community  rally  behind 
+our  first  flagship  initiative,  and  particularly 
+exciting to see how this approach has caught 
+the  imagination  of  Cambridge’s  early  career 
+researchers.  
+
+At a time when technology change has brought 
+serious questions about the risks of AI to public 
+conversations about its future, bridging the gap 
+between research and policy is more important 
+than  ever.  ai@cam’s  Policy  Lab  is  helping 
+connect  the  research  advances  coming  from 
+labs across Cambridge to the issues of concern 
+to members of the public and policymakers. We 
+launched this initiative in the heat of discussions 
+around the UK Government’s AI Safety Summit 
+in 2023, with partnerships that connect across 
+the Bennett Institute, Kavli Centre for Ethics, 
+Science,  and  the  Public,  Minderoo  Centre  for 
+
+“
+
+Cambridge has an 
+ambitious vision for  
+AI that serves 
+science, citizens, 
+and society. 
+
+2
+
+02
+
+Technology  and  Democracy,  and  Cambridge 
+Centre for Science and Policy. This collaboration 
+has allowed us to convene diverse conversations 
+about AI with the public and policymakers, from a 
+double-decker bus on Parker’s Piece to the Palace 
+of Westminster. We look forward to scaling this 
+initiative in 2024. 
+
+Our 2022 AI review started a conversation within 
+Cambridge  about  how  the  University  can  work 
+as  a  team  to  build  our  AI  capabilities.  We’ve 
+been  delighted  to  be  joined  by  a  brilliant  cross-
+University  Steering  Group  to  take  forward  our 
+work, and look forward to being able to onboard 
+our core staff team soon. Working with CUDAR, 
+the  Strategic  Partnerships  Office,  Innovate 
+Cambridge, Research Computing Services, Centre 
+for Data Driven Discovery, and University senior 
+leadership  team  to  find  ways  to  enhance  the 
+Cambridge  AI  community  has  been  a  priority  in 
+year  one  of  our  work.  These  collaborations  are 
+bridging  between  the  research  community  and 
+infrastructural  support,  for  example  with  46 
+Pioneer Projects gaining access to the University’s 
+new  Dawn  supercomputer.  We  hope  these 
+coalitions will lay the foundations for wider impact 
+for ai@cam in the longer-term. Cambridge has an 
+exciting vision for a unique AI research resource, 
+and we look forward to driving progress towards 
+this vision.
+
+The ai@cam review identified five core functions 
+needed  to  deliver  the  University’s  AI  ambitions. 
+Our first annual report, presented here, introduces 
+some  of  the  highlights  from  our  first  year  of 
+building  these  functions.  In  the  longer-term, 
+we  believe  ai@cam  offers  a  mechanism  for  the 
+University to build a strategic AI research resource, 
+through  investment  in  research  capability, 
+infrastructure, and interdisciplinary collaborations. 
+This is an ambitious vision, but one that is firmly 
+rooted  in  both  the  aspirations  of  the  University 
+community  and  the  University’s  public  purpose. 
+We look forward to continuing to work with the 
+University  to  shape  the  ai@cam  mission  in  the 
+coming years. 
+
+N.Lawrence J.Montgomery
+
+Neil Lawrence, 
+Chair, ai@cam 
+
+Jessica Montgomery, 
+Director, ai@cam
+
+STARTFINISHSECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISHSECTIONANNUAL REPORT 2024 • AI@CAM014
+
+Key
+Highlights:
+
+MAR, 2024
+
+Brought 46 HPC 
+Pioneer Projects to 
+the Dawn system, 
+with onboarding 
+activities including 
+software engineering 
+support and a training 
+hackathon.
+
+FEB, 2024
+
+Awarded 5 ambitious 
+AI-deas challenges 
+approx. £150k each to 
+develop their work. 
+
+NOV, 2023
+
+DEC, 2023
+
+JAN, 2024
+
+02
+
+Convened public 
+dialogues to explore 
+hopes and fears for 
+AI and supported the 
+People’s Panel on AI 
+that reported into 
+AI Summit Fringe 
+programme. 3
+
+Launched a HPC 
+Pioneer Project 
+scheme to facilitate 
+researcher access to 
+the new Dawn facility.
+
+Led discussions 
+about open source 
+innovation at the AI 
+House in Davos. 5
+
+SEPT, 2023
+
+OCT, 2023
+
+MAY, 2023
+
+Contributed to 
+workshops on 
+foundation models 
+with Government 
+Office for 
+Science, European 
+Commission, and 
+Competition and 
+Markets Authority.
+
+FEB, 2023
+
+APR, 2023
+
+Workshopped ideas 
+to support cross-
+University teaching 
+and learning activities 
+in AI.
+
+Convened first 
+Steering Group 
+meeting to consider 
+flagship initiatives.
+
+Contributed evidence 
+to the House of Lords 
+Digital Committee. 2
+
+JUL, 2023
+
+Launched AI-deas as 
+a flagship initiative 
+to build challenge-
+led, interdisciplinary 
+research programmes.
+
+JUN, 2023
+
+Explored ways of 
+working to deliver 
+interdisciplinary AI at 
+scale at a workshop 
+with Professional 
+Services Staff.
+
+DEC, 2022
+
+JAN, 2023
+
+MAR, 2023
+
+Convened a sandpit to 
+support researchers 
+across Departments 
+to respond to the 
+UKRI AI Hub bid call 
+and contributed to the 
+University AI CDT bid 
+review process. 
+
+2
+
+Established a cross-
+University Steering 
+Group to guide the 
+development of the 
+ai@cam mission.
+
+Delivered the AI 
+Council’s briefing 
+paper on foundation 
+models to DSIT. 1
+
+Co-published the 
+Bennett Institute 
+and Minderoo Centre 
+for Technology and 
+Democracy’s policy 
+brief on generative AI. 4 
+
+“
+
+Our annual report, presented here, 
+introduces some of the highlights 
+from our first year. We look forward 
+to continuing to work with the 
+University to shape the ai@cam 
+mission in the coming years.
+
+1. 
+
+2. 
+
+3. 
+
+4. 
+
+5. 
+
+https://mlatcl.github.io/publications/large-language-model-opportunity.html and https://mlatcl.github.io/publications/ai-council-foundation-models-policy-paper.html 
+
+https://committees.parliament.uk/event/19126/formal-meeting-oral-evidence-session/ 
+
+https://connectedbydata.org/projects/2023-peoples-panel-on-ai
+
+https://www.mctd.ac.uk/which-path-should-the-uk-take-to-build-national-capability-for-generative-ai/
+
+https://www.aihousedavos.com/program and https://www.youtube.com/watch?v=7_YULkhecm4
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048Section 3
+Progress 
+against 
+strategic 
+objectives
+
+016
+
+3
+
+03
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048018
+
+1
+
+Nurture a dynamic interdisciplinary research 
+community
+
+Interdisciplinar y  research  is  vital  to  bridge 
+technological  innovation  to  public  value.  The 
+University is already home to an active community 
+of researchers who are passionate about delivering 
+public benefit through the development and use of 
+AI. There is a strategic opportunity to develop this 
+community.  In  response,  ai@cam  is  providing  an 
+interdisciplinary  research  incubator  that  creates 
+connections across the University, links researchers 
+with  infrastructural  support,  and  helps  scale 
+promising initiatives.  
+
+In  Summer  2023,  we  launched  our  first  initiative 
+–  AI-deas  –  to  provide  funding  and  expertise  for 
+innovative  projects  tackling  issues  of  pressing 
+concern  to  science  and  society.  This  initiative  will 
+provide funding, connections, and support that will 
+help  researchers  take  their  ideas  from  innovation 
+to  application.  By  championing  projects  with 
+real-world  applications,  AI-deas  aims  to  convene 
+multidisciplinary  AI  research  teams  that  help 
+create  a  sustainable,  inclusive  society.  There  is  an 
+opportunity  in  its  next  phase  of  development  for 
+AI-deas to extend this interdisciplinary AI incubator 
+to fundamental research.
+
+AI-deas has brought together experts from across 
+the  University,  engaging  a  broad  spectrum  of 
+perspectives  and  knowledge  in  the  design  of 
+ambitious research agendas. Our initial call for input 
+received 73 project proposals from 27 Departments 
+that  engaged  all  6  Schools.  A  cross-University 
+workshop  in  November  2023  translated  these 
+proposals  to  challenge-led  programme  pitches, 
+catalysing  new  connections  between  researchers 
+to produce challenges that are interdisciplinary by 
+design and rooted in public purpose. 
+
+Five AI-deas were selected for funding in 2024 (Boxes 
+1-5).  These  challenges  draw  in  expertise  from  19 
+Departments,  and  researchers varying  in  seniority 
+from  PhD  students  to  professors.  Early  career 
+researcher engagement with the scheme has been 
+strong, and it is clear that AI-deas offers a mechanism 
+to nurture the next generation of AI pioneers within 
+the  University. AI-deas  has  also  provided  a vehicle 
+to  engage  the  University’s  strategic  research 
+communities,  helping  supercharge  their  work.  The 
+AI  for  Climate  and  Nature  challenge,  for  example, 
+offers  a  route  to  bridge  between  the  University’s 
+flagship  missions  in  AI  and  climate  change,  while 
+also  engaging  climate-  and  biodiversity-related 
+initiatives  across  Departments.  Launch  of  the 
+funded  projects  in  Spring  2024  attracted  media 
+coverage  from  Research  Fortnight  and  POLITICO, 
+which  introduced  the  challenge  areas  themselves 
+and  positioned  Cambridge  as  a  thought-leader  in 
+delivering innovation for public benefit. 
+
+Alongside  its  work  with  the  AI-deas  projects,  ai@
+cam has provided support for a range of large-scale 
+funding bids from researchers across the University. 
+This  has  included  convening  to  help  develop 
+collaborative funding bids and letters of support for 
+major funding proposals. In the coming year, we will 
+also consider how we can build on the community 
+energy behind AI-deas and help progress a range of 
+projects connected to the scheme.
+
+AI-deas: Challenge development workshop
+
+Early  2024  also  brought  the  launch  of  our  HPC 
+Pioneer  Project  scheme.  The  new  Dawn  system, 
+being  developed  by  a  partnership  between  the 
+University of Cambridge, Dell, Intel, and StackHPC, 
+offers the opportunity to accelerate AI research in 
+the University. With the aim of ensuring researchers 
+across the community can capitalise on the benefits 
+Dawn  offers,  ai@cam  convened  the  HPC  Pioneer 
+Project  Scheme  to  help  design  interfaces  and 
+working processes that enhance the accessibility of 
+the system to communities across the University. 
+
+A  joint  call  from  ai@cam,  Research  Computing 
+Services, the Cambridge Open Zettascale Lab, the 
+Cambridge Centre for Data Driven Discovery, and the 
+Institute of Computing for Climate Science offered 
+pioneer projects early access to Dawn and support 
+using  the  new  system.  It  received  46  applications 
+from 20 departments, which are being onboarded 
+across March and April. Working with this cohort of 
+pioneer projects will help tailor Dawn’s operations to 
+the needs of the AI and simulation communities. For 
+example,  lessons  from  these  interactions  will  feed 
+into the design of support services built around the 
+new  compute  facility.  Bridging  between  research 
+and infrastructure in this way can help the University 
+build  a  world-class  compute  environment  for  AI 
+research.
+
+This  collaboration  has  also  resulted  in  a  major 
+funding bid submitted in February 2024.
+
+3
+
+03
+
+1
+
+[BOX 01]
+
+Responsible AI for better 
+lifelong brain and mental 
+health
+
+Brain  diseases  and  mental  health 
+disorders  are  taking  a  toll  on  people 
+throughout their lives. Dementia is the 
+leading cause of death in England and 
+Wales,  and  different  mental  health 
+disorders lead to significant reductions 
+in life expectancy.
+
+This project will use the latest advances 
+in  AI  to  better  understand  brain 
+health and disease. It will explore the 
+environmental, social and neurological 
+factors at play, to develop responsible 
+AI-driven  tools  that  help  clinicians 
+predict,  diagnose  and  treat  brain 
+diseases and mental health disorders.
+
+“AI-deas is a springboard for thinking 
+outside  the  box  about  using  AI  to 
+tackle real-world challenges like those 
+associated  with  brain  and  mental 
+health  disorders.  Brain  and  mental 
+health  disorders  touch  every  family. 
+Building  robust  and  responsible 
+AI  tools  has  the  potential  to  help 
+clinicians  diagnose  early,  improve 
+patient wellbeing  and  outcomes  and 
+reduce misdiagnosis, making resources 
+available  to  people  that  need  them 
+the most.”
+
+— Professor Zoe Kourtzi, AI-deas 
+challenge lead
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048[BOX 04] 
+
+Decision-making with 
+AI in connected places 
+and cities: Developing an 
+ethical and responsible 
+innovation rooted 
+approach for public 
+value creation
+
+Public sector use of AI is growing, with some 
+local authorities in England already using Large 
+Language Models and predictive analytics to 
+make city-scale decisions. It is important that 
+the use of AI to make decisions is ethical and 
+leads to the desired outcomes.
+
+This  project  aims  to  investigate  how  local 
+authorities  in  England  are  using  AI  to  make 
+decisions about issues such as placemaking, land 
+use and mobility, and sustainable water supply 
+systems to create public value. The project will 
+develop resources for local authorities to make 
+ethical and informed choices and the use of AI 
+as part of digitalisation initiatives.
+
+Dr  Kwadwo  Oti-Sarpong,  AI-deas  challenge 
+lead,  said:  “We’re  excited  to  be  one  of  the 
+winners  of  AI-deas  and  work  on  this  project 
+with  practitioners  across  disciplines  to 
+shape  the  future  of  public  sector  decision-
+making using AI in creating connected places. 
+Understanding how to practically root AI use in 
+ethical considerations, and showing how that 
+can be done, will significantly change how we 
+create the future we want.”
+
+020
+
+[BOX 02]
+
+From conception to 
+childhood: Revolutionising 
+women’s health, female 
+fertility and early infant 
+neurodevelopment using AI
+
+The UK has the largest gender health gap in the G20 
+and  declining  fertility  rates,  with  women’s  health 
+issues not well understood.
+
+This  project  aims  to  develop  more  affordable,  less 
+invasive  and  more  accurate  AI-assisted  tests  that 
+can be used throughout the conception to childhood 
+journey.  These  tests  will  be  used  to  enhance  and 
+personalise  fertility  outcomes,  and  support  the 
+transition  to  parenting.  This  research  will  play  a 
+key  part  in  improving  fertility  and  women’s  health 
+outcomes and shed light on the still largely unknown 
+cellular, molecular and genetic mechanisms governing 
+the development of life.
+
+Dr Staci Weiss, AI-deas challenge co-lead said: “AI-
+deas provides an interdisciplinary platform bringing 
+together  data  and  new  AI  analytic  approaches  to 
+
+[BOX 03]
+
+Improving language equity 
+and inclusion through AI
+
+Using language to communicate is something many 
+take for granted. However, a significant proportion 
+of  the  UK  population  find  spoken  or  written 
+communication more difficult due to sensory, neural 
+or  linguistic  challenges  such  as  hearing  loss,  brain 
+injury or language barriers, and can face substantial 
+disadvantages in many aspects of their lives.
+
+3
+
+accelerate  identification  of  reproductive  health 
+biomarkers from embryo through to neonate.”
+
+Mo Vali, AI-deas challenge co-lead said: “We will seek 
+to revolutionise reproductive health technology using 
+state-of-the-art AI methods, leveraging Cambridge’s 
+long  tradition  of  research  in  this  field.  Translating 
+our research from lab to clinic by developing rigorous 
+tests  to  improve  clinical  outcomes  will  benefit  the 
+wider public and help to ease the NHS burden.”
+
+This  project  aims  to  develop  new  AI  methods  to 
+understand and address these challenges to improve 
+equity  and  inclusion.  It  will  develop  new  ways  to 
+support  people with  language  and  communication 
+difficulties. For example, with AI we can assess and 
+diagnose  common  language  and  communication 
+conditions  at  scale,  and  develop  technologies  such 
+as  intelligent  hearing  aids,  real-time  machine 
+translation,  or  other  language  aids  to  support 
+affected individuals at home, work or school.
+
+Matt  Davis,  AI-deas  challenge  lead,  said:  “New  AI 
+technologies  are  changing  our  day-to-day  lives: 
+we  speak  rather  than  type  text  messages  on  our 
+phones,  and  have  conversations  with  Alexa  or  Siri. 
+As  these  systems  become  more  common  they 
+may reinforce the barriers faced by those who find 
+communicating  through  language  more  difficult. 
+Cambridge  University  hosts  the  UK’s  largest 
+community  of  researchers  working  on  speech  and 
+language technology and have a remarkable breadth 
+and  depth  of  expertise  in  understanding  the  real-
+world  impact of language  challenges  in  education, 
+health  or  work.  This  project  brings  these  research 
+communities together to develop new AI technologies 
+to  support  people  who  find  communicating  using 
+language a daily challenge in order to improve equity 
+and inclusion.”
+
+[BOX 05]
+
+AI for climate and nature
+
+03
+
+The  twin  climate  and  biodiversity  crises  are 
+two  of  the  world’s  most  complex  challenges 
+to  tackle.  This  project  aims  to  develop  AI 
+approaches for bringing together a wide range 
+of datasets and accelerating the collation of 
+information.
+
+This  work  will  provide  up  to  date,  relevant 
+and  robust  information  for  researchers  and 
+decision-makers  working  on  climate  and 
+biodiversity  conservation  –  opening  up  the 
+possibility  for  more  targeted  and  effective 
+solutions to some of our world’s most pressing 
+climate and biodiversity challenges. 
+
+This  project  is  a  collaboration  between 
+Cambridge  Zero,  Cambridge  Conservation 
+Initiative, Conservation Evidence, Institute for 
+Computing for Climate Science, Conservation 
+Research  Institute,  Centre  for  Landscape 
+Regeneration,  Cambridge  Centre  for  Carbon 
+Credits  and  Cambridge  Centre  for  Earth 
+Observation.
+
+Anil Madhavapeddy, AI-deas challenge co-lead, 
+said: “Mitigating the impacts of climate change 
+while  maintaining  and  restoring  biodiversity 
+demands urgent, evidence-based action. We’re 
+excited  to  bring  together  an  interdisciplinary 
+team  across  computer  science,  ecology, 
+climate and conservation to use AI to empower 
+decision-makers to equitably tackle the biggest 
+challenge of our generation.”
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048022
+
+3
+
+2
+
+Build partnerships and 
+collaborations that centre 
+societal interests and ethics  
+in AI
+
+03
+
+ai@cam  embraces  a  spirit  of  openness  and 
+collaboration. We want to bring a diversity of 
+perspectives to bear on the development of AI, 
+prioritising  the  involvement  of  communities 
+affected by AI, and partnering across academia, 
+policy, civil society, and industry to deliver our 
+vision. 
+
+Alongside the internal collaborations nurtured 
+by the AI-deas initiative, a partnership between 
+ai@cam  and  the  Kavli  Centre  for  Ethics, 
+Science,  and  the  Public  has  been  exploring 
+how the University can centre public voices in 
+AI  research.  In  October  and  November  2023, 
+ai@cam  supported  two  Hopes  and  Fears 
+Labs  –  a  flagship  programme  from  the  Kavli 
+Centre that convenes open dialogue between 
+researchers and the public on critical areas of 
+science – focused on AI. Across the two days, 
+at  sites  in  Cambridge  and  London,  over  100 
+members of the public joined conversations with 
+Cambridge  University  researchers  on  topics 
+spanning health, environment, arts and culture, 
+and  policy.   This  collaboration  also  supported 
+a  Citizen’s  Panel  on  AI,  led  by  the  charity 
+Connected by Data, which invited participants 
+from  across  the  UK  to  deliberate  on  current 
+issues in AI policy and develop recommendations 
+to enhance its democratic governance.
+
+Amidst heated debate about the risks associated 
+with  frontier  AI  systems,  a  collaboration 
+between  ai@cam,  the  Bennett  Institute  for 
+Public  Policy,  and  the  Minderoo  Centre  for 
+Technology and Democracy set out to connect 
+Cambridge  expertise  to  policy  conversations. 
+Published ahead of the International AI Safety 
+Summit, a policy brief considered what national 
+capability the UK needs to develop and deploy 
+responsible frontier AI systems. This briefing was 
+covered by The Times and POLITICO, alongside 
+specialist publications such as The Next Web, 
+The Information Age, Open Access Government, 
+and  the  Innovation  News  Network.  Alongside 
+this  publication,  a  series  of  six  ai@cam  blog 
+posts  from  different  disciplinary  perspectives 
+explored the risks and opportunities of AI, and 
+the actions needed in response. 
+
+6.  For video summaries of these sessions, see: https://www.kcesp.
+
+ac.uk/hopes-and-fears-lab-ai-edition-videos/ 
+
+7. 
+
+https://ai.cam.ac.uk/news/2023-11-01-cambridge-perspectives-
+
+genai-governance
+
+“
+
+We want 
+to bring a 
+diversity of 
+perspectives  
+to bear on the 
+development of AI
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048024
+
+3
+
+Create spaces for innovative 
+projects to spin up and respond 
+to areas of need
+
+The HPC Pioneer Project scheme is one example 
+of  the  enabling  role  that  ai@cam  is  playing 
+across the University. By connecting across the 
+community of researchers and centres with an 
+interest in AI, ai@cam is helping the University 
+respond to areas of need locally and nationally. 
+Other  examples  of  such  enabling  activities  in 
+year one have included:
+
+ → Supporting the School of Technology 
+
+Postgraduate Education team to review 
+and shortlist bids for funding to create 
+Centres for Doctoral Training;
+
+ → Convening 35 researchers with an interest 
+
+in UKRI’s funding call for AI hubs to 
+network and develop their ideas for bids;
+
+ → Working with the Strategic Partnerships 
+Office to provide a point of contact 
+for industrial collaborators to develop 
+strategic partnerships with the University.
+
+ → Developing relationships with international 
+
+collaborators, with the University 
+International Team.
+
+ → Advising Innovate Cambridge on how to 
+
+develop its approach to AI.
+
+By  providing  a  hub  that  connects  research, 
+business,  civil  society,  and  policy,  ai@cam  will 
+support the deployment of AI for wider societal 
+and economic benefit. To achieve its ambition 
+of  being  a  hub  for  responsible  AI  innovation, 
+the University needs spaces to bring together 
+collaborators  from  different  domains  in  an 
+environment  that  encourages  knowledge 
+exchange and connects to society’s needs. The 
+extent  to  which  traditional  innovation  spaces 
+are useful in AI is an open question. In its next 
+phase  of  development,  ai@cam  will  explore 
+how  new  physical  spaces  can  help  connect 
+AI  innovation  to  societal  benefit,  through 
+mechanisms that combine elements of start-up 
+support; responsible innovation; public dialogue; 
+and business engagement.
+
+3
+
+03
+
+Hopes & Fears Event
+
+“
+
+By providing a 
+hub that connects 
+research, business, 
+civil society, and 
+policy, ai@cam 
+will support the 
+deployment of AI 
+for wider societal 
+and economic 
+benefit. 
+
+4
+
+Widen access to AI knowledge 
+and skills across and outside 
+the University
+
+The  University  aspires  to  be  an  innovator  in 
+AI  education,  creating  learning  programmes 
+that  advance  AI  technologies,  that  embed  AI 
+knowledge across disciplines, and that support 
+the  next  generation  of AI  leaders  in  research, 
+business,  policy  and  society.  Both  within  and 
+outside the University, diverse communities of 
+learners could benefit from wider access to AI 
+knowledge.  Delivering  these  aspirations  will 
+require a step-change in access to AI training 
+and education. 
+
+To  explore  how  the  University  can  develop  its 
+teaching  offer  to  support  these  outcomes, 
+in  Spring  2023  ai@cam  convened  a  cross-
+University  workshop  on  AI  teaching  and 
+learning. This workshop identified the need for 
+an infrastructure for AI teaching and training 
+that  can  accommodate  the  needs  of  diverse 
+learner  groups.  Such  an  infrastructure  would 
+allow  learners  to  understand  what  learning 
+materials would suit their needs, access those 
+
+materials  through  taught  courses  and  self-
+study,  and  apply  the  results  of  their  learning 
+in  practice.  Discussions  generated  ideas  for 
+flexible re-use of teaching material, open access 
+repositories, and workshops and study groups to 
+expand access to AI knowledge. While ai@cam 
+recruits a core team that can help develop these 
+ideas,  some  have  already  been  trialed  under 
+the auspices of the Accelerate Programme for 
+Scientific Discovery (see Next Page).
+
+Underpinning these discussions about teaching 
+and  learning  is  a  strategic  question  about 
+capability building in core AI domains. In June 
+2023,  guided  by  discussions  at  its  Steering 
+Group,  ai@cam  convened  a  cross-institution 
+group of Professional Service Staff to explore 
+organisational  interventions  to  support  such 
+capability building. 
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048026
+
+0026
+0026
+
+The Accelerate Programme 
+for Scientific Discovery
+
+The Accelerate Programme for Scientific Discovery, led 
+by Neil Lawrence and Jessica Montgomery and funded 
+by Schmidt Futures, is an approx. £7M cross-University 
+initiative equipping future research leaders with the AI 
+skills to drive a new wave of scientific progress. ai@cam 
+is leveraging synergies with this initiative to develop its 
+approach to teaching and training. Since its creation in 
+2020, Accelerate has trained over 400 researchers in data 
+science and AI through its taught courses and workshops, 
+and its community building activities have reached over 
+800 participants. 
+
+Accelerate’s  aim  is  to  create  a  pipeline  of  activities 
+that allow researchers to progress from learning basic 
+
+3
+
+coding  skills  to  deploying  advanced  AI  methods.  The 
+team currently deliver five types of learning support [see 
+opposite panel].
+
+The  Accelerate  Programme  will  run  to  March  2026. 
+Community-building is central to its continuing impact 
+over  the  long-term,  and  current  activities  are  being 
+designed to encourage peer mentoring and community 
+support. There are also opportunities to embed this work 
+in the University’s vision for its AI research resource (set 
+out later in this document).
+
+03
+
+Self-learning
+
+Researchers seeking an introduction to Python programming – set in the scientific 
+context – can register for an Accelerate self-learning module on Python for Science. 
+To date, over 400 participants have registered for this course. Alongside this 
+interactive material, Accelerate-supported researchers make their lecture materials 
+openly accessible, allowing learners to explore topics in Advanced Data Science and 
+Machine Learning and the Physical World. In 2024, a collaboration with Cambridge 
+University Press and Assessment – via Cambridge Advanced Online – will explore how 
+these materials can be made more readily usable by different learner communities. 
+
+Taught Courses
+
+Accelerate supports two structured courses for researchers seeking to build their 
+data science and AI skills. A five-week Data Science for Science Residency equips 
+participants with core skills in data science, while a one-year Machine Learning 
+Academy introduces more advanced AI methods. Both are convened in partnership 
+with Cambridge Spark. 
+
+Training Workshops
+
+Alongside these courses, Accelerate delivers one-day training workshops that 
+provide practical support in using AI techniques. These focus on: Large Language 
+Models; Software Engineering Best Practices; Data Pipelines; and Diffusion Models. 
+
+Engineering Support
+
+Accelerate’s AI Clinic offers tailored support for researchers as they implement AI in 
+their science. Researchers can submit a request for support, which is responded to by 
+Accelerate’s machine learning engineers.
+
+Peer Mentoring
+
+Community-building activities – including events, networking sessions, and workshops 
+– help scale the impact of Accelerate-driven courses through peer mentoring and 
+support. 
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISHSECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH028
+
+5
+
+Connect Cambridge 
+expertise to national  
+AI priorities 
+
+At  a  time  of  heightened  public  interest  in 
+AI,  access  to  trustworthy  information  and 
+insights  to  inform  policy  debates  is  more 
+important than  ever. The  University  can  offer 
+policymakers  access  to  a  wealth  of  expertise 
+and  the  opportunity  to  trial  new  ideas.  ai@
+cam’s Policy Lab provides a forum to connect 
+stakeholders from research, public, private, and 
+philanthropic sectors to enable such evidence-
+based, informed policymaking. 
+
+Our first Policy Lab activities connected to the 
+UK Government’s AI Safety Summit in Autumn 
+2023, resulting in a policy brief on Generative 
+AI  in  collaboration  with  the  Bennett  Institute 
+and  Minderoo  Centre  for  Technology  and 
+Democracy.  Across  2023  and  2024,  ai@cam 
+has  convened  a  range  of  policy  engagement 
+activities that continue the conversation about 
+how to bridge from technology development to 
+public value. 
+
+These include      
+
+ai@cam has also established an international 
+presence, through a collaboration with strategic 
+partners in Switzerland. A series of workshops 
+with the Swiss Federal Department of Foreign 
+Affairs  and  ETH  Zurich  resulted  in  an  ai@
+cam-convened  panel on AI governance at the 
+AI House in Davos in January 2024, alongside 
+the  launch  of the  International  Compute  and 
+AI Network.
+
+By working closely with policymakers, ai@cam 
+will  facilitate  the  development  of  informed, 
+practical  policies  for  AI,  ensuring  that  these 
+powerful technologies connect to public benefit. 
+For  example,  workshops  with  the  Centre  for 
+Science and Policy in Spring-Summer 2024 will 
+convene  on  topics  including  life  sciences  and 
+education.
+
+A   w o r k s t ra n d   o n   c o m m u n i c a t i o n s ,   i n 
+collaboration with the central communications 
+team,  has  enabled  this  work.  ai@cam  has 
+created  a  new  communications  strategy, 
+and  looks  forward  to  being  joined  by  a 
+Communications  and  Engagement  Manager 
+to deliver this strategy in the coming months.
+
+2 roundtables
+Two roundtables with Peter 
+Kyle MP, Shadow Secretary of 
+State for Science, Innovation 
+and Technology, which explored 
+AI governance and the role of 
+AI in research and innovation. 
+
+3 local councils
+A roundtable with three local 
+councils, which developed 
+connections between their AI 
+strategies and local innovation 
+activities. 
+
+2 evidence 
+sessions
+2 contributions to the House 
+of Lords Digital Committee, 
+helping inform their inquiry into 
+Large Language Models.
+
+3
+
+6 Government 
+bodies
+1:1 meetings with the Department 
+for Science, Innovation, and 
+Technology, Cabinet Office, the AI 
+Safety Institute, the Department 
+for Education, the Department 
+for Business and Trade, and the 
+Committee for Standards in  
+Public Life. 
+
+Panel discussion on open source technology and AI safety 
+at the AI House in Davos, January 2024
+
+Professor Neil Lawrence speaking to the House of Lords 
+Communications and Digital Committee, September 2023
+
+03
+
+Our collaborators
+
+ → Accelerate Programme for Scientific 
+
+Discovery
+
+ → Addenbrooke’s Hospital
+ → AI4ER CDT 
+ → Bennett Institute for Public Policy
+ → Cambridge Centre for Data Driven 
+
+Discovery
+
+ → Cambridge Centre for Earth Observation 
+ → Cambridge Centre for Science and Policy
+ → Cambridge Conservation Initiative
+ → Cambridge University Development and 
+
+Alumni Relations Office
+
+ → Cambridge Zero
+ → Centre for Carbon Credits
+ → Centre for Landscape Regeneration  
+ → Communications team
+ → Connected by Data
+ → Conservation Research Institute
+ → Department of Applied Mathematics and 
+
+Theoretical Physics
+
+ → Department of Architecture 
+ → Department of Computer Science and 
+
+Technology
+
+ → Department of Engineering
+ → Department of Geography
+ → Department of Land Economy
+ → Department of Physics 
+ → Department of Physiology, Development 
+
+and Neuroscience
+
+ → Department of Plant Sciences
+ → Department of Psychiatry
+ → Department of Psychology
+ → Department of Zoology
+ → Department of Zoology
+ → ETH Zurich Innovate Cambridge
+ → Faculty of Education
+ → Faculty of Modern and Medieval 
+
+Languages and Linguistics
+
+ → Innovate Cambridge
+ → Institute for Computing for Climate 
+
+Science 
+
+ → Institute of Continuing Education
+ → Kavli Centre for Ethics, Science, and the 
+
+Public
+
+ → Leverhulme Centre for the Future of 
+
+Intelligence
+
+ → Minderoo Centre for Technology and 
+
+Democracy
+
+ → MRC Cognition and Brain Sciences Unit
+ → Open Zettascale Lab
+ → Research Computing Services
+ → Strategic Partnerships Office
+ → Swiss Federal Department of Foreign 
+
+Affairs
+
+ → The Lister Hospital, HCA
+ → University Information Services 
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048Section 4
+Looking 
+Ahead
+
+030
+
+4
+
+0 4
+
+“
+
+ The University  
+of Cambridge aspires 
+to be a global force  
+in AI research,  
+a world-leader  
+in education, and an 
+engine for innovation 
+that delivers  
+social benefit.
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048032
+
+A vision for AI 
+at Cambridge
+
+The community engagement that led to the creation of 
+ai@cam  articulated  a  vision  for  AI  at  the  University.  In 
+this vision, the University is both the heart of a vibrant 
+local AI innovation ecosystem and a strategic AI research 
+resource with national and international influence. It is a 
+global force in AI research, a world-leader in education, and 
+
+an engine for innovation that delivers social benefit. ai@
+cam provides a mechanism to realise these aspirations.
+
+Inspired  by  our  consultation  with  Cambridge’s  AI 
+community,  we  envisage  a  world-class  AI  research 
+resource built on three pillars of activity:
+
+Capability: 
+
+A critical mass of expertise in AI technologies 
+- and their safe and effective use - through 
+significant investment in new faculty, machine 
+learning engineers, and funding for PhD 
+students. 
+
+Compute: 
+
+Cutting-edge compute resources that allow 
+researchers to rapidly train, test, and deploy AI 
+tools, with support to ensure these innovations 
+are developed safely and responsibly. 
+
+Challenges: 
+
+3
+
+A step-change in interdisciplinary collaboration 
+that identifies and responds to real-world 
+challenges in science, policy, industry, and civil 
+society, facilitated by a shared space that 
+provides a focal point for AI activities across 
+the University. 
+
+In the near-term, ai@cam is building a foundation for AI that 
+serves  science,  citizens,  and  society.  Our  AI-deas,  Policy  Lab, 
+Accelerate Science training, and industry engagement activities 
+are catalysing interdisciplinary collaboration and challenge-led 
+research.  Our  work  with  Research  Computing  Services  and 
+collaborators on the HPC Pioneer Project Scheme and Dawn 2 
+compute funding bid are helping develop a world-class compute 
+facility.  Early  discussions  with  the  Department  of  Computer 
+Science  and  Department  of  Engineering  are  exploring  the 
+creation of a shared office for core technical teams, from where 
+we can scale collaborative activities. 
+
+In  the  longer-term,  delivering  this  vision  will  require 
+transformational funding. 
+
+ → Cluster hiring in interdisciplinary AI would allow the 
+University to rapidly scale its AI capabilities across 
+departments through recruitment of new faculty and PhD 
+students. 
+
+ → Investments in a shared collaborative space could unlock 
+new interdisciplinary innovations within and outside the 
+University. 
+
+ → Resources to facilitate engagement with policy, industry, 
+and civil society could generate partnerships that identify 
+new directions for challenge-led research. 
+
+Each of these contributes to an enabling environment in which 
+Cambridge has the talent, connections, and collaborative culture 
+to  scale  its  research  and  education  activities.  ai@cam  and 
+CUDAR are creating a proposal that will set out this vision. This  
+will  continue  to  be  a  priority  for  the  ai@cam  mission  in  the 
+coming years.
+
+0 4
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048034
+
+4
+
+ai@cam’s  
+approach 
+
+We aim to be outward-facing, 
+inclusive, and innovative in our 
+approach to developing the 
+ai@cam mission. 
+
+In support of these goals, the 
+following tenets currently 
+shape our work:
+
+One
+
+We prioritise real-world challenges 
+and societal benefit. 
+
+Two
+
+We centre interdisciplinarity in  
+our work. 
+
+0 4
+
+Three
+
+We collaborate for scale  
+and impact. 
+
+Four
+
+We seek new ways of working and 
+innovative solutions. 
+
+Five
+
+We seek to raise all boats, bringing 
+benefits across the Cambridge 
+community.
+
+As our work progresses, we’ll 
+continue to review these tenets. 
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048Section 5
+2024-2025
+
+036
+
+5
+
+“
+
+The next year will 
+see ai@cam launch 
+further flagship 
+initiatives, develop 
+its portfolio of 
+foundational 
+activities, and scope 
+future initiatives 
+in response to 
+community needs. 
+
+05
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048038
+
+5
+
+Nurture a dynamic 
+interdisciplinary research 
+community
+
+FOUNDATION:
+
+Our  AI-deas  initiative  has  energised  communities  across  the  University,  and  is  supporting  
+five challenge-led research programmes. 
+
+FUTURE:
+
+ → Building on this successful first phase 
+
+of implementation, in the next year ai@
+cam will establish its interdisciplinary 
+research incubator that supports the 
+first cohort of AI-deas to move from idea 
+to implementation. This incubator will 
+facilitate networking and mentorship, 
+support partnership development, 
+enhance internal and external 
+communications, and provide high-quality 
+technical support. Challenge teams will 
+be able to scale their work and begin to 
+translate their ideas to wider impact. 
+
+ → Alongside supporting the five challenges 
+funded by AI-deas, we will work with the 
+large pool of applicants to the AI-deas 
+
+scheme to develop activities that help 
+build this community. 
+
+ → If the University’s 2024 HPC funding bid is 
+successful, we will support an expansion 
+of the HPC Pioneer Project activities, 
+and work with the Research Computing 
+Services team to deliver a world-class AI 
+computing research resource.
+
+ → In the longer-term, there are opportunities 
+to expand this work through cluster hiring. 
+We will work with CUDAR to progress a 
+proposal for transformational investment 
+in AI at the University.  
+
+Build partnerships 
+and collaborations 
+that centre societal 
+interests and ethics
+
+FOUNDATION:
+
+Our  collaboration  with  the  Kavli  Centre  for 
+Ethics,  Science,  and  the  Public  (KCESP) 
+has  established  a  proof  of  concept  for  the 
+integration of public voices in the Cambridge 
+AI research community. 
+
+FUTURE:
+
+ → We will collaborate with KCESP, CSaP and 
+CUDAR to create a vision for an ambitious 
+Citizens Assembly on AI and to secure 
+resources for this work. This Assembly will 
+convene citizen-led deliberations about AI 
+that connect directly to research, policy, 
+and practice, and will provide a forum 
+for Cambridge research to centre citizen 
+voices in its AI research. It will be unique in 
+both its scale and its innovative methods 
+to deliver deliberative dialogues at scale. 
+
+05
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048040
+
+5
+
+Create spaces for innovative 
+projects to spin up and 
+respond to areas of need
+
+FOUNDATION:
+
+ai@cam  has  already  supported  teams  across  the  University  to  take  advantage  of  funding 
+opportunities, potential collaborations, and new research resources. While continuing to deliver 
+these functions in ‘responsive mode’ - for example, convening in response to large-scale funding 
+opportunities - in the next year we will scale activities to deliver the 2022 ai@cam review vision 
+of a hub for innovation.
+
+FUTURE:
+
+ → Our innovation initiative (working name: 
+sciencepreneurship at Cambridge) will 
+support researchers and external partners 
+to experiment, prototype, and pilot AI 
+innovations that respond to societal 
+needs. In the near-term, this scheme 
+will build bridges between researchers, 
+entrepreneurs, and the local innovation 
+ecosystem through workshops and 
+training sessions that support students 
+and researchers to build and scale their 
+ideas. 
+
+ → Lessons from this work - and from an 
+
+in-depth review of the needs of the 
+AI community - will be used to take 
+forward the vision proposed in the 2022 
+review of a new space that facilitates 
+connections between AI researchers and 
+experimentalists. This space is integrated 
+into our long-term vision for AI at the 
+University.
+
+ → We will advance partnership discussions 
+
+with potential strategic partners. 
+
+Widen access to AI 
+knowledge and skills
+
+FOUNDATION:
+
+Consultations  in  our  first  year  of  operation 
+have identified scalability as a core challenge 
+in  enabling  wider  access  to  AI  teaching  and 
+learning  activities  across  the  University. 
+Initiatives  in  year  two  will  experiment  with 
+mechanisms  to  enable  a  wider  range  of 
+students and staff to access relevant resources.
+
+FUTURE:
+
+ → A collaboration with Cambridge University 
+Press and Assessment will pilot shareable 
+teaching materials on core concepts 
+in machine learning. Next steps in this 
+collaboration will be confirmed after a 
+feasibility study. 
+
+ → We will leverage synergies with the 
+
+Accelerate Programme for Scientific 
+Discovery to support a pipeline of teaching 
+and learning activities that can support 
+a researcher to progress from learning 
+programming skills, to understanding core 
+concepts in data science and AI, through 
+to deploying foundation models in their 
+research. These activities will include 
+hands-on workshops in using AI, study 
+groups, and self-learning materials in core 
+AI concepts. 
+
+ → Lessons from these projects will inform the 
+longer-term development of a carpentry-
+style mechanism for scaling access to AI 
+knowledge and skills across the University. 
+
+05
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048042
+
+5
+
+Connect to national and 
+Connect to national and 
+international AI priorities
+international AI priorities
+
+FOUNDATION:
+FOUNDATION:
+
+Initial  Policy  Lab  activities  have  demonstrated  our  ability  to  convene  Cambridge  University 
+Initial  Policy  Lab  activities  have  demonstrated  our  ability  to  convene  Cambridge  University 
+expertise in response to national policy priorities. Following a soft-launch of this initiative in 
+expertise in response to national policy priorities. Following a soft-launch of this initiative in 
+autumn  2023,  ai@cam  will  develop  a  full  programme  of  activities,  including  workshops  with 
+autumn  2023,  ai@cam  will  develop  a  full  programme  of  activities,  including  workshops  with 
+CSaP and engagements with local government partners. 
+CSaP and engagements with local government partners. 
+
+FUTURE:
+FUTURE:
+ → The next phase of ai@cam’s Policy Lab 
+ → The next phase of ai@cam’s Policy Lab 
+will position Cambridge for influence in 
+will position Cambridge for influence in 
+a growing conversation about the use 
+a growing conversation about the use 
+of AI for public services. Starting with a 
+of AI for public services. Starting with a 
+collaboration across local governments 
+collaboration across local governments 
+in Greater Cambridgeshire, ai@cam 
+in Greater Cambridgeshire, ai@cam 
+will bring together researchers and 
+will bring together researchers and 
+policymakers to explore potential 
+policymakers to explore potential 
+applications of AI in public services, 
+applications of AI in public services, 
+prototype AI-enabled solutions to public 
+prototype AI-enabled solutions to public 
+sector challenges, and share lessons 
+sector challenges, and share lessons 
+learned through community-building and 
+learned through community-building and 
+case studies. 
+case studies. 
+
+ → Responsive policy engagement activities 
+ → Responsive policy engagement activities 
+
+will bring Cambridge University 
+will bring Cambridge University 
+researchers together to tackle issues 
+researchers together to tackle issues 
+of current concern at the interface of 
+of current concern at the interface of 
+research, innovation, and policy. For 
+research, innovation, and policy. For 
+example, CSaP workshops in April and 
+
+May will convene industry leaders in 
+example, CSaP workshops in April and 
+the life sciences and policy leaders in 
+May will convene industry leaders in 
+education, respectively, to consider the 
+the life sciences and policy leaders in 
+impact of AI on their sectors. Further such 
+education, respectively, to consider the 
+engagements will be scoped in line with 
+impact of AI on their sectors. Further such 
+political developments in the next year, 
+engagements will be scoped in line with 
+and delivered through workshops, policy 
+political developments in the next year, 
+briefs and evidence synthesis, and horizon-
+and delivered through workshops, policy 
+scanning activities. 
+briefs and evidence synthesis, and horizon-
+scanning activities. 
+international relationships through 
+collaborations with strategic partners. ai@
+international relationships through 
+cam will support the International Team 
+collaborations with strategic partners. ai@
+to host a delegation of researchers and 
+cam will support the International Team 
+policymakers from Germany in June and 
+to host a delegation of researchers and 
+from Switzerland over the Summer.
+policymakers from Germany in June and 
+from Switzerland over the Summer.
+
+ → ai@cam will also support the University’s 
+
+ → ai@cam will also support the University’s 
+
+Alongside these areas for action,  
+ai@cam will continue to build its 
+governance and strategy, including 
+activities to convene its Steering  
+Group, consult with the Cambridge  
+AI community about its future  
+direction, help the community respond  
+to large-scale funding bids, and recruit  
+a core team to drive mission progress.
+
+05
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048Annex1
+Steering 
+Group  
+Membership
+
+044
+
+7
+
+06
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048046
+
+John Aston
+
+Colm-cille Caulfield
+
+Diane Coyle
+
+Neil Lawrence
+
+Tim Minshall
+
+Jessica Montgomery
+
+Harding Professor of Statistics in 
+Public Life, Department of Pure 
+Mathematics
+
+Professor of Environmental and 
+Industrial Fluid Dynamics, Head 
+of the Department of Applied 
+Mathematics and Theoretical 
+Physics, and co-Chair, C2D3
+
+Bennett Professor of Public 
+Policy, Bennett Institute
+
+Department of Computer 
+Science and Technology
+
+Dr John C Taylor Professor 
+of Innovation, Institute for 
+Manufacturing
+
+Director, ai@cam
+
+Mireia Crispin
+
+Anne Ferguson-Smith
+
+Simon Godsill
+
+Gina Neff
+
+Carola-Bibiane 
+Schönlieb
+
+7
+
+Assistant Professor, Integrated 
+Cancer Medicine, Department of 
+Oncology
+
+Pro-Vice Chancellor (Research 
+and International Partnerships)
+
+Professor of Statistical 
+Signal Processing and Head 
+of Information Engineering, 
+Department of Engineering
+
+Executive Director, the Minderoo 
+Centre for Technology & 
+Democracy
+
+Professor of Applied 
+Mathematics, Department 
+of Applied Mathematics and 
+Theoretical Physics
+
+06
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048048
+
+Get in touch
+
+8
+
+For questions about this report, 
+please email:  
+contact@ai.cam.ac.uk
+
+Visit:
+ai.cam.ac.uk
+
+Connect on X:
+@ai_cam_mission
+
+LinkedIn:
+@ai-cambridge
+
+SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048SECTIONANNUAL REPORT 2024 • AI@CAMSTARTFINISH048 
+ 
+Annual
+
+Report
+
+2023 
+–24
+
+

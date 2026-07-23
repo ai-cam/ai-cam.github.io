@@ -1,0 +1,2209 @@
+Policy brief: Refreshing the UK’s strategic approach to AI December 2024ai.cam.ac.ukIn partnership with:Foreword
+
+AI is at risk of following a well-worn path that results in technological innovations that 
+fail to address real-world challenges. We have almost a decade of evidence showing 
+what people want from AI. Public dialogues consistently call for AI technologies that 
+tackle the challenges that affect our shared health, wellbeing, and prosperity, that 
+help strengthen our communities and our personal interactions, and that support 
+democratic governance. The last ten years have brought impressive technical advances 
+in AI and intense policy activity. However, neither technology or policy development have 
+been well connected to social need. 
+
+The AI Opportunities Action Plan has the potential to address the gap between 
+technology and widespread public benefit, not only in what policy actions it 
+recommends, but in how those recommendations are taken forward. This report starts 
+a discussion about how to bridge between the UK’s high-level policy ambitions for AI 
+and the development and implementation of technologies and policy frameworks that 
+can deliver on those ambitions. 
+
+The next phase of AI policy will need to consider how to centre public interests in AI 
+development, how to strengthen governance frameworks that steward AI development 
+towards shared public benefit, how to build a public infrastructure for innovation, and 
+how to grow the UK’s domestic AI base in a way that delivers real benefits for citizens. 
+This report introduces the broad range of levers that government could consider as part 
+of its policy agenda for AI. In many of these areas there is an existing evidence base 
+about ‘what works’ in technology and policy that Government can draw from. Future 
+work by ai@cam will consider these areas for action further.
+
+Across these areas, the report highlights a need to focus on the practical barriers 
+to delivering AI-enabled solutions to real-world challenges as part of policy design 
+and implementation. The UK has strategic strengths in research and human capital. 
+These strengths could be deployed to bridge the gaps between research and 
+practice that affect how, where, and for whose benefit AI innovations develop. The 
+call in this document is for innovative approaches to open policy development that 
+embed stakeholder engagement across the policy lifecycle. By supporting those on 
+the frontlines of innovating with AI to deliver public benefit, the UK can generate 
+a productivity flywheel that scales AI innovation while closing the gap between 
+technological progress and real-world benefit. 
+
+J.Montgomery
+
+Jessica Montgomery, Director, ai@cam, 
+University of Cambridge
+
+N.Lawrence
+
+Neil Lawrence, DeepMind Professor 
+of Machine Learning, University of 
+Cambridge
+
+D.Coyle
+
+Diane Coyle, 
+
+Bennett Professor of Public Policy, 
+University of Cambridge
+
+G.Neff
+
+Gina Neff, Professor of Responsible 
+AI, Queen Mary University of London, 
+Executive Director of the Minderoo Centre 
+for Technology & Democracy, University of 
+Cambridge, and Deputy CEO, Responsible 
+AI UK
+
+ 2
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+Summary
+
+AI technologies and policy development are not addressing 
+social needs in the way they should. The result is a growing gap 
+between AI’s technical capabilities and our ability to deploy 
+these capabilities to deliver public benefit. Policy development to 
+increase the ‘supply’ of innovative AI technologies is important, 
+but needs to be complemented by interventions centred on areas 
+of ‘demand’. Policy implementation needs to connect the two. 
+
+understanding of the gaps in current regulatory frameworks, 
+or the overlaps between different regulatory remits, risks 
+holding back research and investment. A gaps and overlaps 
+analysis would be a starting point to giving clearer advice to 
+innovators about the regulatory frameworks that apply to 
+their work, and to helping regulators build capacity in areas 
+of need. 
+
+In its response to the AI Opportunities Action Plan, the UK has 
+scope to refresh its national approach to AI. As discussions about 
+that Action Plan continue, this policy brief starts by taking stock 
+of where further action could help create a world-leading UK 
+AI ecosystem. The next phase of AI policy development could 
+provide an opportunity to: 
+
+ → Connect to public interests and concerns: We benefit 
+
+from having almost a decade of evidence about people’s 
+aspirations and concerns about the development of AI. This 
+evidence base shows a demand for innovative solutions 
+to the challenges that affect our health, wellbeing, and 
+shared prosperity. It also shows a growing concern about 
+the need for effective regulation and governance to support 
+democratic oversight of technology development and ensure 
+AI’s benefits are shared across society. In response, we need 
+to do more to connect public voices to AI R&D, and to rally 
+efforts to drive progress in AI in areas of need. 
+
+ → Build regulatory capacity for innovation: Regulation can be 
+an enabler of AI innovation, giving innovators predictable 
+frameworks to develop new AI applications and publics the 
+confidence that those innovations are trustworthy. A lack of 
+
+ → Design our public innovation infrastructure to tackle  
+
+real-world problems: Investments in High Performance 
+Compute (HPC) Facilities and policy initiatives such as the 
+National Data Library offer a route to building a public 
+infrastructure for AI innovation. Access to HPC could 
+accelerate progress in AI, if these facilities can be made 
+accessible to researchers working across diverse application 
+areas and connected to secure data environments that 
+respect concerns about data confidentiality, security, and 
+intellectual property. The National Data Library could provide 
+a focal point to unblock access to strategically important 
+datasets, if its design is rooted in an understanding of the 
+barriers to data access and aligned with public expectations 
+around trustworthy data use. Delivering impact from these 
+initiatives will require further effort to connect policymakers 
+to the practical challenges associated with AI R&D. 
+ → Grow the domestic base: A cluster of forthcoming policy 
+
+initiatives are expected to focus on the challenge of building 
+the UK’s AI capabilities. In developing new policy agendas on 
+support for business, skills and talent, and research funding 
+or mission-led innovation, Government has an opportunity 
+to work collaboratively with the AI R&D community to both 
+build on established evidence bases and learn from on-the-
+
+ 3
+
+Policy brief: Refreshing the UK’s strategic approach to AI ground experiences of AI innovation. For example, one area 
+of growing interest is the use of AI in public services. Previous 
+efforts to promote technology adoption in the public sector 
+show how top-down initiatives fail. When thinking about 
+the role of AI in the public sector, Government today has an 
+opportunity to work differently, focusing instead on service 
+users and people working on the frontline of delivery.
+
+No matter what path or priority is chosen, success will require a 
+shift in how policy is implemented, so that interventions unblock 
+the practical barriers to innovating with AI for societal benefit. 
+Almost a decade of intense policy interest in AI has struggled to 
+connect technology to widespread social and economic benefit. 
+The next phase of policy development needs to grapple with the 
+challenge of translating high-level policy ambitions into practical 
+action that delivers those benefits. 
+
+The UK has strategic advantages in research, in the human 
+capital to innovate with AI, and in regulatory institutions that can 
+steward AI innovation. There already exists a wealth of evidence 
+that Government can draw from in developing practical policy 
+interventions in AI. There are also world-leading communities of 
+research and practice in the UK that can be engaged to develop 
+innovative policy solutions in areas of need. Government now 
+needs mechanisms to engage this evidence and research base to 
+drive progress through a new wave of open policy innovation. 
+
+ 4
+
+Policy brief: Refreshing the UK’s strategic approach to AI Contents
+
+Summary
+
+Introduction
+
+Developing a vision for AI
+
+Creating the conditions for effective governance
+
+Building a public innovation infrastructure 
+
+Growing the domestic base
+
+Conclusion
+
+Annexes
+
+Endnotes
+
+3
+
+6
+
+7
+
+10
+
+12
+
+15
+
+18
+
+20
+
+22
+
+ 5
+
+Policy brief: Refreshing the UK’s strategic approach to AI Introduction
+
+The UK Government’s 2017 AI Review1 was in the first wave 
+globally of national government strategies for AI.2 Since 
+publication of that review, there have been other policy 
+statements aiming to build the UK’s AI capabilities. The AI Sector 
+Deal3 and National AI Strategy4 set out frameworks to create 
+an enabling environment for AI. The AI Regulation White Paper 
+considered regulatory strategies to balance innovation and 
+safety.5 New legislation has provided data rights for citizens 
+and powers for regulators.6 In the past year, investments in 
+safety research started an international conversation about 
+the capabilities of frontier AI models.7 Upcoming legislation 
+is expected to bring new changes to the governance of data 
+sharing in the private and public sectors.8 
+
+Over this period, technological and political changes have shifted 
+the opportunities and risks associated with AI, with implications 
+for the policies required to steward its development. Progress 
+in generative AI has delivered systems that feel more accessible 
+to a wider range of users. In the hype surrounding the launch 
+of these new AI products, the hope has been they herald a 
+new wave of implementation. Whether the huge investments 
+being made in generative AI translate into economic benefit, 
+however, remains a point of debate.9 Experiences of AI over 
+the last ten years demonstrate the difficulties of bridging 
+the gap between technology development and real-world 
+deployment.10 The political landscape surrounding AI has also 
+changed. Internationally, at least 34 countries now have national 
+AI strategies,11 AI features regularly on the agenda of meetings 
+of G7 and G20 leaders, and there are new calls for global 
+governance frameworks.12
+
+Despite these advances in technology, policy, and practice, there 
+remains a persistent gap between AI’s technical capabilities and 
+the ability to leverage these capabilities for widespread social 
+and economic benefit. At a time when the UK is grappling with 
+pressing social challenges – from increased demand for health 
+and social care, to widening inequalities in educational outcomes 
+for students from different backgrounds, to the cost-of-living 
+crisis affecting everyday life for many families, and more – there 
+is a pressing need for innovative interventions that enable 
+economic growth and improve people’s wellbeing. To date, AI has 
+played little role in helping tackle any of the complex problems 
+facing many societies.13
+
+How AI progresses will be shaped by social, political, and 
+economic forces – institutions, people, cultures – that influence 
+who develops these technologies, for what purpose, and for 
+whose benefit. Autumn 2024’s AI Opportunities Action Plan14 is 
+expected to bring with it a new wave of policy development and 
+implementation. The opportunity for this next wave of AI policy 
+activity is to recentre societal interests and needs. Both ‘what’ 
+and ‘how’ matter. This brief considers the policy levers that can 
+help Government connect AI development to social and economic 
+benefit, including collaborative development of a national vision 
+for AI, action to build an infrastructure for public innovation, and 
+support to grow the domestic AI base. Across these areas, it calls 
+for further action to bridge between technology, policy, and social 
+need, so that any new interventions tackle the practical barriers 
+to delivering widespread public benefit from AI. 
+
+ 6
+
+Policy brief: Refreshing the UK’s strategic approach to AI Developing a vision for AI
+
+The UK benefits from a world-leading research base that 
+provides an engine for AI innovation and talent, from established 
+legal systems and regulatory institutions, and from strengths in 
+industries with high potential for AI adoption. These bolster the 
+UK’s international competitiveness in AI. For example, research, 
+talent, and operating environment were identified as UK 
+strengths in the Global AI Index 2024.15 
+
+These strengths could underpin a range of future pathways  
+for AI in the UK, including:
+
+ → Innovation: the UK as a science superpower that leads the 
+way in AI innovation and its use to accelerate scientific 
+discovery.
+
+ → Commercial development: the UK as a hub for growing 
+
+commercial AI systems or applications, linked to an industrial 
+strategy that drives domestic development and growth in this 
+sector.
+
+ → Assurance: the UK as a world-leader in the development of 
+policies, frameworks, and tools for AI safety and assurance, 
+securing market leadership in an emerging sector. 
+
+ → Diffusion: the UK as an engine for AI diffusion, with AI tools 
+
+adopted across sectors to increase productivity and translate 
+AI innovation into real-world benefits for all in society. 
+
+To help understand public views on the use of AI in public 
+services – and the role of AI in delivering priority policy agendas 
+in the next parliament – in September 2024, ai@cam convened 
+public dialogues on AI and the Missions for Government. In 
+collaboration with Hopkins van Mil and the Kavli Centre for 
+Ethics, Science, and the Public, dialogue sessions in Liverpool 
+and Cambridge asked participants about their aspirations and 
+concerns for the use of AI in health, education, energy and net 
+zero, and crime and policing.16 
+
+Participants expressed hope that AI could improve the efficiency 
+and effectiveness of public services; that it could reduce 
+administrative burdens on frontline workers and increase the 
+time available for public servants to interact with service users, 
+delivering positive, personalised experiences (Figure 1). They 
+hoped AI could become a ‘co-pilot’ for human decision-makers, 
+giving them access to insights from data that could help tailor 
+advice and services. They also called for checks-and-balances to 
+ensure that AI delivers beneficial outcomes. These included: 
+
+ → Ensuring that AI did not reduce human interaction or 
+
+depersonalise public services; that there is always a human-
+in-the-loop, who has the skills to intervene and who is 
+empowered to use AI as a decision-support system. 
+
+ → Establishing clear structures for accountability around the 
+
+As the UK Government considers its approach to AI, there is an 
+opportunity to refresh our national vision for these technologies. 
+A starting point for creating a vision for AI that benefits science, 
+citizens, and society is understanding public views on how AI 
+could deliver public benefit. 
+
+use of AI, including mechanisms to increase transparency 
+around AI use, to allow challenge to its use, and to enable 
+redress if things go wrong. 
+
+ → Making sure AI systems are safe, secure, and protect the 
+
+privacy of personal data used during development. 
+
+ 7
+
+Policy brief: Refreshing the UK’s strategic approach to AI  → Developing AI interventions in collaboration with users, 
+
+giving affected communities a voice in AI development and 
+designing AI to be accessible for all in society. 
+
+ → Taking action to address power asymmetries surrounding 
+
+the development and use of AI, through legal and regulatory 
+safeguards that give independent bodies the power to govern 
+the use of AI in different sectors, that act as a counterbalance 
+to the dominance of technology companies in this area, and 
+that ensure public benefit is prioritised over private profit. 
+
+These findings echo previous public dialogues exploring the 
+application and governance of data and AI (Box 1). Despite 
+these consistent messages, advances in AI consistently fail to 
+deliver on these priorities, either in terms of progress towards 
+the application of AI in areas of need or in their governance. 
+If this disconnect is allowed to persist over the long-term, it 
+creates a risk of widespread loss of confidence in AI, and in those 
+institutions tasked with its governance. 
+
+Box 1: Insights from public dialogues about  
+data and AI
+
+Public views rarely mirror the binary framings – innovation 
+versus regulation, for example, or international AI ‘arms 
+races’17 – that have caricatured recent policy debates 
+about AI. Dialogues consistently show that publics can see 
+benefits from progress in AI, particularly in areas like health 
+and science, and believe it is important to have guardrails 
+in place to help bring those benefits into being. Context 
+matters in determining the nature of the benefits and 
+risks that people associate with AI.18 “Who benefits?” is 
+consistently raised as a question or concern when evaluating 
+the use of AI in a particular area. This question is connected 
+to an underpinning scepticism about AI – with some 
+suggestions that this scepticism is turning into pessimism – 
+that arises from concerns about: 
+
+ → Whether it will be possible to deliver the infrastructure 
+or resources to support the use of AI in areas where 
+there is potential for public benefit;19 
+
+ → The power of ‘big tech’ in shaping technology 
+
+development, application, and regulation;20 and
+
+ → The equitable distribution of the benefits arising from AI, 
+or the likelihood of these technologies benefitting only 
+‘the few’.21 
+
+Positive visions for AI propose scenarios where AI is deployed 
+in the service of society; where AI helps people live healthier 
+lives, increases shared prosperity, and enhances human 
+connections. In these visions, AI is deployed to accelerate 
+innovations that tackle wicked problems in health, 
+sustainability, social inequality, and elsewhere. It becomes 
+a tool that supports public sector workers to increase the 
+efficiency, effectiveness, and accessibility of public services. 
+It is deployed as an enabler of human activities, providing a 
+decision-support tool that can enhance the objectivity and 
+accuracy of decision-making.22 
+
+To deliver this future, public dialogues highlight a range 
+of cross-cutting concerns that must be addressed in AI 
+development and implementation. These include: 
+
+ → Security and privacy: Dialogue participants express a 
+variety of concerns associated with the use of data in 
+AI, and its impact on their personal privacy and security. 
+These include concerns about the level of security 
+surrounding data management, whether data could 
+be stolen or leaked, and the possibility of their personal 
+data being sold to private companies without their 
+consent.23 
+
+ → Impact on employment: Fears of job losses from AI-
+enabled automation are a strong feature of most 
+public dialogue exercises. People can already see how AI 
+might affect their work and can imagine futures where 
+advances in AI contribute to widespread economic 
+disruption.24 
+
+ → Depersonalisation: While people generally recognise the 
+potential of AI to support decision-making, they express 
+concern that it might become a replacement for human 
+judgement. Dialogue participants consistently highlight 
+a risk that AI could be used to replace human decision-
+makers – either through automation or through an over-
+reliance on technology – leading to a depersonalisation 
+of people’s interactions with private or public sector 
+organisations. They warn that, no matter how much 
+data it can draw from, AI cannot replace the empathy or 
+understanding required to make decisions about people, 
+particularly for vulnerable people or in contexts where 
+decisions have a significant personal impact.25 
+
+ → Control and autonomy: Connected to these concerns 
+
+about replacement of human judgement are questions 
+about how people can maintain their autonomy as AI-
+enabled automated decision-making systems are more 
+widely adopted.26 
+
+ → Transparency and accountability: Greater transparency 
+and information about the development of AI is seen 
+as a necessary countermeasure to help avoid a loss of 
+individual autonomy in the use of AI. Dialogues show 
+that people wish to have choices about whether or 
+how they engage with AI, enabled by the provision of 
+information, opt outs, or upstream decisions about how 
+AI is used.27 
+
+To help avoid these concerns, there is a demand for 
+independent regulation that centres public benefit in AI 
+development. There is little trust in the private sector to 
+work in the public interest;28 governments and independent 
+organisations are seen as playing important roles in 
+creating the guardrails that can hold technology developers 
+to account.29 
+
+Underneath these aspirations and concerns, public 
+dialogues suggest a wariness that AI might undermine the 
+things that we – as individuals or society – hold dear. For 
+example, conversations about autonomous vehicles connect 
+to people’s sense of freedom around being ‘on the road’;30 
+discussions about data use in digital identity systems relate 
+
+ 8
+
+Policy brief: Refreshing the UK’s strategic approach to AI to a desire for self-definition;31 and debates about the 
+use of AI in art surface the value placed on creativity and 
+self-expression as a shared human pursuit.32 Protecting 
+– or enhancing – these human experiences is central to 
+conversations about the role of AI in society, and the checks-
+and-balances required to deliver beneficial outcomes  
+from AI. 
+
+In R&D communities, there is growing appreciation for the 
+importance of public participation in ensuring AI systems are 
+designed to reflect social priorities, helping identify potential 
+harms in deployment, and increasing the perceived legitimacy of 
+AI-enabled interventions. However, a range of barriers to bringing 
+public and civil society voices to AI R&D persist. These include 
+the resource intensity of convening dialogues, misalignment 
+between the timescales for R&D and public deliberations, and 
+the challenges associated with translating insights from dialogue 
+into action. For such dialogue to be meaningful, it needs to 
+take place early enough in the development pipeline to shape 
+AI system design or implementation and in a way that brings 
+diverse voices to the table. 
+
+Previous dialogues have delivered valuable insights about the 
+desired trajectory for policy and technology development in AI. 
+Their impact has been hindered by the absence of a mechanism 
+for sustained engagement that connects to AI R&D or the 
+development of policy frameworks. Longer-term Citizens 
+Assemblies offer a potential route to fill this gap by providing a 
+forum for continuing engagement, but need to be supported by 
+mechanisms to bridge into the practices of research and policy. 
+This type of sustained, meaningful engagement could provide a 
+starting point for developing a shared vision for AI in the UK, and 
+for articulating priority areas where AI could help create social 
+and economic benefit. It could help bridge the gap between 
+technological progress and public benefit, by bringing back into 
+focus the opportunities for AI to deliver public benefit for the UK. 
+
+ 9
+
+Policy brief: Refreshing the UK’s strategic approach to AI Creating the conditions for 
+effective governance
+
+AI capabilities”.39 This contrasts unfavourably with the 
+£100 million committed that year to the AI Safety Institute 
+to evaluate the technical performance of a subset of AI 
+models.40 
+
+In the context of concerns about the influence of large technology 
+companies in AI, public discussions about AI governance have 
+increasingly called for independent regulatory oversight. The 
+UK’s overarching position on AI regulation has been broadly the 
+same since 2021’s National AI Strategy.33 Sectoral regulators are 
+expected to develop regulatory frameworks that are appropriate 
+for the domains in which they operate, supported by central 
+government to ensure overall coherence of the regulatory 
+landscape. 2023’s AI Regulation White Paper re-stated this 
+position, noting that sectoral regulators should consider five 
+principles in developing their response: safety, security and 
+robustness; appropriate transparency and explainability; fairness; 
+accountability and governance; and contestability and redress.34 
+
+In the intervening period, progress in the development and 
+implementation of sectoral regulations has been variable: 
+
+ → In some areas, legislation has provided new powers for 
+
+regulators to prevent harms arising from AI. For example, the 
+Digital Markets, Competition and Consumers Act 2024 gave 
+the Competition and Markets Authority enhanced powers 
+from now on to intervene in strategic markets to protect 
+consumer rights and competition; the Online Safety Act 2024 
+made companies that deliver a wide range of online services 
+responsible for ensuring user safety, with new duties for 
+Ofcom to oversee these responses. Upcoming legislation may 
+bring further changes to how regulators govern data access 
+and use.35  
+
+ → Some regulators have trialled sandboxes to work through 
+
+uncertainties about how existing regulations apply to AI. 
+For example, in 2023 the Digital Regulation Cooperation 
+Forum36 (DRCF) launched an advisory service for businesses 
+to engage with regulators as they create AI-enabled products 
+and services.37 
+
+ → Changing technical capabilities have brought new 
+
+regulatory challenges, for example in relation to generative 
+AI and Intellectual Property Rights. The policy response to 
+this challenge remains in flux. This will be the focus of a 
+forthcoming Policy Brief by the Bennett Institute for Public 
+Policy, Minderoo Centre for Technology and Democracy, and 
+ai@cam.
+
+Box 2 summarises how 13 of the UK’s regulators are responding 
+to the challenge of governing AI. These share two common 
+themes: 
+
+Box 2: Insights from regulator responses to the 
+2023 AI Regulation White Paper
+
+In 2024, ministers wrote to selected regulators asking for an 
+update on their strategic approach to AI.41 By May 2024, 13 
+regulators had published responses to this call:42 the Bank 
+of England, Competition and Markets Authority (CMA), 
+Equality and Human Rights Commission (EHRC), Financial 
+Conduct Authority (FCA), Health and Safety Executive 
+(HSE), Information Commissioner’s Office (ICO), Legal 
+Services Board (LSB), Medicines and Healthcare products 
+Regulatory Agency (MHRA), Office for Nuclear Regulation 
+(ONR), Office for Standards in Education, Children’s 
+Services and Skills (Ofsted), Office of Communications 
+(Ofcom), Office of Gas and Electricity Markets (Ofgem), 
+and Office of qualifications and Examinations Regulation 
+(Ofqual). 
+
+These responses show the range of ways in which sectoral 
+regulators are analysing the impact of AI on their sector 
+and taking action to build capacity to respond. They also 
+demonstrate the different levels of AI readiness in each 
+sector: 
+
+ → Some have already carried out extensive engagement 
+with relevant industry stakeholders to understand 
+relevant issues and regulatory gaps. For example, in 2021 
+the ONR published a report setting out the challenges 
+associated with applying apply its safety regulations and 
+quality standards to AI. 
+
+ → Others are at an earlier stage in understanding the AI 
+
+landscape in their sector, for example Ofgem is carrying 
+out a consultation to inform the development of its 
+regulatory approach.
+
+ → Many regulators have issued some form of high-level 
+guidance relating to AI, including the LSB, FCA, ICO, 
+HSE, EHRC, and CMA.
+
+ → Reflecting the new risks posed by advances in AI, some – 
+
+for example, CMA and Ofcom – have already seen their 
+regulatory powers and responsibilities change through 
+recent legislation. 
+
+ → To support innovators to develop AI applications, several 
+regulators have convened ‘sandbox’-style activities, 
+including the MHRA’s AI Airlock, ONR and Environment 
+Agency sandbox pilot, FCA AI Lab, and Digital Regulation 
+Cooperation Forum (DRCF) sandbox initiative.
+
+ → The need for further work to understand how existing 
+
+ → Less common were examples of enforcement to ensure 
+
+regulations apply to AI, where there may be gaps between 
+regulatory bodies, and whether additional powers are needed 
+to help fill these gaps. For example, a recent DRCF project 
+considered regulatory responses to transparency as a shared 
+concern across different sectors.38 
+
+ → The need to respond to a complex, fast-moving technology in 
+conditions of constrained resources. In 2023, the previous UK 
+Government committed £10 million “to jumpstart regulators’ 
+
+regulation was implemented in practice.
+
+These reports illustrate the challenge regulators face in 
+resourcing their responses to AI. For example, the CMA 
+points to the range of actions it has taken to recruit expert 
+staff to its AI response teams, while the MHRA sets out 
+plans to recruit further staff to support its AI workstrands, 
+and the EHRC highlights the difficulties it faces in funding 
+
+ 10
+
+Policy brief: Refreshing the UK’s strategic approach to AI such expansion.
+
+Responses also give many examples of cross-regulator 
+collaboration, through forums like the DRCF, working groups 
+on issues like cybersecurity, the AI Standards Forum for UK 
+Regulators, and Regulator’s Innovation Network. They give 
+less insight into the support provided by central government 
+for developing regulatory responses, raising questions about 
+the role of the proposed central government coordinating 
+function. This function may find opportunities to reduce 
+duplication of efforts or more rapidly share insights across 
+these networks. 
+
+Public dialogues consistently call for democratic oversight 
+that ensures AI development aligns with societies’ values and 
+needs. Over time, these dialogues suggest growing support for 
+regulatory interventions to safeguard against power imbalances 
+in AI development or misuses of these technologies. Responding 
+to these concerns in the absence of additional investment in the 
+regulatory environment will require innovative approaches to 
+regulatory capability-building.
+
+A starting point would be a detailed analysis of regulatory 
+gaps or overlaps. This analysis is vital in shifting focus from 
+high-level principles to practical implementation and directing 
+constrained resources to priority areas. It would help increase 
+confidence amongst those deploying AI about the regulatory 
+implications of their work, and so would help derisk investment. 
+Establishing a strong central coordination function could also 
+help build regulatory capabilities. For example, understanding 
+where sandbox initiatives have been successful could help scale 
+access to proving grounds where innovators can work with 
+regulators to test the regulatory implications of new products 
+or services, while highlighting where action is needed to change 
+or strengthen current regulations. Across these areas, progress 
+requires collaboration between innovation, regulation, and policy 
+communities to build understanding of how current practices 
+in AI impinge on regulatory frameworks, what new practices or 
+technical capability might create new regulatory challenges, and 
+what responses are needed. 
+
+ 11
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+Building a public innovation 
+infrastructure 
+
+Leveraging investments in compute
+Compute has been an important enabler of advances in AI over 
+the last ten years.43 Model performance, and in particular Large 
+Language Model performance, scales with compute power, 
+access to data, and model size, though the relative importance 
+of each of those factors varies across different areas of AI 
+research and application.44 While there is debate within the 
+research community about whether this scaling relationship will 
+continue, access to compute will remain an important enabler of 
+AI research and development. 
+
+Investment in compute has been a recurring theme in UK AI 
+policy:
+
+ → 2018’s AI Sector Deal highlighted the importance of investing 
+in the UK’s digital infrastructure, noting a new partnership 
+between the Engineering and Physical Sciences Research 
+Council (EPSRC), the Science and Technology Facilities 
+Council (STFC) and the University of Cambridge would deliver 
+a £10 million AI supercomputer.
+
+ → 2021’s National AI Strategy commissioned a review of the 
+UK’s compute needs to inform further investments.45 
+
+ → 2021’s UK Research and Innovation AI review noted access to 
+compute would be an important enabler of AI innovation. 
+
+ → 2022’s Independent Review of the Future of Compute 
+
+called for a strategic vision and roadmap for compute and 
+support for researchers and businesses to access to compute 
+facilities.46 
+
+ → 2023’s AI Research Resource announcements said that 
+
+Government would invest in a cluster of advanced computers 
+for AI research.47 2024 saw further announcements that no 
+funding was available for some of the projects anticipated 
+under this investment.48 
+
+Excitement about the size of proposed investments in compute 
+– and whether those investments will proceed – obscures an 
+important conversation about how to deliver public value from 
+these investments. Delivering such value requires consideration 
+not only of the size of the compute facility being developed, but 
+how it works and who it serves. 
+
+A world-leading High Performance Compute (HPC) facility needs 
+to provide both compute capabilities and support for its users. 
+Those users might include AI researchers, domain researchers 
+from across disciplines, businesses, civil society, or public sector 
+organisations. Each brings different types of compute need. 
+Design factors to consider in developing this ecosystem of 
+support include:
+
+Hardware: While GPUs dominate conversations about AI 
+hardware, many areas of research benefit from access to 
+both CPUs and GPUs for different types of compute jobs.49 
+For example, a climate modeller might wish to access CPUs 
+to support data processing or cleaning, or to run some initial 
+calculations, before using GPUs for large-scale parallel 
+
+computations of atmospheric dynamics; a deep learning 
+researcher working on neural network architectures might 
+prioritise access to GPUs for faster training of large models. In 
+the coming years, trends in hardware development may also put 
+the needs of different communities in tension. A shift towards 
+lower precision GPUs might benefit AI researchers focused on 
+developing large models, as they allow faster computation of 
+larger models using less energy. Such researchers might prefer 
+increased computational speed at lower precision. However, 
+other areas of research could suffer because of reduced 
+precision. In climate research, for example, where researchers are 
+modelling energy transfer across complex atmospheric, oceanic, 
+and land systems, precision matters; this type of research uses 
+high-precision calculations to create accurate simulations that 
+represent the Earth’s systems across vast spatial and temporal 
+scales.50 HPC facilities that need to serve a diverse community 
+or research and practice need to maintain both CPU and GPU 
+resources that allow different types of compute job, alongside 
+software stacks that support both traditional scientific software 
+and systems optimised for AI. 
+
+Strategic asset management: Balancing competing HPC 
+demands from different user communities requires effective 
+workflow management. The needs of large, computationally 
+intensive projects may be in tension with those of other projects. 
+For many smaller projects – or innovative projects trialling new 
+methods – it may be beneficial to quickly try something at 
+smaller scale and make changes, before deploying a larger job. 
+Many HPC facilities are run to maximise processor utilisation, 
+at the expense of queue times, but scheduling policies can be 
+designed to enable flexibility and agility. 
+
+Skills: Dedicated resources are needed to provide an on-ramp 
+to HPC for new users. Such resources might look different from 
+traditional models of HPC support. For HPC managers, this 
+means a shift from enabling jobs to run to providing education, 
+curation, and other ‘training wheels’ that help new users get 
+projects off the ground. Meeting the needs of these diverse user 
+communities will require: 
+
+ → Skilled machine learning engineers, who can work with 
+
+research projects to develop and deploy AI systems at scale. 
+This will in turn require incentives to train, recruit, and retain 
+such talent.
+
+ → Training for users, for example in how to move from running a 
+
+project on their laptop to a larger system. 
+
+ → Peer mentoring between users, sharing the knowledge and 
+know-how they have gained through their experiences of 
+using HPC. 
+
+Open-source: Open-source software practices in traditional 
+computer science have ensured that stakeholders of all 
+varieties, from start-ups to individuals to governments and 
+large corporations, have access to state-of-the-art software. 
+In traditional programs, the source code fully specifies the 
+algorithms. This means that access to the source code of an 
+operating system or a programming language is sufficient to 
+allow others to contribute to or build on these innovations. In 
+AI, the situation is more nuanced. Some works have identified 
+as many as fourteen51 ways in which AI models can be perceived 
+
+ 12
+
+Policy brief: Refreshing the UK’s strategic approach to AI as open, with no existing models fulfilling all.52 One particularly 
+challenging area is data openness, where issues include a lack 
+of standards around openness of data, and tensions around 
+intellectual property rights of individual creators, personal data 
+rights of citizens, and the data requirements of state-of-the-
+art models. Traditionally intellectual property has protected the 
+rights of the individual creator.53 As generative AI distils data 
+to capture much broader aspects of human culture, there are 
+calls for reforms that respect fundamental rights of access to 
+the educational value of such models.54 By dominating source 
+code, data or compute, large company incumbents are able to 
+obstruct disruptive innovations that may better serve the needs 
+of citizens.55 
+
+Developing the National Data Library 
+Data is the resource that allows AI systems56 to learn how to 
+identify patterns, generate predictions, or make decisions. The 
+availability of large volumes of high-quality data has been central 
+to the development of today’s AI capabilities. For example, 
+open resources such as ImageNet57 have provided rich training 
+material for deep learning algorithms. More recently, high-
+profile AI successes such as AlphaFold have relied on access to 
+carefully curated datasets that represent the ‘ground truth’ of 
+experimentally determined protein structures,58 alongside protein 
+sequence databases,59 to drive advances in understandings of 
+protein folding.
+
+Creating a data environment that facilitates safe, secure, 
+and trustworthy access to data for AI development is a long-
+term policy challenge. Data governance has complex technical, 
+organisational, cultural, and economic elements, including 
+questions about: 
+
+ → regulatory requirements;
+ → ethical concerns;
+ → ownership;
+ → value of data assets and incentives for data sharing;
+ → sovereignty concerns; and
+ → security and privacy issues. 
+
+Waves of policy development have sought to unlock wider access 
+to data. For example: the FAIR data principles aimed to make 
+research data more discoverable, accessible, and reusable;60 
+data intermediaries have proposed a new type of organisation 
+to overcome coordination issues or power asymmetries across 
+stakeholders involved in data sharing;61 and synthetic data was 
+proposed as an alternative to access to sensitive datasets.62 
+Each of these approaches have added to understandings of what 
+works – or does not work – in enabling access to data. None 
+provided a silver bullet. 
+
+2020’s National Data Strategy started a conversation about the 
+role of government in tackling these interconnected issues. It set 
+out a framework for government action to improve the quality 
+of data assets, build skills in data use, make data appropriately 
+accessible and re-usable, and embed data ethics in research and 
+innovation, under the umbrella of “missions” to: 
+
+ → Unlock the value of data across the economy;
+ → Secure a pro-growth and trusted data regime;
+ → Transform government’s use of data to drive efficiency and 
+
+improve public services;
+
+ → Ensure the security and resilience of the infrastructure on 
+
+which data relies;
+
+ → Champion the international flow of data.63 
+
+Despite a stated intention to collaborate with stakeholders in 
+implementation, this Strategy lacked an underpinning action 
+plan. A result is that it failed to gain momentum. 
+
+The proposal to create a National Data Library offers an 
+opportunity to reinvigorate efforts to increase the accessibility 
+and use of strategic data assets. This initiative is expected “to 
+bring together existing research programmes and help deliver 
+data-driven public services, whilst maintaining strong safeguards 
+and ensuring all of the public benefit”.64 
+
+A range of design considerations for the National Data Library 
+have already been set out, including: 
+
+ → The ability to provide practical tools, support, and governance 
+structures to link diverse public sector datasets and data 
+feeds65 and provide a platform to access data assets;66 
+
+ → Provision of support for users to find and access data 
+
+resources;67 
+
+ → Implementation of governance mechanisms that ensure 
+
+trustworthy data management;68 
+
+ → Co-design with stakeholder communities who could benefit 
+
+from the National Data Library, supported by public dialogues 
+to identify priority areas for action.69 
+
+ → How to understand the value of different data assets.70 
+
+Success will require action to bridge from these strategic design 
+features to the practical barriers that block access to data today. 
+These are summarised in Box 3.
+
+Box 3: Practical concerns in data access
+
+Uncertainty about the legal mechanisms to share data for 
+public services: 
+The UK Digital Economy Act 2017 gives a legal basis for 
+Government departments to share and combine datasets 
+for the purposes of improving public services, preventing 
+fraud, or supporting research. However, research suggests 
+that uncertainty amongst officials about the breadth of 
+the legal cover provided by the Act for data sharing, and a 
+lack of robust, easily implementable, and legally compliant 
+data sharing frameworks has led to an underutilisation of 
+these powers. Where the Act has been successfully used 
+to facilitate data sharing, it has been with the support of 
+strong inter-departmental coordination and clear legal 
+guidance.71 Forthcoming legislative proposals under the 
+Data (Access and Use) Bill could bring further changes in 
+policy and practice in this area.
+
+Gaps between legal rights and practical access:  
+There are cases where the legal basis for data access might 
+be clear, yet a range of practical barriers still hinder its 
+use. For example, the UK Copyright, Designs and Patents 
+Act 1988 permits researchers to make copies of copyright-
+
+ 13
+
+Policy brief: Refreshing the UK’s strategic approach to AI protected works, including journal articles or books, for 
+the purposes of computational analysis, so long as it is for 
+non-commercial research. In such circumstances, permission 
+from the copyright holder to carry out such analysis is not 
+required, provided the researcher can lawfully access the 
+material, for example through open access repositories. 
+However, in practice, it can be difficult to access such 
+material. Publishers might use digital rights management 
+technologies to prevent automated scraping, limiting how 
+much content researchers can download for the development 
+of large AI models. Publishers can also implement restrictive 
+licensing provisions or API restrictions that limit access to 
+data or require specific licenses or fees to use journal data. 
+The result can be lengthy contract negotiations between 
+research institutions and scientific publishers to unlock data 
+access.72 Even when publishers are willing to make their 
+material available, modern content delivery networks (CDNs) 
+may limit availability by default.73 A CDN can help websites 
+load faster and handle high traffic by serving content from 
+a server closer to the user. However, because CDNs act 
+as intermediaries between users and websites, they can 
+interfere with automated access, even when the website 
+owners intend to allow it. This can unintentionally hinder legal 
+web-scraping efforts.
+
+Interoperability of data assets:  
+The ability to generate new insights from combinations 
+of datasets should be a strength of today’s AI systems. 
+However, a lack of interoperability in data systems – the 
+ability to exchange and integrate data from different sources 
+– can impede such analysis. Datasets are often stored in 
+different formats by different data holders, or use different 
+standards for describing data, which makes merging data 
+from diverse sources technically challenging. Alongside 
+these issues of technical interoperability, when combining 
+datasets from disparate sectors or disciplines there is a need 
+to ensure its semantic interoperability – ensuring that the 
+information contained in data is understood in the same way. 
+For example, in the NHS, hospitals, clinics, and local surgeries 
+often store patient data in different formats, creating silos of 
+patient data, or use different codes or taxonomies to describe 
+the information held in patient data, hindering integration. 
+Initiatives like the Local Health and Care Record programme 
+have set out to tackle these issues through the creation of a 
+common standard technology for health and care.74 
+
+Connecting secure data access to HPC facilities:  
+Secure data environments (SDEs) provide a platform 
+for accessing, processing, and analysing sensitive data 
+resources under controlled conditions. SDEs are designed 
+to ensure that only personnel with appropriate permissions 
+can access data, that data access is legally compliant, and 
+that security measures are in place to prevent release of 
+sensitive information. Integrating SDEs with HPC facilities 
+can streamline analysis of sensitive data, removing the 
+risks of data breaches as different data resources are 
+moved between SDEs and other facilities. There are already 
+examples of such capabilities in the UK. For example, Health 
+Data Research UK provides a secure health data environment 
+that links sensitive health data to HPC systems provided by 
+
+Cambridge Services for Data Driven Discovery.75 
+
+Access to skilled data managers:  
+There is a growing demand for data professionals who can 
+understand the technical and governance aspects of data 
+management.76 Without adequate funding for such roles, it is 
+difficult for organisations to establish effective data sharing 
+practices. Investment in data management teams can help 
+create strategic data assets that deliver value for research 
+and innovation. For example, UK Biobank has a dedicated 
+data management team that ensures the quality, integrity, 
+and accessibility of its data resources, through data curation, 
+metadata management, and the facilitation of data sharing 
+agreements with researchers. The team also provides a user-
+friendly data portal that provides an easy point of entry for 
+researchers to request access to data.77 
+
+Lack of incentives for private sector data sharing:  
+Even when data is not being actively used to generate 
+value, many organisations reasonably view their data as 
+a competitive asset. This can create a reluctance to share 
+data, in case it reveals proprietary information, or reduces 
+competitive advantage, as well as possibly contravening 
+competition law or other regulations, or creating risks that are 
+uninsurable. For example, the importance of understanding 
+global supply chains was highlighted during the Covid-19 
+pandemic. Firm-level transaction data can provide insights into 
+patterns of economic activity that can inform policymaking. 
+However, accessing such data is challenging.78 By acting as an 
+intermediary with private sector organisations, the National 
+Data Library could help unblock such data access agreements. 
+There are precedents for third parties intervening to facilitate 
+private sector data sharing. The Data Communications 
+Network, for example, provides a communications technology 
+infrastructure that allows secure data transfers across 
+over 100 million smart meter devices, encouraging energy 
+companies to share data through financial incentives, clear 
+data governance protocols, and a focus on a shared public 
+benefit.79 
+
+Delivering high-level policy aspirations to build a public innovation 
+infrastructure requires a deep understanding of the practices 
+associated with AI innovation. The National Data Library 
+provides an opportunity to unblock the practical barriers to 
+data access and use experienced by those innovating with 
+AI. Investments in HPC present an opportunity to accelerate 
+innovation, if they can be built for the needs of those working 
+with real-world challenges, including respecting data privacy and 
+security, and intellectual property rights.
+
+Policy development and implementation in these areas needs to 
+be grounded in an understanding of user need. The next wave 
+of policy effort to build our public innovation infrastructure can 
+help create this understanding through use cases or pathfinder 
+projects that convene diverse stakeholders around the shared 
+ambition to tackle a specific problem using AI, that commit to 
+working through the practical issues that arise in AI development 
+and deployment, and that share lessons from these experiences 
+back into the design of the UK’s innovation infrastructure.
+
+ 14
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+Growing the domestic base 
+
+Enablers of innovation
+Government can draw on a variety of levers to stimulate 
+innovation, many of which have already been looked at in the 
+context of AI (see Box 4). 
+
+The challenge of growing the domestic AI base is partly one 
+of complexity; there is no single point of policy intervention 
+that delivers immediate results. Instead, a web of policies 
+need to interact to help create an amenable environment for 
+AI development. The challenge is also one of specificity. While 
+AI policy debates have identified a range of levers to support 
+innovation – procurement, tax credits, regulation, for example 
+– these answers are often too broad to be operationalisable. 
+Efforts to translate those ideas into action suffer from an 
+absence of deep understanding of the issues that arise in 
+implementing an AI innovation, of what policy interventions 
+have been tried before (and with what success), and of how 
+government can help overcome these implementation issues.
+
+The public sector as a role model for innovation
+Another way in which government can catalyse innovation is 
+by showing how to deliver successful AI projects and enabling 
+others to follow in its footsteps. The recent reconfiguration 
+of the Department for Science, Innovation, and Technology 
+has created a digital centre of government with the aim of 
+positioning the Department as “standard bearer” for the use of 
+technology in public services,96 and driving a technology-enabled 
+transformation of people’s interactions with Government.
+
+ai@cam’s public dialogues on AI and the Missions for Government 
+suggest the role that AI could play in public services. They also 
+demonstrate a scepticism about whether Government can 
+translate these aspirations into reality, in a context where public 
+sector workers in critical frontline services like health, education, 
+and criminal justice are facing growing demand and constrained 
+resources. Such high pressure on day-to-day delivery leaves little 
+time for the staff that have most detailed understanding of how 
+these services work to experiment or innovate. 
+
+There are promising examples of bottom-up initiatives through 
+which public sector workers are finding opportunities to use 
+AI to improve their work, sharing their understanding of these 
+technologies, and supporting others to build their capabilities. 
+For example:
+
+ → In local government, South Cambridgeshire District Council 
+
+has set up an AI Club that is open to all staff with an interest 
+in using AI to transform Council services.97 
+
+ → In education, the AI in Education initiative has convened 
+
+teacher panels to share ideas and information about how to 
+use AI in the classroom.98
+
+The challenge that follows is how to scale these initiatives. 
+Without such bottom-up engagement, there is a risk that 
+– despite positive intentions – central government imposes 
+technology solutions that are not fit for purpose on frontline 
+delivery teams. This disconnect between the intention behind an 
+
+Box 4: Policy levers to catalyse wider innovation  
+in AI
+
+Procurement: Public sector procurement can be a driver 
+for innovation by creating a market or customer base for 
+AI companies. With the aim of helping civil servants to 
+better understand how to procure AI-enabled products 
+and services, Government has produced guidelines for AI 
+procurement80 and for the use of generative AI.81 While 
+providing a helpful starting point in understanding the 
+issues associated with AI procurement, a lack of specific 
+implementation mechanisms has proved challenging for 
+those seeking to follow these guidelines. Further work is 
+needed to translate these principles into practical guidance 
+that helps public sector workers to resolve the range of 
+questions that arise during the procurement process.82 
+
+Competition: Competition policy plays an important role 
+in helping provide a level playing field for new or smaller 
+companies, building a diverse and competitive AI ecosystem 
+that delivers better results for consumers. 2019’s Furman 
+Panel review set out a collection of reforms to the UK’s 
+competition framework that could tackle the economic 
+challenges associated with market concentration in the 
+
+ 15
+
+Policy brief: Refreshing the UK’s strategic approach to AI digital sector.83 The creation of the Competition and 
+Market Authority’s (CMA) Digital Markets Unit in 2021 and 
+subsequent passing of the Digital Markets, Competition and 
+Consumers Act 2024 have updated the CMA’s powers of to 
+intervene to prevent anticompetitive practices in the tech 
+sector, enabling new UK companies to enter the market and 
+grow. 
+
+Skills and talent: There are skills gaps across the AI 
+development and implementation pipeline, from demands 
+for leading AI talent in industry and academia, to the 
+upskilling required to help people use AI in the workplace, to 
+the need for broad educational initiatives to equip people 
+with basic data skills. A range of government initiatives have 
+sought to build this skills base, including: 
+
+ → funding and visa schemes to attract AI talent and 
+
+support AI research;84 
+
+ → funding for “AI conversion” courses to increase the 
+
+number of skilled workers in AI roles;85 and
+
+ → postgraduate training schemes.86 
+
+Innovative approaches are needed to scale the impact of 
+these interventions, driving a step-change in the number of 
+UK residents with AI skills at all levels.
+
+Research funding: The UK’s science and innovation base 
+is central to its international competitiveness in AI. 
+Maintaining the UK’s global leadership in AI research and 
+innovation has been a key part of successive governments’ 
+ambitions for AI. Robust research funding is vital to deliver 
+these ambitions. The UK’s current capabilities in AI are 
+grounded in long-term investment in its innovation base. 
+These investments have helped create the vibrant research 
+environment and human capital that push the UK towards 
+the top of international rankings in AI development. 
+They also demonstrate the importance of sustained 
+investment to create the conditions for innovation. A series 
+of investments from UKRI in recent years has created a 
+network of UK AI hubs87 and fellowships for world-leading 
+researchers. However, the UK has lagged behind other 
+countries in the scale and long-term stability of its research 
+funding.89 Despite the strategic importance of these 
+investments, they are not leveraged to provide expertise 
+and insights to inform policy developments in central 
+government. 
+
+Missions: Bringing a focus to AI applications that address 
+social needs can drive innovation and help demonstrate the 
+value of AI to the public. The Missions for Government could 
+provide an umbrella for driving progress in the use of AI to 
+tackle major challenges in health, education, energy and 
+net zero, and crime and policing. Evidence of ‘what works’ 
+in mission-led innovation suggests that successful missions 
+require: 
+
+ → Clear, inspiring goals that provide direction and 
+
+motivation to diverse stakeholders. 
+
+ → Cross-sector and interdisciplinary collaboration that 
+brings different expertise and skills sets to the table.
+
+ → Flexible funding mechanisms that provide adaptable, 
+
+long-term support for collaborations. 
+
+ → Leadership and team management that drives progress. 
+ → Stakeholder engagement with affected communities 
+
+that brings user voices into research.
+
+ → A willingness to take risks, or have projects fail. 
+ → Measurable outcomes and mechanisms for evaluation 
+
+based on clear indicators of success and feedback loops 
+that connect these to mission design.90 
+
+Delivering beneficial outcomes from the use of AI in the 
+Missions for Government will require further work to 
+develop translate high-level mission objectives into targeted, 
+measurable interventions that can be delivered in practice.
+
+Support for scaling up: The UK has a vibrant AI start up 
+scene.91 However, it faces a long-standing policy challenge 
+in how to enable small, innovative companies to grow.92 A 
+particular area of concern has been the ability of companies 
+started in the UK to scale here, instead of being acquired 
+by a large overseas company. Scale-ups face a variety 
+of challenges, including access to finance, talent, and 
+infrastructure.93 A Scale Up Forum, announced in January 
+2024, proposed to bring a new focus to challenges faced 
+by companies as they grow.94 Recent work by the UK 
+Government’s Council for Science and Technology suggests 
+how this scale up challenge could be addressed through a 
+range of policy interventions.95 
+
+intervention and its real-world impact has been a failure mode 
+behind many major IT or digital initiatives. 
+
+The UK has recently seen the impact of such failures in the 
+Horizon scandal. When the Post Office’s accounting system 
+was computerised by Fujitsu and installed in 1999, it was with 
+inadequate technical understanding or operational scrutiny. 
+Individual sub postmasters were blamed for errors in the system, 
+in some cases with serious and long-lasting personal impacts. 
+Factors that contributed to this failure included a central push 
+for widespread adoption of a new IT system into an environment 
+where many users lacked advanced IT skills; bugs and errors 
+in the system; a lack of adequate testing and feedback; and 
+variability in local infrastructure. 
+
+Horizon is not the only example of how these implementation 
+failures can arise. The Lorenzo scandal, for example, arose in 
+connection to the National Programme for IT. This programme 
+intended to move the NHS towards the use of electronic health 
+records in the early 2000s. It was subsequently abandoned  
+and resulted in one of the most expensive contracting bills in  
+the history of the public sector.99 Its failure was attributed to  
+“lack of adequate end user engagement, the absence of a phased 
+change management approach, and underestimation of the scale 
+
+ 16
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+of the project”.100 
+
+These failures share certain characteristics:
+
+ → Insufficient consideration of local needs, capabilities, or 
+
+constraints, and insufficient engagement with end-users in 
+system design.
+
+ → Lack of effective feedback mechanisms from users to 
+
+leadership. 
+
+ → Rigid, top-down approaches to implementation that did not 
+
+allow for local adaptation. 
+
+Since these projects, practices in software development and 
+implementation have shifted away from monolithic software 
+systems towards so-called ‘software as a service’. This change 
+results in an “intellectual debt”,101 created by the complexity of 
+having multiple AI-enabled subcomponents in a decision-making 
+system. Engineers and users might have insights into whether 
+a system works without understanding why it works, making it 
+more challenging to identify potential failure modes or respond 
+to them when they occur. 
+
+These insights from previous IT project failures point to the 
+importance of developing AI-enabled tools for public services 
+in collaboration with users on the front line of delivering those 
+services. They demonstrate the importance of stakeholder 
+engagement at all stages of design and roll-out, of flexibility in 
+implementation and iterative feedback from users, of ensuring 
+technical competence at both policy and implementation levels, 
+and of engaging independent, technically competent oversight to 
+support implementation. 
+
+ 17
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+Conclusion
+
+The fundamentals of AI policy have been largely consistent since policymakers first 
+became interested in this field, spanning investment in research, access to data, skills 
+and talent, support for business, and governance and regulation. This paper is being 
+published at a time where the UK’s policy priorities across these areas are in flux. Future 
+pathways for policy development could include a new drive behind the use of AI in 
+public services, investments in infrastructure, or a focus on economic growth. Along any 
+of these pathways, how policy is developed and implemented matters. Engaging the 
+UK’s communities of AI research and practice can help policymakers connect macro-
+level policy decisions to practical implementation, then to feed the understanding of AI 
+innovation created at that ‘micro’ level back into policy design. 
+
+Research and talent are strengths of the UK’s AI community. These strengths can be 
+deployed to build AI-enabled solutions to the problems that affect people’s health, 
+wealth, and wellbeing, and to develop the governance mechanisms needed to deliver 
+safe and effective AI innovations. Evidence from public dialogues about data and AI 
+provides a starting point for showing what people want from these technologies. They 
+also show the checks-and-balances needed to ensure that AI works for people and 
+society. 
+
+By recentring discussions about AI technology and policy around social needs –the 
+demand side of the innovation economy – the UK can unlock a new wave of innovation 
+that serves the public good. Discussions surrounding AI too often focus on “supply”; on 
+creating new technologies without attention to the “demand” signals that relate to 
+real-world needs or challenges. The next wave of technology and policy development in 
+AI needs to bridge the gap between AI’s technical capabilities and their use to deliver 
+real-world public benefit. Articulating areas of need, bringing resources to bear on 
+addressing them, and feeding the lessons learned back into the generation of new 
+knowledge can help overcome this gap. If successful in building these connections 
+between policy and practice, the UK can create an AI ecosystem that is world-leading in 
+its innovation and positive social impact. 
+
+The UK’s research institutions can help respond to these challenges by working on 
+the challenges in health, social care, education, environment, and more, that people 
+highlight as priorities for AI intervention. Research institutions cannot fix this problem 
+alone, but can provide the place for bridging public and private concerns. Focusing on 
+the practical barriers to implementing AI in areas of public interest or concern – and 
+supporting those on the frontlines of such innovation to overcome these barriers 
+– can generate a productivity flywheel that closes the gap between technological 
+progress and real-world benefit. By building a community around these issues – in 
+research, policy, and practice – we can translate these advances into a virtuous circle 
+of engagement that scales access to expertise and insights in how to make AI work for 
+science and society.
+
+ 18
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+AnnexesThis briefing reflects a series of workshops convened by ai@
+cam in autumn 2024, on topics ranging from the Missions for 
+Government to AI in local government, to national AI strategy, 
+to HPC facility design. Thank you to everyone that contributed  
+to these engagements.
+
+About ai@cam
+
+ai@cam is the University of Cambridge’s mission to develop AI 
+that serves science, citizens, and society. It is an interdisciplinary 
+AI incubator that is accelerating research to tackle real-world 
+challenges with AI, informing the development of AI policy, and 
+connecting across business and civil society to help translate AI 
+innovations to practice. Its vision is of AI-enabled innovations 
+that benefit society, created through interdisciplinary research 
+that is deeply connected to real-world needs. 
+
+More information: ai.cam.ac.uk
+
+About the Bennett Institute for Public 
+Policy
+
+The Bennett Institute for Public Policy is one of the UK’s leading 
+public policy institutes, achieving significant impact through 
+its high-quality research. Our goal is to rethink public policy in 
+an era of turbulence and inequality. Our research connects the 
+world-leading work in technology and science at the University 
+of Cambridge with the economic and political dimensions of 
+policymaking. We are committed to outstanding teaching,  
+policy engagement, and to devising sustainable and  
+long-lasting solutions. 
+
+More information: www.bennettinstitute.cam.ac.uk
+
+About the Minderoo Centre for 
+Technology and Democracy
+
+The Minderoo Centre for Technology and Democracy is an 
+independent team of academic researchers at the University of 
+Cambridge, who are radically rethinking the power relationships 
+between digital technologies, society and our planet. 
+
+More information: www.mctd.ac.uk
+
+ 20
+
+Policy brief: Refreshing the UK’s strategic approach to AI  
+ 
+Endnotes
+
+1.    Hall, W. and Pesenti, J. (2017) Growing the Artificial Intel-
+ligence industry in the UK, available at: https://www.gov.
+uk/government/publications/growing-the-artificial-intelli-
+gence-industry-in-the-uk [accessed 22 October 2024]
+
+2.    Dutton, T., Barron, B. and Boskovic, G. (2018) Building an 
+
+AI world: Report on national and regional AI strategies, 
+available at: https://cifar.ca/wp-content/uploads/2020/05/
+buildinganaiworld_eng.pdf [accessed 22 October 2024]
+
+3.    UK Government (2018) AI Sector Deal, available at: https://
+www.gov.uk/government/publications/artificial-intelli-
+gence-sector-deal/ai-sector-deal [accessed 22 October 
+2024]
+
+technologyreview.com/2021/07/30/1030329/machine-learn-
+ing-ai-failed-covid-hospital-diagnosis-pandemic/ [accessed 
+22 October 2024]
+
+14.  UK Government (2024) Artificial Intelligence (AI) Opportu-
+nities Action Plan: terms of reference, available at: https://
+www.gov.uk/government/publications/artificial-intelli-
+gence-ai-opportunities-action-plan-terms-of-reference/arti-
+ficial-intelligence-ai-opportunities-action-plan-terms-of-ref-
+erence [accessed 22 October 2024]
+
+15.  Tortoise Media (2024) Global AI Index, available at: https://
+www.tortoisemedia.com/intelligence/global-ai/#rankings 
+[accessed 22 October 2024]
+
+4.    UK Government (2021) National AI Strategy, available 
+
+16.  Discussions were designed to align with the Missions 
+
+at: https://www.gov.uk/government/publications/nation-
+al-ai-strategy [accessed 22 October 2024]
+
+for Government. See: https://labour.org.uk/change/mis-
+sion-driven-government/ 
+
+5.  
+
+6.   
+
+ UK Government (2023) A pro-innovation approach to AI 
+regulation, available at: https://www.gov.uk/government/
+publications/ai-regulation-a-pro-innovation-approach/
+white-paper [accessed 22 October 2024]
+
+Including the Data Protection Act (2018) giving force to the 
+GDPR: https://www.legislation.gov.uk/ukpga/2018/12/con-
+tents; The Digital Markets, Competition and Consumers Act 
+(2024), giving new powers to the Competition and Markets 
+Authority https://www.legislation.gov.uk/ukpga/2024/13/
+contents; and the Online Safety Act (2023) setting out new 
+duties for OFCOM in relation to online communications 
+https://www.legislation.gov.uk/ukpga/2023/50/contents 
+[accessed 22 October 2024]
+
+7.    UK AI Safety Institute: https://www.aisi.gov.uk [accessed 22 
+
+October 2024]
+
+8.    See: Data (Use and Access) Bill factsheets, available at: 
+https://www.gov.uk/government/publications/data-use-
+and-access-bill-factsheets [accessed 24 October 2024]
+
+9.    For example: Goldman Sachs (2024) Will the $1 trillion of 
+
+generative AI investment pay off?, available at: https://www.
+goldmansachs.com/insights/articles/will-the-1-trillion-of-
+generative-ai-investment-pay-off [accessed 22 October 
+2024
+
+10.  Paleyes, A., Urma, R.G. and Lawrence, N. D. (2022) Challeng-
+es in Deploying Machine Learning: A Survey of Case Studies. 
+ACM Comput. Surv. 55, 6, Article 114 (June 2023), 29 pages. 
+https://doi.org/10.1145/3533378 
+
+11.  Denford, J.J., Dawson, G.S. and Desouza, K.C. (2023) A clus-
+
+ter analysis of national AI stragegies, available at: https://
+www.brookings.edu/articles/a-cluster-analysis-of-nation-
+al-ai-strategies/#the-focus-of-our-cluster-analysis-373 
+[accessed 22 October 2024]
+
+12. 
+
+13. 
+
+ UN AI Advisory Body (2024) Governing AI for humanity, 
+available at: https://www.un.org/en/ai-advisory-body [ac-
+cessed 22 October 2024]
+
+ An example of this failure can be seen in the use of AI 
+during Covid-19 response. For example: Heaven, W.D. (2021) 
+Hundreds of AI tools have been built to catch covid. None 
+of them helped. MIT Tech Review, available at: https://www.
+
+17.  For an example of an alternative lens to view international 
+
+relations in AI, see: Turobov, A., Coyle, D. and Harding, V. 
+(2024) Moving beyond competition: domain-specific ap-
+proach for international AI framework, Bennett Institute 
+for Public Policy, available at: https://www.bennettinstitute.
+cam.ac.uk/wp-content/uploads/2024/11/AIXGEO-Mov-
+ing-beyond-competition.pdf [accessed 1 December 2024]
+
+18.  Royal Society (2017) Public attitudes towards machine 
+
+learning, available at: https://royalsociety.org/topics-policy/
+projects/machine-learning/ [accessed 22 October 2024]; 
+RSA (2018) Application of automated decision-making sys-
+tems, available at: https://www.thersa.org/action-and-re-
+search/rsa-projects/economy-enterprise-manufactur-
+ing-folder/forum-for-ethical-AI [accessed 22 October 2024]; 
+Ipsos MORI (2023) Public Attitudes to AI, available at: 
+https://www.ipsos.com/sites/default/files/ct/publication/
+documents/2023-11/Public%20Perceptions%20of%20
+AI%20charts.pdf [accessed 22 October 2024]; Geospatial 
+Commission (2021) Public dialogue on location data ethics, 
+available at: https://www.gov.uk/government/news/pub-
+lic-dialogue-on-location-data-ethics-published [accessed 
+22 October 2024]; Ada Lovelace Institute (2023) How do 
+people feel about AI? Ada Lovelace Institute, available at: 
+https://www.adalovelaceinstitute.org/report/public-atti-
+tudes-ai/ [accessed 22 October 2024]; DSIT (2023) The tide 
+is changing: Monitoring public attitudes towards data and 
+AI (December 2023), available at: https://rtau.blog.gov.
+uk/2023/12/06/the-tide-is-changing-monitoring-public-at-
+titudes-towards-data-and-ai/ [accessed 22 October 2024]; 
+DSIT (2024) Public attitudes to data and AI: Tracker survey 
+(Wave 3) available at: https://www.gov.uk/government/
+publications/public-attitudes-to-data-and-ai-tracker-sur-
+vey-wave-3/public-attitudes-to-data-and-ai-tracker-survey-
+wave-3#:~:text=7.1%20Summary,healthcare%2C%20polic-
+ing%2C%20and%20education.[accessed 22 October 2024]
+
+19.  Department for Transport (2018) Attitudes to emerg-
+
+ing technologies, including automated vehicles, available 
+at: https://assets.publishing.service.gov.uk/government/
+uploads/system/uploads/attachment_data/file/721722/
+future-roads-public-dialogue-exploring-the-publics-reac-
+tions-to-future-road-technologies.pdf [accessed 22 October 
+2024]; ai@cam and Hopkins van Mil (2024) AI and the Mis-
+
+ 22
+
+Policy brief: Refreshing the UK’s strategic approach to AI sions for Government: insights from public dialogue, availa-
+ble at ai.cam.ac.uk [accessed 28 October 2024]
+
+20.  Milltown Partners and Clifford Chance (2023) Responsible 
+AI in Practice: Public Expectations of Approaches to Devel-
+oping and Deploying AI, available at: https://www.clifford-
+chance.com/content/dam/cliffordchance/hub/TechGroup/
+responsible-ai-in-practice-report-2023.pdf [accessed 22 
+October 2024]; ai@cam and Hopkins van Mil (2024) AI and 
+the Missions for Government: insights from public dialogue, 
+available at ai.cam.ac.uk [accessed 28 October 2024]
+
+21.  DSIT (2024) Public attitudes to data and AI: Tracker survey 
+(Wave 3) available at: https://www.gov.uk/government/
+publications/public-attitudes-to-data-and-ai-tracker-sur-
+vey-wave-3/public-attitudes-to-data-and-ai-tracker-survey-
+wave-3#:~:text=7.1%20Summary,healthcare%2C%20polic-
+ing%2C%20and%20education.[accessed 22 October 2024]
+
+22.  Drawing from: Royal Society (2017) Public attitudes towards 
+
+machine learning, available at: https://royalsociety.org/top-
+ics 
+-policy/projects/machine-learning/ [accessed 22 October 
+2024];  
+ONS (2023) Public awareness, opinions and expectations 
+about artificial intelligence: July to October 2023, available 
+at: htt-ps://www.ons.gov.uk/businessindustryandtrade/
+itandinternetindustry/articles/publicawarenessopinionsan-
+dexpectationsaboutartificialin-telligence/julytooctober2023 
+[accessed 22 October 2024]; Ada Lovelace Institute (2023) 
+How do people feel about AI? Ada Lovelace Institute, avail-
+able at: https://www.adalovelaceinstitute.org/report/pub-
+lic-attitudes-ai/ [accessed 22 October 2024]; DSIT (2024) 
+Public attitudes to data and AI: Tracker survey (Wave 3) 
+available at: https://www.gov.uk/government/publications/
+public-attitudes-to-data-and-ai-tracker-survey-wave-3/
+public-attitudes-to-data-and-ai-tracker-survey-wave-3#:~:-
+text=7.1%20Summary,healthcare%2C%20policing%2C%20
+and%20education.[accessed 22 October 2024] 
+
+23.  Drawing from Geospatial Commission (2021) Public dia-
+logue on location data ethics, available at: https://www.
+gov.uk/government/news/public-dialogue-on-location-da-
+ta-ethics-published [accessed 22 October 2024]; ONS (2023) 
+Public awareness, opinions and expectations about artificial 
+intelligence: July to October 2023, available at: https://www.
+ons.gov.uk/businessindustryandtrade/itandinternetindustry/
+articles/publicawarenessopinionsandexpectationsaboutar-
+tificialinte-lligence/julytooctober2023 [accessed 22 October 
+2024]; DSIT (2024) Public attitudes to data and AI: Tracker 
+survey (Wave 3) available at: https://www.gov.uk/govern-
+ment/publications/public-attitudes-to-data-and-ai-tracker-
+survey-wave-3/public-attitudes-to-data-and-ai-tracker-sur-
+vey-wave-3#:~:text=7.1%20Summary,healthcare%2C%20
+policing%2C%20and%20education.[accessed 22 October 
+2024]; DSIT (2024) Public dialogue on trust in digital identity 
+services: a findings report, available at: https://www.gov.uk/
+government/publications/public-dialogue-on-trust-in-dig-
+ital-identity-services/public-dialogue-on-trust-in-digi-
+tal-identity-services-a-findings-report [accessed 22 October 
+2024]
+
+24.  Drawing from Royal Society (2017) Public attitudes towards 
+
+machine learning, available at: https://royalsociety.org/top-
+ics-policy/projects/machine-learning/ [accessed 22 October 
+2024]; Public First (2023) What does the public think about 
+AI? Available at: https://publicfirst.co.uk/ai/ [accessed 22 
+October 2024]; DSIT (2023) The tide is changing: Moni-
+toring public attitudes towards data and AI (December 
+2023), available at: https://rtau.blog.gov.uk/2023/12/06/
+the-tide-is-changing-monitoring-public-attitudes-towards-
+data-and-ai/ [accessed 22 October 2024]; DSIT (2024) 
+Public attitudes to data and AI: Tracker survey (Wave 3) 
+available at: https://www.gov.uk/government/publications/
+public-attitudes-to-data-and-ai-tracker-survey-wave-3/
+public-attitudes-to-data-and-ai-tracker-survey-wave-3#:~:-
+text=7.1%20Summary,healthcare%2C%20policing%2C%20
+and%20education.[accessed 22 October 2024]
+
+25.  Royal Society (2017) Public attitudes towards machine 
+
+learning, available at: https://royalsociety.org/topics-policy/
+projects/machine-learning/ [accessed 22 October 2024]; 
+RSA (2018) Application of automated decision-making sys-
+tems, available at: https://www.thersa.org/action-and-re-
+search/rsa-projects/economy-enterprise-manufactur-
+ing-folder/forum-for-ethical-AI [accessed 22 October 2024]; 
+Ada Lovelace Institute (2023) How do people feel about AI? 
+Ada Lovelace Institute, available at: https://www.adalove-
+laceinstitute.org/report/public-attitudes-ai/ [accessed 22 
+October 2024]; ai@cam and Hopkins van Mil (2024) AI and 
+the Missions for Government: insights from public dialogue, 
+available at ai.cam.ac.uk [accessed 28 October 2024]
+
+26.  Royal Society (2017) Public attitudes towards machine 
+
+learning, available at: https://royalsociety.org/topics-policy/
+projects/machine-learning/ [accessed 22 October 2024]; 
+ai@cam and Hopkins van Mil (2024) AI and the Missions 
+for Government: insights from public dialogue, available at 
+ai.cam.ac.uk [accessed 28 October 2024]
+
+27.  Royal Society (2017) Public attitudes towards machine 
+
+learning, available at: https://royalsociety.org/topics-policy/
+projects/machine-learning/ [accessed 22 October 2024]; 
+RSA (2018) Application of automated decision-making sys-
+tems, available at: https://www.thersa.org/action-and-re-
+search/rsa-projects/economy-enterprise-manufactur-
+ing-folder/forum-for-ethical-AI [accessed 22 October 2024]; 
+Geospatial Commission (2021) Public dialogue on location 
+data ethics, available at: https://www.gov.uk/government/
+news/public-dialogue-on-location-data-ethics-published 
+[accessed 22 October 2024]; Ada Lovelace Institute (2021) 
+The Citizens’ Biometrics Council, available at: https://www.
+adalovelaceinstitute.org/report/citizens-biometrics-council/ 
+[accessed 22 October 2024]; DSIT (2024) Public dialogue on 
+trust in digital identity services: a findings report, available 
+at: https://www.gov.uk/government/publications/public-di-
+alogue-on-trust-in-digital-identity-services/public-dia-
+logue-on-trust-in-digital-identity-services-a-findings-report 
+[accessed 22 October 2024]; Connected by Data (2023) 
+Involving the public in AI policymaking - Experiences from 
+the People’s Panel on AI, available at: https://connectedby-
+data.org/projects/2023-peoples-panel-on-ai [accessed 22 
+October 2024]
+
+28. 
+
+ Milltown Partners and Clifford Chance (2023) Responsible 
+
+ 23
+
+Policy brief: Refreshing the UK’s strategic approach to AI AI in Practice: Public Expectations of Approaches to Devel-
+oping and Deploying AI, available at: https://www.clifford-
+chance.com/content/dam/cliffordchance/hub/TechGroup/
+responsible-ai-in-practice-report-2023.pdf [accessed 22 
+October 2024]
+
+29.  Ada Lovelace Institute (2021) The Citizens’ Biometrics 
+
+Council, available at: https://www.adalovelaceinstitute.org/
+report/citizens-biometrics-council/ [accessed 22 October 
+2024]; Ada Lovelace Institute (2023) How do people feel 
+about AI? Ada Lovelace Institute, available at: https://
+www.adalovelaceinstitute.org/report/public-attitudes-ai/ 
+[accessed 22 October 2024]; Ipsos MORI (2023) Public 
+Attitudes to AI, available at: https://www.ipsos.com/sites/
+default/files/ct/publication/documents/2023-11/Public%20
+Perceptions%20of%20AI%20charts.pdf [accessed 22 Oc-
+tober 2024]; Milltown Partners and Clifford Chance (2023) 
+Responsible AI in Practice: Public Expectations of Approach-
+es to Developing and Deploying AI, available at: https://
+www.cliffordchance.com/content/dam/cliffordchance/
+hub/TechGroup/responsible-ai-in-practice-report-2023.pdf 
+[accessed 22 October 2024]; Public First (2023) What does 
+the public think about AI? Available at: https://publicfirst.
+co.uk/ai/ [accessed 22 October 2024]; ai@cam and Hopkins 
+van Mil (2024) AI and the Missions for Government: insights 
+from public dialogue, available at ai.cam.ac.uk [accessed 28 
+October 2024] 
+
+30.  Department for Transport (2018) Attitudes to emerg-
+
+ing technologies, including automated vehicles, available 
+at: https://assets.publishing.service.gov.uk/government/
+uploads/system/uploads/attachment_data/file/721722/
+future-roads-public-dialogue-exploring-the-publics-reac-
+tions-to-future-road-technologies.pdf [accessed 22 October 
+2024]
+
+31.  DSIT (2024) Public dialogue on trust in digital identity ser-
+vices: a findings report, available at: https://www.gov.uk/
+government/publications/public-dialogue-on-trust-in-dig-
+ital-identity-services/public-dialogue-on-trust-in-digi-
+tal-identity-services-a-findings-report [accessed 22 October 
+2024]
+
+32.  For a discussion about the role of AI in art and poetry, see: 
+Royal Society (2017) Public attitudes towards machine 
+learning, available at: https://royalsociety.org/topics-policy/
+projects/machine-learning/ [accessed 22 October 2024]
+
+33.  UK Government (2021) National AI Strategy, available 
+
+at: https://www.gov.uk/government/publications/nation-
+al-ai-strategy [accessed 22 October 2024]
+
+34.  As set out in the AI Regulation White Paper subsequently in 
+2023: UK Government (2023) A pro-innovation approach to 
+AI regulation, available at: https://www.gov.uk/government/
+publications/ai-regulation-a-pro-innovation-approach/
+white-paper [accessed 22 October 2024]
+
+35.  For example, the Data (Use and Access) Bill, introduced to 
+
+Parliament on 23 October 2024.
+
+36.  Made up of the Information Commissioner’s Office, Ofcom, 
+
+the Competition and Markets Authority, and the Financial 
+
+Conduct Authority
+
+37.  DSIT (2023) New advisory service to help businesses launch 
+AI and digital innovations, available at: https://www.gov.uk/
+government/news/new-advisory-service-to-help-business-
+es-launch-ai-and-digital-innovations [accessed 22 October 
+2024]
+
+38.  DRCF (2024) AI Transparency: DRCF Perspectives, available 
+at: https://www.drcf.org.uk/publications/blogs/ai-transpar-
+ency-drcf-perspectives/ [22 October 2024]
+
+39.  Regulators’ strategic approaches to AI, published at: https://
+www.gov.uk/government/publications/regulators-strate-
+gic-approaches-to-ai/regulators-strategic-approaches-to-ai 
+[accessed 22 October 2024]
+
+40.  UK Government (2023) Introducing the AI Safety Institute, 
+available at: https://assets.publishing.service.gov.uk/media/
+65438d159e05fd0014be7bd9/introducing-ai-safety-insti-
+tute-web-accessible.pdf [accessed 22 October 2024]
+
+41.  Request for regulators to publish an update on their stra-
+tegic approach to AI: Secretary of State letters, available 
+at: https://www.gov.uk/government/publications/request-
+for-regulators-to-publish-an-update-on-their-strategic-
+approach-to-ai-secretary-of-state-letters [accessed 22 
+October 2024]
+
+42.  Regulators’ strategic approaches to AI, published at: https://
+www.gov.uk/government/publications/regulators-strate-
+gic-approaches-to-ai/regulators-strategic-approaches-to-ai 
+[accessed 22 October 2024]
+
+43.  OpenAI (2021) AI and compute, available at: https://openai.
+
+com/index/ai-and-compute/ [accessed 22 October 2024]
+
+44.  Kaplan, J. et al. (2020) Scaling laws for neural language 
+
+models, available at: https://openai.com/index/scaling-laws-
+for-neural-language-models/ [accessed 22 October 2024]
+
+45.  UK Government (2021) National AI Strategy, available 
+
+at: https://www.gov.uk/government/publications/nation-
+al-ai-strategy [accessed 22 October 2024]
+
+46.  DSIT (2023) Independent Review of The Future of Compute: 
+Final report and recommendations, available at: https://
+www.gov.uk/government/publications/future-of-com-
+pute-review/the-future-of-compute-report-of-the-review-
+of-independent-panel-of-experts#list-of-recommendations 
+[accessed 22 October 2024]
+
+47.  DSIT (2023) Technology Secretary announces invest-
+
+ment boost making British AI supercomputing 30 
+times more powerful, available at: https://www.gov.
+uk/government/news/technology-secretary-announc-
+es-investment-boost-making-british-ai-supercomput-
+ing-30-times-more-powerful [accessed 22 October 2024]
+
+48.  TechRadar (2024) UK government cancels £1bn AI invest-
+ment plan, available at: https://www.techradar.com/pro/
+uk-government-cancels-pound1bn-ai-investment-plan [ac-
+cessed 22 October 2024]
+
+49. 
+
+In general, Central Processing Units (CPUs) are used for 
+general-purpose computing and sequential processing, 
+
+ 24
+
+Policy brief: Refreshing the UK’s strategic approach to AI relevant to tasks like data cleaning, statistical analysis, 
+simulation, or running of some scientific software. Graphics 
+Processing Units (GPUs) are more useful for matrix opera-
+tions or parallel processing.
+
+50.  Düben, P. D., and T. N. Palmer, 2014: Benchmark Tests 
+
+for Numerical Weather Forecasts on Inexact Hardware. 
+Mon. Wea. Rev., 142, 3809–3829, https://doi.org/10.1175/
+MWR-D-14-00110.1.
+
+51.  Liesenfeld, A. and Dingemanse, M. (2024) Rethinking open 
+source generative AI: open-washing and the EU AI Act. 
+In Proceedings of the 2024 ACM Conference on Fairness, 
+Accountability, and Transparency (FAccT ‘24). Association 
+for Computing Machinery, New York, NY, USA, 1774–1787. 
+https://doi.org/10.1145/3630106.3659005
+
+52.  For a discussion about emerging definitions of open source, 
+see: Mozilla (2024) Celebrating an important step forward 
+for open source AI, available at: https://blog.mozilla.org/en/
+mozilla/ai/open-source-ai-definition/ [accessed 1 December 
+2024]
+
+53.  Though variations in text and data mining legislation stip-
+
+ulate different duties around aggregated data sets. For 
+example, in the US, which is the largest jurisdiction for model 
+training, notions such as fair use are still contested.
+
+54.  Delacroix, S. (2024) Sustainable Data Rivers? Rebalancing 
+
+the Data Ecosystem That Underlies Generative AI. Critical AI 
+1 April 2024; 2 (1): No Pagination Specified. doi: https://doi.
+org/10.1215/2834703X-11205224
+
+55.  ai@cam and Hopkins van Mil (2024) AI and the Missions 
+
+for Government: insights from public dialogue, available at 
+ai.cam.ac.uk [accessed 28 October 2024]
+
+56.  AI systems that are based on machine learning, which is 
+the method underpinning many of the current AI tools in 
+deployment.
+
+57.  Deng, J., Dong, W., Socher, R., Li, L.-J., Li, K., & Fei-Fei, L. 
+(2009). Imagenet: A large-scale hierarchical image data-
+base. In 2009 IEEE conference on computer vision and pat-
+tern recognition (pp. 248–255). https://ieeexplore.ieee.org/
+document/5206848 [accessed 22 October 2024]
+
+58.  Such as the Protein Data Bank https://www.rcsb.org 
+
+59.  Detailed further in Jumper, J., Evans, R., Pritzel, A. et al. 
+
+Highly accurate protein structure prediction with AlphaFold. 
+Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-
+021-03819-2
+
+60.  Available at: https://www.go-fair.org/fair-principles/ [ac-
+
+cessed 22 October 2024]
+
+61.  Ada Lovelace Institute (2021) Legal Mechanisms for Data 
+Stewardship, available at: https://www.adalovelacein-
+stitute.org/report/legal-mechanisms-data-steward-
+ship/#:~:text=The%20three%20legal%20mechanisms%20
+discussed,in%20the%20data%2Dgovernance%20toolbox 
+[accessed 22 October 2024]
+
+62.  Alan Turing Institute and Royal Society (2024) Synthetic 
+
+data – what, why and how? Available at: https://royalsocie-
+ty.org/-/media/policy/projects/privacy-enhancing-technol-
+
+ogies/Synthetic_Data_Survey-24.pdf [accessed 22 October 
+2024]
+
+63.  DCMS (2020) National Data Strategy, available at: https://
+www.gov.uk/government/publications/uk-national-da-
+ta-strategy/national-data-strategy [accessed 22 October 
+2024]
+
+64.  Party Manifesto (2024), available at: https://labour.org.
+
+uk/wp-content/uploads/2024/06/Labour-Party-manifes-
+to-2024.pdf#page=35 ‘accessed 22 October 2024] 
+
+65.  ADR UK (2024) The new UK Government wants a Na-
+
+tional Data Library: a brilliant aspiration, if built on sol-
+id foundations, available at: https://www.adruk.org/
+news-publications/news-blogs/the-new-uk-government-
+wants-a-national-data-library-a-brilliant-aspiration-if-built-
+on-solid-foundations/ [accessed 22 October 2024]
+
+66.  Onward (2024) Let’s get real about Britain’s AI status, avail-
+able at: https://sciencesuperpower.substack.com/p/lets-get-
+real-about-britains-ai-status [accessed 22 October 2024]
+
+67.  Freeguard, G. (2024), How should we think about a National 
+Data Library? Available at: https://gavin-freeguard.medium.
+com/how-should-we-think-about-a-national-data-library-
+dd2d47edee8b [accessed 22 October 2024]
+
+68.  ODI (2024) The ODI’s input to the AI Action Plan: an AI-
+
+ready National Data Library, available at: https://theodi.org/
+news-and-events/consultation-responses/the-odis-input-
+to-the-ai-action-plan-an-ai-ready-national-data-library/ 
+[accessed 22 October 2024]
+
+69.  ai@cam (2024) Access to data for research: lessons for the 
+National Data Library from the front lines of AI innovation, 
+available at: https://ai.cam.ac.uk/projects/access-to-data-
+case-studies [accessed 1 December 2024]
+
+70.  For reports and briefings on this topic, see: https://www.
+
+bennettinstitute.cam.ac.uk/research/research-projects/val-
+uing-data/ [accessed 1 December 2024]
+
+71.  DCMS and Kantar (2020) Motivations for and barriers to 
+
+data sharing, available at: https://assets.publishing.service.
+gov.uk/government/uploads/system/uploads/attachment_
+data/file/895505/_Kantar_research_publication.pdf and 
+https://www.gov.uk/government/publications/digital-econo-
+my-act-2017-part-5-codes-of-practice/mid-point-report-on-
+use-of-the-dea-powers#next-steps [accessed 22 October 
+2024]
+
+72.  These issues are explored in a case study on access to data 
+for climate research in ai@cam’s policy brief on researcher 
+access to data, available at: https://ai.cam.ac.uk/projects/
+access-to-data-case-studies [accessed 1 December 2024]
+
+73.  A content delivery network (CDN) is a system of distribut-
+ed servers that deliver web content to users based on their 
+geographic location. It’s like having multiple copies of a book 
+in libraries across the country, rather than just one central 
+library.
+
+74.  For example, in Greater Manchester, this programme has 
+been taking action to create a joined up health and social 
+care patient record system. For information available at: 
+
+ 25
+
+Policy brief: Refreshing the UK’s strategic approach to AI https://healthinnovationmanchester.com/partnerships/
+greater-manchester-doing-digital-differently/local-health-
+and-care-records-in-gm/ 
+
+thousands-more-to-train-in-future-tech-like-ai-as-govern-
+ment-unveils-over-11-billion-package-to-skill-up-uk [ac-
+cessed 22 October 2024]
+
+75.  For example: https://www.hdruk.ac.uk/news/health-data-
+research-uk-partners-with-state-of-the-art-supercomput-
+ing-service-to-support-national-research-to-understand-
+the-causes-of-disease/ [accessed 22 October 2024]
+
+87.  UKRI (2024) £100m boost in AI research will propel trans-
+formative innovations, available at: https://www.ukri.org/
+news/100m-boost-in-ai-research-will-propel-transforma-
+tive-innovations/ [accessed 22 October 2024]
+
+76.  DCMS (2021) Quantifying the UK’s data skills gap, avail-
+
+able at: https://www.gov.uk/government/publications/
+quantifying-the-uk-data-skills-gap/quantifying-the-uk-da-
+ta-skills-gap-full-report#ministerial-foreword [accessed 22 
+October 2024] 
+
+77.  For example: https://www.ukbiobank.ac.uk/enable-your-re-
+search/apply-for-access [accessed 22 October 2024] 
+
+78.  Anton Pichler et al. (2023) Building an alliance to map global 
+supply networks.Science382,270-272.DOI:10.1126/science.
+adi7521
+
+79.  For example: https://www.smartdcc.co.uk/about-dcc/ [ac-
+
+cessed 22 October 2024]
+
+80.  Guidelines for AI procurement, available at: https://www.
+
+gov.uk/government/publications/guidelines-for-ai-procure-
+ment [accessed 22 October 2024]
+
+81.  Generative AI framework for HMG, available at: https://
+
+www.gov.uk/government/publications/generative-ai-frame-
+work-for-hmg/generative-ai-framework-for-hmg-html 
+[accessed 22 October 2024]
+
+82.  For example, initiatives like the GovTech Catalyst sought 
+to provide a forum for working through issues associated 
+with public sector procurement of digital technologies. 
+Further information available at: https://gds.blog.gov.
+uk/2020/06/18/what-we-learnt-from-the-first-phase-of-
+the-govtech-catalyst/ [22 October 2024]
+
+83.  Furman Review (2019) Unlocking digital competition, 
+
+available at: https://www.gov.uk/government/publications/
+unlocking-digital-competition-report-of-the-digital-compet-
+ition-expert-panel [22 October 2024]
+
+84.  For example: Turing AI World-Leading Research-
+
+er Fellowships: https://www.ukri.org/opportu-
+nity/turing-ai-world-leading-researcher-fellow-
+ships-round-three/#:~:text=Through%20the%20Turing%20
+AI%20World,currently%20located%20in%20the%20
+UK. and AI Futures grants: https://www.great.gov.uk/
+campaign-site/ai-futures/#:~:text=AI%20Futures%20
+Grants%20helps%20the,surcharge%20and%20trav-
+el%2Fsubsistence%20expenses. [accessed 22 October 2024]
+
+85.  DCMS (2020) 2,500 new places on artificial intelligence and 
+data science conversion courses now open to applicants, 
+available at: https://www.gov.uk/government/news/2500-
+new-places-on-artificial-intelligence-and-data-science-
+conversion-courses-now-open-to-applicants [accessed 22 
+October 2024]
+
+88.  For information about Turing AI Fellows, see: https://www.
+turing.ac.uk/people/fellows/turing-ai-fellows [accessed 22 
+October 2024]
+
+89.  Digital Science (2024) Research on Artificial Intelligence – 
+
+the global divides, available at: https://www.digital-science.
+com/tldr/article/research-on-artificial-intelligence-the-glob-
+al-divides/ [22 October 2024]
+
+90.  For example, work by the OECD: https://oecd-opsi.org/
+
+work-areas/mission-oriented-innovation/ and Mazzucato, 
+M. (2018) ‘Mission Oriented Innovation Policy: Challenges 
+and Opportunities’, Industrial and Corporate Change, 27 (5), 
+pp. 803–815, available at: https://www.ucl.ac.uk/bartlett/
+public-purpose/publications/2017/sep/mission-oriented-in-
+novation-policy-challenges-and-opportunities [accessed 22 
+October 2024]
+
+91.  Mandys, F. and Coyle, D. (2024) Competitiveness, produc-
+
+tivity and innovation in the UK’s computing sector, Ben-
+nett Institute for Public Policy, available at: https://www.
+bennettinstitute.cam.ac.uk/wp-content/uploads/2024/06/
+Competitiveness-productivity-innovation-in-the-UK-com-
+puting-sector.pdf [accessed 22 October 2024]
+
+92.  For example, see this discussion on “bridging the valley 
+
+of death” from 2013: Science and Technology Committee 
+(2013), Bridging the Valley of Death, Committee’s Eighth 
+Report of Session 2012–13, available at: https://committees.
+parliament.uk/work/4548/bridging-the-valley-of-death-im-
+proving-the-commercialisation-of-research/news/ [accessed 
+22 October 2024]
+
+93.  techUK (2024) techUK creates new Scale-up Group to 
+
+support the UK Government’s Scale-up Sprint initiative, 
+available at: https://www.techuk.org/resource/techuk-cre-
+ates-new-scale-up-group-to-support-the-uk-government-s-
+scale-up-sprint-initiative.html [accessed 22 October 2024]
+
+94.  DSIT (2024) Science, Innovation and Technology Secre-
+
+tary Michelle Donelan’s speech at Plexal, available at: 
+https://www.gov.uk/government/speeches/science-in-
+novation-and-technology-secretary-michelle-done-
+lans-speech-at-plexal [acccesed 22 October 2024]
+
+95.  Council for Science and Technology (2024) Driving econom-
+
+ic growth by unlocking investment at scale for innovative 
+science and technology companies https://assets.publishing.
+service.gov.uk/media/67473ceccf0d45234dd8d0d2/CST_let-
+ter_on_scale_up_finance_-_October_2024.pdf [accessed 29 
+November 2024]
+
+96.  DSIT (2024) DSIT bolstered to better serve the British 
+
+86.  DSIT (2024), Thousands more to train in future tech like AI 
+
+as government unveils over £1.1 billion package to skill-up 
+UK, available at: https://www.gov.uk/government/news/
+
+public through science and technology, available at: https://
+www.gov.uk/government/news/dsit-bolstered-to-bet-
+ter-serve-the-british-public-through-science-and-tech-
+
+ 26
+
+Policy brief: Refreshing the UK’s strategic approach to AI nology#:~:text=The%20Department%20for%20Sci-
+ence%2C%20Innovation,digital%20transformation%20
+of%20public%20services [accessed 22 October 2024]
+
+97. 
+
+ South Cambridgeshire District Council: Our Productivity 
+Plan, available at: https://www.scambs.gov.uk/your-coun-
+cil-and-democracy/our-business-plan-and-performance/
+our-productivity-plan [accessed 22 October 2024]
+
+98. 
+
+ For further information, see: https://www.ai-in-education.
+co.uk 
+
+99.  BBC News (2013) NHS IT system one of ‘worst fiascos ever’, 
+say MPs, available at: https://www.bbc.co.uk/news/uk-poli-
+tics-24130684 [accessed 22 October 2024]
+
+100. Justinia T. (2017) The UK’s National Programme for IT: Why 
+was it dismantled? Health Serv Manage Res. Feb;30(1):2-9. 
+doi: 10.1177/0951484816662492. Epub 2016 Nov 16. PMID: 
+28166675.
+
+101.  Zittrain, J. (2022) ‘Intellectual Debt: With Great Power 
+
+Comes Great Ignorance’, in S. Voeneky et al. (eds.) The Cam-
+bridge Handbook of Responsible Artificial Intelligence: Inter-
+disciplinary Perspectives. Cambridge: Cambridge University 
+Press (Cambridge Law Handbooks), pp. 176–184.
+
+ 27
+
+Policy brief: Refreshing the UK’s strategic approach to AI For questions about this report, get in touch via  the information below:Email:contact@ai.cam.ac.ukVisit:ai.cam.ac.uk Connect on X:@ai_cam_mission LinkedIn:@ai-cambridge Connect on Bluesky: @ai.cam.ac.ukIn partnership with:ai.cam.ac.uk

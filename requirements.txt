@@ -1,0 +1,11 @@
+# Python dependencies for branch protection and security monitoring scripts
+
+# GitHub API client
+PyGithub>=2.1.1
+
+# YAML parsing (for settings.yml)
+PyYAML>=6.0.1
+
+# Additional utilities (if needed)
+requests>=2.31.0
+
