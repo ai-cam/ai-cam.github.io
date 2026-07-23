@@ -6,7 +6,7 @@ priority: "High"
 created: "2026-07-23"
 last_updated: "2026-07-23"
 related_tenets: ["editorial-continuity", "two-interfaces-one-truth"]
-stakeholders: ["Elinor Pegler", "Communications team"]
+stakeholders: ["Comms lead", "Communications team"]
 tags:
 - requirements
 - cms
@@ -17,11 +17,11 @@ tags:
 
 ## Description
 
-Elinor Pegler (communications lead) and the wider editorial team publish all content through Decap CMS. They cannot use GitHub directly. When the CMS is broken — whether due to a dependency update, a configuration error, or an infrastructure change — they have no fallback and cannot publish. This is the highest-priority failure mode in the repository.
+Communications lead and the wider editorial team publish all content through Decap CMS. They cannot use GitHub directly. When the CMS is broken — whether due to a dependency update, a configuration error, or an infrastructure change — they have no fallback and cannot publish. This is the highest-priority failure mode in the repository.
 
 **Why this matters**: Tenet `editorial-continuity` — the website exists to publish content, and 88% of commits in this repository are editorial operations through the CMS.
 
-**Who benefits**: Elinor Pegler, the communications team, and anyone relying on timely publication of events, news, reports, and calls.
+**Who benefits**:  the communications team, and anyone relying on timely publication of events, news, reports, and calls.
 
 ## Acceptance Criteria
 

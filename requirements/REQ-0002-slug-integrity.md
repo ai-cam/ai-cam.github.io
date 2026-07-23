@@ -6,7 +6,7 @@ priority: "High"
 created: "2026-07-23"
 last_updated: "2026-07-23"
 related_tenets: ["slugs-are-permanent", "two-interfaces-one-truth"]
-stakeholders: ["Elinor Pegler", "Neil Lawrence", "Site visitors via shared links"]
+stakeholders: ["Comms lead", "Neil Lawrence", "Site visitors via shared links"]
 tags:
 - requirements
 - slugs
@@ -24,7 +24,7 @@ The commit history shows this is the most persistent error class in the reposito
 
 **Why this matters**: Tenet `slugs-are-permanent` — a bad slug is a broken promise to anyone who shares the link.
 
-**Who benefits**: Elinor Pegler (avoids confusing build errors), site visitors (stable URLs), developers (fewer fix campaigns).
+**Who benefits**: The comms lead (avoids confusing build errors), site visitors (stable URLs), developers (fewer fix campaigns).
 
 ## Acceptance Criteria
 

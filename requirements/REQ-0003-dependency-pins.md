@@ -6,7 +6,7 @@ priority: "Medium"
 created: "2026-07-23"
 last_updated: "2026-07-23"
 related_tenets: ["pin-and-track", "editorial-continuity"]
-stakeholders: ["Neil Lawrence", "Elinor Pegler"]
+stakeholders: ["Neil Lawrence", "Comms lead"]
 tags:
 - requirements
 - dependencies
@@ -23,7 +23,7 @@ Site-critical dependencies are those whose failure prevents either the site from
 
 **Why this matters**: Tenets `pin-and-track` and `editorial-continuity` — floating ranges are bets against the future; a broken dependency is a broken CMS.
 
-**Who benefits**: Elinor Pegler (no unexpected CMS outages), developers (predictable build environments).
+**Who benefits**: The comms lead (no unexpected CMS outages), developers (predictable build environments).
 
 ## Acceptance Criteria
 
