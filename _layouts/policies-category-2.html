@@ -66,40 +66,87 @@ layout: default
             {% endif %}
         </ul>
 
-        <div class="row">
-            {% assign page_name = page.data.name | default: page.name %}
-            {% assign filtered_policies = site.policies | where: 'policy_categories', page_name %}
-            {% assign sorted_policies = filtered_policies | sort: 'date' | reverse %}
-            {% if sorted_policies.size > 0 %}
-                {% for policy in sorted_policies %}
-                <div class="col-lg-4">
-                    <div class="second-item">
-                        <div class="text">
-                            <div class="top-title">
-                                <h3><a href="{{ policy.url }}">{{ policy.title }}</a></h3>
+        <!-- Projects-style grid (image on top, title at bottom, 3 per row) -->
+        <div class="projects-page-content policy-projects-grid">
+            <div class="row">
+                {% assign page_name = page.data.name | default: page.name %}
+                {% assign filtered_policies = site.policies | where: 'policy_categories', page_name %}
+                {% assign sorted_policies = filtered_policies | sort: 'date' | reverse %}
+
+                {% comment %}
+                  Resolve selected_reports defined on the policy category front matter
+                  (e.g. _policy_categories/ai-for-public-services.md). Each entry is a
+                  slug or title string that we look up in site.reports so we can render
+                  the matched report as a card in the same projects-style grid.
+                {% endcomment %}
+                {% assign selected_reports = page.data.selected_reports | default: page.selected_reports %}
+                {% assign resolved_reports = "" | split: "" %}
+                {% if selected_reports and selected_reports.size > 0 %}
+                    {% for report_ref in selected_reports %}
+                        {% assign report_match = site.reports | where: "slug", report_ref | first %}
+                        {% if report_match == nil %}
+                            {% assign report_match = site.reports | where: "title", report_ref | first %}
+                        {% endif %}
+                        {% if report_match %}
+                            {% assign resolved_reports = resolved_reports | push: report_match %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+                {% assign total_items = sorted_policies.size | plus: resolved_reports.size %}
+
+                {% if total_items > 0 %}
+                    {% for policy in sorted_policies %}
+                    <div class="col-lg-4 d-flex" data-policy-id="{{ policy.slug }}">
+                        <div class="item flex-fill">
+                            {% if policy.cover_image %}
+                            <a href="{{ policy.url }}">
+                                <img src="{{ policy.cover_image | relative_url }}" class="main-img" alt="{{ policy.title }}">
+                            </a>
+                            {% endif %}
+
+                            <div class="text">
+                                {% if policy.title %}
+                                <a href="{{ policy.url }}"><h3>{{ policy.title }}</h3></a>
+                                {% endif %}
+
                                 <a href="{{ policy.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
                             </div>
-
-                            {% if policy.date %}<p>{{ policy.date | date: "%-d %B, %Y" }}</p>{% endif %}
                         </div>
-
-                        {% if policy.cover_image %}
-                        <a href="{{ policy.url }}"><img src="{{ policy.cover_image | relative_url }}" alt="{{ policy.title }}" class="main-img"></a>
-                        {% endif %}
                     </div>
-                </div>
-                {% endfor %}
+                    {% endfor %}
 
-                {% if sorted_policies.size > 4 %}
-                <div class="col-lg-12">
-                    <div class="load-more">
-                        <a href="#">Load More <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                    {% for report in resolved_reports %}
+                    <div class="col-lg-4 d-flex" data-report-id="{{ report.slug }}">
+                        <div class="item flex-fill">
+                            {% if report.cover_image %}
+                            <a href="{{ report.url }}">
+                                <img src="{{ report.cover_image | relative_url }}" class="main-img" alt="{{ report.title }}">
+                            </a>
+                            {% endif %}
+
+                            <div class="text">
+                                {% if report.title %}
+                                <a href="{{ report.url }}"><h3>{{ report.title }}</h3></a>
+                                {% endif %}
+
+                                <a href="{{ report.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    {% endfor %}
+
+                    {% if total_items > 4 %}
+                    <div class="col-lg-12">
+                        <div class="load-more">
+                            <a href="#">Load More <div class="icon"><img src="{{ '/assets/images/icons/arrow-right-up-green.svg' | relative_url }}" alt=""></div></a>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% else %}
+                    <div style="height: 400px;"></div>
                 {% endif %}
-            {% else %}
-                <div style="height: 400px;"></div>
-            {% endif %}
+            </div>
         </div>
     </div>
 </section>
