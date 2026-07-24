@@ -1,6 +1,7 @@
 ---
 slug: launching-ai-for-university-ops-supporting-administrative-innovation-across-the-university-1
 redirect_from:
+  - "/news/launching-ai-for-university-ops-supporting-administrative-innovation-across-the-university-1/"
   - "/news/launching-ai-for-university-ops-supporting-administrative-innovation/"
 title: "Launching 'AI for University Ops': Supporting administrative innovation
   across the University"

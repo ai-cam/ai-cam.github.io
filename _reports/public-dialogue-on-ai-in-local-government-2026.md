@@ -1,6 +1,7 @@
 ---
 slug: "public-dialogue-on-ai-in-local-government-2026"
 redirect_from:
+  - "/reports/public-dialogue-on-ai-in-local-government-2026/"
   - "/reports/public-dialogue-on-ai-in-local-government-full-report-2026/"
 title: "Public Dialogue on AI in Local Government: Full Report 2026"
 excerpt: "Following an interim report published in December 2025, this full

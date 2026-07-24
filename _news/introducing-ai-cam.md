@@ -1,6 +1,7 @@
 ---
 slug: introducing-ai-cam
 redirect_from:
+  - "/news/introducing-ai-cam/"
   - "/news/introducing-aicam/"
 title: Introducing ai@cam
 excerpt: AI today is both a rapidly-advancing technical field and a technology

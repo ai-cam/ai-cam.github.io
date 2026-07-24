@@ -1,6 +1,7 @@
 ---
 slug: the-ai-summit-london-1
 redirect_from:
+  - "/events/the-ai-summit-london-1/"
   - "/events/the-ai-summit-london/"
 title: The AI Summit London
 excerpt: As AI technologies reshape the business landscape, leaders face

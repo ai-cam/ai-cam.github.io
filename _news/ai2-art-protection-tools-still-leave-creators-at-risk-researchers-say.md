@@ -1,6 +1,7 @@
 ---
 slug: aicam-launches-second-ai-sciencepreneurship-bootcamp
 redirect_from:
+  - "/news/aicam-launches-second-ai-sciencepreneurship-bootcamp/"
   - "/news/aicam-launches-second-ai-sciencepreneurship-bootcamp-to-accelerate/"
 title: ai@cam launches second AI Sciencepreneurship Bootcamp to accelerate
   AI-driven research innovation

@@ -1,6 +1,7 @@
 ---
 slug: ai-cam-joins-new-european-alliance-for-ai-sciencepreneurship
 redirect_from:
+  - "/news/ai-cam-joins-new-european-alliance-for-ai-sciencepreneurship/"
   - "/news/aicam-joins-new-european-alliance-for-ai-sciencepreneurship/"
 title: ai@cam joins new European Alliance for AI sciencepreneurship
 excerpt: >+

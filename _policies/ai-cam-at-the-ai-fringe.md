@@ -1,6 +1,7 @@
 ---
 slug: ai-cam-at-the-ai-fringe
 redirect_from:
+  - "/policies/ai-cam-at-the-ai-fringe/"
   - "/policies/aicam-at-the-ai-fringe/"
 title: ai@cam at the AI Fringe
 excerpt: Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the

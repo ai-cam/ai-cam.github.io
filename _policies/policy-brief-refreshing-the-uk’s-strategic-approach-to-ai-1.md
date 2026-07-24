@@ -1,5 +1,7 @@
 ---
 slug: policy-brief-refreshing-the-uks-strategic-approach-to-ai-1
+redirect_from:
+  - /policies/policy-brief-refreshing-the-uks-strategic-approach-to-ai-1/
 title: "Policy Brief: Refreshing the UK's strategic approach to AI (duplicate)"
 excerpt: AI is at risk of following a well-worn path that results in
   technological innovations that fail to address real-world challenges. We have

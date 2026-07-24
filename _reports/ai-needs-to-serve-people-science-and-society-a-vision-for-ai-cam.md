@@ -1,6 +1,7 @@
 ---
 slug: ai-needs-to-serve-people-science-and-society-a-vision-for-ai-cam
 redirect_from:
+  - "/reports/ai-needs-to-serve-people-science-and-society-a-vision-for-ai-cam/"
   - "/reports/ai-needs-to-serve-people-science-and-society-a-vision-for-aicam/"
 title: "AI needs to serve people, science, and society: A vision for ai@cam"
 excerpt: This report sets out the vision for ai@cam, a new flagship mission at

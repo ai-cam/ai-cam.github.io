@@ -1,6 +1,7 @@
 ---
 slug: training-workshop-llm-hands-on-workshop-1
 redirect_from:
+  - "/events/training-workshop-llm-hands-on-workshop-1/"
   - "/events/training-workshop-llm-hands-on-workshop/"
 title: "Training Workshop: LLM Hands on Workshop"
 excerpt: Accelerate Science are running a 1-day hands-on ML workshop to help you

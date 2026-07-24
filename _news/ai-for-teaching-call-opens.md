@@ -1,6 +1,7 @@
 ---
 slug: ai-for-teaching-call-opens
 redirect_from:
+  - "/news/ai-for-teaching-call-opens/"
   - "/news/cambridge-educators-invited-to-shape-the-future-of-teaching-and-learning/"
 title: Cambridge educators invited to shape the future of teaching and learning
   with AI

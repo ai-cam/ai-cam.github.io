@@ -1,6 +1,7 @@
 ---
 slug: miguel-hernández-lobato
 redirect_from:
+  - "/people/miguel-hernández-lobato/"
   - "/people/miguel-hernandez-lobato/"
 title: Miguel Hernández Lobato
 photo: /assets/images/uploads/hernandez-lobato_jose-miguel.jpg

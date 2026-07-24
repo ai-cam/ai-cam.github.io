@@ -1,6 +1,7 @@
 ---
 slug: ai-cam-networking-event
 redirect_from:
+  - "/events/ai-cam-networking-event/"
   - "/events/aicam-networking-event/"
 title: ai@cam Networking Event
 excerpt: We are delighted to be hosting our ai@cam Networking on Thursday 13

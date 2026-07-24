@@ -1,6 +1,7 @@
 ---
 slug: opinion-ai-can-unlock-productivity-in-public-services-1
 redirect_from:
+  - "/news/opinion-ai-can-unlock-productivity-in-public-services-1/"
   - "/news/opinion-ai-can-unlock-productivity-in-public-services/"
 title: "Opinion: AI can unlock productivity in public services"
 excerpt: “Sluggish technology has hampered our public services for too long, and

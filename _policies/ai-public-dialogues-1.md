@@ -1,6 +1,7 @@
 ---
 slug: ai-public-dialogues-1
 redirect_from:
+  - "/policies/ai-public-dialogues-1/"
   - "/policies/ai-public-dialogues/"
 title: AI Public Dialogues
 excerpt: In September 2024, ai@cam convened public dialogue workshops in

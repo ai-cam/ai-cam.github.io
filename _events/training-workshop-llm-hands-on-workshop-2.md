@@ -1,6 +1,7 @@
 ---
 slug: training-workshop-llm-hands-on-workshop-2
 redirect_from:
+  - "/events/training-workshop-llm-hands-on-workshop-2/"
   - "/events/training-workshop-llm-hands-on-workshop/"
 title: "Training Workshop: LLM Hands on Workshop"
 excerpt: We know that when you’re learning AI & ML, a mix of classroom theory
