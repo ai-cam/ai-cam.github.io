@@ -1,5 +1,5 @@
 ---
-slug: -ai-deas-sprints-showcase
+slug: ai-deas-sprints-showcase
 title: "Innovation from the ground up: notes from the AI-deas Sprints Showcase"
 date: 2026-05-20
 cover_image: /assets/images/uploads/img_1999.jpeg
