@@ -157,9 +157,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          # Pass event JSON via env var so shell quoting does not break on
+          # internal double-quotes in the JSON payload.
+          GH_EVENT_DATA: ${{ toJson(github.event) }}
         run: |
           python scripts/security-monitor.py \
             --repo "$GITHUB_REPOSITORY" \
-            --event-type ${{ github.event_name }} \
-            --event-data "${{ toJson(github.event) }}"
+            --event-type "${{ github.event_name }}" \
+            --event-data "$GH_EVENT_DATA"
 
