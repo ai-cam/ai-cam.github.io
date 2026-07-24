@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load events filtered by category from JSON
     if (loadMoreBtn) {
-        fetch('/events/category/{{ page.slug }}.json')
+        fetch('/events/category/{{ page.name | slugify }}.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.stopPropagation();
             
             if (allEvents.length === 0) {
-                fetch('/events/category/{{ page.slug }}.json')
+                fetch('/events/category/{{ page.name | slugify }}.json')
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Network response was not ok');
