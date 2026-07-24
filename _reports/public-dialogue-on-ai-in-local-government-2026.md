@@ -22,7 +22,8 @@ links:
     link_text: Download full report
   - link: /assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf
     link_text: Download interim report
-authors: []
+authors:
+  - name: ai@cam
 ---
 This report presents the full findings from ai@cam's public dialogue on AI in local government, drawing on two phases of engagement with Cambridgeshire residents conducted in November 2025 and March 2026.
 
