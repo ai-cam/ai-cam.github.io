@@ -1,5 +1,7 @@
 ---
 slug: Launching-AI-for-University-Ops-Supporting-administrative-innovation-across-the-University
+redirect_from:
+  - "/calls/launching-ai-for-university-ops-supporting-administrative-innovation/"
 title: "Launching 'AI for University Ops': Supporting administrative innovation
   across the University"
 call_categories: Past Calls

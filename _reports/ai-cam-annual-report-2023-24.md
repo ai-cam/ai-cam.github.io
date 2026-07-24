@@ -1,5 +1,7 @@
 ---
 slug: ai-cam-annual-report-2023-24
+redirect_from:
+  - "/reports/aicam-annual-report-2023-24/"
 title: ai@cam Annual Report 2023-24
 excerpt: This annual report outlines ai@cam’s first year of operations
   establishing itself as an incubator for interdisciplinary AI that addresses

@@ -1,5 +1,7 @@
 ---
 slug: how-much-labour-does-it-take-to-make-a-labour-saving-technology-ai-and-global-paradox-of-data-work
+redirect_from:
+  - "/events/how-much-labour-does-it-take-to-make-a-labour-saving-technology-ai-and/"
 title: How much labour does it take to make a labour-saving technology? AI and
   global paradox of data work
 excerpt: "The pursuit of labour-saving technologies through artificial

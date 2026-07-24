@@ -1,5 +1,7 @@
 ---
 slug: what-local-government-needs-from-ai-learning-from-practice-in-our-ai-for-local-government-accelerator
+redirect_from:
+  - "/blog/what-local-government-needs-from-ai-learning-from-practice-in-our-ai/"
 title: "What Local Government Needs from AI: Learning from Practice in our AI
   for Local Government Accelerator"
 date: 2025-12-08

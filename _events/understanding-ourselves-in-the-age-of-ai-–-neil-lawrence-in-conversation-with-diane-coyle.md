@@ -1,5 +1,7 @@
 ---
 slug: understanding-ourselves-in-the-age-of-ai-–-neil-lawrence-in-conversation-with-diane-coyle
+redirect_from:
+  - "/events/understanding-ourselves-in-the-age-of-ai-neil-lawrence-in-conversation/"
 title: Understanding Ourselves in the Age of AI – Neil Lawrence in conversation
   with Diane Coyle
 excerpt: As part of this year’s Cambridge Festival, Professor Diane Coyle,

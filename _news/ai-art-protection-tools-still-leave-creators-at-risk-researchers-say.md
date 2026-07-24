@@ -1,5 +1,7 @@
 ---
 slug: new-funding-call-launches-to-support-ai-innovation-with-local-government-partners
+redirect_from:
+  - "/news/new-funding-call-launches-to-support-ai-innovation-with-local-government/"
 title: New funding call launches to support AI innovation with local government
   partners
 excerpt: The University of Cambridge has launched a new Local Government AI

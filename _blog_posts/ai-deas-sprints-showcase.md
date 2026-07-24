@@ -1,5 +1,7 @@
 ---
 slug: ai-deas-sprints-showcase
+redirect_from:
+  - "/blog/innovation-from-the-ground-up-notes-from-the-ai-deas-sprints-showcase/"
 title: "Innovation from the ground up: notes from the AI-deas Sprints Showcase"
 date: 2026-05-20
 cover_image: /assets/images/uploads/img_1999.jpeg

@@ -1,5 +1,7 @@
 ---
 slug: uk-needs-clearer-vision-on-ai-sovereignty-to-turn-ai-research-excellence-into-strategic-value
+redirect_from:
+  - "/news/uk-needs-clearer-vision-on-ai-sovereignty-to-turn-ai-research-excellence/"
 title: UK needs clearer vision on AI sovereignty to turn AI research excellence
   into strategic value
 excerpt: The UK needs better coordination of its research capability and policy

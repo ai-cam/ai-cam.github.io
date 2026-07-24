@@ -1,5 +1,7 @@
 ---
 slug: ai@cam-launches-Sciencepreneurship-Bootcamp-to-accelerate-entrepreneurship-in-AI-for-science
+redirect_from:
+  - "/calls/aicam-launches-sciencepreneurship-bootcamp-to-accelerate/"
 title: ai@cam launches Sciencepreneurship Bootcamp to accelerate
   entrepreneurship in AI for science
 call_categories: Past Calls

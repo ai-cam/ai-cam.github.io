@@ -1,5 +1,7 @@
 ---
 slug: ai-deas-do-you-have-an-idea-for-game-changing-ai-innovations-that-could-deliver-public-benefit
+redirect_from:
+  - "/calls/ai-deas-do-you-have-an-idea-for-game-changing-ai-innovations-that-could/"
 title: "AI-deas: Do you have an idea for game-changing AI innovations that could
   deliver public benefit?"
 call_excerpt: As part of a new challenge-led research funding initiative, we’re

@@ -1,5 +1,7 @@
 ---
 slug: 7th-machine-learning-and-ai-in-bio-chemical-engineering-conference
+redirect_from:
+  - "/events/7th-machine-learning-and-ai-in-biochemical-engineering-conference/"
 title: 7th Machine Learning and AI in Bio(Chemical) Engineering Conference
 excerpt: Machine Learning and AI in Bio(Chemical) Engineering Conference series
   is co-organised by research groups of the Universities of Cambridge, Leeds,

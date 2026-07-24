@@ -1,5 +1,7 @@
 ---
 slug: ai-cam-networking-event
+redirect_from:
+  - "/events/aicam-networking-event/"
 title: ai@cam Networking Event
 excerpt: We are delighted to be hosting our ai@cam Networking on Thursday 13
   March as an opportunity for our community to connect with fellow AI

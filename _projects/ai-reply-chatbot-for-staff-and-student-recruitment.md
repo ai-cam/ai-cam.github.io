@@ -1,5 +1,7 @@
 ---
 slug: ai-reply-chatbot-for-staff-and-student-recruitment
+redirect_from:
+  - "/projects/ai-replychatbot-for-staff-and-student-recruitment/"
 title: AI reply/chatbot for staff and student recruitment
 project_date: ""
 description: "This project will develop an AI-powered replybot and chatbot to

@@ -1,5 +1,7 @@
 ---
 slug: ai-for-operations-emerging-insights
+redirect_from:
+  - "/blog/distributed-innovation-insights-from-aicams-ai-for-ops-programme/"
 title: "Distributed innovation: Insights from ai@cam's AI for Ops programme"
 date: 2026-05-13
 cover_image: /assets/images/uploads/20250514_two-university-staff-members-talking_pic0016.jpg

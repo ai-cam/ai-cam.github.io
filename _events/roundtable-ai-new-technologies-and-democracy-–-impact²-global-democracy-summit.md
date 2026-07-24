@@ -1,5 +1,7 @@
 ---
 slug: roundtable-ai-new-technologies-and-democracy-–-impact²-global-democracy-summit
+redirect_from:
+  - "/events/roundtable-ai-new-technologies-and-democracy-impact²-global/"
 title: "Roundtable: AI, New Technologies, and Democracy – IMPACT² Global
   Democracy Summit"
 excerpt: The IMPACT² Global Democracy Summit is an annual gathering of

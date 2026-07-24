@@ -1,5 +1,7 @@
 ---
 slug: chia-conference-shaping-the-future-of-ai-1
+redirect_from:
+  - "/events/chia-conference-shaping-the-future-of-ai/"
 title: "CHIA Conference: Shaping the Future of AI"
 excerpt: The CHIA conference 2025 will be taking place on Monday 16 June at
   Jesus College. Attendance is free, but limited, so please fill out this form

@@ -1,5 +1,7 @@
 ---
 slug: using-ai-for-public-benefit-insights-from-our-public-dialogues-on-ai-and-the-missions-for-government
+redirect_from:
+  - "/blog/using-ai-for-public-benefit-insights-from-our-public-dialogues-on-ai/"
 title: "Using AI for public benefit: insights from our public dialogues on AI
   and the Missions for Government"
 date: 2024-10-26

@@ -1,5 +1,7 @@
 ---
 slug: ai-for-teaching
+redirect_from:
+  - "/calls/ai-for-teaching-and-learning/"
 title: AI for Teaching and Learning
 call_excerpt: A funding call from ai@cam, supporting the people who shape
   teaching and learning at Cambridge to develop and test new approaches to

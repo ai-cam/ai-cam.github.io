@@ -1,5 +1,7 @@
 ---
 slug: ai-house-davos-open-source-ai-infrastructure-ecosystem-a-leveling-force-in-a-globalized-world
+redirect_from:
+  - "/events/ai-house-davos-open-source-ai-infrastructure-ecosystem-a-leveling/"
 title: "AI House Davos - Open Source AI Infrastructure Ecosystem: A Leveling
   Force in a Globalized World"
 excerpt: >+

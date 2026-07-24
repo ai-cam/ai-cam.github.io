@@ -1,5 +1,7 @@
 ---
 slug: shaping-the-future-of-our-connected-places-and-cities-through-ethically-rooted-ai
+redirect_from:
+  - "/blog/shaping-the-future-of-our-connected-places-and-cities-through-ethically/"
 title: Shaping the future of our connected places and cities through ethically
   rooted AI
 date: 2024-07-01

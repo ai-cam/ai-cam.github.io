@@ -1,5 +1,7 @@
 ---
 slug: when-tech-policy-becomes-foreign-policy-the-future-global-governance-of-ai-–-trust-conference-2024
+redirect_from:
+  - "/events/when-tech-policy-becomes-foreign-policy-the-future-global-governance-of/"
 title: "When tech policy becomes foreign policy: the future global governance of
   AI – Trust Conference 2024"
 excerpt: >+

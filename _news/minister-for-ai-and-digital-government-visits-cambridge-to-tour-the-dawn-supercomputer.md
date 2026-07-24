@@ -1,5 +1,7 @@
 ---
 slug: minister-for-ai-and-digital-government-visits-cambridge-to-tour-the-dawn-supercomputer
+redirect_from:
+  - "/news/minister-for-ai-and-digital-government-visits-cambridge-to-tour-the-dawn/"
 title: Minister for AI and Digital Government visits Cambridge to tour the DAWN
   supercomputer
 excerpt: "The Minister for AI and Digital Government, Feryal Clark MP, visited

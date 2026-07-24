@@ -1,5 +1,7 @@
 ---
 slug: miguel-hernández-lobato
+redirect_from:
+  - "/people/miguel-hernandez-lobato/"
 title: Miguel Hernández Lobato
 photo: /assets/images/uploads/hernandez-lobato_jose-miguel.jpg
 job_title: Professor of Machine Learning

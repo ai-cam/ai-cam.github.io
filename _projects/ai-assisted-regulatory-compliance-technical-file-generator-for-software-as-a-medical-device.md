@@ -1,5 +1,7 @@
 ---
 slug: ai-assisted-regulatory-compliance-technical-file-generator-for-software-as-a-medical-device
+redirect_from:
+  - "/projects/ai-assisted-regulatory-compliance-technical-file-generator-for-software/"
 title: AI-assisted Regulatory Compliance Technical File Generator for software
   as a medical device
 project_date: ""

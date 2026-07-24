@@ -1,5 +1,7 @@
 ---
 slug: from-womb-to-world-using-innovative-ai-methods-to-revolutionise-fertility-treatments-1
+redirect_from:
+  - "/blog/from-womb-to-world-using-innovative-ai-methods-to-revolutionise/"
 title: "From womb to world: Using innovative AI methods to revolutionise
   fertility treatments"
 date: 2024-08-01

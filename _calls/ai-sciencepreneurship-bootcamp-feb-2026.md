@@ -1,5 +1,7 @@
 ---
 slug: ai-sciencepreneurship-bootcamp-feb-2026
+redirect_from:
+  - "/calls/ai-sciencepreneurship-bootcamp-2026/"
 title: AI Sciencepreneurship Bootcamp 2026
 call_excerpt: ""
 call_categories: Past Calls
