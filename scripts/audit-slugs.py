@@ -22,18 +22,20 @@ except ImportError:
     print("Install python-frontmatter: pip install python-frontmatter")
     sys.exit(1)
 
-# Collections that have manual slug fields in admin/config.yml
-COLLECTIONS = [
-    "_blog_posts",
-    "_calls",
-    "_events",
-    "_news",
-    "_people",
-    "_policies",
-    "_projects",
-    "_reports",
-    "_team_members",
-]
+# Collection directory → URL prefix (from _config.yml permalink settings)
+COLLECTION_PREFIX = {
+    "_blog_posts":   "/blog",
+    "_calls":        "/calls",
+    "_events":       "/events",
+    "_news":         "/news",
+    "_people":       "/people",
+    "_policies":     "/policies",
+    "_projects":     "/projects",
+    "_reports":      "/reports",
+    "_team_members": "/team",
+}
+
+COLLECTIONS = list(COLLECTION_PREFIX.keys())
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -52,6 +54,7 @@ def audit():
     results = {"match": [], "malformed": [], "mismatch": [], "no_slug": [], "no_title": []}
 
     for collection in COLLECTIONS:
+        prefix = COLLECTION_PREFIX[collection]
         coll_dir = os.path.join(REPO_ROOT, collection)
         if not os.path.isdir(coll_dir):
             continue
@@ -84,9 +87,9 @@ def audit():
                 results["match"].append(rel)
             elif jekyll_slugify(actual) == expected:
                 # slug contains title text (spaces/caps) but resolves to same URL
-                results["malformed"].append((rel, actual, expected))
+                results["malformed"].append((rel, actual, expected, prefix))
             else:
-                results["mismatch"].append((rel, actual, expected))
+                results["mismatch"].append((rel, actual, expected, prefix))
 
     return results
 
@@ -111,16 +114,16 @@ def main():
     if results["mismatch"]:
         print(f"{'─'*70}")
         print("REAL MISMATCHES (each needs redirect_from before migration):\n")
-        for path, actual, expected in sorted(results["mismatch"]):
+        for path, actual, expected, prefix in sorted(results["mismatch"]):
             print(f"  {path}")
-            print(f"    live URL     : /{actual}/")
-            print(f"    title-derived: /{expected}/")
+            print(f"    live URL     : {prefix}/{actual}/")
+            print(f"    title-derived: {prefix}/{expected}/")
             print()
 
     if results["malformed"]:
         print(f"{'─'*70}")
         print("MALFORMED slugs (URL unchanged — just clean up the field value):\n")
-        for path, actual, expected in sorted(results["malformed"]):
+        for path, actual, expected, prefix in sorted(results["malformed"]):
             print(f"  {path}")
             print(f"    slug field   : '{actual}'")
             print(f"    should be    : '{expected}'")
