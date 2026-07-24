@@ -1,9 +1,8 @@
 ---
-slug: The 2026 FENS-Chen Institute Summer Program on AI-Accelerated Neuroscience
+slug: the-2026-fens-chen-institute-summer-program-on-ai-accelerated-neuroscience-discovery-and-translation
 redirect_from:
   - "/events/the-2026-fens-chen-institute-summer-program-on-ai-accelerated-neuroscience/"
   - "/events/the-2026-fens-chen-institute-summer-program-on-ai-accelerated/"
-  Discovery and Translation
 title: The 2026 FENS-Chen Institute Summer Program on AI-Accelerated
   Neuroscience Discovery and Translation
 excerpt: The 2026 FENS-Chen Institute Summer Program on AI-Accelerated
