@@ -82,3 +82,10 @@
   from   = "/assets/uploads/cambridge-can-ai-statement.pdf"
   to     = "/reports/cambridge-can-regional-ai-statement/"
   status = 301
+
+# Logo PNG requests from external embeds — file never existed; redirect to
+# the canonical SVG logo so embeds get something useful rather than a 404.
+[[redirects]]
+  from   = "/assets/uploads/logo.png"
+  to     = "/assets/images/ai-cam-logo-light.svg"
+  status = 301
