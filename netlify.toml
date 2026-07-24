@@ -16,3 +16,69 @@
 
 [context.branch-deploy]
   command = "bundle exec jekyll build --future"
+
+# ---------------------------------------------------------------------------
+# Server-side redirects (evaluated before Jekyll's generated pages)
+# Rules are matched in order; first match wins.
+# ---------------------------------------------------------------------------
+
+# Browser icon requests — files exist under /assets/favicon/ but browsers
+# always request these at the root.
+[[redirects]]
+  from   = "/favicon.ico"
+  to     = "/assets/favicon/favicon.ico"
+  status = 301
+
+[[redirects]]
+  from   = "/apple-touch-icon.png"
+  to     = "/assets/favicon/apple-touch-icon.png"
+  status = 301
+
+[[redirects]]
+  from   = "/apple-touch-icon-precomposed.png"
+  to     = "/assets/favicon/apple-touch-icon.png"
+  status = 301
+
+# RSS feed — jekyll-feed publishes at /feed.xml; /feed has no trailing slash.
+[[redirects]]
+  from   = "/feed"
+  to     = "/feed.xml"
+  status = 301
+
+# Former section names — renamed when the site was rebuilt.
+[[redirects]]
+  from   = "/research/"
+  to     = "/reports/"
+  status = 301
+
+[[redirects]]
+  from   = "/research/*"
+  to     = "/reports/"
+  status = 301
+
+[[redirects]]
+  from   = "/opportunities/"
+  to     = "/calls/"
+  status = 301
+
+[[redirects]]
+  from   = "/opportunities/*"
+  to     = "/calls/"
+  status = 301
+
+# AI-deas initiative — old URL used in external links and social posts.
+[[redirects]]
+  from   = "/initiatives/ai-deas"
+  to     = "/projects/"
+  status = 301
+
+[[redirects]]
+  from   = "/initiatives/ai-deas/"
+  to     = "/projects/"
+  status = 301
+
+# Cambridge Can AI statement PDF — moved to a report page.
+[[redirects]]
+  from   = "/assets/uploads/cambridge-can-ai-statement.pdf"
+  to     = "/reports/cambridge-can-regional-ai-statement/"
+  status = 301
