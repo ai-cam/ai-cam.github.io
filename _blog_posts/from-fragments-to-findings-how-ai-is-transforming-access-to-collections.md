@@ -1,5 +1,5 @@
 ---
-slug: "From Fragments to Findings: How AI is Transforming Access to Collections"
+slug: from-fragments-to-findings-how-ai-is-transforming-access-to-collections
 title: "From Fragments to Findings: How AI is Transforming Access to Collections"
 date: 2025-10-15
 cover_image: /assets/images/uploads/fragments.png

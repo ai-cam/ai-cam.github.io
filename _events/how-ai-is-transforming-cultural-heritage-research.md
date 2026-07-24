@@ -1,5 +1,5 @@
 ---
-slug: How AI is transforming cultural heritage research
+slug: how-ai-is-transforming-cultural-heritage-research
 title: How AI is transforming cultural heritage research
 excerpt: " "
 cover_image: /assets/images/uploads/from_archive_to_algorithm_how_ai_is_transforming_cultural_heritage_research_3.jpg

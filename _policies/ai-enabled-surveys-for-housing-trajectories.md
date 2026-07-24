@@ -1,5 +1,5 @@
 ---
-slug: AI-Enabled Surveys for Housing Trajectories
+slug: ai-enabled-surveys-for-housing-trajectories
 title: AI-Enabled Surveys for Housing Trajectories
 excerpt: " "
 date: 2026-04-29

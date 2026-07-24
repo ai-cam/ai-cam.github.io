@@ -1,5 +1,5 @@
 ---
-slug: Cambridge researchers invited to apply for second AI-deas Sprint Programme
+slug: cambridge-researchers-invited-to-apply-for-second-ai-deas-sprint-programme
 title: Cambridge researchers invited to apply for second AI-deas Sprint Programme
 excerpt: ai@cam is inviting University of Cambridge researchers to apply for a
   second round of its AI-deas Sprint Programme, a six-month accelerator designed

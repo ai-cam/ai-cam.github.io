@@ -1,5 +1,5 @@
 ---
-slug: "Decision-making with AI: Keeping humans in the loop"
+slug: decision-making-with-ai-keeping-humans-in-the-loop
 title: "Decision-making with AI: Keeping humans in the loop"
 date: 2025-03-13
 cover_image: /assets/images/uploads/blog-image-for-web-ramit-900-x-900-px-600-x-900-px-900-x-700-px-.png

@@ -1,5 +1,5 @@
 ---
-slug: Cambridge Tech Week
+slug: cambridge-tech-week
 title: Cambridge Tech Week
 excerpt: Cambridge Tech Week is a global tech gathering designed to unite the
   brightest minds - visionaries, world-leading experts, and strategic investors

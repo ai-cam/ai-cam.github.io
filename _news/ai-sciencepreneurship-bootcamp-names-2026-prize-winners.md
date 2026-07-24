@@ -1,5 +1,5 @@
 ---
-slug: AI Sciencepreneurship Bootcamp names 2026 prize winners
+slug: ai-sciencepreneurship-bootcamp-names-2026-prize-winners
 title: AI Sciencepreneurship Bootcamp names 2026 prize winners
 excerpt: Researchers from across the University of Cambridge gathered last week
   for the second annual ai@cam AI Sciencepreneurship Bootcamp.

@@ -1,5 +1,5 @@
 ---
-slug: Launching-AI-for-University-Ops-Supporting-administrative-innovation-across-the-University
+slug: launching-ai-for-university-ops-supporting-administrative-innovation-across-the-university
 redirect_from:
   - "/calls/launching-ai-for-university-ops-supporting-administrative-innovation/"
 title: "Launching 'AI for University Ops': Supporting administrative innovation

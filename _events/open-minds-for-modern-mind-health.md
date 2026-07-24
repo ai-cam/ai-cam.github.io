@@ -1,5 +1,5 @@
 ---
-slug: Open minds for modern mind health
+slug: open-minds-for-modern-mind-health
 title: Open minds for modern mind health
 excerpt: The BrainHealthX Hub and the Cambridge Centre for Data-Driven Discovery
   are hosting an interactive afternoon event in Cambridge for early-career

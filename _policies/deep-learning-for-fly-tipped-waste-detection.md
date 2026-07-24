@@ -1,5 +1,5 @@
 ---
-slug: Deep Learning for Fly-tipped Waste Detection
+slug: deep-learning-for-fly-tipped-waste-detection
 title: Deep Learning for Fly-tipped Waste Detection
 excerpt: " "
 date: 2026-04-29

@@ -1,5 +1,5 @@
 ---
-slug: professor-neil-lawrence-on-ai-regulation-“do-not-stop-listening-to-the-people”
+slug: professor-neil-lawrence-on-ai-regulation-do-not-stop-listening-to-the-people
 redirect_from:
   - "/news/professor-neil-lawrence-on-ai-regulation-do-not-stop-listening-to-the/"
 title: "Professor Neil Lawrence on AI regulation: “Do not stop listening to the

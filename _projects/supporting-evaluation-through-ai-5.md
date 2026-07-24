@@ -1,5 +1,5 @@
 ---
-slug: Opportunities and potential risks of AI in supporting evaluation (OpRaise)
+slug: opportunities-and-potential-risks-of-ai-in-supporting-evaluation-opraise
 title: Opportunities and potential risks of AI in supporting evaluation (OpRaise)
 project_date: ""
 description: As AI continues to advance, concerns are growing about its impact

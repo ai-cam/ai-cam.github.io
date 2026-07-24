@@ -1,5 +1,5 @@
 ---
-slug: Cambridge launches AI Accelerator to help local government deploy AI
+slug: cambridge-launches-ai-accelerator-to-help-local-government-deploy-ai
 title: Cambridge launches AI Accelerator to help local government deploy AI
 excerpt: >
   ai@cam's Local Government AI Accelerator, funded by the Ministry of Housing,

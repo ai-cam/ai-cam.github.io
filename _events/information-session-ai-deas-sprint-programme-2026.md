@@ -1,5 +1,5 @@
 ---
-slug: "Information Session: AI-deas Sprint Programme 2026"
+slug: information-session-ai-deas-sprint-programme-2026
 title: "Information Session: AI-deas Sprint Programme 2026"
 excerpt: Are you a Cambridge researcher with an AI project idea that could
   deliver real-world impact? Join us for an online information session to find

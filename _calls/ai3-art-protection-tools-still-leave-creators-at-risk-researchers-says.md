@@ -1,5 +1,5 @@
 ---
-slug: AI-in-Local-Government-Fair
+slug: ai-in-local-government-fair
 title: AI in Local Government Fair
 call_categories: Past Calls
 cover_image: /assets/images/uploads/ai-in-goverment-fair.jpg

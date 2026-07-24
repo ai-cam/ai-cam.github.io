@@ -1,6 +1,5 @@
 ---
-slug: "Helping to see the wood for the trees: How AI is revolutionising forest
-  monitoring"
+slug: helping-to-see-the-wood-for-the-trees-how-ai-is-revolutionising-forest-monitoring
 title: "Helping to see the wood for the trees: How AI is revolutionising forest
   monitoring"
 date: 2025-07-27

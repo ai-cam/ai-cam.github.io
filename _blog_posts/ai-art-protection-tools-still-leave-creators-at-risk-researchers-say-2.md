@@ -1,5 +1,5 @@
 ---
-slug: How AI is Changing the Practice of Science
+slug: how-ai-is-changing-the-practice-of-science
 title: How AI is Changing the Practice of Science
 date: 2025-11-25
 cover_image: /assets/images/uploads/french-event-scriberia.jpg

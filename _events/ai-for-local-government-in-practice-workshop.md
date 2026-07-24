@@ -1,5 +1,5 @@
 ---
-slug: AI for Local Government in Practice Workshop
+slug: ai-for-local-government-in-practice-workshop
 title: AI for Local Government in Practice Workshop
 excerpt: >-
   Local councils across Cambridgeshire and Greater Manchester are pioneering the

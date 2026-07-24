@@ -1,5 +1,5 @@
 ---
-slug: AI-Powered Crop Disease Advisories for Global Food Security
+slug: ai-powered-crop-disease-advisories-for-global-food-security
 title: AI-Powered Crop Disease Advisories for Global Food Security
 description: " "
 cover_image: /assets/images/uploads/crop-2026.jpg

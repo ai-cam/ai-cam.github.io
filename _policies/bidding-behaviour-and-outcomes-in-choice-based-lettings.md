@@ -1,5 +1,5 @@
 ---
-slug: Bidding Behaviour and Outcomes in Choice-Based Lettings
+slug: bidding-behaviour-and-outcomes-in-choice-based-lettings
 title: Bidding Behaviour and Outcomes in Choice-Based Lettings
 excerpt: " "
 date: 2026-04-29

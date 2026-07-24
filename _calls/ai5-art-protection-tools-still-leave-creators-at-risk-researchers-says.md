@@ -1,5 +1,5 @@
 ---
-slug: AI-for-University-Operations-Funding-Call
+slug: ai-for-university-operations-funding-call
 title: AI for University Operations Funding Call
 call_categories: Past Calls
 cover_image: /assets/images/uploads/20241106_staff-at-the-student-services-careers-centre_0175.jpg

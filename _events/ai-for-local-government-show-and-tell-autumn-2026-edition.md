@@ -1,5 +1,5 @@
 ---
-slug: AI for Local Government Show and Tell (Autumn 2026 Edition)
+slug: ai-for-local-government-show-and-tell-autumn-2026-edition
 title: AI for Local Government Show and Tell (Autumn 2026 Edition)
 excerpt: " "
 cover_image: /assets/images/uploads/ai-for-local-goverment-event-cambridge.jpeg

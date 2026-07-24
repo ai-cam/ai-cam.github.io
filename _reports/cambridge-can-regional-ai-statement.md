@@ -1,5 +1,5 @@
 ---
-slug: "Cambridge Can: Regional AI Statement"
+slug: cambridge-can-regional-ai-statement
 title: "Cambridge Can: Regional AI Statement"
 excerpt: Cambridge’s AI ecosystem brings together world-leading research,
   industry innovation, and public sector implementation to deliver real-world

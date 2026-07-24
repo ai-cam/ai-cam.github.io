@@ -1,5 +1,5 @@
 ---
-slug: Exploring Munich-Cambridge Collaboration in Artificial Intelligence
+slug: exploring-munich-cambridge-collaboration-in-artificial-intelligence
 title: Exploring Munich-Cambridge Collaboration in Artificial Intelligence
 excerpt: "  "
 cover_image: /assets/images/uploads/german-event.jpg

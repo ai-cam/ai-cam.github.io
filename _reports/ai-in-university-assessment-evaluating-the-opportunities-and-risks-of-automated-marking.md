@@ -1,6 +1,5 @@
 ---
-slug: "AI in University Assessment: Evaluating the Opportunities and Risks of
-  Automated Marking"
+slug: ai-in-university-assessment-evaluating-the-opportunities-and-risks-of-automated-marking
 title: "AI in University Assessment: Evaluating the Opportunities and Risks of
   Automated Marking"
 excerpt: "The ai@cam OpRaise project tested whether AI can reliably mark

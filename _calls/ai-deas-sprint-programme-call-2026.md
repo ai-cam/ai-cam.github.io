@@ -1,5 +1,5 @@
 ---
-slug: AI-deas Sprint Programme Call 2026
+slug: ai-deas-sprint-programme-call-2026
 title: AI-deas Sprint Programme Call 2026
 call_categories: Open Calls
 cover_image: /assets/images/uploads/ai-deas-resized.jpg

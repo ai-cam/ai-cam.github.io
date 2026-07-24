@@ -1,5 +1,5 @@
 ---
-slug: AI for Cultural Heritage Hub Conference
+slug: ai-for-cultural-heritage-hub-conference
 title: AI for Cultural Heritage Hub Conference
 excerpt: " "
 cover_image: /assets/images/uploads/ai-for-cultural-heritage-hub-conference.jpeg

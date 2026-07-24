@@ -1,6 +1,5 @@
 ---
-slug: "AI Public Dialogues: Understanding Public Perspectives on AI in
-  Government Missions"
+slug: ai-public-dialogues-understanding-public-perspectives-on-ai-in-government-missions
 title: "AI Public Dialogues: Understanding Public Perspectives on AI in
   Government Missions"
 excerpt: This report presents findings from public dialogue workshops conducted

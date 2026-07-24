@@ -1,5 +1,5 @@
 ---
-slug: artificial-intelligence-outperforms-clinical-tests-at-predicting-progress-of-alzheimer’s-disease
+slug: artificial-intelligence-outperforms-clinical-tests-at-predicting-progress-of-alzheimers-disease
 redirect_from:
   - "/news/artificial-intelligence-outperforms-clinical-tests-at-predicting-progress/"
 title: Artificial intelligence outperforms clinical tests at predicting progress

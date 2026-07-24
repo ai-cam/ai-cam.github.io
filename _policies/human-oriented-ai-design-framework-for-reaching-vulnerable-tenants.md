@@ -1,5 +1,5 @@
 ---
-slug: "Human-Oriented AI: Design Framework for Reaching Vulnerable Tenants"
+slug: human-oriented-ai-design-framework-for-reaching-vulnerable-tenants
 title: "Human-Oriented AI: Design Framework for Reaching Vulnerable Tenants"
 excerpt: " "
 date: 2026-04-29

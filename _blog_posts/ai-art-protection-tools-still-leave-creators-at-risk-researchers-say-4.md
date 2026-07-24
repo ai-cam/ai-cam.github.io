@@ -1,6 +1,5 @@
 ---
-slug: "From prediction to prevention: How AI could transform children’s mental
-  health care"
+slug: from-prediction-to-prevention-how-ai-could-transform-childrens-mental-health-care
 title: "From prediction to prevention: How AI could transform children’s mental
   health care"
 date: 2025-09-21

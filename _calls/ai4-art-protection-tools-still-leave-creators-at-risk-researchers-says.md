@@ -1,5 +1,5 @@
 ---
-slug: AI-deas-Sprint-Programme-Call 2025
+slug: ai-deas-sprint-programme-call-2025
 title: AI-deas Sprint Programme Call 2025
 call_categories: Past Calls
 cover_image: /assets/images/uploads/curated-lifestyle-jl_tnv6peza-unsplash-1-.jpg

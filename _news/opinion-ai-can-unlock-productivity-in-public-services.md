@@ -1,6 +1,5 @@
 ---
-slug: Cambridge launches AI-deas Sprint Programme to accelerate real-world
-  impact of AI research
+slug: cambridge-launches-ai-deas-sprint-programme-to-accelerate-real-world-impact-of-ai-research
 title: Cambridge launches AI-deas Sprint Programme to accelerate real-world
   impact of AI research
 excerpt: Professional services staff are eager to experiment with AI,” said Jess

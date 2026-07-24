@@ -1,5 +1,5 @@
 ---
-slug: Tyler Holderness
+slug: tyler-holderness
 title: Tyler Holderness
 photo: /assets/images/uploads/tyler-holderness.jpg
 job_title: Doctoral Researcher

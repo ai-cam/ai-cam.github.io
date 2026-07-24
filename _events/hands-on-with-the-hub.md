@@ -1,5 +1,5 @@
 ---
-slug: Hands on with the Hub
+slug: hands-on-with-the-hub
 title: Hands on with the Hub
 excerpt: "  "
 cover_image: /assets/images/uploads/hands-on-with-the-hub.jpeg

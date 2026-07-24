@@ -1,5 +1,5 @@
 ---
-slug: The Future of Marking? Investigating AI’s Potential in Student Assessment
+slug: the-future-of-marking-investigating-ais-potential-in-student-assessment
 title: The Future of Marking? Investigating AI’s Potential in Student Assessment
 date: 2025-05-18
 cover_image: /assets/images/uploads/kateryna-hliznitsova-jt5iuqhtl7e-unsplash.jpg

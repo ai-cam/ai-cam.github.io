@@ -1,5 +1,5 @@
 ---
-slug: roundtable-ai-new-technologies-and-democracy-–-impact²-global-democracy-summit
+slug: roundtable-ai-new-technologies-and-democracy-impact²-global-democracy-summit
 redirect_from:
   - "/events/roundtable-ai-new-technologies-and-democracy-impact²-global/"
 title: "Roundtable: AI, New Technologies, and Democracy – IMPACT² Global

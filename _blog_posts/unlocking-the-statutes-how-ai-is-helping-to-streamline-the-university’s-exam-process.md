@@ -1,6 +1,5 @@
 ---
-slug: "Unlocking the Statutes: How AI is helping to streamline the University’s
-  exam process"
+slug: unlocking-the-statutes-how-ai-is-helping-to-streamline-the-universitys-exam-process
 title: "Unlocking the Statutes: How AI is helping to streamline the University’s
   exam process"
 date: 2026-06-11

@@ -1,5 +1,5 @@
 ---
-slug: "Public dialogue on AI in local government: Interim Results"
+slug: public-dialogue-on-ai-in-local-government-interim-results
 title: "Public dialogue on AI in local government: Interim Results"
 excerpt: "In November 2025, ai@cam worked with Hopkins Van Mil to convene public
   dialogues with 95 Cambridgeshire residents to explore their expectations,

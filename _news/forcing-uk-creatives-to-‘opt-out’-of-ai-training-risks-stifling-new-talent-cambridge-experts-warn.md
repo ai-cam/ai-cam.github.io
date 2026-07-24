@@ -1,5 +1,5 @@
 ---
-slug: forcing-uk-creatives-to-‘opt-out’-of-ai-training-risks-stifling-new-talent-cambridge-experts-warn
+slug: forcing-uk-creatives-to-opt-out-of-ai-training-risks-stifling-new-talent-cambridge-experts-warn
 redirect_from:
   - "/news/forcing-uk-creatives-to-opt-out-of-ai-training-risks-stifling-new/"
 title: Forcing UK creatives to ‘opt out’ of AI training risks stifling new

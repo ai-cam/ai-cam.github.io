@@ -1,6 +1,5 @@
 ---
-slug: ai@cam and local authorities launch pioneering accelerator for AI in
-  public services
+slug: aicam-and-local-authorities-launch-pioneering-accelerator-for-ai-in-public-services
 title: ai@cam and local authorities launch pioneering accelerator for AI in
   public services
 excerpt: >+

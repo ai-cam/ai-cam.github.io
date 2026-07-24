@@ -1,6 +1,5 @@
 ---
-slug: Cambridge and Munich researchers map a route to deeper AI-for-science
-  collaboration
+slug: cambridge-and-munich-researchers-map-a-route-to-deeper-ai-for-science-collaboration
 title: Cambridge and Munich researchers map a route to deeper AI-for-science
   collaboration
 excerpt: " "

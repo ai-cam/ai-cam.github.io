@@ -1,5 +1,5 @@
 ---
-slug: "The next phase of the AI conversation: what problems should AI solve?"
+slug: the-next-phase-of-the-ai-conversation-what-problems-should-ai-solve
 title: "The next phase of the AI conversation: what problems should AI solve?"
 excerpt: "\ \n"
 cover_image: /assets/images/uploads/20250514_university-staff-member-riding-a-messenger-bicycle_pic0029-1-.jpg

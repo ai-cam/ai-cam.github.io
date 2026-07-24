@@ -1,5 +1,5 @@
 ---
-slug: AI policy's missing half
+slug: ai-policys-missing-half
 title: AI Policy's Missing Half
 date: 2026-04-28
 cover_image: /assets/images/uploads/zetong-li-cn-cjo_9dq0-unsplash.jpg

@@ -1,6 +1,5 @@
 ---
-slug: "From Diagnosing Endometriosis to Protecting Global Food Security: Seven
-  New AI-deas Projects Advance AI for Science, Citizens, and Society"
+slug: from-diagnosing-endometriosis-to-protecting-global-food-security-seven-new-ai-deas-projects-advance-ai-for-science-citizens-and-society
 title: "From Diagnosing Endometriosis to Protecting Global Food Security: Seven
   New AI-deas Projects Advance AI for Science, Citizens, and Society"
 excerpt: Professional services staff are eager to experiment with AI,” said Jess

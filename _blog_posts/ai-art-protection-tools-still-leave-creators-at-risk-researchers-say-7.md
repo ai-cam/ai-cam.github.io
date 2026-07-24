@@ -1,5 +1,5 @@
 ---
-slug: "AI: Delivering new hope in fertility treatment?"
+slug: ai-delivering-new-hope-in-fertility-treatment
 title: "AI: Delivering new hope in fertility treatment?"
 date: 2025-05-28
 cover_image: /assets/images/uploads/dr-thum-blog-image.jpg

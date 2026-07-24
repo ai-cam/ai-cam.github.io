@@ -1,5 +1,5 @@
 ---
-slug: AI and the Future of Public Health
+slug: ai-and-the-future-of-public-health
 title: AI and the Future of Public Health
 excerpt: Join us to explore how AI is shaping the future of public health.
 cover_image: /assets/images/uploads/2026-ai-and-the-future-of-public-health-event.png

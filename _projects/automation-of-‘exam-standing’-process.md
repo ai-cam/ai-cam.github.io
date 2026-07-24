@@ -1,5 +1,5 @@
 ---
-slug: automation-of-‘exam-standing’-process
+slug: automation-of-exam-standing-process
 title: Automation of ‘exam standing’ process
 project_date: ""
 description: Education Services

@@ -1,5 +1,5 @@
 ---
-slug: Three things councils need to know about governing AI
+slug: three-things-councils-need-to-know-about-governing-ai
 title: Three things councils need to know about governing AI
 date: 2026-03-27
 cover_image: /assets/images/uploads/policy-blog-2.jpg

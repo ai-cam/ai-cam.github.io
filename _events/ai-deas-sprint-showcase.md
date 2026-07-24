@@ -1,5 +1,5 @@
 ---
-slug: AI-deas Sprint Showcase
+slug: ai-deas-sprint-showcase
 title: AI-deas Sprint Showcase
 excerpt: " "
 cover_image: /assets/images/uploads/20230616_student-at-gonville-and-caius_0234.jpg

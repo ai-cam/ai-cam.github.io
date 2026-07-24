@@ -1,6 +1,5 @@
 ---
-slug: "Using AI to illuminate 600 years of learning at Cambridge University
-  Libraries "
+slug: using-ai-to-illuminate-600-years-of-learning-at-cambridge-university-libraries
 title: "Using AI to illuminate 600 years of learning at Cambridge University
   Libraries "
 date: 2026-02-24

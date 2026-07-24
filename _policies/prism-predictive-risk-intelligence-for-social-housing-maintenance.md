@@ -1,5 +1,5 @@
 ---
-slug: "PRISM: Predictive Risk Intelligence for Social Housing Maintenance"
+slug: prism-predictive-risk-intelligence-for-social-housing-maintenance
 title: "PRISM: Predictive Risk Intelligence for Social Housing Maintenance"
 excerpt: " "
 date: 2026-04-29

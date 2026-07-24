@@ -1,5 +1,5 @@
 ---
-slug: "MAPLE: Map Automation for Planning and Local Efficiency"
+slug: maple-map-automation-for-planning-and-local-efficiency
 title: "MAPLE: Map Automation for Planning and Local Efficiency"
 excerpt: "  "
 date: 2026-04-29

@@ -1,5 +1,5 @@
 ---
-slug: "Womb to World: Linking Prenatal Variability to Postnatal Outcomes using AI"
+slug: womb-to-world-linking-prenatal-variability-to-postnatal-outcomes-using-ai
 title: "Womb to World: Linking Prenatal Variability to Postnatal Outcomes using AI"
 excerpt: " "
 cover_image: /assets/images/uploads/womb_to_world.png

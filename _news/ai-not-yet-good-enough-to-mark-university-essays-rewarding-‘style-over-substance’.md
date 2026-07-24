@@ -1,6 +1,5 @@
 ---
-slug: AI not yet good enough to mark university essays, rewarding ‘style over
-  substance’
+slug: ai-not-yet-good-enough-to-mark-university-essays-rewarding-style-over-substance
 title: AI not yet good enough to mark university essays, rewarding ‘style over
   substance’
 excerpt: "  "

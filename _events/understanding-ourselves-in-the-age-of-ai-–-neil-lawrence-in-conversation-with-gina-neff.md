@@ -1,5 +1,5 @@
 ---
-slug: understanding-ourselves-in-the-age-of-ai-–-neil-lawrence-in-conversation-with-gina-neff
+slug: understanding-ourselves-in-the-age-of-ai-neil-lawrence-in-conversation-with-gina-neff
 redirect_from:
   - "/events/understanding-ourselves-in-the-age-of-ai-neil-lawrence-in-conversation/"
 title: Understanding Ourselves in the Age of AI – Neil Lawrence in conversation

@@ -1,5 +1,5 @@
 ---
-slug: "CHIA's Annual Conference: AI for a Changing World"
+slug: chias-annual-conference-ai-for-a-changing-world
 title: "CHIA's Annual Conference: AI for a Changing World"
 excerpt: " "
 cover_image: /assets/images/uploads/chia-event-image.png

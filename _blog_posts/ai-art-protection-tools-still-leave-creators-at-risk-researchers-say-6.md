@@ -1,6 +1,5 @@
 ---
-slug: "Advancing Environmental Research Through AI: Highlights from the AI for
-  Climate & Nature Community Day"
+slug: advancing-environmental-research-through-ai-highlights-from-the-ai-for-climate-nature-community-day
 title: "Advancing Environmental Research Through AI: Highlights from the AI for
   Climate & Nature Community Day"
 date: 2025-06-29

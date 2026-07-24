@@ -1,5 +1,5 @@
 ---
-slug: cambridge-ellis-seminar-series-–-generative-models-as-efficient-surrogates-for-molecular-dynamics-simulations
+slug: cambridge-ellis-seminar-series-generative-models-as-efficient-surrogates-for-molecular-dynamics-simulations
 redirect_from:
   - "/events/cambridge-ellis-seminar-series-generative-models-as-efficient/"
 title: Cambridge Ellis Seminar series – Generative models as efficient

@@ -1,5 +1,5 @@
 ---
-slug: Building AI for public services like public infrastructure
+slug: building-ai-for-public-services-like-public-infrastructure
 title: Building AI for public services like public infrastructure
 date: 2026-07-23
 cover_image: /assets/images/uploads/blog-photo.jpg
