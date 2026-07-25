@@ -23,7 +23,14 @@ links:
   - link: /assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf
     link_text: Download interim report
 authors:
-  - name: ai@cam
+  - photo: /assets/images/uploads/montgomery_jessica.jpg
+    name: Jessica Montgomery
+    role: ai@cam Director
+  - name: Neil Lawrence
+    role: Chair of ai@cam
+    photo: /assets/images/uploads/lawrence_neil.png
+  - name: Hopkins Van Mil
+    role: Dialogue design and delivery
 ---
 This report presents the full findings from ai@cam's public dialogue on AI in local government, drawing on two phases of engagement with Cambridgeshire residents conducted in November 2025 and March 2026.
 
