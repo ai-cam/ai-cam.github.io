@@ -26,7 +26,7 @@
     {%-else-%}
       {{ author_name | default: "Unknown" }}
     {%-endif-%}
-    {%-unless forloop.last-%} and {%-endunless-%}
+    {%- unless forloop.last %} and {% endunless -%}
   {%-endfor-%}{{ c }}{%-endif-%}{%-if date-%},
   year = {{ o }}{{ date | date: "%Y" }}{{ c }}{%-endif-%}{%-if publisher-%},
   publisher = {{ o }}{{ publisher }}{{ c }}{%-endif-%}{%-if container-title-%},
