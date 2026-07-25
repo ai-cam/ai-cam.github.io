@@ -1,6 +1,8 @@
-<!-- Resolve author info from team member, people, or manual entry -->
-<!-- Usage: {% raw %}{% include resolve-author.html author=author %}{% endraw %} -->
-<!-- Sets: author_name, author_photo, author_role, author_link -->
+{%- comment -%}
+  Resolve author info from team member, people, or manual entry.
+  Usage: {% include resolve-author.html author=author %}
+  Sets: author_name, author_photo, author_role, author_link
+{%- endcomment -%}
 
 {% assign author_name = '' %}
 {% assign author_photo = '' %}
