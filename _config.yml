@@ -1,7 +1,7 @@
 # Site Settings
 title: "ai@cam"
 description: "ai@cam is Cambridge University's flagship mission to develop AI for the benefit of science, citizens, and society."
-url: ""
+url: "https://www.ai.cam.ac.uk"
 baseurl: ""
 
 # Jekyll Settings
