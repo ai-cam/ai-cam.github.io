@@ -7,6 +7,7 @@
 {%- assign author_photo = '' -%}
 {%- assign author_role = '' -%}
 {%- assign author_link = '' -%}
+{%- assign author_org = false -%}
 {%- if include.author.author_team and include.author.author_team != '' and include.author.author_team != '/' -%}
   {%- assign resolved_member = site.team_members | where: "title", include.author.author_team | first -%}
   {%- if resolved_member -%}
@@ -27,6 +28,9 @@
 {%- comment -%}Fallback to manual fields if no team/people match or manual entry used{%- endcomment -%}
 {%- if author_name == '' and include.author.name -%}
   {%- assign author_name = include.author.name -%}
+{%- endif -%}
+{%- if include.author.org -%}
+  {%- assign author_org = true -%}
 {%- endif -%}
 {%- if author_photo == '' and include.author.photo -%}
   {%- assign author_photo = include.author.photo -%}

@@ -4,20 +4,24 @@
   {%-for author in authors-%}
     {%-include resolve-author.html author=author-%}
     {%-if author_name and author_name != ''-%}
-      {%-assign name_parts = author_name | split: " "-%}
-      {%-if name_parts.size > 1-%}
-        {%-assign family = name_parts.last-%}
-        {%-assign given = name_parts | pop | join: " "-%}
+      {%-if author_org-%}
+        {{ author_name }}
       {%-else-%}
-        {%-assign family = author_name-%}
-        {%-assign given = ""-%}
+        {%-assign name_parts = author_name | split: " "-%}
+        {%-if name_parts.size > 1-%}
+          {%-assign family = name_parts.last-%}
+          {%-assign given = name_parts | pop | join: " "-%}
+        {%-else-%}
+          {%-assign family = author_name-%}
+          {%-assign given = ""-%}
+        {%-endif-%}
+        {%-if family != ""-%}
+          {{ family }}{% if given != "" %}, {%-assign firstnames = given | split:" " -%}{%-for name in firstnames-%}{{ name | slice: 0, 1 }}.{%-unless name==firstnames.last-%} {%-endunless-%}{%-endfor-%}{%-endif-%}
+        {%-endif-%}
       {%-endif-%}
     {%-else-%}
       {%-assign family = ""-%}
       {%-assign given = ""-%}
-    {%-endif-%}
-    {%-if family != ""-%}
-      {{ family }}{% if given != "" %}, {%-assign firstnames = given | split:" " -%}{%-for name in firstnames-%}{{ name | slice: 0, 1 }}.{%-unless name==firstnames.last-%} {%-endunless-%}{%-endfor-%}{%-endif-%}
     {%-endif-%}
     {%-if authors.size > 1-%}
       {%-if authors[-2] == author-%} & {%-else-%}

@@ -31,6 +31,7 @@ authors:
     photo: /assets/images/uploads/lawrence_neil.png
   - name: Hopkins Van Mil
     role: Dialogue design and delivery
+    org: true
 ---
 This report presents the full findings from ai@cam's public dialogue on AI in local government, drawing on two phases of engagement with Cambridgeshire residents conducted in November 2025 and March 2026.
 

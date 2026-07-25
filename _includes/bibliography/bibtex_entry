@@ -6,18 +6,22 @@
   author = {{ o }}{%-assign lastone = authors.last-%}{%-for author in authors-%}
     {%-include resolve-author.html author=author-%}
     {%-if author_name and author_name != ''-%}
-      {%-assign name_parts = author_name | split: " "-%}
-      {%-if name_parts.size > 1-%}
-        {%-assign family = name_parts.last-%}
-        {%-assign given = name_parts | pop | join: " "-%}
+      {%-if author_org-%}
+        {{ o }}{{ author_name }}{{ c }}
       {%-else-%}
-        {%-assign family = author_name-%}
-        {%-assign given = ""-%}
-      {%-endif-%}
-      {%-if family != ""-%}
-        {{ family }}, {{ given }}
-      {%-else-%}
-        {{ author_name }}
+        {%-assign name_parts = author_name | split: " "-%}
+        {%-if name_parts.size > 1-%}
+          {%-assign family = name_parts.last-%}
+          {%-assign given = name_parts | pop | join: " "-%}
+        {%-else-%}
+          {%-assign family = author_name-%}
+          {%-assign given = ""-%}
+        {%-endif-%}
+        {%-if family != ""-%}
+          {{ family }}, {{ given }}
+        {%-else-%}
+          {{ author_name }}
+        {%-endif-%}
       {%-endif-%}
     {%-else-%}
       {{ author_name | default: "Unknown" }}
