@@ -16,7 +16,7 @@
           {%-assign given = ""-%}
         {%-endif-%}
         {%-if family != ""-%}
-          {{ family }}{% if given != "" %}, {%-assign firstnames = given | split:" " -%}{%-for name in firstnames-%}{{ name | slice: 0, 1 }}.{%-unless name==firstnames.last-%} {%-endunless-%}{%-endfor-%}{%-endif-%}
+          {{ family }}{% if given != "" %}, {% assign firstnames = given | split:" " -%}{%-for name in firstnames-%}{{ name | slice: 0, 1 }}.{%-unless name==firstnames.last-%} {%-endunless-%}{%-endfor-%}{%-endif-%}
         {%-endif-%}
       {%-endif-%}
     {%-else-%}
