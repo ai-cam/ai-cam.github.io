@@ -8,6 +8,7 @@ report_date: 2025-09-05
 tags:
   - tag: Policy Brief
 cover_image: /assets/images/uploads/annual-report-2024-25.png
+pdf: /assets/images/uploads/ai-cam-annual-report-2025.pdf
 abstract: >-
   
   By connecting the University of Cambridge’s world-leading research with real-world challenges ranging from local government to global sustainable development, ai@cam is demonstrating how universities can drive a new wave of AI innovation that delivers public benefit.

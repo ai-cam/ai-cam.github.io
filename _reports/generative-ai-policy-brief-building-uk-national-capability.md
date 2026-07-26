@@ -10,6 +10,7 @@ report_date: 2023-10-16
 tags:
   - tag: Policy, Research and innovation
 cover_image: /assets/images/uploads/generativeai-01.2.png
+pdf: /assets/images/uploads/generativeai-policybrief.pdf
 abstract: This policy brief examines the UK’s path forward in building national
   capability for generative AI, focusing on leveraging existing strengths in
   safe and ethical AI development rather than competing in foundation model

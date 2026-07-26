@@ -6,6 +6,7 @@ excerpt: Cambridge’s AI ecosystem brings together world-leading research,
   impact for citizens while strengthening the UK’s global competitive position.
 report_date: 2025-03-24
 cover_image: /assets/images/uploads/cam-can-ai-statement.png
+pdf: /assets/images/uploads/cambridge-can-regional-ai-statement.pdf
 abstract: This regional AI Statement highlights the breadth AI activity
   happening across the Cambridgeshire region and represents our commitment to
   ensure AI development is responsible, inclusive, sustainable, and an engine

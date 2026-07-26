@@ -9,6 +9,7 @@ report_date: 2024-12-05
 tags:
   - tag: Policy, Research and innovation
 cover_image: /assets/images/uploads/policy-lab-scriberia1.jpg
+pdf: /assets/images/uploads/refreshing-the-uks-strategic-approach-to-ai.pdf
 abstract: This policy brief examines how to bridge the gap between AI’s
   technical capabilities and real-world public benefit. Through analysis of
   current policy approaches and stakeholder engagement, the report outlines

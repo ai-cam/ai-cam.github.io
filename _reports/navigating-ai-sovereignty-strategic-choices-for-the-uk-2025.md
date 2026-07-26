@@ -9,6 +9,7 @@ excerpt: This policy brief addresses whether the UK’s current approach to AI
   systems shaping its economy, security, and democracy.
 report_date: 2025-11-19
 cover_image: /assets/images/uploads/bigben2026.jpg
+pdf: /assets/images/uploads/navigating-ai-sovereignty-strategic-choices-for-the-uk.-2025.pdf
 abstract: This policy brief addresses whether the UK’s current approach to AI
   sovereignty is able to deliver a future where the nation can influence the AI
   systems shaping its economy, security, and democracy. The report highlights

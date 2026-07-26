@@ -14,6 +14,7 @@ report_date: 2022-04-29
 tags:
   - tag: Research and Innovation, Policy, Dialogue, Sciencepreneurship
 cover_image: /assets/images/uploads/ai-885.png
+pdf: /assets/images/uploads/ai-cam-review-building-cambridge's-ai-capabilities.pdf
 abstract: This report sets out the vision for AI@Cam, a new flagship mission at
   the University of Cambridge. It examines how AI can be leveraged to benefit
   science and society while addressing challenges of equity and inclusion. The

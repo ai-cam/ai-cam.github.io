@@ -11,6 +11,7 @@ report_date: 2026-07-23
 tags:
   - tag: Policy Brief
 cover_image: /assets/images/uploads/20241106_-students-in-city-centre_0359.jpg
+pdf: /assets/images/uploads/ai-cam-public-dialogue-report-2026.pdf
 abstract: >-
   In November 2025 and March 2026, ai@cam worked with Hopkins Van Mil to
   convene public dialogues with Cambridgeshire residents to explore their

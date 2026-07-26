@@ -7,6 +7,7 @@ excerpt: "In this report we examine the impacts GenAI may have on the creative
   on AI systems, copyright in AI outputs, and false attribution. "
 report_date: 2025-02-21
 cover_image: /assets/images/uploads/aicopyrightreport.png
+pdf: /assets/images/uploads/aicopyright-creativeindustries-report.pdf
 abstract: In this report we examine the impacts GenAI may have on the creative
   sector’s workforce and productivity. By exploring the current copyright
   landscape in the UK and US as it relates to AI, we examine the challenges

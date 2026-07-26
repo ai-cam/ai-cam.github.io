@@ -8,6 +8,7 @@ report_date: 2024-11-27
 tags:
   - tag: Policy, research and innovation
 cover_image: /assets/images/uploads/access-to-data-case-studies.jpg
+pdf: /assets/images/uploads/ai-cam-access-to-data-case-studies.pdf
 abstract: This joint report from ai@cam, Minderoo Centre for Technology and
   Democracy, and the Bennett Institute for Public Policy presents a series of
   case studies examining access to data for research. Through real-world

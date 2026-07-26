@@ -9,6 +9,7 @@ report_date: 2025-12-09
 tags:
   - tag: Policy Brief
 cover_image: /assets/images/uploads/summary-report-interim-results.png
+pdf: /assets/images/uploads/summary-report-public-dialogue-on-ai-in-local-government-v4-compressed.pdf
 abstract: >-
   In November 2025, ai@cam worked with Hopkins Van Mil to convene public
   dialogues with 95 Cambridgeshire residents to explore their expectations,
