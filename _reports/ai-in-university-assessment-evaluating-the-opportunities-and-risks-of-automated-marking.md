@@ -7,6 +7,7 @@ excerpt: "The ai@cam OpRaise project tested whether AI can reliably mark
   across three UK universities. "
 report_date: 2026-05-29
 cover_image: /assets/images/uploads/opraise-project-1-.png
+pdf: /assets/images/uploads/opraise-report-2026.pdf
 abstract: "The ai@cam OpRaise project tested whether AI can reliably mark
   students' written exam responses, comparing AI scores to human assessor marks
   across three UK universities. "
