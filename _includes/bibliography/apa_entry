@@ -23,11 +23,7 @@
       {%-assign family = ""-%}
       {%-assign given = ""-%}
     {%-endif-%}
-    {%-if authors.size > 1-%}
-      {%-if authors[-2] == author-%} & {%-else-%}
-        {%-unless author == lastone-%}, {%-endunless-%}
-      {%-endif-%}
-    {%-endif-%}
+    {%-if authors.size > 1-%}{%- if authors[-2] == author %} & {% else %}{%- unless author == lastone %}, {% endunless -%}{%- endif -%}{%-endif-%}
   {%-endfor-%}
 {%-endif-%}. {%-if date-%}({{ date | date: "%Y" }}){%-endif-%}. {{ title }}. {%-if container-title-%}<i>{{ container-title }}</i>{%-endif-%}{%-if volume-%} {{ volume }}{%-endif-%}{%-if number-%}({{ number }}){%-endif-%}{%-if firstpage-%}:{{ firstpage }}{%-endif-%}{%-if lastpage-%}-{{ lastpage }}{%-endif-%}{%-if publisher-%}. {{ publisher }}{%-endif-%}{%-if doi-%}. doi:{{ doi }}{%-endif-%}{%-if url-%}. Available from {{ url }}{%-endif-%}
 

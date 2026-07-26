@@ -1,8 +1,8 @@
 {%-assign title=include.entry.title-%}
 {%-if include.entry.pdf or include.entry.cover_image-%}
-{% assign pdf=include.entry.pdf | default: include.entry.cover_image -%}
+{%-capture pdf-%}{{ site.url }}{{ site.baseurl }}{{ include.entry.pdf | default: include.entry.cover_image }}{%-endcapture-%}
 {%-else-%}
-{% assign pdf=false %}
+{%-assign pdf=false-%}
 {%-endif-%}
 {%-if include.entry.url -%}
 {%-capture url-%}
