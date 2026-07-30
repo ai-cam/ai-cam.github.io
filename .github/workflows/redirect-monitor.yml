@@ -8,6 +8,10 @@ on:
   # Allow a manual run at any time from the Actions tab.
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   redirect-smoke-test:
     name: Redirect smoke test (live site)
