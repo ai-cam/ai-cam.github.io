@@ -1,7 +1,7 @@
 ---
 title: "Cambridge Social Data School September 2026 : Investigating AI Infrastructure"
 excerpt: " "
-cover_image: /assets/images/uploads/cambridge-social-data-school-september-2026-investigating-ai-infrastructure.png
+cover_image: /assets/images/uploads/sds-sept-2026-draft-images-square-image-1-740x740.png
 event_categories: Upcoming Events
 event_content: >-
   Led by researchers at Cambridge Digital Humanities, the Social Data School is
