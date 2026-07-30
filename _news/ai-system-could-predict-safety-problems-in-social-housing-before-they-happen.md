@@ -2,7 +2,7 @@
 title: AI system could predict safety problems in social housing before they happen
 excerpt: " "
 cover_image: /assets/images/uploads/prism-project.png
-date: 2026-08-03
+date: 2026-07-01
 ---
 Cambridge researchers are developing an artificial intelligence tool that could tell councils which social housing tenants are most at risk, before a potential crisis hits.
 
