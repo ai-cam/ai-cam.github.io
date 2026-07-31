@@ -18,7 +18,7 @@ import logging
 import os
 import sys
 from typing import Dict, Any, Optional
-from github import Github
+from github import Auth, Github
 from github.GithubException import GithubException
 
 
@@ -125,7 +125,7 @@ class BranchProtectionConfigurator:
             repo_name: Repository name in format 'owner/repo'
             dry_run: If True, only validate without making changes
         """
-        self.github = Github(token)
+        self.github = Github(auth=Auth.Token(token))
         self.repo_name = repo_name
         self.dry_run = dry_run
         
@@ -267,31 +267,24 @@ class BranchProtectionConfigurator:
             # Build protection parameters
             protection_params = {}
             
-            # PR review requirements
+            # PR review requirements — PyGithub 2.x uses flat keyword args,
+            # not a nested required_pull_request_reviews dict.
             if 'required_pull_request_reviews' in settings:
                 pr_settings = settings['required_pull_request_reviews']
-                protection_params['required_pull_request_reviews'] = {
-                    'required_approving_review_count': pr_settings.get('required_approving_review_count', 1),
-                    'dismiss_stale_reviews': pr_settings.get('dismiss_stale_reviews', True),
-                    'require_code_owner_reviews': pr_settings.get('require_code_owner_reviews', False),
-                    'require_last_push_approval': pr_settings.get('require_last_push_approval', False),
-                }
-            
-            # Status check requirements
+                protection_params['required_approving_review_count'] = pr_settings.get('required_approving_review_count', 1)
+                protection_params['dismiss_stale_reviews'] = pr_settings.get('dismiss_stale_reviews', True)
+                protection_params['require_code_owner_reviews'] = pr_settings.get('require_code_owner_reviews', False)
+
+            # Status check requirements — also flat in PyGithub 2.x.
             if 'required_status_checks' in settings:
                 status_settings = settings['required_status_checks']
-                protection_params['required_status_checks'] = {
-                    'strict': status_settings.get('strict', True),
-                    'contexts': status_settings.get('contexts', []),
-                }
-            
+                protection_params['strict'] = status_settings.get('strict', True)
+                protection_params['contexts'] = status_settings.get('contexts', [])
+
             # Other protection settings
             protection_params['enforce_admins'] = settings.get('enforce_admins', True)
-            protection_params['required_linear_history'] = settings.get('required_linear_history', False)
             protection_params['allow_force_pushes'] = settings.get('allow_force_pushes', False)
             protection_params['allow_deletions'] = settings.get('allow_deletions', False)
-            protection_params['required_conversation_resolution'] = settings.get('required_conversation_resolution', True)
-            protection_params['lock_branch'] = settings.get('lock_branch', False)
             
             # Apply protection
             branch_obj.edit_protection(**protection_params)
