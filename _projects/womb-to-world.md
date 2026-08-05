@@ -2,41 +2,41 @@
 slug: womb-to-world
 title: Womb to World
 project_date: ""
-description: 'From conception to childhood: Revolutionising women’s health, female
-  fertility and early infant neurodevelopment using AI'
-cover_image: "/assets/images/uploads/womb-to-world-2.jpg"
+description: "From conception to childhood: Revolutionising women’s health,
+  female fertility and early infant neurodevelopment using AI"
+cover_image: /assets/images/uploads/womb-to-world-2.jpg
 project_categories: Challenges
 authors:
-- photo: "/assets/images/uploads/staci-weiss.jpeg"
-  name: Staci Weiss
-  role: Research Associate
-- name: Mo Vali
-  photo: "/assets/images/uploads/mo-vali.jpeg"
-  role: Phd Candidate
-- name: Virag Lakner
-  photo: "/assets/images/uploads/placeholder-1-1-.jpg"
-  role: "/"
-- name: Mark Johnson
-  photo: "/assets/images/uploads/mark_johnson.jpeg"
-  role: Professor of Experimental Psychology
-- name: Pietro Liò
-  photo: "/assets/images/uploads/lio_pietro.jpg"
-  role: Professor of Computational Biology
-- name: Junwei Yang
-  role: Phd Candidate
-  photo: "/assets/images/uploads/placeholder-1-1-.jpg"
-- name: Diana Fusco
-  photo: "/assets/images/uploads/dr_diana_fusco.png"
-  role: University Assistant Professor in Biological Physics
-- name: Nikhil Krishnan
-  role: Lecturer
-  photo: "/assets/images/uploads/nakul-krishna.png"
-- name: Yau Thum
-  role: Fertility Specialist
-  photo: "/assets/images/uploads/yau-thum-profile.jpg"
-- name: Gordon Smith
-  photo: "/assets/images/uploads/gordon-smith.jpeg"
-  role: Head of Department
+  - photo: /assets/images/uploads/staci-weiss.jpeg
+    name: Staci Weiss
+    role: Research Associate
+  - name: Mo Vali
+    photo: /assets/images/uploads/mo-vali.jpeg
+    role: Phd Candidate
+  - name: Virag Lakner
+    photo: /assets/images/uploads/placeholder-1-1-.jpg
+    role: PhD Student at the Centre for Brain and Cognitive Development
+  - name: Mark Johnson
+    photo: /assets/images/uploads/mark_johnson.jpeg
+    role: Professor of Experimental Psychology
+  - name: Pietro Liò
+    photo: /assets/images/uploads/lio_pietro.jpg
+    role: Professor of Computational Biology
+  - name: Junwei Yang
+    role: Phd Candidate
+    photo: /assets/images/uploads/placeholder-1-1-.jpg
+  - name: Diana Fusco
+    photo: /assets/images/uploads/dr_diana_fusco.png
+    role: University Assistant Professor in Biological Physics
+  - name: Nikhil Krishnan
+    role: Lecturer
+    photo: /assets/images/uploads/nakul-krishna.png
+  - name: Yau Thum
+    role: Fertility Specialist
+    photo: /assets/images/uploads/yau-thum-profile.jpg
+  - name: Gordon Smith
+    photo: /assets/images/uploads/gordon-smith.jpeg
+    role: Head of Department
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
