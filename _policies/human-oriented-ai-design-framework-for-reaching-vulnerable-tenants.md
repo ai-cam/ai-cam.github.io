@@ -10,6 +10,7 @@ authors:
     photo: /assets/images/uploads/viviana_bm-1-.jpeg
   - author_people: Jennifer Schooling
     photo: /assets/images/uploads/jennifer-schooling-1-.jpg
+    role: Professor of Digital Innovation and Smart Places
 policy_categories: AI for Public Services
 ---
 **Human-Oriented AI: Design Framework for Reaching Vulnerable Tenants**
