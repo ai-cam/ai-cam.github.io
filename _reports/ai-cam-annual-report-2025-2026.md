@@ -9,6 +9,9 @@ abstract: >+
   development, ai@cam is demonstrating how universities can drive a new wave of
   AI innovation that delivers public benefit.
 
+links:
+  - link: /assets/images/uploads/annual-report-2026.pdf
+    link_text: Download Report
 authors:
   - author_team: Jess Montgomery
     role: ai@cam Director
