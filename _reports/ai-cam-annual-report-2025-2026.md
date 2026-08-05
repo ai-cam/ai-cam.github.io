@@ -9,6 +9,9 @@ abstract: >+
   development, ai@cam is demonstrating how universities can drive a new wave of
   AI innovation that delivers public benefit.
 
+authors:
+  - author_team: Jess Montgomery
+  - author_team: Neil Lawrence
 citation_fields:
   publisher: University of Cambridge
 ---
