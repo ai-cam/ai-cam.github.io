@@ -5,8 +5,7 @@ excerpt: In its third year, ai@cam has demonstrated that its model for AI
   with real-world challenges across healthcare, local government, environmental
   sustainability, cultural heritage and scientific discovery, ai@cam is
   accelerating interdisciplinary research, translating ideas into public
-  benefit, and strengthening Cambridge's role as a national and international
-  leader in AI that serves science, citizens, and society.
+  benefit, and strengthening Cambridge's role as a international leader in AI.
 report_date: 2026-08-05
 cover_image: /assets/images/uploads/annual-report-2025-26.png
 abstract: >+
