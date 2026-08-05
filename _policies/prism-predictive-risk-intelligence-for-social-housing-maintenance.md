@@ -9,6 +9,8 @@ authors:
   - author_people: Ramit Debnath
 policy_categories: AI for Public Services
 ---
+**PRISM: Predictive Risk Intelligence for Social Housing Maintenance**\
+\
 **Principal Investigators:** Professor Ronita Bardhan and Dr Ramit Debnath, University of Cambridge\
 **Council Partner:** Cambridge City Council and South Cambridgeshire District Council (Housing Departments)
 
