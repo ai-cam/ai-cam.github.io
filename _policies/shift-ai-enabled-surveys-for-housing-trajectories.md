@@ -1,11 +1,11 @@
 ---
 title: "SHIFT: AI-Enabled Surveys for Housing Trajectories"
 excerpt: " "
-date: 2026-08-05
+date: 2026-05-05
 cover_image: /assets/images/uploads/mattteo-project-shift.jpg
 policy_categories: AI for Public Services
 ---
-**Principal Investigator:** Dr Matteo Zallio, University of Cambridge
+**Principal Investigator:** Dr Matteo Zallio, University of Cambridge\
 **Council Partner:** Greater Cambridge Shared Planning Service (Cambridge City Council and South Cambridgeshire District Council)
 
 Preparing the annual Housing Trajectory is a statutory requirement for all English local authorities and is a critical evidence base for planning decisions. It involves preparation, distribution, follow-up, and analysis of around 150 site-specific questionnaires sent annually to developers, agents, and housebuilders.
