@@ -11,7 +11,10 @@ abstract: >+
 
 authors:
   - author_team: Jess Montgomery
+    role: ai@cam Director
   - author_team: Neil Lawrence
+    author_link: ""
+    role: Chair of ai@cam
 citation_fields:
   publisher: University of Cambridge
 ---
