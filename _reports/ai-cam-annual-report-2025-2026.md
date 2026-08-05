@@ -8,12 +8,14 @@ excerpt: In its third year, ai@cam has demonstrated that its model for AI
   benefit, and strengthening Cambridge's role as a international leader in AI.
 report_date: 2026-08-05
 cover_image: /assets/images/uploads/annual-report-2025-26.png
-abstract: >+
-  By connecting the University of Cambridge’s world-leading research with
-  real-world challenges ranging from local government to global sustainable
-  development, ai@cam is demonstrating how universities can drive a new wave of
-  AI innovation that delivers public benefit.
-
+abstract: >
+  In its third year, ai@cam has demonstrated that its model for AI innovation
+  delivers tangible outcomes. By connecting world-leading research with
+  real-world challenges across healthcare, local government, environmental
+  sustainability, cultural heritage and scientific discovery, ai@cam is
+  accelerating interdisciplinary research, translating ideas into public
+  benefit, and strengthening Cambridge's role as a national and international
+  leader in AI that serves science, citizens, and society.
 links:
   - link: /assets/images/uploads/annual-report-2026.pdf
     link_text: Download Report
