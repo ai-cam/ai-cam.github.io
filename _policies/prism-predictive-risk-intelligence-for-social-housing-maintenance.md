@@ -12,4 +12,10 @@ policy_categories: AI for Public Services
 **Principal Investigators:** Professor Ronita Bardhan and Dr Ramit Debnath, University of Cambridge\
 **Council Partner:** Cambridge City Council and South Cambridgeshire District Council (Housing Departments)
 
-PRISM will develop a multimodal AI platform that fuses environmental, structural, and socioeconomic data to generate dynamic Risk Hotspot Maps for social housing in Cambridgeshire. By identifying properties most at risk of deterioration, the system will enable proactive intervention. The project embeds human oversight throughout, ensuring AI supports—rather than replaces—the professional judgement of housing officers.
+Housing vulnerability is a complex and growing challenge for local authorities. It often requires early intervention across multiple services. Repairs are often reactive, so problems can get worse, affecting homes and tenants.
+
+PRISM applies machine learning to a range of datasets to produce AI-powered Risk Hotspot Maps, which can identify at-risk buildings for proactive maintenance and targeted investment. PRISM combines data on housing condition, age, energy performance and maintenance histories; climate hazards like extreme heat and severe winter events; and anonymised social and tenant vulnerability data such as fuel poverty.
+
+The resulting Risk Hotspot Maps can help identify properties with the highest likelihood of system failure or deterioration and generate alerts for housing teams, helping specialised staff guide decisions and prioritise resources based on the greatest need. PRISM does not operate as a public-facing platform or use identifiable tenant information.
+
+**[Find out more about the project here. ](https://www.ai.cam.ac.uk/news/ai-system-could-predict-safety-problems-in-social-housing-before-they-happen/)**
