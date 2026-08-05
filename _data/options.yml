@@ -1,5 +1,6 @@
 site_name: ai@cam
-site_description: ai@cam is Cambridge University's flagship mission to develop AI for the benefit of science, citizens, and society.
+site_description: ai@cam is Cambridge University's flagship mission to develop
+  AI for the benefit of science, citizens, and society.
 logos:
   logo_dark: /assets/images/ai-cam-logo-dark.svg
   logo_light: /assets/images/ai-cam-logo-light.svg
@@ -8,7 +9,7 @@ logos:
   university_link: https://www.cam.ac.uk/
 social_media:
   linkedin:
-    url: "https://www.linkedin.com/company/103543261/admin/feed/posts/ "
+    url: https://www.linkedin.com/company/ai-cambridge
     icon: /assets/images/icons/linkedin.svg
   twitter:
     url: https://twitter.com/ai_cam_mission
