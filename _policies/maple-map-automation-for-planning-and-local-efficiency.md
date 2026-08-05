@@ -7,6 +7,8 @@ cover_image: /assets/images/uploads/maple.jpg
 authors:
   - name: " Alexis Litvine"
     photo: /assets/images/uploads/alexis-litvine2.jpg
+    role: Senior Researcher at The Cambridge Group for the History of Population and
+      Social Structure (CAMPOP)
 policy_categories: AI for Public Services
 ---
 **MAPLE: Map Automation for Planning and Local Efficiency**
