@@ -46,8 +46,6 @@ ai@cam is the University of Cambridge's mission for AI that serves science, citi
 * Engaged over 2,500 people through major events, public dialogues and international workshops
 * Established a University-wide AI community of practice involving more than 200 professional services staff across 90 departments
 
-
-
 ## L﻿ooking forward
 
 Our priorities for the coming year will include:
@@ -61,4 +59,4 @@ Our priorities for the coming year will include:
 
 ## Download the Full Report
 
-The complete findings and details can be found in the full report.
+The complete findings and details can be found in the [full report.](https://www.ai.cam.ac.uk/assets/images/uploads/annual-report-2026.pdf)
