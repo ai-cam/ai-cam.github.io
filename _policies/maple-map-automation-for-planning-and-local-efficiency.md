@@ -4,6 +4,9 @@ title: "MAPLE: Map Automation for Planning and Local Efficiency"
 excerpt: "  "
 date: 2026-04-29
 cover_image: /assets/images/uploads/maple.jpg
+authors:
+  - name: " Alexis Litvine"
+    photo: /assets/images/uploads/alexis-litvine2.jpg
 policy_categories: AI for Public Services
 ---
 **MAPLE: Map Automation for Planning and Local Efficiency**
