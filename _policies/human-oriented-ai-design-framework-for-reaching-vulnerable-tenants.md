@@ -6,6 +6,9 @@ date: 2026-04-29
 cover_image: /assets/images/uploads/human-ai.jpg
 authors:
   - author_people: Viviana Bastidas
+    name: Jennifer Schooling
+    photo: /assets/images/uploads/jennifer-schooling-1-.jpg
+  - {}
 policy_categories: AI for Public Services
 ---
 **Human-Oriented AI: Design Framework for Reaching Vulnerable Tenants**
