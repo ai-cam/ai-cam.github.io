@@ -1,43 +1,45 @@
 ---
-slug: decision-making-with-ai-in-connected-places-and-cities
 title: Decision-making with AI in connected places and cities
 project_date: ""
-description: "Decision-making with AI in connected places and cities: Developing an
-  ethical and responsible innovation rooted approach for public value creation\n\n"
-cover_image: "/assets/images/uploads/pexels-brett-sayles-1141436.jpg"
+description: >+
+  Decision-making with AI in connected places and cities: Developing an ethical
+  and responsible innovation rooted approach for public value creation
+
+cover_image: /assets/images/uploads/pexels-brett-sayles-1141436.jpg
 project_categories: Challenges
-videos:
-- video_link: https://youtu.be/cxEjQFUrXTA
 authors:
-- photo: "/assets/images/uploads/kwado_os.png"
-  name: Kwadwo Oti-Sarpong
-  role: Senior Research and Teaching Associate in Urban Systems and Infrastructure
-    Managemen
-- photo: "/assets/images/uploads/jennifer-schooling.jpg"
-  name: Jennifer Schooling
-  role: "/"
-- photo: "/assets/images/uploads/viviana_bm.jpeg"
-  name: Viviana Bastidas Melo
-  role: Research Associate in Urban Systems and Infrastructure
-- name: Li Wan
-  photo: "/assets/images/uploads/li_wan.jpeg"
-  role: Associate Professor in Urban Planning and Development
-- name: Ramit Debnath
-  photo: "/assets/images/uploads/ramit_debnath.jpeg"
-  role: Assistant Professor of Mathematics and Social Design
-- photo: "/assets/images/uploads/manuel_herrera.png"
-  name: Manuel Herrera
-  role: Senior Research Associate in Distributed Intelligent Systems
-- name: Jerry Chen
-  role: PhD Candidate
-  photo: "/assets/images/uploads/jerry_chen.jpeg"
-- name: Kristina Khutsishvili
-  photo: "/assets/images/uploads/kristina-khutsishvili.jpg"
-  role: Research Associate
-- photo: "/assets/images/uploads/ganesh_indira-1-.jpg"
-  name: Maya Indira Ganesh
-  role: Associate Director (Research Partnerships) | Programme Co-director, Narratives
-    & Justice
+  - photo: /assets/images/uploads/kwado_os.png
+    name: Kwadwo Oti-Sarpong
+    role: Senior Research and Teaching Associate in Urban Systems and Infrastructure
+      Managemen
+  - photo: /assets/images/uploads/jennifer-schooling.jpg
+    name: Jennifer Schooling
+    role: Professor of Digital Innovation and Smart Places
+  - photo: /assets/images/uploads/viviana_bm.jpeg
+    name: Viviana Bastidas Melo
+    role: Research Associate in Urban Systems and Infrastructure
+  - name: Li Wan
+    photo: /assets/images/uploads/li_wan.jpeg
+    role: Associate Professor in Urban Planning and Development
+  - name: Ramit Debnath
+    photo: /assets/images/uploads/ramit_debnath.jpeg
+    role: Assistant Professor of Mathematics and Social Design
+  - photo: /assets/images/uploads/manuel_herrera.png
+    name: Manuel Herrera
+    role: Senior Research Associate in Distributed Intelligent Systems
+  - name: Jerry Chen
+    role: PhD Candidate
+    photo: /assets/images/uploads/jerry_chen.jpeg
+  - name: Kristina Khutsishvili
+    photo: /assets/images/uploads/kristina-khutsishvili.jpg
+    role: Research Associate
+  - photo: /assets/images/uploads/ganesh_indira-1-.jpg
+    name: Maya Indira Ganesh
+    role: Associate Director (Research Partnerships) | Programme Co-director,
+      Narratives & Justice
+slug: decision-making-with-ai-in-connected-places-and-cities
+videos:
+  - video_link: https://youtu.be/cxEjQFUrXTA
 ---
 **Decision-making with AI in connected places and cities: Developing an ethical and responsible innovation rooted approach for public value creation**
 
