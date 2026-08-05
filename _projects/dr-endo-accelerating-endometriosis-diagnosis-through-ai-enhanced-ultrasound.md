@@ -1,6 +1,6 @@
 ---
 slug: dr-endo-accelerating-endometriosis-diagnosis-through-ai-enhanced-ultrasound
-title: "Dr. Endo: Accelerating Endometriosis Diagnosis Through AI-Enhanced Ultrasound"
+title: "Dr. Adeno: Facilitating earlier diagnosis of adenomyosis"
 project_date: ""
 description: >
   Endometriosis affects 1 in 10 women, causing severe pain and fertility
