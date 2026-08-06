@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # lychee is a fast link checker written in Rust.
       # We point it at the live sitemap so it follows every published URL.
