@@ -26,6 +26,8 @@ jobs:
       contents: read
       pull-requests: read
       statuses: read
+      administration: write
+      issues: write
     
     steps:
       - name: Checkout repository
