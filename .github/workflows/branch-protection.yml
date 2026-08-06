@@ -26,7 +26,6 @@ jobs:
       contents: read
       pull-requests: read
       statuses: read
-      administration: write
       issues: write
     
     steps:
@@ -57,7 +56,7 @@ jobs:
       - name: Apply branch protection (if needed)
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ADMIN_PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python scripts/configure-branch-protection.py \
