@@ -43,23 +43,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Check for protection violations
+      - name: Check branch rules
         id: check-protection
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/configure-branch-protection.py \
             --repo "$GITHUB_REPOSITORY" \
-            --branch main \
-            --dry-run > protection-check.log 2>&1 || true
-          
-          if grep -q "not compliant" protection-check.log; then
+            --branch main > protection-check.log 2>&1 || true
+          cat protection-check.log
+          if grep -q "NOT compliant" protection-check.log; then
             echo "violations_detected=true" >> $GITHUB_OUTPUT
-            cat protection-check.log
           else
             echo "violations_detected=false" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Create issue on violations
         if: steps.check-protection.outputs.violations_detected == 'true' && github.event_name == 'schedule'
         uses: actions/github-script@v7
@@ -67,33 +65,32 @@ jobs:
           script: |
             const fs = require('fs');
             const logContent = fs.readFileSync('protection-check.log', 'utf8');
-            
-            const title = '⚠️ Branch Protection Settings Non-Compliant';
-            const body = `## Branch Protection Validation Failed
-            
-            The automated branch protection validation detected that the main branch protection settings are not compliant with the configured requirements.
-            
+
+            const title = '⚠️ Branch Ruleset Rules Non-Compliant';
+            const body = `## Branch Ruleset Validation Failed
+
+            The automated validation detected that the main branch ruleset rules are not compliant with the required configuration.
+
             ### Details
             \`\`\`
             ${logContent}
             \`\`\`
-            
+
             ### Action Required
-            Please review and update the branch protection settings to ensure compliance with security requirements.
-            
+            Please review and update the branch ruleset settings manually in **GitHub Settings → Rules**.
+
             This issue was automatically created by the Branch Protection Validation workflow.
             `;
-            
-            // Check if issue already exists
+
             const issues = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
               labels: 'branch-protection'
             });
-            
+
             const existingIssue = issues.data.find(issue => issue.title === title);
-            
+
             if (!existingIssue) {
               await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -103,7 +100,6 @@ jobs:
                 labels: ['branch-protection', 'security', 'automated']
               });
             } else {
-              // Update existing issue
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
