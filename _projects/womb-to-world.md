@@ -1,5 +1,4 @@
 ---
-slug: womb-to-world
 title: Womb to World
 project_date: ""
 description: "From conception to childhood: Revolutionising women’s health,
@@ -30,6 +29,9 @@ authors:
     role: PhD Candidate, Computer Science
   - author_people: Saaliha Vali
     role: Obstetrician and Gynaecologist, NHS
+slug: womb-to-world
+videos:
+  - video_link: www.youtube.com/watch?v=1AGz5oAN7iI
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
