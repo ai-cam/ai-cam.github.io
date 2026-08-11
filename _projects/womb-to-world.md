@@ -23,12 +23,12 @@ authors:
     role: Lecturer, University of Roehampton
   - author_people: Saaliha Vali
     role: Obstetrician and Gynaecologist, NHS
-  - photo: /assets/images/uploads/placeholder-people-image-1-.jpg
-    name: May Levin
-    role: PhD Candidate, Computer Science
   - name: Abhirup Mookherjee
     role: Postdoc, Microbiology and Physics
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
+  - photo: /assets/images/uploads/placeholder-people-image-1-.jpg
+    name: May Levin
+    role: PhD Candidate, Computer Science
 slug: womb-to-world
 videos:
   - video_link: www.youtube.com/watch?v=1AGz5oAN7iI
