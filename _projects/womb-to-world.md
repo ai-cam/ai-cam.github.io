@@ -35,7 +35,7 @@ videos:
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
-The [From Womb to World project](https://www.wombs2world.com/) aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. We want to improve the accuracy of early diagnosis of women’s health conditions, personalise fertility and IVF outcomes – and support the transition to parenting.
+The [Womb to World project](https://www.wombs2world.com/) aims to develop cheaper, less invasive and more accurate AI-assisted tests that can be used throughout the conception to childhood journey. We want to improve the accuracy of early diagnosis of women’s health conditions, personalise fertility and IVF outcomes – and support the transition to parenting.
 
 The University of Cambridge’s Departments of Psychology, Computer Science, and Physics among others will lead this project, in partnership with two leading specialty hospitals.
 
