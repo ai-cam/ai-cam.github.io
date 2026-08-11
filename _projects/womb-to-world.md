@@ -25,6 +25,9 @@ authors:
   - name: Yau Thum
     role: Fertility & IVF Specialist, The Lister Fertility Clinic
     photo: /assets/images/uploads/yau-thum-profile.jpg
+  - photo: /assets/images/uploads/placeholder-people-image-1-.jpg
+    name: May Levin
+    role: PhD Candidate, Computer Science
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
