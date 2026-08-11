@@ -1,6 +1,6 @@
 ---
 slug: dr-endo-accelerating-endometriosis-diagnosis-through-ai-enhanced-ultrasound
-title: "Dr. Adeno: Facilitating earlier diagnosis of adenomyosis"
+title: "Dr Adeno: Facilitating Earlier Diagnosis of Adenomyosis using 2D ultrasound"
 project_date: ""
 description: " "
 cover_image: /assets/images/uploads/getty-images-2xaihanksou-unsplash-1-.jpg
