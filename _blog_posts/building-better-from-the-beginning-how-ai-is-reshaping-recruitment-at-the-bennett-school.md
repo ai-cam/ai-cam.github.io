@@ -4,7 +4,7 @@ title: "Building better from the beginning: How AI is reshaping recruitment at
 date: 2026-08-11
 cover_image: /assets/images/uploads/student-blog.jpg
 ---
-The Bennett School of Public Policy is a new, flagship department within the University of Cambridge – in fact, it’s the first new department to be set up within the 800-year-old University in three decades. And it’s committed to doing things differently.
+The [Bennett School of Public Policy](https://www.bennettschool.cam.ac.uk/) is a new, flagship department within the University of Cambridge – in fact, it’s the first new department to be set up within the 800-year-old University in three decades. And it’s committed to doing things differently.
 
 “We’re really taking a fresh look at how we operate,” explains Department Administrator Sarah Rosella. “Rather than doing things because they’ve always been done that way, we’re trying to think outside the box and review all of our systems and processes so they can be as streamlined as possible.”
 
@@ -44,4 +44,4 @@ Looking ahead, Sarah sees potential for her department beyond HR recruitment and
 
 “As a new department we want to set best practice from the beginning,” says Sarah. “This has been an incredible opportunity to put the right foundations in place rather than relying on legacy ways of working. We’re excited to see where this goes next.”
 
-Find out more about the AI for Ops programme.
+[Find out more about the AI for Ops programme.](https://www.ai.cam.ac.uk/ai-in-the-university/)
