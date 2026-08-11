@@ -16,8 +16,8 @@ authors:
   - name: Pietro Liò
     photo: /assets/images/uploads/lio_pietro.jpg
     role: Professor of Computational Biology
-  - name: Junwei Yang
-    role: Phd Candidate
+  - name: Abhirup Mookherjee
+    role: Postdoc, Microbiology/Physics
     photo: /assets/images/uploads/placeholder-1-1-.jpg
   - name: Diana Fusco
     photo: /assets/images/uploads/dr_diana_fusco.png
