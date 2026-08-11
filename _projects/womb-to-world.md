@@ -41,4 +41,4 @@ The University of Cambridge’s Departments of Psychology, Computer Science, and
 
 Dr Staci Weiss, AI-deas challenge co-lead said: “AI-deas provides an interdisciplinary platform bringing together data and new AI analytic approaches to accelerate identification of reproductive health biomarkers from embryo through to neonate.”
 
-Mo Vali, AI-deas challenge co-lead said: “We will seek to revolutionise reproductive health technology using state-of-the-art AI methods, leveraging Cambridge’s long tradition of research in this field. Translating our research from lab to clinic by developing rigorous tests to improve clinical outcomes will benefit the wider public and help to ease the NHS burden.”
+Mo Vali, AI-deas challenge co-lead said: “We will seek to revolutionise reproductive health technology using state-of-the-art AI methods, leveraging Cambridge’s long tradition of research in this field. Translating our research from lab to clinic by developing rigorous tests to improve clinical outcomes will benefit the wider public and help to ease the NHS burden."
