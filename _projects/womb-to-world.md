@@ -17,8 +17,8 @@ authors:
     photo: /assets/images/uploads/lio_pietro.jpg
     role: Professor of Computational Biology
   - name: Abhirup Mookherjee
-    role: Postdoc, Microbiology/Physics
-    photo: /assets/images/uploads/placeholder-1-1-.jpg
+    role: Postdoc, Microbiology and Physics
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Diana Fusco
     photo: /assets/images/uploads/dr_diana_fusco.png
     role: Associate Professor, Physics
