@@ -9,16 +9,10 @@ project_categories: Challenges
 authors:
   - photo: /assets/images/uploads/staci-weiss.jpeg
     name: Staci Weiss
-    role: Research Associate
+    role: Lecturer, University of Roehampton
   - name: Mo Vali
     photo: /assets/images/uploads/mo-vali.jpeg
-    role: Phd Candidate
-  - name: Virag Lakner
-    photo: /assets/images/uploads/placeholder-1-1-.jpg
-    role: PhD Student at the Centre for Brain and Cognitive Development
-  - name: Mark Johnson
-    photo: /assets/images/uploads/mark_johnson.jpeg
-    role: Professor of Experimental Psychology
+    role: PhD Candidate, Physics
   - name: Pietro Liò
     photo: /assets/images/uploads/lio_pietro.jpg
     role: Professor of Computational Biology
@@ -27,16 +21,10 @@ authors:
     photo: /assets/images/uploads/placeholder-1-1-.jpg
   - name: Diana Fusco
     photo: /assets/images/uploads/dr_diana_fusco.png
-    role: University Assistant Professor in Biological Physics
-  - name: Nikhil Krishnan
-    role: Lecturer
-    photo: /assets/images/uploads/nakul-krishna.png
+    role: Associate Professor, Physics
   - name: Yau Thum
-    role: Fertility Specialist
+    role: Fertility & IVF Specialist, The Lister Fertility Clinic
     photo: /assets/images/uploads/yau-thum-profile.jpg
-  - name: Gordon Smith
-    photo: /assets/images/uploads/gordon-smith.jpeg
-    role: Head of Department
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
