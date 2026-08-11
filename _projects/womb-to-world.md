@@ -28,6 +28,8 @@ authors:
   - photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     name: May Levin
     role: PhD Candidate, Computer Science
+  - author_people: Saaliha Vali
+    role: Obstetrician and Gynaecologist, NHS
 ---
 **From conception to childhood: Revolutionising women’s health, female fertility and early infant neurodevelopment using AI**
 
