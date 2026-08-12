@@ -50,4 +50,4 @@ Each show innovative uses of data for research in areas that are critically impo
 
 The projects highlight crucial design considerations for the UK’s National Data Library and the need for a digital infrastructure that connects data, researchers, and resources that enable data use. By centring the experiences of researchers on the front-line of AI innovation, this report hopes to bring some of those barriers into focus and inform continued conversations in this area.
 
-[Read the access to data report](https://www.ai.cam.ac.uk/assets/uploads/ai-cam-access-to-data-case-studies.pdf)
+[Read the access to data report](https://www.ai.cam.ac.uk/assets/images/uploads/ai-cam-access-to-data-case-studies.pdf)
