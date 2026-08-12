@@ -37,6 +37,9 @@ authors:
   - photo: /assets/images/uploads/dominic_orchard.jpeg
     name: Dominic Orchard
     role: Co-director of the Institute of Computing for Climate Science
+  - name: Sadiq Jaffer
+    photo: /assets/images/uploads/jaffer_sadiq1.jpeg
+    role: Senior Research Associate
   - name: Elizabeth Allen
     photo: /assets/images/uploads/elizabeth-allen-288x300.jpg
     role: /
@@ -60,9 +63,6 @@ authors:
     role: Executive Director, Institute of Computing for Climate Science
   - name: Rebecca Smith
     photo: /assets/images/uploads/dr-rebecca-smith.jpeg
-    role: Senior Research Associate
-  - name: Sadiq Jaffer
-    photo: /assets/images/uploads/jaffer_sadiq1.jpeg
     role: Senior Research Associate
   - name: Silviu Petrrovan
     photo: /assets/images/uploads/silviu-petrovan.jpeg
