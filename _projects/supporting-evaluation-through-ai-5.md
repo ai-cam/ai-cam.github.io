@@ -2,10 +2,7 @@
 slug: opportunities-and-potential-risks-of-ai-in-supporting-evaluation-opraise
 title: Opportunities and potential risks of AI in supporting evaluation (OpRaise)
 project_date: ""
-description: As AI continues to advance, concerns are growing about its impact
-  on traditional grading systems across the HE sector. AI models are now capable
-  of writing essays and providing detailed feedback that is improving rapidly,
-  raising questions about how universities should adapt to this technology.
+description: " "
 cover_image: /assets/images/uploads/sarah-noltner-4u3d6u_p-fe-unsplash.jpg
 project_categories: Challenges
 authors:
