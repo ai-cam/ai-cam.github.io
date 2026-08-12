@@ -17,16 +17,15 @@ authors:
     photo: /assets/images/uploads/emily_lines.jpeg
     role: University Associate Professor in Physical Geography, UKRI Future Leaders
       Fellow, Turing Fellow
-  - photo: /assets/images/uploads/alec_christie.jpeg
-    name: Alec Christie
-    role: Henslow Research Fellow
-    author_link: https://www.ai.cam.ac.uk/
   - name: William Sutherland
     photo: /assets/images/uploads/sutherland_bill.jpg
     role: Professor of Conservation Biology
   - name: Sam Reynolds
     photo: /assets/images/uploads/sam_reynolds.jpeg
     role: Research Associate
+  - name: Sadiq Jaffer
+    photo: /assets/images/uploads/jaffer_sadiq1.jpeg
+    role: Senior Research Associate
   - name: Chris Edsall
     photo: /assets/images/uploads/chris_edsall.jpeg
     role: Head of Research Software Engineering
@@ -37,15 +36,16 @@ authors:
   - photo: /assets/images/uploads/dominic_orchard.jpeg
     name: Dominic Orchard
     role: Co-director of the Institute of Computing for Climate Science
-  - name: Sadiq Jaffer
-    photo: /assets/images/uploads/jaffer_sadiq1.jpeg
-    role: Senior Research Associate
-  - name: Elizabeth Allen
-    photo: /assets/images/uploads/elizabeth-allen-288x300.jpg
-    role: /
   - name: Robert Rouse
     photo: /assets/images/uploads/robert-rouse.jpeg
     role: Researcher
+  - photo: /assets/images/uploads/alec_christie.jpeg
+    name: Alec Christie
+    role: Henslow Research Fellow
+    author_link: https://www.ai.cam.ac.uk/
+  - name: Elizabeth Allen
+    photo: /assets/images/uploads/elizabeth-allen-288x300.jpg
+    role: /
   - name: Erik Mackie
     photo: /assets/images/uploads/erik_mackie.jpeg
     role: Reseach Engagement Manager
