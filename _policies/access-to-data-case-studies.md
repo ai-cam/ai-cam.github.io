@@ -1,7 +1,10 @@
 ---
 title: Access to Data Case Studies
-excerpt: "Access to data for research: lessons for the National Data Library
-  from the front lines of AI innovation."
+excerpt: This joint report from ai@cam, Minderoo Centre for Technology and
+  Democracy, and the Bennett Institute for Public Policy presents a series of
+  case studies examining access to data for research. Through real-world
+  examples across multiple disciplines, the report illustrates current barriers
+  researchers face and proposes policy developments to address these challenges.
 date: 2025-12-16
 cover_image: /assets/images/uploads/data-case-studies-2-.jpg
 abstract: This joint report from ai@cam, Minderoo Centre for Technology and
