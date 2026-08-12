@@ -1,8 +1,4 @@
 ---
-slug: ai-cam-at-the-ai-fringe
-redirect_from:
-  - "/policies/ai-cam-at-the-ai-fringe/"
-  - "/policies/aicam-at-the-ai-fringe/"
 title: ai@cam at the AI Fringe
 excerpt: Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the
   public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss
@@ -10,7 +6,7 @@ excerpt: Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of th
   in our lives.
 date: 2025-12-16
 cover_image: /assets/images/uploads/img_0072-2-.jpg
-abstract: /
+abstract: " "
 authors:
   - name: Neil Lawrence
     photo: /assets/images/uploads/lawrence_neil.png
@@ -28,8 +24,12 @@ authors:
       and the Public
     photo: /assets/images/uploads/catherine-galloway-1-.jpg
 policy_categories: AI Policy
+slug: ai-cam-at-the-ai-fringe
+redirect_from:
+  - /policies/ai-cam-at-the-ai-fringe/
+  - /policies/aicam-at-the-ai-fringe/
 ---
-#### **Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss their hopes and fears about the increasing use of artificial intelligence (AI) in our lives.**
+Ahead of Prime Minister Rishi Sunak’s AI Safety Summit, members of the public are being invited to ‘hop on a bus’ in Cambridge city centre to discuss their hopes and fears about the increasing use of artificial intelligence (AI) in our lives.
 
 Cambridge has been home to some of the leading thinkers in AI research and a recent report named it [the most ‘AI-ready’ city in the UK](https://blogs.sas.com/content/hiddeninsights/2022/07/13/smart-cities-which-parts-of-the-uk-are-the-most-ai-ready/). So what better place to bring together experts and the public for an open discussion about AI?
 
