@@ -8,12 +8,12 @@ project_categories: ""
 authors:
   - name: Jackie Hall
     photo: /assets/images/uploads/jackiehall.jpeg
-    role: " "
+    role: Academic Division
   - name: Emma Dollard
-    photo: /assets/images/uploads/boland_emma.jpg
-    role: " "
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
+    role: " Governance and Compliance Division"
   - name: Michael Morgan
-    role: " "
+    role: Faculty of Clinical Medicine
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Claire Darracott
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
