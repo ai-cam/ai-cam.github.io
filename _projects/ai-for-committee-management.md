@@ -17,21 +17,18 @@ authors:
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Claire Darracott
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
-    role: " "
+    role: Faculty of Clinical Medicine
   - name: Barbara Bennett
-    role: " "
-    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
-  - name: Adam Russell
-    role: ""
+    role: Faculty of Clinical Medicine
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Jo Craigwood
-    role: ""
+    role: Governance and Compliance Division
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Alistair Bochel
-    role: " "
+    role: Governance and Compliance Division
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Caroline Evans
-    role: ""
+    role: Governance and Compliance Division
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Emma Frampton
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
