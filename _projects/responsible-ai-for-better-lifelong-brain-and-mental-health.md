@@ -2,10 +2,7 @@
 slug: responsible-ai-for-better-lifelong-brain-and-mental-health
 title: Responsible AI for better lifelong brain and mental health
 project_date: ""
-description: Brain diseases and mental health disorders are taking a toll on
-  people throughout their lives. Dementia is the leading cause of death in
-  England and Wales, and different mental health disorders lead to significant
-  reductions in life expectancy.
+description: " "
 cover_image: /assets/images/uploads/pexels-anna-shvets-4226119.jpg
 project_categories: Challenges
 authors:
