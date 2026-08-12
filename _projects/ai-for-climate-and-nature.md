@@ -1,10 +1,7 @@
 ---
 title: AI for Climate and Nature
 project_date: ""
-description: The twin climate and biodiversity crises are two of the world’s
-  most complex challenges to tackle. This project aims to develop AI approaches
-  for bringing together a wide range of datasets and accelerating the collation
-  of information.
+description: " "
 cover_image: /assets/images/uploads/pexels-maddie-franz-1571117.jpg
 alternative_image: ""
 project_categories: Challenges
