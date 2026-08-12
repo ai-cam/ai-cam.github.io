@@ -1,10 +1,7 @@
 ---
 title: Decision-making with AI in connected places and cities
 project_date: ""
-description: >+
-  Decision-making with AI in connected places and cities: Developing an ethical
-  and responsible innovation rooted approach for public value creation
-
+description: "\n"
 cover_image: /assets/images/uploads/pexels-brett-sayles-1141436.jpg
 project_categories: Challenges
 authors:
