@@ -25,21 +25,21 @@ authors:
     role: " "
   - name: Miyoung Kim
     photo: /assets/images/uploads/miyoung-kim-1.png
-    role: " "
+    role: "Faculty of Modern and Medieval Languages and Linguistics "
   - name: Sarah Lamont
     photo: /assets/images/uploads/sarahlamont.jpeg
-    role: " "
+    role: Research Office
   - name: Simeon Burke
-    role: ""
+    role: Research Office
     photo: /assets/images/uploads/simeon.burke.jpg
   - name: Katerina Tsormpatzoglou
     photo: /assets/images/uploads/katerina-tsormpatzoglou.jpg
-    role: ""
+    role: Research Office
   - name: Russell Manning
     photo: /assets/images/uploads/russell-re-manning-740x740.jpg
     role: ""
   - name: Rowena Harvey
     photo: /assets/images/uploads/rowena-harvey.jpg
-    role: ""
+    role: Judge Business School
 ---
 Research support teams handle a high volume of complex queries about funding opportunities, often searching across multiple funder websites and documents to find key eligibility details. This project will test AI tools such as Microsoft Copilot, ChatGPT, and Google NotebookLM to see how they can streamline these processes - from summarising funder guidance to checking eligibility and interpreting terms and conditions. The team will develop prompt libraries, usage guides, and practical recommendations to help research administrators work more efficiently and consistently, freeing up time for higher-value support.
