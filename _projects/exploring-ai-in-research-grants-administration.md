@@ -2,9 +2,7 @@
 slug: exploring-ai-in-research-grants-administration
 title: Exploring AI in Research Grants Administration
 project_date: ""
-description: Departments of Psychology and Engineering, UIS, Leverhulme Centre
-  for the Future of Intelligence, MMLL, RSO, ROO, CRASSH, and Judge Business
-  School
+description: " "
 cover_image: /assets/images/uploads/20241106_staff-members-at-the-old-cavendish_0222.jpg
 project_categories: ""
 authors:
