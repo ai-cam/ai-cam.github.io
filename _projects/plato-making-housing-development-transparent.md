@@ -2,10 +2,7 @@
 slug: plato-making-housing-development-transparent
 title: "PLATO: Making Housing Development Transparent"
 project_date: ""
-description: "The UK housing crisis is characterised not only by shortage but by
-  information asymmetry – residents lack clear, integrated information about
-  what is being built, where, and whether schools, healthcare, and green spaces
-  will be sufficient. "
+description: " "
 cover_image: /assets/images/uploads/trayan-xioyjsvez8c-unsplash-1-.jpg
 project_categories: Sprints
 authors:
