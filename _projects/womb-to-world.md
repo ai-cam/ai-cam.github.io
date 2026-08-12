@@ -1,8 +1,7 @@
 ---
 title: Womb to World
 project_date: ""
-description: "From conception to childhood: Revolutionising women’s health,
-  female fertility and early infant neurodevelopment using AI"
+description: " "
 cover_image: /assets/images/uploads/womb-to-world-2.jpg
 project_categories: Challenges
 authors:
