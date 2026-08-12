@@ -14,19 +14,19 @@ authors:
     role: " "
   - name: Michael Morgan
     role: " "
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Claire Darracott
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     role: " "
   - name: Barbara Bennett
     role: " "
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Adam Russell
     role: ""
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Jo Craigwood
     role: ""
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Alistair Bochel
     role: " "
     photo: /assets/images/uploads/download.jpeg
