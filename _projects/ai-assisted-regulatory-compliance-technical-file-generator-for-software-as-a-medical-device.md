@@ -1,7 +1,21 @@
 ---
+project_categories: ""
+authors:
+  - name: Reza Salek
+    photo: /assets/images/uploads/reza-salek.jpg
+    role: ""
+  - photo: /assets/images/uploads/antonis-antoniou.jpg
+    name: Antonis Antoniou
+    role: Department of Public Health and Primary Care
+  - name: Kathryn Beardsall
+    photo: /assets/images/uploads/kathryn-beardsall.png
+    role: "  "
+  - name: Raj Jena
+    photo: /assets/images/uploads/raj-jena.jpg
+    role: "  "
 slug: ai-assisted-regulatory-compliance-technical-file-generator-for-software-as-a-medical-device
 redirect_from:
-  - "/projects/ai-assisted-regulatory-compliance-technical-file-generator-for-software/"
+  - /projects/ai-assisted-regulatory-compliance-technical-file-generator-for-software/
 title: AI-assisted Regulatory Compliance Technical File Generator for software
   as a medical device
 project_date: ""
@@ -9,19 +23,5 @@ description: "By using AI to automate regulatory documentation, the Office for
   Translational Research and the School of Clinical Medicine are helping
   researchers bring medical software to patients faster. "
 cover_image: /assets/images/uploads/20240702_postgraduates-collaborating-on-work-in-clare-hall-library_dsc00795.jpg
-project_categories: ""
-authors:
-  - name: Reza Salek
-    photo: /assets/images/uploads/reza-salek.jpg
-    role: " "
-  - photo: /assets/images/uploads/antonis-antoniou.jpg
-    name: Antonis Antoniou
-    role: " "
-  - name: Kathryn Beardsall
-    photo: /assets/images/uploads/kathryn-beardsall.png
-    role: "  "
-  - name: Raj Jena
-    photo: /assets/images/uploads/raj-jena.jpg
-    role: "  "
 ---
 By using AI to automate regulatory documentation, the Office for Translational Research and the School of Clinical Medicine are helping researchers bring medical software to patients faster. Its new “TechDoc co-pilot” will generate compliant technical files for Software as a Medical Device (SaMD), cutting preparation time by more than 60 percent and improving audit quality. The tool will be piloted in cancer risk modelling and neonatal care, with potential to support SaMD projects across the University.
