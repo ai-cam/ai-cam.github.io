@@ -29,15 +29,15 @@ authors:
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Alistair Bochel
     role: " "
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Caroline Evans
     role: ""
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Emma Frampton
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     role: ""
   - name: Angela Stratford
     role: " "
-    photo: /assets/images/uploads/download.jpeg
+    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
 ---
 This project explores how AI can streamline the administrative work of University committees, including minute-taking, drafting action lists, and summarising complex papers. Using secure and approved AI tools, the team will pilot AI support across a range of central and School committees. The project aims to reduce time spent on routine documentation while maintaining accuracy and confidentiality, freeing staff for higher-value work. Outputs will include practical guidance and recommendations to support wider adoption across the University.
