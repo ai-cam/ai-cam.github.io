@@ -2,12 +2,15 @@
 slug: ai-for-committee-management
 title: AI for Committee Management
 project_date: ""
-description: School of Clinical Medicine and Governance and Compliance Division
+description: " "
 cover_image: /assets/images/uploads/20250514_university-staff-meeting_pic0004.jpg
 project_categories: ""
 authors:
   - name: Jackie Hall
     photo: /assets/images/uploads/jackiehall.jpeg
+    role: " "
+  - name: Emma Dollard
+    photo: /assets/images/uploads/boland_emma.jpg
     role: " "
   - name: Michael Morgan
     role: " "
@@ -27,9 +30,6 @@ authors:
   - name: Alistair Bochel
     role: " "
     photo: /assets/images/uploads/download.jpeg
-  - name: Emma Dollard
-    photo: /assets/images/uploads/boland_emma.jpg
-    role: " "
   - name: Caroline Evans
     role: ""
     photo: /assets/images/uploads/download.jpeg
