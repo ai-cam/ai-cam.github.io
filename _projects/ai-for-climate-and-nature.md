@@ -7,13 +7,26 @@ alternative_image: ""
 project_categories: Challenges
 videos: []
 authors:
+  - name: Anil Madhavapeddy
+    role: Professor of Planetary Computing
+    photo: /assets/images/uploads/anil-headshot.jpeg
+  - name: Emily Shuckburgh
+    photo: /assets/images/uploads/shuckburgh_emily.jpg
+    role: Director
+  - name: Emily Lines
+    photo: /assets/images/uploads/emily_lines.jpeg
+    role: University Associate Professor in Physical Geography, UKRI Future Leaders
+      Fellow, Turing Fellow
   - photo: /assets/images/uploads/alec_christie.jpeg
     name: Alec Christie
     role: Henslow Research Fellow
     author_link: https://www.ai.cam.ac.uk/
-  - name: Anil Madhavapeddy
-    role: Professor of Planetary Computing
-    photo: /assets/images/uploads/anil-headshot.jpeg
+  - name: William Sutherland
+    photo: /assets/images/uploads/sutherland_bill.jpg
+    role: Professor of Conservation Biology
+  - name: Sam Reynolds
+    photo: /assets/images/uploads/sam_reynolds.jpeg
+    role: Research Associate
   - name: Chris Edsall
     photo: /assets/images/uploads/chris_edsall.jpeg
     role: Head of Research Software Engineering
@@ -27,13 +40,9 @@ authors:
   - name: Elizabeth Allen
     photo: /assets/images/uploads/elizabeth-allen-288x300.jpg
     role: /
-  - name: Emily Lines
-    photo: /assets/images/uploads/emily_lines.jpeg
-    role: University Associate Professor in Physical Geography, UKRI Future Leaders
-      Fellow, Turing Fellow
-  - name: Emily Shuckburgh
-    photo: /assets/images/uploads/shuckburgh_emily.jpg
-    role: Director
+  - name: Robert Rouse
+    photo: /assets/images/uploads/robert-rouse.jpeg
+    role: Researcher
   - name: Erik Mackie
     photo: /assets/images/uploads/erik_mackie.jpeg
     role: Reseach Engagement Manager
@@ -49,30 +58,21 @@ authors:
   - name: Marla Fuchs
     photo: /assets/images/uploads/marla_fuchs.jpeg
     role: Executive Director, Institute of Computing for Climate Science
-  - name: Onkar Gulati
-    photo: /assets/images/uploads/placeholder-1-1-.jpg
-    role: PhD Candidate
   - name: Rebecca Smith
     photo: /assets/images/uploads/dr-rebecca-smith.jpeg
     role: Senior Research Associate
-  - name: Robert Rouse
-    photo: /assets/images/uploads/robert-rouse.jpeg
-    role: Researcher
   - name: Sadiq Jaffer
     photo: /assets/images/uploads/jaffer_sadiq1.jpeg
     role: Senior Research Associate
-  - name: Sam Reynolds
-    photo: /assets/images/uploads/sam_reynolds.jpeg
-    role: Research Associate
   - name: Silviu Petrrovan
     photo: /assets/images/uploads/silviu-petrovan.jpeg
     role: Senior Research Associate
   - name: Keshav Srinivasan
     photo: /assets/images/uploads/srinivasan_keshav.jpeg
     role: Robert Sansom Professor of Computer Science
-  - name: William Sutherland
-    photo: /assets/images/uploads/sutherland_bill.jpg
-    role: Professor of Conservation Biology
+  - name: Onkar Gulati
+    photo: /assets/images/uploads/placeholder-1-1-.jpg
+    role: PhD Candidate
 slug: ai-for-climate-and-nature
 ---
 The twin climate and biodiversity crises are two of the world’s most complex challenges to tackle. This project aims to develop AI approaches for bringing together a wide range of datasets and accelerating the collation of information.
