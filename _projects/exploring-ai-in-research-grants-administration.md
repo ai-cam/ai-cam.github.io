@@ -35,7 +35,7 @@ authors:
     role: Research Office
   - name: Russell Manning
     photo: /assets/images/uploads/russell-re-manning-740x740.jpg
-    role: ""
+    role: CRASSH
   - name: Rowena Harvey
     photo: /assets/images/uploads/rowena-harvey.jpg
     role: Judge Business School
