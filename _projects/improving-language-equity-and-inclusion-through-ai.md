@@ -1,11 +1,7 @@
 ---
 title: Improving language equity and inclusion through AI
 project_date: ""
-description: Using language to communicate is something many take for granted.
-  However, a significant proportion of the UK population find spoken or written
-  communication more difficult due to sensory, neural or linguistic challenges
-  such as hearing loss, brain injury or language barriers, and can face
-  substantial disadvantages in many aspects of their lives.
+description: " "
 cover_image: /assets/images/uploads/jr-korpa-jxb5j1vdwsi-unsplash.jpg
 project_categories: Challenges
 authors:
