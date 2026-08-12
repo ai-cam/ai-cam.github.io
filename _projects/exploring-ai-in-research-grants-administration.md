@@ -10,19 +10,19 @@ project_categories: ""
 authors:
   - name: Petra Georgoulis-Hluzova
     photo: /assets/images/uploads/petra-georgoulis-hluzova-.jpg
-    role: " "
+    role: Department of Psychology
   - name: Peter Thomas-McEwen
     photo: /assets/images/uploads/peter-thomas-mcewen.jpg
-    role: " "
+    role: Department of Engineering
   - name: Sabrina Yang
     photo: /assets/images/uploads/sabrina-yang.jpg
-    role: " "
+    role: " University Information Services"
   - photo: /assets/images/uploads/hannah-tigg.png
     name: Hannah Tigg
-    role: " "
+    role: " Leverhulme Centre for the Future of Intelligence"
   - name: Yvonne Martin-Portugues
     photo: /assets/images/uploads/yvonne-martin-portugues.jpg
-    role: " "
+    role: Cambridge Institute for Technology and Humanity
   - name: Miyoung Kim
     photo: /assets/images/uploads/miyoung-kim-1.png
     role: "Faculty of Modern and Medieval Languages and Linguistics "
