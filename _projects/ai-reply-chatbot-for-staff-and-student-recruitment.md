@@ -3,24 +3,20 @@ project_categories: ""
 authors:
   - name: Sarah Rosella
     photo: /assets/images/uploads/sarahroseella1.png
-    role: " "
+    role: Bennett School of Public Policy
   - name: Rebecca Learn
     photo: /assets/images/uploads/rebecca_leam.jpg
-    role: " "
+    role: Bennett School of Public Policy
   - name: Diane Coyle
     photo: /assets/images/uploads/coyle_diane-1-.jpg
-    role: " "
+    role: "Bennett School of Public Policy "
 slug: ai-reply-chatbot-for-staff-and-student-recruitment
 redirect_from:
   - /projects/ai-reply-chatbot-for-staff-and-student-recruitment/
   - /projects/ai-replychatbot-for-staff-and-student-recruitment/
 title: AI chatbot for staff and student recruitment
 project_date: ""
-description: "This project will develop an AI-powered replybot and chatbot to
-  handle high volumes of staff and student recruitment enquiries efficiently.
-  The system will provide instant, consistent responses to frequently asked
-  questions about job opportunities and postgraduate admissions, reducing manual
-  email handling and improving response times. "
+description: " "
 cover_image: /assets/images/uploads/20241106_university-staff-member_0154.jpg
 ---
 This project will develop an AI-powered replybot and chatbot to handle high volumes of staff and student recruitment enquiries efficiently. The system will provide instant, consistent responses to frequently asked questions about job opportunities and postgraduate admissions, reducing manual email handling and improving response times. By automating routine queries, it will free up administrative capacity for higher-value work such as interview coordination and candidate support. Designed as a scalable model, the tool could be adapted across departments to support HR and student admissions more widely.
