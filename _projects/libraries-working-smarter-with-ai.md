@@ -2,18 +2,18 @@
 slug: libraries-working-smarter-with-ai
 title: Libraries Working Smarter with AI
 project_date: ""
-description: Cambridge University Library
+description: " "
 cover_image: /assets/images/uploads/20230616_student-at-gonville-and-caius_0234.jpg
 project_categories: ""
 authors:
   - name: Lesley Gray
-    photo: /assets/images/uploads/download.jpeg
-    role: " "
+    photo: /assets/images/uploads/lesley-gray.jpg
+    role: Cambridge University Library
   - photo: /assets/images/uploads/tuan-pham-1-.jpeg
     name: Tuan Pham
-    role: " "
+    role: Cambridge University Library
   - name: Jay Pema
-    role: ""
+    role: Cambridge University Library
     photo: /assets/images/uploads/jay-pema.png
 ---
 Cambridge University Libraries are launching a “Working Smarter” initiative to explore how AI can enhance efficiency and innovation across library services. The project will test AI tools for tasks such as metadata creation, text recognition, and search enhancement to improve access to “hidden collections” and digital content. It will also scope the potential for a library chatbot trained on internal documentation to assist users in navigating services and resources. Alongside technical trials, the initiative will engage staff across the library network in developing the skills and frameworks needed for the secure, ethical, and sustainable use of AI.
