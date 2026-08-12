@@ -3,16 +3,16 @@ project_categories: ""
 authors:
   - name: Reza Salek
     photo: /assets/images/uploads/reza-salek.jpg
-    role: ""
+    role: Faculty of Clinical Medicine
   - photo: /assets/images/uploads/antonis-antoniou.jpg
     name: Antonis Antoniou
     role: Department of Public Health and Primary Care
   - name: Kathryn Beardsall
     photo: /assets/images/uploads/kathryn-beardsall.png
-    role: "  "
+    role: Department of Paediatrics
   - name: Raj Jena
     photo: /assets/images/uploads/raj-jena.jpg
-    role: "  "
+    role: Department of Oncology
 slug: ai-assisted-regulatory-compliance-technical-file-generator-for-software-as-a-medical-device
 redirect_from:
   - /projects/ai-assisted-regulatory-compliance-technical-file-generator-for-software/
