@@ -8,9 +8,10 @@ authors:
   - author_people: Viviana Bastidas
     name: ""
     photo: /assets/images/uploads/viviana_bm-1-.jpeg
-  - author_people: Jennifer Schooling
+  - author_people: ""
     photo: /assets/images/uploads/jennifer-schooling-1-.jpg
-    role: Professor of Digital Innovation and Smart Places
+    role: "Professor of Digital Innovation and Smart Places "
+    name: Jennifer Schooling
 policy_categories: AI for Public Services
 ---
 **Human-Oriented AI: Design Framework for Reaching Vulnerable Tenants**
