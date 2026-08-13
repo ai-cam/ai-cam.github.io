@@ -1,8 +1,8 @@
 ---
 title: "Building better from the beginning: How AI is reshaping recruitment at
   the Bennett School "
-date: 2026-08-11
-cover_image: /assets/images/uploads/student-blog.jpg
+date: 2026-08-13
+cover_image: /assets/images/uploads/bennett-school-blog-resized.jpg
 ---
 The [Bennett School of Public Policy](https://www.bennettschool.cam.ac.uk/) is a new, flagship department within the University of Cambridge – in fact, it’s the first new department to be set up within the 800-year-old University in three decades. And it’s committed to doing things differently.
 
