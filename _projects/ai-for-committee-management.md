@@ -9,6 +9,9 @@ authors:
   - name: Jackie Hall
     photo: /assets/images/uploads/jackiehall.jpeg
     role: Academic Division
+  - name: Barbara Bennett
+    role: Faculty of Clinical Medicine
+    photo: /assets/images/uploads/barbara-bennett-headshot.jpg
   - name: Emma Dollard
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     role: " Governance and Compliance Division"
@@ -18,9 +21,6 @@ authors:
   - name: Claire Darracott
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     role: Faculty of Clinical Medicine
-  - name: Barbara Bennett
-    role: Faculty of Clinical Medicine
-    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Jo Craigwood
     role: Governance and Compliance Division
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
