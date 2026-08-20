@@ -12,15 +12,15 @@ authors:
   - name: Barbara Bennett
     role: Faculty of Clinical Medicine
     photo: /assets/images/uploads/barbara-bennett-headshot.jpg
+  - name: Claire Darracott
+    photo: /assets/images/uploads/claire-darracott-1-.jpg
+    role: Faculty of Clinical Medicine
   - name: Jo Craigwood
     role: Governance and Compliance Division
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
   - name: Michael Morgan
     role: Faculty of Clinical Medicine
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
-  - name: Claire Darracott
-    photo: /assets/images/uploads/placeholder-people-image-1-.jpg
-    role: Faculty of Clinical Medicine
   - name: Emma Dollard
     photo: /assets/images/uploads/placeholder-people-image-1-.jpg
     role: " Governance and Compliance Division"
