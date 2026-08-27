@@ -40,8 +40,6 @@ The team is acutely aware of other sensitivities around using AI, particularly d
 
 Although the initial focus was on research support, the team hopes that similar AI-driven approaches could be applied to other areas across the University where staff manage complex documentation – such as rules and regulations for successful grants, human resources, procurement and compliance.
 
-None of this work would have been possible without AI for Ops funding, which has helped to bring the project to life, according to both Peter and Petra.
-
-“We wouldn’t necessarily have driven this project forward without this funding opportunity, especially for accessing more advanced licences to develop and share agents,” says Peter. “Crucially, it’s enabled us to have a more collaborative project with a bigger team, which is really helpful in terms of insights and ideas for the project.”
+None of this work would have been possible without AI for Ops funding, which has helped to bring the project to life, according to both Peter and Petra. “We wouldn’t necessarily have driven this project forward without this funding opportunity, especially for accessing more advanced licences to develop and share agents,” says Peter. “Crucially, it’s enabled us to have a more collaborative project with a bigger team, which is really helpful in terms of insights and ideas for the project.”
 
 Beyond the technical outcomes, the project has already sparked valuable conversations and insights about the role of AI in research administration. “We hope we can demonstrate how AI can make a meaningful difference in this space,” says Petra. “We’ve shown the value of bringing together colleagues from across the University to explore new ideas collaboratively. That's something worth building on.”
