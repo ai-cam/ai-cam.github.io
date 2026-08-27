@@ -2,7 +2,7 @@
 title: "Answers at your fingertips: Using AI to streamline research grants
   administration"
 date: 2026-08-27
-cover_image: /assets/images/uploads/aug-blog-2.jpg
+cover_image: /assets/images/uploads/aug-blog-3.jpg
 ---
 Every breakthrough starts with an idea. From the theory of evolution to the discovery of DNA's structure, pioneering research is at the heart of the University. In 2024 alone, the University secured more than £580 million in research income, helping to fund the next generation of discoveries.
 
