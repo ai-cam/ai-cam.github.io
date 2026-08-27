@@ -24,8 +24,6 @@ The project began with a series of focus groups to gather a range of views – f
 \
 Rather than relying on a single AI platform, the team evaluated a range of leading tools, including ChatGPT Business, Microsoft Copilot, Google Gemini and NotebookLM. By testing each platform using the same prompts and queries, they were able to compare their accuracy and reliability against traditional manual searches. The results showed that AI could answer a range of queries, including those around eligibility criteria, much faster than traditional methods while achieving similar levels of reliability.
 
-The aim was not simply to identify the best-performing AI tool, but to understand how it could help research support staff find the information they need more quickly and reliably.
-
 **Empowering rather than replacing humans**
 
 The ultimate vision is to put AI tools at the “fingertips” of research support staff, allowing them to handle the “day-to-day churn of straightforward questions” and making sure they have more time for the complex, nuanced queries. Such resources would significantly reduce a very steep and lengthy learning curve for new staff and could also be used to enable academics and researchers to find some answers themselves, without lots of back-and-forth emails. The tentative hope is that AI could help reduce workloads by at least 20%.
