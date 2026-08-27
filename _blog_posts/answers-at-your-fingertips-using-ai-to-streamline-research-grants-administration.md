@@ -20,13 +20,11 @@ The challenge sparked a collaboration between research support staff in professi
 
 Alongside Petra and Peter, a team of research support colleagues from across the University – from science and technology through to arts and humanities – secured funding through ai@cam’s AI for Ops programme to test whether AI could reliably and accurately speed up elements of the grant application process.
 
-The project began with a series of focus groups to gather a range of views – from established academics, early career researchers and other professional services staff – to identify common research queries across disciplines.
-
-Rather than relying on a single AI platform, the team evaluated a range of leading tools, including ChatGPT Business, Microsoft Copilot, Google Gemini and NotebookLM. By testing each platform using the same prompts and queries, they were able to compare their accuracy and reliability against traditional manual searches.
+The project began with a series of focus groups to gather a range of views – from established academics, early career researchers and other professional services staff – to identify common research queries across disciplines.\
+\
+Rather than relying on a single AI platform, the team evaluated a range of leading tools, including ChatGPT Business, Microsoft Copilot, Google Gemini and NotebookLM. By testing each platform using the same prompts and queries, they were able to compare their accuracy and reliability against traditional manual searches. The results showed that AI could answer a range of queries, including those around eligibility criteria, much faster than traditional methods while achieving similar levels of reliability.
 
 The aim was not simply to identify the best-performing AI tool, but to understand how it could help research support staff find the information they need more quickly and reliably.
-
-Now that the project has concluded, the results confirm that AI can provide answers to a range of queries, such as those around eligibility criteria, much faster than traditional methods while achieving similar levels of reliability.
 
 **Empowering rather than replacing humans**
 
