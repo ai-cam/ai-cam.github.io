@@ -19,6 +19,6 @@ authors:
 slug: thermal-imaging-for-precision-brain-tumour-surgery
 videos:
   - video_link: https://www.youtube.com/watch?v=R8mknr6xC7Y
-    video_title: Thermal Imaging for Precision Brain Tumour Surgery
+    video_title: ""
 ---
 Brain tumours are the leading cause of cancer death in children and adults under 45, with complete surgical resection being the most powerful predictor of survival. Distinguishing between healthy and tumour tissue during operations is challenging, because of how the brain naturally shifts during surgery. This project will advance a novel passive infrared imaging system that can overcome this challenge. Building on a successful first-in-human feasibility study at Addenbrooke’s, the team will systematically define the technology’s precision at tumour boundaries through controlled laboratory and preclinical studies. The research will establish the evidential foundation for NHS clinical trials of a cost-effective, label-free surgical tool with potential to transform brain cancer outcomes.
