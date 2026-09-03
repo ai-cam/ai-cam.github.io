@@ -8,7 +8,7 @@ authors:
   - author_people: Matteo Zallio
 policy_categories: AI for Public Services
 ---
-**SHIFT: AI-Enabled Surveysfor Housing Trajectories**\
+**SHIFT: AI-Enabled Surveys for Housing Trajectories**\
 \
 **Principal Investigator:** Dr Matteo Zallio, University of Cambridge\
 **Council Partner:** Greater Cambridge Shared Planning Service (Cambridge City Council and South Cambridgeshire District Council)
