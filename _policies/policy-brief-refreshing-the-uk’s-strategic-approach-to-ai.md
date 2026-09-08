@@ -1,5 +1,4 @@
 ---
-slug: policy-brief-refreshing-the-uks-strategic-approach-to-ai
 title: "Policy Brief: Refreshing the UK’s strategic approach to AI"
 excerpt: "AI is at risk of following a well-worn path that results in
   technological innovations that fail to address real-world challenges. We have
@@ -8,7 +7,7 @@ excerpt: "AI is at risk of following a well-worn path that results in
   our shared health, wellbeing, and prosperity, that help strengthen our
   communities and our personal interactions, and that support democratic
   governance. "
-date: 2025-12-09
+date: 2024-12-09
 tags:
   - tag: Project
 cover_image: /assets/images/uploads/getty-images-l_pu5n0qjvm-unsplash-1-.jpg
@@ -23,6 +22,7 @@ authors:
     role: Chair ai@cam
     author_link: https://www.ai.cam.ac.uk/people/neil-lawrence
 policy_categories: AI Policy
+slug: policy-brief-refreshing-the-uks-strategic-approach-to-ai
 ---
 AI is at risk of following a well-worn path that results in technological innovations that fail to address real-world challenges. We have almost a decade of evidence showing what people want from AI. Public dialogues consistently call for AI technologies that tackle the challenges that affect our shared health, wellbeing, and prosperity, that help strengthen our communities and our personal interactions, and that support democratic governance. The last ten years have brought impressive technical advances in AI and intense policy activity. However, neither technology or policy development have been well connected to social need.
 

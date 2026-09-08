@@ -2,9 +2,7 @@
 slug: personalised-second-language-learning-through-ai
 title: Personalised Second Language Learning Through AI
 project_date: ""
-description: Despite the societal and economic benefits of second language
-  learning, participation in language education has been declining, with marked
-  inequalities in provision across educational settings.
+description: " "
 cover_image: /assets/images/uploads/language-learning.jpg
 project_categories: Sprints
 authors:

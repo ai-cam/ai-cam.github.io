@@ -1,9 +1,7 @@
 ---
 slug: automating-data-analysis-with-large-language-model-agents
 title: Automating Data Analysis with Large Language Model Agents
-description: This project investigates how Large Language Models (LLMs) can be
-  deployed within multi-agent systems to streamline and enhance scientific
-  research workflows, accelerating the pace and reliability of discovery.
+description: " "
 cover_image: /assets/images/uploads/boris-bolliet-blogpost-photo2026.jpg
 project_categories: Sprints
 authors:

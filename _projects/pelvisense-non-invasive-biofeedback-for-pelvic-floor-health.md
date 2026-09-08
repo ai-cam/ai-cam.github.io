@@ -2,8 +2,7 @@
 slug: pelvisense-non-invasive-biofeedback-for-pelvic-floor-health
 title: "PelviSense: Non-Invasive Biofeedback for Pelvic Floor Health"
 project_date: ""
-description: "Pelvic floor muscle dysfunction affects over 14 million people in
-  the UK, costing the NHS more than £230 million annually. "
+description: " "
 cover_image: /assets/images/uploads/getty-images-pmrcsuil9aw-unsplash-1-.jpg
 project_categories: Sprints
 authors:

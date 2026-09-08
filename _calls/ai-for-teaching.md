@@ -1,8 +1,4 @@
 ---
-slug: ai-for-teaching
-redirect_from:
-  - "/calls/ai-for-teaching/"
-  - "/calls/ai-for-teaching-and-learning/"
 title: AI for Teaching and Learning
 call_excerpt: A funding call from ai@cam, supporting the people who shape
   teaching and learning at Cambridge to develop and test new approaches to
@@ -48,6 +44,13 @@ call_content: >-
 
   Teams get technical help with scoping and set-up through AI Clinic sessions with Accelerate Science's Machine Learning Engineers during project set-up through the autumn, and join a community of funded teams for peer learning and shared documentation. Every project presents its work at a closing showcase.
 apply_title: "How to apply "
+apply_links:
+  - link: https://forms.gle/TsZBaU7yojSFxoaj7
+    link_text: Apply here
+slug: ai-for-teaching
+redirect_from:
+  - /calls/ai-for-teaching/
+  - /calls/ai-for-teaching-and-learning/
 apply_text: >-
   1. Complete the application form - [accessible
   here](https://docs.google.com/forms/d/e/1FAIpQLScKh983vsCKNT5JKo8nAAH9B4jk7yqPt6VosDmUa8dd8zeKaw/viewform) -
@@ -59,9 +62,6 @@ apply_text: >-
 
 
   If you have questions about the initiative, check out our FAQs below.
-apply_links:
-  - link: https://forms.gle/TsZBaU7yojSFxoaj7
-    link_text: Apply here
 faq_title: Frequently Asked Questions
 faqs:
   - question: What are the objectives of the programme?
@@ -84,10 +84,11 @@ faqs:
       topics. We welcome other questions grounded in a real teaching or learning
       challenge.
   - question: Who can apply?
-    answer: "The call is open to everyone who shapes teaching and learning:
-      academics who teach, Directors of Studies, supervisors and examiners, as
-      well as education managers and course administrators who design the
-      educational experience. We welcome teams that bring these roles together."
+    answer: "The call is open to everyone who shapes teaching and learning at the
+      University of Cambridge: academics who teach, Directors of Studies,
+      supervisors and examiners, as well as education managers and course
+      administrators who design the educational experience. We welcome teams
+      that bring these roles together."
   - question: Do I need technical or AI expertise?
     answer: No. What matters is a clear educational question and a willingness to
       learn. If you anticipate that your project will require significant
