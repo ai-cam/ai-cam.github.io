@@ -835,12 +835,43 @@
   }
 
   function smoothContour(pts) {
-    // Light RDP to drop pixel stair noise, then Chaikin for organic curves
-    const simplified = simplifyRDP(pts, 0.85);
+    // Drop duplicate closing vertex if present
+    if (pts.length > 2) {
+      const a = pts[0], b = pts[pts.length - 1];
+      if (Math.hypot(a[0] - b[0], a[1] - b[1]) < 0.01) pts = pts.slice(0, -1);
+    }
+    const simplified = simplifyRDP(pts, 1.0);
     if (simplified.length < 4) return simplified;
-    return chaikinClosed(simplified, 3);
+    return chaikinClosed(simplified, 2);
   }
 
+  function signedArea(pts) {
+    let a = 0;
+    const n = pts.length;
+    for (let i = 0; i < n; i++) {
+      const p = pts[i], q = pts[(i + 1) % n];
+      a += p[0] * q[1] - q[0] * p[1];
+    }
+    return a / 2;
+  }
+
+  /** Ensure CCW for solid fills (positive area). */
+  function ensureCCW(pts) {
+    if (signedArea(pts) < 0) pts.reverse();
+    return pts;
+  }
+
+  /** Ensure CW for evenodd holes. */
+  function ensureCW(pts) {
+    if (signedArea(pts) > 0) pts.reverse();
+    return pts;
+  }
+
+  /**
+   * Trace contours by following BOUNDARY pixels only (have an off 4-neighbour).
+   * The old walker stepped into any "on" neighbour and snaked through the interior,
+   * which broke SVG fills.
+   */
   function traceContours(maskFn, minLen) {
     const visited = new Uint8Array(N);
     const contours = [];
@@ -848,26 +879,30 @@
     const DY = [0, 1, 1, 1, 0, -1, -1, -1];
     function inside(x, y) { return x >= 0 && x < W && y >= 0 && y < H; }
     function on(x, y) { return inside(x, y) && maskFn(x, y); }
+    function isBound(x, y) {
+      if (!on(x, y)) return false;
+      return !on(x - 1, y) || !on(x + 1, y) || !on(x, y - 1) || !on(x, y + 1);
+    }
 
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
-        if (!on(x, y) || visited[y * W + x]) continue;
-        // Start only on left edge of a component
+        if (!isBound(x, y) || visited[y * W + x]) continue;
+        // Start on a left-facing edge so each loop is begun once
         if (on(x - 1, y)) continue;
 
         const pts = [];
         let cx = x, cy = y, dir = 0, guard = 0;
         do {
-          // Place vertices on pixel corners for cleaner geometry than centres
-          pts.push([cx, cy]);
+          pts.push([cx + 0.5, cy + 0.5]);
           visited[cy * W + cx] = 1;
           let found = false;
+          // Keep interior on the left (wall-follower): try back-right first
           const start = (dir + 6) % 8;
           for (let t = 0; t < 8; t++) {
             const nd = (start + t) % 8;
             const nx = cx + DX[nd];
             const ny = cy + DY[nd];
-            if (on(nx, ny)) {
+            if (isBound(nx, ny)) {
               cx = nx; cy = ny; dir = nd; found = true; break;
             }
           }
@@ -876,9 +911,6 @@
         } while ((cx !== x || cy !== y) && guard < N * 2);
 
         if (pts.length >= (minLen || 10)) {
-          // Close if nearly closed
-          const a = pts[0], b = pts[pts.length - 1];
-          if (Math.hypot(a[0] - b[0], a[1] - b[1]) > 1.5) pts.push([a[0], a[1]]);
           contours.push(smoothContour(pts));
         }
       }
@@ -911,6 +943,39 @@
     return m;
   }
 
+  /** Paint enclosed background holes so solid fills match brand SVG solids. */
+  function closeHoles(mask) {
+    const exterior = new Uint8Array(N);
+    const stack = [];
+    for (let x = 0; x < W; x++) {
+      if (!mask[x]) { exterior[x] = 1; stack.push([x, 0]); }
+      const b = (H - 1) * W + x;
+      if (!mask[b]) { exterior[b] = 1; stack.push([x, H - 1]); }
+    }
+    for (let y = 0; y < H; y++) {
+      const i0 = y * W;
+      if (!mask[i0]) { exterior[i0] = 1; stack.push([0, y]); }
+      const i1 = i0 + W - 1;
+      if (!mask[i1]) { exterior[i1] = 1; stack.push([W - 1, y]); }
+    }
+    while (stack.length) {
+      const [x, y] = stack.pop();
+      const nbs = [[x - 1, y], [x + 1, y], [x, y - 1], [x, y + 1]];
+      for (const [nx, ny] of nbs) {
+        if (nx < 0 || ny < 0 || nx >= W || ny >= H) continue;
+        const ni = ny * W + nx;
+        if (exterior[ni] || mask[ni]) continue;
+        exterior[ni] = 1;
+        stack.push([nx, ny]);
+      }
+    }
+    const out = new Uint8Array(mask);
+    for (let i = 0; i < N; i++) {
+      if (!mask[i] && !exterior[i]) out[i] = 1; // enclosed hole → fill
+    }
+    return out;
+  }
+
   function erodeBinary(src, times) {
     let cur = src;
     for (let t = 0; t < times; t++) {
@@ -927,20 +992,42 @@
     return cur;
   }
 
+  function largestContour(contours) {
+    if (!contours.length) return null;
+    let best = contours[0], bestA = Math.abs(signedArea(best));
+    for (let i = 1; i < contours.length; i++) {
+      const a = Math.abs(signedArea(contours[i]));
+      if (a > bestA) { best = contours[i]; bestA = a; }
+    }
+    return best;
+  }
+
   function exportSVG() {
     buildRegions();
     const pal = PALETTES[paletteKey];
     const ink = rgbHex(pal.ink);
-    // Designer corner assets are transparent overlays — no cream plate
     const includeBg = domainMode === "full";
-    const ringDepth = Math.max(1, strokeW);
+    const ringDepth = Math.max(2, strokeW + 1);
 
-    const fillContours = traceContours(
-      (x, y) => region[y * W + x] === 1,
-      12
-    );
+    // Solid fills: one exterior contour per connected component (holes closed)
+    const fillPaths = [];
+    const seenA = new Uint8Array(N);
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (region[i] !== 1 || seenA[i]) continue;
+        const cells = floodComponent(x, y, 1, seenA);
+        if (cells.length < 16) continue;
+        const solid = closeHoles(componentMask(cells));
+        const contours = traceContours((px, py) => !!solid[py * W + px], 10);
+        const outer = largestContour(contours);
+        if (!outer || outer.length < 4) continue;
+        const d = pathCubicClosed(ensureCCW(outer));
+        if (d) fillPaths.push(d);
+      }
+    }
 
-    // Per-blob outline rings: compound evenodd path (outer + holes), like brand SVGs
+    // Outline rings: outer CCW + eroded hole CW in one evenodd path
     const outlinePaths = [];
     const seenB = new Uint8Array(N);
     for (let y = 0; y < H; y++) {
@@ -948,18 +1035,20 @@
         const i = y * W + x;
         if (region[i] !== 2 || seenB[i]) continue;
         const cells = floodComponent(x, y, 2, seenB);
-        if (cells.length < 20) continue;
-        const mask = componentMask(cells);
-        const outers = traceContours((px, py) => !!mask[py * W + px], 10);
-        if (!outers.length) continue;
-        const holeMask = erodeBinary(mask, ringDepth);
-        const holes = traceContours((px, py) => !!holeMask[py * W + px], 8);
-        // Prefer the largest outer as the silhouette
-        outers.sort((a, b) => b.length - a.length);
-        let d = pathCubicClosed(outers[0]);
+        if (cells.length < 24) continue;
+        const mask = closeHoles(componentMask(cells));
+        const outer = largestContour(
+          traceContours((px, py) => !!mask[py * W + px], 10)
+        );
+        if (!outer || outer.length < 4) continue;
+        let d = pathCubicClosed(ensureCCW(outer));
         if (!d) continue;
-        for (const h of holes) {
-          const hd = pathCubicClosed(h);
+        const holeMask = erodeBinary(mask, ringDepth);
+        const hole = largestContour(
+          traceContours((px, py) => !!holeMask[py * W + px], 8)
+        );
+        if (hole && hole.length >= 4) {
+          const hd = pathCubicClosed(ensureCW(hole));
           if (hd) d += hd;
         }
         outlinePaths.push(d);
@@ -973,16 +1062,11 @@
     if (includeBg) {
       parts.push(`<rect width="${W}" height="${H}" fill="${rgbHex(pal.bg)}"/>`);
     }
-    parts.push(`<g id="fills" fill="${ink}" fill-rule="evenodd" stroke="none">`);
-    for (const c of fillContours) {
-      const d = pathCubicClosed(c);
-      if (d) parts.push(`<path d="${d}"/>`);
-    }
+    parts.push(`<g id="fills" fill="${ink}" stroke="none">`);
+    for (const d of fillPaths) parts.push(`<path d="${d}"/>`);
     parts.push(`</g>`);
     parts.push(`<g id="outlines" fill="${ink}" fill-rule="evenodd" stroke="none">`);
-    for (const d of outlinePaths) {
-      parts.push(`<path d="${d}"/>`);
-    }
+    for (const d of outlinePaths) parts.push(`<path d="${d}"/>`);
     parts.push(`</g></svg>`);
 
     const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
