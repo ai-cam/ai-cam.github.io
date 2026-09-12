@@ -796,24 +796,70 @@
     return pts.filter((_, i) => keep[i]);
   }
 
-  function traceContours(kind, simplifyEps) {
+  /** Chaikin corner-cutting — closed polygon, designer-smooth silhouettes. */
+  function chaikinClosed(pts, iterations) {
+    let p = pts;
+    for (let it = 0; it < iterations; it++) {
+      const n = p.length;
+      if (n < 3) return p;
+      const out = [];
+      for (let i = 0; i < n; i++) {
+        const a = p[i];
+        const b = p[(i + 1) % n];
+        out.push([0.75 * a[0] + 0.25 * b[0], 0.75 * a[1] + 0.25 * b[1]]);
+        out.push([0.25 * a[0] + 0.75 * b[0], 0.25 * a[1] + 0.75 * b[1]]);
+      }
+      p = out;
+    }
+    return p;
+  }
+
+  /** Closed Catmull–Rom → cubic Bézier path (matches brand SVG smoothness). */
+  function pathCubicClosed(pts) {
+    const n = pts.length;
+    if (n < 3) return "";
+    const fmt = (v) => (Math.round(v * 100) / 100).toFixed(2);
+    let d = `M${fmt(pts[0][0])} ${fmt(pts[0][1])}`;
+    for (let i = 0; i < n; i++) {
+      const p0 = pts[(i - 1 + n) % n];
+      const p1 = pts[i];
+      const p2 = pts[(i + 1) % n];
+      const p3 = pts[(i + 2) % n];
+      const c1x = p1[0] + (p2[0] - p0[0]) / 6;
+      const c1y = p1[1] + (p2[1] - p0[1]) / 6;
+      const c2x = p2[0] - (p3[0] - p1[0]) / 6;
+      const c2y = p2[1] - (p3[1] - p1[1]) / 6;
+      d += `C${fmt(c1x)} ${fmt(c1y)} ${fmt(c2x)} ${fmt(c2y)} ${fmt(p2[0])} ${fmt(p2[1])}`;
+    }
+    return d + "Z";
+  }
+
+  function smoothContour(pts) {
+    // Light RDP to drop pixel stair noise, then Chaikin for organic curves
+    const simplified = simplifyRDP(pts, 0.85);
+    if (simplified.length < 4) return simplified;
+    return chaikinClosed(simplified, 3);
+  }
+
+  function traceContours(maskFn, minLen) {
     const visited = new Uint8Array(N);
     const contours = [];
     const DX = [1, 1, 0, -1, -1, -1, 0, 1];
     const DY = [0, 1, 1, 1, 0, -1, -1, -1];
     function inside(x, y) { return x >= 0 && x < W && y >= 0 && y < H; }
-    function on(x, y) { return inside(x, y) && region[y * W + x] === kind; }
+    function on(x, y) { return inside(x, y) && maskFn(x, y); }
 
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
         if (!on(x, y) || visited[y * W + x]) continue;
+        // Start only on left edge of a component
         if (on(x - 1, y)) continue;
-        if (on(x + 1, y) && on(x, y - 1) && on(x, y + 1)) continue;
 
         const pts = [];
         let cx = x, cy = y, dir = 0, guard = 0;
         do {
-          pts.push([cx + 0.5, cy + 0.5]);
+          // Place vertices on pixel corners for cleaner geometry than centres
+          pts.push([cx, cy]);
           visited[cy * W + cx] = 1;
           let found = false;
           const start = (dir + 6) % 8;
@@ -829,45 +875,116 @@
           guard++;
         } while ((cx !== x || cy !== y) && guard < N * 2);
 
-        if (pts.length >= 8) contours.push(simplifyRDP(pts, simplifyEps));
+        if (pts.length >= (minLen || 10)) {
+          // Close if nearly closed
+          const a = pts[0], b = pts[pts.length - 1];
+          if (Math.hypot(a[0] - b[0], a[1] - b[1]) > 1.5) pts.push([a[0], a[1]]);
+          contours.push(smoothContour(pts));
+        }
       }
     }
     return contours;
   }
 
-  function pathD(pts) {
-    if (!pts.length) return "";
-    let d = `M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
-    for (let i = 1; i < pts.length; i++) d += `L${pts[i][0].toFixed(1)} ${pts[i][1].toFixed(1)}`;
-    return d + "Z";
+  function floodComponent(sx, sy, kind, seen) {
+    const cells = [];
+    const stack = [[sx, sy]];
+    seen[sy * W + sx] = 1;
+    while (stack.length) {
+      const [x, y] = stack.pop();
+      cells.push([x, y]);
+      const nbs = [[x - 1, y], [x + 1, y], [x, y - 1], [x, y + 1]];
+      for (const [nx, ny] of nbs) {
+        if (nx < 0 || ny < 0 || nx >= W || ny >= H) continue;
+        const ni = ny * W + nx;
+        if (seen[ni] || region[ni] !== kind) continue;
+        seen[ni] = 1;
+        stack.push([nx, ny]);
+      }
+    }
+    return cells;
+  }
+
+  function componentMask(cells) {
+    const m = new Uint8Array(N);
+    for (const [x, y] of cells) m[y * W + x] = 1;
+    return m;
+  }
+
+  function erodeBinary(src, times) {
+    let cur = src;
+    for (let t = 0; t < times; t++) {
+      const next = new Uint8Array(N);
+      for (let y = 1; y < H - 1; y++) {
+        for (let x = 1; x < W - 1; x++) {
+          const i = y * W + x;
+          if (!cur[i]) continue;
+          if (cur[i - 1] && cur[i + 1] && cur[i - W] && cur[i + W]) next[i] = 1;
+        }
+      }
+      cur = next;
+    }
+    return cur;
   }
 
   function exportSVG() {
     buildRegions();
     const pal = PALETTES[paletteKey];
     const ink = rgbHex(pal.ink);
-    const bg = rgbHex(pal.bg);
-    const fills = traceContours(1, 1.2);
-    const outlines = traceContours(2, 1.2);
+    // Designer corner assets are transparent overlays — no cream plate
+    const includeBg = domainMode === "full";
+    const ringDepth = Math.max(1, strokeW);
+
+    const fillContours = traceContours(
+      (x, y) => region[y * W + x] === 1,
+      12
+    );
+
+    // Per-blob outline rings: compound evenodd path (outer + holes), like brand SVGs
+    const outlinePaths = [];
+    const seenB = new Uint8Array(N);
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (region[i] !== 2 || seenB[i]) continue;
+        const cells = floodComponent(x, y, 2, seenB);
+        if (cells.length < 20) continue;
+        const mask = componentMask(cells);
+        const outers = traceContours((px, py) => !!mask[py * W + px], 10);
+        if (!outers.length) continue;
+        const holeMask = erodeBinary(mask, ringDepth);
+        const holes = traceContours((px, py) => !!holeMask[py * W + px], 8);
+        // Prefer the largest outer as the silhouette
+        outers.sort((a, b) => b.length - a.length);
+        let d = pathCubicClosed(outers[0]);
+        if (!d) continue;
+        for (const h of holes) {
+          const hd = pathCubicClosed(h);
+          if (hd) d += hd;
+        }
+        outlinePaths.push(d);
+      }
+    }
+
     const parts = [
       `<?xml version="1.0" encoding="UTF-8"?>`,
       `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none">`,
-      `<rect width="${W}" height="${H}" fill="${bg}"/>`,
-      `<g id="species-A-fill" fill="${ink}" stroke="none">`,
     ];
-    for (const c of fills) {
-      const d = pathD(c);
+    if (includeBg) {
+      parts.push(`<rect width="${W}" height="${H}" fill="${rgbHex(pal.bg)}"/>`);
+    }
+    parts.push(`<g id="fills" fill="${ink}" fill-rule="evenodd" stroke="none">`);
+    for (const c of fillContours) {
+      const d = pathCubicClosed(c);
       if (d) parts.push(`<path d="${d}"/>`);
     }
     parts.push(`</g>`);
-    parts.push(
-      `<g id="species-B-outline" fill="none" stroke="${ink}" stroke-width="${strokeW}" stroke-linejoin="round" stroke-linecap="round">`
-    );
-    for (const c of outlines) {
-      const d = pathD(c);
-      if (d) parts.push(`<path d="${d}"/>`);
+    parts.push(`<g id="outlines" fill="${ink}" fill-rule="evenodd" stroke="none">`);
+    for (const d of outlinePaths) {
+      parts.push(`<path d="${d}"/>`);
     }
     parts.push(`</g></svg>`);
+
     const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
