@@ -144,7 +144,7 @@
 
   <div class="toolbar">
     <button type="button" class="primary" id="regenerate">Regenerate</button>
-    <button type="button" id="exportSvg">Export SVG</button>
+    <button type="button" id="exportSvg">Export SVGs</button>
     <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Labyrinth</button>
     <button type="button" data-preset="stylised" id="presetStylised">Spots</button>
     <button type="button" class="ghost" id="toggleAdvanced" aria-expanded="false" aria-controls="advanced">
@@ -243,7 +243,8 @@
   </div>
 
   <p class="hint">
-    Press <strong>Regenerate</strong> for a new pattern. Use <strong>Export SVG</strong> when you like one.
+    Press <strong>Regenerate</strong> for a new pattern. <strong>Export SVG</strong> downloads
+    one tightly cropped file per disconnected shape (fill-01, outline-01, …).
     Open Advanced settings only if you need to tune parameters.
   </p>
 
@@ -1033,34 +1034,88 @@
 
   /** Build one evenodd compound path: largest loop = outer, inner loops = holes. */
   function compoundEvenOddPath(contours) {
-    if (!contours.length) return "";
+    if (!contours.length) return null;
     const ranked = contours
       .filter((c) => c && c.length >= 4)
       .map((c) => ({ c, a: Math.abs(signedArea(c)) }))
       .sort((u, v) => v.a - u.a);
-    if (!ranked.length) return "";
+    if (!ranked.length) return null;
     const outer = ensureCCW(ranked[0].c.slice());
-    let d = pathCubicClosed(outer);
+    const loops = [outer];
     for (let i = 1; i < ranked.length; i++) {
       const loop = ranked[i].c;
       const [cx, cy] = centroid(loop);
-      // Keep only loops that sit inside the outer boundary
       if (!pointInPoly(cx, cy, outer)) continue;
-      const hd = pathCubicClosed(ensureCW(loop.slice()));
-      if (hd) d += hd;
+      loops.push(ensureCW(loop.slice()));
+    }
+    return loops;
+  }
+
+  function boundsOfLoops(loops, pad) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const loop of loops) {
+      for (const [x, y] of loop) {
+        if (x < minX) minX = x;
+        if (y < minY) minY = y;
+        if (x > maxX) maxX = x;
+        if (y > maxY) maxY = y;
+      }
+    }
+    if (!Number.isFinite(minX)) return null;
+    const p = pad == null ? 1.5 : pad;
+    return {
+      minX: minX - p,
+      minY: minY - p,
+      maxX: maxX + p,
+      maxY: maxY + p,
+    };
+  }
+
+  function translateLoops(loops, dx, dy) {
+    return loops.map((loop) => loop.map(([x, y]) => [x + dx, y + dy]));
+  }
+
+  function loopsToPathD(loops) {
+    let d = "";
+    for (const loop of loops) {
+      const pd = pathCubicClosed(loop);
+      if (pd) d += pd;
     }
     return d;
+  }
+
+  function downloadSVGFile(svgText, filename) {
+    const blob = new Blob([svgText], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+
+  function buildObjectSVG(pathD, bounds, ink, kind) {
+    const w = bounds.maxX - bounds.minX;
+    const h = bounds.maxY - bounds.minY;
+    const fw = Math.max(1, Math.ceil(w * 100) / 100);
+    const fh = Math.max(1, Math.ceil(h * 100) / 100);
+    return [
+      `<?xml version="1.0" encoding="UTF-8"?>`,
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${fw}" height="${fh}" viewBox="0 0 ${fw} ${fh}" fill="none">`,
+      `<g id="${kind}" fill="${ink}" fill-rule="evenodd" stroke="none">`,
+      `<path d="${pathD}"/>`,
+      `</g></svg>`,
+    ].join("\n");
   }
 
   function exportSVG() {
     buildRegions();
     const pal = PALETTES[paletteKey];
     const ink = rgbHex(pal.ink);
-    const includeBg = domainMode === "full";
     const ringDepth = Math.max(2, strokeW + 1);
+    const objects = [];
 
-    // Fills: keep outer AND inner boundaries as evenodd compound paths
-    const fillPaths = [];
+    // One SVG object per disconnected fill component
     const seenA = new Uint8Array(N);
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
@@ -1070,13 +1125,25 @@
         if (cells.length < 16) continue;
         const mask = componentMask(cells);
         const contours = traceContours((px, py) => !!mask[py * W + px], 8);
-        const d = compoundEvenOddPath(contours);
-        if (d) fillPaths.push(d);
+        const loops = compoundEvenOddPath(contours);
+        if (!loops) continue;
+        const bounds = boundsOfLoops(loops, 2);
+        if (!bounds) continue;
+        const local = translateLoops(loops, -bounds.minX, -bounds.minY);
+        objects.push({
+          kind: "fill",
+          d: loopsToPathD(local),
+          bounds: {
+            minX: 0,
+            minY: 0,
+            maxX: bounds.maxX - bounds.minX,
+            maxY: bounds.maxY - bounds.minY,
+          },
+        });
       }
     }
 
-    // Outlines: morphological ring (outer of blob + inner of eroded blob)
-    const outlinePaths = [];
+    // One SVG object per disconnected outline component
     const seenB = new Uint8Array(N);
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
@@ -1088,35 +1155,41 @@
         const outerLoops = traceContours((px, py) => !!mask[py * W + px], 8);
         const holeMask = erodeBinary(mask, ringDepth);
         const holeLoops = traceContours((px, py) => !!holeMask[py * W + px], 6);
-        // Also include topological holes of the B region itself
-        const d = compoundEvenOddPath(outerLoops.concat(holeLoops));
-        if (d) outlinePaths.push(d);
+        const loops = compoundEvenOddPath(outerLoops.concat(holeLoops));
+        if (!loops) continue;
+        const bounds = boundsOfLoops(loops, 2);
+        if (!bounds) continue;
+        const local = translateLoops(loops, -bounds.minX, -bounds.minY);
+        objects.push({
+          kind: "outline",
+          d: loopsToPathD(local),
+          bounds: {
+            minX: 0,
+            minY: 0,
+            maxX: bounds.maxX - bounds.minX,
+            maxY: bounds.maxY - bounds.minY,
+          },
+        });
       }
     }
 
-    const parts = [
-      `<?xml version="1.0" encoding="UTF-8"?>`,
-      `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none">`,
-    ];
-    if (includeBg) {
-      parts.push(`<rect width="${W}" height="${H}" fill="${rgbHex(pal.bg)}"/>`);
+    if (!objects.length) {
+      alert("Nothing to export yet — regenerate and wait for a pattern to appear.");
+      return;
     }
-    parts.push(`<g id="fills" fill="${ink}" fill-rule="evenodd" stroke="none">`);
-    for (const d of fillPaths) parts.push(`<path d="${d}"/>`);
-    parts.push(`</g>`);
-    parts.push(`<g id="outlines" fill="${ink}" fill-rule="evenodd" stroke="none">`);
-    for (const d of outlinePaths) parts.push(`<path d="${d}"/>`);
-    parts.push(`</g></svg>`);
 
-    const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = domainMode === "corner"
-      ? `turing-corner-${cornerKey}.svg`
-      : "turing-two-species.svg";
-    a.click();
-    URL.revokeObjectURL(url);
+    const prefix = domainMode === "corner"
+      ? `turing-corner-${cornerKey}`
+      : "turing";
+    const fillCount = { fill: 0, outline: 0 };
+    objects.forEach((obj, idx) => {
+      fillCount[obj.kind] += 1;
+      const n = String(fillCount[obj.kind]).padStart(2, "0");
+      const filename = `${prefix}-${obj.kind}-${n}.svg`;
+      const svg = buildObjectSVG(obj.d, obj.bounds, ink, obj.kind);
+      // Stagger downloads — browsers often block simultaneous clicks
+      setTimeout(() => downloadSVGFile(svg, filename), idx * 180);
+    });
   }
 
   fSlider.addEventListener("input", () => { f = +fSlider.value; syncLabels(); });
