@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gray–Scott · two-species fill + outline</title>
+  <title>Turing pattern studio</title>
   <style>
     :root {
       --bg: #f4f1ec;
@@ -36,9 +36,15 @@
     h1 {
       margin: 0;
       font-weight: 500;
-      font-size: 1rem;
-      letter-spacing: 0.04em;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
       color: var(--ink);
+    }
+    .subtitle {
+      width: min(100%, 720px);
+      margin: -0.35rem 0 0;
+      font-size: 0.9rem;
+      opacity: 0.85;
     }
     canvas {
       display: block;
@@ -50,6 +56,13 @@
       border: 1px solid var(--border);
     }
     body.theme-footer canvas { background: #000; }
+    .toolbar {
+      width: min(100%, 720px);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+    }
     .panel {
       width: min(100%, 720px);
       display: grid;
@@ -59,6 +72,7 @@
       background: var(--panel);
       border: 1px solid var(--border);
     }
+    .panel.advanced[hidden] { display: none !important; }
     label {
       display: flex;
       flex-direction: column;
@@ -91,20 +105,54 @@
       color: var(--bg);
       border-color: var(--ink);
     }
+    button.primary {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+      padding: 0.7rem 1.25rem;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    button.primary:hover {
+      filter: brightness(1.08);
+    }
+    button.ghost {
+      background: transparent;
+    }
     .hint {
       width: min(100%, 720px);
       margin: 0;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       opacity: 0.85;
     }
     code { color: var(--ink); }
+    .perf {
+      width: min(100%, 720px);
+      margin: 0;
+      font: 12px/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: var(--ui);
+      opacity: 0.75;
+    }
+    .perf[hidden] { display: none !important; }
   </style>
 </head>
 <body>
-  <h1 id="title">Gray–Scott · two species (fill + outline)</h1>
+  <h1 id="title">Turing pattern studio</h1>
+  <p class="subtitle">Grow an organic corner motif, then export as SVG.</p>
   <canvas id="c" width="720" height="221" aria-label="Turing pattern simulation"></canvas>
 
-  <div class="panel">
+  <div class="toolbar">
+    <button type="button" class="primary" id="regenerate">Regenerate</button>
+    <button type="button" id="exportSvg">Export SVG</button>
+    <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Labyrinth</button>
+    <button type="button" data-preset="stylised" id="presetStylised">Spots</button>
+    <button type="button" class="ghost" id="toggleAdvanced" aria-expanded="false" aria-controls="advanced">
+      Advanced settings
+    </button>
+  </div>
+
+  <div class="panel advanced" id="advanced" hidden>
     <label>
       Feed f
       <span class="value" id="fVal"></span>
@@ -125,10 +173,17 @@
       <span class="value" id="scaleVal"></span>
       <input id="scale" type="range" min="0.7" max="2.5" step="0.05" value="2.15" />
     </label>
-    <label>
+    <label title="Target unit-steps per animation frame. Auto budget caps work to keep FPS up.">
       Steps / frame
       <span class="value" id="stepsVal"></span>
-      <input id="steps" type="range" min="1" max="32" step="1" value="12" />
+      <input id="steps" type="range" min="1" max="32" step="1" value="4" />
+    </label>
+    <label title="Cap simulation work per frame (~14ms) so the UI stays responsive">
+      Speed mode
+      <select id="speedMode">
+        <option value="auto" selected>Auto budget (smooth)</option>
+        <option value="fixed">Fixed steps (may hitch)</option>
+      </select>
     </label>
     <label>
       Stroke width
@@ -138,7 +193,7 @@
     <label>
       Fill fraction
       <span class="value" id="fracVal"></span>
-      <input id="frac" type="range" min="0" max="1" step="0.01" value="0.80" />
+      <input id="frac" type="range" min="0" max="1" step="0.01" value="0.60" />
     </label>
     <label>
       Competition γ
@@ -160,19 +215,37 @@
         <option value="footer">Ivory on black (footer)</option>
       </select>
     </label>
+    <label>
+      Domain
+      <select id="domain">
+        <option value="full">Full field</option>
+        <option value="corner" selected>Natural corner</option>
+      </select>
+    </label>
+    <label id="cornerLabel">
+      Corner
+      <select id="corner">
+        <option value="br" selected>Bottom right</option>
+        <option value="bl">Bottom left</option>
+        <option value="tr">Top right</option>
+        <option value="tl">Top left</option>
+      </select>
+    </label>
+    <label id="softLabel" title="Width of the soft fringe where the pattern dies out">
+      Edge softness
+      <span class="value" id="softVal"></span>
+      <input id="soft" type="range" min="0.08" max="0.55" step="0.01" value="0.28" />
+    </label>
     <div class="actions">
-      <button type="button" id="reset">Reseed</button>
       <button type="button" id="pause">Pause</button>
-      <button type="button" id="exportSvg">Export SVG</button>
-      <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Your labyrinth</button>
-      <button type="button" data-preset="stylised" id="presetStylised">Stylised spots</button>
     </div>
+    <p class="perf" id="perf" aria-live="polite" hidden>profiling…</p>
   </div>
 
   <p class="hint">
-    Full-resolution grid (no upscale blur/blocks). <strong>Bar spacing</strong> scales
-    <code>Du</code>/<code>Dv</code> and takes stable micro-steps so 2×+ stays crisp.
-    Defaults: spacing <code>2.15×</code>, fill <code>80%</code> A. Release spacing to resettle.
+    Press <strong>Regenerate</strong> for a new pattern. <strong>Export SVG</strong> downloads
+    one tightly cropped file with each disconnected shape as its own path object.
+    Open Advanced settings only if you need to tune parameters.
   </p>
 
   <script>
@@ -195,12 +268,12 @@
 
   const PRESETS = {
     labyrinth: {
-      f: 0.029, k: 0.057, thr: 0.09, steps: 12,
-      title: "Gray–Scott · two species (fill + outline)",
+      f: 0.029, k: 0.057, thr: 0.09, steps: 4,
+      title: "Turing pattern studio",
     },
     stylised: {
-      f: 0.035, k: 0.065, thr: 0.14, steps: 14,
-      title: "Gray–Scott · two species · spots",
+      f: 0.035, k: 0.065, thr: 0.14, steps: 4,
+      title: "Turing pattern studio",
     },
   };
 
@@ -213,12 +286,17 @@
   let thr = PRESETS.labyrinth.thr;
   let stepsPerFrame = PRESETS.labyrinth.steps;
   let strokeW = 2;
-  let fillFrac = 0.8;
+  let fillFrac = 0.6;
   let gamma = 0.35;
   let drawMode = "mixed";
   let running = true;
   let paletteKey = "navy";
   let currentPreset = "labyrinth";
+  let domainMode = "corner"; // "full" | "corner"
+  let cornerKey = "br"; // tl | tr | bl | br
+  let edgeSoft = 0.28; // fraction of diagonal for soft fringe
+  // Extra kill outside the mask (applied as (1-M)*maskDecay*activator)
+  const maskDecay = 2.4;
 
   let U = new Float32Array(N);
   let A = new Float32Array(N);
@@ -226,12 +304,27 @@
   let Un = new Float32Array(N);
   let An = new Float32Array(N);
   let Bn = new Float32Array(N);
+  let M = new Float32Array(N); // domain weight in [0,1]
 
   const treat = new Uint8Array(N);
   const region = new Uint8Array(N);
   const edgeScratch = new Uint8Array(N);
+  const edgeSrc = new Uint8Array(N);
   const img = ctx.createImageData(W, H);
   const px = img.data;
+
+  // Perf / frame budget
+  let speedMode = "auto"; // auto | fixed
+  const FRAME_BUDGET_MS = 14;
+  let perfStepMs = 0;
+  let perfDrawMs = 0;
+  let perfFps = 0;
+  let perfDid = 0;
+  let perfMicro = 1;
+  let framesTimed = 0;
+  let fpsWindowStart = performance.now();
+  const perfEl = document.getElementById("perf");
+  const speedSelect = document.getElementById("speedMode");
 
   const fSlider = document.getElementById("f");
   const kSlider = document.getElementById("k");
@@ -241,8 +334,11 @@
   const scaleSlider = document.getElementById("scale");
   const fracSlider = document.getElementById("frac");
   const compSlider = document.getElementById("comp");
+  const softSlider = document.getElementById("soft");
   const modeSelect = document.getElementById("mode");
   const paletteSelect = document.getElementById("palette");
+  const domainSelect = document.getElementById("domain");
+  const cornerSelect = document.getElementById("corner");
   const fVal = document.getElementById("fVal");
   const kVal = document.getElementById("kVal");
   const thrVal = document.getElementById("thrVal");
@@ -251,7 +347,16 @@
   const scaleVal = document.getElementById("scaleVal");
   const fracVal = document.getElementById("fracVal");
   const compVal = document.getElementById("compVal");
+  const softVal = document.getElementById("softVal");
   const titleEl = document.getElementById("title");
+
+  function syncDomainControls() {
+    const cornerOn = domainMode === "corner";
+    cornerSelect.disabled = !cornerOn;
+    softSlider.disabled = !cornerOn;
+    document.getElementById("cornerLabel").style.opacity = cornerOn ? "1" : "0.45";
+    document.getElementById("softLabel").style.opacity = cornerOn ? "1" : "0.45";
+  }
 
   function syncLabels() {
     fVal.textContent = f.toFixed(4);
@@ -266,6 +371,63 @@
     scaleVal.textContent = `${barSpacing.toFixed(2)}× · ${feel} · ${nMicro} substeps`;
     fracVal.textContent = Math.round(fillFrac * 100) + "% A";
     compVal.textContent = gamma.toFixed(2);
+    softVal.textContent = edgeSoft.toFixed(2);
+    syncDomainControls();
+  }
+
+  function smoothstep(a, b, x) {
+    const t = Math.max(0, Math.min(1, (x - a) / (b - a + 1e-9)));
+    return t * t * (3 - 2 * t);
+  }
+
+  /** Soft radial corner mask. Noise / stretch / origin re-roll each rebuild so reseeds differ. */
+  function rebuildMask() {
+    if (domainMode !== "corner") {
+      M.fill(1);
+      return;
+    }
+    // Nominal corner, then jitter so the domain origin is not identical every reseed
+    let cx = cornerKey.includes("r") ? 1 : 0;
+    let cy = cornerKey.includes("b") ? 1 : 0;
+    cx += (Math.random() - 0.5) * 0.18;
+    cy += (Math.random() - 0.5) * 0.18;
+
+    // Soft band varies a little around the slider so the fringe depth changes
+    const soft = Math.max(0.05, edgeSoft * (0.85 + Math.random() * 0.35));
+    const inner = Math.max(0, 1 - 2 * soft);
+    const outer = Math.min(1, 1 - soft * (0.25 + Math.random() * 0.25));
+
+    // Elliptical radius (anisotropy) so the silhouette is not always the same quarter-disk
+    const stretchX = 0.75 + Math.random() * 0.55;
+    const stretchY = 0.75 + Math.random() * 0.55;
+    const norm = Math.hypot(stretchX, stretchY) || 1;
+
+    // Fresh low-frequency edge noise (was fixed phases → same fringe every time)
+    const amp = 0.06 + Math.random() * 0.1;
+    const f1x = 4 + Math.random() * 10;
+    const f1y = 3 + Math.random() * 9;
+    const f2x = 2 + Math.random() * 7;
+    const f2y = 3 + Math.random() * 8;
+    const p1 = Math.random() * Math.PI * 2;
+    const p2 = Math.random() * Math.PI * 2;
+    const p3 = Math.random() * Math.PI * 2;
+
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const nx = x / (W - 1);
+        const ny = y / (H - 1);
+        const dx = (nx - cx) * stretchX;
+        const dy = (ny - cy) * stretchY;
+        let r = Math.hypot(dx, dy) / norm;
+        const n =
+          amp *
+          (0.6 * Math.sin(nx * f1x + ny * f1y + p1) +
+            0.4 * Math.cos(nx * f2x - ny * f2y + p2) *
+              Math.sin(nx * 2.1 + ny * 5.3 + p3));
+        r = Math.max(0, Math.min(1.4, r + n));
+        M[y * W + x] = 1 - smoothstep(inner, outer, r);
+      }
+    }
   }
 
   function applyPalette() {
@@ -273,8 +435,15 @@
   }
 
   function idx(x, y) {
-    x = (x + W) % W;
-    y = (y + H) % H;
+    if (domainMode === "corner") {
+      if (x < 0) x = 0;
+      else if (x >= W) x = W - 1;
+      if (y < 0) y = 0;
+      else if (y >= H) y = H - 1;
+    } else {
+      x = (x + W) % W;
+      y = (y + H) % H;
+    }
     return y * W + x;
   }
 
@@ -283,6 +452,7 @@
       for (let dx = -r; dx <= r; dx++) {
         if (dx * dx + dy * dy > r * r) continue;
         const i = idx(x + dx, y + dy);
+        if (M[i] < 0.25) continue;
         U[i] = 0.5;
         if (species === "A") {
           A[i] = 0.25;
@@ -296,27 +466,43 @@
   }
 
   function seed() {
+    rebuildMask();
     U.fill(1);
     A.fill(0);
     B.fill(0);
     // Slightly larger seeds when spacing is large so patterns establish cleanly
     const r0 = 2 + Math.round(barSpacing);
-    const nBlots = currentPreset === "stylised" ? 40 : 60;
-    for (let n = 0; n < nBlots; n++) {
+    const nBlots = currentPreset === "stylised" ? 48 : 70;
+    let placed = 0;
+    let guard = 0;
+    while (placed < nBlots && guard < nBlots * 50) {
+      guard++;
       const bx = (Math.random() * W) | 0;
       const by = (Math.random() * H) | 0;
+      if (M[by * W + bx] < 0.45) continue;
       const r = r0 + ((Math.random() * 4) | 0);
       paintSeed(bx, by, r, Math.random() < fillFrac ? "A" : "B");
+      placed++;
     }
     if (currentPreset === "labyrinth") {
-      const cx = (W * 0.5) | 0;
-      const cy = (H * 0.5) | 0;
-      const rw = (W * 0.2) | 0;
-      const rh = (H * 0.38) | 0;
+      // Dense patch — randomize location (was always dead-centre → similar layouts)
+      let cx = (W * (0.25 + Math.random() * 0.5)) | 0;
+      let cy = (H * (0.25 + Math.random() * 0.5)) | 0;
+      if (domainMode === "corner") {
+        // Bias the patch into the live mask so it is not mostly clipped away
+        for (let tries = 0; tries < 40; tries++) {
+          const tx = (Math.random() * W) | 0;
+          const ty = (Math.random() * H) | 0;
+          if (M[ty * W + tx] > 0.7) { cx = tx; cy = ty; break; }
+        }
+      }
+      const rw = (W * (0.12 + Math.random() * 0.16)) | 0;
+      const rh = (H * (0.22 + Math.random() * 0.28)) | 0;
       for (let y = cy - rh; y < cy + rh; y++) {
         for (let x = cx - rw; x < cx + rw; x++) {
           if (Math.random() > 0.5) continue;
           const i = idx(x, y);
+          if (M[i] < 0.35) continue;
           U[i] = 0.5 + Math.random() * 0.2;
           if (Math.random() < fillFrac) {
             A[i] = 0.2 + Math.random() * 0.25;
@@ -330,16 +516,6 @@
     }
   }
 
-  function lap(arr, i, x, y) {
-    return (
-      arr[idx(x - 1, y)] +
-      arr[idx(x + 1, y)] +
-      arr[idx(x, y - 1)] +
-      arr[idx(x, y + 1)] -
-      4 * arr[i]
-    );
-  }
-
   function microStepsFor(Du, Dv) {
     const Dmax = Math.max(Du, Dv);
     // 2D 5-point stencil: need 4*D*dt ≲ 1
@@ -347,46 +523,114 @@
     return Math.max(1, Math.ceil(1 / dtMax));
   }
 
+  /** One Euler micro-step, periodic BC, inlined interior + border. */
+  function microStepPeriodic(h, Du, Dv, fk) {
+    // Interior: direct 4-neighbour indexing (no function calls)
+    for (let y = 1; y < H - 1; y++) {
+      const row = y * W;
+      for (let x = 1; x < W - 1; x++) {
+        const i = row + x;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const lu = U[i - 1] + U[i + 1] + U[i - W] + U[i + W] - 4 * u;
+        const la = A[i - 1] + A[i + 1] + A[i - W] + A[i + W] - 4 * a;
+        const lb = B[i - 1] + B[i + 1] + B[i - W] + B[i + W] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    // Borders with wrap
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        if (y > 0 && y < H - 1 && x > 0 && x < W - 1) continue;
+        const i = y * W + x;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const xm = x === 0 ? W - 1 : x - 1;
+        const xp = x === W - 1 ? 0 : x + 1;
+        const ym = y === 0 ? H - 1 : y - 1;
+        const yp = y === H - 1 ? 0 : y + 1;
+        const lu = U[y * W + xm] + U[y * W + xp] + U[ym * W + x] + U[yp * W + x] - 4 * u;
+        const la = A[y * W + xm] + A[y * W + xp] + A[ym * W + x] + A[yp * W + x] - 4 * a;
+        const lb = B[y * W + xm] + B[y * W + xp] + B[ym * W + x] + B[yp * W + x] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    let t = U; U = Un; Un = t;
+    t = A; A = An; An = t;
+    t = B; B = Bn; Bn = t;
+  }
+
+  /** One Euler micro-step, clamped BC + soft domain mask. */
+  function microStepCorner(h, Du, Dv, fk) {
+    for (let y = 0; y < H; y++) {
+      const ym = y > 0 ? y - 1 : 0;
+      const yp = y < H - 1 ? y + 1 : H - 1;
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        const mi = M[i];
+        if (mi < 0.02) {
+          Un[i] = 1; An[i] = 0; Bn[i] = 0;
+          continue;
+        }
+        const xm = x > 0 ? x - 1 : 0;
+        const xp = x < W - 1 ? x + 1 : W - 1;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const damp = maskDecay * (1 - mi);
+        const lu = U[y * W + xm] + U[y * W + xp] + U[ym * W + x] + U[yp * W + x] - 4 * u;
+        const la = A[y * W + xm] + A[y * W + xp] + A[ym * W + x] + A[yp * W + x] - 4 * a;
+        const lb = B[y * W + xm] + B[y * W + xp] + B[ym * W + x] + B[yp * W + x] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u) + damp * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab - damp * a);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab - damp * b);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    let t = U; U = Un; Un = t;
+    t = A; A = An; An = t;
+    t = B; B = Bn; Bn = t;
+  }
+
   /** Advance ~1 unit of time with enough micro-steps for current Du/Dv. */
   function step() {
     const Du = Du0 * barSpacing;
     const Dv = Dv0 * barSpacing;
     const nMicro = microStepsFor(Du, Dv);
+    perfMicro = nMicro;
     const h = 1 / nMicro;
     const fk = f + k;
-
-    for (let m = 0; m < nMicro; m++) {
-      for (let y = 0; y < H; y++) {
-        for (let x = 0; x < W; x++) {
-          const i = y * W + x;
-          const u = U[i];
-          const a = A[i];
-          const b = B[i];
-          const uaa = u * a * a;
-          const ubb = u * b * b;
-          const ab = gamma * a * b;
-          Un[i] = u + h * (Du * lap(U, i, x, y) - uaa - ubb + f * (1 - u));
-          An[i] = a + h * (Dv * lap(A, i, x, y) + uaa - fk * a - ab);
-          Bn[i] = b + h * (Dv * lap(B, i, x, y) + ubb - fk * b - ab);
-          if (An[i] < 0) An[i] = 0;
-          if (Bn[i] < 0) Bn[i] = 0;
-          if (Un[i] < 0) Un[i] = 0;
-          if (Un[i] > 1) Un[i] = 1;
-        }
-      }
-      let t = U; U = Un; Un = t;
-      t = A; A = An; An = t;
-      t = B; B = Bn; Bn = t;
+    if (domainMode === "corner") {
+      for (let m = 0; m < nMicro; m++) microStepCorner(h, Du, Dv, fk);
+    } else {
+      for (let m = 0; m < nMicro; m++) microStepPeriodic(h, Du, Dv, fk);
     }
   }
 
   function dilateEdges(edgeBuf) {
     if (strokeW <= 1) return;
-    const src = edgeBuf.slice();
+    edgeSrc.set(edgeBuf);
     const r = strokeW - 1;
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
-        if (!src[y * W + x]) continue;
+        if (!edgeSrc[y * W + x]) continue;
         for (let dy = -r; dy <= r; dy++) {
           for (let dx = -r; dx <= r; dx++) {
             if (dx * dx + dy * dy <= r * r) {
@@ -445,15 +689,60 @@
   }
 
   function warmStart() {
+    rebuildMask();
     seed();
-    for (let i = 0; i < 200; i++) step();
+    // Cap warm-up work so reseeding stays interactive (~same cost as ~0.5s budget)
+    const t0 = performance.now();
+    let n = 0;
+    while (n < 120 && performance.now() - t0 < 280) {
+      step();
+      n++;
+    }
     draw();
+    updatePerfLabel(n, performance.now() - t0, 0, true);
   }
 
-  function frame() {
+  function updatePerfLabel(didSteps, stepMs, drawMs, isWarm) {
+    if (perfEl.hidden) return;
+    const Du = Du0 * barSpacing;
+    const Dv = Dv0 * barSpacing;
+    const nMicro = microStepsFor(Du, Dv);
+    const prefix = isWarm ? "warm " : "";
+    perfEl.textContent =
+      `${prefix}fps ${perfFps.toFixed(0)} · step ${stepMs.toFixed(1)}ms` +
+      ` (${didSteps}×${nMicro}µ) · draw ${drawMs.toFixed(1)}ms` +
+      ` · ${speedMode} · ${domainMode}`;
+  }
+
+  function frame(now) {
     if (running) {
-      for (let s = 0; s < stepsPerFrame; s++) step();
+      const tStep0 = performance.now();
+      let did = 0;
+      if (speedMode === "auto") {
+        while (did < stepsPerFrame && performance.now() - tStep0 < FRAME_BUDGET_MS) {
+          step();
+          did++;
+        }
+        if (did === 0) { step(); did = 1; }
+      } else {
+        for (let s = 0; s < stepsPerFrame; s++) step();
+        did = stepsPerFrame;
+      }
+      perfStepMs = performance.now() - tStep0;
+      perfDid = did;
+
+      const tDraw0 = performance.now();
       draw();
+      perfDrawMs = performance.now() - tDraw0;
+
+      framesTimed++;
+      const elapsed = now - fpsWindowStart;
+      if (elapsed >= 500) {
+        perfFps = (framesTimed * 1000) / elapsed;
+        framesTimed = 0;
+        fpsWindowStart = now;
+        updatePerfLabel(perfDid, perfStepMs, perfDrawMs, false);
+      }
     }
     requestAnimationFrame(frame);
   }
@@ -508,85 +797,399 @@
     return pts.filter((_, i) => keep[i]);
   }
 
-  function traceContours(kind, simplifyEps) {
-    const visited = new Uint8Array(N);
-    const contours = [];
-    const DX = [1, 1, 0, -1, -1, -1, 0, 1];
-    const DY = [0, 1, 1, 1, 0, -1, -1, -1];
-    function inside(x, y) { return x >= 0 && x < W && y >= 0 && y < H; }
-    function on(x, y) { return inside(x, y) && region[y * W + x] === kind; }
-
-    for (let y = 0; y < H; y++) {
-      for (let x = 0; x < W; x++) {
-        if (!on(x, y) || visited[y * W + x]) continue;
-        if (on(x - 1, y)) continue;
-        if (on(x + 1, y) && on(x, y - 1) && on(x, y + 1)) continue;
-
-        const pts = [];
-        let cx = x, cy = y, dir = 0, guard = 0;
-        do {
-          pts.push([cx + 0.5, cy + 0.5]);
-          visited[cy * W + cx] = 1;
-          let found = false;
-          const start = (dir + 6) % 8;
-          for (let t = 0; t < 8; t++) {
-            const nd = (start + t) % 8;
-            const nx = cx + DX[nd];
-            const ny = cy + DY[nd];
-            if (on(nx, ny)) {
-              cx = nx; cy = ny; dir = nd; found = true; break;
-            }
-          }
-          if (!found) break;
-          guard++;
-        } while ((cx !== x || cy !== y) && guard < N * 2);
-
-        if (pts.length >= 8) contours.push(simplifyRDP(pts, simplifyEps));
+  /** Chaikin corner-cutting — closed polygon, designer-smooth silhouettes. */
+  function chaikinClosed(pts, iterations) {
+    let p = pts;
+    for (let it = 0; it < iterations; it++) {
+      const n = p.length;
+      if (n < 3) return p;
+      const out = [];
+      for (let i = 0; i < n; i++) {
+        const a = p[i];
+        const b = p[(i + 1) % n];
+        out.push([0.75 * a[0] + 0.25 * b[0], 0.75 * a[1] + 0.25 * b[1]]);
+        out.push([0.25 * a[0] + 0.75 * b[0], 0.25 * a[1] + 0.75 * b[1]]);
       }
+      p = out;
+    }
+    return p;
+  }
+
+  /** Closed Catmull–Rom → cubic Bézier path (matches brand SVG smoothness). */
+  function pathCubicClosed(pts) {
+    const n = pts.length;
+    if (n < 3) return "";
+    const fmt = (v) => (Math.round(v * 100) / 100).toFixed(2);
+    let d = `M${fmt(pts[0][0])} ${fmt(pts[0][1])}`;
+    for (let i = 0; i < n; i++) {
+      const p0 = pts[(i - 1 + n) % n];
+      const p1 = pts[i];
+      const p2 = pts[(i + 1) % n];
+      const p3 = pts[(i + 2) % n];
+      const c1x = p1[0] + (p2[0] - p0[0]) / 6;
+      const c1y = p1[1] + (p2[1] - p0[1]) / 6;
+      const c2x = p2[0] - (p3[0] - p1[0]) / 6;
+      const c2y = p2[1] - (p3[1] - p1[1]) / 6;
+      d += `C${fmt(c1x)} ${fmt(c1y)} ${fmt(c2x)} ${fmt(c2y)} ${fmt(p2[0])} ${fmt(p2[1])}`;
+    }
+    return d + "Z";
+  }
+
+  function smoothContour(pts) {
+    if (pts.length > 2) {
+      const a = pts[0], b = pts[pts.length - 1];
+      if (Math.hypot(a[0] - b[0], a[1] - b[1]) < 0.01) pts = pts.slice(0, -1);
+    }
+    if (pts.length < 4) return pts;
+    const simplified = simplifyRDP(pts, 0.75);
+    if (simplified.length < 4) return simplified;
+    return chaikinClosed(simplified, 2);
+  }
+
+  function signedArea(pts) {
+    let a = 0;
+    const n = pts.length;
+    for (let i = 0; i < n; i++) {
+      const p = pts[i], q = pts[(i + 1) % n];
+      a += p[0] * q[1] - q[0] * p[1];
+    }
+    return a / 2;
+  }
+
+  function ensureCCW(pts) {
+    if (signedArea(pts) < 0) pts.reverse();
+    return pts;
+  }
+
+  function ensureCW(pts) {
+    if (signedArea(pts) > 0) pts.reverse();
+    return pts;
+  }
+
+  function pointInPoly(px, py, poly) {
+    let inside = false;
+    for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+      const xi = poly[i][0], yi = poly[i][1];
+      const xj = poly[j][0], yj = poly[j][1];
+      const hit =
+        yi > py !== yj > py &&
+        px < ((xj - xi) * (py - yi)) / (yj - yi + 1e-12) + xi;
+      if (hit) inside = !inside;
+    }
+    return inside;
+  }
+
+  function centroid(pts) {
+    let x = 0, y = 0;
+    for (const p of pts) { x += p[0]; y += p[1]; }
+    return [x / pts.length, y / pts.length];
+  }
+
+  /**
+   * Marching squares — returns every closed loop (outer + inner boundaries).
+   * Segments are stitched at shared endpoints.
+   */
+  function traceContours(maskFn, minLen) {
+    function on(x, y) {
+      if (x < 0 || y < 0 || x >= W || y >= H) return false;
+      return !!maskFn(x, y);
+    }
+    // Edge key helpers on the dual grid (corners at integer pixel corners)
+    const segMap = new Map(); // "x,y" -> array of neighbour "x,y"
+    function addSeg(ax, ay, bx, by) {
+      const ka = ax + "," + ay;
+      const kb = bx + "," + by;
+      if (!segMap.has(ka)) segMap.set(ka, []);
+      if (!segMap.has(kb)) segMap.set(kb, []);
+      segMap.get(ka).push(kb);
+      segMap.get(kb).push(ka);
+    }
+
+    // Cases: bit0=TL, bit1=TR, bit2=BR, bit3=BL  (pixel centres at integer coords)
+    // Edges of the unit cell from (x,y) to (x+1,y+1):
+    // top mid (x+0.5,y), right (x+1,y+0.5), bottom (x+0.5,y+1), left (x,y+0.5)
+    for (let y = -1; y < H; y++) {
+      for (let x = -1; x < W; x++) {
+        const tl = on(x, y) ? 1 : 0;
+        const tr = on(x + 1, y) ? 1 : 0;
+        const br = on(x + 1, y + 1) ? 1 : 0;
+        const bl = on(x, y + 1) ? 1 : 0;
+        const code = tl | (tr << 1) | (br << 2) | (bl << 3);
+        if (code === 0 || code === 15) continue;
+        const T = [x + 0.5, y];
+        const R = [x + 1, y + 0.5];
+        const B = [x + 0.5, y + 1];
+        const L = [x, y + 0.5];
+        // Standard MS edge pairs (ambiguous 5/10 resolved by pairing T-L & R-B)
+        const edges = {
+          1: [L, T], 2: [T, R], 3: [L, R], 4: [R, B],
+          5: [L, T, R, B], 6: [T, B], 7: [L, B], 8: [B, L],
+          9: [T, B], 10: [T, R, B, L], 11: [R, B], 12: [R, L],
+          13: [T, R], 14: [T, L],
+        };
+        const e = edges[code];
+        if (!e) continue;
+        for (let i = 0; i < e.length; i += 2) {
+          addSeg(e[i][0], e[i][1], e[i + 1][0], e[i + 1][1]);
+        }
+      }
+    }
+
+    const used = new Set();
+    const contours = [];
+
+    function walk(startKey) {
+      const pts = [];
+      let prev = null;
+      let cur = startKey;
+      let guard = 0;
+      while (guard++ < N * 4) {
+        if (used.has(cur + ">" + prev) || used.has(prev + ">" + cur)) {
+          // allow first step
+        }
+        const [cx, cy] = cur.split(",").map(Number);
+        pts.push([cx, cy]);
+        const nbs = segMap.get(cur) || [];
+        let next = null;
+        for (const nb of nbs) {
+          const edgeId = cur < nb ? cur + "|" + nb : nb + "|" + cur;
+          if (used.has(edgeId)) continue;
+          if (nb === prev) continue;
+          used.add(edgeId);
+          next = nb;
+          break;
+        }
+        if (!next) {
+          // try any unused including back
+          for (const nb of nbs) {
+            const edgeId = cur < nb ? cur + "|" + nb : nb + "|" + cur;
+            if (used.has(edgeId)) continue;
+            used.add(edgeId);
+            next = nb;
+            break;
+          }
+        }
+        if (!next) break;
+        prev = cur;
+        cur = next;
+        if (cur === startKey) break;
+      }
+      return pts;
+    }
+
+    for (const start of segMap.keys()) {
+      const nbs = segMap.get(start);
+      let hasFree = false;
+      for (const nb of nbs) {
+        const edgeId = start < nb ? start + "|" + nb : nb + "|" + start;
+        if (!used.has(edgeId)) { hasFree = true; break; }
+      }
+      if (!hasFree) continue;
+      const pts = walk(start);
+      if (pts.length >= (minLen || 8)) contours.push(smoothContour(pts));
     }
     return contours;
   }
 
-  function pathD(pts) {
-    if (!pts.length) return "";
-    let d = `M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
-    for (let i = 1; i < pts.length; i++) d += `L${pts[i][0].toFixed(1)} ${pts[i][1].toFixed(1)}`;
-    return d + "Z";
+  function floodComponent(sx, sy, kind, seen) {
+    const cells = [];
+    const stack = [[sx, sy]];
+    seen[sy * W + sx] = 1;
+    while (stack.length) {
+      const [x, y] = stack.pop();
+      cells.push([x, y]);
+      const nbs = [[x - 1, y], [x + 1, y], [x, y - 1], [x, y + 1]];
+      for (const [nx, ny] of nbs) {
+        if (nx < 0 || ny < 0 || nx >= W || ny >= H) continue;
+        const ni = ny * W + nx;
+        if (seen[ni] || region[ni] !== kind) continue;
+        seen[ni] = 1;
+        stack.push([nx, ny]);
+      }
+    }
+    return cells;
+  }
+
+  function componentMask(cells) {
+    const m = new Uint8Array(N);
+    for (const [x, y] of cells) m[y * W + x] = 1;
+    return m;
+  }
+
+  function erodeBinary(src, times) {
+    let cur = src;
+    for (let t = 0; t < times; t++) {
+      const next = new Uint8Array(N);
+      for (let y = 1; y < H - 1; y++) {
+        for (let x = 1; x < W - 1; x++) {
+          const i = y * W + x;
+          if (!cur[i]) continue;
+          if (cur[i - 1] && cur[i + 1] && cur[i - W] && cur[i + W]) next[i] = 1;
+        }
+      }
+      cur = next;
+    }
+    return cur;
+  }
+
+  /** Build one evenodd compound path: largest loop = outer, inner loops = holes. */
+  function compoundEvenOddPath(contours) {
+    if (!contours.length) return null;
+    const ranked = contours
+      .filter((c) => c && c.length >= 4)
+      .map((c) => ({ c, a: Math.abs(signedArea(c)) }))
+      .sort((u, v) => v.a - u.a);
+    if (!ranked.length) return null;
+    const outer = ensureCCW(ranked[0].c.slice());
+    const loops = [outer];
+    for (let i = 1; i < ranked.length; i++) {
+      const loop = ranked[i].c;
+      const [cx, cy] = centroid(loop);
+      if (!pointInPoly(cx, cy, outer)) continue;
+      loops.push(ensureCW(loop.slice()));
+    }
+    return loops;
+  }
+
+  function boundsOfLoops(loops, pad) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const loop of loops) {
+      for (const [x, y] of loop) {
+        if (x < minX) minX = x;
+        if (y < minY) minY = y;
+        if (x > maxX) maxX = x;
+        if (y > maxY) maxY = y;
+      }
+    }
+    if (!Number.isFinite(minX)) return null;
+    const p = pad == null ? 1.5 : pad;
+    return {
+      minX: minX - p,
+      minY: minY - p,
+      maxX: maxX + p,
+      maxY: maxY + p,
+    };
+  }
+
+  function translateLoops(loops, dx, dy) {
+    return loops.map((loop) => loop.map(([x, y]) => [x + dx, y + dy]));
+  }
+
+  function loopsToPathD(loops) {
+    let d = "";
+    for (const loop of loops) {
+      const pd = pathCubicClosed(loop);
+      if (pd) d += pd;
+    }
+    return d;
+  }
+
+  function unionBounds(list) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const b of list) {
+      if (!b) continue;
+      if (b.minX < minX) minX = b.minX;
+      if (b.minY < minY) minY = b.minY;
+      if (b.maxX > maxX) maxX = b.maxX;
+      if (b.maxY > maxY) maxY = b.maxY;
+    }
+    if (!Number.isFinite(minX)) return null;
+    return { minX, minY, maxX, maxY };
   }
 
   function exportSVG() {
     buildRegions();
     const pal = PALETTES[paletteKey];
     const ink = rgbHex(pal.ink);
-    const bg = rgbHex(pal.bg);
-    const fills = traceContours(1, 1.2);
-    const outlines = traceContours(2, 1.2);
+    const ringDepth = Math.max(2, strokeW + 1);
+    const objects = [];
+
+    // Separate object per disconnected fill component
+    const seenA = new Uint8Array(N);
+    let fillIdx = 0;
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (region[i] !== 1 || seenA[i]) continue;
+        const cells = floodComponent(x, y, 1, seenA);
+        if (cells.length < 16) continue;
+        const mask = componentMask(cells);
+        const contours = traceContours((px, py) => !!mask[py * W + px], 8);
+        const loops = compoundEvenOddPath(contours);
+        if (!loops) continue;
+        const bounds = boundsOfLoops(loops, 2);
+        if (!bounds) continue;
+        fillIdx += 1;
+        objects.push({
+          kind: "fill",
+          id: `fill-${String(fillIdx).padStart(2, "0")}`,
+          loops,
+          bounds,
+        });
+      }
+    }
+
+    // Separate object per disconnected outline component
+    const seenB = new Uint8Array(N);
+    let outlineIdx = 0;
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (region[i] !== 2 || seenB[i]) continue;
+        const cells = floodComponent(x, y, 2, seenB);
+        if (cells.length < 24) continue;
+        const mask = componentMask(cells);
+        const outerLoops = traceContours((px, py) => !!mask[py * W + px], 8);
+        const holeMask = erodeBinary(mask, ringDepth);
+        const holeLoops = traceContours((px, py) => !!holeMask[py * W + px], 6);
+        const loops = compoundEvenOddPath(outerLoops.concat(holeLoops));
+        if (!loops) continue;
+        const bounds = boundsOfLoops(loops, 2);
+        if (!bounds) continue;
+        outlineIdx += 1;
+        objects.push({
+          kind: "outline",
+          id: `outline-${String(outlineIdx).padStart(2, "0")}`,
+          loops,
+          bounds,
+        });
+      }
+    }
+
+    if (!objects.length) {
+      alert("Nothing to export yet — regenerate and wait for a pattern to appear.");
+      return;
+    }
+
+    // Collapse viewBox onto the ink
+    const box = unionBounds(objects.map((o) => o.bounds));
+    const ox = box.minX;
+    const oy = box.minY;
+    const fw = Math.max(1, Math.ceil((box.maxX - box.minX) * 100) / 100);
+    const fh = Math.max(1, Math.ceil((box.maxY - box.minY) * 100) / 100);
+
     const parts = [
       `<?xml version="1.0" encoding="UTF-8"?>`,
-      `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none">`,
-      `<rect width="${W}" height="${H}" fill="${bg}"/>`,
-      `<g id="species-A-fill" fill="${ink}" stroke="none">`,
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${fw}" height="${fh}" viewBox="0 0 ${fw} ${fh}" fill="none">`,
+      `<g id="turing-objects" fill="${ink}" fill-rule="evenodd" stroke="none">`,
     ];
-    for (const c of fills) {
-      const d = pathD(c);
-      if (d) parts.push(`<path d="${d}"/>`);
-    }
-    parts.push(`</g>`);
-    parts.push(
-      `<g id="species-B-outline" fill="none" stroke="${ink}" stroke-width="${strokeW}" stroke-linejoin="round" stroke-linecap="round">`
-    );
-    for (const c of outlines) {
-      const d = pathD(c);
-      if (d) parts.push(`<path d="${d}"/>`);
+    for (const obj of objects) {
+      const local = translateLoops(obj.loops, -ox, -oy);
+      const d = loopsToPathD(local);
+      if (!d) continue;
+      parts.push(`<path id="${obj.id}" d="${d}"/>`);
     }
     parts.push(`</g></svg>`);
+
     const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "turing-two-species.svg";
+    a.download = domainMode === "corner"
+      ? `turing-corner-${cornerKey}.svg`
+      : "turing-pattern.svg";
     a.click();
-    URL.revokeObjectURL(url);
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
   }
 
   fSlider.addEventListener("input", () => { f = +fSlider.value; syncLabels(); });
@@ -608,6 +1211,15 @@
     fillFrac = +fracSlider.value;
     warmStart();
   });
+  softSlider.addEventListener("input", () => {
+    edgeSoft = +softSlider.value;
+    syncLabels();
+  });
+  softSlider.addEventListener("change", () => {
+    edgeSoft = +softSlider.value;
+    syncLabels();
+    warmStart();
+  });
   compSlider.addEventListener("input", () => { gamma = +compSlider.value; syncLabels(); });
   modeSelect.addEventListener("change", () => { drawMode = modeSelect.value; draw(); });
   paletteSelect.addEventListener("change", () => {
@@ -615,8 +1227,33 @@
     applyPalette();
     draw();
   });
+  speedSelect.addEventListener("change", () => {
+    speedMode = speedSelect.value;
+  });
+  domainSelect.addEventListener("change", () => {
+    domainMode = domainSelect.value;
+    syncLabels();
+    warmStart();
+  });
+  cornerSelect.addEventListener("change", () => {
+    cornerKey = cornerSelect.value;
+    warmStart();
+  });
 
-  document.getElementById("reset").addEventListener("click", () => warmStart());
+  document.getElementById("regenerate").addEventListener("click", () => {
+    running = true;
+    document.getElementById("pause").textContent = "Pause";
+    warmStart();
+  });
+  document.getElementById("toggleAdvanced").addEventListener("click", (e) => {
+    const panel = document.getElementById("advanced");
+    const open = panel.hidden;
+    panel.hidden = !open;
+    perfEl.hidden = !open;
+    e.target.setAttribute("aria-expanded", open ? "true" : "false");
+    e.target.textContent = open ? "Hide advanced settings" : "Advanced settings";
+    if (open) updatePerfLabel(perfDid, perfStepMs, perfDrawMs, false);
+  });
   document.getElementById("pause").addEventListener("click", (e) => {
     running = !running;
     e.target.textContent = running ? "Pause" : "Resume";
@@ -630,6 +1267,7 @@
   document.getElementById("presetLabyrinth").addEventListener("click", () => applyPreset("labyrinth"));
 
   applyPalette();
+  rebuildMask();
   syncLabels();
   applyPreset("labyrinth", true);
   requestAnimationFrame(frame);
