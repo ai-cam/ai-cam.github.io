@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gray–Scott · two-species fill + outline</title>
+  <title>Turing pattern studio</title>
   <style>
     :root {
       --bg: #f4f1ec;
@@ -36,9 +36,15 @@
     h1 {
       margin: 0;
       font-weight: 500;
-      font-size: 1rem;
-      letter-spacing: 0.04em;
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
       color: var(--ink);
+    }
+    .subtitle {
+      width: min(100%, 720px);
+      margin: -0.35rem 0 0;
+      font-size: 0.9rem;
+      opacity: 0.85;
     }
     canvas {
       display: block;
@@ -50,6 +56,13 @@
       border: 1px solid var(--border);
     }
     body.theme-footer canvas { background: #000; }
+    .toolbar {
+      width: min(100%, 720px);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+    }
     .panel {
       width: min(100%, 720px);
       display: grid;
@@ -59,6 +72,7 @@
       background: var(--panel);
       border: 1px solid var(--border);
     }
+    .panel.advanced[hidden] { display: none !important; }
     label {
       display: flex;
       flex-direction: column;
@@ -91,10 +105,25 @@
       color: var(--bg);
       border-color: var(--ink);
     }
+    button.primary {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+      padding: 0.7rem 1.25rem;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    button.primary:hover {
+      filter: brightness(1.08);
+    }
+    button.ghost {
+      background: transparent;
+    }
     .hint {
       width: min(100%, 720px);
       margin: 0;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       opacity: 0.85;
     }
     code { color: var(--ink); }
@@ -103,16 +132,27 @@
       margin: 0;
       font: 12px/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       color: var(--ui);
-      opacity: 0.9;
+      opacity: 0.75;
     }
+    .perf[hidden] { display: none !important; }
   </style>
 </head>
 <body>
-  <h1 id="title">Gray–Scott · two species (fill + outline)</h1>
+  <h1 id="title">Turing pattern studio</h1>
+  <p class="subtitle">Grow an organic corner motif, then export as SVG.</p>
   <canvas id="c" width="720" height="221" aria-label="Turing pattern simulation"></canvas>
-  <p class="perf" id="perf" aria-live="polite">profiling…</p>
 
-  <div class="panel">
+  <div class="toolbar">
+    <button type="button" class="primary" id="regenerate">Regenerate</button>
+    <button type="button" id="exportSvg">Export SVG</button>
+    <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Labyrinth</button>
+    <button type="button" data-preset="stylised" id="presetStylised">Spots</button>
+    <button type="button" class="ghost" id="toggleAdvanced" aria-expanded="false" aria-controls="advanced">
+      Advanced settings
+    </button>
+  </div>
+
+  <div class="panel advanced" id="advanced" hidden>
     <label>
       Feed f
       <span class="value" id="fVal"></span>
@@ -197,20 +237,14 @@
       <input id="soft" type="range" min="0.08" max="0.55" step="0.01" value="0.28" />
     </label>
     <div class="actions">
-      <button type="button" id="reset">Reseed</button>
       <button type="button" id="pause">Pause</button>
-      <button type="button" id="exportSvg">Export SVG</button>
-      <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Your labyrinth</button>
-      <button type="button" data-preset="stylised" id="presetStylised">Stylised spots</button>
     </div>
+    <p class="perf" id="perf" aria-live="polite" hidden>profiling…</p>
   </div>
 
   <p class="hint">
-    Full-resolution grid (no upscale blur/blocks). <strong>Bar spacing</strong> scales
-    <code>Du</code>/<code>Dv</code> and takes stable micro-steps so 2×+ stays crisp.
-    <strong>Natural corner</strong> damps activators inside the PDE with a soft radial mask
-    so the silhouette frays organically rather than clipping. Defaults: spacing
-    <code>2.15×</code>, fill <code>80%</code> A, auto frame budget. Release spacing / domain to resettle.
+    Press <strong>Regenerate</strong> for a new pattern. Use <strong>Export SVG</strong> when you like one.
+    Open Advanced settings only if you need to tune parameters.
   </p>
 
   <script>
@@ -234,11 +268,11 @@
   const PRESETS = {
     labyrinth: {
       f: 0.029, k: 0.057, thr: 0.09, steps: 4,
-      title: "Gray–Scott · two species (fill + outline)",
+      title: "Turing pattern studio",
     },
     stylised: {
       f: 0.035, k: 0.065, thr: 0.14, steps: 4,
-      title: "Gray–Scott · two species · spots",
+      title: "Turing pattern studio",
     },
   };
 
@@ -668,6 +702,7 @@
   }
 
   function updatePerfLabel(didSteps, stepMs, drawMs, isWarm) {
+    if (perfEl.hidden) return;
     const Du = Du0 * barSpacing;
     const Dv = Dv0 * barSpacing;
     const nMicro = microStepsFor(Du, Dv);
@@ -892,7 +927,20 @@
     warmStart();
   });
 
-  document.getElementById("reset").addEventListener("click", () => warmStart());
+  document.getElementById("regenerate").addEventListener("click", () => {
+    running = true;
+    document.getElementById("pause").textContent = "Pause";
+    warmStart();
+  });
+  document.getElementById("toggleAdvanced").addEventListener("click", (e) => {
+    const panel = document.getElementById("advanced");
+    const open = panel.hidden;
+    panel.hidden = !open;
+    perfEl.hidden = !open;
+    e.target.setAttribute("aria-expanded", open ? "true" : "false");
+    e.target.textContent = open ? "Hide advanced settings" : "Advanced settings";
+    if (open) updatePerfLabel(perfDid, perfStepMs, perfDrawMs, false);
+  });
   document.getElementById("pause").addEventListener("click", (e) => {
     running = !running;
     e.target.textContent = running ? "Pause" : "Resume";
