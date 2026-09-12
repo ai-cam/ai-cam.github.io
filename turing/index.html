@@ -144,7 +144,7 @@
 
   <div class="toolbar">
     <button type="button" class="primary" id="regenerate">Regenerate</button>
-    <button type="button" id="exportSvg">Export SVGs</button>
+    <button type="button" id="exportSvg">Export SVG</button>
     <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Labyrinth</button>
     <button type="button" data-preset="stylised" id="presetStylised">Spots</button>
     <button type="button" class="ghost" id="toggleAdvanced" aria-expanded="false" aria-controls="advanced">
@@ -244,7 +244,7 @@
 
   <p class="hint">
     Press <strong>Regenerate</strong> for a new pattern. <strong>Export SVG</strong> downloads
-    one tightly cropped file per disconnected shape (fill-01, outline-01, …).
+    one tightly cropped file with each disconnected shape as its own path object.
     Open Advanced settings only if you need to tune parameters.
   </p>
 
@@ -1084,28 +1084,17 @@
     return d;
   }
 
-  function downloadSVGFile(svgText, filename) {
-    const blob = new Blob([svgText], { type: "image/svg+xml" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 2000);
-  }
-
-  function buildObjectSVG(pathD, bounds, ink, kind) {
-    const w = bounds.maxX - bounds.minX;
-    const h = bounds.maxY - bounds.minY;
-    const fw = Math.max(1, Math.ceil(w * 100) / 100);
-    const fh = Math.max(1, Math.ceil(h * 100) / 100);
-    return [
-      `<?xml version="1.0" encoding="UTF-8"?>`,
-      `<svg xmlns="http://www.w3.org/2000/svg" width="${fw}" height="${fh}" viewBox="0 0 ${fw} ${fh}" fill="none">`,
-      `<g id="${kind}" fill="${ink}" fill-rule="evenodd" stroke="none">`,
-      `<path d="${pathD}"/>`,
-      `</g></svg>`,
-    ].join("\n");
+  function unionBounds(list) {
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const b of list) {
+      if (!b) continue;
+      if (b.minX < minX) minX = b.minX;
+      if (b.minY < minY) minY = b.minY;
+      if (b.maxX > maxX) maxX = b.maxX;
+      if (b.maxY > maxY) maxY = b.maxY;
+    }
+    if (!Number.isFinite(minX)) return null;
+    return { minX, minY, maxX, maxY };
   }
 
   function exportSVG() {
@@ -1115,8 +1104,9 @@
     const ringDepth = Math.max(2, strokeW + 1);
     const objects = [];
 
-    // One SVG object per disconnected fill component
+    // Separate object per disconnected fill component
     const seenA = new Uint8Array(N);
+    let fillIdx = 0;
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
         const i = y * W + x;
@@ -1129,22 +1119,19 @@
         if (!loops) continue;
         const bounds = boundsOfLoops(loops, 2);
         if (!bounds) continue;
-        const local = translateLoops(loops, -bounds.minX, -bounds.minY);
+        fillIdx += 1;
         objects.push({
           kind: "fill",
-          d: loopsToPathD(local),
-          bounds: {
-            minX: 0,
-            minY: 0,
-            maxX: bounds.maxX - bounds.minX,
-            maxY: bounds.maxY - bounds.minY,
-          },
+          id: `fill-${String(fillIdx).padStart(2, "0")}`,
+          loops,
+          bounds,
         });
       }
     }
 
-    // One SVG object per disconnected outline component
+    // Separate object per disconnected outline component
     const seenB = new Uint8Array(N);
+    let outlineIdx = 0;
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
         const i = y * W + x;
@@ -1159,16 +1146,12 @@
         if (!loops) continue;
         const bounds = boundsOfLoops(loops, 2);
         if (!bounds) continue;
-        const local = translateLoops(loops, -bounds.minX, -bounds.minY);
+        outlineIdx += 1;
         objects.push({
           kind: "outline",
-          d: loopsToPathD(local),
-          bounds: {
-            minX: 0,
-            minY: 0,
-            maxX: bounds.maxX - bounds.minX,
-            maxY: bounds.maxY - bounds.minY,
-          },
+          id: `outline-${String(outlineIdx).padStart(2, "0")}`,
+          loops,
+          bounds,
         });
       }
     }
@@ -1178,18 +1161,35 @@
       return;
     }
 
-    const prefix = domainMode === "corner"
-      ? `turing-corner-${cornerKey}`
-      : "turing";
-    const fillCount = { fill: 0, outline: 0 };
-    objects.forEach((obj, idx) => {
-      fillCount[obj.kind] += 1;
-      const n = String(fillCount[obj.kind]).padStart(2, "0");
-      const filename = `${prefix}-${obj.kind}-${n}.svg`;
-      const svg = buildObjectSVG(obj.d, obj.bounds, ink, obj.kind);
-      // Stagger downloads — browsers often block simultaneous clicks
-      setTimeout(() => downloadSVGFile(svg, filename), idx * 180);
-    });
+    // Collapse viewBox onto the ink
+    const box = unionBounds(objects.map((o) => o.bounds));
+    const ox = box.minX;
+    const oy = box.minY;
+    const fw = Math.max(1, Math.ceil((box.maxX - box.minX) * 100) / 100);
+    const fh = Math.max(1, Math.ceil((box.maxY - box.minY) * 100) / 100);
+
+    const parts = [
+      `<?xml version="1.0" encoding="UTF-8"?>`,
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${fw}" height="${fh}" viewBox="0 0 ${fw} ${fh}" fill="none">`,
+      `<g id="turing-objects" fill="${ink}" fill-rule="evenodd" stroke="none">`,
+    ];
+    for (const obj of objects) {
+      const local = translateLoops(obj.loops, -ox, -oy);
+      const d = loopsToPathD(local);
+      if (!d) continue;
+      parts.push(`<path id="${obj.id}" d="${d}"/>`);
+    }
+    parts.push(`</g></svg>`);
+
+    const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = domainMode === "corner"
+      ? `turing-corner-${cornerKey}.svg`
+      : "turing-pattern.svg";
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
   }
 
   fSlider.addEventListener("input", () => { f = +fSlider.value; syncLabels(); });
