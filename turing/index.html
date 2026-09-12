@@ -160,6 +160,27 @@
         <option value="footer">Ivory on black (footer)</option>
       </select>
     </label>
+    <label>
+      Domain
+      <select id="domain">
+        <option value="full" selected>Full field</option>
+        <option value="corner">Natural corner</option>
+      </select>
+    </label>
+    <label id="cornerLabel">
+      Corner
+      <select id="corner">
+        <option value="br" selected>Bottom right</option>
+        <option value="bl">Bottom left</option>
+        <option value="tr">Top right</option>
+        <option value="tl">Top left</option>
+      </select>
+    </label>
+    <label id="softLabel" title="Width of the soft fringe where the pattern dies out">
+      Edge softness
+      <span class="value" id="softVal"></span>
+      <input id="soft" type="range" min="0.08" max="0.55" step="0.01" value="0.28" />
+    </label>
     <div class="actions">
       <button type="button" id="reset">Reseed</button>
       <button type="button" id="pause">Pause</button>
@@ -172,7 +193,9 @@
   <p class="hint">
     Full-resolution grid (no upscale blur/blocks). <strong>Bar spacing</strong> scales
     <code>Du</code>/<code>Dv</code> and takes stable micro-steps so 2×+ stays crisp.
-    Defaults: spacing <code>2.15×</code>, fill <code>80%</code> A. Release spacing to resettle.
+    <strong>Natural corner</strong> damps activators inside the PDE with a soft radial mask
+    so the silhouette frays organically rather than clipping. Defaults: spacing
+    <code>2.15×</code>, fill <code>80%</code> A. Release spacing / domain to resettle.
   </p>
 
   <script>
@@ -219,6 +242,11 @@
   let running = true;
   let paletteKey = "navy";
   let currentPreset = "labyrinth";
+  let domainMode = "full"; // "full" | "corner"
+  let cornerKey = "br"; // tl | tr | bl | br
+  let edgeSoft = 0.28; // fraction of diagonal for soft fringe
+  // Extra kill outside the mask (applied as (1-M)*maskDecay*activator)
+  const maskDecay = 2.4;
 
   let U = new Float32Array(N);
   let A = new Float32Array(N);
@@ -226,6 +254,7 @@
   let Un = new Float32Array(N);
   let An = new Float32Array(N);
   let Bn = new Float32Array(N);
+  let M = new Float32Array(N); // domain weight in [0,1]
 
   const treat = new Uint8Array(N);
   const region = new Uint8Array(N);
@@ -241,8 +270,11 @@
   const scaleSlider = document.getElementById("scale");
   const fracSlider = document.getElementById("frac");
   const compSlider = document.getElementById("comp");
+  const softSlider = document.getElementById("soft");
   const modeSelect = document.getElementById("mode");
   const paletteSelect = document.getElementById("palette");
+  const domainSelect = document.getElementById("domain");
+  const cornerSelect = document.getElementById("corner");
   const fVal = document.getElementById("fVal");
   const kVal = document.getElementById("kVal");
   const thrVal = document.getElementById("thrVal");
@@ -251,7 +283,16 @@
   const scaleVal = document.getElementById("scaleVal");
   const fracVal = document.getElementById("fracVal");
   const compVal = document.getElementById("compVal");
+  const softVal = document.getElementById("softVal");
   const titleEl = document.getElementById("title");
+
+  function syncDomainControls() {
+    const cornerOn = domainMode === "corner";
+    cornerSelect.disabled = !cornerOn;
+    softSlider.disabled = !cornerOn;
+    document.getElementById("cornerLabel").style.opacity = cornerOn ? "1" : "0.45";
+    document.getElementById("softLabel").style.opacity = cornerOn ? "1" : "0.45";
+  }
 
   function syncLabels() {
     fVal.textContent = f.toFixed(4);
@@ -266,6 +307,44 @@
     scaleVal.textContent = `${barSpacing.toFixed(2)}× · ${feel} · ${nMicro} substeps`;
     fracVal.textContent = Math.round(fillFrac * 100) + "% A";
     compVal.textContent = gamma.toFixed(2);
+    softVal.textContent = edgeSoft.toFixed(2);
+    syncDomainControls();
+  }
+
+  function smoothstep(a, b, x) {
+    const t = Math.max(0, Math.min(1, (x - a) / (b - a + 1e-9)));
+    return t * t * (3 - 2 * t);
+  }
+
+  /** Soft radial corner mask + light noise so the fringe is not a perfect arc. */
+  function rebuildMask() {
+    if (domainMode !== "corner") {
+      M.fill(1);
+      return;
+    }
+    const cx = cornerKey.includes("r") ? 1 : 0;
+    const cy = cornerKey.includes("b") ? 1 : 0;
+    const soft = Math.max(0.05, edgeSoft);
+    // Stable hash for mild edge irregularity
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const nx = x / (W - 1);
+        const ny = y / (H - 1);
+        const dx = nx - cx;
+        const dy = ny - cy;
+        let r = Math.hypot(dx, dy) / Math.SQRT2; // 0 at corner, ~1 at opposite
+        const n =
+          0.045 *
+          Math.sin(nx * 9.1 + ny * 3.7) *
+          Math.cos(nx * 4.3 - ny * 7.2);
+        r = Math.max(0, Math.min(1, r + n));
+        // 1 near corner, soft fade across [1-2*soft, 1-soft] band then to 0
+        const inner = Math.max(0, 1 - 2 * soft);
+        const outer = Math.min(1, 1 - soft * 0.35);
+        const m = 1 - smoothstep(inner, outer, r);
+        M[y * W + x] = m;
+      }
+    }
   }
 
   function applyPalette() {
@@ -273,8 +352,15 @@
   }
 
   function idx(x, y) {
-    x = (x + W) % W;
-    y = (y + H) % H;
+    if (domainMode === "corner") {
+      if (x < 0) x = 0;
+      else if (x >= W) x = W - 1;
+      if (y < 0) y = 0;
+      else if (y >= H) y = H - 1;
+    } else {
+      x = (x + W) % W;
+      y = (y + H) % H;
+    }
     return y * W + x;
   }
 
@@ -283,6 +369,7 @@
       for (let dx = -r; dx <= r; dx++) {
         if (dx * dx + dy * dy > r * r) continue;
         const i = idx(x + dx, y + dy);
+        if (M[i] < 0.25) continue;
         U[i] = 0.5;
         if (species === "A") {
           A[i] = 0.25;
@@ -296,17 +383,23 @@
   }
 
   function seed() {
+    rebuildMask();
     U.fill(1);
     A.fill(0);
     B.fill(0);
     // Slightly larger seeds when spacing is large so patterns establish cleanly
     const r0 = 2 + Math.round(barSpacing);
     const nBlots = currentPreset === "stylised" ? 40 : 60;
-    for (let n = 0; n < nBlots; n++) {
+    let placed = 0;
+    let guard = 0;
+    while (placed < nBlots && guard < nBlots * 40) {
+      guard++;
       const bx = (Math.random() * W) | 0;
       const by = (Math.random() * H) | 0;
+      if (M[by * W + bx] < 0.45) continue;
       const r = r0 + ((Math.random() * 4) | 0);
       paintSeed(bx, by, r, Math.random() < fillFrac ? "A" : "B");
+      placed++;
     }
     if (currentPreset === "labyrinth") {
       const cx = (W * 0.5) | 0;
@@ -317,6 +410,7 @@
         for (let x = cx - rw; x < cx + rw; x++) {
           if (Math.random() > 0.5) continue;
           const i = idx(x, y);
+          if (M[i] < 0.35) continue;
           U[i] = 0.5 + Math.random() * 0.2;
           if (Math.random() < fillFrac) {
             A[i] = 0.2 + Math.random() * 0.25;
@@ -354,6 +448,7 @@
     const nMicro = microStepsFor(Du, Dv);
     const h = 1 / nMicro;
     const fk = f + k;
+    const corner = domainMode === "corner";
 
     for (let m = 0; m < nMicro; m++) {
       for (let y = 0; y < H; y++) {
@@ -365,13 +460,21 @@
           const uaa = u * a * a;
           const ubb = u * b * b;
           const ab = gamma * a * b;
-          Un[i] = u + h * (Du * lap(U, i, x, y) - uaa - ubb + f * (1 - u));
-          An[i] = a + h * (Dv * lap(A, i, x, y) + uaa - fk * a - ab);
-          Bn[i] = b + h * (Dv * lap(B, i, x, y) + ubb - fk * b - ab);
+          const mi = M[i];
+          // Soft domain: extra activator kill outside the mask + substrate reset
+          const damp = corner ? maskDecay * (1 - mi) : 0;
+          Un[i] = u + h * (Du * lap(U, i, x, y) - uaa - ubb + f * (1 - u) + damp * (1 - u));
+          An[i] = a + h * (Dv * lap(A, i, x, y) + uaa - fk * a - ab - damp * a);
+          Bn[i] = b + h * (Dv * lap(B, i, x, y) + ubb - fk * b - ab - damp * b);
           if (An[i] < 0) An[i] = 0;
           if (Bn[i] < 0) Bn[i] = 0;
           if (Un[i] < 0) Un[i] = 0;
           if (Un[i] > 1) Un[i] = 1;
+          if (corner && mi < 0.02) {
+            An[i] = 0;
+            Bn[i] = 0;
+            Un[i] = 1;
+          }
         }
       }
       let t = U; U = Un; Un = t;
@@ -445,6 +548,7 @@
   }
 
   function warmStart() {
+    rebuildMask();
     seed();
     for (let i = 0; i < 200; i++) step();
     draw();
@@ -584,7 +688,9 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "turing-two-species.svg";
+    a.download = domainMode === "corner"
+      ? `turing-corner-${cornerKey}.svg`
+      : "turing-two-species.svg";
     a.click();
     URL.revokeObjectURL(url);
   }
@@ -608,12 +714,30 @@
     fillFrac = +fracSlider.value;
     warmStart();
   });
+  softSlider.addEventListener("input", () => {
+    edgeSoft = +softSlider.value;
+    syncLabels();
+  });
+  softSlider.addEventListener("change", () => {
+    edgeSoft = +softSlider.value;
+    syncLabels();
+    warmStart();
+  });
   compSlider.addEventListener("input", () => { gamma = +compSlider.value; syncLabels(); });
   modeSelect.addEventListener("change", () => { drawMode = modeSelect.value; draw(); });
   paletteSelect.addEventListener("change", () => {
     paletteKey = paletteSelect.value;
     applyPalette();
     draw();
+  });
+  domainSelect.addEventListener("change", () => {
+    domainMode = domainSelect.value;
+    syncLabels();
+    warmStart();
+  });
+  cornerSelect.addEventListener("change", () => {
+    cornerKey = cornerSelect.value;
+    warmStart();
   });
 
   document.getElementById("reset").addEventListener("click", () => warmStart());
@@ -630,6 +754,7 @@
   document.getElementById("presetLabyrinth").addEventListener("click", () => applyPreset("labyrinth"));
 
   applyPalette();
+  rebuildMask();
   syncLabels();
   applyPreset("labyrinth", true);
   requestAnimationFrame(frame);
