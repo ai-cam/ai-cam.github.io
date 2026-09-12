@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gray–Scott · two-species fill + outline</title>
+  <style>
+    :root {
+      --bg: #f4f1ec;
+      --ink: #083A5F;
+      --ui: #4a5d6e;
+      --panel: #fff;
+      --border: #d5dde4;
+    }
+    body.theme-footer {
+      --bg: #0a0a0a;
+      --ink: #f8f0ee;
+      --ui: #9a8b76;
+      --panel: #141414;
+      --border: #222;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1.25rem;
+      background: var(--bg);
+      color: var(--ui);
+      font: 14px/1.4 "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    }
+    h1 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1rem;
+      letter-spacing: 0.04em;
+      color: var(--ink);
+    }
+    canvas {
+      display: block;
+      width: min(100%, 720px);
+      height: auto;
+      aspect-ratio: 1440 / 442;
+      background: #fff;
+      image-rendering: auto;
+      border: 1px solid var(--border);
+    }
+    body.theme-footer canvas { background: #000; }
+    .panel {
+      width: min(100%, 720px);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.75rem 1rem;
+      padding: 0.9rem 1rem;
+      background: var(--panel);
+      border: 1px solid var(--border);
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    label span.value { color: var(--ink); font-variant-numeric: tabular-nums; }
+    input[type="range"] { width: 100%; accent-color: var(--ink); }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: end;
+      grid-column: 1 / -1;
+    }
+    button, select {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--ink);
+      padding: 0.45rem 0.75rem;
+      font: inherit;
+      cursor: pointer;
+    }
+    button:hover { border-color: var(--ink); }
+    button.active {
+      background: var(--ink);
+      color: var(--bg);
+      border-color: var(--ink);
+    }
+    .hint {
+      width: min(100%, 720px);
+      margin: 0;
+      font-size: 0.8rem;
+      opacity: 0.85;
+    }
+    code { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <h1 id="title">Gray–Scott · two species (fill + outline)</h1>
+  <canvas id="c" width="720" height="221" aria-label="Turing pattern simulation"></canvas>
+
+  <div class="panel">
+    <label>
+      Feed f
+      <span class="value" id="fVal"></span>
+      <input id="f" type="range" min="0.01" max="0.08" step="0.0005" value="0.029" />
+    </label>
+    <label>
+      Kill k
+      <span class="value" id="kVal"></span>
+      <input id="k" type="range" min="0.04" max="0.08" step="0.0005" value="0.057" />
+    </label>
+    <label>
+      Threshold
+      <span class="value" id="thrVal"></span>
+      <input id="thr" type="range" min="0" max="0.9" step="0.01" value="0.09" />
+    </label>
+    <label title="Higher = wider gaps. Full-res sim; diffusion scaled with stable substeps.">
+      Bar spacing
+      <span class="value" id="scaleVal"></span>
+      <input id="scale" type="range" min="0.7" max="2.5" step="0.05" value="2.15" />
+    </label>
+    <label>
+      Steps / frame
+      <span class="value" id="stepsVal"></span>
+      <input id="steps" type="range" min="1" max="32" step="1" value="12" />
+    </label>
+    <label>
+      Stroke width
+      <span class="value" id="strokeVal"></span>
+      <input id="stroke" type="range" min="1" max="4" step="1" value="2" />
+    </label>
+    <label>
+      Fill fraction
+      <span class="value" id="fracVal"></span>
+      <input id="frac" type="range" min="0" max="1" step="0.01" value="0.80" />
+    </label>
+    <label>
+      Competition γ
+      <span class="value" id="compVal"></span>
+      <input id="comp" type="range" min="0" max="1" step="0.01" value="0.35" />
+    </label>
+    <label>
+      Show
+      <select id="mode">
+        <option value="mixed" selected>Both species</option>
+        <option value="fill">Fill species only</option>
+        <option value="outline">Outline species only</option>
+      </select>
+    </label>
+    <label>
+      Palette
+      <select id="palette">
+        <option value="navy" selected>Navy #083A5F on cream</option>
+        <option value="footer">Ivory on black (footer)</option>
+      </select>
+    </label>
+    <div class="actions">
+      <button type="button" id="reset">Reseed</button>
+      <button type="button" id="pause">Pause</button>
+      <button type="button" id="exportSvg">Export SVG</button>
+      <button type="button" class="active" data-preset="labyrinth" id="presetLabyrinth">Your labyrinth</button>
+      <button type="button" data-preset="stylised" id="presetStylised">Stylised spots</button>
+    </div>
+  </div>
+
+  <p class="hint">
+    Full-resolution grid (no upscale blur/blocks). <strong>Bar spacing</strong> scales
+    <code>Du</code>/<code>Dv</code> and takes stable micro-steps so 2×+ stays crisp.
+    Defaults: spacing <code>2.15×</code>, fill <code>80%</code> A. Release spacing to resettle.
+  </p>
+
+  <script>
+(() => {
+  const canvas = document.getElementById("c");
+  const ctx = canvas.getContext("2d", { alpha: false });
+  const W = canvas.width;
+  const H = canvas.height;
+  const N = W * H;
+
+  const NAVY = [8, 58, 95];
+  const CREAM = [247, 244, 238];
+  const IVORY = [248, 240, 238];
+  const CHARCOAL = [20, 18, 18];
+
+  const PALETTES = {
+    navy: { ink: NAVY, bg: CREAM, bodyClass: "" },
+    footer: { ink: IVORY, bg: CHARCOAL, bodyClass: "theme-footer" },
+  };
+
+  const PRESETS = {
+    labyrinth: {
+      f: 0.029, k: 0.057, thr: 0.09, steps: 12,
+      title: "Gray–Scott · two species (fill + outline)",
+    },
+    stylised: {
+      f: 0.035, k: 0.065, thr: 0.14, steps: 14,
+      title: "Gray–Scott · two species · spots",
+    },
+  };
+
+  const Du0 = 0.16;
+  const Dv0 = 0.08;
+
+  let barSpacing = 2.15;
+  let f = PRESETS.labyrinth.f;
+  let k = PRESETS.labyrinth.k;
+  let thr = PRESETS.labyrinth.thr;
+  let stepsPerFrame = PRESETS.labyrinth.steps;
+  let strokeW = 2;
+  let fillFrac = 0.8;
+  let gamma = 0.35;
+  let drawMode = "mixed";
+  let running = true;
+  let paletteKey = "navy";
+  let currentPreset = "labyrinth";
+
+  let U = new Float32Array(N);
+  let A = new Float32Array(N);
+  let B = new Float32Array(N);
+  let Un = new Float32Array(N);
+  let An = new Float32Array(N);
+  let Bn = new Float32Array(N);
+
+  const treat = new Uint8Array(N);
+  const region = new Uint8Array(N);
+  const edgeScratch = new Uint8Array(N);
+  const img = ctx.createImageData(W, H);
+  const px = img.data;
+
+  const fSlider = document.getElementById("f");
+  const kSlider = document.getElementById("k");
+  const thrSlider = document.getElementById("thr");
+  const stepsSlider = document.getElementById("steps");
+  const strokeSlider = document.getElementById("stroke");
+  const scaleSlider = document.getElementById("scale");
+  const fracSlider = document.getElementById("frac");
+  const compSlider = document.getElementById("comp");
+  const modeSelect = document.getElementById("mode");
+  const paletteSelect = document.getElementById("palette");
+  const fVal = document.getElementById("fVal");
+  const kVal = document.getElementById("kVal");
+  const thrVal = document.getElementById("thrVal");
+  const stepsVal = document.getElementById("stepsVal");
+  const strokeVal = document.getElementById("strokeVal");
+  const scaleVal = document.getElementById("scaleVal");
+  const fracVal = document.getElementById("fracVal");
+  const compVal = document.getElementById("compVal");
+  const titleEl = document.getElementById("title");
+
+  function syncLabels() {
+    fVal.textContent = f.toFixed(4);
+    kVal.textContent = k.toFixed(4);
+    thrVal.textContent = thr.toFixed(2);
+    stepsVal.textContent = String(stepsPerFrame);
+    strokeVal.textContent = String(strokeW) + " px";
+    const Du = Du0 * barSpacing;
+    const nMicro = microStepsFor(Du, Dv0 * barSpacing);
+    const feel =
+      barSpacing < 0.95 ? "tighter" : barSpacing > 1.15 ? "looser" : "medium";
+    scaleVal.textContent = `${barSpacing.toFixed(2)}× · ${feel} · ${nMicro} substeps`;
+    fracVal.textContent = Math.round(fillFrac * 100) + "% A";
+    compVal.textContent = gamma.toFixed(2);
+  }
+
+  function applyPalette() {
+    document.body.className = PALETTES[paletteKey].bodyClass;
+  }
+
+  function idx(x, y) {
+    x = (x + W) % W;
+    y = (y + H) % H;
+    return y * W + x;
+  }
+
+  function paintSeed(x, y, r, species) {
+    for (let dy = -r; dy <= r; dy++) {
+      for (let dx = -r; dx <= r; dx++) {
+        if (dx * dx + dy * dy > r * r) continue;
+        const i = idx(x + dx, y + dy);
+        U[i] = 0.5;
+        if (species === "A") {
+          A[i] = 0.25;
+          B[i] = 0;
+        } else {
+          B[i] = 0.25;
+          A[i] = 0;
+        }
+      }
+    }
+  }
+
+  function seed() {
+    U.fill(1);
+    A.fill(0);
+    B.fill(0);
+    // Slightly larger seeds when spacing is large so patterns establish cleanly
+    const r0 = 2 + Math.round(barSpacing);
+    const nBlots = currentPreset === "stylised" ? 40 : 60;
+    for (let n = 0; n < nBlots; n++) {
+      const bx = (Math.random() * W) | 0;
+      const by = (Math.random() * H) | 0;
+      const r = r0 + ((Math.random() * 4) | 0);
+      paintSeed(bx, by, r, Math.random() < fillFrac ? "A" : "B");
+    }
+    if (currentPreset === "labyrinth") {
+      const cx = (W * 0.5) | 0;
+      const cy = (H * 0.5) | 0;
+      const rw = (W * 0.2) | 0;
+      const rh = (H * 0.38) | 0;
+      for (let y = cy - rh; y < cy + rh; y++) {
+        for (let x = cx - rw; x < cx + rw; x++) {
+          if (Math.random() > 0.5) continue;
+          const i = idx(x, y);
+          U[i] = 0.5 + Math.random() * 0.2;
+          if (Math.random() < fillFrac) {
+            A[i] = 0.2 + Math.random() * 0.25;
+            B[i] = 0;
+          } else {
+            B[i] = 0.2 + Math.random() * 0.25;
+            A[i] = 0;
+          }
+        }
+      }
+    }
+  }
+
+  function lap(arr, i, x, y) {
+    return (
+      arr[idx(x - 1, y)] +
+      arr[idx(x + 1, y)] +
+      arr[idx(x, y - 1)] +
+      arr[idx(x, y + 1)] -
+      4 * arr[i]
+    );
+  }
+
+  function microStepsFor(Du, Dv) {
+    const Dmax = Math.max(Du, Dv);
+    // 2D 5-point stencil: need 4*D*dt ≲ 1
+    const dtMax = 0.85 / (4 * Dmax + 1e-9);
+    return Math.max(1, Math.ceil(1 / dtMax));
+  }
+
+  /** Advance ~1 unit of time with enough micro-steps for current Du/Dv. */
+  function step() {
+    const Du = Du0 * barSpacing;
+    const Dv = Dv0 * barSpacing;
+    const nMicro = microStepsFor(Du, Dv);
+    const h = 1 / nMicro;
+    const fk = f + k;
+
+    for (let m = 0; m < nMicro; m++) {
+      for (let y = 0; y < H; y++) {
+        for (let x = 0; x < W; x++) {
+          const i = y * W + x;
+          const u = U[i];
+          const a = A[i];
+          const b = B[i];
+          const uaa = u * a * a;
+          const ubb = u * b * b;
+          const ab = gamma * a * b;
+          Un[i] = u + h * (Du * lap(U, i, x, y) - uaa - ubb + f * (1 - u));
+          An[i] = a + h * (Dv * lap(A, i, x, y) + uaa - fk * a - ab);
+          Bn[i] = b + h * (Dv * lap(B, i, x, y) + ubb - fk * b - ab);
+          if (An[i] < 0) An[i] = 0;
+          if (Bn[i] < 0) Bn[i] = 0;
+          if (Un[i] < 0) Un[i] = 0;
+          if (Un[i] > 1) Un[i] = 1;
+        }
+      }
+      let t = U; U = Un; Un = t;
+      t = A; A = An; An = t;
+      t = B; B = Bn; Bn = t;
+    }
+  }
+
+  function dilateEdges(edgeBuf) {
+    if (strokeW <= 1) return;
+    const src = edgeBuf.slice();
+    const r = strokeW - 1;
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        if (!src[y * W + x]) continue;
+        for (let dy = -r; dy <= r; dy++) {
+          for (let dx = -r; dx <= r; dx++) {
+            if (dx * dx + dy * dy <= r * r) {
+              edgeBuf[idx(x + dx, y + dy)] = 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  function buildRegions() {
+    region.fill(0);
+    treat.fill(0);
+    for (let i = 0; i < N; i++) {
+      const a = A[i];
+      const b = B[i];
+      if (drawMode !== "outline" && a >= thr && a >= b) region[i] = 1;
+      else if (drawMode !== "fill" && b >= thr && b > a) region[i] = 2;
+    }
+    for (let i = 0; i < N; i++) if (region[i] === 1) treat[i] = 1;
+    edgeScratch.fill(0);
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        if (region[i] !== 2) continue;
+        if (
+          region[idx(x - 1, y)] !== 2 ||
+          region[idx(x + 1, y)] !== 2 ||
+          region[idx(x, y - 1)] !== 2 ||
+          region[idx(x, y + 1)] !== 2
+        ) {
+          edgeScratch[i] = 1;
+        }
+      }
+    }
+    dilateEdges(edgeScratch);
+    for (let i = 0; i < N; i++) if (edgeScratch[i]) treat[i] = 2;
+  }
+
+  function setPixel(i, rgb) {
+    const o = i * 4;
+    px[o] = rgb[0];
+    px[o + 1] = rgb[1];
+    px[o + 2] = rgb[2];
+    px[o + 3] = 255;
+  }
+
+  function draw() {
+    const pal = PALETTES[paletteKey];
+    buildRegions();
+    for (let i = 0; i < N; i++) {
+      setPixel(i, treat[i] ? pal.ink : pal.bg);
+    }
+    ctx.putImageData(img, 0, 0);
+  }
+
+  function warmStart() {
+    seed();
+    for (let i = 0; i < 200; i++) step();
+    draw();
+  }
+
+  function frame() {
+    if (running) {
+      for (let s = 0; s < stepsPerFrame; s++) step();
+      draw();
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function applyPreset(name, reseed = true) {
+    currentPreset = name;
+    const p = PRESETS[name];
+    f = p.f; k = p.k; thr = p.thr; stepsPerFrame = p.steps;
+    fSlider.value = f;
+    kSlider.value = k;
+    thrSlider.value = thr;
+    stepsSlider.value = stepsPerFrame;
+    titleEl.textContent = p.title;
+    document.querySelectorAll("[data-preset]").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.preset === name);
+    });
+    syncLabels();
+    if (reseed) warmStart();
+  }
+
+  function rgbHex(rgb) {
+    return "#" + rgb.map((c) => c.toString(16).padStart(2, "0")).join("");
+  }
+
+  function simplifyRDP(pts, eps) {
+    if (pts.length < 3 || eps <= 0) return pts;
+    const keep = new Uint8Array(pts.length);
+    keep[0] = 1;
+    keep[pts.length - 1] = 1;
+    function perpDist(p, a, b) {
+      const dx = b[0] - a[0];
+      const dy = b[1] - a[1];
+      const len2 = dx * dx + dy * dy || 1e-9;
+      const t = ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / len2;
+      const ex = p[0] - (a[0] + t * dx);
+      const ey = p[1] - (a[1] + t * dy);
+      return Math.sqrt(ex * ex + ey * ey);
+    }
+    function rec(i0, i1) {
+      let maxD = 0, maxI = -1;
+      for (let i = i0 + 1; i < i1; i++) {
+        const d = perpDist(pts[i], pts[i0], pts[i1]);
+        if (d > maxD) { maxD = d; maxI = i; }
+      }
+      if (maxD > eps && maxI >= 0) {
+        keep[maxI] = 1;
+        rec(i0, maxI);
+        rec(maxI, i1);
+      }
+    }
+    rec(0, pts.length - 1);
+    return pts.filter((_, i) => keep[i]);
+  }
+
+  function traceContours(kind, simplifyEps) {
+    const visited = new Uint8Array(N);
+    const contours = [];
+    const DX = [1, 1, 0, -1, -1, -1, 0, 1];
+    const DY = [0, 1, 1, 1, 0, -1, -1, -1];
+    function inside(x, y) { return x >= 0 && x < W && y >= 0 && y < H; }
+    function on(x, y) { return inside(x, y) && region[y * W + x] === kind; }
+
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        if (!on(x, y) || visited[y * W + x]) continue;
+        if (on(x - 1, y)) continue;
+        if (on(x + 1, y) && on(x, y - 1) && on(x, y + 1)) continue;
+
+        const pts = [];
+        let cx = x, cy = y, dir = 0, guard = 0;
+        do {
+          pts.push([cx + 0.5, cy + 0.5]);
+          visited[cy * W + cx] = 1;
+          let found = false;
+          const start = (dir + 6) % 8;
+          for (let t = 0; t < 8; t++) {
+            const nd = (start + t) % 8;
+            const nx = cx + DX[nd];
+            const ny = cy + DY[nd];
+            if (on(nx, ny)) {
+              cx = nx; cy = ny; dir = nd; found = true; break;
+            }
+          }
+          if (!found) break;
+          guard++;
+        } while ((cx !== x || cy !== y) && guard < N * 2);
+
+        if (pts.length >= 8) contours.push(simplifyRDP(pts, simplifyEps));
+      }
+    }
+    return contours;
+  }
+
+  function pathD(pts) {
+    if (!pts.length) return "";
+    let d = `M${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
+    for (let i = 1; i < pts.length; i++) d += `L${pts[i][0].toFixed(1)} ${pts[i][1].toFixed(1)}`;
+    return d + "Z";
+  }
+
+  function exportSVG() {
+    buildRegions();
+    const pal = PALETTES[paletteKey];
+    const ink = rgbHex(pal.ink);
+    const bg = rgbHex(pal.bg);
+    const fills = traceContours(1, 1.2);
+    const outlines = traceContours(2, 1.2);
+    const parts = [
+      `<?xml version="1.0" encoding="UTF-8"?>`,
+      `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none">`,
+      `<rect width="${W}" height="${H}" fill="${bg}"/>`,
+      `<g id="species-A-fill" fill="${ink}" stroke="none">`,
+    ];
+    for (const c of fills) {
+      const d = pathD(c);
+      if (d) parts.push(`<path d="${d}"/>`);
+    }
+    parts.push(`</g>`);
+    parts.push(
+      `<g id="species-B-outline" fill="none" stroke="${ink}" stroke-width="${strokeW}" stroke-linejoin="round" stroke-linecap="round">`
+    );
+    for (const c of outlines) {
+      const d = pathD(c);
+      if (d) parts.push(`<path d="${d}"/>`);
+    }
+    parts.push(`</g></svg>`);
+    const blob = new Blob([parts.join("\n")], { type: "image/svg+xml" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "turing-two-species.svg";
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  fSlider.addEventListener("input", () => { f = +fSlider.value; syncLabels(); });
+  kSlider.addEventListener("input", () => { k = +kSlider.value; syncLabels(); });
+  thrSlider.addEventListener("input", () => { thr = +thrSlider.value; syncLabels(); draw(); });
+  stepsSlider.addEventListener("input", () => { stepsPerFrame = +stepsSlider.value; syncLabels(); });
+  strokeSlider.addEventListener("input", () => { strokeW = +strokeSlider.value; syncLabels(); draw(); });
+  scaleSlider.addEventListener("input", () => {
+    barSpacing = +scaleSlider.value;
+    syncLabels();
+  });
+  scaleSlider.addEventListener("change", () => {
+    barSpacing = +scaleSlider.value;
+    syncLabels();
+    warmStart();
+  });
+  fracSlider.addEventListener("input", () => { fillFrac = +fracSlider.value; syncLabels(); });
+  fracSlider.addEventListener("change", () => {
+    fillFrac = +fracSlider.value;
+    warmStart();
+  });
+  compSlider.addEventListener("input", () => { gamma = +compSlider.value; syncLabels(); });
+  modeSelect.addEventListener("change", () => { drawMode = modeSelect.value; draw(); });
+  paletteSelect.addEventListener("change", () => {
+    paletteKey = paletteSelect.value;
+    applyPalette();
+    draw();
+  });
+
+  document.getElementById("reset").addEventListener("click", () => warmStart());
+  document.getElementById("pause").addEventListener("click", (e) => {
+    running = !running;
+    e.target.textContent = running ? "Pause" : "Resume";
+  });
+  document.getElementById("exportSvg").addEventListener("click", () => {
+    running = false;
+    document.getElementById("pause").textContent = "Resume";
+    exportSVG();
+  });
+  document.getElementById("presetStylised").addEventListener("click", () => applyPreset("stylised"));
+  document.getElementById("presetLabyrinth").addEventListener("click", () => applyPreset("labyrinth"));
+
+  applyPalette();
+  syncLabels();
+  applyPreset("labyrinth", true);
+  requestAnimationFrame(frame);
+})();
+  </script>
+</body>
+</html>
