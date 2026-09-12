@@ -178,8 +178,8 @@
     <label>
       Domain
       <select id="domain">
-        <option value="full" selected>Full field</option>
-        <option value="corner">Natural corner</option>
+        <option value="full">Full field</option>
+        <option value="corner" selected>Natural corner</option>
       </select>
     </label>
     <label id="cornerLabel">
@@ -257,7 +257,7 @@
   let running = true;
   let paletteKey = "navy";
   let currentPreset = "labyrinth";
-  let domainMode = "full"; // "full" | "corner"
+  let domainMode = "corner"; // "full" | "corner"
   let cornerKey = "br"; // tl | tr | bl | br
   let edgeSoft = 0.28; // fraction of diagonal for soft fringe
   // Extra kill outside the mask (applied as (1-M)*maskDecay*activator)
