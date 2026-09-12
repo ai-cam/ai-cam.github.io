@@ -98,11 +98,19 @@
       opacity: 0.85;
     }
     code { color: var(--ink); }
+    .perf {
+      width: min(100%, 720px);
+      margin: 0;
+      font: 12px/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: var(--ui);
+      opacity: 0.9;
+    }
   </style>
 </head>
 <body>
   <h1 id="title">Gray–Scott · two species (fill + outline)</h1>
   <canvas id="c" width="720" height="221" aria-label="Turing pattern simulation"></canvas>
+  <p class="perf" id="perf" aria-live="polite">profiling…</p>
 
   <div class="panel">
     <label>
@@ -125,10 +133,17 @@
       <span class="value" id="scaleVal"></span>
       <input id="scale" type="range" min="0.7" max="2.5" step="0.05" value="2.15" />
     </label>
-    <label>
+    <label title="Target unit-steps per animation frame. Auto budget caps work to keep FPS up.">
       Steps / frame
       <span class="value" id="stepsVal"></span>
-      <input id="steps" type="range" min="1" max="32" step="1" value="12" />
+      <input id="steps" type="range" min="1" max="32" step="1" value="4" />
+    </label>
+    <label title="Cap simulation work per frame (~14ms) so the UI stays responsive">
+      Speed mode
+      <select id="speedMode">
+        <option value="auto" selected>Auto budget (smooth)</option>
+        <option value="fixed">Fixed steps (may hitch)</option>
+      </select>
     </label>
     <label>
       Stroke width
@@ -195,7 +210,7 @@
     <code>Du</code>/<code>Dv</code> and takes stable micro-steps so 2×+ stays crisp.
     <strong>Natural corner</strong> damps activators inside the PDE with a soft radial mask
     so the silhouette frays organically rather than clipping. Defaults: spacing
-    <code>2.15×</code>, fill <code>80%</code> A. Release spacing / domain to resettle.
+    <code>2.15×</code>, fill <code>80%</code> A, auto frame budget. Release spacing / domain to resettle.
   </p>
 
   <script>
@@ -218,11 +233,11 @@
 
   const PRESETS = {
     labyrinth: {
-      f: 0.029, k: 0.057, thr: 0.09, steps: 12,
+      f: 0.029, k: 0.057, thr: 0.09, steps: 4,
       title: "Gray–Scott · two species (fill + outline)",
     },
     stylised: {
-      f: 0.035, k: 0.065, thr: 0.14, steps: 14,
+      f: 0.035, k: 0.065, thr: 0.14, steps: 4,
       title: "Gray–Scott · two species · spots",
     },
   };
@@ -259,8 +274,22 @@
   const treat = new Uint8Array(N);
   const region = new Uint8Array(N);
   const edgeScratch = new Uint8Array(N);
+  const edgeSrc = new Uint8Array(N);
   const img = ctx.createImageData(W, H);
   const px = img.data;
+
+  // Perf / frame budget
+  let speedMode = "auto"; // auto | fixed
+  const FRAME_BUDGET_MS = 14;
+  let perfStepMs = 0;
+  let perfDrawMs = 0;
+  let perfFps = 0;
+  let perfDid = 0;
+  let perfMicro = 1;
+  let framesTimed = 0;
+  let fpsWindowStart = performance.now();
+  const perfEl = document.getElementById("perf");
+  const speedSelect = document.getElementById("speedMode");
 
   const fSlider = document.getElementById("f");
   const kSlider = document.getElementById("k");
@@ -424,16 +453,6 @@
     }
   }
 
-  function lap(arr, i, x, y) {
-    return (
-      arr[idx(x - 1, y)] +
-      arr[idx(x + 1, y)] +
-      arr[idx(x, y - 1)] +
-      arr[idx(x, y + 1)] -
-      4 * arr[i]
-    );
-  }
-
   function microStepsFor(Du, Dv) {
     const Dmax = Math.max(Du, Dv);
     // 2D 5-point stencil: need 4*D*dt ≲ 1
@@ -441,55 +460,114 @@
     return Math.max(1, Math.ceil(1 / dtMax));
   }
 
+  /** One Euler micro-step, periodic BC, inlined interior + border. */
+  function microStepPeriodic(h, Du, Dv, fk) {
+    // Interior: direct 4-neighbour indexing (no function calls)
+    for (let y = 1; y < H - 1; y++) {
+      const row = y * W;
+      for (let x = 1; x < W - 1; x++) {
+        const i = row + x;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const lu = U[i - 1] + U[i + 1] + U[i - W] + U[i + W] - 4 * u;
+        const la = A[i - 1] + A[i + 1] + A[i - W] + A[i + W] - 4 * a;
+        const lb = B[i - 1] + B[i + 1] + B[i - W] + B[i + W] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    // Borders with wrap
+    for (let y = 0; y < H; y++) {
+      for (let x = 0; x < W; x++) {
+        if (y > 0 && y < H - 1 && x > 0 && x < W - 1) continue;
+        const i = y * W + x;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const xm = x === 0 ? W - 1 : x - 1;
+        const xp = x === W - 1 ? 0 : x + 1;
+        const ym = y === 0 ? H - 1 : y - 1;
+        const yp = y === H - 1 ? 0 : y + 1;
+        const lu = U[y * W + xm] + U[y * W + xp] + U[ym * W + x] + U[yp * W + x] - 4 * u;
+        const la = A[y * W + xm] + A[y * W + xp] + A[ym * W + x] + A[yp * W + x] - 4 * a;
+        const lb = B[y * W + xm] + B[y * W + xp] + B[ym * W + x] + B[yp * W + x] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    let t = U; U = Un; Un = t;
+    t = A; A = An; An = t;
+    t = B; B = Bn; Bn = t;
+  }
+
+  /** One Euler micro-step, clamped BC + soft domain mask. */
+  function microStepCorner(h, Du, Dv, fk) {
+    for (let y = 0; y < H; y++) {
+      const ym = y > 0 ? y - 1 : 0;
+      const yp = y < H - 1 ? y + 1 : H - 1;
+      for (let x = 0; x < W; x++) {
+        const i = y * W + x;
+        const mi = M[i];
+        if (mi < 0.02) {
+          Un[i] = 1; An[i] = 0; Bn[i] = 0;
+          continue;
+        }
+        const xm = x > 0 ? x - 1 : 0;
+        const xp = x < W - 1 ? x + 1 : W - 1;
+        const u = U[i], a = A[i], b = B[i];
+        const uaa = u * a * a, ubb = u * b * b, ab = gamma * a * b;
+        const damp = maskDecay * (1 - mi);
+        const lu = U[y * W + xm] + U[y * W + xp] + U[ym * W + x] + U[yp * W + x] - 4 * u;
+        const la = A[y * W + xm] + A[y * W + xp] + A[ym * W + x] + A[yp * W + x] - 4 * a;
+        const lb = B[y * W + xm] + B[y * W + xp] + B[ym * W + x] + B[yp * W + x] - 4 * b;
+        let nu = u + h * (Du * lu - uaa - ubb + f * (1 - u) + damp * (1 - u));
+        let na = a + h * (Dv * la + uaa - fk * a - ab - damp * a);
+        let nb = b + h * (Dv * lb + ubb - fk * b - ab - damp * b);
+        if (na < 0) na = 0;
+        if (nb < 0) nb = 0;
+        if (nu < 0) nu = 0;
+        else if (nu > 1) nu = 1;
+        Un[i] = nu; An[i] = na; Bn[i] = nb;
+      }
+    }
+    let t = U; U = Un; Un = t;
+    t = A; A = An; An = t;
+    t = B; B = Bn; Bn = t;
+  }
+
   /** Advance ~1 unit of time with enough micro-steps for current Du/Dv. */
   function step() {
     const Du = Du0 * barSpacing;
     const Dv = Dv0 * barSpacing;
     const nMicro = microStepsFor(Du, Dv);
+    perfMicro = nMicro;
     const h = 1 / nMicro;
     const fk = f + k;
-    const corner = domainMode === "corner";
-
-    for (let m = 0; m < nMicro; m++) {
-      for (let y = 0; y < H; y++) {
-        for (let x = 0; x < W; x++) {
-          const i = y * W + x;
-          const u = U[i];
-          const a = A[i];
-          const b = B[i];
-          const uaa = u * a * a;
-          const ubb = u * b * b;
-          const ab = gamma * a * b;
-          const mi = M[i];
-          // Soft domain: extra activator kill outside the mask + substrate reset
-          const damp = corner ? maskDecay * (1 - mi) : 0;
-          Un[i] = u + h * (Du * lap(U, i, x, y) - uaa - ubb + f * (1 - u) + damp * (1 - u));
-          An[i] = a + h * (Dv * lap(A, i, x, y) + uaa - fk * a - ab - damp * a);
-          Bn[i] = b + h * (Dv * lap(B, i, x, y) + ubb - fk * b - ab - damp * b);
-          if (An[i] < 0) An[i] = 0;
-          if (Bn[i] < 0) Bn[i] = 0;
-          if (Un[i] < 0) Un[i] = 0;
-          if (Un[i] > 1) Un[i] = 1;
-          if (corner && mi < 0.02) {
-            An[i] = 0;
-            Bn[i] = 0;
-            Un[i] = 1;
-          }
-        }
-      }
-      let t = U; U = Un; Un = t;
-      t = A; A = An; An = t;
-      t = B; B = Bn; Bn = t;
+    if (domainMode === "corner") {
+      for (let m = 0; m < nMicro; m++) microStepCorner(h, Du, Dv, fk);
+    } else {
+      for (let m = 0; m < nMicro; m++) microStepPeriodic(h, Du, Dv, fk);
     }
   }
 
   function dilateEdges(edgeBuf) {
     if (strokeW <= 1) return;
-    const src = edgeBuf.slice();
+    edgeSrc.set(edgeBuf);
     const r = strokeW - 1;
     for (let y = 0; y < H; y++) {
       for (let x = 0; x < W; x++) {
-        if (!src[y * W + x]) continue;
+        if (!edgeSrc[y * W + x]) continue;
         for (let dy = -r; dy <= r; dy++) {
           for (let dx = -r; dx <= r; dx++) {
             if (dx * dx + dy * dy <= r * r) {
@@ -550,14 +628,57 @@
   function warmStart() {
     rebuildMask();
     seed();
-    for (let i = 0; i < 200; i++) step();
+    // Cap warm-up work so reseeding stays interactive (~same cost as ~0.5s budget)
+    const t0 = performance.now();
+    let n = 0;
+    while (n < 120 && performance.now() - t0 < 280) {
+      step();
+      n++;
+    }
     draw();
+    updatePerfLabel(n, performance.now() - t0, 0, true);
   }
 
-  function frame() {
+  function updatePerfLabel(didSteps, stepMs, drawMs, isWarm) {
+    const Du = Du0 * barSpacing;
+    const Dv = Dv0 * barSpacing;
+    const nMicro = microStepsFor(Du, Dv);
+    const prefix = isWarm ? "warm " : "";
+    perfEl.textContent =
+      `${prefix}fps ${perfFps.toFixed(0)} · step ${stepMs.toFixed(1)}ms` +
+      ` (${didSteps}×${nMicro}µ) · draw ${drawMs.toFixed(1)}ms` +
+      ` · ${speedMode} · ${domainMode}`;
+  }
+
+  function frame(now) {
     if (running) {
-      for (let s = 0; s < stepsPerFrame; s++) step();
+      const tStep0 = performance.now();
+      let did = 0;
+      if (speedMode === "auto") {
+        while (did < stepsPerFrame && performance.now() - tStep0 < FRAME_BUDGET_MS) {
+          step();
+          did++;
+        }
+        if (did === 0) { step(); did = 1; }
+      } else {
+        for (let s = 0; s < stepsPerFrame; s++) step();
+        did = stepsPerFrame;
+      }
+      perfStepMs = performance.now() - tStep0;
+      perfDid = did;
+
+      const tDraw0 = performance.now();
       draw();
+      perfDrawMs = performance.now() - tDraw0;
+
+      framesTimed++;
+      const elapsed = now - fpsWindowStart;
+      if (elapsed >= 500) {
+        perfFps = (framesTimed * 1000) / elapsed;
+        framesTimed = 0;
+        fpsWindowStart = now;
+        updatePerfLabel(perfDid, perfStepMs, perfDrawMs, false);
+      }
     }
     requestAnimationFrame(frame);
   }
@@ -729,6 +850,9 @@
     paletteKey = paletteSelect.value;
     applyPalette();
     draw();
+  });
+  speedSelect.addEventListener("change", () => {
+    speedMode = speedSelect.value;
   });
   domainSelect.addEventListener("change", () => {
     domainMode = domainSelect.value;
