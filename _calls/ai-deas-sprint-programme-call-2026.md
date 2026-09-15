@@ -1,7 +1,7 @@
 ---
 slug: ai-deas-sprint-programme-call-2026
 title: AI-deas Sprint Programme Call 2026
-call_categories: Open Calls
+call_categories: Past Calls
 cover_image: /assets/images/uploads/ai-deas-resized.jpg
 call_date: 2026-06-16
 application_deadline: 2026-09-14

@@ -2,7 +2,7 @@
 title: "Training Workshop: Generative AI"
 excerpt: " "
 cover_image: /assets/images/uploads/accelerate-even-promo-4-.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Generative AI is transforming fields by enabling machines to create text,
   images, molecules, proteins. This course provides an introduction to
