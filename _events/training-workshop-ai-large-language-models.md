@@ -2,7 +2,7 @@
 title: "Training Workshop: AI & Large Language Models"
 excerpt: " "
 cover_image: /assets/images/uploads/accelerate-even-promo-4-.png
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   Accelerate Science are running a 1-day workshop designed to equip you with
   knowledge of large language models (LLMs) for use in scientific research. The
