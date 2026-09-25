@@ -8,7 +8,7 @@ Software as a Medical Device (SaMD) is software intended to perform a medical pu
 
 However, for the innovators behind these tools, it’s not just the research that’s a challenge. Like other medical devices, SaMD must meet clear regulatory requirements. This normally requires controlled technical documentation demonstrating that the software has been designed and is safe to perform as intended.
 
-Depending on the device and regulatory pathway, this documentation may include dozens of controlled records covering quality management, clinical evaluation, risk management and cybersecurity. Preparing this material may require substantial input from researchers, software developers, quality specialists, clinicians and regulatory professionals.
+Depending on the device and regulatory pathway, this documentation may include dozens of controlled records covering quality management, clinical evaluation and cybersecurity. Preparing this material may require substantial input from researchers, software developers, quality specialists, clinicians and regulatory professionals.
 
 “There are multiple layers of risk management and assessment throughout the process,” explains Reza Salek, MedTech Translational Research Programme Manager at the Office of Translational Research. “These are highly document-intensive and cumbersome. And the required quality and regulatory expertise is often outside the domain expertise of the researchers.”
 
