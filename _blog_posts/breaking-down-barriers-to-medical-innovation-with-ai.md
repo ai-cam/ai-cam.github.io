@@ -34,10 +34,10 @@ To ensure accuracy, the Workbench provides source references for generated secti
 
 The potential time savings could be significant, allowing researchers to spend less time on administrative tasks and more time advancing their research. The AI-enabled Workbench is intended to reduce the effort required for initial drafting and subsequent revision cycles.
 
-“The process can move faster, but quality still takes time,” says Reza. “The real question is how you choose to spend that time. If routine drafting tasks can be completed more quickly, researchers and regulatory specialists can concentrate on the scientific evidence, risk decisions and quality assurance that require expert judgement.”
+“The process can move faster, but quality still takes time,” says Reza. “The real question is how you choose to spend that time. If routine drafting tasks can be completed more quickly, researchers and regulatory specialists can concentrate on the quality assurance that require expert judgement.”
 
-Funding through the AI for Ops programme enabled Reza and his team to evaluate and develop AI-enabled tools that help researchers with regulatory pathway planning and evidence-grounded technical-documentation preparation, without weakening governance or expert oversight.
+Funding through the AI for Ops programme has enabled Reza and his team to evaluate and develop AI-enabled tools that help researchers with regulatory pathway planning without weakening governance or expert oversight.
 
 By evaluating a range of approaches, they have created a set of tools intended to make regulatory planning and documentation preparation faster, more consistent and easier for researchers to navigate. Looking ahead, the SaMD Tech-file Workbench could support other University departments developing regulated digital products.
 
-“This opportunity has given me the freedom to test and identify what works best, rather than being limited by the subscription, API and token-usage costs associated with evaluating different LLM tools,” says Reza. “It removed some of the pressure of deciding which tools to invest in and allows me to focus on developing the best possible solution for the University and its researchers.”
+“This opportunity has given me the freedom to test and identify what works best, rather than being limited by the subscription, API and token-usage costs associated with evaluating different LLM tools,” says Reza. “It removed some of the pressure around deciding which tools to invest in and allows me to focus on developing the best possible solution for the University and its researchers.”
