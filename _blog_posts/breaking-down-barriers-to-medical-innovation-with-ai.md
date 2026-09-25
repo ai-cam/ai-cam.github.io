@@ -1,7 +1,7 @@
 ---
 title: Breaking down barriers to medical innovation with AI
 date: 2026-09-25
-cover_image: /assets/images/uploads/getty-images-dk9ysm6kojc-unsplash-1-.jpg
+cover_image: /assets/images/uploads/accuray-5sdrgl2prnm-unsplash-1-.jpg
 alternative_image: ""
 ---
 Software as a Medical Device (SaMD) is software intended to perform a medical purpose, such as supporting diagnosis, monitoring or treatment, without being part of a hardware medical device. These innovations range from software that analyses CT images to help identify tumours to applications that interpret physiological measurements, such as heart rhythm. Around two dozen SaMD projects are currently being developed across the University of Cambridge and Cambridge University Hospitals NHS Foundation Trust.
