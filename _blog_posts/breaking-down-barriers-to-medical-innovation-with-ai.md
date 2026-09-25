@@ -14,13 +14,13 @@ Depending on the device and regulatory pathway, this documentation may include d
 
 The scale of the work varies substantially according to the device’s intended purpose and target market. External regulatory support can also be expensive, particularly when extensive documentation must be created retrospectively or when evidence and development records are incomplete.
 
-Cost of compliance
+**Cost of compliance**
 
 “Every time significant deficiencies are identified, resolving them can be expensive and time-consuming,” says Reza, who likens the process to the high stakes of taking a driving test. “If you do not pass, you can’t retake the test right away – and you have to spend a lot of time and money going through that whole process again.”
 
 To overcome this roadblock, Reza and his team in the University’s School of Clinical Medicine have developed two complementary AI-enabled tools. RegPathfinder supports early-stage SaMD projects by structuring product information, exploring potential regulatory pathways and identifying evidence gaps for expert review.
 
-SaMD Tech-file Workbench is an AI-enabled copilot that uses project evidence to support the preparation, review and traceability of technical documentation. Supported by ai@cam’s AI for Ops programme, these tools aim to reduce the time spent on initial drafting and document assembly, while improving consistency, traceability and readiness for expert review, ultimately helping medical innovations reach patients more quickly and efficiently.
+SaMD Tech-file Workbench complements this by using project evidence to support the preparation and review of technical documentation, while maintaining traceability between evidence and outputs. Developed with support from ai@cam’s AI for Ops programme, the tools are designed to reduce the time spent on initial drafting and document assembly, while improving consistency, traceability and readiness for expert review. Together, they could help medical innovations navigate the regulatory process more efficiently and ultimately reach patients sooner.
 
 “If these tools can help learners become test-ready in two lessons instead of six, imagine the time and money it could save,” says Reza. “That’s exactly what we’re trying to achieve: identifying gaps earlier, reducing avoidable rework and helping projects prepare more effectively.” The goal is to make regulatory planning and documentation preparation more structured and repeatable, reducing administrative burden while preserving the scientific and regulatory judgement required.
 
