@@ -1,5 +1,4 @@
 ---
-slug: conservation-co-pilot-making-environmental-evidence-accessible
 title: "Conservation Co-pilot: Making Environmental Evidence Accessible"
 project_date: ""
 description: "  "
@@ -24,5 +23,8 @@ authors:
   - name: William Sutherland
     photo: /assets/images/uploads/sutherland_bill-1-.jpg
     role: Department of Zoology
+slug: conservation-co-pilot-making-environmental-evidence-accessible
+videos:
+  - video_link: https://www.youtube.com/watch?v=j9b3_stSB8M
 ---
 With over 1 million users already accessing the Conservation Evidence database, this project will develop the first ‘Conservation Co-pilot’ – an AI-powered chat interface that retrieves, summarises, and presents conservation evidence to answer user questions. The challenge is ensuring that AI faithfully represents scientific evidence without misrepresentation. Building on rigorous evaluation research comparing frontier AI models with human experts, the team will create an agentic system that draws together evidence while maintaining faithfulness to source material. The tool will be game-changing for conservation decision-makers seeking evidence to guide action.
