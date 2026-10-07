@@ -3,7 +3,7 @@ slug: ai-for-local-government-show-and-tell-autumn-2026-edition
 title: AI for Local Government Show and Tell (Autumn 2026 Edition)
 excerpt: " "
 cover_image: /assets/images/uploads/ai-for-local-goverment-event-cambridge.jpeg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   On Tuesday 6 October, ai@cam is convening a workshop for local government
   staff exploring how AI is being used to support public service delivery.
