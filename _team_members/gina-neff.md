@@ -23,8 +23,7 @@ biography: Gina Neff is the Executive Director of the Minderoo Centre for
   Neff led the team that won the 2021 Webby for the best educational website on
   the Internet, for the A to Z of AI, which has reached over 1 million people in
   17 different languages.
-department: Minderoo Centre for Technology & Democracy; Centre for Research in
-  the Arts, Humanities and Social Sciences (CRASSH)
+department: "Minderoo Centre for Technology & Democracy"
 contact: https://www.mctd.ac.uk/team-members/gina-neff/
 team_categories:
   - Steering Group
