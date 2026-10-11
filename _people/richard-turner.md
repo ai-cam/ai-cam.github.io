@@ -3,7 +3,7 @@ slug: richard-turner
 title: Richard Turner
 photo: /assets/images/uploads/rich-square_0-1-.png
 job_title: Professor of Machine Learning
-department: "Department of Engineering; The Alan Turing Institute"
+department: "Department of Engineering"
 biography: >-
   Dr. Turner is a Professor of Machine Learning in the Department of Engineering
   at the University of Cambridge and Research Lead, AI for Weather Prediction,
