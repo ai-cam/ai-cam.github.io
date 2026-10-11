@@ -19,8 +19,7 @@ biography: >-
 
 
   He has been the lead supervisor for 26 PhD students (13 now graduated) and seven Research Assistants and Associates. He has received over £10M of industrial funding from Microsoft, Toyota, Google, DeepMind, Amazon, and Improbable and over £15M of funding from the EPSRC as Principal or Co-investigator. Dr. Turner has been awarded the Cambridge Students’ Union Teaching Award for Lecturing. His work has featured on BBC Radio 5 Live’s The Naked Scientist, BBC World Service’s Click and in Wired Magazine.
-department: /
-contact: /
+department: "Department of Engineering; The Alan Turing Institute"
 team_categories:
   - Steering Group
 ---

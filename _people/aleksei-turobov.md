@@ -2,19 +2,28 @@
 slug: aleksei-turobov
 title: Aleksei Turobov
 photo: /assets/images/uploads/aleksei-turobov.jpg
-job_title: Research Associate
-department: Bennett Institute for Public Policy, Department of Politics and
-  International Studies
+job_title: Assistant Professor
+department: Bennett School of Public Policy
 biography: >-
-  Dr Aleksei Turobov is a Research Associate at the Bennett Institute for Public
-  Policy, University of Cambridge, working on the AIxGeo project, investigating
-  the global governance landscape of Artificial Intelligence (AI). His research
-  centres around the intersection of AI policy, geopolitics, and security,
-  particularly emphasising the socio-political implications of digital
-  transformation. Additionally, he is interested in evaluating institutional AI
-  readiness and adaptation using machine learning.\
+  Dr Aleksei Turobov is an Assistant Professor at the Bennett School of Public
+  Policy. His research examines the critical gap between the global ambitions of
+  AI policy and the practical realities of its implementation.
 
-  \
 
-  He was previously a Postdoctoral Fellow in Cybersecurity and Technology Policy at Northumbria University, where he explored how the digital sovereignty narrative shapes and influences UK politics in the face of geopolitical tensions and post-Brexit challenges. Aleksei holds a doctoral degree in Political Science focused on security transformation under digitalisation and automation technologies (notably AI).
+  He leads research for the AIxGeo project, using a mixed-methods approach that
+  combines AI-driven thematic analysis with network analysis to map the emergent
+  coalitions and narratives shaping international AI policy and governance. Dr
+  Turobov argues that the success of global governance hinges on the granular
+  details of AI institutional capacity. This conviction drives his work on the
+  adoption of Large Language Models (LLMs) within the UK civil service, where he
+  evaluates the ‘expectation-capability gap’ and develops frameworks for
+  responsible implementation.
+
+
+  By connecting global strategy to institutional practice, his work generates an
+  evidence-based understanding of how institutions can adapt in the age of AI,
+  informing his ongoing work on evaluating institutional AI adaptation using
+  machine learning. He holds a PhD in Political Science and was previously a
+  Postdoctoral Fellow in Cybersecurity and Technology Policy at Northumbria
+  University.
 ---

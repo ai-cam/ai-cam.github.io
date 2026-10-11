@@ -3,6 +3,7 @@ slug: richard-mcmahon
 title: Richard McMahon
 photo: /assets/images/uploads/richardmcmahon_headshot_2022.jpeg
 job_title: Professor of Astronomy
+department: Institute of Astronomy
 biography: >-
   Richard McMahon is Professor of Astronomy at the University of Cambridge.
 
