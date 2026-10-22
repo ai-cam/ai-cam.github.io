@@ -1,9 +1,9 @@
 ---
 title: "From safer workplaces to medieval manuscripts: five new AI-deas projects
   put AI to work on real-world problems"
-excerpt: Five new projects will explore how AI can help tackle problems ranging
-  from technology-enabled domestic abuse and workplace safety to air pollution,
-  plant conservation, and the reconstruction of medieval manuscripts.
+excerpt: Five new AI-dea Sprints will explore how AI can help tackle problems
+  ranging from technology-enabled domestic abuse and workplace safety to air
+  pollution.
 cover_image: /assets/images/uploads/ai-bootcamp-2026.jpg
 date: 2026-10-22
 ---
