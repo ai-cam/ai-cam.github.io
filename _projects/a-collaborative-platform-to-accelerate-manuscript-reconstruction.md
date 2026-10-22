@@ -1,8 +1,6 @@
 ---
 title: "A collaborative platform to accelerate manuscript reconstruction "
-description: "When ancient and medieval books break apart, individual leaves and
-  fragments can become scattered between libraries and collections around the
-  world. The platform will help scholars identify possible matches. "
+description: " "
 cover_image: /assets/images/uploads/tanner-mardis-xuxghzhibn4-unsplash.jpg
 project_categories: Sprints
 sprint_cohort: "2026"
