@@ -1,9 +1,7 @@
 ---
 title: "BGsmartR Curator: a conversational AI curator for the world’s living
   plant collections"
-description: Botanic gardens collectively hold more than 100,000 plant species,
-  including many threatened with extinction. BGsmartR Curator will help curators
-  to ask questions about their collections in everyday language.
+description: " "
 cover_image: /assets/images/uploads/jonas-denil-vhwwmuwgorw-unsplash.jpg
 project_categories: Sprints
 sprint_cohort: "2026"
