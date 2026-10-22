@@ -17,13 +17,13 @@ This year’s projects span different fields, but share a practical focus: using
 
 The five projects are:
 
-**Supporting frontline responses to technology-enabled abuse**
+**[Supporting frontline responses to technology-enabled abuse](https://www.ai.cam.ac.uk/projects/supporting-frontline-responses-to-technology-enabled-abuse/)**
 
 Digital technologies have created new routes through which perpetrators of intimate partner abuse can monitor, locate, and contact survivors. Frontline domestic-abuse practitioners increasingly need to understand these risks as part of safety planning, but many lack specialist technical knowledge.
 
 Led by **Hannah Pankow**, this project will develop a practitioner-facing tool to help workers and survivors map their digital exposure and develop a staged safety plan. The system will bring together technical, legal, and safeguarding knowledge to support practitioners' judgement, including identifying possible routes of access and situations where specialist help is needed. The tool will be co-designed and tested with Cambridge Women’s Aid and lived-experience advisers.
 
-**Second Ahead: Predictive Safety**
+**[Second Ahead: Predictive Safety](https://www.ai.cam.ac.uk/projects/second-ahead-predictive-safety/)**
 
 In construction, manufacturing, and logistics, a momentary lapse in attention while operating heavy machinery can have serious consequences. Existing monitoring systems tend to identify visible signs of fatigue or respond once unsafe behaviour has already begun.
 
@@ -31,7 +31,7 @@ In construction, manufacturing, and logistics, a momentary lapse in attention wh
 
 The team will initially focus on forklift operations, testing the approach with industrial partners in manufacturing and construction. Raw video will be processed locally and discarded, with the project also examining how biometric monitoring can be designed around workplace privacy.
 
-**Mapping the quality of the air we breathe**
+**[Mapping the quality of the air we breathe](https://www.ai.cam.ac.uk/projects/air-pollution-inverse-modelling-for-decision-support/)**
 
 Greater Cambridge is expected to grow substantially over the coming decades, creating difficult questions about how changes to transport and the built environment will affect air quality. Although the city already has a network of air-quality sensors, measurements are unevenly distributed and changes at a particular location can be difficult to attribute to a policy intervention rather than weather, traffic, or other factors.
 
@@ -39,7 +39,7 @@ Led by **Dr William Lee** in partnership with the Greater Cambridge Partnershi
 
 The longer-term ambition is to give local decision-makers a way to compare proposed interventions and understand the strength of the evidence behind their likely effects.
 
-**A collaborative platform to accelerate manuscript reconstruction** 
+[**A collaborative platform to accelerate manuscript reconstruction** ](https://www.ai.cam.ac.uk/projects/a-collaborative-platform-to-accelerate-manuscript-reconstruction/)
 
 Hundreds of thousands of fragments from ancient and medieval manuscripts are dispersed between libraries and collections around the world. Finding fragments that once belonged to the same book can involve painstaking comparisons by expert researchers.
 
@@ -47,7 +47,7 @@ Hundreds of thousands of fragments from ancient and medieval manuscripts are dis
 
 The project will initially work with the Cairo Genizah, a collection of around 350,000 medieval Hebrew and Judeo-Arabic manuscript fragments, around 60% of which are held by Cambridge University Library. The team will scale an existing prototype to work across the collection and create a shared workspace through which scholars can build and document reconstructed manuscripts.
 
-**BGsmartR Curator: helping botanic gardens make better use of their collections**
+**[BGsmartR Curator: helping botanic gardens make better use of their collections](https://www.ai.cam.ac.uk/projects/bgsmartr-curator-a-conversational-ai-curator-for-the-world-s-living-plant-collections/)**
 
 The world’s botanic gardens collectively hold more than 100,000 plant species, including many threatened with extinction. They also hold large amounts of data about those living collections, but smaller gardens in particular often lack the specialist staff and tools needed to turn those records into decisions about what to conserve, acquire, or share.
 
