@@ -69,40 +69,14 @@ permalink: /projects/
             {% endif %}
         </ul>
 
-        <div class="row" id="projects-container">
-            {% if site.project_categories %}
-                {% assign first_category = site.project_categories | first %}
-                {% assign first_category_name = first_category.data.name | default: first_category.name %}
-            {% else %}
-                {% assign first_category = site.collections.project_categories.docs | first %}
-                {% assign first_category_name = first_category.data.name | default: first_category.name %}
-            {% endif %}
-            {% if first_category_name %}
-                {% assign filtered_projects = site.projects | where: 'project_categories', first_category_name %}
-            {% else %}
-                {% assign filtered_projects = site.projects %}
-            {% endif %}
-            {% assign sorted_projects = filtered_projects | sort: 'title' %}
-            {% for project in sorted_projects %}
-                <div class="col-lg-4 d-flex" data-project-id="{{ project.slug }}">
-                    <div class="item flex-fill">
-                        {% if project.cover_image %}
-                        <a href="{{ project.url }}">
-                            <img src="{{ project.cover_image | relative_url }}" class="main-img" alt="{{ project.title }}">
-                        </a>
-                        {% endif %}
-
-                        <div class="text">
-                            {% if project.title %}
-                            <a href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
-                            {% endif %}
-
-                            <a href="{{ project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
+        {% if site.project_categories %}
+            {% assign first_category = site.project_categories | first %}
+            {% assign first_category_name = first_category.data.name | default: first_category.name %}
+        {% else %}
+            {% assign first_category = site.collections.project_categories.docs | first %}
+            {% assign first_category_name = first_category.data.name | default: first_category.name %}
+        {% endif %}
+        {% include projects-grid.html category_name=first_category_name %}
     </div>
  </section>
 <!-- Projects Page Content End -->

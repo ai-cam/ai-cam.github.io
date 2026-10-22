@@ -6,6 +6,7 @@ description: Botanic gardens collectively hold more than 100,000 plant species,
   to ask questions about their collections in everyday language.
 cover_image: /assets/images/uploads/jonas-denil-vhwwmuwgorw-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2026"
 ---
 Botanic gardens collectively hold more than 100,000 plant species, including many threatened with extinction. They also hold extensive data about their collections, but turning those records into decisions about conservation and collections management requires specialist analytical expertise that many gardens do not have.
 

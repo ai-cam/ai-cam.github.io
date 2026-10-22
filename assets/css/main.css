@@ -6955,6 +6955,20 @@ form:invalid button[type=submit] {
   color: var(--primary-color);
   margin-bottom: 34px;
 }
+.projects-page-content .cohort-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 24px;
+}
+@media (max-width: 992px) {
+  .projects-page-content .cohort-heading {
+    font-size: 22px;
+  }
+}
+.projects-page-content .projects-container + .cohort-heading {
+  margin-top: 48px;
+}
 @media (max-width: 992px) {
   .projects-page-content h2 {
     font-size: 28px;

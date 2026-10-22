@@ -6,6 +6,7 @@ description: Loss of attention when operating vehicles and heavy machinery can
   can provide earlier warning of emerging risks.
 cover_image: /assets/images/uploads/ej-yao-d46mxlsqrjw-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2026"
 ---
 Loss of attention when operating vehicles and heavy machinery can have serious consequences in manufacturing, construction, and logistics. Current safety systems typically rely on visible indicators such as facial expression or posture, or intervene once potentially unsafe behaviour is already apparent.
 

@@ -1,0 +1,29 @@
+{% comment %}
+  Project card grid. Sprint projects are grouped by sprint_cohort (newest year
+  first). Other categories stay a single A–Z grid.
+{% endcomment %}
+{% assign category_name = include.category_name %}
+{% assign filtered_projects = site.projects | where: 'project_categories', category_name %}
+
+{% if category_name == 'Sprints' %}
+    {% assign grouped = filtered_projects | group_by: 'sprint_cohort' %}
+    {% assign grouped_sorted = grouped | sort: 'name' | reverse %}
+    {% for cohort in grouped_sorted %}
+        {% if cohort.name != blank %}
+        <h3 class="cohort-heading">{{ cohort.name }} cohort</h3>
+        {% endif %}
+        <div class="row projects-container">
+            {% assign sorted_projects = cohort.items | sort: 'title' %}
+            {% for project in sorted_projects %}
+                {% include project-card.html project=project %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% else %}
+    <div class="row projects-container">
+        {% assign sorted_projects = filtered_projects | sort: 'title' %}
+        {% for project in sorted_projects %}
+            {% include project-card.html project=project %}
+        {% endfor %}
+    </div>
+{% endif %}

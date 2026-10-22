@@ -5,6 +5,7 @@ project_date: ""
 description: " "
 cover_image: /assets/images/uploads/language-learning.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: Mirjana Bozic
     photo: /assets/images/uploads/mirjana-bozic-1-.png

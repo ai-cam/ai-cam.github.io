@@ -5,6 +5,7 @@ description: "When ancient and medieval books break apart, individual leaves and
   world. The platform will help scholars identify possible matches. "
 cover_image: /assets/images/uploads/tanner-mardis-xuxghzhibn4-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2026"
 ---
 When ancient and medieval books break apart, individual leaves and fragments can become scattered between libraries and collections around the world. Reconstructing these manuscripts requires researchers to identify fragments that once belonged together—a process that can involve comparing very large numbers of images by hand.
 

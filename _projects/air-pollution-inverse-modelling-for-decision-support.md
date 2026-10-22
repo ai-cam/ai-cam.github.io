@@ -6,6 +6,7 @@ description: "Understanding how changes to transport and the built environment
   prototype for Cambridge. "
 cover_image: /assets/images/uploads/lasma-artmane-4jypytedya0-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2026"
 ---
 Understanding how changes to transport and the built environment affect air quality is difficult. Air-quality sensors are unevenly distributed, and changes in measurements can reflect weather and other factors as well as the effects of a particular intervention. This makes it hard for local decision-makers to assess what a proposed policy is likely to mean for air pollution at street level.
 

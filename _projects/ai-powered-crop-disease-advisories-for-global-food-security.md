@@ -4,6 +4,7 @@ title: AI-Powered Crop Disease Advisories for Global Food Security
 description: " "
 cover_image: /assets/images/uploads/crop-2026.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: "Jacob Smith "
     role: Department of Plant Sciences
