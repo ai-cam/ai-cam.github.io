@@ -1,9 +1,6 @@
 ---
 title: Air Pollution Inverse Modelling for Decision Support
-description: "Understanding how changes to transport and the built environment
-  affect air quality is difficult. Working with the Greater Cambridge
-  Partnership, this project will develop a street-level air-quality mapping
-  prototype for Cambridge. "
+description: " "
 cover_image: /assets/images/uploads/lasma-artmane-4jypytedya0-unsplash.jpg
 project_categories: Sprints
 sprint_cohort: "2026"
