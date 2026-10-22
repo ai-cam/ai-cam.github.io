@@ -5,6 +5,7 @@ project_date: ""
 description: " "
 cover_image: /assets/images/uploads/getty-images-pmrcsuil9aw-unsplash-1-.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: Dr Hristo Dimitrov
     photo: /assets/images/uploads/hristo-dimitrov.jpg

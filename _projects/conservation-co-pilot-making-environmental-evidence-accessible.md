@@ -4,6 +4,7 @@ project_date: ""
 description: "  "
 cover_image: /assets/images/uploads/abhi-verma-2eq1skodnx0-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: Sam Reynolds
     role: Department of Zoology – Project Lead

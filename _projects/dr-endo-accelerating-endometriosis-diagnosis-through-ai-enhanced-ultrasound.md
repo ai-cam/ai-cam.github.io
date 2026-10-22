@@ -5,6 +5,7 @@ project_date: ""
 description: " "
 cover_image: /assets/images/uploads/getty-images-2xaihanksou-unsplash-1-.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: Staci Weiss
     photo: /assets/images/uploads/staci-weiss-.jpg

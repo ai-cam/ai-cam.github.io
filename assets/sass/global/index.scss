@@ -6952,6 +6952,21 @@
         }
     }
 
+    .cohort-heading {
+        font-size: 28px;
+        font-weight: 700;
+        color: var(--primary-color);
+        margin: 0 0 24px;
+
+        @include max992 {
+            font-size: 22px;
+        }
+    }
+
+    .projects-container + .cohort-heading {
+        margin-top: 48px;
+    }
+
     .list {
         display: flex;
         align-items: center;

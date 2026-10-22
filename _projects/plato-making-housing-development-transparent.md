@@ -5,6 +5,7 @@ project_date: ""
 description: " "
 cover_image: /assets/images/uploads/trayan-xioyjsvez8c-unsplash-1-.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - photo: /assets/images/uploads/jerry-chen-resized.jpg
     name: Dr Jerry Chen

@@ -4,6 +4,7 @@ project_date: ""
 description: " "
 cover_image: /assets/images/uploads/getty-images-dgpuibfyhbc-unsplash.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - name: Gita Khalili Moghaddam
     photo: /assets/images/uploads/gita-khalili-moghaddam.jpeg

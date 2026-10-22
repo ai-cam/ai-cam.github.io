@@ -1,0 +1,17 @@
+<div class="col-lg-4 d-flex" data-project-id="{{ include.project.slug }}">
+    <div class="item flex-fill">
+        {% if include.project.cover_image %}
+        <a href="{{ include.project.url }}">
+            <img src="{{ include.project.cover_image | relative_url }}" class="main-img" alt="{{ include.project.title }}">
+        </a>
+        {% endif %}
+
+        <div class="text">
+            {% if include.project.title %}
+            <a href="{{ include.project.url }}"><h3>{{ include.project.title }}</h3></a>
+            {% endif %}
+
+            <a href="{{ include.project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
+        </div>
+    </div>
+</div>

@@ -204,6 +204,12 @@ collections:
         valueField: "name"
         multiple: false
         required: false
+      - label: "Sprint Cohort"
+        name: "sprint_cohort"
+        widget: "select"
+        required: false
+        options: ["2025", "2026"]
+        hint: "Year of the AI-deas Sprint Programme. Leave blank for Challenges and other programmes. Add a new year here when the next cohort is created."
       - label: "Videos"
         name: "videos"
         widget: "list"

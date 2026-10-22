@@ -4,6 +4,7 @@ title: Automating Data Analysis with Large Language Model Agents
 description: " "
 cover_image: /assets/images/uploads/boris-bolliet-blogpost-photo2026.jpg
 project_categories: Sprints
+sprint_cohort: "2025"
 authors:
   - photo: /assets/images/uploads/boris-bolliet-official.jpg
     name: Boris Bolliet
