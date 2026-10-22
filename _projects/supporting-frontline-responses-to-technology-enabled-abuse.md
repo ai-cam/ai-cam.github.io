@@ -1,11 +1,6 @@
 ---
 title: Supporting frontline responses to technology-enabled abuse
-description: Digital technologies can give perpetrators of intimate partner
-  abuse new ways to monitor, locate, and contact survivors, including through
-  smartphones, cloud accounts, location sharing, and smart-home systems.
-  Frontline domestic abuse workers increasingly need to consider these risks
-  when helping survivors plan for their safety, but often lack access to
-  specialist technical knowledge.
+description: " "
 cover_image: /assets/images/uploads/priscilla-du-preez-f9dfujos9eu-unsplash.jpg
 project_categories: Sprints
 sprint_cohort: "2026"
