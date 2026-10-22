@@ -5,6 +5,7 @@ description: >-
 
   Loss of attention when operating vehicles and heavy machinery can have serious consequences in manufacturing, construction, and logistics. Second Ahead will explore whether changes in an operator’s physiological state can provide earlier warning of emerging risks.
 cover_image: /assets/images/uploads/ej-yao-d46mxlsqrjw-unsplash.jpg
+project_categories: Sprints
 ---
 Loss of attention when operating vehicles and heavy machinery can have serious consequences in manufacturing, construction, and logistics. Current safety systems typically rely on visible indicators such as facial expression or posture, or intervene once potentially unsafe behaviour is already apparent.
 
