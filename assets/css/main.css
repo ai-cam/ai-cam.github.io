@@ -3806,6 +3806,27 @@ form:invalid button[type=submit] {
   bottom: -16px;
   left: 0;
 }
+.ai-in-the-university-list .programme-group {
+  margin-bottom: 40px;
+}
+.ai-in-the-university-list .programme-group:last-child {
+  margin-bottom: 0;
+}
+.ai-in-the-university-list .programme-heading {
+  margin-bottom: 24px;
+  max-width: 760px;
+}
+.ai-in-the-university-list .programme-heading h2 {
+  color: var(--primary-color);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.ai-in-the-university-list .programme-heading p {
+  color: var(--primary-color);
+  opacity: 0.7;
+  margin-bottom: 0;
+}
 .ai-in-the-university-list .col-lg-6 {
   margin-bottom: 24px;
 }
