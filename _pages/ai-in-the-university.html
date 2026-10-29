@@ -1,16 +1,26 @@
 ---
 layout: default
 title: AI in the University
-page_description: Deploying AI to improve the effectiveness of University operations.
+page_description: Using AI to improve how the University works, teaches and learns.
 permalink: /ai-in-the-university/
 hero:
-  hero_title: Deploying AI to improve the effectiveness of University operations.
-  hero_text: AI offers new ways to support universities to deliver high-quality
-    research and student experiences. AI for University Operations is ai@cam's
-    programme to pioneer the integration of AI into operational workflows,
-    supporting professional services teams to explore innovative applications of
-    AI, share learning across the professional services staff community, and
-    shape more responsive and efficient systems for the future.
+  hero_title: Using AI to improve how the University works, teaches and learns.
+  hero_text: >-
+    AI offers new ways to support universities to deliver high-quality research
+    and student experiences. ai@cam runs two programmes that help staff explore
+    what this means in practice.
+
+
+    **AI for University Operations** pioneers the integration of AI into
+    operational workflows, supporting professional services teams to explore
+    innovative applications of AI, share learning across the professional
+    services staff community, and shape more responsive and efficient systems
+    for the future.
+
+
+    **AI for Teaching and Learning** backs educators to develop and test new
+    approaches to excellent education in a world with AI, through practical
+    projects in their own courses, supervisions and teaching practice.
 blog_posts:
   - "Answers at your fingertips: Using AI to streamline research grants
     administration"
@@ -23,10 +33,26 @@ blog_posts:
   - The Future of Marking? Investigating AI’s Potential in Student Assessment
   - "From ideas to impact: Early lessons from our AI for Operations programme"
 news_posts:
+  - Six Cambridge projects to explore how AI is changing teaching and learning
   - Cambridge educators invited to shape the future of teaching and learning
     with AI
   - Eight teams awarded funding to pioneer AI in University operations
   - New funding call to support AI innovation in University operations
+teaching_projects_heading: AI for Teaching and Learning
+teaching_projects_text: Six-month projects in which Cambridge educators develop
+  and test new approaches to teaching and learning in a world with AI.
+teaching_projects:
+  - Cambridge-owned hardware and software for AI-augmented supervisions
+  - Developing independent genomic judgement with AI
+  - Evaluating the Feasibility and Efficacy of an AI-Mediated Socratic Coach for
+    Developing Student Scientific Literacy
+  - How AI Affects Creativity in Architecture and Design
+  - If AI writes the code, what should we assess? Behaviour-based iterative
+    assessment in a live course
+  - "Seeing How We Think: Mock Law Supervisions in an Age of AI"
+projects_heading: AI for University Operations
+projects_text: Professional services teams exploring how AI can make University
+  operations more responsive and efficient.
 projects:
   - AI-assisted Regulatory Compliance Technical File Generator for software as a
     medical device
@@ -53,7 +79,7 @@ projects:
     <div class="container">
         <div class="title">
             {% if page.title %}<h1>{{ page.title }}</h1>{% else %}<h1>AI in the University</h1>{% endif %}
-            {% if page.page_description %}<p>{{ page.page_description }}</p>{% else %}<p>Deploying AI to improve the effectiveness of University operations.</p>{% endif %}
+            {% if page.page_description %}<p>{{ page.page_description }}</p>{% else %}<p>Using AI to improve how the University works, teaches and learns.</p>{% endif %}
         </div>
 
         <div class="row">
@@ -89,44 +115,40 @@ projects:
         <div class="tab-content">
             <!-- Projects Tab -->
             <div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-                <div class="row">
-                    {% assign projects = page.projects | default: page.data.projects %}
-                    {% if projects and projects.size > 0 %}
+
+                <!-- AI for Teaching and Learning projects -->
+                {% assign teaching_projects = page.teaching_projects | default: page.data.teaching_projects %}
+                {% if teaching_projects and teaching_projects.size > 0 %}
+                <div class="programme-group">
+                    <div class="programme-heading">
+                        <h2>{{ page.teaching_projects_heading | default: "AI for Teaching and Learning" }}</h2>
+                        {% if page.teaching_projects_text %}<p>{{ page.teaching_projects_text }}</p>{% endif %}
+                    </div>
+                    <div class="row">
+                        {% for project_title in teaching_projects %}
+                            {% assign project = site.projects | where: "title", project_title | first %}
+                            {% if project %}{% include university-project-card.html project=project %}{% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- AI for University Operations projects -->
+                {% assign projects = page.projects | default: page.data.projects %}
+                {% if projects and projects.size > 0 %}
+                <div class="programme-group">
+                    <div class="programme-heading">
+                        <h2>{{ page.projects_heading | default: "AI for University Operations" }}</h2>
+                        {% if page.projects_text %}<p>{{ page.projects_text }}</p>{% endif %}
+                    </div>
+                    <div class="row">
                         {% for project_title in projects %}
                             {% assign project = site.projects | where: "title", project_title | first %}
-                            {% if project %}
-                            <div class="col-lg-4 d-flex">
-                                <div class="item flex-fill">
-                                    <div class="shapes">
-                                        <div class="light-img">
-                                            {% include icons/events-item-shape-light.svg %}
-                                        </div>
-                                        <div class="dark-img">
-                                            {% include icons/events-item-shape-dark.svg %}
-                                        </div>
-                                    </div>
-
-                                    <a href="{{ project.url }}" class="picture">
-                                        <span class="category">Project</span>
-                                        {% if project.cover_image %}
-                                        <img src="{{ project.cover_image | relative_url }}" alt="{{ project.title }}" class="main-img">
-                                        {% endif %}
-                                    </a>
-
-                                    <div class="text">
-                                        <div class="top-title">
-                                            <a href="{{ project.url }}"><h3>{{ project.title }}</h3></a>
-                                            <a href="{{ project.url }}" class="button"><img src="{{ '/assets/images/icons/arrow-right-up-black.svg' | relative_url }}" alt=""></a>
-                                        </div>
-
-                                        {% if project.project_date %}<p>{{ project.project_date | date: "%-d %B %Y" }}</p>{% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                            {% endif %}
+                            {% if project %}{% include university-project-card.html project=project %}{% endif %}
                         {% endfor %}
-                    {% endif %}
+                    </div>
                 </div>
+                {% endif %}
             </div>
 
             <!-- Blogs Tab -->
