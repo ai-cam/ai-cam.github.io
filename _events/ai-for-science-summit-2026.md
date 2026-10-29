@@ -1,7 +1,7 @@
 ---
 title: AI for Science Summit 2026
 excerpt: " "
-cover_image: /assets/images/uploads/accelerate-summit-2026.png
+cover_image: /assets/images/uploads/blogpost-photo-collage-2-1-.jpg
 event_categories: Upcoming Events
 event_content: >-
   **[Registration is now
