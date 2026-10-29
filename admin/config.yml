@@ -821,6 +821,20 @@ collections:
             options_length: 300
             multiple: true
             required: false
+          - { label: "Operations Projects Heading", name: "projects_heading", widget: "string", required: false, default: "AI for University Operations" }
+          - { label: "Operations Projects Intro", name: "projects_text", widget: "text", required: false }
+          - { label: "Teaching and Learning Projects Heading", name: "teaching_projects_heading", widget: "string", required: false, default: "AI for Teaching and Learning" }
+          - { label: "Teaching and Learning Projects Intro", name: "teaching_projects_text", widget: "text", required: false }
+          - label: "Teaching and Learning Projects"
+            name: "teaching_projects"
+            widget: "relation"
+            collection: "projects"
+            displayFields: ["title"]
+            searchFields: ["title"]
+            valueField: "title"
+            options_length: 300
+            multiple: true
+            required: false
           - label: "News Posts"
             name: "news_posts"
             widget: "relation"
