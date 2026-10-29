@@ -92,4 +92,4 @@ Over the coming six months, the funded teams will work with students and teachin
 
 The projects will share their findings, practical resources and lessons learned with the wider Cambridge community, helping inform future decisions about AI in teaching and learning.
 
-Find out more: <https://www.ai.cam.ac.uk/calls/ai-for-teaching/>
+Find out more: [https://www.ai.cam.ac.uk/ai-in-the-university/ ](https://www.ai.cam.ac.uk/ai-in-the-university/)
