@@ -3282,6 +3282,31 @@
             }
         }
     }
+        .programme-group {
+        margin-bottom: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .programme-heading {
+        margin-bottom: 24px;
+        max-width: 760px;
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: var(--primary-color);
+            opacity: .7;
+            margin-bottom: 0;
+        }
+    }
 
     .col-lg-6 {
         margin-bottom: 24px;
