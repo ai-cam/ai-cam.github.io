@@ -5,7 +5,10 @@ excerpt: How should we approach the opportunities and challenges of AI in
 cover_image: /assets/images/uploads/20241106_staff-members-at-the-old-cavendish_0222.jpg
 event_categories: Upcoming Events
 event_content: >-
-  **Tuesday 2 February 2027 | 09:00–12:00**
+  **Date:** Tuesday 2 February 2027
+
+
+  **Time:** 09:00–12:00
 
 
   **Location:** University of Cambridge – venue to follow
