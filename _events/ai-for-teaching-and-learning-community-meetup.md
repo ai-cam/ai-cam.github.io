@@ -11,7 +11,7 @@ event_content: >-
   **Time:** 09:00–12:00
 
 
-  **Location:** University of Cambridge – venue to follow
+  **Location:** Pitt Building, Cambridge
 
 
   **How should we approach the opportunities and challenges of AI in teaching and learning at Cambridge?**
@@ -32,7 +32,12 @@ event_content: >-
   **Registration**
 
 
-  Further details, including the venue and registration arrangements, will be announced shortly. In the meantime, if you would like to register your interest in hearing more about the event, please contact ai@cam (contact@ai.cam.ac.uk)
-registration_text: Registration information will follow soon.
+  To register, please complete the registration form at: [https://forms.gle/UfUhJ4gh3AmdCZNe6 ](https://forms.gle/UfUhJ4gh3AmdCZNe6)
+
+
+  You can access the form if you are logged in to your Cambridge account. If you have any issues, please contact ai@cam (contact@ai.cam.ac.uk)
+registration_title: Registration is open
+registration_text: Please visit <https://forms.gle/UfUhJ4gh3AmdCZNe6> to
+  register. This event is open to staff at the University of Cambridge.
 event_date: 2027-02-02
 ---
