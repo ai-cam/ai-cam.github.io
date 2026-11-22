@@ -5,6 +5,10 @@ excerpt: How are research institutions turning advances in AI into scientific
   science policy?
 report_date: 2026-11-23
 cover_image: /assets/images/uploads/20241106_students-at-pathology-research-lab_0260.jpg
+pdf: assets/images/uploads/From access to adoption case studies of AI adoption in science institutions.pdf
+links:
+  - link: assets/images/uploads/From access to adoption case studies of AI adoption in science institutions.pdf
+    link_text: Download full report
 abstract: >-
   The UK starts from a strong position in AI for science, with world-leading
   scientific institutions, facilities, and datasets alongside substantial AI
