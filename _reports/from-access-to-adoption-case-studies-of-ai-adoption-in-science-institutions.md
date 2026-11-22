@@ -5,16 +5,20 @@ excerpt: How are research institutions turning advances in AI into scientific
   science policy?
 report_date: 2026-11-23
 cover_image: /assets/images/uploads/20241106_students-at-pathology-research-lab_0260.jpg
-pdf: assets/images/uploads/From access to adoption case studies of AI adoption in science institutions.pdf
-links:
-  - link: assets/images/uploads/From access to adoption case studies of AI adoption in science institutions.pdf
-    link_text: Download full report
 abstract: >-
   The UK starts from a strong position in AI for science, with world-leading
   scientific institutions, facilities, and datasets alongside substantial AI
   research capability and public
 
   investment in compute infrastructure. Policy interventions to date have largely focused on strengthening these inputs. Their scientific value will also depend on how effectively new capabilities diffuse into research practice. This brief examines ten initiatives that are approaching this challenge in different ways. Across them, adoption relies on institutional capabilities that receive less attention in the AI for science policy debate: engineering and data stewardship; routes for researchers to experiment with new tools; mechanisms for testing and assurance; communities through which expertise spreads; and support for successful experiments to become sustained services and infrastructure.
+links:
+  - link: https://www.ai.cam.ac.uk/assets/images/uploads/From%20access%20to%20adoption%20case%20studies%20of%20AI%20adoption%20in%20science%20institutions.pdf
+    link_text: Read the report here
+authors:
+  - author_team: Jess Montgomery
+    author_people: ""
+  - author_team: Diane Coyle
+  - author_team: Neil Lawrence
 citation_fields:
   publisher: University of Cambridge
 ---
@@ -30,7 +34,7 @@ The report argues that AI adoption is a source of innovation. As researchers app
 
 These findings raise important questions for policymakers, funders, and research institutions about how to organise investment, sustain essential expertise and infrastructure, and ensure that the UK's scientific strengths contribute to the future development of AI.
 
-**Download the report: From access to adoption: Case studies of AI adoption in science institutions (PDF)**
+**[Download the report: From access to adoption: Case studies of AI adoption in science institutions (PDF)](https://www.ai.cam.ac.uk/assets/images/uploads/From%20access%20to%20adoption%20case%20studies%20of%20AI%20adoption%20in%20science%20institutions.pdf)**
 
 *Published 23 November 2026* 
 
