@@ -4,7 +4,7 @@ excerpt: A new report from ai@cam and the Bennett School of Public Policy at the
   University of Cambridge examines how ten initiatives around the world are
   tackling the practical challenges of AI adoption in science.
 cover_image: /assets/images/uploads/20260423_group_meeting_maxwell_centre_landscape_print-51-.jpg.jpeg
-date: 2026-11-23
+date: 2026-11-22
 tags:
   - tag: Policy Lab
 ---
