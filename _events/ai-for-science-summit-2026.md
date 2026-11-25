@@ -2,7 +2,7 @@
 title: AI for Science Summit 2026
 excerpt: " "
 cover_image: /assets/images/uploads/blogpost-photo-collage-2-1-.jpg
-event_categories: Upcoming Events
+event_categories: Past Events
 event_content: >-
   **[Registration is now
   open](https://forms.cloud.microsoft/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UNjA1Rks2N1YySlVKNk1JVDA2QVNRSUYwUy4u&route=shorturl)** for
